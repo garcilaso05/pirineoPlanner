@@ -10,6 +10,8 @@ Ejecutar (los navegadores no permiten `fetch` desde `file://`):
 
 ## Notas de despliegue (GitHub Pages)
 - Los picos y lagos se cargan desde `picos/` y `lagos/` mediante KML estáticos.
+- Esos KML grandes no se cargan al iniciar: al alcanzar zoom 11 aparece un botón
+    para cargar los puntos visibles más un margen del 25% alrededor del mapa.
 - La aplicación puede exportar una excursión como ZIP con `excursion.json`, KML importados y fotos.
 - El ZIP se puede importar de nuevo, editar y volver a exportar con metadatos nuevos.
 - En GitHub Pages no hay listado de directorios: añade cada KML a `manifest.json`.

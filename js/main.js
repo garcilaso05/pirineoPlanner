@@ -1,10 +1,12 @@
-import { map, setMode, mode, addRoute, addRefuges, addPois, customPois, loadCustom, fitAll } from './map.js';
+import { map, setMode, mode, addRoute, addRefuges, addPois, customPois, loadCustom, fitAll, canLoadPois, poiBounds } from './map.js';
 import { load, changed, addDay, clearAll, toGPX, metadata, setMetadata, addPhoto, snapshot, restore } from './itinerary.js';
 import { parseKML } from './kml.js';
 import { $, toast } from './ui.js';
 
 const resources = new Map();
 const seasons = ['Primavera', 'Verano', 'Otoño', 'Invierno'];
+const deferredPoiUrls = [];
+const poiCache = new Map();
 
 // Lista los KML de una carpeta: manifest.json + índice de directorio (si el servidor lo expone)
 async function listKml(dir) {
@@ -34,6 +36,32 @@ async function loadUrl(url, kind = 'custom') {
   if (!r.ok) throw new Error(`${url} (${r.status})`);
   const text = await r.text();
   return ingest(parseKML(text, url.split('/').pop()), kind, kind === 'custom' ? { name: url.split('/').pop(), text } : null);
+}
+
+async function loadVisiblePois() {
+  if (!canLoadPois()) return toast('Acércate más para cargar picos y lagos (zoom 11 o superior).');
+  const bounds = poiBounds();
+  const jobs = deferredPoiUrls.map(async ({ url, kind }) => {
+    let points = poiCache.get(url);
+    if (!points) {
+      const r = await fetch(url);
+      if (!r.ok) throw new Error(`${url} (${r.status})`);
+      const kml = parseKML(await r.text(), url.split('/').pop());
+      points = kml.points.map((p, i) => ({ ...p, type: kind, key: `static:${kind}:${url}:${i}` }));
+      poiCache.set(url, points);
+    }
+    return points.filter((p) => bounds.contains([p.lat, p.lng]));
+  });
+  const results = await Promise.allSettled(jobs);
+  const points = results.filter((r) => r.status === 'fulfilled').flatMap((r) => r.value);
+  const errors = results.filter((r) => r.status === 'rejected').map((r) => r.reason.message);
+  const added = addPois(points, 'osm');
+  toast(`${added} picos y lagos cargados en esta zona${errors.length ? ` · ${errors.join(', ')}` : ''}`, 5000);
+}
+
+function updatePoiButton() {
+  const button = $('#btn-load-pois');
+  button.hidden = !deferredPoiUrls.length || !canLoadPois();
 }
 
 async function editMetadata() {
@@ -90,6 +118,13 @@ async function importPackage(file) {
 }
 
 document.querySelectorAll('[data-mode]').forEach((b) => { b.onclick = () => setMode(mode.cur === b.dataset.mode ? 'none' : b.dataset.mode); });
+$('#btn-load-pois').onclick = async () => {
+  const button = $('#btn-load-pois');
+  button.disabled = true;
+  try { await loadVisiblePois(); } catch (e) { toast(`No se pudieron cargar los puntos: ${e.message}`); }
+  button.disabled = false;
+};
+map.on('zoomend moveend', updatePoiButton);
 $('#add-day').onclick = addDay;
 $('#btn-meta').onclick = editMetadata;
 $('#btn-package').onclick = exportPackage;
@@ -120,9 +155,13 @@ document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setMode('n
   toast('Cargando refugios y caminos…', 15000);
   const groups = [['refugios', 'custom'], ['caminos', 'custom'], ['picos', 'peak'], ['lagos', 'lake']];
   const files = (await Promise.all(groups.map(async ([dir, kind]) => (await listKml(dir)).map((url) => ({ url, kind }))))).flat();
-  const res = await Promise.allSettled(files.map(({ url, kind }) => loadUrl(url, kind)));
+  const deferred = files.filter(({ kind }) => kind === 'peak' || kind === 'lake');
+  deferredPoiUrls.push(...deferred);
+  const initial = files.filter(({ kind }) => kind !== 'peak' && kind !== 'lake');
+  const res = await Promise.allSettled(initial.map(({ url, kind }) => loadUrl(url, kind)));
+  updatePoiButton();
   const bad = res.filter((r) => r.status === 'rejected');
   fitAll();
   toast(!files.length ? 'No se encontraron KML en refugios/ ni caminos/. Revisa manifest.json y sirve la web con un servidor.'
-    : bad.length ? `Cargados ${res.length - bad.length}/${res.length} archivos. Error: ${bad[0].reason.message}` : `Datos cargados (${files.length} archivos KML).`, 5000);
+    : bad.length ? `Cargados ${res.length - bad.length}/${res.length} archivos. Error: ${bad[0].reason.message}` : `Datos cargados (${initial.length} archivos). Acércate y pulsa el botón para cargar picos y lagos.`, 5000);
 })();

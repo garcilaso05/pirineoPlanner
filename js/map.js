@@ -15,6 +15,9 @@ L.control.layers(base, {
 }, { collapsed: true }).addTo(map);
 L.control.scale({ imperial: false }).addTo(map);
 
+export function canLoadPois() { return map.getZoom() >= 11; }
+export function poiBounds() { return map.getBounds().pad(0.25); }
+
 /* ---------- Modos de interacción ---------- */
 export const mode = { cur: 'none', frag: null };
 const PLACING = ['origin', 'newpeak', 'newlake'];
