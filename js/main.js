@@ -1,7 +1,7 @@
-import { map, setMode, mode, addRoute, addRefuges, addPois, customPois, loadCustom, fitAll, canLoadPois, poiBounds } from './map.js';
+import { map, setMode, mode, addRoute, addRefuges, addPois, customPois, customRoutes, restoreRoutes, loadCustom, fitAll, canLoadPois, poiBounds, finishDrawRoute, clearLoadedPois, setViewerMode } from './map.js';
 import { load, changed, addDay, clearAll, toGPX, metadata, setMetadata, addPhoto, snapshot, restore } from './itinerary.js';
 import { parseKML } from './kml.js';
-import { $, toast } from './ui.js';
+import { $, toast, askForm } from './ui.js';
 
 const resources = new Map();
 const seasons = ['Primavera', 'Verano', 'Otoño', 'Invierno'];
@@ -88,9 +88,11 @@ async function exportPackage() {
   const zip = new JSZip();
   const data = snapshot();
   data.customPois = customPois();
-  data.state.days.forEach((d, di) => [...(d.photos || []), ...d.items.flatMap((i) => (i.photos || []).map((p) => ({ ...p, owner: i.id })))].forEach((p, pi) => {
+  data.routes = customRoutes();
+  let photoIndex = 0;
+  data.state.days.forEach((d, di) => [...(d.photos || []), ...d.items.flatMap((i) => i.photos || [])].forEach((p) => {
     if (p.data?.includes(',')) {
-      p.file = `fotos/dia-${di + 1}-${pi}-${(p.name || 'foto').replace(/[^\w.-]+/g, '_')}`;
+      p.file = `fotos/dia-${di + 1}-${photoIndex++}-${(p.name || 'foto').replace(/[^\w.-]+/g, '_')}`;
       zip.file(p.file, p.data.split(',')[1], { base64: true });
     }
   }));
@@ -103,6 +105,8 @@ async function importPackage(file) {
   if (file.name.toLowerCase().endsWith('.json')) return restore(JSON.parse(await file.text()));
   const zip = await JSZip.loadAsync(file);
   const data = JSON.parse(await zip.file('excursion.json').async('text'));
+  const choice = await askForm('Abrir excursión', [{ name: 'mode', label: 'Modo de apertura', type: 'select', value: 'editor', options: ['editor', 'visualizador'] }]);
+  if (!choice) return;
   for (const entry of Object.values(zip.files).filter((f) => f.name.startsWith('kml/') && !f.dir)) {
     const text = await entry.async('text');
     ingest(parseKML(text, entry.name), 'custom', { name: entry.name.slice(4), text });
@@ -113,11 +117,20 @@ async function importPackage(file) {
     if (matching) matching.data = `data:${matching.type || 'image/jpeg'};base64,${await entry.async('base64')}`;
   }
   addPois(data.customPois || [], 'custom');
+  restoreRoutes(data.routes || []);
   restore(data);
+  setViewerMode(choice.mode === 'visualizador');
   toast('Excursión importada. Puedes modificarla y volver a exportarla.');
 }
 
 document.querySelectorAll('[data-mode]').forEach((b) => { b.onclick = () => setMode(mode.cur === b.dataset.mode ? 'none' : b.dataset.mode); });
+$('#btn-finish-route').onclick = finishDrawRoute;
+document.querySelectorAll('[data-mode]').forEach((button) => button.addEventListener('click', () => {
+  setTimeout(() => { $('#btn-finish-route').hidden = mode.cur !== 'newroute'; }, 0);
+}));
+$('#btn-clear-pois').onclick = () => toast(`${clearLoadedPois()} picos y lagos cargados eliminados.`, 3500);
+$('#btn-viewer').onclick = () => setViewerMode(true);
+$('#viewer-toggle').onclick = () => setViewerMode(false);
 $('#btn-load-pois').onclick = async () => {
   const button = $('#btn-load-pois');
   button.disabled = true;
@@ -130,6 +143,22 @@ $('#btn-meta').onclick = editMetadata;
 $('#btn-package').onclick = exportPackage;
 $('#btn-open-package').onclick = () => $('#package-file').click();
 $('#package-file').onchange = async (e) => { try { await importPackage(e.target.files[0]); } catch (err) { toast(`No se pudo importar: ${err.message}`); } e.target.value = ''; };
+async function searchPlace() {
+  const query = $('#place-search').value.trim();
+  if (!query) return;
+  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=5&countrycodes=es,fr&bounded=1&viewbox=-5.5,43.95,7.6,41&accept-language=es&q=${encodeURIComponent(query)}`;
+  try {
+    const results = await (await fetch(url)).json();
+    if (!results.length) return toast('No se encontró ese lugar.');
+    const options = results.map((r) => `${r.place_id} · ${r.display_name}`);
+    const chosen = await askForm('Selecciona un resultado', [{ name: 'place', label: 'Lugar', type: 'select', value: options[0], options }]);
+    if (!chosen) return;
+    const selected = results.find((r) => `${r.place_id} · ${r.display_name}` === chosen.place);
+    if (selected) map.flyTo([+selected.lat, +selected.lon], Math.max(map.getZoom(), 12));
+  } catch (error) { toast(`No se pudo buscar: ${error.message}`); }
+}
+$('#btn-place-search').onclick = searchPlace;
+$('#place-search').onkeydown = (event) => { if (event.key === 'Enter') searchPlace(); };
 let photoTarget = null;
 document.addEventListener('photo-target', (e) => { photoTarget = e.detail; $('#photo-file').click(); });
 $('#photo-file').onchange = async (e) => { for (const file of e.target.files) addPhoto(photoTarget, await readAsDataUrl(file)); e.target.value = ''; };
@@ -148,7 +177,7 @@ $('#btn-gpx').onclick = () => {
 };
 $('#btn-clear').onclick = () => { if (confirm('¿Vaciar todo el itinerario?')) clearAll(); };
 $('#toggle-panel').onclick = () => { document.body.classList.toggle('collapsed'); setTimeout(() => map.invalidateSize(), 300); };
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setMode('none'); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { setMode('none'); $('#btn-finish-route').hidden = true; } });
 
 (async function boot() {
   load(); changed(); loadCustom();

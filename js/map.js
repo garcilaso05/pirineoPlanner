@@ -3,7 +3,8 @@ import { state, hooks, addItem, setOrigin, dayIndex, km } from './itinerary.js';
 import { el, toast, askForm, $ } from './ui.js';
 
 // Un único renderer canvas (con tolerancia de clic) para que todas las capas vectoriales reciban eventos
-export const map = L.map('map', { renderer: L.canvas({ tolerance: 6 }) }).setView([42.7, 0.5], 8);
+const PYRENEES = L.latLngBounds([41.0, -5.5], [43.95, 7.6]);
+export const map = L.map('map', { renderer: L.canvas({ tolerance: 6 }), maxBounds: PYRENEES, maxBoundsViscosity: 1 }).setView([42.7, 0.5], 8);
 const base = {};
 for (const [n, c] of Object.entries(BASE_LAYERS)) base[n] = L.tileLayer(c.url, c.opt);
 base['OpenStreetMap'].addTo(map);
@@ -17,6 +18,22 @@ L.control.scale({ imperial: false }).addTo(map);
 
 export function canLoadPois() { return map.getZoom() >= 11; }
 export function poiBounds() { return map.getBounds().pad(0.25); }
+export function clearLoadedPois() {
+  let count = 0;
+  ['peak', 'lake'].forEach((type) => G[type].getLayers().slice().forEach((marker) => {
+    const point = [...poiIndex.values()].find((p) => p.marker === marker);
+    if (point?.src !== 'custom') { G[type].removeLayer(marker); poiIndex.delete(point.key); count++; }
+  }));
+  return count;
+}
+
+let viewerMode = false;
+export function setViewerMode(on) {
+  viewerMode = on;
+  document.body.classList.toggle('viewer-mode', on);
+  ['routes', 'refuge', 'peak', 'lake'].forEach((name) => { if (on) map.removeLayer(G[name]); else map.addLayer(G[name]); });
+  if (on) map.addLayer(G.it); else map.addLayer(G.it);
+}
 
 /* ---------- Modos de interacción ---------- */
 export const mode = { cur: 'none', frag: null };
@@ -26,9 +43,11 @@ const HINTS = {
   newpeak: 'Haz clic en el mapa para crear un pico nuevo. Esc para cancelar.',
   newlake: 'Haz clic en el mapa para crear un lago nuevo. Esc para cancelar.',
   fragment: 'Haz clic en un camino: 1.º el inicio y 2.º el final del fragmento. Esc para salir.',
+  newroute: 'Haz clic para añadir vértices. Pulsa «Terminar camino» cuando acabes.',
 };
 export function setMode(m) {
   mode.cur = m; mode.frag = null;
+  mode.draw = m === 'newroute' ? [] : null;
   G.draft.clearLayers(); map.closePopup();
   map.getContainer().classList.toggle('crosshair', m !== 'none');
   document.querySelectorAll('[data-mode]').forEach((b) => b.classList.toggle('on', b.dataset.mode === m));
@@ -77,8 +96,10 @@ export function addRefuges(points) {
 
 /* ---------- Caminos y selección de fragmentos ---------- */
 let routeCount = 0;
-export function addRoute({ title, segments }) {
-  const route = { title, color: ROUTE_COLORS[routeCount++ % ROUTE_COLORS.length], segments };
+const drawnRoutes = [];
+export function addRoute({ title, segments, drawn = false }) {
+  const route = { title, color: ROUTE_COLORS[routeCount++ % ROUTE_COLORS.length], segments, drawn };
+  if (drawn) drawnRoutes.push({ title, segments: segments.map((segment) => ({ name: segment.name, pts: segment.pts })) });
   for (const seg of segments) {
     seg.km = km([seg.pts]);
     const line = L.polyline(seg.pts, { color: route.color, weight: 4, opacity: 0.85 });
@@ -86,6 +107,18 @@ export function addRoute({ title, segments }) {
     line.on('click', (ev) => onTrackClick(route, seg, ev));
     G.routes.addLayer(line);
   }
+}
+export function customRoutes() { return drawnRoutes.map((route) => ({ title: route.title, segments: route.segments })); }
+export function restoreRoutes(routes) { routes.forEach((route) => addRoute({ ...route, drawn: true })); }
+export async function finishDrawRoute() {
+  if (!mode.draw || mode.draw.length < 2) return toast('Añade al menos dos puntos para crear el camino.');
+  const result = await askForm('Guardar camino propio', [{ name: 'name', label: 'Nombre', value: 'Camino propio', required: true }]);
+  if (!result) return;
+  const pts = mode.draw.map((p) => [p.lat, p.lng]);
+  G.draft.clearLayers();
+  addRoute({ title: result.name.trim(), drawn: true, segments: [{ name: result.name.trim(), pts }] });
+  setMode('none');
+  toast(`«${result.name.trim()}» guardado. Ya puedes añadirlo a un día.`);
 }
 function nearest(pts, ll) {
   const k = Math.cos(ll.lat * Math.PI / 180);
@@ -159,6 +192,13 @@ export function loadCustom() {
 }
 map.on('click', async (e) => {
   const m = mode.cur;
+  if (m === 'newroute') {
+    mode.draw.push(e.latlng);
+    G.draft.clearLayers();
+    L.polyline(mode.draw, { color: '#f2b134', weight: 4, dashArray: '6 5' }).addTo(G.draft);
+    mode.draw.forEach((point) => L.circleMarker(point, { radius: 5, color: '#fff', weight: 2, fillColor: '#f2b134', fillOpacity: 1, interactive: false }).addTo(G.draft));
+    return;
+  }
   if (!PLACING.includes(m)) return;
   const T = { origin: ['Punto de origen', 'origin', 'Origen'], newpeak: ['Nuevo pico', 'peak', ''], newlake: ['Nuevo lago', 'lake', ''] }[m];
   const f = await askForm(T[0], [
@@ -185,8 +225,11 @@ function draw() {
       const e = it.lines ? it.lines.at(-1).at(-1) : s;
       if (prev && map.distance(prev, s) > 50) L.polyline([prev, s], { color: c, weight: 3, dashArray: '6 8', opacity: 0.8, interactive: false }).addTo(G.it);
       if (it.lines) L.polyline(it.lines, { color: c, weight: 6, opacity: 0.95, interactive: false }).addTo(G.it);
+      const photos = it.photos || [];
+      const content = el('div', { class: 'pop' }, el('h4', {}, it.name), el('p', {}, `Día ${di + 1} · ${it.type === 'track' ? `${(it.km || 0).toFixed(1)} km` : TYPES[it.type]?.label || it.type}`));
+      if (photos.length) content.append(el('p', {}, `${photos.length} foto${photos.length === 1 ? '' : 's'}`), ...photos.map((photo) => el('img', { class: 'photo', src: photo.data, alt: photo.name || it.name, loading: 'lazy' })));
       L.marker(s, { icon: L.divIcon({ className: '', html: `<div class="it-pin" style="background:${c}">${i + 1}</div>`, iconSize: [22, 22], iconAnchor: [11, 11] }), zIndexOffset: 500 })
-        .bindTooltip(`Día ${di + 1} · ${it.name}`).addTo(G.it);
+        .bindTooltip(`Día ${di + 1} · ${it.name}`).bindPopup(content).addTo(G.it);
       prev = e;
     });
   });

@@ -16,9 +16,13 @@
   <nav id="tools" aria-label="Herramientas del mapa">
     <button data-mode="origin">🚩 Marcar origen</button>
     <button data-mode="fragment">✂️ Elegir fragmento</button>
+    <button data-mode="newroute">〰 Dibujar camino</button>
     <button data-mode="newpeak">▲ Crear pico</button>
     <button data-mode="newlake">💧 Crear lago</button>
+    <button id="btn-finish-route" class="wide" hidden>✓ Terminar camino</button>
     <button id="btn-load-pois" class="wide" hidden>🏔️ Cargar picos y lagos de esta zona</button>
+    <button id="btn-clear-pois" class="ghost wide">🧹 Limpiar picos y lagos cargados</button>
+    <div class="search row wide"><input id="place-search" placeholder="Buscar ciudad o lugar" aria-label="Buscar ciudad o lugar"><button id="btn-place-search" title="Buscar">⌕</button></div>
   </nav>
   <div class="scroll">
     <div id="days"></div>
@@ -37,6 +41,7 @@
         <button id="btn-meta" class="ghost">📝 Datos</button>
         <button id="btn-package" class="ghost">📦 Exportar</button>
         <button id="btn-open-package" class="ghost">📂 Importar</button>
+        <button id="btn-viewer" class="ghost">👁 Visualizar</button>
         <button id="btn-gpx" class="ghost">⬇ Exportar GPX</button>
         <button id="btn-clear" class="ghost danger">Vaciar</button>
       </div>
@@ -50,6 +55,7 @@
 <button id="toggle-panel" aria-label="Mostrar u ocultar panel">☰</button>
 <div id="toast" role="status"></div>
 <dialog id="dlg"><form id="dlg-form" method="dialog"></form></dialog>
+<button id="viewer-toggle" hidden>Salir del visualizador</button>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.2/Sortable.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>

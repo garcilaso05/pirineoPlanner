@@ -18,6 +18,7 @@ button.primary{background:var(--pri);color:var(--pri-ink);border-color:var(--pri
 button.ghost{background:transparent}
 button.danger{color:var(--danger)}
 button.wide{grid-column:1/-1;width:100%}
+.search{grid-column:1/-1}.search input{min-width:0;flex:1;border:1px solid var(--line);border-radius:8px;padding:8px;background:var(--card);color:var(--ink);font:inherit}.search button{flex:0 0 42px}
 button.icon{border:0;background:transparent;padding:4px 6px;color:var(--mut)}
 .row{display:flex;gap:6px;flex-wrap:wrap}
 .row>*{flex:1}
@@ -45,6 +46,7 @@ a{color:var(--pri)}
 .pin{width:26px;height:26px;font-size:12px}.pin.peak{background:#c0392b}.pin.lake{background:#1c7fb8}.pin.custom{outline:2px dashed var(--gold)}
 .it-pin{width:22px;height:22px;font-size:12px}
 .pop h4{margin:0 0 2px;font-size:15px}.pop p{margin:0 0 6px;color:#556}.pop .row{margin-top:8px}.pop button{color:#17242d;background:#fff}.pop button.primary{color:#fff;background:#16698a}
+.pop .photo{display:block;max-width:220px;max-height:160px;margin:6px 0;border-radius:6px;object-fit:cover}
 #hint{position:fixed;top:12px;left:calc(390px + (100vw - 390px)/2);transform:translateX(-50%);z-index:900;background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:20px;max-width:80vw;text-align:center}
 #toast{position:fixed;bottom:22px;left:calc(390px + (100vw - 390px)/2);transform:translate(-50%,20px);opacity:0;pointer-events:none;z-index:1200;background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;max-width:80vw;transition:.2s}
 #toast.show{opacity:1;transform:translate(-50%,0)}
@@ -55,6 +57,8 @@ dialog label{display:block;margin-bottom:10px;color:var(--mut)}
 dialog input,dialog textarea,dialog select{display:block;width:100%;margin-top:3px;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit}
 dialog textarea{resize:vertical}dialog select[multiple]{min-height:92px}
 #toggle-panel{display:none}
+#viewer-toggle{display:none;position:fixed;top:12px;right:12px;z-index:1200;background:var(--card)}
+body.viewer-mode #panel{display:none}body.viewer-mode #map{height:100dvh}body.viewer-mode #viewer-toggle{display:block}
 @media(max-width:800px){
   body{grid-template-columns:1fr}
   #panel{position:fixed;left:0;right:0;bottom:0;height:56dvh;border-top:1px solid var(--line);border-right:0;border-radius:14px 14px 0 0;box-shadow:0 -4px 16px rgba(0,0,0,.2);transition:transform .25s}

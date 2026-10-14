@@ -1,4 +1,4 @@
-import { el, $, toast } from './ui.js';
+import { el, $, toast, askForm } from './ui.js';
 import { TYPES, DAY_COLORS } from './config.js';
 
 const KEY = 'senda.itinerary.v1';
@@ -41,6 +41,7 @@ export function addItem(item) {
   activeDay().items.push(item);
   changed();
   toast(`«${item.name}» añadido al Día ${dayIndex() + 1}`);
+  return item;
 }
 export function setOrigin(item) {
   state.days.forEach((d) => { d.items = d.items.filter((i) => i.type !== 'origin'); });
@@ -56,6 +57,12 @@ export function addPhoto(target, photo) {
   const bucket = target.type === 'day' ? state.days.find((d) => d.id === target.id) : state.days.flatMap((d) => d.items).find((i) => i.id === target.id);
   if (!bucket) return;
   bucket.photos = [...(bucket.photos || []), photo]; changed();
+}
+export async function renameItem(id) {
+  const item = state.days.flatMap((d) => d.items).find((entry) => entry.id === id);
+  if (!item) return;
+  const result = await askForm('Renombrar elemento', [{ name: 'name', label: 'Nombre', value: item.name, required: true }]);
+  if (result?.name?.trim()) { item.name = result.name.trim(); changed(); }
 }
 export function snapshot() { return { version: 2, metadata: { ...metadata }, state: { days: state.days, active: state.active } }; }
 export function restore(data) {
@@ -87,11 +94,13 @@ function sync() {
 function itemEl(it) {
   const T = TYPES[it.type];
   const meta = it.lines ? `${(it.km ?? km(it.lines)).toFixed(1)} km · camino` : `${T.label}${it.ele ? ` · ${Math.round(it.ele)} m` : ''}`;
+  const photoCount = (it.photos || []).length;
   return el('li', { class: 'it', 'data-id': it.id },
     el('span', { class: 'handle', title: 'Arrastrar para reordenar' }, '⠿'),
     el('span', { class: 'ico', style: `background:${T.color}` }, T.glyph),
     el('div', { class: 'txt', title: 'Ver en el mapa', onclick: () => hooks.locate(it) }, el('b', {}, it.name), el('small', {}, meta)),
-    el('button', { class: 'icon', title: 'Añadir fotos a la etapa', onclick: (e) => { e.stopPropagation(); document.dispatchEvent(new CustomEvent('photo-target', { detail: { type: 'item', id: it.id } })); } }, '📷'),
+    el('button', { class: 'icon', title: 'Añadir fotos a la etapa', onclick: (e) => { e.stopPropagation(); document.dispatchEvent(new CustomEvent('photo-target', { detail: { type: 'item', id: it.id } })); } }, `📷${photoCount ? ` ${photoCount}` : ''}`),
+    el('button', { class: 'icon', title: 'Renombrar', onclick: (e) => { e.stopPropagation(); renameItem(it.id); } }, '✎'),
     el('button', { class: 'icon', title: 'Quitar', onclick: () => remove(it.id) }, '✕'));
 }
 
@@ -103,11 +112,12 @@ export function render() {
     const dk = d.items.reduce((a, it) => a + (it.lines ? (it.km ?? km(it.lines)) : 0), 0);
     totalKm += dk; n += d.items.length;
     const ul = el('ul', { class: 'items' }, d.items.map(itemEl));
+    const photoCount = (d.photos || []).length;
     const card = el('section', { class: 'day' + (d.id === state.active ? ' active' : ''), 'data-day': d.id, style: `--c:${DAY_COLORS[i % DAY_COLORS.length]}` },
       el('header', { title: 'Clic para usar este día como destino', onclick: () => { state.active = d.id; changed(); } },
         el('span', { class: 'day-grip', title: 'Arrastrar día' }, '⋮⋮'), el('b', {}, `Día ${i + 1}`),
         el('span', { class: 'km' }, dk ? `${dk.toFixed(1)} km` : ''),
-        el('button', { class: 'icon', title: 'Añadir fotos al día', onclick: (e) => { e.stopPropagation(); document.dispatchEvent(new CustomEvent('photo-target', { detail: { type: 'day', id: d.id } })); } }, '📷'),
+        el('button', { class: 'icon', title: 'Añadir fotos al día', onclick: (e) => { e.stopPropagation(); document.dispatchEvent(new CustomEvent('photo-target', { detail: { type: 'day', id: d.id } })); } }, `📷${photoCount ? ` ${photoCount}` : ''}`),
         el('button', { class: 'icon', title: 'Eliminar día', onclick: (e) => { e.stopPropagation(); removeDay(d.id); } }, '🗑')),
       ul);
     sortables.push(new Sortable(ul, { group: 'items', handle: '.handle', animation: 150, ghostClass: 'ghost', onEnd: sync }));
