@@ -1,5 +1,5 @@
 // Camptocamp (principal) + Overpass (complemento). Devuelve POIs {key,type,name,lat,lng,ele,src,url}
-import { OVERPASS_MIRRORS } from './config.js';
+import { C2C_PROXY_URL, OVERPASS_MIRRORS } from './config.js';
 
 const meters = (a, b) => Math.hypot((a.lat - b.lat) * 111000, (a.lng - b.lng) * 111000 * Math.cos(a.lat * Math.PI / 180));
 
@@ -9,7 +9,8 @@ async function timed(url, opt = {}, ms = 20000) {
 }
 
 async function c2cJson(url) {
-  const r = await timed(url);
+  const endpoint = C2C_PROXY_URL ? `${C2C_PROXY_URL}${url.slice(url.indexOf('?'))}` : url;
+  const r = await timed(endpoint);
   if (!r.ok) throw new Error(`HTTP ${r.status}`);
   return r.json();
 }
