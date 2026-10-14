@@ -10,8 +10,7 @@ export const DAY_COLORS = ['#e4572e', '#2e86de', '#8e44ad', '#16a085', '#d35400'
 export const ROUTE_COLORS = ['#e67e22', '#d63384', '#0d9488', '#6d28d9', '#a16207'];
 export const REFUGE_COLORS = ['#b45309', '#7c3aed', '#0f766e', '#be185d', '#4d7c0f', '#475569'];
 // URL del Worker de Cloudflare que reenvía las consultas de Camptocamp.
-// Déjala vacía durante el desarrollo local si todavía no se ha desplegado.
-export const C2C_PROXY_URL = '';
+export const C2C_PROXY_URL = 'https://pirineo-planner-c2c.rogergarciadoncel.workers.dev';
 export const TYPES = {
   origin: { label: 'Origen', glyph: '⚑', color: '#16a34a' },
   peak: { label: 'Pico', glyph: '▲', color: '#c0392b' },
