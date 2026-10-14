@@ -9,8 +9,7 @@ Ejecutar (los navegadores no permiten `fetch` desde `file://`):
 - Cada `Placemark` con `LineString`/`MultiGeometry` es un tramo seleccionable; cada `Point` es un refugio.
 
 ## Notas de despliegue (GitHub Pages)
-- La búsqueda de picos y lagos usa OpenStreetMap mediante Overpass.
-- La consulta contempla etiquetas `natural=water`, `water=lake/reservoir/glacial_lake` y nombres como
-    `ibón`, `estany`, `llac`, `lac`, `étang`, `lago` y `laguna`.
-- Overpass rota entre los espejos de `OVERPASS_MIRRORS` si uno da 504.
+- Los picos y lagos se cargan desde `picos/` y `lagos/` mediante KML estáticos.
+- La aplicación puede exportar una excursión como ZIP con `excursion.json`, KML importados y fotos.
+- El ZIP se puede importar de nuevo, editar y volver a exportar con metadatos nuevos.
 - En GitHub Pages no hay listado de directorios: añade cada KML a `manifest.json`.

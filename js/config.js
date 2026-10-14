@@ -17,9 +17,3 @@ export const TYPES = {
   track: { label: 'Camino', glyph: '〰', color: '#6d28d9' },
 };
 
-// Espejos de Overpass: si uno devuelve 504/timeout se prueba el siguiente
-export const OVERPASS_MIRRORS = [
-  'https://overpass-api.de/api/interpreter',
-  'https://overpass.kumi.systems/api/interpreter',
-  'https://overpass.private.coffee/api/interpreter',
-];

@@ -3,6 +3,7 @@ import { TYPES, DAY_COLORS } from './config.js';
 
 const KEY = 'senda.itinerary.v1';
 export const state = { days: [], active: null };
+export const metadata = { title: 'Excursión por el Pirineo', creator: '', seasons: [], elevation: '', time: '', realKm: '', description: '' };
 export const hooks = { change: [], locate: () => {} };
 const uid = () => Math.random().toString(36).slice(2, 9);
 let sortables = [];
@@ -21,13 +22,13 @@ const newDay = () => ({ id: uid(), items: [] });
 export function load() {
   try {
     const s = JSON.parse(localStorage.getItem(KEY));
-    if (s?.days?.length) { state.days = s.days; state.active = s.active || s.days[0].id; return; }
+    if (s?.days?.length) { state.days = s.days; state.active = s.active || s.days[0].id; Object.assign(metadata, s.metadata || {}); return; }
   } catch { /* ignorar */ }
   state.days = [newDay()]; state.active = state.days[0].id;
 }
 let warned = false;
 function save() {
-  try { localStorage.setItem(KEY, JSON.stringify({ days: state.days, active: state.active })); }
+  try { localStorage.setItem(KEY, JSON.stringify({ days: state.days, active: state.active, metadata })); }
   catch { if (!warned) { warned = true; toast('El itinerario es demasiado grande para guardarse en el navegador. Exporta el GPX.'); } }
 }
 export function changed() { save(); render(); hooks.change.forEach((f) => f(state)); }
@@ -49,7 +50,18 @@ export function setOrigin(item) {
   toast('Origen fijado en el Día 1');
 }
 export function addDay() { const d = newDay(); state.days.push(d); state.active = d.id; changed(); }
-export function clearAll() { state.days = [newDay()]; state.active = state.days[0].id; changed(); }
+export function clearAll() { state.days = [newDay()]; state.active = state.days[0].id; Object.assign(metadata, { title: 'Excursión por el Pirineo', creator: '', seasons: [], elevation: '', time: '', realKm: '', description: '' }); changed(); }
+export function setMetadata(values) { Object.assign(metadata, values); changed(); }
+export function addPhoto(target, photo) {
+  const bucket = target.type === 'day' ? state.days.find((d) => d.id === target.id) : state.days.flatMap((d) => d.items).find((i) => i.id === target.id);
+  if (!bucket) return;
+  bucket.photos = [...(bucket.photos || []), photo]; changed();
+}
+export function snapshot() { return { version: 2, metadata: { ...metadata }, state: { days: state.days, active: state.active } }; }
+export function restore(data) {
+  if (!data?.state?.days?.length) throw new Error('El paquete no contiene un itinerario válido.');
+  state.days = data.state.days; state.active = data.state.active || state.days[0].id; Object.assign(metadata, data.metadata || {}); changed();
+}
 function removeDay(id) {
   const d = state.days.find((x) => x.id === id);
   if (d.items.length && !confirm('Este día tiene elementos. ¿Eliminarlo?')) return;
@@ -79,6 +91,7 @@ function itemEl(it) {
     el('span', { class: 'handle', title: 'Arrastrar para reordenar' }, '⠿'),
     el('span', { class: 'ico', style: `background:${T.color}` }, T.glyph),
     el('div', { class: 'txt', title: 'Ver en el mapa', onclick: () => hooks.locate(it) }, el('b', {}, it.name), el('small', {}, meta)),
+    el('button', { class: 'icon', title: 'Añadir fotos a la etapa', onclick: (e) => { e.stopPropagation(); document.dispatchEvent(new CustomEvent('photo-target', { detail: { type: 'item', id: it.id } })); } }, '📷'),
     el('button', { class: 'icon', title: 'Quitar', onclick: () => remove(it.id) }, '✕'));
 }
 
@@ -94,6 +107,7 @@ export function render() {
       el('header', { title: 'Clic para usar este día como destino', onclick: () => { state.active = d.id; changed(); } },
         el('span', { class: 'day-grip', title: 'Arrastrar día' }, '⋮⋮'), el('b', {}, `Día ${i + 1}`),
         el('span', { class: 'km' }, dk ? `${dk.toFixed(1)} km` : ''),
+        el('button', { class: 'icon', title: 'Añadir fotos al día', onclick: (e) => { e.stopPropagation(); document.dispatchEvent(new CustomEvent('photo-target', { detail: { type: 'day', id: d.id } })); } }, '📷'),
         el('button', { class: 'icon', title: 'Eliminar día', onclick: (e) => { e.stopPropagation(); removeDay(d.id); } }, '🗑')),
       ul);
     sortables.push(new Sortable(ul, { group: 'items', handle: '.handle', animation: 150, ghostClass: 'ghost', onEnd: sync }));

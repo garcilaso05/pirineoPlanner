@@ -1,7 +1,10 @@
-import { map, setMode, mode, addRoute, addRefuges, searchHere, loadCustom, fitAll } from './map.js';
-import { load, changed, addDay, clearAll, toGPX } from './itinerary.js';
+import { map, setMode, mode, addRoute, addRefuges, addPois, customPois, loadCustom, fitAll } from './map.js';
+import { load, changed, addDay, clearAll, toGPX, metadata, setMetadata, addPhoto, snapshot, restore } from './itinerary.js';
 import { parseKML } from './kml.js';
 import { $, toast } from './ui.js';
+
+const resources = new Map();
+const seasons = ['Primavera', 'Verano', 'Otoño', 'Invierno'];
 
 // Lista los KML de una carpeta: manifest.json + índice de directorio (si el servidor lo expone)
 async function listKml(dir) {
@@ -18,26 +21,88 @@ async function listKml(dir) {
   } catch { /* sin índice */ }
   return [...files];
 }
-function ingest(kml) {
+function ingest(kml, kind = 'custom', resource = null) {
   const segments = kml.lines.map((l, i) => ({ name: l.name || `Tramo ${i + 1}`, pts: l.pts }));
   if (segments.length) addRoute({ title: kml.title, segments });
-  if (kml.points.length) addRefuges(kml.points);
+  if (kind === 'peak' || kind === 'lake') addPois(kml.points.map((p) => ({ ...p, type: kind })), 'osm');
+  else if (kml.points.length) addRefuges(kml.points);
+  if (resource) resources.set(resource.name, resource.text);
   return segments.length + kml.points.length;
 }
-async function loadUrl(url) {
+async function loadUrl(url, kind = 'custom') {
   const r = await fetch(url);
   if (!r.ok) throw new Error(`${url} (${r.status})`);
-  return ingest(parseKML(await r.text(), url.split('/').pop()));
+  const text = await r.text();
+  return ingest(parseKML(text, url.split('/').pop()), kind, kind === 'custom' ? { name: url.split('/').pop(), text } : null);
+}
+
+async function editMetadata() {
+  const f = await import('./ui.js').then(({ askForm }) => askForm('Datos de la excursión', [
+    { name: 'title', label: 'Nombre', value: metadata.title, required: true },
+    { name: 'creator', label: 'Creada por', value: metadata.creator },
+    { name: 'seasons', label: 'Estaciones recomendadas', type: 'select', multiple: true, value: metadata.seasons, options: seasons },
+    { name: 'elevation', label: 'Desnivel positivo (m)', type: 'number', value: metadata.elevation },
+    { name: 'time', label: 'Tiempo estimado', value: metadata.time, placeholder: 'Ej. 6 h 30 min' },
+    { name: 'realKm', label: 'Kilómetros reales', type: 'number', value: metadata.realKm },
+    { name: 'description', label: 'Comentarios o descripción', type: 'textarea', value: metadata.description },
+  ]));
+  if (f) setMetadata(f);
+}
+
+function readAsDataUrl(file) {
+  return new Promise((resolve, reject) => { const r = new FileReader(); r.onload = () => resolve({ name: file.name, type: file.type, data: r.result }); r.onerror = reject; r.readAsDataURL(file); });
+}
+function downloadBlob(blob, name) {
+  const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: name });
+  a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+async function exportPackage() {
+  const zip = new JSZip();
+  const data = snapshot();
+  data.customPois = customPois();
+  data.state.days.forEach((d, di) => [...(d.photos || []), ...d.items.flatMap((i) => (i.photos || []).map((p) => ({ ...p, owner: i.id })))].forEach((p, pi) => {
+    if (p.data?.includes(',')) {
+      p.file = `fotos/dia-${di + 1}-${pi}-${(p.name || 'foto').replace(/[^\w.-]+/g, '_')}`;
+      zip.file(p.file, p.data.split(',')[1], { base64: true });
+    }
+  }));
+  zip.file('excursion.json', JSON.stringify(data, null, 2));
+  resources.forEach((text, name) => zip.file(`kml/${name}`, text));
+  downloadBlob(await zip.generateAsync({ type: 'blob' }), `${(metadata.title || 'excursion').replace(/[^\w-]+/g, '_')}.zip`);
+}
+async function importPackage(file) {
+  if (!file) return;
+  if (file.name.toLowerCase().endsWith('.json')) return restore(JSON.parse(await file.text()));
+  const zip = await JSZip.loadAsync(file);
+  const data = JSON.parse(await zip.file('excursion.json').async('text'));
+  for (const entry of Object.values(zip.files).filter((f) => f.name.startsWith('kml/') && !f.dir)) {
+    const text = await entry.async('text');
+    ingest(parseKML(text, entry.name), 'custom', { name: entry.name.slice(4), text });
+  }
+  for (const entry of Object.values(zip.files).filter((f) => f.name.startsWith('fotos/') && !f.dir)) {
+    const fileName = entry.name.split('/').pop();
+    const matching = [...data.state.days].flatMap((d) => [...(d.photos || []), ...d.items.flatMap((i) => i.photos || [])]).find((p) => p.file === entry.name);
+    if (matching) matching.data = `data:${matching.type || 'image/jpeg'};base64,${await entry.async('base64')}`;
+  }
+  addPois(data.customPois || [], 'custom');
+  restore(data);
+  toast('Excursión importada. Puedes modificarla y volver a exportarla.');
 }
 
 document.querySelectorAll('[data-mode]').forEach((b) => { b.onclick = () => setMode(mode.cur === b.dataset.mode ? 'none' : b.dataset.mode); });
-$('#btn-search').onclick = searchHere;
 $('#add-day').onclick = addDay;
+$('#btn-meta').onclick = editMetadata;
+$('#btn-package').onclick = exportPackage;
+$('#btn-open-package').onclick = () => $('#package-file').click();
+$('#package-file').onchange = async (e) => { try { await importPackage(e.target.files[0]); } catch (err) { toast(`No se pudo importar: ${err.message}`); } e.target.value = ''; };
+let photoTarget = null;
+document.addEventListener('photo-target', (e) => { photoTarget = e.detail; $('#photo-file').click(); });
+$('#photo-file').onchange = async (e) => { for (const file of e.target.files) addPhoto(photoTarget, await readAsDataUrl(file)); e.target.value = ''; };
 $('#btn-import').onclick = () => $('#file').click();
 $('#file').onchange = async (e) => {
   let n = 0;
   for (const f of e.target.files) {
-    try { n += ingest(parseKML(await f.text(), f.name)); } catch (err) { toast(err.message); }
+    try { const text = await f.text(); n += ingest(parseKML(text, f.name), 'custom', { name: f.name, text }); } catch (err) { toast(err.message); }
   }
   e.target.value = '';
   if (n) { fitAll(); toast(`Importados ${n} elementos. Haz clic en el camino para añadirlo.`); }
@@ -53,8 +118,9 @@ document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setMode('n
 (async function boot() {
   load(); changed(); loadCustom();
   toast('Cargando refugios y caminos…', 15000);
-  const files = [...new Set([...(await listKml('refugios')), ...(await listKml('caminos'))])];
-  const res = await Promise.allSettled(files.map(loadUrl));
+  const groups = [['refugios', 'custom'], ['caminos', 'custom'], ['picos', 'peak'], ['lagos', 'lake']];
+  const files = (await Promise.all(groups.map(async ([dir, kind]) => (await listKml(dir)).map((url) => ({ url, kind }))))).flat();
+  const res = await Promise.allSettled(files.map(({ url, kind }) => loadUrl(url, kind)));
   const bad = res.filter((r) => r.status === 'rejected');
   fitAll();
   toast(!files.length ? 'No se encontraron KML en refugios/ ni caminos/. Revisa manifest.json y sirve la web con un servidor.'

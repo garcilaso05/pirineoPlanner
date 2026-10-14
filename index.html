@@ -18,7 +18,6 @@
     <button data-mode="fragment">✂️ Elegir fragmento</button>
     <button data-mode="newpeak">▲ Crear pico</button>
     <button data-mode="newlake">💧 Crear lago</button>
-    <button id="btn-search" class="wide">🔎 Buscar picos y lagos en esta zona</button>
   </nav>
   <div class="scroll">
     <div id="days"></div>
@@ -34,9 +33,14 @@
     <section class="box">
       <h2>Itinerario</h2>
       <div class="row">
+        <button id="btn-meta" class="ghost">📝 Datos</button>
+        <button id="btn-package" class="ghost">📦 Exportar</button>
+        <button id="btn-open-package" class="ghost">📂 Importar</button>
         <button id="btn-gpx" class="ghost">⬇ Exportar GPX</button>
         <button id="btn-clear" class="ghost danger">Vaciar</button>
       </div>
+      <input id="package-file" type="file" accept=".zip,.json" hidden>
+      <input id="photo-file" type="file" accept="image/*" multiple hidden>
     </section>
   </div>
 </aside>
@@ -47,6 +51,7 @@
 <dialog id="dlg"><form id="dlg-form" method="dialog"></form></dialog>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.2/Sortable.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script type="module" src="js/main.js"></script>
 </body>
 </html>

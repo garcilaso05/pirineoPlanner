@@ -1,7 +1,6 @@
 import { BASE_LAYERS, WMT, TYPES, DAY_COLORS, ROUTE_COLORS, REFUGE_COLORS } from './config.js';
 import { state, hooks, addItem, setOrigin, dayIndex, km } from './itinerary.js';
 import { el, toast, askForm, $ } from './ui.js';
-import { fetchPois } from './api.js';
 
 // Un único renderer canvas (con tolerancia de clic) para que todas las capas vectoriales reciban eventos
 export const map = L.map('map', { renderer: L.canvas({ tolerance: 6 }) }).setView([42.7, 0.5], 8);
@@ -142,21 +141,18 @@ function addPoi(p) {
   poiIndex.set(p.key, p);
   return true;
 }
+export function addPois(points, src = 'osm') {
+  return points.reduce((n, p, i) => {
+    const item = { ...p, key: p.key || `${src}:${p.type}:${p.lat}:${p.lng}:${i}`, src };
+    const added = addPoi(item);
+    if (added && src === 'custom' && !custom.some((c) => c.key === item.key)) custom.push(item);
+    return n + (added ? 1 : 0);
+  }, 0);
+}
+export function customPois() { return custom.map(({ marker, ...p }) => p); }
 export function loadCustom() {
   try { custom = JSON.parse(localStorage.getItem(CK)) || []; } catch { custom = []; }
   custom.forEach(addPoi);
-}
-let busy = false;
-export async function searchHere() {
-  if (busy) return;
-  if (map.getZoom() < 11) return toast('Acércate más (zoom 11 o superior) para buscar en esta zona.');
-  busy = true; const btn = $('#btn-search'); btn.disabled = true; btn.textContent = 'Buscando…';
-  try {
-    const { items, errors } = await fetchPois(map.getBounds());
-    const n = items.filter(addPoi).length;
-    toast(`${n} nuevos picos/lagos en el mapa${errors.length ? ` · Fallo: ${errors.join(', ')}` : ''}`, 5000);
-  } catch (e) { toast('Error al buscar: ' + e.message); }
-  busy = false; btn.disabled = false; btn.textContent = '🔎 Buscar picos y lagos en esta zona';
 }
 map.on('click', async (e) => {
   const m = mode.cur;

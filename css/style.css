@@ -52,7 +52,8 @@ dialog{border:1px solid var(--line);border-radius:12px;background:var(--card);co
 dialog::backdrop{background:rgba(0,0,0,.45)}
 dialog h3{margin:0 0 10px}
 dialog label{display:block;margin-bottom:10px;color:var(--mut)}
-dialog input{display:block;width:100%;margin-top:3px;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit}
+dialog input,dialog textarea,dialog select{display:block;width:100%;margin-top:3px;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit}
+dialog textarea{resize:vertical}dialog select[multiple]{min-height:92px}
 #toggle-panel{display:none}
 @media(max-width:800px){
   body{grid-template-columns:1fr}

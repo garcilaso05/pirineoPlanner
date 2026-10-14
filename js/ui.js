@@ -21,13 +21,23 @@ export function askForm(title, fields) {
     const dlg = $('#dlg'), form = $('#dlg-form');
     form.replaceChildren(
       el('h3', {}, title),
-      ...fields.map((f) => el('label', {}, f.label,
-        el('input', { name: f.name, type: f.type || 'text', value: f.value ?? '', placeholder: f.placeholder || '', ...(f.required ? { required: '' } : {}), ...(f.type === 'number' ? { step: 'any' } : {}) }))),
+      ...fields.map((f) => {
+        const attrs = { name: f.name, ...(f.required ? { required: '' } : {}) };
+        const control = f.type === 'textarea' ? el('textarea', { ...attrs, rows: f.rows || 4 }, f.value ?? '')
+          : f.type === 'select' ? el('select', { ...attrs, ...(f.multiple ? { multiple: '' } : {}) }, (f.options || []).map((o) => el('option', { value: o, ...(f.value?.includes?.(o) ? { selected: '' } : {}) }, o)))
+          : el('input', { ...attrs, type: f.type || 'text', value: f.value ?? '', placeholder: f.placeholder || '', ...(f.type === 'number' ? { step: 'any' } : {}) });
+        return el('label', {}, f.label, control);
+      }),
       el('div', { class: 'row' },
         el('button', { type: 'button', class: 'ghost', onclick: () => dlg.close('cancel') }, 'Cancelar'),
         el('button', { class: 'primary', value: 'ok' }, 'Guardar')));
     dlg.returnValue = '';
-    dlg.onclose = () => res(dlg.returnValue === 'ok' ? Object.fromEntries(new FormData(form)) : null);
+    dlg.onclose = () => {
+      if (dlg.returnValue !== 'ok') return res(null);
+      const data = Object.fromEntries(new FormData(form));
+      fields.filter((f) => f.multiple).forEach((f) => { data[f.name] = [...form.querySelector(`[name="${f.name}"]`).selectedOptions].map((o) => o.value); });
+      res(data);
+    };
     dlg.showModal();
     form.querySelector('input')?.select();
   });
