@@ -13,6 +13,7 @@ export const TYPES = {
   origin: { label: 'Origen', glyph: '⚑', color: '#16a34a' },
   peak: { label: 'Pico', glyph: '▲', color: '#c0392b' },
   lake: { label: 'Lago', glyph: '💧', color: '#1c7fb8' },
+  waterfall: { label: 'Cascada', glyph: '🌊', color: '#0284c7' },
   refuge: { label: 'Refugio', glyph: '⌂', color: '#b45309' },
   track: { label: 'Camino', glyph: '〰', color: '#6d28d9' },
 };

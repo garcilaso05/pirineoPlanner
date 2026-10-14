@@ -123,8 +123,18 @@ export function render() {
     sortables.push(new Sortable(ul, { group: 'items', handle: '.handle', animation: 150, ghostClass: 'ghost', onEnd: sync }));
     return card;
   }));
-  sortables.push(new Sortable(box, { handle: '.day-grip', animation: 150, onEnd: sync }));
-  $('#stats').textContent = `${state.days.length} día${state.days.length > 1 ? 's' : ''} · ${totalKm.toFixed(1)} km de camino · ${n} elementos`;
+  const statsText = `${state.days.length} día${state.days.length > 1 ? 's' : ''} · ${totalKm.toFixed(1)} km de camino · ${n} elementos`;
+  const statsEl = $('#stats');
+  if (statsEl) statsEl.textContent = statsText;
+  const pTitle = $('#panel-title');
+  if (pTitle) pTitle.textContent = metadata.title || 'Excursión por el Pirineo';
+  const vbTitle = $('#vb-title');
+  if (vbTitle) vbTitle.textContent = metadata.title || 'Excursión por el Pirineo';
+  const vbStats = $('#vb-stats');
+  if (vbStats) {
+    const extra = [metadata.elevation ? `${metadata.elevation} m+` : null, metadata.time || null, metadata.creator ? `Por ${metadata.creator}` : null].filter(Boolean).join(' · ');
+    vbStats.textContent = [statsText, extra].filter(Boolean).join(' | ');
+  }
 }
 
 export function toGPX() {

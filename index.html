@@ -8,54 +8,89 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<aside id="panel">
-  <header>
-    <h1>Excursión por el Pirineo</h1>
-    <p id="stats"></p>
-  </header>
-  <nav id="tools" aria-label="Herramientas del mapa">
-    <button data-mode="origin">🚩 Marcar origen</button>
-    <button data-mode="fragment">✂️ Elegir fragmento</button>
-    <button data-mode="newroute">〰 Dibujar camino</button>
-    <button data-mode="newpeak">▲ Crear pico</button>
-    <button data-mode="newlake">💧 Crear lago</button>
-    <button id="btn-finish-route" class="wide" hidden>✓ Terminar camino</button>
-    <button id="btn-load-pois" class="wide" hidden>🏔️ Cargar picos y lagos de esta zona</button>
-    <button id="btn-clear-pois" class="ghost wide">🧹 Limpiar picos y lagos cargados</button>
-    <div class="search row wide"><input id="place-search" placeholder="Buscar ciudad o lugar" aria-label="Buscar ciudad o lugar"><button id="btn-place-search" title="Buscar">⌕</button></div>
-  </nav>
-  <div class="scroll">
-    <div id="days"></div>
-    <button id="add-day" class="ghost wide">＋ Añadir día</button>
-    <section class="box">
-      <h2>Caminos propios</h2>
-      <p>Importa trazados en KML. La fuente recomendada para descargarlos es
-        <a href="https://hiking.waymarkedtrails.org/" target="_blank" rel="noopener">hiking.waymarkedtrails.org</a>
-        (abre una ruta y usa «Descargar KML»).</p>
-      <input id="file" type="file" accept=".kml" multiple hidden>
-      <button id="btn-import" class="ghost wide">📂 Importar camino KML</button>
-    </section>
-    <section class="box">
-      <h2>Itinerario</h2>
-      <div class="row">
-        <button id="btn-meta" class="ghost">📝 Datos</button>
-        <button id="btn-package" class="ghost">📦 Exportar</button>
-        <button id="btn-open-package" class="ghost">📂 Importar</button>
-        <button id="btn-viewer" class="ghost">👁 Visualizar</button>
-        <button id="btn-gpx" class="ghost">⬇ Exportar GPX</button>
-        <button id="btn-clear" class="ghost danger">Vaciar</button>
-      </div>
-      <input id="package-file" type="file" accept=".zip,.json" hidden>
-      <input id="photo-file" type="file" accept="image/*" multiple hidden>
-    </section>
+<header id="win-toolbar" class="win-toolbar" aria-label="Barra de herramientas superior">
+  <div class="tb-brand" title="Planificador de excursiones por los Pirineos">
+    <span class="tb-logo">⛰️</span>
+    <span class="tb-title">PirineoPlanner</span>
   </div>
-</aside>
-<div id="map"></div>
-<div id="hint" hidden></div>
-<button id="toggle-panel" aria-label="Mostrar u ocultar panel">☰</button>
-<div id="toast" role="status"></div>
+  <div class="tb-sep"></div>
+  
+  <div class="tb-group" aria-label="Herramientas de trazado">
+    <button data-mode="origin" class="tb-btn" title="Fijar punto de origen en el mapa">🚩 Marcar Origen</button>
+    <button data-mode="fragment" class="tb-btn" title="Elegir fragmento de un camino KML">✂️ Fragmentos</button>
+    <button data-mode="newroute" class="tb-btn" title="Dibujar un camino propio haciendo clics">〰 Dibujar Camino</button>
+    <button id="btn-finish-route" class="tb-btn tb-btn-success" hidden title="Finalizar el dibujo del camino">✓ Terminar camino</button>
+  </div>
+  <div class="tb-sep"></div>
+
+  <div class="tb-group" aria-label="Crear puntos de interés">
+    <button data-mode="newpeak" class="tb-btn" title="Crear un nuevo pico en el mapa">▲ Crear Pico</button>
+    <button data-mode="newlake" class="tb-btn" title="Crear un nuevo lago en el mapa">💧 Crear Lago</button>
+  </div>
+  <div class="tb-sep"></div>
+
+  <div class="tb-group tb-refuge-group" title="Alternar fuente de refugios (no se mezclan)">
+    <span class="tb-label">Refugios:</span>
+    <div class="segmented-control" role="group" aria-label="Fuente de refugios">
+      <button type="button" id="btn-refuge-pyrenees" class="seg-btn active" data-src="pyrenees" title="Fuente de pyrenees.kml (fiable con enlaces)">Pyrenees</button>
+      <button type="button" id="btn-refuge-pirineos" class="seg-btn" data-src="pirineos" title="Fuente de refugios_pirineo.kml (+ cobertura)">+ Pirineos</button>
+    </div>
+  </div>
+  <div class="tb-sep"></div>
+
+  <div class="tb-group" aria-label="Puntos de la zona y búsqueda">
+    <button id="btn-load-pois" class="tb-btn" hidden title="Cargar picos, lagos y cascadas en la zona visible">🏔️ Cargar zona</button>
+    <button id="btn-clear-pois" class="tb-btn ghost" title="Limpiar los puntos cargados">🧹 Limpiar</button>
+    <div class="tb-search">
+      <input id="place-search" placeholder="Buscar lugar o pueblo…" aria-label="Buscar ciudad o lugar">
+      <button id="btn-place-search" title="Buscar lugar">⌕</button>
+    </div>
+  </div>
+  <div class="tb-sep"></div>
+
+  <div class="tb-group tb-group-right" aria-label="Acciones del itinerario">
+    <button id="btn-import" class="tb-btn" title="Importar caminos KML descargados">📂 KML</button>
+    <button id="btn-meta" class="tb-btn" title="Editar datos y descripción de la excursión">📝 Datos</button>
+    <button id="btn-package" class="tb-btn" title="Exportar excursión completa con fotos en archivo ZIP">📦 Exportar</button>
+    <button id="btn-open-package" class="tb-btn" title="Abrir excursión guardada (ZIP o JSON)">📂 Abrir</button>
+    <button id="btn-viewer" class="tb-btn tb-btn-primary" title="Visualizar excursión en modo presentación">👁 Visualizar</button>
+    <button id="btn-gpx" class="tb-btn" title="Exportar itinerario en formato GPX para GPS">⬇ GPX</button>
+    <button id="btn-clear" class="tb-btn danger" title="Vaciar todo el itinerario">Vaciar</button>
+  </div>
+</header>
+
+<div id="app-body">
+  <aside id="panel">
+    <header class="panel-header">
+      <h1 id="panel-title">Excursión por el Pirineo</h1>
+      <p id="stats">0 días · 0.0 km de camino · 0 elementos</p>
+      <button id="add-day" class="add-day-btn">＋ Añadir día</button>
+    </header>
+    <div class="scroll">
+      <div id="days"></div>
+    </div>
+  </aside>
+
+  <div id="map-container">
+    <div id="map"></div>
+    <div id="hint" hidden></div>
+    <div id="viewer-bar" hidden>
+      <div class="vb-details">
+        <h2 id="vb-title">Excursión por el Pirineo</h2>
+        <p id="vb-stats"></p>
+      </div>
+      <button id="viewer-toggle" class="primary">✕ Salir del visualizador</button>
+    </div>
+    <button id="toggle-panel" aria-label="Mostrar u ocultar panel">☰</button>
+    <div id="toast" role="status"></div>
+  </div>
+</div>
+
+<input id="file" type="file" accept=".kml" multiple hidden>
+<input id="package-file" type="file" accept=".zip,.json" hidden>
+<input id="photo-file" type="file" accept="image/*" multiple hidden>
 <dialog id="dlg"><form id="dlg-form" method="dialog"></form></dialog>
-<button id="viewer-toggle" hidden>Salir del visualizador</button>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.2/Sortable.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>

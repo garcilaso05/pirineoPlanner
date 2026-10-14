@@ -1,4 +1,4 @@
-import { map, setMode, mode, addRoute, addRefuges, addPois, customPois, customRoutes, restoreRoutes, loadCustom, fitAll, canLoadPois, poiBounds, finishDrawRoute, clearLoadedPois, setViewerMode } from './map.js';
+import { map, setMode, mode, addRoute, addRefuges, clearRefuges, addPois, customPois, customRoutes, restoreRoutes, loadCustom, fitAll, canLoadPois, poiBounds, finishDrawRoute, clearLoadedPois, setViewerMode, G } from './map.js';
 import { load, changed, addDay, clearAll, toGPX, metadata, setMetadata, addPhoto, snapshot, restore } from './itinerary.js';
 import { parseKML } from './kml.js';
 import { $, toast, askForm } from './ui.js';
@@ -7,8 +7,10 @@ const resources = new Map();
 const seasons = ['Primavera', 'Verano', 'Otoño', 'Invierno'];
 const deferredPoiUrls = [];
 const poiCache = new Map();
+const refugesCache = new Map();
+let currentRefugeSource = 'pyrenees';
 
-// Lista los KML de una carpeta: manifest.json + índice de directorio (si el servidor lo expone)
+// Lista los KML de una carpeta: manifest.json + fallback índice
 async function listKml(dir) {
   const files = new Set();
   let listed = false;
@@ -28,14 +30,19 @@ async function listKml(dir) {
   } catch { /* sin índice */ }
   return [...files];
 }
+
 async function ingest(kml, kind = 'custom', resource = null) {
   const segments = kml.lines.map((l, i) => ({ name: l.name || `Tramo ${i + 1}`, pts: l.pts }));
   if (segments.length) addRoute({ title: kml.title, segments });
-  if (kind === 'peak' || kind === 'lake') addPois(kml.points.map((p) => ({ ...p, type: kind })), 'osm');
-  else if (kml.points.length) await addRefuges(kml.points);
+  if (kind === 'peak' || kind === 'lake' || kind === 'waterfall') {
+    addPois(kml.points.map((p) => ({ ...p, type: kind })), 'osm');
+  } else if (kml.points.length && kind === 'refuge') {
+    await addRefuges(kml.points);
+  }
   if (resource) resources.set(resource.name, resource.text);
   return segments.length + kml.points.length;
 }
+
 async function loadUrl(url, kind = 'custom') {
   const r = await fetch(url);
   if (!r.ok) throw new Error(`${url} (${r.status})`);
@@ -43,8 +50,41 @@ async function loadUrl(url, kind = 'custom') {
   return ingest(parseKML(text, url.split('/').pop()), kind, kind === 'custom' ? { name: url.split('/').pop(), text } : null);
 }
 
+/* ---------- Gestión de Refugios (dos fuentes con switch sin mezclar) ---------- */
+async function getRefugePoints(sourceKey) {
+  if (refugesCache.has(sourceKey)) return refugesCache.get(sourceKey);
+  const fileName = sourceKey === 'pyrenees' ? 'refugios/pyrenees.kml' : 'refugios/refugios_pirineo.kml';
+  const r = await fetch(fileName);
+  if (!r.ok) throw new Error(`Error al descargar ${fileName} (${r.status})`);
+  const text = await r.text();
+  const kml = parseKML(text, fileName.split('/').pop());
+  refugesCache.set(sourceKey, kml.points);
+  return kml.points;
+}
+
+async function switchRefuges(sourceKey) {
+  currentRefugeSource = sourceKey;
+  const btnPyrenees = $('#btn-refuge-pyrenees');
+  const btnPirineos = $('#btn-refuge-pirineos');
+  if (btnPyrenees) btnPyrenees.classList.toggle('active', sourceKey === 'pyrenees');
+  if (btnPirineos) btnPirineos.classList.toggle('active', sourceKey === 'pirineos');
+
+  clearRefuges();
+  toast(sourceKey === 'pyrenees' ? 'Cargando refugios: Pyrenees (fuente oficial)…' : 'Cargando refugios: Pirineos (+ cobertura)…');
+  try {
+    const points = await getRefugePoints(sourceKey);
+    // Doble verificación: limpiar antes de añadir para asegurar que jamás se mezclan
+    clearRefuges();
+    await addRefuges(points);
+    toast(`${points.length} refugios cargados (${sourceKey === 'pyrenees' ? 'Pyrenees - fuente oficial' : 'Refugios Pirineos - mayor cobertura'}).`, 4000);
+  } catch (err) {
+    toast(`No se pudieron cargar los refugios: ${err.message}`);
+  }
+}
+
+/* ---------- Carga bajo demanda de Picos, Lagos y Cascadas ---------- */
 async function loadVisiblePois() {
-  if (!canLoadPois()) return toast('Acércate más para cargar picos y lagos (zoom 11 o superior).');
+  if (!canLoadPois()) return toast('Acércate más para cargar puntos de interés (zoom 11 o superior).');
   const bounds = poiBounds();
   const jobs = deferredPoiUrls.map(async ({ url, kind }) => {
     let points = poiCache.get(url);
@@ -61,16 +101,17 @@ async function loadVisiblePois() {
   const points = results.filter((r) => r.status === 'fulfilled').flatMap((r) => r.value);
   const errors = results.filter((r) => r.status === 'rejected').map((r) => r.reason.message);
   const added = addPois(points, 'osm');
-  toast(`${added} picos y lagos cargados en esta zona${errors.length ? ` · ${errors.join(', ')}` : ''}`, 5000);
+  toast(`${added} puntos (picos, lagos, cascadas) cargados en esta zona${errors.length ? ` · ${errors.join(', ')}` : ''}`, 5000);
 }
 
 function updatePoiButton() {
   const button = $('#btn-load-pois');
-  button.hidden = !deferredPoiUrls.length || !canLoadPois();
+  if (button) button.hidden = !deferredPoiUrls.length || !canLoadPois();
 }
 
+/* ---------- Metadatos de la Excursión ---------- */
 async function editMetadata() {
-  const f = await import('./ui.js').then(({ askForm }) => askForm('Datos de la excursión', [
+  const f = await askForm('Datos de la excursión', [
     { name: 'title', label: 'Nombre', value: metadata.title, required: true },
     { name: 'creator', label: 'Creada por', value: metadata.creator },
     { name: 'seasons', label: 'Estaciones recomendadas', type: 'select', multiple: true, value: metadata.seasons, options: seasons },
@@ -78,17 +119,25 @@ async function editMetadata() {
     { name: 'time', label: 'Tiempo estimado', value: metadata.time, placeholder: 'Ej. 6 h 30 min' },
     { name: 'realKm', label: 'Kilómetros reales', type: 'number', value: metadata.realKm },
     { name: 'description', label: 'Comentarios o descripción', type: 'textarea', value: metadata.description },
-  ]));
+  ]);
   if (f) setMetadata(f);
 }
 
 function readAsDataUrl(file) {
-  return new Promise((resolve, reject) => { const r = new FileReader(); r.onload = () => resolve({ name: file.name, type: file.type, data: r.result }); r.onerror = reject; r.readAsDataURL(file); });
+  return new Promise((resolve, reject) => {
+    const r = new FileReader();
+    r.onload = () => resolve({ name: file.name, type: file.type, data: r.result });
+    r.onerror = reject;
+    r.readAsDataURL(file);
+  });
 }
+
 function downloadBlob(blob, name) {
   const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: name });
-  a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
+
 async function exportPackage() {
   const zip = new JSZip();
   const data = snapshot();
@@ -105,6 +154,7 @@ async function exportPackage() {
   resources.forEach((text, name) => zip.file(`kml/${name}`, text));
   downloadBlob(await zip.generateAsync({ type: 'blob' }), `${(metadata.title || 'excursion').replace(/[^\w-]+/g, '_')}.zip`);
 }
+
 async function importPackage(file) {
   if (!file) return;
   if (file.name.toLowerCase().endsWith('.json')) return restore(JSON.parse(await file.text()));
@@ -117,25 +167,48 @@ async function importPackage(file) {
     await ingest(parseKML(text, entry.name), 'custom', { name: entry.name.slice(4), text });
   }
   for (const entry of Object.values(zip.files).filter((f) => f.name.startsWith('fotos/') && !f.dir)) {
-    const fileName = entry.name.split('/').pop();
     const matching = [...data.state.days].flatMap((d) => [...(d.photos || []), ...d.items.flatMap((i) => i.photos || [])]).find((p) => p.file === entry.name);
     if (matching) matching.data = `data:${matching.type || 'image/jpeg'};base64,${await entry.async('base64')}`;
   }
   addPois(data.customPois || [], 'custom');
   restoreRoutes(data.routes || []);
   restore(data);
-  setViewerMode(choice.mode === 'visualizador');
+  const isViewer = choice.mode === 'visualizador';
+  setViewerMode(isViewer);
+  $('#viewer-bar').hidden = !isViewer;
   toast('Excursión importada. Puedes modificarla y volver a exportarla.');
 }
 
-document.querySelectorAll('[data-mode]').forEach((b) => { b.onclick = () => setMode(mode.cur === b.dataset.mode ? 'none' : b.dataset.mode); });
+/* ---------- Event Listeners ---------- */
+document.querySelectorAll('[data-mode]').forEach((b) => {
+  b.onclick = () => setMode(mode.cur === b.dataset.mode ? 'none' : b.dataset.mode);
+});
+
 $('#btn-finish-route').onclick = finishDrawRoute;
 document.querySelectorAll('[data-mode]').forEach((button) => button.addEventListener('click', () => {
   setTimeout(() => { $('#btn-finish-route').hidden = mode.cur !== 'newroute'; }, 0);
 }));
-$('#btn-clear-pois').onclick = () => toast(`${clearLoadedPois()} picos y lagos cargados eliminados.`, 3500);
-$('#btn-viewer').onclick = () => setViewerMode(true);
-$('#viewer-toggle').onclick = () => setViewerMode(false);
+
+$('#btn-clear-pois').onclick = () => {
+  const count = clearLoadedPois();
+  toast(`${count} puntos de interés eliminados del mapa.`, 3500);
+};
+
+// Switch de refugios
+$('#btn-refuge-pyrenees').onclick = () => switchRefuges('pyrenees');
+$('#btn-refuge-pirineos').onclick = () => switchRefuges('pirineos');
+
+// Visualizador
+$('#btn-viewer').onclick = () => {
+  setViewerMode(true);
+  $('#viewer-bar').hidden = false;
+};
+$('#viewer-toggle').onclick = () => {
+  setViewerMode(false);
+  $('#viewer-bar').hidden = true;
+};
+
+// Carga de POIs
 $('#btn-load-pois').onclick = async () => {
   const button = $('#btn-load-pois');
   button.disabled = true;
@@ -143,11 +216,17 @@ $('#btn-load-pois').onclick = async () => {
   button.disabled = false;
 };
 map.on('zoomend moveend', updatePoiButton);
+
 $('#add-day').onclick = addDay;
 $('#btn-meta').onclick = editMetadata;
 $('#btn-package').onclick = exportPackage;
 $('#btn-open-package').onclick = () => $('#package-file').click();
-$('#package-file').onchange = async (e) => { try { await importPackage(e.target.files[0]); } catch (err) { toast(`No se pudo importar: ${err.message}`); } e.target.value = ''; };
+$('#package-file').onchange = async (e) => {
+  try { await importPackage(e.target.files[0]); } catch (err) { toast(`No se pudo importar: ${err.message}`); }
+  e.target.value = '';
+};
+
+// Buscador geográfico
 async function searchPlace() {
   const query = $('#place-search').value.trim();
   if (!query) return;
@@ -164,9 +243,15 @@ async function searchPlace() {
 }
 $('#btn-place-search').onclick = searchPlace;
 $('#place-search').onkeydown = (event) => { if (event.key === 'Enter') searchPlace(); };
+
+// Manejo de fotos e importación KML
 let photoTarget = null;
 document.addEventListener('photo-target', (e) => { photoTarget = e.detail; $('#photo-file').click(); });
-$('#photo-file').onchange = async (e) => { for (const file of e.target.files) addPhoto(photoTarget, await readAsDataUrl(file)); e.target.value = ''; };
+$('#photo-file').onchange = async (e) => {
+  for (const file of e.target.files) addPhoto(photoTarget, await readAsDataUrl(file));
+  e.target.value = '';
+};
+
 $('#btn-import').onclick = () => $('#file').click();
 $('#file').onchange = async (e) => {
   let n = 0;
@@ -176,26 +261,65 @@ $('#file').onchange = async (e) => {
   e.target.value = '';
   if (n) { fitAll(); toast(`Importados ${n} elementos. Haz clic en el camino para añadirlo.`); }
 };
+
 $('#btn-gpx').onclick = () => {
   const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(new Blob([toGPX()], { type: 'application/gpx+xml' })), download: 'excursion.gpx' });
-  a.click(); URL.revokeObjectURL(a.href);
+  a.click();
+  URL.revokeObjectURL(a.href);
 };
-$('#btn-clear').onclick = () => { if (confirm('¿Vaciar todo el itinerario?')) clearAll(); };
-$('#toggle-panel').onclick = () => { document.body.classList.toggle('collapsed'); setTimeout(() => map.invalidateSize(), 300); };
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { setMode('none'); $('#btn-finish-route').hidden = true; } });
 
+$('#btn-clear').onclick = () => {
+  if (confirm('¿Vaciar todo el itinerario?')) clearAll();
+};
+
+$('#toggle-panel').onclick = () => {
+  document.body.classList.toggle('collapsed');
+  setTimeout(() => map.invalidateSize(), 300);
+};
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    setMode('none');
+    $('#btn-finish-route').hidden = true;
+  }
+});
+
+/* ---------- Inicialización de la aplicación ---------- */
 (async function boot() {
-  load(); changed(); loadCustom();
-  toast('Cargando refugios y caminos…', 15000);
-  const groups = [['refugios', 'custom'], ['caminos', 'custom'], ['picos', 'peak'], ['lagos', 'lake']];
-  const files = (await Promise.all(groups.map(async ([dir, kind]) => (await listKml(dir)).map((url) => ({ url, kind }))))).flat();
-  const deferred = files.filter(({ kind }) => kind === 'peak' || kind === 'lake');
-  deferredPoiUrls.push(...deferred);
-  const initial = files.filter(({ kind }) => kind !== 'peak' && kind !== 'lake');
-  const res = await Promise.allSettled(initial.map(({ url, kind }) => loadUrl(url, kind)));
+  load();
+  changed();
+  loadCustom();
+  toast('Iniciando Planificador de los Pirineos…', 8000);
+
+  // 1. Cargar caminos base
+  try {
+    const caminosFiles = await listKml('caminos');
+    for (const url of caminosFiles) {
+      try { await loadUrl(url, 'custom'); } catch { /* ignorar caminos fallidos */ }
+    }
+  } catch { /* continuar */ }
+
+  // 2. Registrar URLs diferidas para picos, lagos y cascadas
+  try {
+    const [picos, lagos, cascadas] = await Promise.all([
+      listKml('picos'),
+      listKml('lagos'),
+      listKml('cascadas'),
+    ]);
+    picos.forEach((url) => deferredPoiUrls.push({ url, kind: 'peak' }));
+    lagos.forEach((url) => deferredPoiUrls.push({ url, kind: 'lake' }));
+    cascadas.forEach((url) => deferredPoiUrls.push({ url, kind: 'waterfall' }));
+  } catch { /* continuar */ }
+
+  // 3. Cargar por defecto los refugios de pyrenees.kml
+  try {
+    await switchRefuges('pyrenees');
+  } catch (err) {
+    console.warn('Error al cargar refugios pyrenees:', err);
+  }
+
   updatePoiButton();
-  const bad = res.filter((r) => r.status === 'rejected');
   fitAll();
-  toast(!files.length ? 'No se encontraron KML en refugios/ ni caminos/. Revisa manifest.json y sirve la web con un servidor.'
-    : bad.length ? `Cargados ${res.length - bad.length}/${res.length} archivos. Error: ${bad[0].reason.message}` : `Datos cargados (${initial.length} archivos). Acércate y pulsa el botón para cargar picos y lagos.`, 5000);
+  setTimeout(() => map.invalidateSize(), 100);
+  toast('Aplicación lista. Acércate en el mapa para explorar y cargar picos, lagos y cascadas.', 5000);
 })();

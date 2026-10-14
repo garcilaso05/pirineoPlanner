@@ -9,9 +9,9 @@ const base = {};
 for (const [n, c] of Object.entries(BASE_LAYERS)) base[n] = L.tileLayer(c.url, c.opt);
 base['OpenStreetMap'].addTo(map);
 export const G = {};
-for (const k of ['routes', 'refuge', 'peak', 'lake', 'it', 'draft']) G[k] = L.layerGroup().addTo(map);
+for (const k of ['routes', 'refuge', 'peak', 'lake', 'waterfall', 'it', 'draft']) G[k] = L.layerGroup().addTo(map);
 L.control.layers(base, {
-  'Caminos KML': G.routes, 'Refugios y cabañas': G.refuge, 'Picos': G.peak, 'Lagos': G.lake,
+  'Caminos KML': G.routes, 'Refugios y cabañas': G.refuge, 'Picos': G.peak, 'Lagos': G.lake, 'Cascadas': G.waterfall,
   'Senderos (Waymarked Trails)': L.tileLayer(WMT.url, WMT.opt), 'Mi itinerario': G.it,
 }, { collapsed: true }).addTo(map);
 L.control.scale({ imperial: false }).addTo(map);
@@ -20,28 +20,53 @@ export function canLoadPois() { return map.getZoom() >= 11; }
 export function poiBounds() { return map.getBounds().pad(0.25); }
 export function clearLoadedPois() {
   let count = 0;
-  ['peak', 'lake'].forEach((type) => G[type].getLayers().slice().forEach((marker) => {
+  ['peak', 'lake', 'waterfall'].forEach((type) => G[type].getLayers().slice().forEach((marker) => {
     const point = [...poiIndex.values()].find((p) => p.marker === marker);
     if (point?.src !== 'custom') { G[type].removeLayer(marker); poiIndex.delete(point.key); count++; }
   }));
   return count;
 }
 
+export function clearRefuges() {
+  G.refuge.clearLayers();
+}
+
 let viewerMode = false;
 export function setViewerMode(on) {
   viewerMode = on;
   document.body.classList.toggle('viewer-mode', on);
-  ['routes', 'refuge', 'peak', 'lake'].forEach((name) => { if (on) map.removeLayer(G[name]); else map.addLayer(G[name]); });
-  if (on) map.addLayer(G.it); else map.addLayer(G.it);
+  ['routes', 'refuge', 'peak', 'lake', 'waterfall'].forEach((name) => {
+    if (G[name]) {
+      if (on) map.removeLayer(G[name]);
+      else map.addLayer(G[name]);
+    }
+  });
+  if (on) {
+    map.addLayer(G.it);
+    try {
+      const layers = G.it.getLayers();
+      if (layers.length) {
+        const group = L.featureGroup(layers);
+        const b = group.getBounds();
+        if (b.isValid()) map.fitBounds(b, { padding: [60, 60], maxZoom: 14 });
+      }
+    } catch { /* ignorar */ }
+  } else {
+    map.addLayer(G.it);
+  }
+  // Forzar recálculo del tamaño del viewport del mapa para evitar pantalla negra o encogimiento
+  setTimeout(() => map.invalidateSize(), 50);
+  setTimeout(() => map.invalidateSize(), 200);
 }
 
 /* ---------- Modos de interacción ---------- */
 export const mode = { cur: 'none', frag: null };
-const PLACING = ['origin', 'newpeak', 'newlake'];
+const PLACING = ['origin', 'newpeak', 'newlake', 'newwaterfall'];
 const HINTS = {
   origin: 'Haz clic en el mapa para fijar el punto de origen. Esc para cancelar.',
   newpeak: 'Haz clic en el mapa para crear un pico nuevo. Esc para cancelar.',
   newlake: 'Haz clic en el mapa para crear un lago nuevo. Esc para cancelar.',
+  newwaterfall: 'Haz clic en el mapa para crear una cascada nueva. Esc para cancelar.',
   fragment: 'Haz clic en un camino: 1.º el inicio y 2.º el final del fragmento. Esc para salir.',
   newroute: 'Haz clic para añadir vértices. Pulsa «Terminar camino» cuando acabes.',
 };
@@ -68,17 +93,31 @@ function popup(p, extra) {
 }
 
 /* ---------- Refugios ---------- */
-// Marcador en forma de casa dibujado en el canvas (rápido incluso con +1600 refugios)
+// Marcador en forma de círculo con casa en el interior (estilo idéntico a picos y lagos)
 const HouseMarker = L.CircleMarker.extend({
   _updatePath() {
     const rd = this._renderer;
     if (!rd._drawing || this._empty()) return;
     const ctx = rd._ctx, { x, y } = this._point, r = this._radius;
+    // 1. Círculo exterior coloreado con borde blanco
     ctx.beginPath();
-    [[0, -r], [r, -0.1 * r], [0.68 * r, -0.1 * r], [0.68 * r, 0.85 * r], [-0.68 * r, 0.85 * r], [-0.68 * r, -0.1 * r], [-r, -0.1 * r]]
-      .forEach(([dx, dy], i) => (i ? ctx.lineTo(x + dx, y + dy) : ctx.moveTo(x + dx, y + dy)));
-    ctx.closePath();
+    ctx.arc(x, y, r, 0, Math.PI * 2);
     rd._fillStroke(ctx, this);
+
+    // 2. Icono de casita blanca centrada
+    const w = r * 0.52;
+    const cy = y + r * 0.08;
+    ctx.beginPath();
+    ctx.moveTo(x, cy - w * 1.05);
+    ctx.lineTo(x + w * 1.05, cy - w * 0.1);
+    ctx.lineTo(x + w * 0.62, cy - w * 0.1);
+    ctx.lineTo(x + w * 0.62, cy + w * 0.85);
+    ctx.lineTo(x - w * 0.62, cy + w * 0.85);
+    ctx.lineTo(x - w * 0.62, cy - w * 0.1);
+    ctx.lineTo(x - w * 1.05, cy - w * 0.1);
+    ctx.closePath();
+    ctx.fillStyle = '#ffffff';
+    ctx.fill();
   },
 });
 const cats = new Map();
@@ -89,12 +128,12 @@ export function addRefuges(points) {
       const end = Math.min(index + 150, points.length);
       for (; index < end; index++) {
         const p = points[index];
-    const cat = p.data.type_hebergement || 'Refugio';
-    if (!cats.has(cat)) cats.set(cat, REFUGE_COLORS[cats.size % REFUGE_COLORS.length]);
-    const url = (p.desc.match(/https?:\/\/\S+/) || [])[0];
-    const m = new HouseMarker([p.lat, p.lng], { radius: 9, color: '#fff', weight: 1.5, fillColor: cats.get(cat), fillOpacity: 0.95 });
-    m.bindTooltip(p.name || cat, { direction: 'top' });
-    m.bindPopup(() => popup({ type: 'refuge', name: p.name || 'Refugio', sub: cat, lat: p.lat, lng: p.lng, ele: p.ele, url }));
+        const cat = p.sub || p.data?.type_hebergement || 'Refugio';
+        if (!cats.has(cat)) cats.set(cat, REFUGE_COLORS[cats.size % REFUGE_COLORS.length]);
+        const url = (p.desc?.match(/https?:\/\/\S+/) || [])[0];
+        const m = new HouseMarker([p.lat, p.lng], { radius: 12, color: '#ffffff', weight: 2, fillColor: cats.get(cat), fillOpacity: 0.95 });
+        m.bindTooltip(p.name || cat, { direction: 'top' });
+        m.bindPopup(() => popup({ type: 'refuge', name: p.name || 'Refugio', sub: cat, lat: p.lat, lng: p.lng, ele: p.ele, url }));
         G.refuge.addLayer(m);
       }
       if (index < points.length) requestAnimationFrame(addBatch);
@@ -227,7 +266,7 @@ map.on('click', async (e) => {
     return;
   }
   if (!PLACING.includes(m)) return;
-  const T = { origin: ['Punto de origen', 'origin', 'Origen'], newpeak: ['Nuevo pico', 'peak', ''], newlake: ['Nuevo lago', 'lake', ''] }[m];
+  const T = { origin: ['Punto de origen', 'origin', 'Origen'], newpeak: ['Nuevo pico', 'peak', ''], newlake: ['Nuevo lago', 'lake', ''], newwaterfall: ['Nueva cascada', 'waterfall', ''] }[m];
   const f = await askForm(T[0], [
     { name: 'name', label: 'Nombre', value: T[2], required: true },
     { name: 'ele', label: 'Altitud en metros (opcional)', type: 'number' }]);
