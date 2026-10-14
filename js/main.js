@@ -11,10 +11,15 @@ const poiCache = new Map();
 // Lista los KML de una carpeta: manifest.json + índice de directorio (si el servidor lo expone)
 async function listKml(dir) {
   const files = new Set();
+  let listed = false;
   try {
     const m = await (await fetch('manifest.json')).json();
-    (m[dir] || []).forEach((f) => files.add(f.includes('/') ? f : `${dir}/${f}`));
+    if (Array.isArray(m[dir])) {
+      listed = true;
+      m[dir].forEach((f) => files.add(f.includes('/') ? f : `${dir}/${f}`));
+    }
   } catch { /* sin manifest */ }
+  if (listed) return [...files];
   try {
     const r = await fetch(`${dir}/`);
     if (!r.ok) throw new Error('sin índice');
@@ -23,11 +28,11 @@ async function listKml(dir) {
   } catch { /* sin índice */ }
   return [...files];
 }
-function ingest(kml, kind = 'custom', resource = null) {
+async function ingest(kml, kind = 'custom', resource = null) {
   const segments = kml.lines.map((l, i) => ({ name: l.name || `Tramo ${i + 1}`, pts: l.pts }));
   if (segments.length) addRoute({ title: kml.title, segments });
   if (kind === 'peak' || kind === 'lake') addPois(kml.points.map((p) => ({ ...p, type: kind })), 'osm');
-  else if (kml.points.length) addRefuges(kml.points);
+  else if (kml.points.length) await addRefuges(kml.points);
   if (resource) resources.set(resource.name, resource.text);
   return segments.length + kml.points.length;
 }
@@ -109,7 +114,7 @@ async function importPackage(file) {
   if (!choice) return;
   for (const entry of Object.values(zip.files).filter((f) => f.name.startsWith('kml/') && !f.dir)) {
     const text = await entry.async('text');
-    ingest(parseKML(text, entry.name), 'custom', { name: entry.name.slice(4), text });
+    await ingest(parseKML(text, entry.name), 'custom', { name: entry.name.slice(4), text });
   }
   for (const entry of Object.values(zip.files).filter((f) => f.name.startsWith('fotos/') && !f.dir)) {
     const fileName = entry.name.split('/').pop();
@@ -166,7 +171,7 @@ $('#btn-import').onclick = () => $('#file').click();
 $('#file').onchange = async (e) => {
   let n = 0;
   for (const f of e.target.files) {
-    try { const text = await f.text(); n += ingest(parseKML(text, f.name), 'custom', { name: f.name, text }); } catch (err) { toast(err.message); }
+    try { const text = await f.text(); n += await ingest(parseKML(text, f.name), 'custom', { name: f.name, text }); } catch (err) { toast(err.message); }
   }
   e.target.value = '';
   if (n) { fitAll(); toast(`Importados ${n} elementos. Haz clic en el camino para añadirlo.`); }

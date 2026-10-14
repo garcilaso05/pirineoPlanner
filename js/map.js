@@ -83,26 +83,53 @@ const HouseMarker = L.CircleMarker.extend({
 });
 const cats = new Map();
 export function addRefuges(points) {
-  for (const p of points) {
+  let index = 0;
+  return new Promise((resolve) => {
+    const addBatch = () => {
+      const end = Math.min(index + 150, points.length);
+      for (; index < end; index++) {
+        const p = points[index];
     const cat = p.data.type_hebergement || 'Refugio';
     if (!cats.has(cat)) cats.set(cat, REFUGE_COLORS[cats.size % REFUGE_COLORS.length]);
     const url = (p.desc.match(/https?:\/\/\S+/) || [])[0];
     const m = new HouseMarker([p.lat, p.lng], { radius: 9, color: '#fff', weight: 1.5, fillColor: cats.get(cat), fillOpacity: 0.95 });
     m.bindTooltip(p.name || cat, { direction: 'top' });
     m.bindPopup(() => popup({ type: 'refuge', name: p.name || 'Refugio', sub: cat, lat: p.lat, lng: p.lng, ele: p.ele, url }));
-    G.refuge.addLayer(m);
-  }
+        G.refuge.addLayer(m);
+      }
+      if (index < points.length) requestAnimationFrame(addBatch);
+      else resolve();
+    };
+    addBatch();
+  });
 }
 
 /* ---------- Caminos y selección de fragmentos ---------- */
 let routeCount = 0;
 const drawnRoutes = [];
+function simplify(points, tolerance = 0.00012) {
+  if (points.length < 3) return points;
+  const keep = new Uint8Array(points.length); keep[0] = 1; keep[points.length - 1] = 1;
+  const sq = (p, a, b) => {
+    const x = b[1] - a[1], y = b[0] - a[0];
+    if (!x && !y) return (p[0] - a[0]) ** 2 + (p[1] - a[1]) ** 2;
+    const t = Math.max(0, Math.min(1, ((p[1] - a[1]) * x + (p[0] - a[0]) * y) / (x * x + y * y)));
+    return (p[0] - (a[0] + t * y)) ** 2 + (p[1] - (a[1] + t * x)) ** 2;
+  };
+  const visit = (first, last) => {
+    let best = tolerance * tolerance, index = -1;
+    for (let i = first + 1; i < last; i++) { const distance = sq(points[i], points[first], points[last]); if (distance > best) { best = distance; index = i; } }
+    if (index >= 0) { keep[index] = 1; visit(first, index); visit(index, last); }
+  };
+  visit(0, points.length - 1);
+  return points.filter((_, i) => keep[i]);
+}
 export function addRoute({ title, segments, drawn = false }) {
   const route = { title, color: ROUTE_COLORS[routeCount++ % ROUTE_COLORS.length], segments, drawn };
   if (drawn) drawnRoutes.push({ title, segments: segments.map((segment) => ({ name: segment.name, pts: segment.pts })) });
   for (const seg of segments) {
     seg.km = km([seg.pts]);
-    const line = L.polyline(seg.pts, { color: route.color, weight: 4, opacity: 0.85 });
+    const line = L.polyline(simplify(seg.pts), { color: route.color, weight: 4, opacity: 0.85, smoothFactor: 1.5 });
     line.on('mouseover', () => line.setStyle({ weight: 7 })).on('mouseout', () => line.setStyle({ weight: 4 }));
     line.on('click', (ev) => onTrackClick(route, seg, ev));
     G.routes.addLayer(line);
