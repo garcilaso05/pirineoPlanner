@@ -1,9 +1,6 @@
 // Camptocamp (principal) + Overpass (complemento). Devuelve POIs {key,type,name,lat,lng,ele,src,url}
-import { C2C_PROXIES, OVERPASS_MIRRORS } from './config.js';
+import { OVERPASS_MIRRORS } from './config.js';
 
-const R = 6378137;
-const toM = (lat, lng) => [lng * Math.PI / 180 * R, Math.log(Math.tan(Math.PI / 4 + lat * Math.PI / 360)) * R]; // WGS84 → EPSG:3857 (el bbox de Camptocamp va en 3857)
-const fromM = (x, y) => [(2 * Math.atan(Math.exp(y / R)) - Math.PI / 2) * 180 / Math.PI, x / R * 180 / Math.PI];
 const meters = (a, b) => Math.hypot((a.lat - b.lat) * 111000, (a.lng - b.lng) * 111000 * Math.cos(a.lat * Math.PI / 180));
 
 async function timed(url, opt = {}, ms = 20000) {
@@ -11,34 +8,21 @@ async function timed(url, opt = {}, ms = 20000) {
   try { return await fetch(url, { ...opt, signal: ctl.signal }); } finally { clearTimeout(t); }
 }
 
-// Prueba la vía directa y luego los proxies; recuerda la última que funcionó
-const c2cRoutes = [(u) => u, ...C2C_PROXIES.map((p) => (u) => p + encodeURIComponent(u))];
-let c2cBest = 0;
 async function c2cJson(url) {
-  let last;
-  for (let k = 0; k < c2cRoutes.length; k++) {
-    const i = (c2cBest + k) % c2cRoutes.length;
-    try {
-      const r = await timed(c2cRoutes[i](url));
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      const j = await r.json();
-      c2cBest = i;
-      return j;
-    } catch (e) { last = e; }
-  }
-  throw new Error(`Camptocamp no accesible (${last?.message || 'error de red'})`);
+  const r = await timed(url);
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  return r.json();
 }
 
 async function c2c(b) {
-  const [x1, y1] = toM(b.getSouth(), b.getWest()), [x2, y2] = toM(b.getNorth(), b.getEast());
   const out = [];
   for (let off = 0; off < 400; off += 100) {
-    const qs = new URLSearchParams({ bbox: `${x1},${y1},${x2},${y2}`, limit: 100, offset: off, pl: 'es', wtyp: 'summit,lake' });
+    const qs = new URLSearchParams({ bbox: b.toBBoxString(), limit: 100, offset: off, pl: 'es', wtyp: 'summit,lake' });
     const j = await c2cJson(`https://api.camptocamp.org/waypoints?${qs}`);
     for (const d of j.documents || []) {
       const g = typeof d.geometry?.geom === 'string' ? JSON.parse(d.geometry.geom) : d.geometry?.geom;
       if (!g?.coordinates) continue;
-      const [lat, lng] = fromM(g.coordinates[0], g.coordinates[1]);
+      const [lng, lat] = g.coordinates;
       const loc = d.locales?.find((l) => l.lang === 'es') || d.locales?.[0];
       out.push({ key: `c2c:${d.document_id}`, type: d.waypoint_type === 'lake' ? 'lake' : 'peak', name: loc?.title || 'Sin nombre', lat, lng, ele: d.elevation || null, src: 'c2c', url: `https://www.camptocamp.org/waypoints/${d.document_id}` });
     }

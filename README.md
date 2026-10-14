@@ -9,9 +9,6 @@ Ejecutar (los navegadores no permiten `fetch` desde `file://`):
 - Cada `Placemark` con `LineString`/`MultiGeometry` es un tramo seleccionable; cada `Point` es un refugio.
 
 ## Notas de despliegue (GitHub Pages)
-- Camptocamp no envía cabeceras CORS a orígenes que no están en su lista (responde 400). La app prueba
-  primero directo y luego los proxies de `js/config.js` (`C2C_PROXIES`). Para no depender de terceros,
-  despliega un proxy propio (Cloudflare Worker que reenvíe `?url=` añadiendo `Access-Control-Allow-Origin`)
-  y ponlo el primero de la lista.
+- Camptocamp recibe el `bbox` en EPSG:4326 mediante una petición directa desde la aplicación.
 - Overpass rota entre los espejos de `OVERPASS_MIRRORS` si uno da 504.
 - En GitHub Pages no hay listado de directorios: añade cada KML a `manifest.json`.
