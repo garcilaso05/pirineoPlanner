@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Planificador de excursiones de montaña · Pirineos</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<aside id="panel">
+  <header>
+    <h1>Excursión por el Pirineo</h1>
+    <p id="stats"></p>
+  </header>
+  <nav id="tools" aria-label="Herramientas del mapa">
+    <button data-mode="origin">🚩 Marcar origen</button>
+    <button data-mode="fragment">✂️ Elegir fragmento</button>
+    <button data-mode="newpeak">▲ Crear pico</button>
+    <button data-mode="newlake">💧 Crear lago</button>
+    <button id="btn-search" class="wide">🔎 Buscar picos y lagos en esta zona</button>
+  </nav>
+  <div class="scroll">
+    <div id="days"></div>
+    <button id="add-day" class="ghost wide">＋ Añadir día</button>
+    <section class="box">
+      <h2>Caminos propios</h2>
+      <p>Importa trazados en KML. La fuente recomendada para descargarlos es
+        <a href="https://hiking.waymarkedtrails.org/" target="_blank" rel="noopener">hiking.waymarkedtrails.org</a>
+        (abre una ruta y usa «Descargar KML»).</p>
+      <input id="file" type="file" accept=".kml" multiple hidden>
+      <button id="btn-import" class="ghost wide">📂 Importar camino KML</button>
+    </section>
+    <section class="box">
+      <h2>Itinerario</h2>
+      <div class="row">
+        <button id="btn-gpx" class="ghost">⬇ Exportar GPX</button>
+        <button id="btn-clear" class="ghost danger">Vaciar</button>
+      </div>
+    </section>
+  </div>
+</aside>
+<div id="map"></div>
+<div id="hint" hidden></div>
+<button id="toggle-panel" aria-label="Mostrar u ocultar panel">☰</button>
+<div id="toast" role="status"></div>
+<dialog id="dlg"><form id="dlg-form" method="dialog"></form></dialog>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.2/Sortable.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
