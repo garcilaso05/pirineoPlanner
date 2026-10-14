@@ -127,7 +127,7 @@ const poiIndex = new Map();
 const CK = 'senda.custom.v1';
 let custom = [];
 const saveCustom = () => { try { localStorage.setItem(CK, JSON.stringify(custom.map(({ marker, ...p }) => p))); } catch { /* ignorar */ } };
-const SRC = { c2c: 'Camptocamp', osm: 'OpenStreetMap', custom: 'Personalizado' };
+const SRC = { osm: 'OpenStreetMap', custom: 'Personalizado' };
 function pinIcon(p) {
   return L.divIcon({ className: '', html: `<div class="pin ${p.type}${p.src === 'custom' ? ' custom' : ''}">${TYPES[p.type].glyph}</div>`, iconSize: [26, 26], iconAnchor: [13, 13], popupAnchor: [0, -12] });
 }
