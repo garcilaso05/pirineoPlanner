@@ -11,7 +11,9 @@ async function listKml(dir) {
     (m[dir] || []).forEach((f) => files.add(f.includes('/') ? f : `${dir}/${f}`));
   } catch { /* sin manifest */ }
   try {
-    const t = await (await fetch(`${dir}/`)).text();
+    const r = await fetch(`${dir}/`);
+    if (!r.ok) throw new Error('sin índice');
+    const t = await r.text();
     for (const m of t.matchAll(/href="([^"?#]+\.kml)"/gi)) files.add(`${dir}/${decodeURIComponent(m[1]).split('/').pop()}`);
   } catch { /* sin índice */ }
   return [...files];

@@ -16,3 +16,14 @@ export const TYPES = {
   refuge: { label: 'Refugio', glyph: '⌂', color: '#b45309' },
   track: { label: 'Camino', glyph: '〰', color: '#6d28d9' },
 };
+
+// Camptocamp rechaza (400, sin cabeceras CORS) las peticiones de navegador desde orígenes que no tiene en su lista blanca
+// (GitHub Pages, localhost...). Se prueba primero directo y, si falla, estos proxies CORS (se recuerda el que funcione).
+// Para máxima fiabilidad, despliega tu propio proxy (p. ej. Cloudflare Worker) y ponlo el primero: 'https://tu-worker.workers.dev/?url='
+export const C2C_PROXIES = ['https://api.allorigins.win/raw?url=', 'https://corsproxy.io/?url='];
+// Espejos de Overpass: si uno devuelve 504/timeout se prueba el siguiente
+export const OVERPASS_MIRRORS = [
+  'https://overpass-api.de/api/interpreter',
+  'https://overpass.kumi.systems/api/interpreter',
+  'https://overpass.private.coffee/api/interpreter',
+];

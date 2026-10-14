@@ -1,18 +1,40 @@
 // Camptocamp (principal) + Overpass (complemento). Devuelve POIs {key,type,name,lat,lng,ele,src,url}
+import { C2C_PROXIES, OVERPASS_MIRRORS } from './config.js';
+
 const R = 6378137;
-const toM = (lat, lng) => [lng * Math.PI / 180 * R, Math.log(Math.tan(Math.PI / 4 + lat * Math.PI / 360)) * R]; // WGS84 → EPSG:3857
+const toM = (lat, lng) => [lng * Math.PI / 180 * R, Math.log(Math.tan(Math.PI / 4 + lat * Math.PI / 360)) * R]; // WGS84 → EPSG:3857 (el bbox de Camptocamp va en 3857)
 const fromM = (x, y) => [(2 * Math.atan(Math.exp(y / R)) - Math.PI / 2) * 180 / Math.PI, x / R * 180 / Math.PI];
 const meters = (a, b) => Math.hypot((a.lat - b.lat) * 111000, (a.lng - b.lng) * 111000 * Math.cos(a.lat * Math.PI / 180));
+
+async function timed(url, opt = {}, ms = 20000) {
+  const ctl = new AbortController(), t = setTimeout(() => ctl.abort(), ms);
+  try { return await fetch(url, { ...opt, signal: ctl.signal }); } finally { clearTimeout(t); }
+}
+
+// Prueba la vía directa y luego los proxies; recuerda la última que funcionó
+const c2cRoutes = [(u) => u, ...C2C_PROXIES.map((p) => (u) => p + encodeURIComponent(u))];
+let c2cBest = 0;
+async function c2cJson(url) {
+  let last;
+  for (let k = 0; k < c2cRoutes.length; k++) {
+    const i = (c2cBest + k) % c2cRoutes.length;
+    try {
+      const r = await timed(c2cRoutes[i](url));
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const j = await r.json();
+      c2cBest = i;
+      return j;
+    } catch (e) { last = e; }
+  }
+  throw new Error(`Camptocamp no accesible (${last?.message || 'error de red'})`);
+}
 
 async function c2c(b) {
   const [x1, y1] = toM(b.getSouth(), b.getWest()), [x2, y2] = toM(b.getNorth(), b.getEast());
   const out = [];
   for (let off = 0; off < 400; off += 100) {
-    // URLSearchParams codifica las comas (%2C), igual que la petición que la API acepta
     const qs = new URLSearchParams({ bbox: `${x1},${y1},${x2},${y2}`, limit: 100, offset: off, pl: 'es', wtyp: 'summit,lake' });
-    const r = await fetch(`https://api.camptocamp.org/waypoints?${qs}`);
-    if (!r.ok) throw new Error(`Camptocamp ${r.status}`);
-    const j = await r.json();
+    const j = await c2cJson(`https://api.camptocamp.org/waypoints?${qs}`);
     for (const d of j.documents || []) {
       const g = typeof d.geometry?.geom === 'string' ? JSON.parse(d.geometry.geom) : d.geometry?.geom;
       if (!g?.coordinates) continue;
@@ -25,16 +47,26 @@ async function c2c(b) {
   return out;
 }
 
+let opBest = 0;
 async function overpass(b) {
   const bb = `${b.getSouth()},${b.getWest()},${b.getNorth()},${b.getEast()}`;
-  const q = `[out:json][timeout:25];(node["natural"="peak"]["name"](${bb});nwr["natural"="water"]["name"]["water"!~"river|stream|canal|pond|basin|moat"](${bb}););out center 500;`;
-  const r = await fetch('https://overpass-api.de/api/interpreter', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'data=' + encodeURIComponent(q) });
-  if (!r.ok) throw new Error(`Overpass ${r.status}`);
-  return (await r.json()).elements.map((e) => {
-    const t = e.tags || {}, c = e.center || e;
-    const ele = parseFloat(String(t.ele || '').replace(',', '.'));
-    return { key: `osm:${e.type}/${e.id}`, type: t.natural === 'peak' ? 'peak' : 'lake', name: t['name:es'] || t.name, lat: c.lat, lng: c.lon, ele: Number.isFinite(ele) ? ele : null, src: 'osm', url: `https://www.openstreetmap.org/${e.type}/${e.id}` };
-  }).filter((p) => p.lat != null);
+  const q = `[out:json][timeout:20];(node["natural"="peak"]["name"](${bb});nwr["natural"="water"]["name"]["water"!~"river|stream|canal|pond|basin|moat"](${bb}););out center 400;`;
+  let last;
+  for (let k = 0; k < OVERPASS_MIRRORS.length; k++) {
+    const i = (opBest + k) % OVERPASS_MIRRORS.length;
+    try {
+      const r = await timed(OVERPASS_MIRRORS[i], { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: 'data=' + encodeURIComponent(q) }, 25000);
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const els = (await r.json()).elements || [];
+      opBest = i;
+      return els.map((e) => {
+        const t = e.tags || {}, c = e.center || e;
+        const ele = parseFloat(String(t.ele || '').replace(',', '.'));
+        return { key: `osm:${e.type}/${e.id}`, type: t.natural === 'peak' ? 'peak' : 'lake', name: t['name:es'] || t.name, lat: c.lat, lng: c.lon, ele: Number.isFinite(ele) ? ele : null, src: 'osm', url: `https://www.openstreetmap.org/${e.type}/${e.id}` };
+      }).filter((p) => p.lat != null);
+    } catch (e) { last = e; }
+  }
+  throw new Error(`Overpass no disponible (${last?.message || 'error de red'})`);
 }
 
 export async function fetchPois(bounds) {
