@@ -10,13 +10,13 @@ for (const [n, c] of Object.entries(BASE_LAYERS)) base[n] = L.tileLayer(c.url, c
 base['OpenStreetMap'].addTo(map);
 export const G = {};
 for (const k of ['routes', 'refuge', 'peak', 'lake', 'waterfall', 'it', 'draft']) G[k] = L.layerGroup().addTo(map);
-L.control.layers(base, {
+export const layerControl = L.control.layers(base, {
   'Caminos KML': G.routes, 'Refugios y cabañas': G.refuge, 'Picos': G.peak, 'Lagos': G.lake, 'Cascadas': G.waterfall,
   'Senderos (Waymarked Trails)': L.tileLayer(WMT.url, WMT.opt), 'Mi itinerario': G.it,
 }, { collapsed: true }).addTo(map);
 L.control.scale({ imperial: false }).addTo(map);
 
-export function canLoadPois() { return map.getZoom() >= 11; }
+export function canLoadPois() { return map.getZoom() >= 13; }
 export function poiBounds() { return map.getBounds().pad(0.25); }
 export function clearLoadedPois() {
   let count = 0;
@@ -41,6 +41,13 @@ export function setViewerMode(on) {
       else map.addLayer(G[name]);
     }
   });
+  // También ocultar las rutas dinámicas en modo visualizador
+  import('./dynamic_loader.js').then(({ dynRoutesLayer }) => {
+    if (dynRoutesLayer) {
+      if (on) map.removeLayer(dynRoutesLayer);
+      else map.addLayer(dynRoutesLayer);
+    }
+  }).catch(() => {});
   if (on) {
     map.addLayer(G.it);
     try {
@@ -83,10 +90,13 @@ map.on('popupopen', () => { if (PLACING.includes(mode.cur)) map.closePopup(); })
 /* ---------- Popups ---------- */
 function popup(p, extra) {
   const T = TYPES[p.type];
+  const urlLabel = p.url && p.url.includes('lacsdespyrenees.com')
+    ? '🔗 Ficha en Lacs des Pyrénées ↗'
+    : '🔗 Más información ↗';
   return el('div', { class: 'pop' },
     el('h4', {}, p.name),
     el('p', {}, [T.label, p.sub, p.ele ? `${Math.round(p.ele)} m` : null].filter(Boolean).join(' · ')),
-    p.url ? el('a', { href: p.url, target: '_blank', rel: 'noopener' }, 'Más información ↗') : null,
+    p.url ? el('a', { href: p.url, target: '_blank', rel: 'noopener', class: 'poi-link' }, urlLabel) : null,
     el('div', { class: 'row' },
       el('button', { class: 'primary', onclick: () => { addItem({ type: p.type, name: p.name, lat: p.lat, lng: p.lng, ele: p.ele }); map.closePopup(); } }, `＋ Añadir al Día ${dayIndex() + 1}`),
       extra));
@@ -202,7 +212,7 @@ function trackPopup(route, seg) {
       el('button', { onclick: () => { setMode('fragment'); toast(HINTS.fragment); } }, '✂️ Elegir fragmento'),
       el('button', { onclick: () => { addItem({ type: 'track', name: `${route.title} (ruta completa)`, lat: all[0][0][0], lng: all[0][0][1], lines: all }); map.closePopup(); } }, `Ruta entera (${route.segments.length} tramos)`)));
 }
-function onTrackClick(route, seg, ev) {
+export function onTrackClick(route, seg, ev) {
   if (mode.cur === 'fragment') {
     const i = nearest(seg.pts, ev.latlng);
     if (!mode.frag || mode.frag.seg !== seg) {
@@ -238,7 +248,7 @@ function addPoi(p) {
     G[p.type].removeLayer(p.marker); poiIndex.delete(p.key); custom = custom.filter((c) => c.key !== p.key); saveCustom(); map.closePopup();
   } }, 'Eliminar') : null;
   p.marker = L.marker([p.lat, p.lng], { icon: pinIcon(p), title: p.name });
-  p.marker.bindPopup(() => popup({ ...p, sub: SRC[p.src] }, del));
+  p.marker.bindPopup(() => popup({ ...p, sub: p.sub || SRC[p.src] }, del));
   G[p.type].addLayer(p.marker);
   poiIndex.set(p.key, p);
   return true;
@@ -250,6 +260,13 @@ export function addPois(points, src = 'osm') {
     if (added && src === 'custom' && !custom.some((c) => c.key === item.key)) custom.push(item);
     return n + (added ? 1 : 0);
   }, 0);
+}
+export function removePoiByKey(key) {
+  const p = poiIndex.get(key);
+  if (!p) return false;
+  if (G[p.type] && p.marker) G[p.type].removeLayer(p.marker);
+  poiIndex.delete(key);
+  return true;
 }
 export function customPois() { return custom.map(({ marker, ...p }) => p); }
 export function loadCustom() {

@@ -1,7 +1,8 @@
-import { map, setMode, mode, addRoute, addRefuges, clearRefuges, addPois, customPois, customRoutes, restoreRoutes, loadCustom, fitAll, canLoadPois, poiBounds, finishDrawRoute, clearLoadedPois, setViewerMode, G } from './map.js';
+import { map, setMode, mode, addRoute, addRefuges, clearRefuges, addPois, customPois, customRoutes, restoreRoutes, loadCustom, fitAll, canLoadPois, poiBounds, finishDrawRoute, clearLoadedPois, setViewerMode, G, layerControl } from './map.js';
 import { load, changed, addDay, clearAll, toGPX, metadata, setMetadata, addPhoto, snapshot, restore } from './itinerary.js';
 import { parseKML } from './kml.js';
 import { $, toast, askForm } from './ui.js';
+import { initDynamicLoader, clearDynamicPois } from './dynamic_loader.js';
 
 const resources = new Map();
 const seasons = ['Primavera', 'Verano', 'Otoño', 'Invierno'];
@@ -190,8 +191,9 @@ document.querySelectorAll('[data-mode]').forEach((button) => button.addEventList
 }));
 
 $('#btn-clear-pois').onclick = () => {
+  clearDynamicPois();
   const count = clearLoadedPois();
-  toast(`${count} puntos de interés eliminados del mapa.`, 3500);
+  toast(`Puntos de interés limpiados del mapa.`, 3500);
 };
 
 // Switch de refugios
@@ -299,17 +301,12 @@ document.addEventListener('keydown', (e) => {
     }
   } catch { /* continuar */ }
 
-  // 2. Registrar URLs diferidas para picos, lagos y cascadas
+  // 2. Inicializar cargador dinámico de rutas KML (otrosCaminosKML) y POIs espaciales
   try {
-    const [picos, lagos, cascadas] = await Promise.all([
-      listKml('picos'),
-      listKml('lagos'),
-      listKml('cascadas'),
-    ]);
-    picos.forEach((url) => deferredPoiUrls.push({ url, kind: 'peak' }));
-    lagos.forEach((url) => deferredPoiUrls.push({ url, kind: 'lake' }));
-    cascadas.forEach((url) => deferredPoiUrls.push({ url, kind: 'waterfall' }));
-  } catch { /* continuar */ }
+    await initDynamicLoader(layerControl);
+  } catch (err) {
+    console.warn('Error al iniciar dynamic loader:', err);
+  }
 
   // 3. Cargar por defecto los refugios de pyrenees.kml
   try {
@@ -321,5 +318,5 @@ document.addEventListener('keydown', (e) => {
   updatePoiButton();
   fitAll();
   setTimeout(() => map.invalidateSize(), 100);
-  toast('Aplicación lista. Acércate en el mapa para explorar y cargar picos, lagos y cascadas.', 5000);
+  toast('Aplicación lista. Acércate en el mapa para explorar caminos y puntos de interés automáticamente.', 5000);
 })();

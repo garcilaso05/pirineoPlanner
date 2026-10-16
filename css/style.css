@@ -488,6 +488,27 @@ button.icon:hover {
   color: #475569;
   font-size: 12px;
 }
+.pop a.poi-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 2px 0 6px;
+  padding: 3px 7px;
+  border-radius: 4px;
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  color: #0284c7;
+  font-size: 11.5px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+.pop a.poi-link:hover {
+  background: #e0f2fe;
+  border-color: #7dd3fc;
+  color: #0369a1;
+  text-decoration: none;
+}
 .pop .row {
   margin-top: 8px;
   display: flex;

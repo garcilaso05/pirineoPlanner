@@ -38,11 +38,18 @@ export function parseKML(text, fileName = 'KML') {
     // Subtipo si existe
     const sub = tipoTag || data.type_hebergement || (desc.match(/Tipo:\s*([^\n\r]+)/i)?.[1]?.trim()) || '';
 
+    // Enlace explícito en tag <link>
+    const linkTag = pm.getElementsByTagName('link')[0]?.textContent?.trim() || '';
+    const kmlLink = linkTag.startsWith('http') ? linkTag : null;
+
+    // También extraer URLs de la descripción (refugios de pyrenees.kml)
+    const descUrl = (desc.match(/https?:\/\/\S+/) || [])[0] || null;
+
     for (const p of pm.getElementsByTagName('Point')) {
       const c = parseCoords(p)[0];
       if (c) {
         const pointEle = ele !== null ? ele : (Number.isFinite(c[2]) && c[2] ? c[2] : null);
-        points.push({ name, desc, data, sub, lat: c[0], lng: c[1], ele: pointEle });
+        points.push({ name, desc, data, sub, lat: c[0], lng: c[1], ele: pointEle, url: kmlLink || descUrl || null });
       }
     }
     for (const l of pm.getElementsByTagName('LineString')) {
