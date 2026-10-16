@@ -47,7 +47,7 @@ export function setViewerMode(on) {
       if (on) map.removeLayer(dynRoutesLayer);
       else map.addLayer(dynRoutesLayer);
     }
-  }).catch(() => {});
+  }).catch(() => { });
   if (on) {
     map.addLayer(G.it);
     try {
@@ -244,9 +244,11 @@ function pinIcon(p) {
 }
 function addPoi(p) {
   if (poiIndex.has(p.key)) return false;
-  const del = p.src === 'custom' ? el('button', { class: 'danger', onclick: () => {
-    G[p.type].removeLayer(p.marker); poiIndex.delete(p.key); custom = custom.filter((c) => c.key !== p.key); saveCustom(); map.closePopup();
-  } }, 'Eliminar') : null;
+  const del = p.src === 'custom' ? el('button', {
+    class: 'danger', onclick: () => {
+      G[p.type].removeLayer(p.marker); poiIndex.delete(p.key); custom = custom.filter((c) => c.key !== p.key); saveCustom(); map.closePopup();
+    }
+  }, 'Eliminar') : null;
   p.marker = L.marker([p.lat, p.lng], { icon: pinIcon(p), title: p.name });
   p.marker.bindPopup(() => popup({ ...p, sub: p.sub || SRC[p.src] }, del));
   G[p.type].addLayer(p.marker);
