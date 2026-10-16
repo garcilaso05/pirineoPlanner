@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue de la Charbonnière</name>
+      <description>lit: yes
+name: Rue de la Charbonnière
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+smoothness: excellent
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4457727829431006,43.574899731928326 1.4458160817397954,43.5748824204868</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: yes
+lanes: 2
+noname: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+smoothness: good
+cycleway:both: no
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4458160817397954,43.5748824204868 1.4459196574920543,43.57503086919034</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: yes
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 2
+layer: 1
+bridge: yes
+noname: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+smoothness: good
+parking:both: no
+cycleway:both: no
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4459196574920543,43.57503086919034 1.446092313689662,43.575270625113674</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: yes
+lanes: 2
+noname: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+smoothness: intermediate
+cycleway:both: no
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.446092313689662,43.575270625113674 1.446115669887049,43.57531748283735 1.4461188139905434,43.5753405862849 1.4461136037618956,43.57536219288136</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

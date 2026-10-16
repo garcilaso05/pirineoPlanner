@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.348475356204831,43.5608257099987 1.3484723917643935,43.56085988528722 1.3484610729918138,43.56099001158933 1.3484433761807164,43.5611545731137</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path
+surface: compacted
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3484433761807164,43.5611545731137 1.3484329557234207,43.56122409501504 1.3484610729918138,43.56128118363248 1.3484751765417744,43.561358907387266 1.3484691578293708,43.561500814821606 1.3484422982023756,43.56167468352059 1.3483847161926634,43.561869121639816 1.3482889557833762,43.562061215730594 1.3481606763608043,43.56224029035475 1.3480298816554364,43.56241982010522 1.3480200001873108,43.56243999926781</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+layer: 1
+bridge: yes
+bicycle: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3480200001873108,43.56243999926781 1.3479979016313217,43.56249487353703</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path
+surface: compacted
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3479979016313217,43.56249487353703 1.34797706071673,43.56283700664349 1.3479918829189181,43.56303228722594 1.3480014948924581,43.563079675218496 1.3480115560236403,43.56310421541429 1.3480234137853906,43.563132921572276</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3480234137853906,43.563132921572276 1.3480549446518633,43.56318252265655</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3480549446518633,43.56318252265655 1.348074258430472,43.563198470503046</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.348074258430472,43.563198470503046 1.3481136944714445,43.5632586817222 1.348136871005775,43.56329402730715</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

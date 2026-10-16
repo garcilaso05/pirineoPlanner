@@ -1,0 +1,497 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>La Voie du Rail</name>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>foot: yes
+name: Ancienne Voie de Chemin de Fer
+note: 6 tunnels et 5 viaduc pour une très belle ballades depuis Bozouls jusq'a Espalion. Prévoir une lampe torche pour le premiers tunnel en venant de Bozouls.
+bicycle: yes
+highway: service
+wheelchair: limited
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.767750802706843,44.51644772511264 2.767688100300012,44.516470720601994 2.767318982549767,44.51660632334493 2.7670040332111547,44.51672873065153 2.7668838386261396,44.516731228757145 2.766802091935285,44.51675499278218</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>foot: yes
+name: Ancienne Voie de Chemin de Fer
+note: 6 tunnels et 5 viaduc pour une très belle ballades depuis Bozouls jusq'a Espalion. Prévoir une lampe torche pour le premiers tunnel en venant de Bozouls.
+bicycle: permissive
+highway: track
+surface: compacted
+wheelchair: limited
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.766802091935285,44.51675499278218 2.766415726531585,44.51678208760214 2.7659612688293493,44.51681340996694 2.765797955110696,44.51683717395847 2.7655519963859043,44.516855429309246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>foot: yes
+name: Ancienne Voie de Chemin de Fer
+note: 6 tunnels et 5 viaduc pour une très belle ballades depuis Bozouls jusq'a Espalion. Prévoir une lampe torche pour le premiers tunnel en venant de Bozouls.
+bicycle: permissive
+highway: track
+surface: compacted
+wheelchair: limited
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7655519963859043,44.516855429309246 2.7653360413916017,44.51691371828576</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>foot: yes
+name: Ancienne Voie de Chemin de Fer
+note: 6 tunnels et 5 viaduc pour une très belle ballades depuis Bozouls jusq'a Espalion. Prévoir une lampe torche pour le premiers tunnel en venant de Bozouls.
+bicycle: permissive
+highway: track
+railway: abandoned
+maxheight: default
+wheelchair: limited
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7653360413916017,44.51691371828576 2.764949586156374,44.51702939931258 2.7646996748443318,44.51709940992213 2.7644300005960387,44.51714360687845 2.764068698188766,44.51717268717635 2.7635442617258974,44.51715558488838 2.7630995058287295,44.51708461354231 2.7627115234575186,44.51697559421239 2.7622791643112716,44.51679131136775 2.7619210958390217,44.51657070923988 2.7616268975834726,44.516317694737474 2.761204599568408,44.515846700511176</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Tunnel de Mathelines</name>
+      <description>name: Tunnel de Mathelines
+layer: -1
+tunnel: yes
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+maxheight: default
+tracktype: grade2
+start_date: 1904
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.761204599568408,44.515846700511176 2.7601276992058055,44.514800609550306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>name: Ancienne Voie de Chemin de Fer
+bicycle: permissive
+highway: track
+railway: abandoned
+tracktype: grade2
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7601276992058055,44.514800609550306 2.7598970118408435,44.514638931701626 2.7595684081099123,44.51446578729574 2.7592787912623122,44.51433581655464 2.7588080740534338,44.514195724553936 2.7583212770009693,44.51401732615975 2.7579596152675823,44.513821823953016 2.7577188667714387,44.51364989420955 2.757461589274067,44.513409230151126 2.7572618937864073,44.51315242250454 2.7570685763372644,44.51288978442935 2.7569156830759076,44.51264207079917 2.7564611355421427,44.51175953038639 2.756291713279558,44.511552874222055 2.7560945330746938,44.51135198271637</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>name: Ancienne Voie de Chemin de Fer
+bicycle: permissive
+highway: track
+railway: abandoned
+tracktype: grade2
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7560945330746938,44.51135198271637 2.7560271594283847,44.5112931756969</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Viaduc de la Loubière</name>
+      <description>name: Viaduc de la Loubière
+layer: 1
+bridge: viaduct
+bicycle: permissive
+highway: track
+railway: abandoned
+tracktype: grade2
+start_date: 1905
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7560271594283847,44.5112931756969 2.7558835188144544,44.51117126945335 2.755510807803073,44.51094219008417 2.755170615804977,44.510781398378406 2.754842640894745,44.51068120762508</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>name: Ancienne Voie de Chemin de Fer
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+tracktype: grade2
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.754842640894745,44.51068120762508 2.754290087163483,44.510563528112385 2.753966424166615,44.510502221924796</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>name: Ancienne Voie de Chemin de Fer
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+tracktype: grade2
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.753966424166615,44.510502221924796 2.753635394984417,44.510464490080324 2.753033344081,44.51035552242629 2.7525893068360596,44.51022259570593 2.7522433656201453,44.510049374117564 2.751987166101114,44.5098810847515 2.7518007656796595,44.50972240415426 2.7516062804206474,44.50944021171402 2.750774081141439,44.50776861789929 2.7505615397452163,44.507386027389586 2.750258627831412,44.50706897250077 2.7499486192268616,44.50685038364421 2.749520571993979,44.506645375765395 2.749210743052486,44.50654607481489</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Viaduc de Goudal</name>
+      <description>name: Viaduc de Goudal
+layer: 1
+bridge: viaduct
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+tracktype: grade2
+start_date: 1905
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.749210743052486,44.50654607481489 2.748999728792246,44.50649770558096 2.7487158611624647,44.50645458966046 2.748311978610724,44.50643383250459 2.74800619208801,44.50644869565399 2.7477495434113375,44.50648220179152</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>name: Ancienne Voie de Chemin de Fer
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+tracktype: grade2
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7477495434113375,44.50648220179152 2.747411776864508,44.506557286220996</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Tunnel de Goudal</name>
+      <description>name: Tunnel de Goudal
+layer: -1
+tunnel: yes
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+maxheight: default
+tracktype: grade2
+start_date: 1905
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.747411776864508,44.506557286220996 2.746981933001057,44.5067121956001 2.7463611971397306,44.5071068987371 2.7461819832405485,44.507287496473246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>name: Ancienne Voie de Chemin de Fer
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+tracktype: grade2
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7461819832405485,44.507287496473246 2.746055859774658,44.507450988513796 2.745950397560302,44.50763030390403 2.7458673932280497,44.50783248951305 2.7458051399788603,44.5081617763611 2.7458488879331973,44.50857991672635 2.7459680045398716,44.50893552906914</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Tunnel de la Baume</name>
+      <description>name: Tunnel de la Baume
+layer: -1
+tunnel: yes
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+maxheight: default
+tracktype: grade2
+start_date: 1905
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7459680045398716,44.50893552906914 2.7461023026748475,44.50922361767932 2.7463652395585085,44.50954501705675 2.7465507416646795,44.50970062317461</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>name: Ancienne Voie de Chemin de Fer
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+tracktype: grade2
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7465507416646795,44.50970062317461 2.7468729673570933,44.50989838135893</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Viaduc de la Baume</name>
+      <description>name: Viaduc de la Baume
+layer: 1
+bridge: yes
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+tracktype: grade2
+start_date: 1904
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7468729673570933,44.50989838135893 2.7479848121842485,44.51049017848643</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>name: Ancienne Voie de Chemin de Fer
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+tracktype: grade2
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7479848121842485,44.51049017848643 2.7487653583346194,44.510897796243206 2.749015718804304,44.511059804772096 2.7491749002726493,44.51120028867161 2.7493224934738305,44.51137651765358 2.7494735901046194,44.511674587488756 2.7495160804175582,44.511860103642086 2.7495176075535412,44.51210282398824 2.7494549051467096,44.512352077321765 2.7493266257241373,44.51259210516042 2.749103574039091,44.51283238824361 2.7480124802949986,44.51383232933074 2.7474997219308235,44.51429719039877 2.7470643983441394,44.51472559979594 2.746831016033325,44.51493730513105</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Viaduc des Conquettes</name>
+      <description>name: Viaduc des Conquettes
+layer: 1
+bridge: viaduct
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+tracktype: grade2
+start_date: 1903
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.746831016033325,44.51493730513105 2.7455872985224614,44.51610138248037</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>name: Ancienne Voie de Chemin de Fer
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+tracktype: grade2
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7455872985224614,44.51610138248037 2.7453671214463236,44.51627702015167 2.745078402914008,44.516444330234606 2.7446577218664547,44.516589925486315 2.744414907245157,44.5166350195864 2.7440633066429525,44.51665737446115 2.7437389249938575,44.51662297741536 2.743408524632358,44.51656699409818 2.7429827231876853,44.51639769868244 2.7427522154857806,44.5162515264598 2.7419900847987333,44.51565139660717 2.7416091991182663,44.515337781622094 2.741050536843072,44.514901882173945 2.740423692437814,44.51439872012349 2.7383254075971677,44.51272150326487 2.73772452450362,44.51226252304706 2.7373284572948515,44.511909813671245 2.7368946608441505,44.5115371155384 2.736749223599652,44.51131642946005 2.7366364850314944,44.51097979349876 2.7366333409280004,44.510673007862714 2.736714189303571,44.510338097832495 2.7368106683650852,44.509938291659424 2.7369501767287097,44.5095824932491 2.737205028774814,44.5092266926668 2.7374705707727998,44.50897813065446 2.737717337981347,44.508804008489726 2.738074058980671,44.50861079505938 2.738377240389062,44.50851329122174</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Viaduc du Plô</name>
+      <description>name: Viaduc du Plô
+layer: 1
+bridge: viaduct
+height: 38.57
+length: 158.47
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+tracktype: grade2
+start_date: 1903
+survey:date: 2025-09-14
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738377240389062,44.50851329122174 2.7388894597640667,44.50840419179348 2.740064276492638,44.508203417561525</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>name: Ancienne Voie de Chemin de Fer
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+maxheight: default
+tracktype: grade2
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.740064276492638,44.508203417561525 2.740678544483919,44.50811347253133 2.7413347637989682,44.50799700504242 2.7416941797441443,44.50788989062277 2.7421554646425395,44.5077082056666 2.7425685998417064,44.50746706862312 2.7428958560997114,44.50721849910693 2.7432016426224255,44.5069066966197 2.7434804796866157,44.506556581504114 2.743708561937254,44.50619698258238 2.7438132156678536,44.50586800496446 2.74381851572803,44.50528461769436 2.743711167051578,44.50465708226041 2.743674515787986,44.50426088897828 2.743593218254773,44.503838425063954 2.743560968736073,44.50326449966423 2.743492067953781,44.50282620342122 2.7434718558598887,44.50241660712566 2.7434060093495622,44.50185362375789 2.7432320056790287,44.501476888935834 2.743022159228658,44.50119779605914 2.7427141269177335,44.50091299949436 2.7423387209605004,44.50066959183392 2.7419904441248466,44.50042522207863 2.741884802247434,44.5003230272915</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Tunnel de Martel</name>
+      <description>lit: no
+name: Tunnel de Martel
+length: 104
+tunnel: yes
+bicycle: permissive
+highway: track
+railway: abandoned
+tracktype: grade2
+start_date: 1902
+survey:date: 2025-09-14
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.741884802247434,44.5003230272915 2.7417722433423344,44.50019167949639 2.741665343823524,44.50003252401548 2.7415650918378165,44.499818586072216 2.741529608384093,44.49970331939163 2.7415005928004166,44.49954608476396 2.741493226615087,44.49939621811251 2.7415243981554456,44.499145627908725</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancienne Voie de Chemin de Fer</name>
+      <description>name: Ancienne Voie de Chemin de Fer
+bicycle: permissive
+highway: track
+railway: abandoned
+tracktype: grade2
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7415243981554456,44.499145627908725 2.7415600612722253,44.49902299145125 2.7417514024277425,44.49866341013188 2.7420853062188497,44.49832298479016 2.742430438951009,44.498102889426065 2.742799826195839,44.497947508646895 2.7432162851615565,44.497803084244175 2.7437050585076457,44.49766122248171 2.7441730807706723,44.497402999869195 2.744365589736059,44.497238902969585 2.7445033913006425,44.49708249467875 2.74466248293746,44.49681369698422 2.7448761023120243,44.496275777495555 2.744988840880181,44.49597352800093 2.745147393527828,44.49560732792411 2.745209107787847,44.49545488805413 2.7454274882334166,44.49515571003436 2.745846911639572,44.4948457012916 2.746292296357438,44.4946698708795 2.7467119892581793,44.49459220800682 2.747102666575243,44.49458080206467 2.7473283233746137,44.4946039984166 2.747704897141716,44.49468621082717 2.7480376331229546,44.49481693024368 2.7484169018359093,44.495064975938774 2.748753770067454,44.49539010579453 2.7490888416684305,44.495716771687576 2.7492190973846284,44.49581692408504 2.7493703736784743,44.49591066862368 2.7496388801168976,44.49603478539206 2.749928856290611,44.496122890836546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Tunnel d'Arbrefeuille</name>
+      <description>lit: no
+name: Tunnel d'Arbrefeuille
+layer: -1
+length: 110
+tunnel: yes
+bicycle: permissive
+highway: track
+railway: abandoned
+surface: compacted
+maxheight: default
+tracktype: grade2
+start_date: 1903
+survey:date: 2025-09-14
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.749928856290611,44.496122890836546 2.750191433848159,44.49616941045753 2.750427780599411,44.496187223746105 2.750721260202733,44.49617908602142 2.7510085414305943,44.496138076997894 2.7512834259075345,44.49606490144988 2.751525432045076,44.495967889242024</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Bertholène à Espalion</name>
+      <description>foot: yes
+name: Voie Verte de Bertholène à Espalion
+bicycle: yes
+highway: track
+railway: abandoned
+surface: compacted
+tracktype: grade2
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.751525432045076,44.495967889242024 2.7517740857157214,44.49582621524563 2.752078524765509,44.49555689914196 2.7523904198321554,44.49515750420997 2.7526800366797555,44.49476810273121 2.752867784574137,44.49456048922957</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.752867784574137,44.49456048922957 2.752938931144639,44.49456529510602 2.75305822741437,44.494533704470896 2.753389526091153,44.49432807657171 2.7536255135162917,44.49418652674891 2.7539862769343935,44.493966479850535 2.754473073986858,44.49373111717913 2.7547908979343796,44.493642175089214 2.7552441878267464,44.493614428717855 2.7556558857214584,44.49356367781504 2.7558195587662246,44.4935666254697 2.75594936532478,44.49365813084877 2.75604216129363,44.49385171423425 2.7560863584056086,44.49405727973421 2.756217602268618,44.49454587936273 2.756239072003909,44.49476022112104 2.7562712316910805,44.494989812629804 2.7563463308488325,44.49521171391838 2.756378490536004,44.495494872320876 2.756404272184658,44.495623283145974</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.756404272184658,44.495623283145974 2.7564750594290475,44.49591579477318 2.756753986324766,44.49631371075375 2.7569364341589706,44.49657392455056 2.7570330030520136,44.49692589374111 2.7572210204409795,44.49721032532875 2.7575142305497162,44.497500330065115 2.7577895641842987,44.4977279244645 2.7578580158089485,44.49779667676461 2.758029234702102,44.49795180164719 2.758124905279861,44.49815261118795 2.7581088254362753,44.49834291186945 2.75814871063489,44.49840608899541 2.758202699383465,44.498440496792824</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.758202699383465,44.498440496792824 2.758211592704779,44.49857928111037 2.758136493547026,44.49894661584688 2.758095081212428,44.499221682886244 2.7580630113567848,44.49932118853264 2.7578146271807262,44.49960471141676 2.7575693871081612,44.49985690146087 2.757429968576066,44.50009409750386 2.757279770260561,44.50035429443034 2.7571815844000067,44.500675998997785 2.7570091078654557,44.50087487701397 2.756632264603768,44.50114660325838 2.75618696971743,44.50149860891772 2.7559577196569225,44.50184958732627 2.7558303385496346,44.50198451931754 2.755803478922639,44.5022083160865 2.7557025981162324,44.502428011535116 2.7556921776589367,44.50277071940516 2.7556962200777155,44.50299066901078 2.7556532806071345,44.50313988573364 2.7556291159259914,44.50324130675749 2.7552911697161058,44.50365173014764 2.7550364075015294,44.50390992508633 2.754819105034301,44.50425518695311 2.7547841605697485,44.50462030764157 2.7547413109306964,44.50474780142997</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7547413109306964,44.50474780142997 2.7547375380065025,44.50505019764223 2.754518708403291,44.50527667343909 2.7542527172476636,44.505437800662726 2.7539457629150803,44.505537295700066 2.753613386259956,44.505607576380704 2.7533372441416173,44.50565158985404 2.753128026511946,44.50563352319215 2.7530286728415225,44.505687979425545</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7530286728415225,44.505687979425545 2.75302597789567,44.50573199283819 2.7531547963074123,44.50589939726129 2.753463187944451,44.5059644241081 2.753809757981064,44.50618557891023 2.7539321085227613,44.50641000020541 2.7539510629752564,44.50664851495397 2.753885575791044,44.50717538371957 2.7537747236849834,44.50740172313136 2.7535637992562725,44.50764318076506 2.7534556420960645,44.50801020214032 2.75331164215602,44.508179201605515 2.7528141551516745,44.508397529226364 2.752777324225026,44.50846421892637 2.7527899904705317,44.50860970598982 2.7528626641770173,44.508745775464256 2.7532017781967726,44.50894321657556 2.7534378554534387,44.509050969683855 2.7535773638170626,44.509177685034345 2.7535268784980955,44.50928972987463 2.7533096658623952,44.50943937890797 2.7530257084010845,44.50958082764106</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7530257084010845,44.50958082764106 2.7529553703143383,44.50970331376666 2.7529746840929468,44.5098536023536 2.7531141924565707,44.509961225656006 2.753563260267102,44.510150590936604 2.7539927448044397,44.51026711818338 2.7541822893293886,44.510346169519984 2.7542061845159465,44.51039831515657 2.7541884877048486,44.510465386932594</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+bridge: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7541884877048486,44.510465386932594 2.754133780304046,44.510609715908075</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

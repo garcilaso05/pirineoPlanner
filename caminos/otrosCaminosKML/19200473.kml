@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+surface: asphalt
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5957037598193307,43.637680486293924 1.5956883087964437,43.63748408257594 1.5956695340070057,43.637418029410334 1.5956424048854254,43.637402101224694</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Côte du Château</name>
+      <description>name: Côte du Château
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5956424048854254,43.637402101224694 1.5956582152344256,43.63738448269608 1.5956568677614995,43.63724763011145 1.5956891172801995,43.637201080657704 1.5957172345485924,43.636558486468964 1.5957092395425638,43.636367280214294 1.5956555202885736,43.63595970524569 1.595711934488416,43.63523270790576 1.595683727388495,43.63518121571985 1.5957051971237852,43.63498317844216 1.5957627791334974,43.63432898762871 1.5957078022381093,43.63390189379892 1.595664144115301,43.6338260191475</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path
+surface: metal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.595664144115301,43.6338260191475 1.5956582152344256,43.63373499544613</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5956582152344256,43.63373499544613 1.5956541728156473,43.63366802792068</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5956541728156473,43.63366802792068 1.5956005433931855,43.6333136839468 1.5954489976047546,43.63302981715694</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

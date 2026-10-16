@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue de la Place</name>
+      <description>ref: D 227
+name: Rue de la Place
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: tertiary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.912122106289658,42.93231258108032 2.9121220164581296,42.93226292399196 2.9121435760249486,42.93219741603667 2.9121801374570118,42.93208350043041 2.912184000212734,42.93203048882355 2.9121778916688017,42.93197622751618 2.912153187998488,42.93189993274858 2.9121172553871233,42.93184258006796</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Barry</name>
+      <description>ref: D 227
+name: Rue du Barry
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9121172553871233,42.93184258006796 2.9120835685639688,42.93182028354123 2.9120399104411607,42.93179140985598</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Barry</name>
+      <description>ref: D 227
+name: Rue du Barry
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: tertiary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9120399104411607,42.93179140985598 2.9119601400439312,42.93175668248997 2.9118616846887915,42.931741028860245 2.9117908076128747,42.93174339663642 2.9117698768667544,42.931747277158294 2.911710408394946,42.931759905295586 2.911631715976057,42.931761681127185 2.911254693051312,42.93173668793701 2.91117842608369,42.93174642212807 2.9111053032195633,42.93176621936327 2.9110443974432996,42.93181212787753</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>ref: D 227
+name: Rue de l'Église
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: tertiary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9110443974432996,42.93181212787753 2.9107686146510754,42.931779307897315 2.9106730339048448,42.931749184533366 2.910594610980541,42.931709195416104 2.910527686491874,42.931660524415975 2.910339130113737,42.93146952325465 2.910066401593479,42.93128430944162</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

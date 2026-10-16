@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4569911238742421,43.54340179596036 1.4569639947526616,43.54337822446014 1.456932913043831,43.54336748054124 1.456891231214648,43.54336917352252</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.456891231214648,43.54336917352252 1.4568821582302784,43.54334247650439 1.456798525077327,43.54326199469035 1.4566464402997255,43.543088203092736 1.4565496917436258,43.54297776800679 1.456196923331552,43.54259417381049 1.4559212303708557,43.542312288147464 1.455746418216566,43.54214936818195</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.455746418216566,43.54214936818195 1.4555486990225313,43.541933573433134 1.4554983933666206,43.54187868043929 1.4553965244134015,43.54177657803546 1.455086336145795,43.54142520900288 1.454864991259788,43.54113993178655 1.4547267405375621,43.54093390101956 1.4546579295867983,43.54082619691866 1.4546290038346497,43.5407048830607 1.4546450836782356,43.54061827666815 1.4547108403570332,43.54048608772389 1.4547335677337214,43.54041178829351 1.4547918683956607,43.54028930147789 1.454805432956451,43.54018042409954 1.4547839632211603,43.53998318102764 1.4548297773006507,43.53979720281581 1.4549128714644315,43.53965289999851 1.4550013555199175,43.539484502862585</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4550013555199175,43.539484502862585 1.4550901090699884,43.53940903005701 1.4551414927042399,43.5393745170083 1.455309567493899,43.539315388946875 1.4554012854844074,43.539261209879335 1.455521120743309,43.53916730806283 1.455729889215338,43.538956907553285</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>horse: no
+bicycle: no
+highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.455729889215338,43.538956907553285 1.4558800875308429,43.53893841363248 1.4560229196610182,43.53894681404088</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Escale</name>
+      <description>name: Chemin d'Escale
+bicycle: yes
+highway: path
+surface: concrete
+wheelchair: yes
+ref:FR:FANTOIR: 315556808L</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4560229196610182,43.53894681404088 1.4561167936082084,43.53883129204298 1.456224142284661,43.53871922116722</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.456224142284661,43.53871922116722 1.4562748072666851,43.53871772341443 1.456468214547356,43.53861522493871 1.457160096979185,43.53796858187221 1.457547181035112,43.53760677130608 1.4581965731540023,43.53661699081169 1.4584336385574812,43.53624390596837 1.4587676321801166,43.53575919829867 1.458882167378842,43.535468489048476 1.459031557210591,43.53496749421364 1.4594307685228538,43.53448798622478 1.4596707983667705,43.53416907190098 1.459829171351361,43.534005674057774 1.4600286871759638,43.533769531155365 1.4603875641319697,43.533359502562206 1.4604854804979386,43.53317128964737 1.4606390924115231,43.5330508070233</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4606390924115231,43.5330508070233 1.4606090886810335,43.53300932186946 1.4605931885005046,43.532986983697874</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Escale</name>
+      <description>foot: yes
+name: Chemin d'Escale
+bicycle: yes
+highway: path
+surface: dirt
+ref:FR:FANTOIR: 315556808L</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4605931885005046,43.532986983697874 1.4606327143730058,43.532951294706876</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Escale</name>
+      <description>foot: yes
+name: Chemin d'Escale
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4606327143730058,43.532951294706876 1.460681403061405,43.532913196034414 1.460745093615049,43.5328808284254 1.460875888320417,43.53284299021254</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

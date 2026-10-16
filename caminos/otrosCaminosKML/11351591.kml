@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Carrer del Mar</name>
+      <description>name: Carrer del Mar
+highway: living_street
+name:ca: Carrer del Mar
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9930381250013087,42.17172841513075 2.993008031439291,42.171809306590355</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de Joaquim Ribot</name>
+      <description>name: Plaça de Joaquim Ribot
+oneway: yes
+highway: residential
+name:ca: Plaça de Joaquim Ribot
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.993008031439291,42.171809306590355 2.9933894561089285,42.17187082397679</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>width: 4
+noname: yes
+highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9933894561089285,42.17187082397679 2.995063915798527,42.171688069228296 2.9952140242825034,42.17164998693371 2.9962928111072022,42.1711415994204 2.9963734798197166,42.17112548754399 2.996458190951009,42.17116310410856 2.9965012202531183,42.17125518137489 2.996589165319434,42.17147022754134</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.996589165319434,42.17147022754134 2.9966485439597137,42.17174778914408 2.9967667622511036,42.172354705402064 2.9968726736231015,42.17255170559892 2.996883273743454,42.17296288078187 2.9968620735027485,42.173372721778904 2.9968355732018677,42.17358423224866 2.996860276872181,42.17410038939022 2.996899084092455,42.174260568345765 2.9970933896884095,42.17468358263966 2.997709633973316,42.175716074486054 2.99776371255342,42.17584689064563</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.99776371255342,42.17584689064563 2.9978262352971945,42.17588157519013 2.9979099582816744,42.17591253162934</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+tracktype: grade1
+abandoned:highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9979099582816744,42.17591253162934 2.9978757324693497,42.176022776373635 2.9978413269939677,42.176131023743515 2.997798387523387,42.176258177551475 2.9977382902308793,42.17638539767623 2.997652501121246,42.176493511280725 2.9975409303629577,42.17657619409737 2.9974551412533246,42.17662712186542 2.9972776341531824,42.176680313046035</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Sant Tomàs de Fluvià</name>
+      <description>name: Camí de Sant Tomàs de Fluvià
+highway: unclassified
+name:ca: Camí de Sant Tomàs de Fluvià
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9972776341531824,42.176680313046035 2.9975756951644534,42.17675460753631 2.9978050350564893,42.17684201662326 2.9978920818075205,42.176870975433495 2.998107767307238,42.176932621040535 2.998276381086067,42.17701743358097 2.9984279268744976,42.17711283091007 2.9985716573199563,42.17718672546245</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+tracktype: grade4
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9985716573199563,42.17718672546245 2.9989290071399797,42.17744003000697 2.999436914601621,42.17813170268863 2.9998483430017475,42.17885272512718 3.0003598437245254,42.17954970788873 3.0010287292850806,42.18038507853807 3.001683331632618,42.181271029342476 3.0018979391539946,42.18149189935834 3.0019945080470376,42.18157171325808 3.0021218891543255,42.181589619782216 3.0025488584088675,42.18155041181013 3.0030532624409005,42.181553007924485 3.003350155642302,42.181603598849584 3.0041513630442083,42.18188291328108 3.004569977966608,42.182034485443474 3.005230509195021,42.182373374721436 3.0056074422882375,42.18249738737391 3.0058112700262045,42.182579929208515 3.006079596801571,42.182734095765866 3.0062297951170756,42.18292300919537 3.0061689791723407,42.1832103721987 3.0059785363321074,42.18345619733111 3.005803005525591,42.183868899168004</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Sant Tomàs de Fluvià a Estanyet</name>
+      <description>name: Camí de Sant Tomàs de Fluvià a Estanyet
+width: 4
+highway: track
+name:ca: Camí de Sant Tomàs de Fluvià a Estanyet
+tracktype: grade3
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.005803005525591,42.183868899168004 3.006358972854932,42.183921618305384 3.006561093793859,42.18389492591936 3.00694117099057,42.183726517338656 3.007319271893656,42.183505588563825 3.0076266753838814,42.183140079215015 3.008165215396711,42.182835009422824 3.008985916240283,42.1824613751365</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Sant Tomàs de Fluvià a Estanyet</name>
+      <description>name: Camí de Sant Tomàs de Fluvià a Estanyet
+width: 4
+highway: unclassified
+name:ca: Camí de Sant Tomàs de Fluvià a Estanyet
+maxspeed: 20
+tracktype: grade3
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.008985916240283,42.1824613751365 3.009459238563485,42.18219810575378 3.0095470937982722,42.182095127519986</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Sant Tomàs de Fluvià</name>
+      <description>name: Camí de Sant Tomàs de Fluvià
+highway: unclassified
+name:ca: Camí de Sant Tomàs de Fluvià
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0095470937982722,42.182095127519986 3.0098679720177595,42.18208381122034 3.0100763811636755,42.18207648890771 3.010121296927881,42.18205938131946</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

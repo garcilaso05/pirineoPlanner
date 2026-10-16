@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Carrer de la Creu</name>
+      <description>name: Carrer de la Creu
+highway: living_street
+name:ca: Carrer de la Creu
+maxspeed: 20
+sidewalk: left</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.074525741728246,42.13240092518532 3.0746552787922155,42.132390998989976 3.074782120910333,42.132364218240404 3.074786432823697,42.132320516296375 3.0750523341477964,42.132293069328306 3.075163096422328,42.13231838449345</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Creu</name>
+      <description>name: Carrer de la Creu
+highway: living_street
+name:ca: Carrer de la Creu
+maxspeed: 20
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.075163096422328,42.13231838449345 3.07557650111608,42.132271085097734</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de Catalunya</name>
+      <description>name: Plaça de Catalunya
+highway: residential
+name:ca: Plaça de Catalunya
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.07557650111608,42.132271085097734 3.075774579636228,42.13227481575558</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

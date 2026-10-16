@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Allée de Bigorre</name>
+      <description>name: Allée de Bigorre
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: left
+name:etymology:wikidata: Q859779</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.323137026143314,43.60678591976033 1.3223043777064636,43.60678000056242 1.3220876142284055,43.606775577425154 1.3219629280669696,43.60676543022665 1.3217857802929411,43.606742599023754 1.321279310135755,43.60665387597639</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée de Bigorre</name>
+      <description>name: Allée de Bigorre
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+name:etymology:wikidata: Q859779</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.321279310135755,43.60665387597639 1.3204154901585456,43.606587528744015 1.3203108364279452,43.60657952804341 1.320206272528874,43.60657211275896</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

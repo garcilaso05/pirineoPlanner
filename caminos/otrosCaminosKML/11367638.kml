@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Carrer Ciutadella</name>
+      <description>name: Carrer Ciutadella
+oneway: no
+highway: living_street
+name:ca: Carrer Ciutadella
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6305580263909567,42.23432022515548 2.630352761348536,42.2343528822702 2.629821497689507,42.23440948346159 2.6296074291573013,42.23443362708007 2.629578144079039,42.23443668660131 2.629084968988058,42.23448943006376</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>living_street</name>
+      <description>highway: living_street
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.629084968988058,42.23448943006376 2.6290825435367906,42.23455527619083 2.629080118085523,42.234617730181206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Montagut</name>
+      <description>name: Carretera de Montagut
+oneway: no
+highway: residential
+name:ca: Carretera de Montagut
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.629080118085523,42.234617730181206 2.6289998086991226,42.23464380254229</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

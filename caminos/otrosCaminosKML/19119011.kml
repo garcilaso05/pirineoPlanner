@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.484215197380183,43.65826862860079 1.484606773012531,43.65837092345058 1.4848107804135544,43.65842122593668</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4848107804135544,43.65842122593668 1.4847669426276893,43.658517086500886</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Toulouse</name>
+      <description>ref: M 888
+name: Avenue de Toulouse
+lanes: 2
+highway: primary
+old_ref: N 88;D 888
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+sidewalk:left: yes
+sidewalk:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4847669426276893,43.658517086500886 1.4848078159731166,43.65852430040835 1.4850072419661913,43.6585653091811 1.4851092007509388,43.658592215080176 1.4856146827613128,43.658760019231806 1.4858279428097627,43.65883768210992 1.4866244789721914,43.65912773094984</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Toulouse</name>
+      <description>ref: M 888
+name: Avenue de Toulouse
+lanes: 2
+highway: primary
+old_ref: N 88;D 888
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4866244789721914,43.65912773094984 1.4867356005728372,43.65916821939481 1.486766143292497,43.65917933259082 1.4867958775284014,43.659190185827036 1.4868306423298971,43.65920279377564 1.4869111313793542,43.65923210399642</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue des Vents d'Autan</name>
+      <description>name: Avenue des Vents d'Autan
+oneway: yes
+highway: tertiary
+surface: asphalt
+direction: forward
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4869111313793542,43.65923210399642 1.4869055618245925,43.659310286178346 1.4869011600797004,43.65932822322318 1.486899543112189,43.659335632001</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 2.4
+highway: path
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.486899543112189,43.659335632001 1.4868496866139205,43.65934869484389 1.4868370203684143,43.65938456890527 1.4867993809580098,43.65943123114866 1.4865581833042236,43.659538593164285</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>width: 2.4
+highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4865581833042236,43.659538593164285 1.486476885771011,43.65957479205728 1.4858361174788481,43.65988758337792 1.4849248664546373,43.660325930408995</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

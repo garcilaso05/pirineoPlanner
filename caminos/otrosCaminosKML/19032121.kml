@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.328906628592531,43.278923999929475 -2.3289701394831175,43.27885271432699 -2.3290059822629545,43.2787788126509 -2.3290114619861875,43.27872113004137 -2.3290031974855734,43.278665932572416 -2.3289992448983234,43.27861217385193 -2.3289761581955215,43.27857522287903</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: unmarked</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.3289761581955215,43.27857522287903 -2.3289944838273176,43.278545269684535 -2.3290232299164093,43.27849811626332</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.3290232299164093,43.27849811626332 -2.3291222242607197,43.27851597047565 -2.329220859278916,43.27852107167821 -2.3293085348506457,43.27851649367594 -2.3293970189061315,43.27848523245117 -2.329457026367111,43.278450832005355 -2.329489994538038,43.27842532595883 -2.329575693816143,43.27837712604172 -2.329624921493713,43.27834409893943 -2.3296338148150255,43.27831192202253</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.3296338148150255,43.27831192202253 -2.3296530387621055,43.278239000694626 -2.329693283286834,43.27814312373052 -2.3297602976070295,43.27802527203015 -2.329917233287165,43.27786419023029 -2.330132918786882,43.277706378049366 -2.3302507777521586,43.27761331248932 -2.330381302962941,43.277491993502665 -2.330446071494926,43.27738669758234 -2.3304751769101317,43.27731972666616</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.3304751769101317,43.27731972666616 -2.3306250158995225,43.277352100311596</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.3306250158995225,43.277352100311596 -2.3306295074759436,43.2773214925018 -2.330648641591495,43.27727440353359 -2.3302967714947056,43.277197818481085</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Alondegi kalea</name>
+      <description>name: Alondegi kalea
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.3302967714947056,43.277197818481085 -2.3303630671626734,43.27699010311389 -2.330422625466011,43.27671371500507 -2.330433764575534,43.27658363034239 -2.3304225356344825,43.27655132169024</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.3304225356344825,43.27655132169024 -2.3304840702314444,43.276529281162645</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.3304840702314444,43.276529281162645 -2.3307434138539698,43.27644026874295</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.3307434138539698,43.27644026874295 -2.3308528286555754,43.276400373347265</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

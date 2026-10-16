@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Carrer de França</name>
+      <description>name: Carrer de França
+oneway: no
+highway: living_street
+name:ca: Carrer de França
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6305580263909567,42.23432022515548 2.6305192191706825,42.234284508495406 2.630456426932323,42.23422670998402 2.630398665259554,42.23416013188633 2.6303331780753414,42.23407127229786 2.6303142236228467,42.23401247591456 2.6302950895072947,42.23396498648807 2.630262211167896,42.23384938882714 2.6302554738032655,42.23377037258266 2.6302581687491173,42.23367359750198</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+route: hiking
+bicycle: designated
+highway: path
+incline: up
+network: lwn
+surface: compacted
+segregated: no
+osmc:symbol: yellow_bar</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3577313273978133,43.708129298561076 1.3577064440644433,43.708085206703885</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: yes
+route: hiking
+bicycle: dismount
+highway: steps
+incline: up
+network: lwn
+surface: metal
+handrail: yes
+step_count: 27
+osmc:symbol: yellow_bar
+ramp:bicycle: yes
+handrail:both: yes
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3577064440644433,43.708085206703885 1.3576735657250445,43.70797929520307</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passerelle de la Garonne</name>
+      <description>name: Passerelle de la Garonne
+layer: 1
+route: hiking
+bridge: yes
+bicycle: dismount
+highway: path
+network: lwn
+surface: metal
+maxheight: 1.9
+segregated: no
+osmc:symbol: yellow_bar</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3576735657250445,43.70797929520307 1.3572192876858653,43.70645359037196</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: yes
+route: hiking
+bicycle: dismount
+highway: steps
+incline: up
+network: lwn
+surface: metal
+handrail: yes
+step_count: 27
+osmc:symbol: yellow_bar
+ramp:bicycle: yes
+handrail:both: yes
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3572192876858653,43.70645359037196 1.3571828160853299,43.70633670140306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3571828160853299,43.70633670140306 1.3571766177098696,43.70632111618999</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

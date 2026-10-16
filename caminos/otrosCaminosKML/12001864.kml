@@ -1,0 +1,226 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Savignol</name>
+      <description>name: Chemin de Savignol
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.494444313520452,43.50813230440625 1.4944379354819348,43.50801079447785 1.4943645431232222,43.50752911759354 1.4942841439052936,43.50725762292299 1.494114182653538,43.50703316816361 1.4939470960106918,43.506823698019865 1.493900383615918,43.5067677306018 1.4938486406555522,43.506715476923645</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Savignol</name>
+      <description>name: Chemin de Savignol
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4938486406555522,43.506715476923645 1.493812797875716,43.506544577109274 1.493817379283665,43.5063848834028 1.493907210812077,43.50612133248185 1.493993359247824,43.50578330800939 1.4939963236882616,43.50576512969289 1.4939977609927162,43.50574460578056</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Savignol</name>
+      <description>name: Chemin de Savignol
+layer: 1
+bridge: yes
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4939977609927162,43.50574460578056 1.4939947965522786,43.50570010470227</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Savignol</name>
+      <description>name: Chemin de Savignol
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4939947965522786,43.50570010470227 1.4939906643019716,43.50566439956741 1.4939716200179483,43.50553689036416 1.4939488028097316,43.50544990769234 1.4937959993799028,43.50512008911193 1.4937067966721898,43.504879793444516 1.4936910761547177,43.50481522359427 1.4935268641207808,43.50435033166504 1.4934357749509712,43.5040061073453 1.4933835828329638,43.50388230860543 1.493297524228745,43.50376137653861 1.4932484762142322,43.503692570254536</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Savignol</name>
+      <description>name: Chemin de Savignol
+highway: track
+surface: asphalt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4932484762142322,43.503692570254536 1.4931910738675767,43.50365419247301 1.4929363116530008,43.50338769752766 1.492768686020984,43.50320577658616 1.492698886923408,43.50311038515705 1.4926184877054791,43.50295283258958 1.492556144624761,43.502796191829525 1.4924950591854411,43.50261772251481 1.4923783680300338,43.502186305464335 1.4923542931804195,43.502052989739575 1.4923717204969316,43.501958704198344 1.4924133124945862,43.50184487066384 1.4924991016042195,43.50174563266784 1.4927003242278625,43.50157830257178 1.4928813347576126,43.501416771248614 1.4932702154441078,43.501096769840146</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Chanson</name>
+      <description>name: Chemin de la Chanson
+highway: track
+surface: dirt
+tracktype: grade3
+smoothness: bad
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4932702154441078,43.501096769840146 1.4936390636997674,43.50085456850166 1.4938053418588577,43.500743730276945 1.4940226443260864,43.50054127568687 1.4941848800663984,43.5004050892434 1.4946247850610317,43.500040316576715 1.494797800584753,43.499915792927084 1.495264475374853,43.499585097006516 1.4954831253150078,43.49941391635746 1.4956841682755937,43.499283526812675 1.49593102531567,43.49912687653243 1.4964030899974747,43.49878151466189 1.496699534041234,43.49857240686355 1.4969128839212125,43.498442080664674 1.4969448639453273,43.498422596873766 1.4971367440900152,43.498256169855125 1.4972680777845533,43.49815751243173 1.4973693179170737,43.498105707445404 1.497495441382964,43.49799401704691 1.4977341237539545,43.49782517778511 1.4978017668948487,43.49778099668847 1.498156601432076,43.49754458165735 1.4985743180391915,43.49728001467607 1.4991838249594667,43.49692968971713 1.4992971923483225,43.4968582038871</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Latié</name>
+      <description>name: Chemin Latié
+highway: track
+surface: ground
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4992971923483225,43.4968582038871 1.4993676202665973,43.49688687642709 1.499495720026113,43.49702698068804 1.4996713406641584,43.49719002253965 1.499712932661813,43.49721432890108 1.499768987535542,43.497234986042386 1.500321990424446,43.49732002561907 1.5006300227353706,43.49744598823555 1.500896373217112,43.497535328349 1.5010151304976724,43.49756263212098 1.5010854685844193,43.49757520879461</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Latié</name>
+      <description>name: Chemin Latié
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5010854685844193,43.49757520879461 1.5012135683439345,43.49757227640981 1.5013772413887012,43.4975791186408 1.501586369186844,43.49761020190902 1.5017071027610298,43.49764917000882 1.5018024140126751,43.49770266965004</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Labe</name>
+      <description>lit: no
+name: Chemin Labe
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5018024140126751,43.49770266965004 1.5018901794159336,43.49774600367304 1.501939766419617,43.4977736983331 1.502030316600256,43.4978451830793 1.5021579672021295,43.497951009020404 1.502230012087916,43.49800998213987 1.5029704933766157,43.498480005617566 1.5032089960845492,43.49867999092877 1.503646385796387,43.49911078140989 1.503774395724374,43.49921777805486 1.5038300912719895,43.49926938660023</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Moulin</name>
+      <description>lit: yes
+name: Chemin du Moulin
+highway: residential
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5038300912719895,43.49926938660023 1.50392396521918,43.49924410363149 1.5039564842324653,43.49923902097156</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue d'Occitanie</name>
+      <description>lit: yes
+ref: D 95b
+name: Avenue d'Occitanie
+lanes: 1
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5039564842324653,43.49923902097156 1.5039695996356133,43.49926397813101 1.5039960999364947,43.499285677167265 1.5040437106465534,43.49930203289215 1.5041479152195112,43.499321386074826</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue d'Occitanie</name>
+      <description>lit: yes
+ref: D 95b
+name: Avenue d'Occitanie
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5041479152195112,43.499321386074826 1.504467086639959,43.49939730001434 1.5047145725007336,43.49947660228526 1.5049925112496403,43.49958750799811 1.505082702104166,43.499612595337325 1.5052073882656019,43.49963246971555</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+highway: residential
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5052073882656019,43.49963246971555 1.505210083211454,43.49965931640624 1.5052184375435962,43.49969522057826</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5052184375435962,43.49969522057826 1.505263083813217,43.49969111538363</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Dansiere</name>
+      <description>lit: no
+name: Chemin de la Dansiere
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.505263083813217,43.49969111538363 1.505303867327116,43.49975282359732 1.5053736664246922,43.499797068412875 1.5055547667859706,43.50003158494247 1.5056834953661853,43.500201786421286 1.5057666793614943,43.50030878113287 1.5058966655831065,43.50040710923596 1.5060295264136279,43.500465493507676 1.5061528651021376,43.50051508099769 1.5063326179904897,43.50055789171517 1.506449309145897,43.50059392567455</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Dansiere</name>
+      <description>lit: no
+name: Chemin de la Dansiere
+width: 1.2
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.506449309145897,43.50059392567455 1.5065623172086393,43.50064840011842 1.5067240139597806,43.50071720987201 1.507329658124334,43.50103910294292</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Dansiere</name>
+      <description>lit: no
+name: Chemin de la Dansiere
+highway: residential
+surface: concrete
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.507329658124334,43.50103910294292 1.5073737654047843,43.50106953282662 1.5075800185940182,43.50120930158153 1.5077360559588697,43.50135200221426 1.5080032149243667,43.50159609119047 1.5081466758752406,43.50181717787112 1.5082525872472385,43.501946780031645 1.50829435890795,43.501972583143505 1.508338196693815,43.50197082384078 1.508501779907053,43.501919804039254 1.5085676264173793,43.50192801412517 1.5086118235293577,43.50194208855557 1.5086400306292793,43.50195818292334</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

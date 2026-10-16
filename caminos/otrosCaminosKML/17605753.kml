@@ -1,0 +1,369 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Le sentier de Montpezat</name>
+    <Placemark>
+      <name>Avenue des Pyrénées</name>
+      <description>ref: D 177
+name: Avenue des Pyrénées
+highway: primary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9306545445162958,43.141037692149 0.9306060354909533,43.141128868811855 0.9305462975245594,43.141241020509 0.9304796425304778,43.14136477386711</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue des Pyrénées</name>
+      <description>ref: D 177
+name: Avenue des Pyrénées
+highway: primary
+maxspeed: 50
+maxheight: 4.0</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9304796425304778,43.14136477386711 0.9303981653342082,43.141541292391985 0.930393314431674,43.14155191101704</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pont</name>
+      <description>ref: D 117
+name: Rue du Pont
+layer: 1
+bridge: yes
+highway: primary
+old_ref: N117
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.930393314431674,43.14155191101704 0.9303854990887019,43.14156711793366 0.9300994755022384,43.142120398047396</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue des Pyrénées</name>
+      <description>ref: D 177
+name: Avenue des Pyrénées
+highway: primary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9300994755022384,43.142120398047396 0.930080610881272,43.14216011918505</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pont</name>
+      <description>ref: D 52
+name: Rue du Pont
+oneway: yes
+highway: primary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.930080610881272,43.14216011918505 0.9300576140099983,43.1422006268533 0.929890257872567,43.142540090545765 0.929878939099987,43.14257922149709</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Arche</name>
+      <description>ref: D 52
+name: Rue de l'Arche
+oneway: yes
+highway: tertiary
+maxheight: 4.0</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.929878939099987,43.14257922149709 0.9298684288111627,43.14260511214625 0.9296175293523082,43.14308857703926 0.9295315605796179,43.143160218135925 0.929414689761154,43.143216128283875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Gascogne</name>
+      <description>name: Route de Gascogne
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.929414689761154,43.143216128283875 0.9291077354285705,43.14352051979848 0.9288020387373845,43.14368497186172 0.9285338017935465,43.14392270230068 0.9284746926478514,43.143945184067164 0.9284346277861797,43.14394131694174</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Gascogne</name>
+      <description>ref: D 52
+name: Route de Gascogne
+oneway: no
+highway: tertiary
+maxheight: 4.0</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9284346277861797,43.14394131694174 0.9281395312153464,43.144389508595175 0.9280055924064841,43.1445780784506 0.9275408939100093,43.145270217251245 0.9274381266415059,43.14541768899432 0.9273323051010366,43.14551606883487 0.927242563404153,43.14557807230395 0.9270972159911826,43.145650169281936 0.9267936752566786,43.14575352998294</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>source: Bing
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9267936752566786,43.14575352998294 0.9268128992037585,43.14577863277742 0.9269227631630066,43.14587589781585</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Paillon</name>
+      <description>name: Chemin de Paillon
+source: Bing
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9269227631630066,43.14587589781585 0.927740409734612,43.14650811679332 0.9278570110584908,43.146616129499776 0.9278865656313383,43.14673357999312 0.9279013878335263,43.14705630552154 0.9280164620214221,43.147304509394125 0.9281987301925698,43.14757309539101 0.9283693202650243,43.14786442269414 0.9283899815165588,43.14798547549815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: Bing
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9283899815165588,43.14798547549815 0.9286073738153158,43.148002188237854 0.9294711039609967,43.147819068793545 0.9298874730951863,43.1477568054359 0.9308948438547979,43.14776709527938 0.9310380353110863,43.147711385914995 0.9317530942772456,43.14771643253009 0.9324879161796554,43.14777797498462 0.9331462016198581,43.14778538104791 0.933513612571063,43.147839582917484 0.9339006966269902,43.14791849341316 0.9342434039078817,43.14793828656138 0.9345072391068276,43.14794569260525 0.9347488859182559,43.148012215879476 0.9350890779163519,43.14808372012603 0.9354071713584585,43.148175017360494 0.9356562741867449,43.14829089190248 0.9358954057153775,43.14846352358985 0.936073002647048,43.14862619278987 0.9362308366424678,43.148710017724326 0.9364131946451439,43.14881612590104 0.9366622974734303,43.14904040088524 0.9367929125157414,43.149104498026425 0.936963143262082,43.14913169669077 0.9380996917595501,43.14906019367017 0.9382822294252833,43.149079920909685 0.9385607969948886,43.149171085578395 0.9388395442275509,43.149222926821096 0.9390466059005405,43.14930668539843 0.9394238084883422,43.14946450249989 0.939581642483762,43.149568118905115 0.9397171982601357,43.14973078516544 0.939816731593616,43.14983132082461 0.9399182412207217,43.14990537892931 0.94010500096829,43.14994981374906 0.940490737551291,43.149958726924346 0.9408400025337565,43.14996462534846 0.9412257391167576,43.14999129932595 0.9415872211870872,43.1500179077538 0.9418494394185217,43.15006339109874</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>source: Bing
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9418494394185217,43.15006339109874 0.9419108841839554,43.15003737253236 0.9421507343648154,43.150065684926474 0.9424131322593068,43.150061031732974 0.9425585695038057,43.15002406832412</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Montpezat</name>
+      <description>name: Chemin de Montpezat
+bicycle: yes
+highway: path
+mtb:scale: 0
+sac_scale: hiking
+mtb:scale:uphill: 2
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9425585695038057,43.15002406832412 0.942530092909299,43.149886503951855 0.942055602776227,43.149886503951855 0.9417905997674118,43.14983708818466 0.940810897118551,43.14954033058849 0.9400899092715168,43.1492210917336 0.9393134953714523,43.14873557808021 0.938870985262495,43.148303803249036 0.9387293209421894,43.14809368221424 0.937964944466932,43.147290024854655</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: Chemin de Montpezat
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.937964944466932,43.147290024854655 0.9379276643826412,43.14706469478956 0.9378849944066454,43.14683261312994 0.9378849944066454,43.14654586882892 0.9379301796654368,43.146309918223885 0.9379520985583691,43.14612082937329 0.9379678190758413,43.14600331216034 0.9379674597497276,43.14585000855187 0.9379243406160898,43.14567042196317 0.9377974086664438,43.1454732693634 0.9377621048757778,43.14535522656168 0.9377587811092266,43.145125694597866 0.9377559065003174,43.14479129211899 0.9377390181729761,43.14471631020665</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>ref: Chemin de Montpezat
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9377390181729761,43.14471631020665 0.937665985140377,43.14463320077675 0.9375174936239121,43.144496672974356 0.937302436944894,43.14433982620763 0.9372693789424383,43.144318524380026 0.9372509634791139,43.14429519067726 0.9372478193756194,43.14427618287912 0.9372564432023471,43.14424871987754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Toulouse</name>
+      <description>ref: D 817
+name: Avenue de Toulouse
+highway: primary
+old_ref: N117
+maxspeed: 50
+source:maxspeed: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9372564432023471,43.14424871987754 0.9367330847178189,43.144156892424725 0.9361037250297648,43.14404173103447</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9361037250297648,43.14404173103447 0.9360942927192815,43.14406912858466 0.9361575341152836,43.14412071197717 0.9363670212395403,43.144191696422006 0.9366410972327252,43.144308823852995</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: strava heatmap
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9366410972327252,43.144308823852995 0.9368451046337486,43.144430276962176 0.9368822050549829,43.144581290097605 0.9368741202174259,43.14469087925744 0.936348426113159,43.145000113638396 0.9360962690129065,43.14508807277173 0.934964391754916,43.14533857864126 0.9341222211760539,43.145501125071824 0.9330922128712825,43.14564387718542 0.9323385263479061,43.145704569672674 0.9317027886213348,43.145712369242794 0.9310886104615823,43.14566937328082 0.9307529998714353,43.14561307212024</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9307529998714353,43.14561307212024 0.9311628113040507,43.14550309135665</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9311628113040507,43.14550309135665 0.9318708634109937,43.144741675601615</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9318708634109937,43.144741675601615 0.9313849646738135,43.14484412022927 0.9309957246612044,43.144807874644876 0.9304664372958013,43.14477628263515</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9304664372958013,43.14477628263515 0.9309957246612044,43.144807874644876 0.9313849646738135,43.14484412022927 0.9318708634109937,43.144741675601615</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9318708634109937,43.144741675601615 0.9311628113040507,43.14550309135665</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9311628113040507,43.14550309135665 0.9307529998714353,43.14561307212024</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9307529998714353,43.14561307212024 0.9305895963212539,43.14565692017643 0.9301695440943998,43.1457790260326 0.929909212325062,43.145850795061314 0.9296328007121383,43.145872292982276 0.9292845238764851,43.14585970883433 0.9289900561263508,43.14579508395045 0.9286866950549035,43.145698212039136 0.9285857244169685,43.145645974551</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Vierge</name>
+      <description>name: Chemin de la Vierge
+source: Bing
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9285857244169685,43.145645974551 0.9284013901206672,43.14559321267639 0.9279777446326763,43.145590918680796 0.9276686343434111,43.14562382112348 0.9273506307328326,43.145664392039365 0.9271404249563487,43.145750908280576 0.9269966945108896,43.14582687206111 0.9269227631630066,43.14587589781585</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>source: Bing
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9269227631630066,43.14587589781585 0.9268128992037585,43.14577863277742 0.9267936752566786,43.14575352998294</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Gascogne</name>
+      <description>ref: D 52
+name: Route de Gascogne
+oneway: no
+highway: tertiary
+maxheight: 4.0</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9267936752566786,43.14575352998294 0.9270972159911826,43.145650169281936 0.927242563404153,43.14557807230395 0.9273323051010366,43.14551606883487 0.9274381266415059,43.14541768899432 0.9275408939100093,43.145270217251245 0.9280055924064841,43.1445780784506 0.9281395312153464,43.144389508595175 0.9284346277861797,43.14394131694174</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Gascogne</name>
+      <description>name: Route de Gascogne
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9284346277861797,43.14394131694174 0.9284746926478514,43.143945184067164 0.9285338017935465,43.14392270230068 0.9288020387373845,43.14368497186172 0.9291077354285705,43.14352051979848 0.929414689761154,43.143216128283875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Arche</name>
+      <description>ref: D 52
+name: Rue de l'Arche
+oneway: yes
+highway: tertiary
+maxheight: 4.0</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.929414689761154,43.143216128283875 0.9295315605796179,43.143160218135925 0.9296175293523082,43.14308857703926 0.9298684288111627,43.14260511214625 0.929878939099987,43.14257922149709</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pont</name>
+      <description>ref: D 52
+name: Rue du Pont
+oneway: yes
+highway: primary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.929878939099987,43.14257922149709 0.929890257872567,43.142540090545765 0.9300576140099983,43.1422006268533 0.930080610881272,43.14216011918505</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue des Pyrénées</name>
+      <description>ref: D 177
+name: Avenue des Pyrénées
+highway: primary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.930080610881272,43.14216011918505 0.9300994755022384,43.142120398047396</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pont</name>
+      <description>ref: D 117
+name: Rue du Pont
+layer: 1
+bridge: yes
+highway: primary
+old_ref: N117
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9300994755022384,43.142120398047396 0.9303854990887019,43.14156711793366 0.930393314431674,43.14155191101704</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue des Pyrénées</name>
+      <description>ref: D 177
+name: Avenue des Pyrénées
+highway: primary
+maxspeed: 50
+maxheight: 4.0</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.930393314431674,43.14155191101704 0.9303981653342082,43.141541292391985 0.9304796425304778,43.14136477386711</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue des Pyrénées</name>
+      <description>ref: D 177
+name: Avenue des Pyrénées
+highway: primary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9304796425304778,43.14136477386711 0.9305462975245594,43.141241020509 0.9306060354909533,43.141128868811855 0.9306545445162958,43.141037692149</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

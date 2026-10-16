@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+surface: asphalt
+maxspeed: 30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4115707759731762,43.69098940856245 1.4116465039516273,43.69093211822224 1.411723220076891,43.69091958189335</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Salgareda</name>
+      <description>name: Rue de Salgareda
+bicycle: designated
+footway: sidewalk
+highway: footway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.411723220076891,43.69091958189335 1.4117711901130632,43.690889507684304 1.4118493435427817,43.6907796035351 1.4121907931822753,43.69030510369975 1.4123048792233586,43.69018519527585 1.4129080979366446,43.68949282661657 1.4135247015476644,43.68876738665237 1.413964606542298,43.688228627476924 1.4140595584678293,43.68810637640926 1.414124506662871,43.68805551417541</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

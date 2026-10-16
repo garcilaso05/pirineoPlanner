@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sentier Raccourcis de Gouetsoule PNP</name>
+    <Placemark>
+      <name>Raccourci Gouetsoule</name>
+      <description>name: Raccourci Gouetsoule
+highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.531869842182009,42.835990407774 -0.5315274942272309,42.83594008022928 -0.5313069578249795,42.83577302410637 -0.5311979921810159,42.83573178699708 -0.5311629578849352,42.83577019152627 -0.5312473995216425,42.835876973119206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Raccourci Gouetsoule</name>
+      <description>name: Raccourci Gouetsoule
+highway: path
+name:oc: Embrac de Gueitasola
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5312473995216425,42.835876973119206 -0.5309858999424352,42.83585319265705 -0.5305624341175013,42.83574660864496 -0.5297038243689398,42.83570932395951 -0.5293609374249915,42.83577980912332 -0.5289038746084315,42.83574996821799 -0.5285905422373305,42.835767688315826 -0.5282762217194171,42.83586518170006 -0.5280087034278064,42.836021104921194 -0.5272676831499361,42.83623947581799 -0.5261244871193657,42.83653412709003 -0.5259185932562453,42.836536498523145 -0.5249320634112253,42.83672647636884 -0.5245135383203541,42.83706802660929</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

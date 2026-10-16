@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue des Pyrénées</name>
+      <description>name: Avenue des Pyrénées
+highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.344442459568305,43.52487989535479 1.3443758045742233,43.52488543179817 1.3442769898929703,43.524937669744716</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Hôtel de Ville</name>
+      <description>name: Rue de l'Hôtel de Ville
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3442769898929703,43.524937669744716 1.344248782793049,43.52501739440388 1.3441658682923243,43.52505947126484 1.3436559845370586,43.52527877851552 1.3432964787603536,43.525449495012644 1.34324069338121,43.525478414508754 1.3432015268348223,43.52549736849531</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Hôtel de Ville</name>
+      <description>name: Rue de l'Hôtel de Ville
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3432015268348223,43.52549736849531 1.343290909205592,43.52559441802385 1.343299802526905,43.5256265941418</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

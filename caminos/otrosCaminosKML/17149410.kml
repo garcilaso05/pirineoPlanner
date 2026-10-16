@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Les Broutières - Vachère</name>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.592367036149705,44.29131542446864 4.592570774056142,44.291557325390116 4.592598801493007,44.2917924094352 4.592797419002325,44.29233947774405 4.5928874301937945,44.292566199670404 4.592904677847249,44.29269287035989 4.592978609195133,44.292872587950534 4.593109583563558,44.29335689036202 4.5932723582930395,44.293785827731476 4.593493882842104,44.2941122063982 4.594021463408467,44.295958307844586 4.594060540123326,44.29621472052116 4.594119200111379,44.2963825969203 4.594063774058349,44.296493378363984</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Piboulette</name>
+      <description>name: Chemin de la Piboulette
+highway: unclassified
+ref:FR:FANTOIR: 072680176</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.594063774058349,44.296493378363984 4.593982386693607,44.29650379425217 4.592621079712052,44.29678347944792 4.592829488857968,44.29731487764976 4.593051013407033,44.297972287403034 4.593059008413062,44.298084994663675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.593059008413062,44.298084994663675 4.594986074360554,44.298022308107875 4.59592876641971,44.29786170163183 4.596343428754859,44.29778081958127 4.596754318165815,44.29775137282931 4.597011056674017,44.29776127414057 4.597297888744236,44.29779592871682 4.597589841211574,44.29789918508808 4.597814240369549,44.29790452149586 4.597952670754831,44.29785282904349</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+bridge: yes
+source: BDOrtho IGN Photo
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.597952670754831,44.29785282904349 4.598048610827174,44.29781489549851</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.598048610827174,44.29781489549851 4.598128471055933,44.29780280819428</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Ruisseau</name>
+      <description>name: Chemin du Ruisseau
+highway: unclassified
+ref:FR:FANTOIR: 072590180</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.598128471055933,44.29780280819428 4.598442701742318,44.29788838368291 4.599295741936118,44.298049118673774 4.600087966185183,44.29812498543661 4.600335541877486,44.298084930369804 4.60103901257648,44.29771710399239 4.601108901505585,44.29768830015151</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Bégude</name>
+      <description>name: Chemin de la Bégude
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.601108901505585,44.29768830015151 4.601250835320476,44.29772732678074 4.601353602588979,44.29778409858549 4.601414328702186,44.29781418826269</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Bégude</name>
+      <description>name: Chemin de la Bégude
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.601414328702186,44.29781418826269 4.601517006139161,44.298111676613274 4.601717779605162,44.29906758964289 4.601764491999935,44.29943187147875 4.601722540676167,44.299652522561196 4.601531019857593,44.300023487109975 4.601386211433792,44.30032758628302 4.601073867209505,44.30086962468755 4.600865458063589,44.301301014504105 4.6008596190142415,44.30131200815249 4.600842281529258,44.30134441047262</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Chambéry</name>
+      <description>name: Chemin de Chambéry
+highway: residential
+ref:FR:FANTOIR: 072590032</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.600842281529258,44.30134441047262 4.600797635259637,44.30138799927983 4.600752899158487,44.30143152376446 4.600637735139064,44.30174461622594 4.60062210445312,44.30200138937218 4.600747060109141,44.30334779061851</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-Martin</name>
+      <description>name: Route de Saint-Martin
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.600747060109141,44.30334779061851 4.600816859206717,44.303363926930935</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

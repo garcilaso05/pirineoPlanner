@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: parking_aisle</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.424086463837643,43.68459872994971 1.42412509139486,43.684560792174054 1.4241558137775767,43.684510901364064 1.4241818649208164,43.684454904077384 1.424189231106146,43.684402999353146 1.4241719834526911,43.684287691450855</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4241719834526911,43.684287691450855 1.4240861045115294,43.68386478564172 1.4240599635367615,43.683665024948624 1.424064904270824,43.6835807029995 1.4241120658232402,43.68342232293185 1.4241152099267347,43.68322230091176 1.424097423284109,43.683137393668794</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.424097423284109,43.683137393668794 1.4240345412142206,43.68307067611048 1.4239287196737513,43.682979727031245 1.4238070877842817,43.68290397933573 1.4236716218394363,43.68284557688768 1.423602810888673,43.68283420821766 1.4235377728621026,43.682835832313515 1.4234804603469757,43.68285772512127 1.4233722133552396,43.68290319977061 1.4228042086010906,43.68327680519185 1.42273297219906,43.68331402918304 1.4226690121508307,43.68331402918304 1.4226270608270624,43.68329499492865 1.4226019978306352,43.68324419357848 1.4226251743649658,43.683143890019096 1.4227779777947946,43.68289871727099 1.422834571657694,43.68278730431057 1.4228743670247803,43.68271071184051 1.4228838891667919,43.68266517208125 1.4228608024639902,43.68259397147539 1.4228371767720178,43.68246358839505 1.4227953152797779,43.68237952461455 1.4227078193711045,43.68225901566654 1.4226098131736074,43.682144223359956 1.422544325989395,43.682090432661944 1.422514501921962,43.68205483202852 1.4225191731614395,43.68200402962819 1.422563729599532,43.68193997436645</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.422563729599532,43.68193997436645 1.4224722811036088,43.68188917186886</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+layer: 1
+bridge: yes
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4224722811036088,43.68188917186886 1.422435540008488,43.681868902829684</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.422435540008488,43.681868902829684 1.4223604408507355,43.681849803151884 1.4223231607664448,43.68185552006288 1.422283365399358,43.681869097724324 1.422225244400476,43.681901710085185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse Georges Carpentier</name>
+      <description>name: Impasse Georges Carpentier
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.422225244400476,43.681901710085185 1.4218351060725825,43.68202098542132 1.4216744872997817,43.68208211718741 1.4214202640743763,43.68218878904666 1.4211496016792708,43.682335998499525</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

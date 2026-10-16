@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Faouria</name>
+      <description>name: Chemin de Faouria
+highway: track
+surface: asphalt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5883682968722677,43.481940902920925 1.5883294896519935,43.48195850178168 1.5878512265947284,43.48217561915701 1.5874567763534715,43.482359884777296 1.5870941264732725,43.48251058195913 1.5858779872416313,43.48300210505948</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Faouria</name>
+      <description>name: Chemin de Faouria
+layer: 1
+bridge: yes
+highway: track
+surface: concrete
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5858779872416313,43.48300210505948 1.585796330382305,43.48303899683221</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Faouria</name>
+      <description>name: Chemin de Faouria
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.585796330382305,43.48303899683221 1.585627357277362,43.48315957932442 1.5848998117287536,43.48374782289627 1.5841023772510407,43.48433540895637 1.583903130921023,43.484358416924316 1.5832090027009837,43.484233469865515 1.5828459036631428,43.48424552788715 1.5825828769479526,43.48444881925173 1.5823237129884842,43.484678572214776 1.5821090156355795,43.48486921762712</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Faouria</name>
+      <description>name: Chemin de Faouria
+highway: track
+surface: grass
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5821090156355795,43.48486921762712 1.5815649958995168,43.4845811309939 1.5809774078721741,43.48445149156072 1.5801441306146249,43.48432791344084 1.5791376581702972,43.484669316935 1.5788190257390202,43.48478552925353 1.5781033379521623,43.484898612814945</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Faouria</name>
+      <description>name: Chemin de Faouria
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5781033379521623,43.484898612814945 1.5774995802497056,43.48515280563848 1.5754893303069029,43.48542883176239</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,941 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Camí vell d'Avinyonet</name>
+      <description>name: Camí vell d'Avinyonet
+source: PNOA
+highway: track
+name:ca: Camí vell d'Avinyonet
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.93586439958588,42.26281228528385 2.9361615622818666,42.26289232885996 2.9363642222099644,42.262953292213126 2.936573709334221,42.26300667664955 2.9370508045816166,42.26313019862181 2.9383847129470055,42.26352908385493 2.9389405006132905,42.26364156903448 2.9393103370157627,42.2636994070806 2.9402269779316783,42.26372167803824 2.9411676038656798,42.26369442104424 2.941272167764751,42.263717423288725 2.941643082145564,42.26379899476443</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí vell d'Avinyonet</name>
+      <description>name: Camí vell d'Avinyonet
+layer: 1
+bridge: yes
+source: PNOA
+highway: track
+name:ca: Camí vell d'Avinyonet
+surface: asphalt
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.941643082145564,42.26379899476443 2.9423680225798483,42.2640371270261</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí vell d'Avinyonet</name>
+      <description>name: Camí vell d'Avinyonet
+source: PNOA
+bicycle: yes
+highway: track
+name:ca: Camí vell d'Avinyonet
+surface: asphalt
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9423680225798483,42.2640371270261 2.9424399776341064,42.26405640625974 2.9426157779352087,42.26378257410909 2.9427452251676507,42.26349517870825 2.942984177033226,42.26293766911297 2.9432309442417735,42.262413727925 2.94341276325528,42.26195466916276 2.9438128728828263,42.26118220633167 2.944067724928931,42.26061842681378 2.944260772883488,42.26015589780125 2.944303712354069,42.25999713328732 2.944349256938974,42.2597847153162 2.944349256938974,42.25956830753934 2.944528560669684,42.25897712158714 2.944647138287188,42.25847528732699 2.9447140627758555,42.25813102192797 2.9447060677698262,42.25798023069779 2.9446819030886835,42.25775191560037 2.9447140627758555,42.257561297790645 2.9448294962898642,42.257249606178846 2.9448938156642073,42.257192094652936 2.9451351929810503,42.25705898685077 2.9453765702978933,42.25694589153934 2.9455777929215357,42.256866505291285 2.9456878365438404,42.25686251602996 2.9458594147631074,42.25689230250848 2.94607986133383,42.25694090496891 2.9461705911775264,42.25698558462588 2.9462623091680347,42.2570452239401 2.9463125249924174,42.25710812108218 2.9463428880490206,42.25717979449319 2.9463493559190663,42.25725838249958 2.946328155678361,42.25733796771588 2.9463016553774795,42.25742440100327 2.946320070840804,42.257513826087454 2.9463940920202156,42.25760331753173 2.946546086966288,42.257725187919895 2.9466148080855232,42.25782199259938</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9466148080855232,42.25782199259938 2.9466835292047584,42.25787072731654 2.9467939321531764,42.25790902360264</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>lanes: 1
+oneway: yes
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9467939321531764,42.25790902360264 2.9469234692171473,42.25793561823208 2.9470301890729007,42.257962478796436</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+lanes: 2
+source: survey
+highway: primary
+surface: asphalt
+junction: roundabout
+maxspeed: 40
+cycleway:right: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9470301890729007,42.257962478796436 2.9470458197588445,42.257976108533875 2.9470634267384126,42.257988209078796</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+lanes: 2
+source: survey
+highway: primary
+surface: asphalt
+junction: roundabout
+maxspeed: 40
+cycleway:right: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9470634267384126,42.257988209078796 2.947089657544709,42.25800177232417 2.947118493465329,42.25801221070222 2.947149126016518,42.25801899232269 2.947180836546047,42.258022183673255 2.9472128165701617,42.25802158529504</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+lanes: 2
+source: survey
+highway: primary
+surface: asphalt
+junction: roundabout
+maxspeed: 40
+cycleway:right: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9472128165701617,42.25802158529504 2.9472273692777646,42.2580201225927 2.947241832153839,42.25801792853915 2.9472559357038,42.25801480367484 2.947269590096118,42.25801101394559 2.9472829749938514,42.25800649286478</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eix Pirinenc - Carretera d'Olot</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+name: Eix Pirinenc - Carretera d'Olot
+lanes: 1
+oneway: yes
+source: survey
+highway: primary
+surface: asphalt
+maxspeed: 50
+cycleway:right: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9472829749938514,42.25800649286478 2.947335706101029,42.25803109285938 2.947432005499487,42.25808129011589 2.9474769212636933,42.258123708428656 2.947812621685369,42.25844098054652 2.9479401824557137,42.258564112547866 2.9480174375701473,42.25863857670848 2.9482513588701327,42.25882247621409</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eix Pirinenc - Carretera d'Olot</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+name: Eix Pirinenc - Carretera d'Olot
+lanes: 2
+highway: primary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9482513588701327,42.25882247621409 2.948307773069975,42.25887819114285 2.948355743106147,42.25892572830446 2.948521841602181,42.259093205096036</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eix Pirinenc - Carretera d'Olot</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+name: Eix Pirinenc - Carretera d'Olot
+lanes: 2
+highway: primary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.948521841602181,42.259093205096036 2.948766003696405,42.25932849627209 2.9490185201227703,42.25957203069017 2.9491102381132794,42.25966191812199 2.9494745049609894,42.260019272583975</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eix Pirinenc - Carretera d'Olot</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+name: Eix Pirinenc - Carretera d'Olot
+lanes: 2
+highway: primary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9494745049609894,42.260019272583975 2.9495370277047646,42.260078776060496 2.9496618935292567,42.26019858065516 2.949948995094062,42.260477215211154 2.94998528703154,42.26051251814146</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eix Pirinenc - Carretera d'Olot</name>
+      <description>hgv: delivery
+lit: no
+ref: N-260
+name: Eix Pirinenc - Carretera d'Olot
+lanes: 2
+highway: primary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.94998528703154,42.26051251814146 2.950047180954616,42.26057268599031</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eix Pirinenc - Carretera d'Olot</name>
+      <description>hgv: delivery
+lit: no
+ref: N-260
+name: Eix Pirinenc - Carretera d'Olot
+lanes: 2
+highway: primary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.950047180954616,42.26057268599031 2.9504704671164927,42.26098628022403</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eix Pirinenc - Carretera d'Olot</name>
+      <description>hgv: delivery
+lit: no
+ref: N-260
+name: Eix Pirinenc - Carretera d'Olot
+lanes: 2
+highway: primary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9504704671164927,42.26098628022403 2.95050909467371,42.26102530593434</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eix Pirinenc - Carretera d'Olot</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+name: Eix Pirinenc - Carretera d'Olot
+lanes: 2
+highway: primary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.95050909467371,42.26102530593434 2.9505426916653357,42.26106001020839</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eix Pirinenc - Carretera d'Olot</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+name: Eix Pirinenc - Carretera d'Olot
+lanes: 1
+oneway: yes
+highway: primary
+surface: asphalt
+maxspeed: 50
+cycleway:right: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9505426916653357,42.26106001020839 2.9505888650709395,42.26112336872843 2.9506145568880653,42.261152288913145 2.950702501954381,42.26123738731081 2.950760892447849,42.26129449624921 2.9507972742168556,42.26133072948366</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+lanes: 2
+source: survey
+highway: primary
+surface: asphalt
+junction: roundabout
+maxspeed: 40
+cycleway:right: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9507972742168556,42.26133072948366 2.950799609836594,42.26133950523639 2.95080266410856,42.26134801505606</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+lanes: 2
+source: survey
+highway: primary
+surface: asphalt
+junction: roundabout
+maxspeed: 40
+cycleway:right: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.95080266410856,42.26134801505606 2.9508120964190434,42.26136510117489 2.9508252118221914,42.261380924113496 2.950841471328834,42.26139488552661 2.9508606952759147,42.26140671948388 2.950882165011205,42.26141609357205 2.950905521208592,42.261422808343575</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+lanes: 2
+source: survey
+highway: primary
+surface: asphalt
+junction: roundabout
+maxspeed: 40
+cycleway:right: no
+source:highway: survey</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.950905521208592,42.261422808343575 2.9509151331821317,42.261424669864255 2.950924834987201,42.26142613248763 2.9509346266237975,42.261426996765046</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Empordà</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+name: Carrer de l'Empordà
+lanes: 1
+oneway: yes
+highway: secondary
+name:ca: Carrer de l'Empordà
+surface: asphalt
+maxspeed: 40
+start_date: 1853
+cycleway:right: no
+source:highway: survey
+maxweightrating:hgv: 5.5
+name:etymology:wikidata: Q597320</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9509346266237975,42.261426996765046 2.950995981557703,42.26146987820702 2.9510555398610396,42.26152592321048 2.9511308186818495,42.26161301558435</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Empordà</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+name: Carrer de l'Empordà
+lanes: 2
+highway: secondary
+name:ca: Carrer de l'Empordà
+surface: asphalt
+maxspeed: 50
+start_date: 1853
+cycleway:both: no
+parking:lane:both: no_parking
+maxweightrating:hgv: 5.5
+name:etymology:wikidata: Q597320</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9511308186818495,42.26161301558435 2.951200527947897,42.261689803035594</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Empordà</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+name: Carrer de l'Empordà
+lanes: 2
+highway: secondary
+name:ca: Carrer de l'Empordà
+surface: asphalt
+maxspeed: 50
+start_date: 1853
+parking:lane:both: no_parking
+maxweightrating:hgv: 5.5
+name:etymology:wikidata: Q597320</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.951200527947897,42.261689803035594 2.951387826684636,42.26188340007329 2.951656512786116,42.26215092467186</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Empordà</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+name: Carrer de l'Empordà
+lanes: 2
+highway: secondary
+name:ca: Carrer de l'Empordà
+surface: asphalt
+maxspeed: 50
+start_date: 1853
+parking:lane:both: no_parking
+maxweightrating:hgv: 5.5
+name:etymology:wikidata: Q597320</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.951656512786116,42.26215092467186 2.9520531189840544,42.26253598790646 2.952104682281363,42.26258611509516</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Empordà</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+name: Carrer de l'Empordà
+lanes: 2
+highway: secondary
+name:ca: Carrer de l'Empordà
+surface: asphalt
+maxspeed: 50
+start_date: 1853
+maxweightrating:hgv: 5.5
+name:etymology:wikidata: Q597320</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.952104682281363,42.26258611509516 2.9521230977446877,42.26260280198865</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Empordà</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+name: Carrer de l'Empordà
+lanes: 2
+highway: secondary
+name:ca: Carrer de l'Empordà
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+start_date: 1853
+parking:lane:both: no_parking
+maxweightrating:hgv: 5.5
+name:etymology:wikidata: Q597320</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9521230977446877,42.26260280198865 2.952594623437322,42.26306970080772 2.9528667231368817,42.263335425389435 2.952945235892714,42.26341201130065 2.9530677660974676,42.263531676600685</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Empordà</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+name: Carrer de l'Empordà
+lanes: 2
+highway: secondary
+name:ca: Carrer de l'Empordà
+surface: asphalt
+maxspeed: 50
+start_date: 1853
+cycleway:both: no
+parking:lane:both: no_parking
+maxweightrating:hgv: 5.5
+name:etymology:wikidata: Q597320</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9530677660974676,42.263531676600685 2.9531927217534886,42.263646422113965</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Empordà</name>
+      <description>hgv: delivery
+lit: yes
+ref: N-260
+name: Carrer de l'Empordà
+lanes: 2
+highway: secondary
+name:ca: Carrer de l'Empordà
+surface: asphalt
+maxspeed: 50
+start_date: 1853
+lanes:forward: 1
+lanes:backward: 1
+parking:lane:both: no_parking
+maxweightrating:hgv: 5.5
+name:etymology:wikidata: Q597320</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9531927217534886,42.263646422113965 2.953350555748908,42.2637944740986 2.9534122700089274,42.26384912094896 2.953449639924747,42.263882095181245 2.95352923065892,42.263940996690366 2.953638735292054,42.264006413200335 2.9538402274102817,42.2641032082369 2.955009474584092,42.264587380629216 2.955193719048865,42.264663632622316</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Damas Calvet</name>
+      <description>name: Carrer de Damas Calvet
+lanes: 2
+oneway: yes
+highway: residential
+name:ca: Carrer de Damas Calvet
+surface: asphalt
+maxspeed: 30
+start_date: 1919
+parking:lane:both: no_parking
+name:etymology:wikidata: Q11916522</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.955193719048865,42.264663632622316 2.9551739561126147,42.26472273283949 2.95503166297161,42.26514853197926 2.9550155831280245,42.26519659624484</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Damas Calvet</name>
+      <description>name: Carrer de Damas Calvet
+oneway: yes
+highway: residential
+name:ca: Carrer de Damas Calvet
+surface: asphalt
+maxspeed: 30
+start_date: 1919
+parking:lane:left: parallel
+name:etymology:wikidata: Q11916522</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9550155831280245,42.26519659624484 2.954851101599502,42.26567810110448 2.95482406230945,42.26575701091092</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Damas Calvet</name>
+      <description>lit: yes
+name: Carrer de Damas Calvet
+oneway: no
+highway: residential
+name:ca: Carrer de Damas Calvet
+surface: asphalt
+maxspeed: 30
+start_date: 1919
+parking:lane:both: no_parking
+name:etymology:wikidata: Q11916522</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.95482406230945,42.26575701091092 2.954733781623396,42.26601760535771</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>kerb: flush
+footway: crossing
+highway: footway
+crossing: uncontrolled
+tactile_paving: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.954733781623396,42.26601760535771 2.9548113062324157,42.26603708341979 2.9547867822251583,42.26609139593649</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+kerb: flush
+noname: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9547867822251583,42.26609139593649 2.9547421359555384,42.26619071393048</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig Nou</name>
+      <description>lit: yes
+name: Passeig Nou
+highway: pedestrian
+name:ca: Passeig Nou
+surface: asphalt
+start_date: 2014
+name:1936-1939: passeig de Mèxic
+name:1967-1979: passeig Jaume I</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9547421359555384,42.26619071393048 2.9561303923956164,42.26643960652927 2.9562628040684955,42.266462607772176 2.9563980005187553,42.26648600787196 2.957979484576448,42.26676042657579</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig Nou</name>
+      <description>lit: yes
+name: Passeig Nou
+footway: crossing
+highway: footway
+name:ca: Passeig Nou
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.957979484576448,42.26676042657579 2.958080275551326,42.2667779100913 2.9581630103889935,42.26678881235707</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9581630103889935,42.26678881235707 2.9581899598475174,42.26674300953271</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Pep Ventura</name>
+      <description>lit: yes
+foot: yes
+name: Carrer de Pep Ventura
+oneway: yes
+bicycle: yes
+highway: pedestrian
+name:ca: Carrer de Pep Ventura
+surface: asphalt
+name:1908: Carrer de Pep Ventura
+start_date: C19
+name:etymology:wikidata: Q7161</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9581899598475174,42.26674300953271 2.9585620420381997,42.266784491337326 2.9592627279598127,42.26688281108252 2.9594628726051146,42.26691997178469 2.9595649212213906,42.266938917751425</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pujada del Castell</name>
+      <description>name: Pujada del Castell
+oneway: yes
+highway: residential
+name:ca: Pujada del Castell
+surface: asphalt
+maxspeed: 30
+name:1977: Pujada del Castell
+start_date: 1267
+name:1918-1939: president Wilson dels Estats Units
+name:1939-1977: calle General Mola</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9595649212213906,42.266938917751425 2.9596736173707687,42.26684252593163 2.9598551668896893,42.26667526915527 2.9600368062401383,42.26650030054227</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pujada del Castell</name>
+      <description>lit: yes
+name: Pujada del Castell
+oneway: yes
+highway: residential
+name:ca: Pujada del Castell
+surface: cobblestone
+maxspeed: 30
+name:1977: Pujada del Castell
+start_date: 1267
+name:1918-1939: president Wilson dels Estats Units
+name:1939-1977: calle General Mola</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9600368062401383,42.26650030054227 2.9601298717035736,42.26640031825967</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>La Rambla</name>
+      <description>lit: yes
+name: La Rambla
+oneway: yes
+highway: living_street
+name:ca: La Rambla
+surface: sett
+maxspeed: 20
+old_name: Rambla de Sara Jordà
+wikidata: Q18006102
+wikipedia: ca:Rambla de Figueres</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9601298717035736,42.26640031825967 2.960311600885551,42.26642670987494</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>lit: yes
+noname: yes
+highway: pedestrian
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.960311600885551,42.26642670987494 2.9603145653259886,42.266401581334705 2.9603167212826706,42.2663846960137 2.9603355859036364,42.26626250997329</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>lit: yes
+noname: yes
+highway: pedestrian
+surface: paving_stones
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9603355859036364,42.26626250997329 2.9611066099119965,42.266339624150405 2.961698779347288,42.26640610181359</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>lit: yes
+noname: yes
+highway: pedestrian
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.961698779347288,42.26640610181359 2.961766602151239,42.266439872439626</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+ramp: no
+highway: steps
+incline: up
+surface: sett
+handrail: no
+step_count: 4
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.961766602151239,42.266439872439626 2.9617825023317677,42.26644273097605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>lit: yes
+noname: yes
+highway: pedestrian
+surface: sett</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9617825023317677,42.26644273097605 2.9618243638240083,42.26645057533112 2.9618447555809575,42.266454431030716 2.9618699084089126,42.26645908446094</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>lit: yes
+noname: yes
+highway: pedestrian
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9618699084089126,42.26645908446094 2.961936024413824,42.26645210431547 2.9620767904188456,42.26648826810841 2.962117484101216,42.266496178935355</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>La Rambla</name>
+      <description>lit: yes
+name: La Rambla
+oneway: yes
+highway: living_street
+name:ca: La Rambla
+surface: sett
+maxspeed: 20
+old_name: Rambla de Sara Jordà
+wikidata: Q18006102
+wikipedia: ca:Rambla de Figueres</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.962117484101216,42.266496178935355 2.9621492844622743,42.266408029664774 2.962211807206048,42.26636521805903</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Nou</name>
+      <description>lit: yes
+name: Carrer Nou
+lanes: 1
+access: destination
+oneway: yes
+source: survey
+highway: living_street
+name:ca: Carrer Nou
+surface: paving_stones
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.962211807206048,42.26636521805903 2.9622989437886083,42.26633251103629 2.9625343922245757,42.26619889070616</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Nou</name>
+      <description>lit: yes
+name: Carrer Nou
+lanes: 1
+access: destination
+oneway: yes
+source: survey
+highway: living_street
+name:ca: Carrer Nou
+surface: paving_stones
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9625343922245757,42.26619889070616 2.9628825792287006,42.265987424321324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Nou</name>
+      <description>lit: yes
+name: Carrer Nou
+lanes: 2
+oneway: yes
+source: survey
+highway: residential
+name:ca: Carrer Nou
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+parking:lane:both: parallel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9628825792287006,42.265987424321324 2.9629082710458263,42.26595418527775 2.9629362086511626,42.265918021178436</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: fine_gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9629362086511626,42.265918021178436 2.962978519301045,42.26593477366819 2.9630179553420177,42.26594720507637 2.963074100047275,42.26587082167936 2.9631817182183124,42.26592247521384 2.9632338205047914,42.265935770840066 2.963297331395379,42.2659388288337 2.9633735085314723,42.265925932076925 2.9635238865100337,42.26603621920555 2.963499093008192,42.26608368449266 2.963527030613528,42.266089999899314</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.963527030613528,42.266089999899314 2.963560088615984,42.2660983761219 2.9636193774247355,42.266110608064004 2.9636839662936634,42.266116391644495 2.9637060648496534,42.266119516107295 2.9647085847067305,42.26632041209268 2.9646987032386054,42.266355711751324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9646987032386054,42.266355711751324 2.965158371169489,42.26644219915533 2.96523526695781,42.26642697578536</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: paving_stones
+crossing: uncontrolled</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.96523526695781,42.26642697578536 2.965316564491023,42.26643801106701 2.965727723396564,42.26650867671035 2.9658224058275104,42.266463006637586 2.9658371381981694,42.26638383180423</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9658371381981694,42.26638383180423 2.965960297223623,42.26640610181359</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.965960297223623,42.26640610181359 2.9660218318205844,42.266397592676604</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça del Gra</name>
+      <description>name: Plaça del Gra
+lanes: 1
+oneway: yes
+highway: tertiary
+name:ca: Plaça del Gra
+surface: asphalt
+maxspeed: 30
+name:1905: plaça del Comerç
+name:1977: plaça del Gra
+start_date: 1842
+maxspeed:type: sign
+cycleway:right: no
+name:1931-1939: plaça de Catalunya
+name:1939-1975: plaza del Comercio
+name:1975-1977: plaça Catalunya</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9660218318205844,42.266397592676604 2.966003865514902,42.26629082950102</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Vilallonga</name>
+      <description>lit: yes
+name: Avinguda de Vilallonga
+lanes: 2
+highway: tertiary
+name:ca: Avinguda de Vilallonga
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+maxweight: 5.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.966003865514902,42.26629082950102 2.9661571181023727,42.266296214198505 2.9676962915101837,42.266352387867165 2.967708328934991,42.26635331855474 2.967722612148008,42.266353916853895 2.967859874723422,42.26635797199244</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Vilallonga</name>
+      <description>lit: yes
+name: Avinguda de Vilallonga
+lanes: 2
+highway: tertiary
+name:ca: Avinguda de Vilallonga
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+maxweight: 5.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.967859874723422,42.26635797199244 2.968392575686905,42.266375987440846 2.9685462774320173,42.266380574399214</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Vilallonga</name>
+      <description>name: Avinguda de Vilallonga
+highway: tertiary
+name:ca: Avinguda de Vilallonga
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+maxweight: 5.5
+parking:lane:both: no_parking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9685462774320173,42.266380574399214 2.9686556922336234,42.26639732676606</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

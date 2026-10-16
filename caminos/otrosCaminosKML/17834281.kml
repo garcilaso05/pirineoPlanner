@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue de la Gravette</name>
+      <description>name: Rue de la Gravette
+oneway: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3791880371166505,43.69574821301692 1.3790860783319028,43.69575639669735 1.3790478101007992,43.69575951428959 1.3789586073930862,43.69577367335235 1.378927166358142,43.6957786744884 1.3788516180427475,43.69580309561428 1.3787619661773924,43.69584167577692</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Gravette</name>
+      <description>name: Rue de la Gravette
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3787619661773924,43.69584167577692 1.378620571351672,43.69587460529003 1.37838593139946,43.695937606477756 1.3780184306167267,43.696051982691664 1.3777636684021506,43.69614219750717 1.3777120152733136,43.696159668899234 1.3774924670178748,43.696241570041025 1.3772835188827885,43.69631970401573 1.3771399681003862,43.696379782023456 1.3770071971013933,43.696434079500825 1.376823042468149,43.69652409889446 1.3764363177383354,43.69673719621335 1.3759597614801102,43.69700861654185 1.3758404652103788,43.697062913449805 1.3757518913233648,43.69710759794961 1.375670414127095,43.69713481131327</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Gravette</name>
+      <description>name: Rue de la Gravette
+oneway: yes
+highway: residential
+surface: asphalt
+cycleway:left: lane
+oneway:bicycle: no
+cycleway:left:oneway: -1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.375670414127095,43.69713481131327 1.3756033998068997,43.69718839367577 1.37556549090191,43.697219503898225 1.3752631179772754,43.6974207132561 1.3750860600347754,43.69754378966093 1.3750380001670748,43.697594578900514</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Gravette</name>
+      <description>name: Rue de la Gravette
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3750380001670748,43.697594578900514 1.3749892216471473,43.6976419258639 1.3747565579885603,43.69785261615023 1.3747304170137924,43.69787956938559 1.3747058031750075,43.69790522365861</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,187 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin d'Yssenges</name>
+      <description>name: Chemin d'Yssenges
+highway: residential
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.589653322634005,44.340365290051885 3.5896677855100796,44.34032892592413 3.589664731238114,44.34029211204038 3.589649370046755,44.340257418306784 3.5896243968818564,44.3402310767546 3.5894713239574427,44.34008208614277</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Yssenges</name>
+      <description>name: Chemin d'Yssenges
+highway: residential
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5894713239574427,44.34008208614277 3.5884527242567787,44.339336870409795 3.588342590802946,44.33925398955073 3.58825922714458,44.33917310028926 3.5880630350865284,44.33893422253373 3.5876784663133967,44.33846648704713 3.5875910602362513,44.338359511305114 3.587117558249992,44.33779809427121</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont du Tarn</name>
+      <description>ref: D 2106
+name: Pont du Tarn
+highway: residential
+surface: asphalt
+maxspeed: 30
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.587117558249992,44.33779809427121 3.5871375906808285,44.33775453250505 3.5872880584909184,44.337322318360805 3.5873055756389594,44.33727612195269 3.5873247995860384,44.33721392700916 3.587370883160114,44.337031775116316</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont du Tarn</name>
+      <description>ref: D 2106
+name: Pont du Tarn
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+smoothness: excellent
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.587370883160114,44.337031775116316 3.5874478687799636,44.33663727136977</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont du Tarn</name>
+      <description>ref: D 2106
+name: Pont du Tarn
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5874478687799636,44.33663727136977 3.5874555942914066,44.33659460826485 3.587451102714986,44.3365547079534 3.587430710958037,44.33651859846939 3.587018743568739,44.336039728067114</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+width: 1
+bicycle: no
+footway: sidewalk
+highway: path
+surface: concrete
+mtb:scale: 0
+sac_scale: hiking
+smoothness: excellent
+wheelchair: yes
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.587018743568739,44.336039728067114 3.5868972913423263,44.33600091966786 3.5868424042784666,44.33598659139474 3.5867672152891856,44.33598312176755 3.586598871004942,44.335989804012335 3.586418579127419,44.33601428415261 3.5863745616784977,44.33602880517588 3.586341324012985,44.33605546987737 3.5863247051802287,44.33608566844033 3.5863139253968193,44.33613282956924</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+width: 3
+bicycle: no
+footway: crossing
+highway: path
+surface: asphalt
+mtb:scale: 0
+sac_scale: hiking
+smoothness: excellent
+wheelchair: yes
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5863139253968193,44.33613282956924 3.586276375817943,44.33612942420289 3.5862351431464017,44.33613629918758 3.5861901375506675,44.33614542299779 3.586156989716683,44.336157181145474</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+width: 1
+bicycle: no
+footway: sidewalk
+highway: path
+surface: concrete
+mtb:scale: 0
+sac_scale: hiking
+smoothness: excellent
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.586156989716683,44.336157181145474 3.586105426419375,44.33610732144292 3.5860429036756,44.3360672280431 3.5860138880919235,44.33604409722304 3.58598577082353,44.336009722237485 3.585946155119501,44.33598678415181 3.585894861316777,44.33596146871909</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+width: 3
+bicycle: no
+footway: crossing
+highway: path
+surface: asphalt
+mtb:scale: 0
+sac_scale: hiking
+smoothness: excellent
+wheelchair: yes
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.585894861316777,44.33596146871909 3.5859261226886647,44.335920668442874</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+width: 3
+bicycle: no
+footway: crossing
+highway: path
+surface: asphalt
+mtb:scale: 0
+sac_scale: hiking
+smoothness: excellent
+wheelchair: yes
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5859261226886647,44.335920668442874 3.585939058428756,44.33588667889975</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+note: Merci de ne pas supprimer pour la xième fois....
+width: 1.5
+bicycle: no
+highway: path
+surface: fine_gravel
+mtb:scale: 0
+sac_scale: hiking
+smoothness: good
+wheelchair: yes
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.585939058428756,44.33588667889975 3.5859174988619373,44.33587948262343 3.5858994427247266,44.33586309824104 3.5858935138438515,44.33584260169349 3.585910941160363,44.33581002566117 3.5859980777429223,44.33574667261552 3.586031495071492,44.33570619345315 3.586043442664771,44.33567991410897 3.5860491020510605,44.33563249560483 3.5860235898969917,44.33539752285799 3.58602763231577,44.335231621379705 3.5860378731100093,44.33512618181514 3.586053144469839,44.335028195456296 3.5861268961546653,44.3347269747259 3.5861925630019345,44.33453421320772 3.5862850894761986,44.33432699386898 3.586393695794049,44.3341389858602 3.5865291617388935,44.33394808579231 3.586691487310734,44.33374947452691 3.586871240199087,44.333567183362305 3.5871099225700775,44.33337062697398 3.5873472574681418,44.333212301898385 3.5878179746770207,44.33295232400049 3.5884080779871583,44.33271637667536 3.588537615051129,44.332668827262886 3.58861729561683,44.33263959078067 3.588874842608787,44.33254558414678 3.589199314089411,44.33243152941598 3.589412574137861,44.332354678891996 3.5897746850288903,44.33220701765277 3.5901112837658493,44.332068801769516 3.590688002178254,44.331818521598265 3.5908435005539348,44.3317484172561 3.5909334219138755,44.331703373083705 3.5909883988092637,44.33167169435115 3.591034033225697,44.331629477433516 3.5910593657167094,44.33159587094614 3.591074187918897,44.331544079648744 3.5910768828647495,44.331506681934094</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>note: Merci de ne pas supprimer pour la xième fois....
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5910768828647495,44.331506681934094 3.5910677200488514,44.331402713591785</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

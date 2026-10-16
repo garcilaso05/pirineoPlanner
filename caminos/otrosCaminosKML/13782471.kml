@@ -1,0 +1,2877 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Via Verda del Tren Pinxo</name>
+    <Placemark>
+      <name>Passeig de la Sardana</name>
+      <description>lit: yes
+name: Passeig de la Sardana
+source: Ajuntament de Girona
+bicycle: yes
+highway: pedestrian
+name:ca: Passeig de la Sardana
+surface: compacted
+maxspeed: 10
+smoothness: intermediate
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8154562850276528,41.9875826053472 2.8153816350275425,41.98769531446085 2.8148051861097225,41.988615408647654</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de la Devesa</name>
+      <description>lit: no
+name: Passeig de la Devesa
+source: Ajuntament de Girona
+bicycle: yes
+highway: pedestrian
+name:ca: Passeig de la Devesa
+surface: asphalt
+maxspeed: 10
+local_code: 0179
+smoothness: good
+cyclestreet: yes
+surveillance: outdoor</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8148051861097225,41.988615408647654 2.815012696940355,41.988685583645406 2.8158996036203656,41.98896688378751 2.8161567912862093,41.98904941072369</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passera de Fontajau</name>
+      <description>lit: yes
+foot: designated
+name: Passera de Fontajau
+source: Ajuntament de Girona
+bicycle: designated
+highway: footway
+name:ca: Passera de Fontajau
+surface: concrete
+maxspeed: 20
+segregated: no
+smoothness: good
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8161567912862093,41.98904941072369 2.816008299769744,41.989110571393766</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passera de Fontajau</name>
+      <description>lit: yes
+foot: designated
+name: Passera de Fontajau
+layer: 1
+bridge: yes
+source: Ajuntament de Girona
+bicycle: yes
+highway: footway
+name:ca: Passera de Fontajau
+surface: concrete
+maxspeed: 20
+smoothness: good
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.816008299769744,41.989110571393766 2.813702414266938,41.990103622828116</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passera de Fontajau</name>
+      <description>lit: yes
+foot: designated
+name: Passera de Fontajau
+source: Ajuntament de Girona
+bicycle: designated
+highway: footway
+name:ca: Passera de Fontajau
+surface: concrete
+maxspeed: 20
+segregated: no
+smoothness: good
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.813702414266938,41.990103622828116 2.813494633941721,41.990190221146406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: Ajuntament de Girona
+highway: footway
+maxspeed: 20
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.813494633941721,41.990190221146406 2.8134395672148043,41.99015249714405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+source: Ajuntament de Girona
+bicycle: designated
+highway: cycleway
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8134395672148043,41.99015249714405 2.813036672809877,41.989874607432526</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: yes
+source: ICGC
+highway: cycleway
+surface: compacted
+maxspeed: 20
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.813036672809877,41.989874607432526 2.813339225397568,41.989913533431064 2.813696395554534,41.98999218657674 2.813749575819354,41.990008077438176 2.8140751252783187,41.99010542556995 2.8144391226314442,41.99018401171039 2.814990688215894,41.99024490421808 2.8153955589144464,41.990299720778815 2.815781205665919,41.99034639160148 2.815909664751548,41.990393730069044 2.8159904232955904,41.990458828750455 2.8161746677603636,41.990496819642466 2.8162361125257966,41.99046810948012 2.816269080696724,41.99043853132257 2.816280489300832,41.990416497923135</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+highway: cycleway
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.816280489300832,41.990416497923135 2.8163351068701066,41.9903869197416 2.8164010432119615,41.99037089543887 2.8165260886995105,41.99034038248459 2.8167592913472688,41.9904554235903 2.8169651852103885,41.99052219140308 2.8171664976655593,41.99053567849276 2.8176032585566984,41.99051631583837 2.8178647581359058,41.99056191821845 2.818194619508234,41.99061433086971</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: yes
+bridge: yes
+highway: cycleway
+surface: concrete
+maxspeed: 20
+segregated: no
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.818194619508234,41.99061433086971 2.818547208257251,41.99073351106894</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+layer: -1
+source: Ajuntament de Girona
+highway: cycleway
+surface: compacted
+maxspeed: 20
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.818547208257251,41.99073351106894 2.8185676898457293,41.990741990548 2.8189906166814924,41.99080942573496 2.819103175586593,41.990843210069094 2.81934940380597,41.99091398351726 2.8194343844318475,41.990933679887426 2.8195628435174767,41.9909736735152 2.8197299301603236,41.99102561845667 2.819918666201516,41.991097927347035 2.8200037366589226,41.99113091032238 2.8200613186686345,41.99115748363826 2.820191574384832,41.9912263204929 2.820245383470351,41.99125222609883 2.8204841556728697,41.991329408717924</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+source: Ajuntament de Girona
+highway: cycleway
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8204841556728697,41.991329408717924 2.820648996527506,41.99143676985253 2.820811861088517,41.99156289224763 2.820874383832291,41.991620912471454 2.8210456027254445,41.99177587762012 2.8210772234234454,41.99180258419962 2.8212497897895252,41.99195387676092 2.8214477784781447,41.99207452330738 2.821552791534858,41.99214148972008 2.82159061060832,41.99219450196493 2.8216478332919186,41.99230079338581 2.821742425891336,41.992431187078665 2.821802613015372,41.99250589793745 2.8219455349770755,41.99268129118181 2.8220061712587534,41.992785578827714 2.8220818094056765,41.99295189123086</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+source: Ajuntament de Girona
+bicycle: yes
+highway: cycleway
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8220818094056765,41.99295189123086 2.8221639154226446,41.99305130457947 2.8223407038705597,41.993548368993366 2.8225241398515766,41.99395816881031 2.8226085814882835,41.99423190133353 2.82264217847991,41.99443279355089 2.822640202186285,41.994459231960995 2.8226272664461938,41.994630614014696 2.822592232150113,41.99481140922989 2.8220914213792168,41.996272506810065 2.821837018490754,41.997164571006365</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+source: Ajuntament de Girona
+bicycle: designated
+highway: cycleway
+surface: dirt
+maxspeed: 20
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.821837018490754,41.997164571006365 2.821805936781923,41.997279399496094 2.821696162654204,41.997666677078136 2.8216526841944525,41.997820092024334 2.8216039955060532,41.998341019127295 2.8215331184301364,41.99847206803988 2.821432057960673,41.9985906994514 2.8213177922565325,41.998658793915226 2.821194184073438,41.99871981183366 2.8210836912934907,41.998785769867865 2.8210412009805523,41.99882008404082 2.820927923423225,41.9989232934845 2.8208430326288756,41.99900821083141 2.820771167406146,41.99909379565287 2.820706039548047,41.999172504213114 2.8206531287778125,41.99926770205328 2.820584317827049,41.99945402504357</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+source: Ajuntament de Girona
+bicycle: designated
+highway: cycleway
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.820584317827049,41.99945402504357 2.820568866804162,41.99957492440612 2.820546678416645,41.99981471970128 2.820556470053241,42.00001799757757 2.820574885516566,42.00010912193202 2.8205664413528955,42.000167601668764 2.8205329341927974,42.00024210317335 2.8204579248665733,42.00032027625328 2.820283561869926,42.00044858403796 2.8198326974288266,42.00084652344577 2.819518107416328,42.00112650146726 2.819486396886798,42.00117970649799 2.8194789408699403,42.001244326851904 2.8195005004367584,42.00131448792632 2.819537960184107,42.00139152483044 2.8195544891853346,42.00146789407834 2.819552602723238,42.00153451682638</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+width: 2
+bicycle: yes
+highway: cycleway
+surface: dirt
+maxspeed: 20
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.819552602723238,42.00153451682638 2.819488912169594,42.00166549240625 2.8193809346724423,42.001869431928895 2.8193058355146903,42.002032783343495 2.8192361262486423,42.00219232927332 2.8191610270908902,42.00236769582337 2.8190137033842944,42.00261161941018 2.8189520789558036,42.00274860071887 2.8188839866572675,42.00288271127584 2.818672523239386,42.003121893314685 2.818541189544848,42.0032347751759 2.81844318334735,42.0033220231715 2.818320114153426,42.00336140822596 2.818030137979712,42.00337803004671 2.817895570350151,42.00340192807858 2.8178086134306484,42.00344231439694 2.8176956951994345,42.00351988275801 2.817648533647018,42.00359337902664 2.8176445810597683,42.00367088044955 2.817662277870865,42.003827818872956 2.8176329927926025,42.003949310708606 2.8175354357527476,42.00415451122729 2.817424763309744,42.004410176529866 2.8173944002531406,42.004572186360846 2.817350831961861,42.0046568291575 2.817285165114592,42.00470602606248</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+width: 2
+bicycle: yes
+highway: cycleway
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.817285165114592,42.00470602606248 2.8172938787728476,42.004839598471534 2.8172951364142453,42.0048671006019 2.817339782683866,42.004981981945114 2.817382811985975,42.005013889684044 2.8176348792546992,42.00507369996329 2.817683208616985,42.00510160250737 2.817726687076737,42.00517729977822 2.817734771914293,42.00531667864452 2.8177796876784993,42.005579882251354 2.8178064574739663,42.0058988224187 2.81762068587321,42.006266222421246 2.817554390205242,42.00644491529655 2.81751890675152,42.006526685309304 2.8174868368958768,42.00659971084818 2.8174358125877386,42.00669229429479 2.8173933222747998,42.00681297965232 2.817345172575571,42.0068795968036 2.817271510722273,42.007068300519784 2.8172423154755393,42.0071959939444 2.817222372876232,42.00724652389057 2.817146465234724,42.00732088360627 2.817103974921785,42.00740832624873 2.817071635571556,42.00749717052037 2.816943895138155,42.00777191280216 2.816877779133244,42.00785888757755</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+width: 2
+source: ICGC:2023
+footway: sidewalk
+highway: cycleway
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.816877779133244,42.00785888757755 2.816950183345144,42.008256113148136 2.8169567410467176,42.00829362617249</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+layer: 1
+width: 2
+bridge: yes
+highway: cycleway
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8169567410467176,42.00829362617249 2.816987193934849,42.00850061490014</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+width: 2
+highway: cycleway
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.816987193934849,42.00850061490014 2.81699959068577,42.00858999163691 2.81703184020447,42.00867042391776 2.817037140264646,42.008683706915356 2.817182038519975,42.008803320517494 2.8172463578943177,42.00885511740934 2.8175172897840084,42.00921782796773 2.8174503652953415,42.00926101401531 2.8173899985082484,42.009273896400956 2.8173492149943495,42.0092245027838 2.8173084314804506,42.00919279740122 2.81721060494601,42.00920761549778 2.817159400974815,42.00925206976675 2.817186889422509,42.00943903099933 2.817177097785912,42.009489025180834 2.8171498788328035,42.00955176815676 2.817191291167401,42.009935700423185 2.8172448307583347,42.01012880038998 2.8173995206502602,42.011152894563644 2.8174943827442633,42.01126289209692 2.8175950838876127,42.01191459688112 2.817670991529121,42.01228002653752 2.817741419447396,42.012344769107024 2.8178350239000016,42.012344769107024 2.817904822997577,42.01233862857748 2.8179121891829073,42.012374403828204 2.817921980819504,42.01240670832834 2.81785882925503,42.012417520987945 2.8177309989901,42.01249020604092 2.8177166259455544,42.012526782142686 2.8177355803980495,42.01267782520147 2.8177830114450506,42.012806108065604 2.8179424624079816,42.01322793126817 2.81811907119284,42.013618582444686 2.818240613250781,42.01386686795253 2.8184626767890157,42.01424770400118 2.8185784696291383,42.01440288102222 2.818813918065106,42.01472017513745 2.8189600739618323,42.0149248069771 2.8192221125302104,42.01526892870361 2.8194175859360344,42.015477696756705 2.819482174804963,42.01553269180754 2.8196190780542625,42.01552127900357 2.819661209041088,42.015511801702814 2.8197515795586705,42.01549638440067 2.8197863443601654,42.01560597397371 2.819838895804287,42.015633805156774</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+highway: cycleway
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.819838895804287,42.015633805156774 2.8217212256506308,42.015302900278115 2.821745929320944,42.01540061016728 2.8217122424977896,42.015471623271225 2.821647024808162,42.01553669629968 2.8216278906926107,42.01556092347172 2.821681340452016,42.015707020465086 2.8217082899105397,42.01574880053944 2.8218436660238564,42.01572697612703 2.8220055424380543,42.01579878976166 2.8220976197546768,42.01582969095682 2.822208921018379,42.015844774472114 2.822280786241109,42.01589990268783 2.822326690152127,42.01596837907328 2.8224040350980903,42.01595429670373 2.8224660188526944,42.01594168263548 2.8224371829320742,42.01587046983284 2.822927393582618,42.01577823345074 2.8247035425623794,42.01545987674823</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major de Sarrià</name>
+      <description>name: Carrer Major de Sarrià
+lanes: 1
+oneway: yes
+highway: living_street
+name:ca: Carrer Major de Sarrià
+railway: abandoned
+surface: asphalt
+maxspeed: 20
+cyclestreet: yes
+historic:gauge: 750
+abandoned:railway: narrow_gauge
+historic:end_date: 1956-02-29
+historic:start_date: 1928-03-15
+historic:electrified: no
+name:1928-03-15-1956-02-29: Carrilet Girona-Banyoles
+alt_name:1928-03-15--1956-02-29: Tren Pinxo de Banyoles</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8247035425623794,42.01545987674823 2.8246820728270885,42.01561932226447 2.824689978001589,42.0157738285261 2.824709112117141,42.01597078175212 2.824749536304926,42.016166199328154 2.82495632848333,42.01668957909967 2.8249955848612465,42.01678648597573 2.8250629585075555,42.01696087793654 2.8250878418409258,42.01703362453734</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Riu</name>
+      <description>name: Carrer del Riu
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Carrer del Riu
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8250878418409258,42.01703362453734 2.8266913346230793,42.016745974648124</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig del Riu</name>
+      <description>foot: yes
+name: Passeig del Riu
+bicycle: yes
+highway: cycleway
+name:ca: Passeig del Riu
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8266913346230793,42.016745974648124 2.8267632896773365,42.01704637186892 2.826848988955442,42.01731947115463 2.827114890279541,42.018344317155396 2.827072938955773,42.01840671770367</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Josep Pallach</name>
+      <description>name: Carrer de Josep Pallach
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Carrer de Josep Pallach
+maxspeed: 20
+name:etymology:wikidata: Q9013294</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.827072938955773,42.01840671770367 2.8256186563423116,42.01853759180978</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major de Sarrià</name>
+      <description>name: Carrer Major de Sarrià
+lanes: 1
+oneway: yes
+highway: living_street
+name:ca: Carrer Major de Sarrià
+railway: abandoned
+maxspeed: 20
+cyclestreet: yes
+historic:gauge: 750
+oneway:bicycle: no
+abandoned:railway: narrow_gauge
+historic:end_date: 1956-02-29
+historic:start_date: 1928-03-15
+historic:electrified: no
+name:1928-03-15-1956-02-29: Carrilet Girona-Banyoles
+alt_name:1928-03-15--1956-02-29: Tren Pinxo de Banyoles</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8256186563423116,42.01853759180978 2.825636442984937,42.01860279517774 2.8258108958131136,42.019126488585314 2.825828502792682,42.01919549539811</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: yes
+horse: no
+bicycle: yes
+highway: footway
+surface: asphalt
+motorcar: no
+check_date: 2020-07
+motorcycle: no
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.825828502792682,42.01919549539811 2.8258772813126094,42.01938569754086</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>construction</name>
+      <description>foot: yes
+horse: no
+bicycle: yes
+highway: construction
+surface: asphalt
+motorcar: no
+check_date: 2020-07
+motorcycle: no
+segregated: no
+construction: cycleway
+motor_vehicle: no
+construction:highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8258772813126094,42.01938569754086 2.825705703093343,42.01940051326283 2.8251777632008657,42.02054758669889 2.824874941118589,42.02120560296305 2.8248710783628677,42.02121387817494</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+maxspeed: 20
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8248710783628677,42.02121387817494 2.824830923669667,42.02120560296305 2.8247673229475514,42.02119252278721 2.8247551956912162,42.02122128582339 2.8246824321532022,42.021276008965316 2.824605985522524,42.021288888917496 2.8245149861842425,42.02127367322242 2.824475460311741,42.02124831372255 2.82444159382553,42.02120980730471 2.824375567652147,42.02124491020995</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+maxspeed: 20
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.824375567652147,42.02124491020995 2.8242728902151724,42.021300901305764 2.8242125234280793,42.021327528758356</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+maxspeed: 20
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8242125234280793,42.021327528758356 2.8236942853406712,42.020743590835686</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+maxspeed: 20
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8236942853406712,42.020743590835686 2.8235969977954007,42.0209708934805 2.8235042018265513,42.0211879180308 2.8234948593475964,42.02120960709797 2.8233891276386553,42.021333601684574 2.823289594305175,42.02146827367963 2.823204703510826,42.02156417224554 2.8229123018858444,42.02197979776131 2.8229123018858444,42.02203158392297 2.822829477216649,42.02213208632768</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+horse: no
+bicycle: yes
+highway: cycleway
+surface: asphalt
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.822829477216649,42.02213208632768 2.8225112041114855,42.02251467470577 2.8222840201761312,42.02282712351022 2.8221343608497973,42.02306282714548 2.821945624808604,42.02346976754868 2.8217309274556994,42.02393169313482 2.8216983186108857,42.023981675924645</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Muntanya</name>
+      <description>name: Carrer de la Muntanya
+highway: residential
+name:ca: Carrer de la Muntanya
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8216983186108857,42.023981675924645 2.821521979320613,42.0239876818647</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.821521979320613,42.0239876818647 2.8215286268537154,42.02392802283495 2.8214946705359756,42.023811106990124 2.8214348427380536,42.02378187799532 2.8211903213177156,42.023775471638494 2.8209885597049027,42.0237920213923 2.820704692075121,42.02381998245849 2.820489186238461,42.023836332002226 2.8202593971887833,42.0238594215548 2.820193460846929,42.023875570890056 2.820042274384611,42.02391267430593 2.819859287561236,42.02398261018202 2.8195925777533812,42.024138831169374</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+bridge: yes
+noname: yes
+highway: unclassified
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8195925777533812,42.024138831169374 2.8189752554901344,42.02454149383262</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8189752554901344,42.02454149383262 2.8187051320841996,42.02470532088505 2.8184961839491134,42.02480428423195</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8184961839491134,42.02480428423195 2.818534631843274,42.024875620493674 2.818559784671229,42.0248957734736 2.818603442794037,42.024902313180945 2.8186455737808624,42.024893304400244 2.8187602886426446,42.024828574605074 2.8188567677041587,42.024761776056636 2.8189571095213948,42.024704386638284 2.8190701175841375,42.02468109719675 2.8192276820849718,42.0247424238167 2.8194944817243552,42.02496697616941 2.819659502242048,42.02507661615332</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.819659502242048,42.02507661615332 2.820028979318406,42.02536449528411 2.8202924551912387,42.02555027472653 2.8204124701131974,42.02561760629417 2.8207269702941677,42.02581079211071 2.8208705210765697,42.02589600722215 2.820905285878065,42.025941917900454</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Viladesau</name>
+      <description>name: Carrer Viladesau
+oneway: no
+highway: residential
+name:ca: Carrer Viladesau
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.820905285878065,42.025941917900454 2.8210351822681488,42.026274702596446 2.821359024928074,42.0270519719563</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Mota</name>
+      <description>name: Carrer de la Mota
+highway: living_street
+name:ca: Carrer de la Mota
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.821359024928074,42.0270519719563 2.821490178959555,42.0271158320058</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Mota</name>
+      <description>name: Carrer de la Mota
+highway: living_street
+name:ca: Carrer de la Mota
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.821490178959555,42.0271158320058 2.821329021197584,42.027530019923155 2.8212469151806157,42.027716727240005 2.8210622215582006,42.028196772055495 2.8210314093439557,42.028247618958744 2.8209767019431524,42.028312412000936 2.8209254081404294,42.02837093253944</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+highway: cycleway
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8209254081404294,42.02837093253944 2.821017844783165,42.028364193004684</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+layer: 1
+bridge: yes
+highway: cycleway
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.821017844783165,42.028364193004684 2.821266408622281,42.02834437476467</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: yes
+horse: no
+bicycle: yes
+highway: footway
+surface: asphalt
+maxspeed: 20
+motorcar: no
+check_date: 2020-07
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.821266408622281,42.02834437476467 2.8213983711375183,42.02851112804598 2.82154704231704,42.0287650272601 2.8217689261922176,42.02912588936537 2.8218967564571478,42.02930638637689 2.8219263110299955,42.02933007448639</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: designated
+footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8219263110299955,42.02933007448639 2.821875286721857,42.02964062144908 2.821791923063491,42.03024182644858 2.8217242799225963,42.03076388930718 2.821716284916568,42.03082140670653 2.8216160329308604,42.031538901862824 2.8216047141582803,42.031710317483395 2.821600581907974,42.032039869220924 2.8216552893087763,42.03274740882723 2.821698677936999,42.0334345901226 2.8217018220404935,42.03348409838226 2.821688976131931,42.033552889444536 2.8216269025457983,42.03359419073519 2.821569590030671,42.03362908663514 2.821464127816316,42.033722031070575 2.821434932569582,42.033744116196424 2.821411217046081,42.033744716698216</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+horse: no
+bicycle: yes
+highway: cycleway
+surface: asphalt
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.821411217046081,42.033744716698216 2.8213838184299154,42.0337830153571 2.8214385258307177,42.03384887031414 2.8214882026659303,42.033903916198526 2.8215214403314426,42.03394581776098 2.821562044182284,42.03398271513307 2.8216166617515595,42.0340140745464 2.8216606792004812,42.03403202279941 2.8216914015831978,42.034053574040755 2.821709637383466,42.034083732421934 2.8217221239659147,42.034158928146326 2.8217469174677565,42.03428696751136 2.8217894976122238,42.03453216984844 2.8218522000190553,42.034703377232326</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Travessera de Sant Julià de Ramis</name>
+      <description>name: Travessera de Sant Julià de Ramis
+highway: unclassified
+name:ca: Travessera de Sant Julià de Ramis
+railway: abandoned
+maxspeed: 70
+historic:gauge: 750
+abandoned:railway: narrow_gauge
+historic:end_date: 1956-02-29
+historic:start_date: 1928-03-15
+historic:electrified: no
+name:1928-03-15-1956-02-29: Carrilet Girona-Banyoles
+alt_name:1928-03-15--1956-02-29: Tren Pinxo de Banyoles</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8218522000190553,42.034703377232326 2.8218524695136407,42.03493736880727 2.8219485892490415,42.03633883153695 2.82205387180034,42.037986786735274 2.822107680885859,42.03879740488705 2.822134001523684,42.039346084095335 2.8221516983347805,42.03964877632444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de la Casa Cremada</name>
+      <description>name: Pont de la Casa Cremada
+highway: unclassified
+name:ca: Pont de la Casa Cremada
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8221516983347805,42.03964877632444 2.8221232217402745,42.039703283456056 2.822096990933978,42.03973397288535 2.821999074568009,42.03978447697912</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Roure</name>
+      <description>name: Carrer del Roure
+highway: residential
+name:ca: Carrer del Roure
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.821999074568009,42.03978447697912 2.8218496847362595,42.03978040729802 2.821617290572258,42.03970321673989 2.8205383240845023,42.039369501597186 2.8204846048305114,42.03935368978065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+horse: no
+source: PNOA
+bicycle: designated
+highway: cycleway
+surface: paved
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8204846048305114,42.03935368978065 2.820337909944615,42.03949953195615 2.8201930116892866,42.03983531461288 2.819914264456624,42.040470514741884 2.8196572564538376,42.04105600605455 2.8194086926147217,42.04162241172784</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Can Blanc</name>
+      <description>name: Carrer de Can Blanc
+highway: residential
+name:ca: Carrer de Can Blanc
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8194086926147217,42.04162241172784 2.819554579016863,42.041656102365565</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Can Blanc</name>
+      <description>name: Carrer de Can Blanc
+highway: residential
+name:ca: Carrer de Can Blanc
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.819554579016863,42.041656102365565 2.8203908207148496,42.04185277527643 2.8206676814854155,42.04192689438714</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Can Blanc</name>
+      <description>name: Carrer de Can Blanc
+oneway: yes
+highway: residential
+name:ca: Carrer de Can Blanc
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8206676814854155,42.04192689438714 2.820803057598732,42.041987003521434 2.8208675566361316,42.04203396999746 2.820930079379907,42.04206699328012</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lit: yes
+lanes: 1
+noname: yes
+highway: unclassified
+surface: asphalt
+junction: roundabout
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.820930079379907,42.04206699328012 2.8209521779358964,42.042092611330006 2.8209836189708404,42.04211209171518 2.8210356314257905,42.042125567868574 2.82109051848965,42.04212249904182 2.8211391173465215,42.042103218800754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lit: yes
+lanes: 1
+width: 3
+noname: yes
+oneway: yes
+highway: unclassified
+maxspeed: 60
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8211391173465215,42.042103218800754 2.821228409885763,42.042097014431285 2.8213335127740047,42.04210181781416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lit: yes
+lanes: 2
+layer: 1
+bridge: viaduct
+noname: yes
+highway: unclassified
+maxspeed: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8213335127740047,42.04210181781416 2.821355790993051,42.04210682133759 2.821700294904511,42.04218340855383</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lanes: 2
+noname: yes
+highway: unclassified
+maxspeed: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.821700294904511,42.04218340855383 2.8221087588642,42.042274272361375 2.8222258093457206,42.04229628780179 2.8223206714397238,42.04230102445616</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: no
+source: PNOA
+bicycle: designated
+highway: cycleway
+surface: compacted
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8223206714397238,42.04230102445616 2.8224274811270056,42.04233911781858 2.822580015062249,42.0423221726129 2.822670834737474,42.04235759742749 2.822828578901365,42.042350792662376 2.822997372343251,42.04233791697738 2.823137779022159,42.04234198649468 2.8232635431619353,42.04237941269898 2.8233294795037898,42.04241216894881 2.8234257789022474,42.04255179977958 2.8234973746303917,42.04266901472167 2.8235286360022793,42.04271938305666 2.823657184919437,42.042913784441346 2.823713868613865,42.04299937690086 2.8237717201181622,42.04311392251388 2.823831278421499,42.0432773681388 2.8238680195166195,42.04339458174237 2.823930542260394,42.04341279419523 2.8240148042340447,42.04343747773106 2.824044089312307,42.04356069513003 2.8240723862437567,42.043878110588274 2.8240496588670685,42.044178779884575 2.824082627037996,42.04445729965169 2.824137693764912,42.04467197585094 2.8241688653052712,42.04475242920549 2.824206235221091,42.04491620416884 2.8241959944268515,42.04503648343517 2.824114966388224,42.04519452057205 2.823624665906152,42.04561572864866 2.8232881570007207,42.04589350831013 2.8231990441245363,42.045894108697134 2.8230413897921727,42.045900979792414 2.822916703630737,42.04594460789465 2.8227956107304375,42.04609450421944 2.8226579888289103,42.046247802364704 2.8225652826915897,42.04632678612109 2.822355166746634,42.046370413930916 2.8222606639787444,42.0464399248443 2.8217672193931778,42.04688887545681 2.821746108984001,42.04692289684493 2.821741527576052,42.04697472939533 2.821747007299285,42.04700328064055 2.8217635363005127,42.04704010372293 2.82176991433903,42.04705918234054 2.8217570684304674,42.04709320363745 2.8216625656625776,42.0471907312543 2.8215956411739107,42.04725196944882 2.821568961209972,42.04732207977116 2.821549737262892,42.047442688022834 2.8215229674674256,42.047514132294026 2.821496467166544,42.047571501118405 2.821459187082253,42.047617529556334 2.8213306381650956,42.0477159902768 2.8212593119315366,42.04779670660725 2.8212204148797344,42.047878023203396 2.82115726331526,42.04796047372291 2.82098649357975,42.048156993704424 2.8208769889466154,42.04822957119493 2.820757602845356,42.04824691506825 2.8206016553120326,42.04830968650866 2.82035291180986,42.04845010486226 2.8199234272725224,42.04868898211788 2.8195270007376405,42.04889590606284 2.819266579136774,42.04905600149586 2.8191700102437314,42.04912530935193 2.8190688599427394,42.04923437401563</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lanes: 1
+oneway: no
+highway: unclassified
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8190688599427394,42.04923437401563 2.8190189136129424,42.049350976274646 2.8190093914709307,42.04940747626255 2.8189774114468165,42.049597788130654 2.8188765306404093,42.05010228192209</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: no
+source: PNOA
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+motorcar: no
+motorcycle: no
+agricultural: destination
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8188765306404093,42.05010228192209 2.8187877770903387,42.050561812711045 2.8186997421924946,42.050853111752296 2.8186850098218352,42.05092481900546 2.8185905968854743,42.05139841836553 2.8185717322645076,42.05148413280191 2.8185730797374338,42.05153649526061</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: no
+source: PNOA
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+motorcar: no
+motorcycle: no
+agricultural: destination
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8185730797374338,42.05153649526061 2.818576403503985,42.05165909661926 2.8185780204714965,42.05172093083822 2.818359819688984,42.05257152878512 2.818256962588952,42.05299682348697 2.8181416189064716,42.05331612615391 2.818026185392462,42.05358720198584 2.8178751785932015,42.053918974817826 2.8176464675218647,42.05433032002996 2.817442999110012,42.05464341284883 2.817266659819739,42.054931624963466 2.817006597544986,42.0553553030685 2.8169541359323937,42.05543627649043 2.8169582681827006,42.05553912726135 2.8170652575330393,42.05565131578522 2.817533189964537,42.05589270052822 2.817579273538612,42.05595819907614 2.8176002941162612,42.056029767167864 2.817562564874328,42.05614202152394 2.8172730378582562,42.05659997455347 2.8172037777498504,42.05676658699778 2.8171891352107195,42.05692092655819 2.817111520770171,42.05712182087789 2.817015041708657,42.057367868865114 2.8169226948974497,42.0575081337996 2.8167778864736497,42.05764212887563 2.8166337068705483,42.05775898248913</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: PNOA
+highway: track
+surface: compacted
+maxspeed: 20
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8166337068705483,42.05775898248913 2.816458984547787,42.05790071389505 2.816228207351297,42.0580813959675 2.8159701213701687,42.05830102837401 2.8156890385177684,42.05855961071043 2.8155185382768426,42.05877850780551</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Vedruna</name>
+      <description>lit: no
+foot: designated
+name: Camí de la Vedruna
+lanes: 1
+oneway: no
+bicycle: designated
+highway: unclassified
+name:ca: Camí de la Vedruna
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8155185382768426,42.05877850780551 2.815206643210196,42.05888542162124</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>living_street</name>
+      <description>foot: designated
+noname: yes
+source: PNOA
+bicycle: designated
+highway: living_street
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.815206643210196,42.05888542162124 2.8151593019947225,42.059041890299696 2.815139269563887,42.05910811925334 2.8150667755204584,42.05941251810768 2.815058331356788,42.05973312242228 2.815080519744306,42.060198719440166 2.8150517736552136,42.06055480114697 2.815019613968042,42.060779693827726 2.8149146009113286,42.061111829248155 2.8147034968195603,42.06156607831254 2.8144912249179233,42.062009786674906 2.814425558070654,42.06210809170041 2.8143026685397867,42.06222940549426 2.8140402706452954,42.062478301458405 2.813755235205644,42.06286618239855 2.8136908259997724,42.0630087693975 2.813668098623084,42.06316369401045 2.8136746563246584,42.06331768456623 2.813716787311484,42.06339658040573 2.8138569244958065,42.06347801041284 2.8140101770832775,42.063500018504946</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: designated
+source: PNOA
+bicycle: designated
+highway: track
+surface: ground
+maxspeed: 20
+tracktype: grade3
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8140101770832775,42.063500018504946 2.814114381656235,42.063768383232514 2.8142342169151364,42.06391116827758 2.8143253060849465,42.064038880925345 2.81436411330522,42.06414038395355 2.814485475700105,42.06444469199395 2.8145209591538274,42.064556197884244 2.8145462916448394,42.06469137850657 2.8146458249783204,42.065034630623764 2.8146660370722127,42.06514346789999 2.8146492385763997,42.06523489907056 2.8145750377339316,42.06537267912702 2.8144569092740697,42.065475380426676 2.8143960933293353,42.06554547063386 2.8143691438708114,42.06562322999295 2.8143755219093283,42.065695787525144 2.8144004052426985,42.065734133613915</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Marmanya</name>
+      <description>foot: designated
+name: Pont de Marmanya
+layer: 1
+bridge: yes
+source: PNOA
+bicycle: designated
+highway: track
+name:ca: Pont de Marmanya
+surface: ground
+maxspeed: 20
+tracktype: grade3
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8144004052426985,42.065734133613915 2.814569917336812,42.06595380623948</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: designated
+source: PNOA
+bicycle: designated
+highway: track
+surface: ground
+maxspeed: 20
+tracktype: grade3
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.814569917336812,42.06595380623948 2.814662713305662,42.066156672633895 2.8147115816571175,42.0663920822001 2.8146390876136893,42.066482311187706</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+lanes: 2
+noname: yes
+oneway: no
+highway: residential
+surface: asphalt
+maxspeed: 30
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8146390876136893,42.066482311187706 2.8146373808146494,42.06656740507477 2.814615192427132,42.06661622063875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+lanes: 2
+noname: yes
+oneway: no
+highway: residential
+surface: asphalt
+maxspeed: 30
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.814615192427132,42.06661622063875 2.814578271668954,42.06669771320427 2.814451788876951,42.06684302579271 2.814406064628989,42.06688617269734 2.8143590827396294,42.06693072001168</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>living_street</name>
+      <description>highway: living_street
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8143590827396294,42.06693072001168 2.814370760838323,42.067212807818436 2.8143949255194656,42.06748222384423 2.8145794394788237,42.0680181182628 2.8146997238953673,42.06844691056369 2.8147558686006247,42.068687979924384 2.8148402204058036,42.06882721956958</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+horse: no
+source: PNOA
+bicycle: designated
+highway: cycleway
+surface: paved
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8148402204058036,42.06882721956958 2.8149655353879384,42.06903187728681 2.815082675700988,42.06917478386464 2.815233143511078,42.06931022139299 2.8154136150516567,42.06946212980819 2.8157965668572773,42.069767212555305 2.816091393933525,42.07000841027074 2.8162196733560974,42.07015718285857 2.81642430957782,42.070417717429024 2.816604691286871,42.07069458841889 2.816743121672154,42.07109648931817 2.816717789181142,42.07127513335094</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+foot: designated
+lanes: 2
+noname: yes
+oneway: no
+bicycle: designated
+highway: residential
+maxspeed: 50
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.816717789181142,42.07127513335094 2.8167621659561775,42.07131207572723 2.8167821983870134,42.07135248559437 2.817202340445396,42.07246181308792 2.8172153660170154,42.07249882145527</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>living_street</name>
+      <description>lit: no
+foot: designated
+lanes: 1
+noname: yes
+oneway: no
+bicycle: designated
+highway: living_street
+maxspeed: 20
+maxweight: 14
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8172153660170154,42.07249882145527 2.8172700734178187,42.07261818162818 2.8173565811796792,42.07293631873561 2.8174660858128138,42.07324578572699 2.8175468443568557,42.07337127912974 2.817585292251016,42.073566720274 2.8176332622871882,42.07373928943639 2.817642155608501,42.073826374005584</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: no
+source: PNOA
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+motorcar: no
+motorcycle: no
+agricultural: destination
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.817642155608501,42.073826374005584 2.8177934319023468,42.07395580039188 2.8181426968848124,42.07430160292997 2.8184921415303346,42.07467407536487 2.819071465057063,42.07526878648803 2.819398721315068,42.07562478367437 2.8195179277532705,42.07581421683795 2.8196648921337526,42.07607959567974 2.8197813137945746,42.076445990020744 2.819947591953665,42.07672376819689 2.8201584265508477,42.07699541087355 2.8204132785969525,42.077309925500046 2.8204677165031704,42.07736846758832</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: no
+source: PNOA
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+motorcar: no
+motorcycle: no
+agricultural: destination
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8204677165031704,42.07736846758832 2.820541108861883,42.077387870478105 2.8210208092236027,42.077628105766316 2.822170023966577,42.0782325905366 2.8227055097074407,42.07861150740534 2.8231378688536877,42.07892408044817 2.823266238107788,42.07904522875831</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: no
+source: PNOA
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+motorcar: no
+motorcycle: no
+agricultural: destination
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.823266238107788,42.07904522875831 2.8231825151233076,42.07909896866112 2.8231699387093303,42.07913010578001 2.824638504535809,42.08072521260454 2.824811430228002,42.08092909855691 2.824868563080072,42.08100570563391 2.8250219953305997,42.08121792475588 2.8250890096507946,42.081321400488825 2.825172642803747,42.08146007904156 2.825224206101055,42.08148701464838 2.825286998339415,42.08148388105115 2.825480944609256,42.08141460851103 2.8255352028524174,42.081407274551445 2.8255714947898953,42.081424876053035 2.8260442781239274,42.08181617484076 2.8261782169327896,42.08190831538677 2.8263700072459494,42.082072527909475</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>foot: designated
+bicycle: designated
+highway: unclassified
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8263700072459494,42.082072527909475 2.826470977883884,42.08216046777431 2.827076711879966,42.08265450220185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: no
+source: PNOA
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+motorcar: no
+motorcycle: no
+agricultural: destination
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.827076711879966,42.08265450220185 2.8273541116397025,42.08241388591462 2.8274073817360503,42.0824560888373</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>living_street</name>
+      <description>foot: designated
+noname: yes
+bicycle: designated
+highway: living_street
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8274073817360503,42.0824560888373 2.8285894748184237,42.08342521489586</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: no
+source: PNOA
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+motorcar: no
+motorcycle: no
+agricultural: destination
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8285894748184237,42.08342521489586 2.828553182880945,42.083451082945004 2.8282547625435606,42.083629092172444 2.82797026609308,42.08376989911768 2.827627199486075,42.08394377392946 2.8273314740945423,42.084065912699444 2.8270246994250154,42.084243920201885 2.8268734231311696,42.0843027892398</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Can Ferran</name>
+      <description>foot: designated
+name: Carretera de Can Ferran
+bicycle: designated
+highway: unclassified
+name:ca: Carretera de Can Ferran
+surface: asphalt
+maxspeed: 30
+cyclestreet: yes
+name:etymology:wikidata: Q47412</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8268734231311696,42.0843027892398 2.826971698823252,42.084401593096864 2.828303271568903,42.085882632473684 2.8284139440119063,42.08596210027587</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Can Ferran</name>
+      <description>foot: designated
+name: Carretera de Can Ferran
+source: PNOA
+bicycle: designated
+highway: living_street
+name:ca: Carretera de Can Ferran
+maxspeed: 20
+cyclestreet: yes
+name:etymology:wikidata: Q47412</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8284139440119063,42.08596210027587 2.828436401894009,42.08601570098556 2.82857384413248,42.08615456928024</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>living_street</name>
+      <description>foot: designated
+source: PNOA
+bicycle: designated
+highway: living_street
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.82857384413248,42.08615456928024 2.828619568380441,42.08686050618934 2.828601332580174,42.08692557279021 2.8285371030373594,42.08696350605438 2.8283316583318814,42.087035305861384 2.8282165841439855,42.08706830574543 2.8282454200646057,42.08719357181566 2.8282532354075776,42.0872509047935 2.8282518879346514,42.087337304159895</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+width: 3
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+agricultural: destination
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8282518879346514,42.087337304159895 2.828248743831157,42.08736577059204 2.8282434437709805,42.087370770549526 2.8282341012920256,42.08737317052898 2.8282170333016277,42.08737310386288 2.828001976622609,42.087345970756516 2.8279613727717665,42.087363503944516 2.827946999727221,42.08739937029878 2.8279286740954253,42.087408170219035 2.8276304334210978,42.08740237027174 2.827487780953979,42.08742177009339 2.827316382397769,42.08744116990912 2.8271737299306507,42.08740430358756 2.826913398161313,42.087298504458985 2.8267001381128636,42.08721877166579 2.826471067715413,42.08716150532522 2.826358598641841,42.08714497207642 2.8261413860061406,42.08722850493856 2.825929383599089,42.08730717106091 2.825727891480861,42.0873741705204 2.8254273151867944,42.087447303182955 2.82505532282764,42.08753110231071</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+width: 3
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+agricultural: destination
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.82505532282764,42.08753110231071 2.8247815163290406,42.08762036792646 2.8244791434044063,42.08770490014882 2.824237496592978,42.087767299256456</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>foot: designated
+noname: yes
+source: PNOA
+bicycle: designated
+highway: unclassified
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.824237496592978,42.087767299256456 2.824148473548322,42.087758099391884 2.8239051199378538,42.0877546994416 2.8237469266163204,42.08777249917933 2.823603196170861,42.087803832038865</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: no
+source: PNOA
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.823603196170861,42.087803832038865 2.823387780165729,42.08789123063548</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: no
+source: PNOA
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.823387780165729,42.08789123063548 2.8233989192752524,42.08792069680185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Sords</name>
+      <description>foot: designated
+name: Pont de Sords
+horse: no
+layer: 1
+bridge: yes
+source: PNOA
+bicycle: designated
+highway: cycleway
+name:ca: Pont de Sords
+surface: compacted
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8233989192752524,42.08792069680185 2.823720156820854,42.08825669012935</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: no
+source: PNOA
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.823720156820854,42.08825669012935 2.8237888779400886,42.088289489382646 2.824015882212386,42.08839968674971</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: no
+source: PNOA
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.824015882212386,42.08839968674971 2.824156019396708,42.08898486956051</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+width: 3
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+agricultural: destination
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.824156019396708,42.08898486956051 2.8241023899742466,42.08901660180744 2.823894879143615,42.08907819965321 2.8236216116341857,42.08915779678092 2.8235006085654146,42.08921679458751 2.8234245212608493,42.089301524674774 2.8233865225243315,42.08937852162679 2.823396763318571,42.08945038536437 2.823428024690458,42.089596579154374 2.823434941718146,42.08967877551487 2.8234106872054747,42.08975577200899 2.823272256820191,42.09000729323848 2.8231581707791085,42.09029987790363 2.823137509527573,42.090405072060385 2.8231581707791085,42.090494933597306 2.8232689330536402,42.0907901158509 2.823293097734783,42.090920974210846 2.8232620160259527,42.0909723042121 2.8232065899729224,42.09100050236394 2.8229160748100384,42.09100816852599 2.822829567048178,42.09101590134938 2.822795071741267,42.091046699309025 2.822788064882051,42.091090429719536 2.822826243281626,42.09114942572863 2.8230094995995865,42.09129568226483 2.8230268370845697,42.09135467808302 2.82296799743346,42.09139060884258 2.8228814896715995,42.09138040957523 2.8226533175894333,42.09129568226483 2.8225529757721968,42.091298282081695 2.8224664680103366,42.09136241086416 2.8223766364819247,42.09145740400385 2.8223282172881103,42.0915651960469 2.822300459345831,42.09170891848601 2.8222486265539377,42.091808977375884 2.822186373304748,42.09190910276923 2.8219926965294913,42.09199382926025 2.821895768310335,42.09208102210058 2.821767938045405,42.09223760894182 2.821657175770873,42.092435191786294 2.8216260940620423,42.09255578101341 2.8215922275758314,42.092836288400484 2.821578034194342,42.092894282881375</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+width: 3
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.821578034194342,42.092894282881375 2.8215120080209593,42.093062599896285</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Cementiri</name>
+      <description>name: Camí del Cementiri
+highway: unclassified
+name:ca: Camí del Cementiri
+maxspeed: 30
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8215120080209593,42.093062599896285 2.821442837744082,42.09310759545827 2.821283656275736,42.09324878132555 2.821131481666606,42.09335137085915 2.8209551423763335,42.09341303115526 2.820699212351888,42.09348229059477 2.820547037742758,42.09354648382871 2.820311768969847,42.09367986956189 2.82015267733303,42.09377232617485 2.8200870104857607,42.09382878663573 2.819817336237468,42.09418287990315 2.819730828475607,42.094259870929875 2.8197058553107084,42.09427226947609 2.819614316983257,42.09431779745028</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.819614316983257,42.09431779745028 2.8194818154788495,42.09424447273201 2.8189837894853333,42.09403409697889 2.8186275176436513,42.09391337724399 2.818364670591518,42.09382358720932 2.818053404345571,42.09374659565298 2.8178424799168593,42.09373379704755 2.817606402660193,42.093794723719064</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.817606402660193,42.093794723719064 2.817554300373714,42.09384978431498 2.817478572395263,42.09390391163385 2.8173413996513776,42.09398096965838 2.8172963042241146,42.09403343038794 2.8172845362938927,42.09408869075374 2.817312024741587,42.09414401773035 2.817374727148418,42.09424727240463 2.8174728231774444,42.09439132205994 2.81764727600562,42.09477840805982 2.8176434132498986,42.09487592909552 2.8175844837672606,42.09502570991574 2.8174747096395407,42.09524688094737 2.817359006630946,42.095421524194705 2.8172571376777276,42.09551031210398 2.8170963392418695,42.09561069828413 2.816958986834928,42.095679088778006 2.816788396762474,42.09576061068362 2.816555014451659,42.095891525446056 2.8163746327426082,42.09600650891215 2.816204042670154,42.09615782017014 2.8160707326819905,42.096295999695215 2.815649063487625,42.09664228039513 2.815455027386255,42.096813986928346 2.815284437313801,42.096908571966814 2.81506668568893,42.096997291138244 2.814892232860754,42.097023486932976 2.8147293682997434,42.09708321063825 2.814584290381358,42.09714720026006 2.8144843078902357,42.09728977690396 2.814445141343848,42.09736549770279 2.8144234919455005,42.09752120497684 2.8144410989250694,42.097673912381545 2.814415676602529,42.09768271087642</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+layer: 1
+bridge: yes
+bicycle: designated
+highway: cycleway
+surface: wood
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.814415676602529,42.09768271087642 2.8141627110185206,42.097701574312076</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8141627110185206,42.097701574312076 2.8140959661929106,42.097701574312076 2.8139823293094697,42.097689909644046 2.813756762341627,42.0976287867485 2.8134470232316624,42.097508073855906 2.8132607126417364,42.09742948703977 2.8130371219675188,42.09729710902753 2.8127763410405393,42.09713266928911 2.8126194053604032,42.09707741157559 2.8124665120990464,42.097059881072575 2.812341017453855,42.09707301228631 2.812233129788232,42.097099208049755 2.8121036825557906,42.09713700191841 2.8119664199803767,42.097180728129885 2.811860598439908,42.097235985753386 2.8117820856840754,42.097285377629426 2.8117467818934094,42.097342168240964 2.811701686466147,42.09737129673912 2.811629192422718,42.09738442788837 2.811511513120499,42.09741642255538 2.8114311139025703,42.097455682655976 2.8113643690769603,42.0974950093877 2.8112918750335316,42.0975284037628 2.811197821423284,42.09760259120381 2.8111291003040493,42.09764631709425 2.8110702606529387,42.097697175066095 2.811007468414579,42.09773210240452 2.810884039894541,42.097762697137455 2.8107448010255025,42.09779329185562 2.8105663057785484,42.09783541789222 2.8103585254533314,42.09792420242201 2.8102407563195833,42.09799259042101 2.810156494345933,42.09804211501752 2.8100858867646012,42.09811336904614 2.8100290234071164,42.09819342141869 2.8100172554768945,42.098232681038255 2.810021208064145,42.09830980045784 2.810021208064145,42.09838691978366 2.8099976722037003,42.09844657555043 2.809950600482813,42.0985048315188 2.809883855657203,42.098549889874114 2.8097721052358584,42.09861821054409 2.8096545157651667,42.09869679588711 2.809511324308878,42.09880590870825 2.809429038628853,42.09885103350367 2.8093387579427986,42.098897624654604 2.8092544959691486,42.09892668578434 2.809079863477916,42.0989980054729 2.8089760182310717,42.099063526200204 2.808815219795214,42.09915510846651 2.8087074219611194,42.09918416947826 2.80857788489715,42.09920309912094 2.8084876940426238,42.09922502817178 2.8083877115515015,42.09927301877329 2.8083092886271976,42.09933407343049 2.808236704752241,42.09938499670224 2.8081151626942997,42.09941852338893 2.8080052987350514,42.09943298718268 2.807817101683029,42.09944471818349 2.8076405827296993,42.099443185155096 2.8074916420555924,42.09943012108557 2.8073483607677754,42.09942432223751 2.8072190033668623,42.09943158746085 2.807028830021214,42.09945631587534 2.8068381176863952,42.09947571201041 2.806731307999114,42.09947471220978 2.806552543257574,42.09947257930171 2.8064456437387633,42.099501373554574</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Borgonyà</name>
+      <description>foot: designated
+name: Carretera de Borgonyà
+width: 5
+bicycle: designated
+highway: unclassified
+name:ca: Carretera de Borgonyà
+maxspeed: 30
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8064456437387633,42.099501373554574 2.805893090007502,42.09984030492315 2.8048887735198558,42.10035979621249 2.8048249033031554,42.100392789164495 2.8045191167804413,42.10046650668817 2.8038414277301014,42.10049590036043 2.803060522253616,42.10063220417269 2.8025006023370245,42.10076850769198 2.8015760562466085,42.10091587512818 2.801082970987155,42.10100172266719 2.800822998543931,42.101094701819406 2.800593209494253,42.101103433187994 2.8002775415034136,42.10103451532999 2.799907435606357,42.10099692373951 2.7994728306718994,42.10100058958707 2.79900498807193,42.10093427103918</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Borgonyà</name>
+      <description>foot: designated
+name: Carretera de Borgonyà
+width: 5
+bicycle: designated
+highway: unclassified
+name:ca: Carretera de Borgonyà
+maxspeed: 30
+maxweight: 7.5
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.79900498807193,42.10093427103918 2.798761903956047,42.100956399446794 2.7982719628000887,42.101022717971546 2.798003097035552,42.10104851219309 2.7977784283829936,42.100982193695316 2.7975169288037858,42.100923206832476 2.7973916138216515,42.1009490010945 2.797034264001628,42.10101158712852 2.7963713073219485,42.1011736840029 2.7961301096681623,42.10126952891707 2.795562643903184,42.10124626754301</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Borgonyà</name>
+      <description>foot: designated
+name: Carretera de Borgonyà
+layer: 1
+width: 5
+bridge: yes
+bicycle: designated
+highway: unclassified
+name:ca: Carretera de Borgonyà
+maxspeed: 30
+maxweight: 7.5
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.795562643903184,42.10124626754301 2.795394569113525,42.101178083007696</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Borgonyà</name>
+      <description>foot: designated
+name: Carretera de Borgonyà
+width: 5
+bicycle: designated
+highway: unclassified
+name:ca: Carretera de Borgonyà
+surface: asphalt
+maxspeed: 30
+maxweight: 7.5
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.795394569113525,42.101178083007696 2.7950315599072124,42.101081971348556 2.7947487702557714,42.101145090464286 2.794513860808974,42.10115902065138 2.7939818784977186,42.10105771013002 2.7932017815049894,42.101023784399516 2.79257385912139,42.101005521818024 2.792370480541065,42.100995990614635 2.792202585414463,42.10096133168117 2.792101974102642,42.10094986756823 2.791946206232376,42.100964331012705 2.791768160143063,42.10103778126499</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>lit: yes
+ref: GI-513
+lanes: 2
+layer: 1
+bridge: yes
+highway: secondary
+surface: asphalt
+maxspeed: 50
+reg_name: C-767</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.791768160143063,42.10103778126499 2.7916918931754413,42.100958932215846</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: concrete
+maxspeed: 20
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7916918931754413,42.100958932215846 2.79162577717053,42.10097432878344 2.7915580441981076,42.10092000754343 2.79148492133398,42.10090081180577 2.7913493655576067,42.10098352673113</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril bici Mata (El Terri)</name>
+      <description>foot: designated
+name: Carril bici Mata (El Terri)
+bicycle: designated
+highway: path
+name:ca: Carril bici Mata (El Terri)
+surface: concrete
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7913493655576067,42.10098352673113 2.791188926447863,42.1010841042025 2.7911960231386073,42.10113769213402</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril bici Mata (El Terri)</name>
+      <description>foot: designated
+name: Carril bici Mata (El Terri)
+highway: cycleway
+name:ca: Carril bici Mata (El Terri)
+surface: paving_stones
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7911960231386073,42.10113769213402 2.7910720556293986,42.10121507462686 2.7907626758455484,42.10140763065268 2.7906977276505063,42.101447421492686</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril bici Mata (El Terri)</name>
+      <description>foot: designated
+name: Carril bici Mata (El Terri)
+bicycle: designated
+highway: cycleway
+name:ca: Carril bici Mata (El Terri)
+surface: concrete
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7906977276505063,42.101447421492686 2.7906938648947843,42.101472482377424</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril bici Mata (El Terri)</name>
+      <description>lit: yes
+foot: designated
+name: Carril bici Mata (El Terri)
+oneway: no
+bicycle: designated
+highway: cycleway
+name:ca: Carril bici Mata (El Terri)
+surface: concrete
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7906938648947843,42.101472482377424 2.790570077048633,42.102287888845474 2.790147060381341,42.105072682141326 2.7900573186844575,42.10507108260151</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril bici Mata (El Terri)</name>
+      <description>lit: no
+foot: designated
+name: Carril bici Mata (El Terri)
+bicycle: designated
+highway: cycleway
+name:ca: Carril bici Mata (El Terri)
+surface: concrete
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7900573186844575,42.10507108260151 2.789613461102574,42.10507108260151 2.78899766597531,42.10540718501881 2.7884242713294562,42.10569076796475 2.7879642440724592,42.10586411616317 2.7875749142283217,42.105979681365454 2.7869083642875045,42.10630218314275 2.7867891578493023,42.106326309062204 2.7863858142867324,42.10624753323601 2.7850904436470323,42.10653631080754 2.784964320181142,42.10664147803396 2.7849254231293394,42.106673867905045</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: concrete
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7849254231293394,42.106673867905045 2.7850154343208082,42.10674211317598 2.7852930137436016,42.10694431601812 2.7852548353440265,42.10697910497208</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7852548353440265,42.10697910497208 2.7852031822151897,42.10701449371601 2.7850837961139296,42.10711992673052 2.7850008816132057,42.10719390301402 2.784891017653958,42.10733938945308 2.7847915741520057,42.10746561516315 2.784749802491294,42.10757231367981 2.7847366870881456,42.10767321392324 2.784749802491294,42.10779550693562 2.784749802491294,42.10795078873128 2.78468440513861,42.108084677321806 2.784608497497102,42.108216699592376 2.784605892382778,42.10834858829989 2.784583344669147,42.108532125741455 2.7844903690372402,42.108726525567555 2.784406196895118,42.10882309214334 2.784329121443741,42.1088916016745 2.784224018555499,42.10899343282523 2.784191230047629,42.10919023039056 2.7841863791450945,42.10933971082855</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+layer: 1
+bridge: yes
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7841863791450945,42.10933971082855 2.784234888170437,42.10943481032633</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.784234888170437,42.10943481032633 2.7842395594099143,42.1094608676971 2.7841140647647222,42.109577092770316 2.7839624291447636,42.109707112654156 2.7838510380495327,42.10981507360568 2.7837295858231195,42.10992963196984 2.7836614036930554,42.109943626869246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Can Frigola</name>
+      <description>lit: yes
+foot: designated
+name: Camí de Can Frigola
+lanes: 1
+oneway: no
+bicycle: designated
+highway: living_street
+surface: concrete
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7836614036930554,42.109943626869246 2.7835742671104953,42.11010176901781 2.7835614212019326,42.11017407576846 2.7835580974353813,42.11023058826822</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Can Frigola</name>
+      <description>lit: yes
+foot: designated
+name: Camí de Can Frigola
+lanes: 1
+oneway: no
+bicycle: designated
+highway: living_street
+surface: concrete
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7835580974353813,42.11023058826822 2.783530339493102,42.11032981823141 2.783505096833618,42.11038319842269 2.7834617980369236,42.11051908112875 2.7834266739093145,42.110675622443246 2.7834073601307057,42.11077478506825 2.7834226314905357,42.11086088582381 2.7834040363641543,42.110998700102456 2.783410234739615,42.11108286795988</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.783410234739615,42.11108286795988 2.783352562898375,42.1111033267967 2.783243866748996,42.1111171881547 2.7831359790833736,42.111154707103694 2.7830768699376787,42.11120242211155 2.7830473153648305,42.111255268440054 2.783042105136183,42.11129272066638 2.7830647426813426,42.11153022857575 2.7830386017065747,42.1116984961267 2.783006442019403,42.111795991140944 2.7829501176510894,42.11187762560688 2.782904483234656,42.11194133373748 2.7827649748710317,42.11208261095342 2.782650978661477,42.11213332406592 2.782510212656456,42.112203895859295 2.782452630646744,42.11225967351009 2.7821629239676153,42.11241780988041 2.782047490453605,42.11245959300212 2.781873217288487,42.112535229045534 2.7817203240271295,42.11259387190694 2.781445439550189,42.11276600171972 2.78120666734767,42.112909276275154 2.781045689248756,42.1130097681887 2.780972027395458,42.113059480972964 2.780910313135439,42.11311032658195 2.7808660261919322,42.11317589936477 2.780823086721351,42.11330031420425 2.780778889609372,42.11337888134986 2.7806160250483614,42.11354920978911</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>living_street</name>
+      <description>lit: no
+noname: yes
+highway: living_street
+surface: compacted
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7806160250483614,42.11354920978911 2.7805683245067745,42.113532283587546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>living_street</name>
+      <description>lit: no
+layer: 1
+bridge: yes
+noname: yes
+highway: living_street
+surface: compacted
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7805683245067745,42.113532283587546 2.780428187322452,42.11343459132795</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>living_street</name>
+      <description>lit: no
+noname: yes
+highway: living_street
+surface: compacted
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.780428187322452,42.11343459132795 2.7803469796207674,42.11337588260564 2.7803068249275675,42.11335649072286 2.7802863433390894,42.1133518926467 2.780258495565282,42.11334562860037 2.7801646216180913,42.11336202174159</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: concrete
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7801646216180913,42.11336202174159 2.7801485417745053,42.1134008054978 2.780054667827315,42.11344751923451 2.7799527090425675,42.113501296632016 2.7799085119305884,42.11356087153953 2.7798387128330124,42.11372506875767 2.7798173329292504,42.1138246264417 2.779809158260165,42.11387527152216 2.7797998157812107,42.11395990202682 2.779779693518846,42.11410810509504 2.7797998157812107,42.11417381012143 2.7797395388256456,42.11464127342908 2.7796965993550646,42.11488709843805 2.7796362325679724,42.1150592220229 2.7795947304018456,42.115143717672815 2.779553138404191,42.11519849318378 2.7794980716772746,42.11525813313278 2.7794391421946365,42.11532177122874 2.779417582627817,42.11538247724817 2.7794217148781244,42.11544018456289 2.7794579169840747,42.11552381343034 2.779490076671246,42.11559837963425 2.7794994191502007,42.115657086297844 2.779448484673591,42.11573171898122 2.77935973112352,42.115796889234645 2.779314366201672,42.115847132922106 2.779236572098067,42.11590970424908 2.779160125467389,42.115947620177536 2.779063556574346,42.115977406488554 2.7789871099436674,42.11600619324563 2.778955579077195,42.116030115563895 2.778948931544092,42.11605150570712 2.7789704012793828,42.116078893076235 2.7790037287764235,42.116106213797615</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+layer: 1
+bridge: yes
+bicycle: designated
+highway: cycleway
+surface: concrete
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7790037287764235,42.116106213797615 2.7790587056718117,42.11619210740348</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: concrete
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7790587056718117,42.11619210740348 2.779064904047272,42.116227091189415 2.779052866622465,42.11624301713508 2.7790340918330267,42.116251013424296 2.7790004948414007,42.11625401203249 2.778936175467058,42.116253012496436 2.7788663763694816,42.1162837981995 2.7787507631924155,42.11636842548799 2.778659943517191,42.11643899256577 2.778597510604945,42.11651702273687 2.7785632847926194,42.11658718983688 2.7785483727589035,42.11664889417401 2.77852313009942,42.11672052710341 2.778485580520543,42.11675531069204 2.7783944015192055,42.116800089536625 2.778242765899246,42.116856796033986 2.778052412890541,42.116927429202995 2.7778927822645527,42.11702791474549 2.777795943876925,42.11708368815092 2.77773683473123,42.11711780519193</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+surface: concrete
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.77773683473123,42.11711780519193 2.777674940808154,42.11715298837123 2.777655537198017,42.117163983110764 2.777456021373414,42.1172743302091 2.7774317668607424,42.117300717530235 2.7773326826849045,42.11745997410887 2.777237371433259,42.11756558965264 2.7771381974258924,42.11775982850547 2.7767862374975745,42.11824159159828 2.776578996161528,42.11846028284753 2.776441733586115,42.11856403099159 2.776321000011929,42.11864792226969 2.7760688429116764,42.118913921521155 2.7760438697467777,42.118940108260844 2.775802492429935,42.119172989859095 2.7755799797340592,42.11943698793485 2.775541891166012,42.11950861771271 2.7755038025979655,42.11962649016627 2.7754860159553396,42.11978947229314 2.7754261881574176,42.11996018329461 2.7753271039815792,42.12018459893097 2.775319917459306,42.120261691648764 2.77531686318734,42.1202938746657 2.775293776484538,42.120376497657084 2.775255957411077,42.120469315131025 2.775231972392991,42.120513691563694 2.775209155184774,42.12065488303989 2.77521391625578,42.12072777743066</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril Bici Mas Palau - Caneleta</name>
+      <description>lit: yes
+foot: designated
+name: Carril Bici Mas Palau - Caneleta
+bicycle: designated
+highway: cycleway
+surface: concrete
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.77521391625578,42.12072777743066 2.7752190366528993,42.12075722833989 2.775170797122142,42.120858574011166 2.7751453747996018,42.12092886956566 2.775069197663508,42.12100929291483 2.775052488999224,42.121041209029244 2.7750496143903147,42.12109771183955 2.775043775340968,42.12113249302556 2.775033983704371,42.12116660788679 2.7749977815984215,42.12121151687531 2.774957806568278,42.121247697239056 2.7748502782287683,42.12131219551583 2.7746910967604226,42.1213918854448 2.7746686388783197,42.12141220769325 2.77460809242817,42.12143539503762 2.774541617097145,42.12144052556957 2.7745035285290984,42.12145998160903 2.7743969883364024,42.121505689952194 2.77438917299343,42.12153467408858 2.774358001453071,42.121585379637814 2.774268169924659,42.12167279830809 2.774229991525084,42.12170491397831 2.774068833763113,42.12182877903527 2.7739692105981044,42.121884614845136 2.773915401512585,42.12189980644121 2.773865006025146,42.121907202348524 2.7737918831610187,42.12192399305377 2.7737592743162054,42.12196257168114 2.773705375399158,42.122055919868835 2.7736663885158275,42.12206291598015 2.7736363847853376,42.122068179720536 2.773557602534921,42.122096897081235 2.7735152918850385,42.12212421520812 2.7735037036178736,42.12213167771878 2.7734834016924523,42.122161594382156</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril Bici Mas Palau - Caneleta</name>
+      <description>lit: yes
+foot: no
+name: Carril Bici Mas Palau - Caneleta
+bicycle: designated
+highway: cycleway
+surface: concrete
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7734834016924523,42.122161594382156 2.7730670325582625,42.12222802398285 2.7730021741947493,42.12225261024668 2.7729760332199818,42.12227519761888 2.772846136829898,42.12240332583442 2.7723266411010914,42.12296887255319 2.772303195072176,42.12296787312305 2.7722713947111184,42.12295661287577 2.772250733459583,42.12296380877367 2.7722105787663835,42.12305402394282 2.7721705139047117,42.12311438941262 2.77180858267674,42.12349670271917 2.7717657330376873,42.12353348143078 2.7716883880917247,42.123584785032705 2.771453478644927,42.123668802919624 2.7713039989816504,42.12372077269082 2.771224767573591,42.123748290001124</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril Bici Mas Palau - Caneleta</name>
+      <description>lit: yes
+name: Carril Bici Mas Palau - Caneleta
+highway: cycleway
+surface: concrete
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.771224767573591,42.123748290001124 2.771073491279745,42.123797994361844</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril Bici Mas Palau - Caneleta</name>
+      <description>lit: yes
+foot: designated
+name: Carril Bici Mas Palau - Caneleta
+bicycle: designated
+highway: cycleway
+surface: concrete
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.771073491279745,42.123797994361844 2.7710080040955325,42.12381971502198 2.7709402711231097,42.123850630304545 2.770758631772661,42.123925919614926 2.7706184047568096,42.12400727194621 2.7705362089083128,42.12405037997786 2.770450509630208,42.12408109526535 2.770145890917363,42.12418050342562 2.770099627680231,42.12419129706366 2.77007537316756,42.12419282949361 2.76997691781242,42.12417277464664 2.7698925660072415,42.124159515790836 2.7698152210612785,42.124152320028735 2.769757189893925,42.124152320028735 2.769682629725342,42.124162580652225 2.7696010626975447,42.124174906723695 2.7695210228057294,42.12417897099538 2.769446372805619,42.12416970978575 2.769382772083504,42.12415538489047 2.769338574971525,42.124073433101756</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril Bici Mas Palau - Caneleta</name>
+      <description>lit: yes
+foot: no
+name: Carril Bici Mas Palau - Caneleta
+bicycle: designated
+highway: cycleway
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.769338574971525,42.124073433101756 2.769338574971525,42.12402532801868 2.7693487259342353,42.12399741106314 2.769353217510656,42.12396383074709 2.7693516903746733,42.12393311540274 2.76934621065144,42.12391692487902 2.769320429002786,42.12389080682379 2.769276681048449,42.123875215938746 2.769228980506862,42.12386009144404 2.769205624309475,42.12384510020122 2.7691875681722644,42.12381092015435 2.7690126661864465,42.12346392167561 2.7689993711202407,42.12344533241775 2.7689259787615286,42.12338803216211 2.7687306850187614,42.12326050559318 2.767853480143818,42.12289518119561 2.767756731587719,42.12285487078742 2.767132941454426,42.1225950179539 2.767086498554237,42.12257569552114 2.7670505659428724,42.122576295182945</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril Bici Mas Palau - Caneleta</name>
+      <description>lit: yes
+foot: no
+name: Carril Bici Mas Palau - Caneleta
+bicycle: designated
+highway: cycleway
+surface: paved
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7670505659428724,42.122576295182945 2.766989929661194,42.12254891062186 2.7668767419353952,42.12255517375853</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril Bici Mas Palau - Caneleta</name>
+      <description>lit: yes
+foot: no
+name: Carril Bici Mas Palau - Caneleta
+bicycle: designated
+highway: cycleway
+surface: paved
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7668767419353952,42.12255517375853 2.766811344582712,42.122570431822936 2.766783856135017,42.12257782765195 2.7667294182287994,42.12259641716432</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda Fortià</name>
+      <description>lit: yes
+foot: designated
+name: Ronda Fortià
+oneway: yes
+bicycle: designated
+highway: living_street
+name:ca: Ronda Fortià
+surface: asphalt
+maxspeed: 10
+cyclestreet: yes
+motor_vehicle: destination
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7667294182287994,42.12259641716432 2.766566823162374,42.12261627262312 2.766500168168293,42.122628798882516 2.766388238083891,42.12265858205318 2.7662974184086666,42.12269103036858 2.7661520709956964,42.122740802187636 2.7659776181675197,42.1227847106274 2.765856255772636,42.122825087709046 2.765751961368149,42.12285340495392 2.7656569196110894,42.122874926051566 2.7655924205736895,42.122881322413534 2.7655582845928928,42.12288158892861</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda Fortià</name>
+      <description>lit: yes
+foot: designated
+name: Ronda Fortià
+oneway: no
+bicycle: designated
+highway: living_street
+name:ca: Ronda Fortià
+surface: asphalt
+maxspeed: 10
+cyclestreet: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7655582845928928,42.12288158892861 2.765496390669817,42.12288032298202 2.7654200338706674,42.12287279393075</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda de Fortià</name>
+      <description>lit: yes
+name: Ronda de Fortià
+oneway: yes
+bicycle: designated
+highway: living_street
+name:ca: Ronda de Fortià
+surface: concrete
+maxspeed: 10
+cyclestreet: yes
+motor_vehicle: destination
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7654200338706674,42.12287279393075 2.7650413041468824,42.12282562073965 2.7643176213539955,42.12273547187421</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda de Fortià</name>
+      <description>lit: yes
+name: Ronda de Fortià
+oneway: no
+bicycle: designated
+highway: living_street
+name:ca: Ronda de Fortià
+surface: concrete
+maxspeed: 10
+cyclestreet: yes
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7643176213539955,42.12273547187421 2.764276388682455,42.1227310743653 2.764234886516328,42.12272661022714 2.7636217863349164,42.122659514859194 2.763577319728353,42.12265458431296 2.763508957935231,42.1226471884929</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Llibertat</name>
+      <description>lit: yes
+ref: C-150a
+name: Carrer Llibertat
+lanes: 2
+hazmat: no
+oneway: no
+highway: secondary
+name:ca: Carrer Llibertat
+surface: asphalt
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.763508957935231,42.1226471884929 2.763508957935231,42.12261020937965 2.763508957935231,42.12256430194597 2.763508957935231,42.122534785247524</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Horta</name>
+      <description>lit: yes
+foot: no
+name: Camí de l'Horta
+bicycle: no
+highway: living_street
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.763508957935231,42.122534785247524 2.763450477610235,42.12252638997638</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Horta</name>
+      <description>lit: yes
+foot: designated
+name: Camí de l'Horta
+bicycle: designated
+highway: living_street
+surface: asphalt
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.763450477610235,42.12252638997638 2.7634342181035927,42.122523991327284 2.76210785558659,42.12230258229826 2.761963226825847,42.12229838464744</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: footway
+surface: paving_stones
+maxspeed: 10
+segregated: no
+lit:perceived: minimal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.761963226825847,42.12229838464744 2.7618390796535817,42.12229318755557</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: paving_stones
+maxspeed: 10
+segregated: no
+lit:perceived: minimal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7618390796535817,42.12229318755557 2.7618294676800414,42.12225047810494 2.761791019785881,42.1222242927333 2.7617638008327723,42.12221483134954 2.7616612132273253,42.12220170534296 2.7614929587746104,42.122164925858264 2.761255893371131,42.122124481726374</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: paving_stones
+maxspeed: 10
+segregated: no
+lit:perceived: minimal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.761255893371131,42.122124481726374 2.7611410886778205,42.12209569774858 2.7610850338040915,42.12207550897856 2.760860724477647,42.12205638627628 2.7605642804338872,42.12203859616131 2.7603864140076317,42.12196850172714 2.7602806822986907,42.12193638619052 2.7601268907220495,42.12191739670581 2.759969865210386,42.121920994713875 2.7597696307335555,42.121909067982656 2.7594635747162557,42.12188181639283 2.7593786839219065,42.1218544315316 2.759308166172103,42.12181038918736</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: paving_stones
+maxspeed: 10
+segregated: no
+lit:perceived: minimal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.759308166172103,42.12181038918736 2.7592638792285955,42.121783070925176</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: paved
+maxspeed: 10
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7592638792285955,42.121783070925176 2.7592066565449973,42.12174449218852</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: paved
+maxspeed: 10
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7592066565449973,42.12174449218852 2.759154644090047,42.12170931155844 2.759137576099649,42.121697917827476 2.7590005830188202,42.121523813367766 2.7584822550998838,42.121494695965964 2.758410569540211,42.121491097933685</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: footway
+surface: paving_stones
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.758410569540211,42.121491097933685 2.7583203786856854,42.12148703348958</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Volta a l'Estany</name>
+      <description>lit: yes
+foot: designated
+name: Volta a l'Estany
+horse: permissive
+width: 7
+bicycle: no
+highway: pedestrian
+name:ca: Volta a l'Estany
+surface: compacted
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7583203786856854,42.12148703348958 2.7583420280840327,42.12174282643942 2.7583597248951297,42.12189167760518 2.7583756250756584,42.122129412313846 2.7583962863271934,42.12249720640614</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Sant Mer</name>
+      <description>lit: yes
+foot: designated
+name: Carrer Sant Mer
+horse: permissive
+bicycle: no
+highway: pedestrian
+name:ca: Carrer Sant Mer
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7583962863271934,42.12249720640614 2.7585041739928164,42.12251079875559 2.758908685365255,42.12254118164384 2.7589279991438636,42.1225433137758</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Volta a l'Estany</name>
+      <description>lit: yes
+foot: designated
+name: Volta a l'Estany
+horse: permissive
+bicycle: no
+highway: footway
+name:ca: Volta a l'Estany
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7589279991438636,42.1225433137758 2.758933658530154,42.122574696084804 2.7589409348839555,42.1226228022693 2.7589438094928638,42.12274106870329 2.758971836929729,42.12281942425855 2.75898647946886,42.12286066749233 2.759023939216208,42.12293828998391 2.7590496310333332,42.123047627598275 2.759137665931177,42.12319787489586 2.759180874896343,42.1232716991581 2.7591922835004516,42.123290488351905 2.7592225567255264,42.12334072609804 2.7592387264006404,42.1233637128519 2.759268640299602,42.12338010340172 2.7592751980011756,42.12342081324494</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Volta a l'Estany</name>
+      <description>lit: yes
+foot: designated
+name: Volta a l'Estany
+horse: permissive
+bicycle: no
+highway: footway
+name:ca: Volta a l'Estany
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7592751980011756,42.12342081324494 2.7592758268218747,42.123498768190856 2.7592691792887725,42.12356839453583 2.7592524706244874,42.123758417434345 2.759214022730327,42.12421988020738 2.7591939902994915,42.12441829617353 2.7591838393367807,42.12452010237835</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>lit: no
+highway: pedestrian
+name:ca: Volta a l'Estany
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7591838393367807,42.12452010237835 2.7589639317552286,42.12451250689488 2.758669194510509,42.124500114262034 2.7585365133430444,42.12449698278991 2.758147812319606,42.12448732186429 2.7580536688778303,42.124502779344574 2.758004620863317,42.12456327668806 2.7579608729089804,42.1246684140044 2.7578754431254606,42.12486283096497 2.757853883558642,42.124912667704585 2.757836905399772,42.1249355206349 2.757709075134842,42.12510661753063 2.757670088251511,42.125158786001535 2.7575624700804737,42.12530289868071 2.757453055278868,42.12558759188186 2.7574095768191165,42.12570092247253 2.7573953834376272,42.12593817650943 2.757413170080253,42.126130590813005 2.7575183628000235,42.12631627539189 2.7579413794673155,42.126584707572384 2.7581719770007487,42.12681003249086 2.758295675015372,42.126981524070914 2.7584069762790744,42.127280000927506 2.7585279793478454,42.12733096837517 2.7589675250163648,42.12710271383918 2.759362244752207,42.1269807912019 2.7595440637657127,42.12698438892242 2.7596540175564894,42.127012571059474 2.7598540723702625,42.12715208244688 2.7602114221902854,42.12745488905726</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Volta a l'Estany</name>
+      <description>foot: designated
+name: Volta a l'Estany
+horse: permissive
+bicycle: no
+highway: footway
+name:ca: Volta a l'Estany
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7602114221902854,42.12745488905726 2.760325508231369,42.12755162696964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Anton Prat i Daranas</name>
+      <description>lit: no
+foot: designated
+name: Camí d'Anton Prat i Daranas
+horse: permissive
+bicycle: no
+highway: footway
+name:ca: Camí d'Anton Prat i Daranas
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.760325508231369,42.12755162696964 2.7605068780872317,42.12765549347556 2.76081302393606,42.12783997436099 2.7611498023360763,42.12825876862752 2.7611650736959064,42.128325724819724</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Anton Prat i Daranas</name>
+      <description>lit: no
+foot: designated
+name: Camí d'Anton Prat i Daranas
+horse: permissive
+bicycle: no
+highway: footway
+name:ca: Camí d'Anton Prat i Daranas
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7611650736959064,42.128325724819724 2.7611980418668334,42.12847003016348 2.761216008172516,42.128549977580846 2.761253018762222,42.1286050079945 2.7612970362111438,42.128866968097526 2.76127799192712,42.12900500970989 2.7611980418668334,42.129078027738416 2.7609979870530603,42.12931200464971 2.7608998910240343,42.129460371679585 2.760863509255027,42.12951546792414 2.7606920208672894,42.12970200866241 2.760392971709206,42.129978021325606 2.760350032238625,42.13012198979961 2.7604319585925365,42.13031698961264 2.76045495546381,42.130451030816864 2.7604651962580493,42.13058247353143 2.7604674420462594,42.13066601579416 2.76046968783447,42.13074962456721 2.760471484465038,42.13077247539195 2.7604798387971803,42.13087860170902 2.7604519910233725,42.13098899154382 2.760487025319453,42.131222028716614 2.7604685200246,42.13137412198365 2.760473191264077,42.13138458129696</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Anton Prat i Daranas</name>
+      <description>lit: no
+foot: designated
+name: Camí d'Anton Prat i Daranas
+horse: permissive
+layer: 1
+bridge: yes
+bicycle: no
+highway: footway
+name:ca: Camí d'Anton Prat i Daranas
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.760473191264077,42.13138458129696 2.7604796591341234,42.131399104417035 2.7604861270041687,42.13141349429419</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Anton Prat i Daranas</name>
+      <description>lit: no
+foot: designated
+name: Camí d'Anton Prat i Daranas
+horse: permissive
+bicycle: no
+highway: footway
+name:ca: Camí d'Anton Prat i Daranas
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7604861270041687,42.13141349429419 2.7605393971005174,42.131487375602745 2.760593026522979,42.13155199669466 2.7606872597962835,42.131740929735784 2.760726875500313,42.13189302175684 2.76071968897804,42.1320575045696 2.760682588556806,42.13221752348585 2.760661927305271,42.13239699467863 2.7606612984845724,42.1324251744077</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Anton Prat i Daranas</name>
+      <description>lit: no
+foot: designated
+name: Camí d'Anton Prat i Daranas
+horse: permissive
+layer: 1
+bridge: yes
+bicycle: no
+highway: footway
+name:ca: Camí d'Anton Prat i Daranas
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7606612984845724,42.1324251744077 2.7606594120224757,42.13250631596888</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Anton Prat i Daranas</name>
+      <description>lit: no
+foot: designated
+name: Camí d'Anton Prat i Daranas
+horse: permissive
+bicycle: no
+highway: footway
+name:ca: Camí d'Anton Prat i Daranas
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7606594120224757,42.13250631596888 2.7606570764027367,42.13260637709415 2.7605581718899552,42.132908025122376 2.7604024040196893,42.13315098131261</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Volta a l'Estany</name>
+      <description>lit: no
+foot: designated
+name: Volta a l'Estany
+horse: permissive
+bicycle: no
+highway: footway
+name:ca: Volta a l'Estany
+surface: compacted
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7604024040196893,42.13315098131261 2.760260021047156,42.13337301860614 2.760114943128771,42.133727024250376 2.7600686798916385,42.133985898785106 2.76008502922981,42.13430099682959 2.7599427360888047,42.13465473082147 2.759790561479675,42.13478350016265 2.7592601063044024,42.134940381235914 2.7589979779044964,42.13501798892678 2.7588270285059284,42.13506868368467 2.758593107205944,42.1351839291725 2.758322714305424,42.13525700669399 2.758141434281089,42.13533328168346 2.7575173746532107,42.13555397901765 2.7573475930645124,42.13557882657154 2.7572113186359113,42.13558542149708 2.756962036144568,42.135600010269314 2.7565444992005093,42.13561999488336 2.756345612196605,42.13562818857329 2.7561704407162018,42.135635383031875 2.7560164694765037,42.135635383031875 2.7558392318709473,42.13568261329985 2.755688764060857,42.135753691789084 2.755594081629911,42.135846087044314 2.755482510871623,42.13596512817299 2.7553694129773527,42.13602881208729 2.7552368216414163,42.1360733774662 2.7549497200766115,42.13611820927315 2.7548756988972003,42.136125270446385 2.7546828306057,42.136124071379285 2.754558593601906,42.136114811915924 2.7544642704970737,42.13608889873431</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Volta a l'Estany</name>
+      <description>lit: no
+foot: designated
+name: Volta a l'Estany
+horse: permissive
+bicycle: no
+highway: path
+name:ca: Volta a l'Estany
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7544642704970737,42.13608889873431 2.7545261644201497,42.136269491406765 2.7545507782589347,42.136380404762576 2.7545373035296725,42.13648119252647 2.7545417052745647,42.13653008752401 2.7545700022060147,42.13657458593581 2.7546277638787835,42.13664612972397 2.7547301718211727,42.136753511868854 2.754794760690101,42.136836912763954</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Volta a l'Estany</name>
+      <description>lit: no
+foot: yes
+name: Volta a l'Estany
+width: 3
+highway: cycleway
+name:ca: Volta a l'Estany
+surface: unpaved
+maxspeed: 20
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.754794760690101,42.136836912763954 2.753846499076184,42.1369239107052 2.7532306141173923,42.13696547782637 2.7527439967279848,42.13693763318732 2.7522500131532475,42.13690319374842 2.7519886034055685,42.13687927931076</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+width: 3
+bicycle: designated
+highway: cycleway
+surface: unpaved
+tracktype: grade2
+check_date: 2020-07</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7519886034055685,42.13687927931076 2.7519628217569143,42.13693416926008</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>foot: designated
+width: 3
+bicycle: designated
+highway: unclassified
+surface: asphalt
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7519628217569143,42.13693416926008 2.751846759422206,42.1370612686203 2.75172378005981,42.13720049142128 2.7515892124302495,42.13725771256988</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>foot: designated
+width: 3
+bicycle: designated
+highway: unclassified
+surface: asphalt
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7515892124302495,42.13725771256988 2.751523455751452,42.137285623681805 2.751031268807283,42.13759957288336 2.750862385533868,42.13771707861324 2.750676524101584,42.13779941243013 2.7503180064716917,42.13790432793974 2.7501114837878724,42.137898132933515 2.749884569347104,42.13791911601663 2.7497913242206127,42.13794063199623 2.749633759719778,42.13797686941902 2.7493965146532418,42.13804801194609 2.749216671933361,42.13808518188632 2.7490561429920892,42.13808991139327 2.7488224911866896,42.138055805645045 2.7486284550853193,42.13801557149656 2.7484742143510363,42.137956818935805 2.7483427908249696,42.13786709128035 2.7479423218713093,42.137319596617665 2.747717922713336,42.137045680976634</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: permissive
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+agricultural: yes
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.747717922713336,42.137045680976634 2.746791400329295,42.13751996995492 2.7467301352269184,42.13757799017457 2.74671306723652,42.13766132337064 2.7467216012317195,42.13783538348157 2.7468253566470353,42.13880059906524 2.7468559891982234,42.139393576526444 2.746916266153788,42.13982188638137 2.7469129423872367,42.139879904491956 2.746908630473873,42.13995257692975</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: permissive
+bicycle: designated
+highway: cycleway
+surface: unpaved
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.746908630473873,42.13995257692975 2.746903240582168,42.14009372508348 2.746891382820418,42.140468408958306 2.7468842861296734,42.1407257905168 2.746907911821646,42.14096918298467 2.7469692667555505,42.14105677473584 2.7471181175981294,42.14115309221738 2.7473801561665074,42.14125467169859 2.747765174097281,42.14137030558509 2.748083986191615,42.14149979397232 2.748350875662527,42.14162941531284</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: permissive
+layer: -1
+tunnel: yes
+bicycle: designated
+highway: cycleway
+surface: paved
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.748350875662527,42.14162941531284 2.7485303590562937,42.14168017138724</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: permissive
+bicycle: designated
+highway: cycleway
+surface: paved
+maxspeed: 20
+motorcar: no
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7485303590562937,42.14168017138724 2.748579856228449,42.14167490927643 2.748613004062433,42.1416031713424 2.7486590876365082,42.14150858638408 2.7487050813790552,42.14142798923063 2.7487535005728696,42.141396483042755 2.7488421642914123,42.14133660125979 2.7489177126068065,42.141320082137284 2.7490456327032646,42.14133586855687 2.7491798410067125,42.141378098875144 2.7492955440153066,42.14140967168144 2.7493710923307018,42.14142978768062 2.749504492150393,42.14143591573208 2.7496485819219654,42.14143151952131 2.7496923298763023,42.14145429988291 2.749765542571958,42.14148760449037 2.7498576198885805,42.1415007265009 2.7499331682039747,42.141468287820175 2.7499752991908,42.14142639060836</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>foot: designated
+bicycle: designated
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7499752991908,42.14142639060836 2.7503763969651596,42.14111952099563</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>foot: designated
+noname: yes
+bicycle: designated
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7503763969651596,42.14111952099563 2.7506823631509305,42.141277718561476 2.750890682465318,42.141403610236736 2.751170867002435,42.14161522758398 2.75130462614824,42.14169908833895 2.751466592393967,42.1417810173251 2.7518985023825713,42.14189351963825 2.7519339858362946,42.14189798242571 2.7520502278340593,42.14191256974372 2.7521582053312104,42.14190497634572 2.7524488103256233,42.14179247405295 2.752641588785595,42.14173912032024 2.7527419306028316,42.1417277301917 2.7528267315656527,42.141735323610945 2.7529321039484795,42.1417810173251 2.7530143896285044,42.14185348775459 2.753091644742939,42.141956398286275 2.7533487425772543,42.14254741456068 2.7533466764521006,42.142576588894094 2.753343532348606,42.14262181574512 2.753287028317235,42.14271713172744 2.7532611568370524,42.142800991022995 2.753222708942892,42.14307361622587 2.753212378317125,42.1431556100409 2.7529347090628034,42.143788510797926 2.7527650173056335,42.1441716984256 2.7525515775941267,42.14457393303885 2.752494983731227,42.14461782634505 2.7524384796998556,42.14464067216614 2.752129908399761,42.14470168312315 2.751826637159842,42.14477981169732 2.751638889265461,42.14486366826086 2.7515283066539857,42.1449036982413 2.751152900696752,42.14498382473178 2.751098911948177,42.1450066704208 2.7510680997339314,42.14503151426568 2.751044923199601,42.145063884515416 2.7508675059309877,42.14603977982924</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Usall</name>
+      <description>foot: designated
+name: Camí d'Usall
+width: 2.5
+bicycle: designated
+highway: unclassified
+name:ca: Camí d'Usall
+surface: asphalt
+maxspeed: 30
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7508675059309877,42.14603977982924 2.7510725014788235,42.14608260644937 2.751262135835301,42.1461695250839 2.7512934870387173,42.14618391160499 2.7520233682070643,42.14675577317093 2.7520916401686573,42.14678900838612 2.752728366042041,42.14709958030521 2.753383866704863,42.14725210166343 2.753536041313993,42.14728020817931 2.753793678137478,42.14729819101467 2.7539612139379672,42.14728020817931 2.7543606947448147,42.14719302465693 2.7547513720618784,42.147090988479775 2.755100008223645,42.14698708724265</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Usall</name>
+      <description>foot: designated
+name: Camí d'Usall
+width: 2.5
+bicycle: designated
+highway: unclassified
+name:ca: Camí d'Usall
+surface: asphalt
+maxspeed: 30
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.755100008223645,42.14698708724265 2.755320005636726,42.14684448917742 2.755520329945085,42.14663508723277 2.7557964720634227,42.14655309792389 2.7561831967932364,42.14648649402047 2.7565506975759697,42.14648809251498 2.757097591920942,42.14653251732521 2.7575312985401146,42.146534115818554 2.758061933378444,42.1464049041433 2.75879190437832,42.14622200922841</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera d'Usall</name>
+      <description>foot: designated
+name: Carretera d'Usall
+lanes: 2
+width: 5
+bicycle: designated
+highway: unclassified
+name:ca: Carretera d'Usall
+surface: asphalt
+maxspeed: 50
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.75879190437832,42.14622200922841 2.7589031158104933,42.14587007156911</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: designated
+horse: permissive
+bicycle: designated
+highway: track
+surface: compacted
+maxspeed: 20
+tracktype: grade2
+cyclestreet: yes
+motor_vehicle: permissive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7589031158104933,42.14587007156911 2.7594404880134538,42.145980901504814 2.7597682832606294,42.14604837179734 2.7599453412031294,42.146068286509625 2.7602537328401673,42.1459868293024 2.7604441756804006,42.145964916429904 2.760878690783329,42.145988827436284 2.7613803100379815,42.14603251994831 2.7620320377766103,42.14604450874206 2.7626895147330575,42.146089200281004</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: designated
+horse: permissive
+layer: 1
+bridge: yes
+bicycle: designated
+highway: track
+surface: compacted
+maxspeed: 20
+tracktype: grade2
+cyclestreet: yes
+motor_vehicle: permissive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7626895147330575,42.146089200281004 2.7630663579947456,42.14610718345469</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: designated
+horse: permissive
+bicycle: designated
+highway: track
+surface: compacted
+maxspeed: 20
+tracktype: grade2
+cyclestreet: yes
+motor_vehicle: permissive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7630663579947456,42.14610718345469 2.763893526708362,42.14611597522662 2.7644486855539485,42.14610012339451 2.764735697287225,42.14609019934635 2.764974379658215,42.146082206823195 2.7651299678654246,42.146085204019485 2.7651515274322436,42.14615380647378 2.7652857357356915,42.14697809578142 2.765353289045057,42.14752976951581 2.765357960284534,42.14756779972651 2.765424525447088,42.14801237186092 2.765424525447088,42.14808430233979 2.7654002709344163,42.148180675732895 2.7653496059523923,42.14825919962613 2.7651820701519036,42.14841278382108 2.7650784943996447,42.1485467867258 2.765054329718502,42.14863336896866 2.765091699634321,42.14871668761516 2.7651908736416884,42.14884742640538 2.76521961973078,42.14894220020421 2.765270284712804,42.14902218838078</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: permissive
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+agricultural: yes
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.765270284712804,42.14902218838078 2.7652240214756723,42.149167711989854 2.7652019229196827,42.14924117297987 2.765206324664575,42.14934740154992 2.76521737394257,42.14945689338164 2.7651996771314726,42.149600684374185 2.76515341389434,42.149842510915924 2.7650813690085543,42.150033587196795</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+horse: permissive
+bicycle: designated
+highway: cycleway
+surface: compacted
+maxspeed: 20
+agricultural: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7650813690085543,42.150033587196795 2.7651276322456857,42.150112574992434 2.765191682125444,42.15019842249329 2.7652409996345417,42.15026981768848 2.7652754051099238,42.15032163243457 2.7653039715359586,42.15038436951252 2.7653337956033917,42.15047281403484 2.7653489771316933,42.15060341599884 2.7653449347129144,42.15074600559674 2.765370267203927,42.150841708944 2.7653980251462063,42.150926090272115 2.765438628997048,42.151019195979536 2.76550133140388,42.151128018928944 2.765568525387132,42.15125682137026 2.765645061849339,42.15140726815054 2.765721688143074,42.15155358545973 2.7657796294789,42.15169191061579 2.765831731765379,42.151818913754795 2.7658687423550847,42.1519172794089 2.765916083570558,42.15205380562199 2.7659707909713607,42.15217161751745 2.76601211347443,42.15229901928086 2.766041937541863,42.15241276826014 2.766062508961869,42.15251393009047 2.766083080381876,42.152643928465835 2.766093411007643,42.15274069450121 2.76610715523149,42.15286303372992 2.766119821476996,42.15296998879001 2.766135811489054,42.15305410089276 2.766170216964435,42.15318150087986 2.766203364798419,42.15332927921587 2.766228607457903,42.15349497168523 2.766237770273801,42.15359773010084 2.7662366024639313,42.15368517118766 2.766227529479562,42.15379738596214 2.766214863234056,42.15392052230176 2.7661987833904704,42.15405977462864 2.766174798372384,42.15421860581827 2.7661518015011106,42.15435279621921 2.766138057277264,42.154471802555086 2.7661300622712353,42.15454232718911 2.7661278164830247,42.15458388274403 2.7661325775540306,42.15462730294214</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+horse: permissive
+bicycle: yes
+highway: track
+surface: compacted
+maxspeed: 20
+agricultural: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7661325775540306,42.15462730294214 2.7661347335107127,42.15466972418054 2.7661392250871333,42.154698493355866 2.7661622219584068,42.15473758478379 2.766201119010209,42.1547945237029 2.7662915793593195,42.15490660332033 2.7663627259298225,42.15499750553806 2.7664589354967513,42.15512749881233 2.766571224907266,42.15528040039565 2.7666869279158606,42.155440893384934 2.7667670576392043,42.15555636817194 2.7668347007800986,42.155648068588 2.766894259083436,42.155728780826834 2.7669515715985624,42.15579930406016 2.7670122977117693,42.15586809576917 2.7670867680488227,42.155941216012934 2.7671394991560003,42.15599382524353 2.7671853132354904,42.15604650102427 2.76723229512485,42.156101707326435 2.767282690612289,42.15617223014419 2.767346830323575,42.156268990785144 2.7674053106485714,42.156367482710266 2.7674706181697264,42.15648049184999 2.767537003669223,42.156602024730255 2.767614887604356,42.15675911811842 2.767688279963069,42.15691201575974 2.767768499517941,42.1570715723121 2.767839466425386,42.15719310405724 2.7679127689525704,42.15731290416279 2.7679769984953846,42.15742497932025 2.7680423060165404,42.157544712394525 2.768104199939616,42.157653390939906 2.768151091997447,42.15775367869671 2.768198073886807,42.157861491187624 2.7682462235860354,42.15799320996675 2.768286288447707,42.15810608301991 2.7683192566186343,42.1581859264327 2.7683436009628335,42.1582445936301 2.76840890848399,42.158371117480215 2.7684662209991164,42.15846800794177 2.7685006264744985,42.158516419821275 2.7685417693145107,42.15855457661355 2.768588841035399,42.158595397030766 2.7686334873050193,42.15862762716214 2.7686884642004075,42.15866238773997 2.7687332003015563,42.158696415796705 2.7688065028287405,42.158763472989996 2.7688707323715556,42.15882979761176 2.768939363659262,42.15890198216126 2.7690414122755382,42.159008127926754 2.769113636824381,42.15908031227283 2.7692190092072084,42.1591855920617 2.769272818292727,42.15924079562546 2.7693221358018256,42.159295200055524 2.7693678600497873,42.159347806497884 2.7694400845986302,42.15944549454764 2.769503056500047,42.15955170599161 2.7695477926011964,42.15964679671309 2.769594774490556,42.159763995164816 2.769629090134409,42.1598403738117 2.7696749940454275,42.159931268942636 2.7697264675112074,42.160041674720944 2.769736977800032,42.160071573478184 2.76975063219235,42.16011052840796 2.769765544226067,42.16019629575856 2.769772371422226,42.16030763332599 2.7697712036123567,42.16040951501928</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+horse: permissive
+bicycle: yes
+highway: track
+surface: compacted
+maxspeed: 20
+agricultural: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7697712036123567,42.16040951501928 2.769758627198379,42.16052158469243 2.769742637186322,42.16064470794884 2.7697323065605546,42.160746589099396 2.7697150589070993,42.160828227079435 2.7696933196772235,42.16093350396018 2.7696624176314497,42.16102353186853 2.7696360071620965,42.16109231789857 2.769589025272737,42.16120192258962 2.7695627046349123,42.16126471547105 2.7695454569814575,42.16130972920563 2.769522639773241,42.161401421284815 2.7694882342978593,42.161515287080555 2.769447001626318,42.161626489151125 2.769410260531198,42.16173010000628 2.769336958004013,42.1618829856369 2.7693048881483704,42.161944978790395 2.7692533248510616,42.1620324749316 2.769204097173492,42.162109716477765 2.7691560373057915,42.16218868920248 2.7691249555969613,42.16224222546234 2.7691089655849037,42.16228377596115 2.769094143382716,42.16233311714305 2.769092885741318,42.162373002901646 2.7690963891709264,42.1624222774268 2.7691077977750345,42.162484270051905 2.7691272912167,42.16257343012264 2.769149120278104,42.16270247561865 2.769158283094002,42.162796030109334 2.769172027317849,42.16307882351877 2.7691835257534856,42.163261403381476 2.769188017329906,42.16338452130657 2.7691925987378556,42.16345330476993 2.769204097173492,42.16350850461044 2.769230417811317,42.16357562329013 2.76930264236016,42.16372078050862 2.7693542056574683,42.16384050167033 2.769404601144908,42.163943309873105 2.769448079604659,42.164053708650954 2.7694768256937508,42.164134410168856 2.7694858986781203,42.16422356791424 2.7694882342978593,42.164288888034825 2.7694802392918305,42.16435600588663 2.7694560746106873,42.16447073197044 2.769434425212341,42.16456328507274 2.769413674129277,42.164659167280526 2.7694091825528564,42.16469572233399 2.769368668533543,42.16484367353681</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+horse: permissive
+bicycle: yes
+highway: track
+surface: compacted
+maxspeed: 20
+agricultural: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.769368668533543,42.16484367353681 2.7693598650437585,42.16490459843651 2.7693518700377298,42.16495307197599 2.769347288629781,42.165022719331716 2.7693427072218317,42.16506426800454 2.7693232137801664,42.16511866742755 2.7693060559582396,42.165147498436944 2.769281981108625,42.16517300021952 2.7692510790628515,42.16519417401552 2.7691984377872023,42.16521548097288 2.7691398676306775,42.165229929749266 2.769019583214134,42.16524770773228 2.7687343681114256,42.165285727297146</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+horse: permissive
+bicycle: yes
+highway: track
+surface: compacted
+maxspeed: 20
+agricultural: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7687343681114256,42.165285727297146 2.7686942134182257,42.165373418570674 2.768664389350793,42.16543201252017 2.7686198329127008,42.16551437687787 2.7685705154036024,42.165626504093055 2.768531528520272,42.165708868197555 2.7684719702169347,42.16583198135997 2.768422742539365,42.165929725982444 2.7683803420579545,42.16599850667872 2.768324197352697,42.16607567679975 2.768258800000013,42.1661589724848 2.7681958280985968,42.16625751559967 2.7681247713596226,42.16638149327346 2.7680755436820528,42.16647058126926 2.7680399703968015,42.16654029353723 2.7680137395905056,42.1666225898693 2.7679873291211523,42.16672452797687 2.7679666678696173,42.16683412291125 2.767955169433981,42.166924075841266 2.7679345980139747,42.16700217698618 2.7679186080019167,42.167056574742844 2.7678945331523024,42.16711769725817 2.7678623734651313,42.16719673031408 2.7678424308658234,42.16723801123074 2.7678246442231984,42.16727483112237 2.767778830143708,42.16734527490597 2.767679117147171,42.167495616858524 2.767633303067681,42.167587299973064 2.7675576649207576,42.16774443267082 2.767488943801523,42.167897303768314 2.767446543320112,42.1679957775941 2.7674178870625488,42.16807048177348 2.767394980022804,42.16813000536128 2.7673858172069057,42.16818859675766 2.76736749157511,42.16823527009253 2.7673261690720405,42.16831170509439 2.767257537784334,42.16841776849361 2.7672036388672865,42.16850618781417 2.767141834775739,42.16863608675748 2.7670959308647207,42.16874727631257 2.7670421217792014,42.16887298019695 2.766944744402403,42.16908357359178 2.766858775629713,42.169244098152475 2.766778556074841,42.169397831163664 2.7667178299616344,42.169531989376146 2.7666650988544563,42.169683990619966 2.766606708360989,42.16985809584468 2.766574638505346,42.16998972307125 2.7665493958458622,42.17009332023042 2.7665402330299638,42.17016708982647 2.766535741453543,42.170242723546814 2.766536819431884,42.170369289983924 2.766531070214066,42.17059938591947 2.766525410827776,42.17074972013825 2.766519571778429,42.170855779449646 2.7665139123921394,42.17093480783536 2.766502413956503,42.170988270116126 2.766490915520866,42.17105191879993 2.7664840883247064,42.17108680570822 2.7664774407916037,42.171133010858696</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>horse: permissive
+highway: track
+surface: compacted
+maxspeed: 20
+agricultural: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7664774407916037,42.171133010858696 2.7664133010803176,42.17163627197585 2.766324996687889,42.172204108690416 2.766197705412129,42.17297200170364 2.766127636819968,42.17335887404328 2.766119821476996,42.174051789710006 2.7660861346538415,42.17488510261848 2.7660887397681657,42.17507597013978 2.7661420996960424,42.1751991316458 2.7661677016816397,42.17528647630903 2.766145243799537,42.17551568890268 2.7660959262904385,42.17568119013115</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+horse: permissive
+source: PNOA:2020
+bicycle: yes
+highway: track
+surface: compacted
+maxspeed: 20
+agricultural: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7660959262904385,42.17568119013115 2.7661131739438938,42.17573278435155 2.7661150604059905,42.175824522100115 2.766123594401189,42.175892692880794 2.766229505773187,42.17602397468501 2.7662776554724156,42.17612057182229 2.766296340430326,42.17619772959507 2.766323020394264,42.17658491506448 2.7663187983124287,42.176871374865264 2.766293555652945,42.17743210801425 2.7663355968082417,42.17771863054853 2.766385992295681,42.177977192055735 2.766512115761571,42.17826371212031 2.766646593559604,42.17855342625595 2.7667348979520328,42.17881191777996 2.7667180994562197,42.178973815615855 2.766663392055417,42.1792416917169 2.7666508156414387,42.17940991253527 2.766692856796736,42.17964350374074 2.766814668349263,42.180163605539505 2.7669973856780525,42.18062079631768</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+horse: permissive
+source: PNOA:2020
+bicycle: yes
+highway: track
+surface: compacted
+maxspeed: 20
+check_date: 2020-07
+agricultural: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7669973856780525,42.18062079631768 2.7670151723206775,42.180698281439376 2.7668724300220315,42.1810626066881 2.7666344663032683,42.18142839431527 2.766616589829114,42.18169679255302 2.766249268709438,42.18224390338888 2.765844038684771,42.18257933011494 2.765614339466622,42.18276338470665 2.7655159739430113,42.18308156823433 2.765580293317354,42.18319319835195 2.7658219401287822,42.18336140865783 2.765968275688565,42.18366940476161 2.7659973811037704,42.18390750662141 2.76601382027347,42.18399770152841 2.7662304040884713,42.1841221103809 2.76635715637506,42.18419553079267 2.766654678397161,42.1843534875636 2.7666479410325304,42.1844034106076 2.7664847171454054,42.18443289846707 2.7664812137157977,42.184487480924616</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: designated
+source: PNOA:2020
+bicycle: designated
+highway: track
+maxspeed: 30
+tracktype: grade1
+check_date: 2021-04
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7664812137157977,42.184487480924616 2.7668853657621226,42.184505120367284 2.767292572080414,42.18454033267397 2.7674558857990674,42.18456948765029 2.767548591936388,42.18459491503876 2.767659803368562,42.184652293034844 2.7677116361604557,42.18468790464196 2.7677803572796913,42.18474108904214 2.76783021377796,42.184770709871415 2.7679018095061036,42.18478988019847 2.7679583135374757,42.184793607761385 2.768109769494378,42.184773771799044 2.76827029843565,42.1847715751988 2.76839812870058,42.184808983956096 2.7685616220822897,42.18488167137139 2.7687399376661874,42.18492127665867 2.7689181634185567,42.184912490277746 2.769099533274421,42.184912490277746 2.7693551039727526,42.18496760482875 2.7695303652846843,42.18502038961335 2.7699375716029757,42.18513268194042 2.770052555959343,42.18520031018107 2.7702288054180877,42.18539261095427 2.7703535814110514,42.18548513344393 2.7705408801477907,42.185551097236974 2.770621189534191,42.18558371301235 2.7706977259963974,42.18564448481014</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: designated
+source: PNOA:2020
+bicycle: designated
+highway: track
+maxspeed: 30
+tracktype: grade1
+check_date: 2021-04
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7706977259963974,42.18564448481014 2.7707129973562274,42.18571257844187 2.770685329245477,42.18575690915391 2.770579417873479,42.18589469360099</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+source: PNOA:2020
+bicycle: yes
+highway: track
+maxspeed: 20
+check_date: 2021-04
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.770579417873479,42.18589469360099 2.7704602114352763,42.18609052006173 2.770318816609556,42.186313103854296 2.770275877138975,42.18638492423496 2.7702598871269175,42.18651239023329 2.77028746540614,42.18664271812669 2.770230512217127,42.186709479451174 2.7700492321927914,42.18682529653675 2.769870467451252,42.186987373538784 2.7698281568013696,42.18712968146327 2.770020755598285,42.18716828692543 2.770186943925847,42.187256413788646 2.7702515327947754,42.187431069686276 2.7702894416997657,42.18752452104309 2.7703069588478058,42.18757430846167 2.7703793630597056,42.18777898226385 2.7704217635411164,42.18799670121354 2.7704800642030554,42.18812522892387 2.770545820881853,42.18818693011921 2.7706104097507813,42.18822087573498 2.770695210713602,42.188223271895396 2.7708021102324127,42.188175415229715 2.770955093325298,42.188101200718236 2.7710991830968705,42.18803989880044 2.771209586045289,42.18801520496008 2.77128872762182,42.18803756919327</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: PNOA:2020
+highway: track
+maxspeed: 30
+tracktype: grade1
+check_date: 2020-07
+construction:highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.77128872762182,42.18803756919327 2.771248213602506,42.18812709260702 2.7711809297877257,42.18820456852968 2.771009800726101,42.18837110150593 2.7708375038546063,42.18847067497038 2.770701498920591,42.188521127240776 2.770548336164649,42.18853250894792 2.770352144106597,42.188529913120156 2.77005722719882,42.188496500148126 2.7698818760553605,42.18844638065696 2.7696464276193926,42.18832617358792 2.7693706448271675,42.18822779797595 2.769072673647426,42.18811677578885 2.7687855720826207,42.18802971508846 2.768537637064204,42.187950375263206 2.7682446066185245,42.18791383364911 2.768133215523293,42.187896727640364 2.767790508242402,42.1878167220438 2.767498555775063,42.187729527809125 2.7671959133558435,42.18763248248131 2.766685041453764,42.187455297829075 2.7665178649793893,42.187388404170456 2.7663508681680717,42.1872777798752</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: PNOA:2020
+highway: track
+maxspeed: 10
+tracktype: grade1
+check_date: 2020-07
+construction:highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7663508681680717,42.1872777798752 2.766115240069047,42.18707130729726 2.766013191452771,42.1869532275766 2.765910424184268,42.186748218293054 2.76580226702406,42.186571097724155</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: PNOA:2020
+highway: track
+maxspeed: 30
+tracktype: grade1
+check_date: 2020-07
+construction:highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.76580226702406,42.186571097724155 2.7656165852548327,42.186363491284666 2.7654309034856044,42.1861877674431 2.7652903171436405,42.18608559445459 2.7650751706330934,42.18598867972787 2.7649228163609068,42.1859275754488 2.7644909962038304,42.185755111963495 2.7643419656981956,42.185720632522504 2.763804144337593,42.18577947387378 2.763174874481067,42.18577048792436 2.762689604564586,42.18571231219126 2.762380224780735,42.18566152486562 2.762153579834552,42.18563689665895 2.762051621049804,42.1856462820037 2.761960442048466,42.18568741775365 2.761790301133654,42.18575557790175 2.761657709797718,42.18577907449828 2.7615431745989927,42.1857887926348 2.761285627607035,42.18577561324382 2.761029158593419,42.185700131224344 2.7605655380752854,42.185565208554095 2.7605031051630387,42.18556467605163</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: PNOA:2020
+highway: track
+maxspeed: 30
+tracktype: grade1
+check_date: 2020-07
+construction:highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7605031051630387,42.18556467605163 2.760277178869083,42.18557153202065 2.76018007098687,42.18555169630238 2.7600615832008946,42.18549518444005 2.760010289398171,42.18544000378603 2.7599216256796284,42.18512489403799 2.7598855134052065,42.18494191133632 2.7598681759202233,42.184837073791336</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de les Planetes</name>
+      <description>name: Pont de les Planetes
+layer: 1
+ruins: yes
+access: yes
+bridge: yes
+source: PNOA:2021
+highway: track
+name:ca: Pont de les Planetes
+maxspeed: 10
+tracktype: grade1
+check_date: 2022-02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7598681759202233,42.184837073791336 2.759837633200563,42.184796469997046 2.7597753799513733,42.1847659838524 2.759692734945235,42.18473909213181 2.7595453214071104,42.18471559514877 2.759418209794408,42.18471532889396 2.759321101912194,42.1847249140666 2.7591795274234174,42.18475047451989 2.75911943013091,42.18477437087182</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Esponelles a Fares</name>
+      <description>name: Camí d'Esponelles a Fares
+source: PNOA:2020
+highway: track
+maxspeed: 30
+tracktype: grade1
+check_date: 2020-07
+construction:highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.75911943013091,42.18477437087182 2.759102272308983,42.18486363265251 2.7591407202031433,42.1849765908923 2.7591239217073302,42.18503257071123 2.7590607701428564,42.18504508462356 2.7590145967372526,42.185026380317524 2.7589894439092975,42.184992100169325 2.7589935761596043,42.18492047789681 2.758985221827462,42.18474301938875 2.758870686628737,42.184579205972746 2.758730729107471,42.18442198196991 2.7586195176752972,42.18432513125704 2.758519265689589,42.18424931468481 2.758426290057683,42.184246385860185 2.7580738809717227,42.1843974198444 2.7578137288654414,42.18447436782631 2.757663979707579,42.18454193020726 2.757551869960121,42.18461528356769 2.757452965447339,42.18474980888322 2.7573654695386667,42.18482562485525 2.7573150740512267,42.18483827193569 2.757203143966826,42.18482708925418 2.757106395410726,42.184811513373056 2.756950897035045,42.18483947008002 2.756766023749573,42.18489871163249 2.756475957744331,42.184911225571305 2.756229190535784,42.18488167137139 2.755933824470365,42.18483021774266 2.7555918358417006,42.18476771450728 2.7553369837955963,42.184671396834055 2.7551080032296738,42.18458819209149 2.754580512494839,42.184378582218635 2.754429236200993,42.18433498274526 2.7542441832524642,42.18430076878633 2.7539542070787513,42.18426029777597 2.753601079340563,42.18418141916983 2.753301581024838,42.184106467761744 2.7530980227814563,42.184063267487076 2.7528849423960633,42.18403071749173 2.7527634003381216,42.18404809080421 2.752600266282526,42.184093288020065 2.752401019952508,42.18409887942597 2.7519603963056474,42.18407251993667 2.7515291151377417,42.18397999537971 2.7514093697103683,42.18395050730899 2.751289624282995,42.183877219741845 2.751133317423559,42.18378502772248 2.7509196980489947,42.18363432509954 2.7504825778317428,42.183441220197665 2.7502918654969237,42.18336526943523 2.749762488299992,42.18322940986834 2.7494010062296623,42.183161113866056 2.7489964948572236,42.183065126572444 2.7484663990080644,42.18291142678147 2.748260235650359,42.182714591986425 2.7481775008126914,42.182642301474964 2.74789363318291,42.182494391902075 2.7473597644095578,42.18229203080978 2.7469395325196464,42.18213939420212 2.746570594432459,42.182055520462335 2.7462754080300966,42.18200539586473 2.745808912903054,42.18184656786006 2.7454828244549185,42.181763425966764 2.745065018016274,42.181681482168315 2.744665716872483,42.18166597207916 2.744308456883989,42.18166910072406 2.7438335175932753,42.18158808874132 2.743395678723795,42.18151147008203</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de la Tcheline</name>
+      <description>foot: yes
+name: Chemin de la Tcheline
+highway: track
+surface: gravel
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.433804258918191,43.46279291347687 1.43375341427311,43.4627472071169 1.4336902627086363,43.46270821650006</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Tcheline</name>
+      <description>foot: yes
+name: Chemin de la Tcheline
+highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4336902627086363,43.46270821650006 1.4332773071725267,43.462503808757816 1.433168611023148,43.46242687041744 1.4330935118653956,43.46235293127604 1.433034492551229,43.46226732085208 1.4329849055475457,43.46218157990231</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

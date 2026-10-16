@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: yes
+highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.084620020744368,42.187804474921926 3.08469458091295,42.187803476515136</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: yes
+highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.08469458091295,42.187803476515136 3.0847331186386384,42.187804474921926 3.0847872870502715,42.18773458640923 3.0848233993246925,42.18770077365345</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Sant Pere Pescador</name>
+      <description>lit: yes
+foot: designated
+name: Pont de Sant Pere Pescador
+layer: 1
+width: 2
+bridge: yes
+bicycle: designated
+highway: cycleway
+surface: wood
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0848233993246925,42.18770077365345 3.0849036188795647,42.187647724864334 3.086353589579662,42.18695182978829</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

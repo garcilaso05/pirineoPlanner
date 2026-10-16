@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta per les ribes del Fluvià - Riba esquerra</name>
+    <Placemark>
+      <name>living_street</name>
+      <description>noname: yes
+highway: living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8669709834792427,42.17291980604592 2.8668968724683026,42.17301700710863 2.8668754925645406,42.1730451021825 2.866942327221679,42.17316893340197 2.867005119460039,42.173267998202995 2.8671751705433226,42.17342491706287 2.86745418727057,42.173573913057396 2.8675245253573167,42.173599478018495</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>noname: yes
+highway: track
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8675245253573167,42.173599478018495 2.8675581223489433,42.17365380352652 2.8675931566450235,42.173989275819885 2.8676334910012806,42.174263630782356 2.8676414860073094,42.17447427280444 2.8676522657907193,42.174537917980295 2.8676978103756237,42.17456581265539 2.8677782994250807,42.17456967396983 2.8679499674758757,42.17455782372822 2.8680732163328573,42.1745467723773</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GI-554
+highway: tertiary
+maxspeed: 70</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8680732163328573,42.1745467723773 2.868023090340003,42.17948853081732 2.867999823974145,42.17983841760003</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GI-554
+highway: tertiary
+maxspeed: 90
+maxspeed:practical: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.867999823974145,42.17983841760003 2.8678868159114024,42.1800202168364 2.8678380373914747,42.18006461810837</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8678380373914747,42.18006461810837 2.8679552675360522,42.18025853214365 2.8679499674758757,42.180385677652424 2.867896338053414,42.18058052265593 2.8681431052619613,42.18063217944718 2.868550760737895,42.180755396700256 2.8689852758408234,42.18091842121121 2.8690980144089813,42.18091842121121 2.869580769042667,42.1808587765226 2.870015284145595,42.180807119916466 2.8707018665172477,42.180846927459456 2.8715655966629283,42.18097799927591 2.8720806008153144,42.181133101683855 2.8727994327056665,42.18153456885355 2.8735558141748956,42.18205532076282 2.8743728319258017,42.18301140823843</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8743728319258017,42.18301140823843 2.8745488118899614,42.18319452965806 2.8747065560538525,42.18345613076608</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8747065560538525,42.18345613076608 2.8748072571972023,42.1834685118604 2.8749306857172403,42.18348841479725 2.875048724345574,42.1834764996619 2.8750754941410404,42.18342477862931 2.875096963876331,42.183341305985536 2.875134513455207,42.183309487835544</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

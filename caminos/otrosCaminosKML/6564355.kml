@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Hautefage - la tour, la balade de la Malausie - 4.9km</name>
+    <Placemark>
+      <name>service</name>
+      <description>access: private
+oneway: no
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7782606566255953,44.32149390335172 0.7779722974193929,44.32138811774734</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Rovère</name>
+      <description>ref: D 103
+name: Avenue de la Rovère
+highway: secondary
+maxspeed: 50
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7851862183085148,44.32249590079215 0.7851607061544458,44.3225210292361 0.78505129135284,44.322596607304455 0.7848957031456305,44.322677969299825 0.7847236757687216,44.32274589941016 0.7845443720380114,44.32280303262086</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Rovère</name>
+      <description>ref: D 103
+name: Avenue de la Rovère
+highway: secondary
+maxspeed: 50
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7845443720380114,44.32280303262086 0.7844513964061051,44.32283028173663</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Rovère</name>
+      <description>ref: D 103
+name: Avenue de la Rovère
+highway: secondary
+maxspeed: 50
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7844513964061051,44.32283028173663 0.7841469573563168,44.32291967674218</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

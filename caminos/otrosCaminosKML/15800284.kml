@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Émile Cartaillac</name>
+      <description>name: Rue Émile Cartaillac
+highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3476974151687835,43.53062391009179 1.3477063983216249,43.530596621274064 1.3476995711254656,43.53052869225411 1.347342041642386,43.53021190624563 1.3470647317141782,43.52996011749536 1.3468499445297453,43.52973477023153 1.3466171910396298,43.529494898216086 1.3463153571041657,43.529160912458046 1.3461869878500652,43.5290150861931 1.3460280758763044,43.52884157918185 1.3459753447691265,43.528811033038494</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

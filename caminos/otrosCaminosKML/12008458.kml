@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue Paul Riquet</name>
+      <description>lit: yes
+name: Avenue Paul Riquet
+lanes: 2
+highway: residential
+old_ref: D 57w
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5271880852896653,43.52987948755953 1.5274167963610024,43.529961224690815 1.5275193839664487,43.53001469569444 1.5275933153143317,43.530066017392684 1.5277130607417047,43.53015700258033</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Baratou</name>
+      <description>lit: yes
+name: Rue Baratou
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5277130607417047,43.53015700258033 1.5277489933530697,43.530141632150254 1.527813402558941,43.530113887211456 1.528732289263067,43.52971868327039 1.5287631913088406,43.52970936976461 1.529256276568294,43.52956041860607 1.5293482640533875,43.5295326082703 1.5296191061115498,43.52944872127819 1.52976220773631,43.52940827572245 1.5299539980494696,43.529385805957546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Croix Rose</name>
+      <description>lit: yes
+name: Rue de la Croix Rose
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5299539980494696,43.529385805957546 1.5299468115271964,43.52955201689006 1.529941691130077,43.52972571724583 1.5299353130915596,43.52975841219499 1.5298672207930235,43.53010730918419 1.5298668614669098,43.53016227802366 1.5298659631516256,43.53030080709236 1.5298653343309265,43.53041308900015 1.5298772819242057,43.53044513229048 1.5298966855343428,43.530472811948314</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Croix Rose</name>
+      <description>lit: yes
+name: Rue de la Croix Rose
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5298966855343428,43.530472811948314 1.5299302825259686,43.530507590606256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+foot: designated
+horse: yes
+bicycle: designated
+highway: path
+surface: gravel
+segregated: no
+motor_vehicle: permissive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5299302825259686,43.530507590606256 1.5300785943793769,43.530455031840155</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

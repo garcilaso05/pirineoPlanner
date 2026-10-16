@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue des Noisetiers</name>
+      <description>name: Rue des Noisetiers
+highway: residential
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3728347921012432,43.66709549983434 1.3725449057590582,43.66844058888164 1.3725119375881307,43.66848828375633 1.3724468995615606,43.66853948747609 1.3722322920401846,43.668643714202155 1.372075356360049,43.66874131288006 1.3716403022679495,43.66897478230923 1.37159502717763,43.66902462105945 1.3715732879477545,43.66911760563145 1.3714001825925046,43.66999630597296 1.3713971283205386,43.67004237516934</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,198 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Carrer de Sant Pere Pescador</name>
+      <description>ref: GIV-6217z
+name: Carrer de Sant Pere Pescador
+highway: living_street
+name:ca: Carrer de Sant Pere Pescador
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0410290919194116,42.17485367965776 3.041203365084531,42.174771194311596 3.041273882834334,42.17474969085017</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Pere Pescador</name>
+      <description>ref: GIV-6217z
+name: Carrer de Sant Pere Pescador
+highway: residential
+name:ca: Carrer de Sant Pere Pescador
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.041273882834334,42.17474969085017 3.0417702918603386,42.174598300948816 3.0418479063008865,42.174572270370774 3.042121712799486,42.17448079710365 3.0423900395748524,42.17439098806856</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>ref: GIV-6217z
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0423900395748524,42.17439098806856 3.04298526328211,42.17430191122728 3.0434099867484417,42.17423833238865 3.043492362259996,42.174212168512945 3.044086507988912,42.174023828233246 3.0442342808531495,42.17399799714373 3.0443336345235736,42.174006385591476 3.044396696256519,42.17401177816444 3.0445842644878427,42.17405571763076 3.0448288757397086,42.17411290546618 3.045045279891653,42.174173688289294 3.0455079122629747,42.174303775317924</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Vila</name>
+      <description>name: Carrer de la Vila
+highway: living_street
+name:ca: Carrer de la Vila
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0455079122629747,42.174303775317924 3.0456987144293217,42.17326407023333</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>highway: pedestrian</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0456987144293217,42.17326407023333 3.046293129652823,42.17328610680576 3.0463525981246318,42.173276786202045 3.0465700802549174,42.17316800133994</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+width: 1.5
+oneway: no
+highway: cycleway
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0465700802549174,42.17316800133994 3.046858080135006,42.17327532153562 3.047111225382071,42.173364399822766 3.0472171367540684,42.1734116019435 3.047327539702487,42.173501012916255</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.047327539702487,42.173501012916255 3.0473753300756026,42.17347311777154 3.0474395596184167,42.173434903400555 3.047637188980923,42.1734159293576 3.0480232848900375,42.17341799320115 3.0491834590794777,42.17350087976524 3.0496806765892384,42.1735566700179 3.050014670211874,42.17366119338982</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.050014670211874,42.17366119338982 3.0510676753879182,42.17418480628019 3.0511304676262787,42.1742921913252 3.051260813174004,42.17434352038027 3.0516900282167567,42.174942223129975 3.051926015641895,42.17509088268084 3.052376610588409,42.17537149077774 3.054418391397684,42.17716282624279</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: compacted
+tracktype: grade3
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.054418391397684,42.17716282624279 3.0563397979588878,42.17583856901505 3.05736073327929,42.17513502111882</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.05736073327929,42.17513502111882 3.057544618417949,42.17555929445743 3.0579281990442677,42.17644431428781 3.0582651571073414,42.17722027755502 3.0584577559042563,42.17750566933708 3.058987312764245,42.1781924816493</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.058987312764245,42.1781924816493 3.059599334967315,42.17877597001346 3.0604678261840017,42.17928056827345</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+highway: track
+surface: compacted
+tracktype: grade2
+brp_access: 2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0604678261840017,42.17928056827345 3.0610455327432198,42.179441200093606 3.0619751093992265,42.17952780663711 3.062901362288682,42.179544182649686 3.063932358740266,42.17959996757125 3.065784235698478,42.179628392566045 3.0676553366037713,42.17964290461936 3.0686514784223307,42.17962359959358 3.069530390096314,42.179538990255914 3.0705557271616075,42.179345406860826 3.073277532640961,42.17914949293842 3.0750017589973004,42.17901768506498 3.076247273138732,42.179040718177816</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 6
+highway: track
+surface: compacted
+tracktype: grade2
+brp_access: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.076247273138732,42.179040718177816 3.0772694661005318,42.1792418914253 3.0779882081593555,42.17947981025063 3.0784747357172346,42.17965322282037 3.079079930724146,42.180096371322726 3.079740911110201,42.18081717165627 3.0805157080427543,42.181717028881906 3.080980765865343,42.18240452768117 3.0814134843377037,42.18314706857769 3.081786105517556,42.1837558058197 3.0820794952893498,42.184113323888916 3.08280129162014,42.18493199337919 3.083572225796971,42.18570998249832 3.084195297278036,42.18647058940158 3.0847560256783835,42.187155107822036 3.08482411797692,42.18724882583094</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 3
+highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.08482411797692,42.18724882583094 3.0848942764006093,42.187412099842696 3.0848613082296827,42.1875464195248</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1
+highway: path
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0848613082296827,42.1875464195248 3.0847570138251963,42.18763547770971 3.0846596364483974,42.18768160420907 3.0846288242341524,42.18769618097459</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>width: 1
+highway: steps
+surface: concrete
+handrail: no
+step_count: 6</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0846288242341524,42.18769618097459 3.084579596556583,42.187714285445814</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.084579596556583,42.187714285445814 3.0845848966167586,42.18773418704608</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0845848966167586,42.18773418704608 3.084620020744368,42.187804474921926</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

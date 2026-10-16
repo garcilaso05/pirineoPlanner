@@ -1,0 +1,1318 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>GR 3 Sender Central de Catalunya - Etapa 01</name>
+    <Placemark>
+      <name>Carrer de Cavallers</name>
+      <description>name: Carrer de Cavallers
+highway: pedestrian
+name:ca: Carrer de Cavallers
+surface: sett
+maxspeed: 20
+bicycle:conditional: yes @ 21:00-09:00
+small_electric_vehicle:conditional: yes @ 21:00-09:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.624858499659999,41.61307211522305 0.6246056239075194,41.61336333002257</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+highway: pedestrian
+name:ca: Carrer Major
+surface: paving_stones
+wikidata: Q17593291
+wikipedia: ca:Carrer Major (Lleida)
+check_date: 2026-09-17
+check_date:surface: 2026-09-17
+bicycle:conditional: yes @ 21:00-09:00
+small_electric_vehicle:conditional: yes @ 21:00-09:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6246056239075194,41.61336333002257 0.6249939656048442,41.613552793557744 0.6252657059782905,41.61376462132488 0.6252786417183818,41.61377462838989 0.6257333689152031,41.61413810543029 0.6258056832955746,41.61419391630222 0.626039963921673,41.6143565802046 0.6261517143430175,41.614438180645216 0.6265953024303158,41.614780028282546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de la Paeria</name>
+      <description>lit: yes
+name: Plaça de la Paeria
+highway: pedestrian
+name:ca: Plaça de la Paeria
+surface: paving_stones
+wikidata: Q17593291
+wikipedia: ca:Carrer Major (Lleida)
+check_date: 2026-08-20
+check_date:lit: 2026-08-20
+check_date:surface: 2025-10-04
+bicycle:conditional: yes @ 21:00-09:00
+small_electric_vehicle:conditional: yes @ 21:00-09:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6265953024303158,41.614780028282546 0.6267029206013532,41.61485672548004 0.6268160184956239,41.61496720420754 0.6269186959325989,41.61508748812669 0.6270840757764051,41.61528131199345</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de Sant Joan</name>
+      <description>lit: yes
+name: Plaça de Sant Joan
+highway: pedestrian
+name:ca: Plaça de Sant Joan
+wikidata: Q11942030
+wikipedia: ca:Carrer Major (Lleida)
+check_date: 2026-08-20
+check_date:lit: 2026-08-20
+bicycle:conditional: yes @ 21:00-09:00
+small_electric_vehicle:conditional: yes @ 21:00-09:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6270840757764051,41.61528131199345 0.6273125173531567,41.61553208670728 0.6273197937069581,41.615539877229104 0.6273962403376366,41.61558722477685 0.6276105783644275,41.61586828716392 0.6278657897366459,41.6162191936819 0.6278216824561956,41.61627298798604 0.6277969787858824,41.61629071793411 0.6277867379916434,41.61629951574745 0.6277790124802,41.616310395484426 0.6277711073056997,41.61633410255924 0.6277677835391485,41.61634787011995 0.6277685021913758,41.61635982438978</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Joan</name>
+      <description>name: Carrer de Sant Joan
+highway: pedestrian
+name:ca: Carrer de Sant Joan
+surface: paving_stones
+bicycle:conditional: yes @ 21:00-09:00
+small_electric_vehicle:conditional: yes @ 21:00-09:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6277685021913758,41.61635982438978 0.627982031734411,41.61658312705668 0.6280405120594071,41.61664498007969</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Joan</name>
+      <description>name: Carrer de Sant Joan
+highway: pedestrian
+name:ca: Carrer de Sant Joan
+surface: paving_stones
+bicycle:conditional: yes @ 21:00-09:00
+small_electric_vehicle:conditional: yes @ 21:00-09:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6280405120594071,41.61664498007969 0.6281056399175059,41.616715227849326 0.6282073292076683,41.61681247320146</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de la Sal</name>
+      <description>name: Plaça de la Sal
+highway: pedestrian
+name:ca: Plaça de la Sal
+bicycle:conditional: yes @ 21:00-09:00
+small_electric_vehicle:conditional: yes @ 21:00-09:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6282073292076683,41.61681247320146 0.6284549048999716,41.617025700584 0.6285353041179002,41.61709621657114 0.6285942336005385,41.61716317310852</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de la Sal</name>
+      <description>name: Plaça de la Sal
+highway: pedestrian
+name:ca: Plaça de la Sal
+bicycle:conditional: yes @ 21:00-09:00
+small_electric_vehicle:conditional: yes @ 21:00-09:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6285942336005385,41.61716317310852 0.6286363645873636,41.617219585784156 0.6287135298702696,41.61731562153513</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Carme</name>
+      <description>lit: yes
+name: Carrer del Carme
+highway: pedestrian
+name:ca: Carrer del Carme
+surface: paving_stones
+bicycle:conditional: yes @ 21:00-09:00
+small_electric_vehicle:conditional: yes @ 21:00-09:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6287135298702696,41.61731562153513 0.6287424556224182,41.61735490884658 0.6289042422050881,41.617533413970556 0.6291226226506575,41.61780298397755 0.6292112863692002,41.617918024347524</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Carme</name>
+      <description>lit: yes
+name: Carrer del Carme
+highway: pedestrian
+name:ca: Carrer del Carme
+surface: paving_stones
+bicycle:conditional: yes @ 21:00-09:00
+small_electric_vehicle:conditional: yes @ 21:00-09:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6292112863692002,41.617918024347524 0.6292611428674688,41.617967720649375</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Magdalena</name>
+      <description>lit: yes
+name: Carrer de la Magdalena
+highway: pedestrian
+name:ca: Carrer de la Magdalena
+surface: paving_stones
+bicycle:conditional: yes @ 21:00-09:00
+small_electric_vehicle:conditional: yes @ 21:00-09:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6292611428674688,41.617967720649375 0.6292532376929686,41.61800029185346 0.6292503630840593,41.61803293019816 0.6292489257796048,41.61809820683802 0.6292456918445819,41.618313578986715 0.6292375171754965,41.618457630116 0.6292269170551439,41.618612493115684 0.6292154186195071,41.61867629172813 0.6291728384750398,41.6188527785083</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Magdalena</name>
+      <description>lit: yes
+name: Carrer de la Magdalena
+highway: pedestrian
+name:ca: Carrer de la Magdalena
+surface: paving_stones
+bicycle:conditional: yes @ 21:00-09:00
+small_electric_vehicle:conditional: yes @ 21:00-09:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6291728384750398,41.6188527785083 0.6291616095339884,41.61889757168959 0.629142565249965,41.618949281920145 0.6290794136854915,41.619085272913004 0.6289729633243233,41.61929191151717</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Pi i Margall</name>
+      <description>lit: yes
+name: Carrer de Pi i Margall
+highway: pedestrian
+name:ca: Carrer de Pi i Margall
+surface: paving_stones
+bicycle:conditional: yes @ 21:00-09:00
+name:etymology:wikidata: Q450271
+small_electric_vehicle:conditional: yes @ 21:00-09:00</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6289729633243233,41.61929191151717 0.6288559128428025,41.61949633332623 0.6284657745149095,41.62004499181128 0.6284063060431007,41.62012920409576 0.6283111744545125,41.620263580886565 0.6283004845026314,41.6202786907031 0.6281687914819795,41.620458597979955 0.6281336673543705,41.62050668061622 0.628097375416892,41.62055523329773 0.6280217372699691,41.62065636781157 0.6279926318547637,41.62069336984173 0.6279842775226213,41.62070451745465 0.6279345108558813,41.62077180601697</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de Mossèn Jacint Verdaguer</name>
+      <description>lit: yes
+name: Plaça de Mossèn Jacint Verdaguer
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Plaça de Mossèn Jacint Verdaguer
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lanes:forward: 1
+lanes:backward: 1
+turn:lanes:backward: right
+name:etymology:wikidata: Q379290</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6279345108558813,41.62077180601697 0.6282772181367727,41.62090638293098 0.6283560902187184,41.6209316328596 0.6284026229504359,41.620940900118164 0.6284515811334204,41.62094748121402</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Sant Ruf</name>
+      <description>name: Avinguda de Sant Ruf
+lanes: 2
+oneway: yes
+highway: residential
+name:ca: Avinguda de Sant Ruf
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6284515811334204,41.62094748121402 0.6285502161516167,41.621034714247564 0.6286791243948878,41.621154315312694 0.6287218842024118,41.621197226589686 0.628732574154293,41.62123731738135 0.6287258367896621,41.62128553374434 0.6287081399785648,41.62135497061602 0.6285954912419361,41.62177058297819 0.6285222785462805,41.62217638836006 0.6285133852249677,41.622254419815405 0.6284893103753534,41.62242310711391</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Sant Ruf</name>
+      <description>name: Avinguda de Sant Ruf
+lanes: 2
+oneway: yes
+highway: residential
+name:ca: Avinguda de Sant Ruf
+maxspeed: 30
+turn:lanes: left;through|right</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6284893103753534,41.62242310711391 0.6284758356460916,41.622530685327796 0.6284425979805791,41.62272092775985 0.6284361301105335,41.62275383232407 0.6284292130828457,41.622790094477416 0.6284225655497432,41.62282199172509</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Sant Ruf</name>
+      <description>name: Avinguda de Sant Ruf
+oneway: yes
+highway: residential
+name:ca: Avinguda de Sant Ruf
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6284225655497432,41.62282199172509 0.6284247215064251,41.622927689018276</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Sant Ruf</name>
+      <description>name: Avinguda de Sant Ruf
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Avinguda de Sant Ruf
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6284247215064251,41.622927689018276 0.6284223858866864,41.622968987468866 0.6284176248156806,41.62305380030151 0.6284162773427544,41.6230756917984 0.6282088563436512,41.623387611245725 0.6279828402181667,41.623589804079266 0.6277339170529374,41.62382120698916</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Sant Ruf</name>
+      <description>name: Avinguda de Sant Ruf
+lanes: 2
+oneway: yes
+highway: residential
+name:ca: Avinguda de Sant Ruf
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6277339170529374,41.62382120698916 0.6276864860059358,41.62387680802891 0.6276559432862757,41.623936370925314 0.6276219869685359,41.62403588851671 0.6276129139841663,41.62406261453735</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lanes: 2
+noname: yes
+highway: residential
+junction: roundabout
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6276129139841663,41.62406261453735 0.6276393244535194,41.624068725259114 0.627678940157549,41.62408772892858 0.6277081354042829,41.62411519358585 0.6277237660902267,41.62414829889068 0.6277243949109257,41.62418341869852 0.6277096625402661,41.624216725420226 0.6276813656088163,41.62424472722737</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Rosa Parks</name>
+      <description>ref: LP-9221
+name: Avinguda de Rosa Parks
+lanes: 2
+oneway: yes
+highway: secondary
+name:ca: Avinguda de Rosa Parks
+surface: asphalt
+maxspeed: 30
+old_name: Avinguda de l'Alcalde Recasens
+name:etymology:wikidata: Q41921</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6276813656088163,41.62424472722737 0.6278664185573448,41.624404679763124 0.6280273966562591,41.624541330754546 0.6280605444902432,41.62456986962284 0.6287639253577086,41.625122715371795 0.6287898866694198,41.625143128873624 0.6288806165131158,41.62521437463035 0.6291035783666343,41.6253919179078 0.6292127236736548,41.625485591262986 0.6294076580903087,41.62565312857323 0.6295647734335013,41.625781584741084 0.6296200198234745,41.625826776003265 0.6296617914841862,41.625849606643726 0.6300659435305115,41.62607032480105 0.6301732922069638,41.626129012738836 0.6302191062864538,41.62615399202796 0.6303358872733894,41.62621778317938</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Rosa Parks</name>
+      <description>ref: LP-9221
+name: Avinguda de Rosa Parks
+oneway: no
+highway: secondary
+name:ca: Avinguda de Rosa Parks
+surface: asphalt
+maxspeed: 30
+old_name: Avinguda de l'Alcalde Recasens
+name:etymology:wikidata: Q41921</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6303358872733894,41.62621778317938 0.6303991286693915,41.62626042249278</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Rosa Parks</name>
+      <description>ref: LP-9221
+name: Avinguda de Rosa Parks
+lanes: 4
+oneway: no
+highway: secondary
+name:ca: Avinguda de Rosa Parks
+surface: asphalt
+maxspeed: 30
+old_name: Avinguda de l'Alcalde Recasens
+name:etymology:wikidata: Q41921</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6303991286693915,41.62626042249278 0.6305115079114347,41.626358996419555 0.6305223775263726,41.62636792715615</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Rosa Parks</name>
+      <description>ref: LP-9221
+name: Avinguda de Rosa Parks
+lanes: 2
+oneway: yes
+highway: secondary
+name:ca: Avinguda de Rosa Parks
+surface: asphalt
+maxspeed: 30
+old_name: Avinguda de l'Alcalde Recasens
+turn:lanes: left|left;right
+name:etymology:wikidata: Q41921</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6305223775263726,41.62636792715615 0.63054232012568,41.62638840741211 0.6309530298735795,41.62680479310696</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Rosa Parks</name>
+      <description>ref: LP-9221
+name: Avinguda de Rosa Parks
+lanes: 2
+oneway: yes
+highway: secondary
+name:ca: Avinguda de Rosa Parks
+surface: asphalt
+maxspeed: 30
+old_name: Avinguda de l'Alcalde Recasens
+name:etymology:wikidata: Q41921</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6309530298735795,41.62680479310696 0.6311452693443811,41.62697910891281 0.6312580079125382,41.627073518586265 0.6313705668176384,41.62716792812146</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rotonda Rosa Parks - Corregidor Escofet</name>
+      <description>ref: LP-9221
+name: Rotonda Rosa Parks - Corregidor Escofet
+highway: secondary
+name:ca: Rotonda Rosa Parks - Corregidor Escofet
+surface: asphalt
+junction: roundabout
+maxspeed: 30
+name:etymology:wikidata: Q41921</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6313705668176384,41.62716792812146 0.6313455936527398,41.6272250035202 0.6313400240979782,41.62728483191336 0.6313540378164104,41.62734398877725 0.6313867364927525,41.627398781011394 0.6314251843869126,41.627437390707236 0.6314730645915563,41.627469621392144 0.6315382822811835,41.62749762178659 0.6316104169984983,41.627513669968806</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Rosa Parks</name>
+      <description>ref: LP-9221
+name: Avinguda de Rosa Parks
+oneway: no
+highway: secondary
+name:ca: Avinguda de Rosa Parks
+surface: asphalt
+maxspeed: 30
+old_name: Avinguda de l'Alcalde Recasens
+name:etymology:wikidata: Q41921</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6316104169984983,41.627513669968806 0.6316038592969242,41.62754731070601 0.6315943371549124,41.62759693244003 0.6315872404641679,41.62764131666502 0.6315917320405885,41.627733710959745 0.6316272154943112,41.627892110463605 0.6316886602597449,41.62827357032533</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Rosa Parks</name>
+      <description>ref: LP-9221
+name: Avinguda de Rosa Parks
+oneway: no
+highway: secondary
+name:ca: Avinguda de Rosa Parks
+surface: asphalt
+maxspeed: 30
+old_name: Avinguda de l'Alcalde Recasens
+name:etymology:wikidata: Q41921</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6316886602597449,41.62827357032533 0.6316980925702282,41.62831546966913 0.6317316895618543,41.62837892295046</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Rosa Parks</name>
+      <description>ref: LP-9221
+name: Avinguda de Rosa Parks
+oneway: no
+highway: secondary
+name:ca: Avinguda de Rosa Parks
+surface: asphalt
+maxspeed: 30
+old_name: Avinguda de l'Alcalde Recasens
+lane_markings: yes
+name:etymology:wikidata: Q41921</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6317316895618543,41.62837892295046 0.6318508960000571,41.628555920344795 0.6319394698870711,41.628632668305194 0.6320727798752345,41.628748293668814 0.6320882308981214,41.628761387120264</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Rosa Parks</name>
+      <description>ref: LP-9221
+name: Avinguda de Rosa Parks
+oneway: no
+highway: secondary
+name:ca: Avinguda de Rosa Parks
+surface: asphalt
+maxspeed: 30
+old_name: Avinguda de l'Alcalde Recasens
+name:etymology:wikidata: Q41921</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6320882308981214,41.628761387120264 0.6323896156759433,41.629019226853174</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Rosa Parks</name>
+      <description>ref: LP-9221
+name: Avinguda de Rosa Parks
+oneway: no
+highway: secondary
+name:ca: Avinguda de Rosa Parks
+surface: asphalt
+maxspeed: 30
+old_name: Avinguda de l'Alcalde Recasens
+name:etymology:wikidata: Q41921</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6323896156759433,41.629019226853174 0.6325710753633357,41.62918151763541</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Rosa Parks</name>
+      <description>ref: LP-9221
+name: Avinguda de Rosa Parks
+oneway: no
+highway: secondary
+name:ca: Avinguda de Rosa Parks
+surface: asphalt
+maxspeed: 30
+old_name: Avinguda de l'Alcalde Recasens
+name:etymology:wikidata: Q41921</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6325710753633357,41.62918151763541 0.6327057328244251,41.62929848492145</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Rosa Parks</name>
+      <description>ref: LP-9221
+name: Avinguda de Rosa Parks
+oneway: no
+highway: secondary
+name:ca: Avinguda de Rosa Parks
+surface: asphalt
+maxspeed: 30
+old_name: Avinguda de l'Alcalde Recasens
+name:etymology:wikidata: Q41921</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6327057328244251,41.62929848492145 0.6328041881795647,41.62941518341439</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Rosa Parks</name>
+      <description>ref: LP-9221
+name: Avinguda de Rosa Parks
+lanes: 2
+oneway: no
+highway: secondary
+name:ca: Avinguda de Rosa Parks
+surface: asphalt
+maxspeed: 30
+old_name: Avinguda de l'Alcalde Recasens
+lane_markings: yes
+name:etymology:wikidata: Q41921</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6328041881795647,41.62941518341439 0.6328463191663899,41.62949119175534 0.6331162629092677,41.62996651043449 0.6331467157973995,41.63001928610219 0.6334300444380107,41.63050030813527 0.633496609600564,41.63058947542098 0.6335685646548219,41.63067870972726 0.6336829201904902,41.63079970292344 0.6337581091797712,41.630871479579014 0.6338674341498485,41.63097038217366 0.634033712308939,41.63111930650038 0.634590218627451,41.631625700352096 0.635288209603212,41.632250999283926 0.6355137765710543,41.63246061708942 0.6356071115290745,41.632597788141524</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: LP-9221
+lanes: 2
+oneway: no
+highway: secondary
+surface: asphalt
+maxspeed: 90
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6356071115290745,41.632597788141524 0.6356972125520716,41.632767388363305 0.6357264077988055,41.632921411297644 0.6357476080395107,41.63307529958114 0.6358800197123898,41.634311025291275 0.63591056243205,41.634549775107395 0.6359418238039373,41.63473561799669 0.6359587121312789,41.634864593184 0.6360127008798544,41.63512039432763 0.6361204987139487,41.63562292983853 0.6363581929381268,41.63660529655773</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: LP-9221
+lanes: 2
+oneway: no
+highway: secondary
+surface: asphalt
+maxspeed: 90
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6363581929381268,41.63660529655773 0.6364588940814764,41.63700107224772 0.6366370300023173,41.63751527489578 0.63672569372086,41.63777146833845 0.6368060929387886,41.63800362598212 0.636932396067736,41.63836837631093</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: LP-9221
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 60
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.636932396067736,41.63836837631093 0.6371212219404577,41.63863779207899 0.637357209365596,41.6389168070722</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: LP-9221
+highway: secondary
+maxspeed: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.637357209365596,41.6389168070722 0.6374677919770712,41.639228985553316</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: LP-9221
+highway: secondary
+surface: asphalt
+maxspeed: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6374677919770712,41.639228985553316 0.637481715863975,41.639279269644675 0.6374746191732305,41.63939856832661</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Plana del Bisbe</name>
+      <description>name: Camí de la Plana del Bisbe
+highway: unclassified
+name:ca: Camí de la Plana del Bisbe</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6374746191732305,41.63939856832661 0.6377050370436071,41.63960621598404 0.6378454437225151,41.63976519052465 0.6379899826517298,41.63996538510195</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6379899826517298,41.63996538510195 0.6382094410756401,41.640689289410936 0.638268909547449,41.64104529723667 0.638175394926372,41.64139492548582 0.6382775333741765,41.64166191183264 0.6383114896919161,41.64204329020978 0.6383794921589241,41.64218319327669 0.6388048444459545,41.64248830711715 0.6395364324133415,41.64301589219495 0.6397535552175132,41.643123973094 0.6402948800077237,41.64369928265485 0.6404151644242673,41.643901613174464 0.6404512766986888,41.64411280420705 0.6404032168309886,41.6444275084411 0.6405715611152325,41.644953332286434 0.6406377669516721,41.645335429597864 0.6407339765186012,41.645784921355826 0.640854260935145,41.64617137704034 0.6410827923434248,41.64676021907725 0.6411911291666897,41.64721862874308 0.6412152040163042,41.64779839919025 0.6412813200212153,41.64853550631242 0.6414752662910567,41.64899497734377 0.6415888133429694,41.64926387881147</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Grealó</name>
+      <description>name: Carrer de Grealó
+source: PNOA
+highway: residential
+name:ca: Carrer de Grealó
+surface: asphalt
+maxspeed: 50
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6415888133429694,41.64926387881147 0.6418072836200673,41.64929938768324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Antoni Vilaplana</name>
+      <description>name: Carrer d'Antoni Vilaplana
+highway: residential
+name:ca: Carrer d'Antoni Vilaplana
+surface: asphalt
+maxspeed: 50
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6418072836200673,41.64929938768324 0.6422806957747983,41.650237915645064 0.6424918896980948,41.65068817867658 0.6425264748365334,41.65076187974963</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Antoni Vilaplana</name>
+      <description>name: Carrer d'Antoni Vilaplana
+highway: residential
+name:ca: Carrer d'Antoni Vilaplana
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6425264748365334,41.65076187974963 0.6426119944515817,41.6509441183797 0.6426594254985831,41.65104520522072</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Gran de Llívia</name>
+      <description>name: Carrer Gran de Llívia
+oneway: no
+highway: residential
+name:ca: Carrer Gran de Llívia</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6426594254985831,41.65104520522072 0.6428327105168897,41.651123268854604 0.6430183922861172,41.651211400771246 0.6431570921659853,41.65135067983008 0.6432256336221637,41.651416996692994 0.6433081887967743,41.65148217240976</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Llívia a Torreserona</name>
+      <description>name: Camí de Llívia a Torreserona
+oneway: no
+highway: residential
+name:ca: Camí de Llívia a Torreserona</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6433081887967743,41.65148217240976 0.6434840789294048,41.65174321022716 0.6441058029375438,41.65259397540652 0.6444854309766128,41.653102079901764 0.6445617877757629,41.653354989601695 0.6446328445147369,41.65389322485351 0.6447637290516331,41.65417868437335 0.6449874993889072,41.65448857398353 0.6455548753223571,41.655182715930586 0.6455998809180915,41.65523768585406 0.6459000978860443,41.655686303109505 0.64612943777808,41.6560443087134</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Llívia</name>
+      <description>name: Camí de Llívia
+oneway: no
+highway: unclassified
+name:ca: Camí de Llívia</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.64612943777808,41.6560443087134 0.6464677433140795,41.6561551866858 0.6467815248428223,41.6562061958584 0.6473682145548808,41.656231633312274 0.6481254045078652,41.6562570707561 0.6489576936186018,41.6562570707561 0.6494419753882708,41.65621129677344 0.6496125654607249,41.65621129677344 0.6499400013817866,41.65622512293585 0.6502189282775056,41.65628700504387 0.650335439769856,41.65635298123889 0.6504374883861319,41.65641090331574 0.6507616005406422,41.65668688820862 0.6512817250901476,41.657075493336365 0.6516511123349775,41.65728952717996 0.6520278657651372,41.65741342352325 0.6524124345382687,41.65751470155965 0.652668723888828,41.65766678610508 0.6529098317110856,41.6578543744473 0.6533891727466918,41.658227468921446 0.6534752313509106,41.65862982328493 0.6536933423018948,41.65893190620162</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Llívia</name>
+      <description>name: Camí de Llívia
+layer: 2
+bridge: yes
+oneway: no
+highway: unclassified
+name:ca: Camí de Llívia</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6536933423018948,41.65893190620162 0.6545665047580589,41.659578483714206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Llívia</name>
+      <description>name: Camí de Llívia
+oneway: no
+highway: unclassified
+name:ca: Camí de Llívia</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6545665047580589,41.659578483714206 0.6548285433264365,41.65965720814345 0.6551768201620897,41.659783113339195 0.6553669935077377,41.65986720659777 0.6555132392359925,41.65994190386942 0.6556528374311447,41.66000639982672 0.6559170319562042,41.660070627266315 0.656351367396076,41.66015210273493 0.6566357740150282,41.66019760546414 0.6568085200441643,41.66021908166734 0.6569484775654303,41.66022827616466 0.6571594918256699,41.66021572601107 0.6572899272049241,41.66019062569656 0.6573952995877513,41.66014827728278 0.6576137698648491,41.66004217122993 0.6576726095159591,41.66001358095429 0.6579845944141337,41.65996176943651 0.6581718033193442,41.659884119195155 0.6585462211297652,41.659568215303295 0.6587750220326304,41.65927291389683 0.6589553139101534,41.65887922132483 0.6590261011545419,41.65876620037368</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Llívia</name>
+      <description>name: Camí de Llívia
+lanes: 1
+width: 5
+oneway: no
+highway: unclassified
+name:ca: Camí de Llívia</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6590261011545419,41.65876620037368 0.6590852103002369,41.65872271007358 0.6593496743198817,41.65852801008306 0.6596365063901011,41.65836183341047 0.6597578687849858,41.65829203371089</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>C-12 Carretera de Lleida a Balaguer i Àger C-161</name>
+      <description>ref: C-12
+name: C-12 Carretera de Lleida a Balaguer i Àger C-161
+lanes: 1
+width: 4
+oneway: yes
+highway: primary
+name:ca: C-12 Carretera de Lleida a Balaguer i Àger C-161
+surface: asphalt
+maxspeed: 70
+turn:lanes: through;right</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6597578687849858,41.65829203371089 0.6598724039837108,41.65837458527049 0.6599869391824361,41.65845706960929 0.66014737829218,41.658547070707925</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>C-12 Carretera de Lleida a Balaguer i Àger C-161</name>
+      <description>ref: C-12
+name: C-12 Carretera de Lleida a Balaguer i Àger C-161
+lanes: 2
+width: 7
+oneway: no
+highway: primary
+name:ca: C-12 Carretera de Lleida a Balaguer i Àger C-161
+maxspeed: 70
+overtaking: no
+lanes:forward: 1
+lanes:backward: 1
+turn:lanes:backward: through;right
+change:lanes:forward: no
+change:lanes:backward: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.66014737829218,41.658547070707925 0.6602195130094947,41.658601232382274 0.6605845883409609,41.65886989240585 0.6606837623483276,41.65894667138229 0.6611040840697672,41.65928096758951 0.6613769024215542,41.65951707456576</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary_link</name>
+      <description>note: La rotonda que hi havia per regular l'accés a l'escola Alba ha estat substituïda per un pas inferior. Abril de 2021. Ref: Paeria (ajuntament) de Lleida: https://www.paeria.es/arxius/noticies/ImatgeHD_cat_46096.jpg
+oneway: yes
+highway: primary_link
+maxspeed: 70
+destination: Escola</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6613769024215542,41.65951707456576 0.6614793103639438,41.65955237644405 0.6616381325061762,41.65969573140112 0.6616886178251437,41.65974237538436</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary_link</name>
+      <description>oneway: yes
+highway: primary_link
+maxspeed: 60
+destination: Escola</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6616886178251437,41.65974237538436 0.6617767425545158,41.65982398549535 0.6618991829277413,41.659944588405864 0.6619962908099547,41.66004022494396 0.6620695035056104,41.660109620069356 0.6621402009184706,41.660180625835906 0.6622196119895867,41.66026122869532 0.6622912975492595,41.66034350927872 0.6623218402689196,41.660373173215305 0.6624184989934908,41.66044632630369 0.6624633249261684,41.660463976990556 0.6625192001368407,41.660468473552584 0.6626092113283094,41.6604706211642</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>note: La rotonda que hi havia per regular l'accés a l'escola Alba ha estat substituïda per un pas inferior. Abril de 2021. Ref: Paeria (ajuntament) de Lleida: https://www.paeria.es/arxius/noticies/ImatgeHD_cat_46096.jpg
+lanes: 2
+highway: service
+surface: paved
+maxspeed: 30
+lanes:forward: 1
+lanes:backward: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6626092113283094,41.6604706211642 0.6626361607868331,41.660451024205614</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera vella de Corbins</name>
+      <description>name: Carretera vella de Corbins
+lanes: 1
+width: 4
+highway: unclassified
+name:ca: Carretera vella de Corbins</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6626361607868331,41.660451024205614 0.6626870952634426,41.660498003205944 0.6627076666834488,41.660534713915204 0.6627193447821424,41.660589612158034 0.6627286872610973,41.66063826887447 0.6627462044091377,41.66074652154755 0.662764619872462,41.66081537901181 0.6627891438797187,41.66088242436679 0.6628238188496857,41.6609494025396 0.6628793347342442,41.661040272614585 0.6629226335309387,41.66111516986213 0.6629607220989854,41.66118758387436 0.6629877613890375,41.66125019944672 0.6630191125924532,41.6613110029346 0.6630529790786645,41.661367309866115 0.6630936727610351,41.66141979137176 0.6631462242051561,41.66147797733891 0.6631994943015043,41.661532404995306 0.6632503389465855,41.6615779738609 0.6633062141572578,41.66162287157765 0.6633681080803335,41.66167481598216 0.6634256900900457,41.66172608922926 0.6634849788987974,41.66178172468287 0.6635527118712202,41.66185319838565 0.6636182888869608,41.66192708801753 0.6636998559147589,41.66201728560038 0.6637468378041184,41.66206902835315 0.6637975027861428,41.66212030128635 0.6638415202350646,41.66216271551438 0.6638864359992706,41.662201304384276 0.6639295551329083,41.662232913684825 0.6639847116913533,41.66226901940617 0.6640440005001051,41.66230821221088 0.6641058045916525,41.66235123031325 0.6641785681296662,41.66240632834 0.6642574402116119,41.66246639251763 0.6643387377448248,41.66253088594654 0.6644209335933217,41.66259860062184 0.6645039379255744,41.6626694694228 0.664591972823418,41.66274610964818 0.6646688686117388,41.66281442809093 0.664745944063116,41.66288301490259 0.6648028972521293,41.662937172930235 0.6648681149417563,41.663002269879634 0.6649299190333038,41.66306501790773 0.6650138216808406,41.66314850288991 0.6651103007423551,41.66324467154952 0.6652000424392385,41.66333379352874 0.6652597804056325,41.663393118633266 0.6653134996596228,41.663452913451415 0.6653508695754423,41.66349780986087 0.6653873411759775,41.66354706836675 0.6654220161459444,41.66359901121907 0.665464416627355,41.663666120785344 0.6655018763747027,41.66374128341653 0.6655337665672889,41.66380470181836 0.6655591888898296,41.663842014626645 0.6655880248104497,41.663869797890705 0.6656210828129053,41.66389576919193 0.6656627646420885,41.66391670728762 0.6657168432221924,41.663939390216925 0.6657859236675413,41.663958717677005 0.6659047707796303,41.66397992418904 0.6660209229458669,41.66399388290201 0.6661454294442459,41.66400207022264 0.6662885310690061,41.664009116686266 0.6664188766167319,41.6640154249483 0.6665001741499448,41.664024216248606 0.6665637748720603,41.66403367863921 0.6666306993607273,41.66404757023138 0.6666963662079964,41.6640664278952 0.666793743584795,41.66409669409853 0.6669627166897378,41.664154609210726 0.6671270185552033,41.664215275738194 0.6672633828153326,41.66426567454663 0.6674387339587928,41.664332984744576 0.6676309734295943,41.66440512670315 0.6677918616969801,41.66446908132069 0.6679528397958944,41.664532968766075 0.668118039976644,41.66460188928997 0.6683136930455252,41.664686110472665 0.6684914696402525,41.66476711034285 0.6686287322156659,41.66483227255053 0.6687134433469584,41.66487837594703 0.668803185043842,41.664933471811345 0.6688921182569697,41.66499487579458 0.668992909231848,41.66506701701154 0.6690785186784245,41.66512707870725 0.6691767045389788,41.665193515601494 0.6692860295090561,41.665263777575674 0.6693868204839344,41.66532263114737 0.6694893182578524,41.66537833060124 0.6695832820365714,41.66542637972998 0.6697272819766157,41.66549657434241 0.6698569088721142,41.665559991015385 0.6699997410022891,41.6656246826682 0.6701126592335029,41.6656770264891 0.6702507302926721,41.665742791742204 0.6703973353470404,41.66581808616381 0.6705192367310955,41.665882576235646 0.6706284718696444,41.66594270427773 0.6707420189215572,41.66600659026092 0.6708614050228165,41.666075576314455 0.6709859115211955,41.66615147430934 0.6711273961784443,41.66623441843486 0.6712392364313172,41.6663040082053 0.6713492800536219,41.66637420186092 0.6714450404629091,41.66643687949638 0.6715441246387474,41.666509019097646 0.6716363816184265,41.66657800461282 0.6717279199458783,41.66664947299174 0.6718538637487118,41.66674080476707 0.671969476925778,41.66682267443352 0.6720559846876386,41.66688051998754 0.6721250651329874,41.66692527979471 0.672195403219734,41.6669658118871 0.6722784075519868,41.66701137690752 0.6723766832440694,41.66706197484528 0.6724851098988626,41.66711827674786 0.6726027892010823,41.66717900758874 0.6727027716922047,41.66723349753204 0.672795926987168,41.667286578208326 0.6728755177213409,41.66733717592981 0.6729569050860822,41.66739226969006 0.6730407179020905,41.66745239632225 0.6731246205496273,41.667516280807405 0.6732033129685161,41.66757580337466 0.6732778731370981,41.667626400868826 0.6733456061095208,41.667672569369934 0.6734075000325966,41.667718133890155 0.6734641837270245,41.66776752337786 0.6735311082156914,41.6678338904423 0.6736047700689891,41.66790669952935 0.6736802285528553,41.66797749538296 0.6737573040042327,41.6680446003856 0.6738445304183206,41.668116671080526 0.6739308585171245,41.66819142588742 0.6740283257254516,41.66827550816524 0.6741137555089712,41.66835147067137 0.6741943343899569,41.66842421206849 0.6742789556897208,41.66850581117632 0.674351809059263,41.668580498426934 0.674431220130379,41.66865981578961 0.674508385413285,41.668738327803624 0.6746160934158509,41.66884790894175 0.6746910129105465,41.668930782489376 0.6747652137530148,41.669019024246715 0.674852709661688,41.66911182894542 0.6749295156184802,41.66919362849299 0.675000572357454,41.6692644900351 0.6750786359556441,41.66934098820322 0.675159933488857,41.66942137828545 0.6752453632723767,41.66949787626715 0.6753386083988683,41.6695732334006 0.6754376925747066,41.66965040223479 0.675535878435261,41.6697205922419 0.6756375677254234,41.669793399195186 0.675746802863972,41.669866071859985 0.6758458870398106,41.66992559225472 0.6759586256079675,41.66999269522677 0.6760814253073066,41.67006160990625 0.6762194963664759,41.67013817422994 0.6762583934182783,41.670160989172935 0.6762947751872851,41.670187628963795 0.6763404994352468,41.670221918451674 0.6763813727806741,41.67025748287186 0.6764700364992169,41.67034062301522 0.6765641799409925,41.67042859443014 0.6766505978713248,41.67051401583394 0.6767233614093385,41.670590579619564 0.6767716907716241,41.67065130718495 0.6768225354167052,41.67072149610075 0.6768666426971555,41.670781619623604 0.676910570314549,41.67083161067965 0.676969859123301,41.670889184223604 0.6770427124928431,41.6709499115073 0.6771444017830053,41.671023992005644 0.6772366587626844,41.67109418051509 0.6773255919758121,41.67116758983028 0.6774163218195084,41.67124730661523 0.6775204365609377,41.6713421882491 0.677628863215731,41.67143841177174 0.6777287558753251,41.67153141428663 0.6778151738056574,41.671607305849655 0.6778985374640237,41.671673132146175 0.6780207981741923,41.67176667113066 0.6781161992573659,41.67183088683975 0.678205671459664,41.67188691616785 0.6782894842756725,41.67194321385081 0.6783615291614589,41.671992600097106 0.6784503725430583,41.672057822092576 0.6785267293422085,41.672120427093965 0.678579190954801,41.672172295928966 0.6786673156841732,41.67225321928016 0.6787586743485682,41.67233870536322 0.6788748265148048,41.67244868297499 0.6789890922189448,41.67255691579201 0.6791042562383689,41.672668302134085 0.6792009149629402,41.672761906772514 0.679292273627335,41.67284350038212 0.6793913578031735,41.672922611192696 0.6794998742894951,41.67301500766516 0.6796039890309246,41.673097875848256 0.6797005579239674,41.673171215778815 0.6798052116545674,41.673247977702616 0.6799200163478779,41.67332883260205 0.6800782995009397,41.67343572195222 0.6801884329547726,41.67350268706671 0.6802893137611795,41.67356421707543 0.6804052862643591,41.673637489375494 0.6805188333162718,41.67370841312496 0.6806449567821623,41.6737906094256 0.6807805125585359,41.67387918001573 0.6808990901760397,41.67395949733185 0.680985508106372,41.67401961783038 0.681065098840545,41.67407470587182 0.6811337301282517,41.67411637413981 0.6812014631006743,41.674153815169184 0.6812735079864607,41.67418602248887 0.6813530987206338,41.674216418132026 0.6814581117773474,41.67424929640539 0.6815706706824475,41.67428338243432 0.6816504410796772,41.674308812747306 0.6817206893348955,41.67433223009785 0.6817782713446074,41.67435490935761 0.6818321702616548,41.67438080933087 0.6819588327167155,41.67443817840551 0.6821051682764987,41.6745068199329 0.682234795171997,41.67456808058907 0.6823404370494095,41.67461699513466 0.6824193989628835,41.674651617753526 0.6824889285658745,41.674679530548964 0.6825727413818827,41.6747054303916 0.6826768561233123,41.67473522190754 0.6828116034159302,41.67476427533211 0.6829521897578948,41.674788296398404 0.6830893625017799,41.674806614132876 0.6832707323576437,41.674833788784305 0.6833603842229988,41.67484781224193 0.6834196730317506,41.67485921887982 0.6834697091930761,41.67487237005984 0.6835264827190325,41.67489457944449 0.68358658001154,41.67492047920059 0.6836890777854581,41.674974291613886 0.6837797177976257,41.675035686020486 0.6839042242960047,41.67511278120878 0.6840388817570943,41.675194506033414 0.6841828816971386,41.67528428244528 0.6843064898802335,41.6753684225562 0.6844245285085667,41.675444913470656 0.6844479745374823,41.675460211642644 0.6845919744775266,41.67554810896384 0.6847216013730252,41.675619030608026 0.6848553605188304,41.67569230056896 0.6850163386177447,41.675779593701066 0.6851407552845953,41.67584803250739 0.6852042661751824,41.67588661317496 0.6852728076313608,41.675932775752024 0.6853382948155731,41.67598323248444 0.6853906665966372,41.676032078857915 0.6854822049240891,41.67612252506699 0.6855508362117958,41.67619210414873 0.6856084182215079,41.67624148713509 0.6856836970423171,41.67630033067124 0.6857769421688087,41.67636742699802 0.6858921061882328,41.67644767411299 0.6860014311583101,41.67652678049379 0.6860810218924832,41.67658810632344 0.6861580973438607,41.67665077401461 0.6862258303162831,41.67671209972611 0.6862826038422396,41.67676778932598 0.6863418028194631,41.676836830943735 0.6864079188243742,41.67692150579072 0.6864757416283253,41.67701141398493 0.6865527272481743,41.677108232892394 0.6866416604613023,41.677211291527854 0.6867416429524247,41.67732582329434 0.6868457576938541,41.67743901295353 0.686948255467772,41.67755669778229 0.6870591974053609,41.67768068931891 0.6871694206907224,41.6778040096687 0.6872844948786182,41.67792987937943 0.687403970811406,41.67805387019707 0.6875250637117053,41.678173499639385 0.6876487617263286,41.67829561134781 0.6877765919912587,41.67842020530819 0.6878904085377566,41.678531984067924 0.6880026979482716,41.67863249085416 0.6880748326655864,41.678693479208015 0.6881467877198444,41.67874849615531 0.6882340141339325,41.67881236943023 0.68833992550593,41.67888523319376 0.688448262329195,41.67895977421454 0.6885627076963917,41.679037602730965 0.6886811954823672,41.67912053025351 0.688795640849564,41.679202719642504 0.6889150269508234,41.67929188662418 0.6890344130520829,41.67938561581634 0.6891326887441654,41.67946398056227 0.6892199151582535,41.67953167742778 0.6893325638948821,41.67961581198596 0.6894672213559717,41.67971128511932 0.689611221296016,41.679815077606044 0.6897644738834867,41.679925176628466 0.6899255418139295,41.680042185986345 0.6901110439201001,41.680171808489916 0.6902939409119468,41.68029398349883 0.690466686941083,41.68041038835743 0.6905852645585868,41.680489422775416 0.6906529975310094,41.68053430730404 0.6907292644986313,41.68059126834239 0.6907884634758548,41.680643801269454 0.6908436200342996,41.680703177514694 0.6908926680488127,41.680760205495275 0.6909628264725023,41.68083830020081 0.6910318170863227,41.68091082621273 0.6911161688915015,41.68099529442515 0.6912238768940674,41.68109666955198 0.6913314950651049,41.681196702693974 0.6914499828510803,41.681309885545055 0.6915830233446584,41.681434473669626 0.6917159740067081,41.681556579190406 0.6918481161850021,41.68167432358029 0.6919769345967449,41.68178623086911 0.6920471828519629,41.681854529106815 0.6921072801444705,41.68192222345753 0.692157316305796,41.68197603001652 0.6921862420579448,41.68200380545455 0.692244542719884,41.682042919154924 0.6922887398318627,41.68206472352303 0.6923567422988706,41.682102428289824 0.6924656181113058,41.68216509061139 0.6925892262944007,41.682241707628286 0.6927382568000361,41.68233912247776 0.6929034569807857,41.682446600673636 0.6930711724443308,41.68255421286967 0.6931889415780789,41.682631231961814 0.6933386907359416,41.6827332083183 0.6933972608924662,41.68276990634915 0.6934570886903885,41.682801505550906 0.6935412608325106,41.682832500931156 0.6936124074030128,41.68285081637613 0.6936936151046972,41.682867924204615 0.6938250386307638,41.682890667546054 0.6939599655864387,41.6829160273686 0.6940934552376589,41.68294568090505 0.6942519180537775,41.68298559910561 0.6943663634209742,41.683018674167315 0.6945525841793724,41.68307543173866 0.6947641374287824,41.68314258809115 0.6949777568033461,41.68321517859513 0.695183381171881,41.68328112719827 0.6952607261178437,41.68330058302963 0.6953300760577777,41.683313933751876 0.6955145900171359,41.683329968032716 0.6958035780440371,41.683336006045394 0.6960146821358052,41.683337280736886 0.6961092747352231,41.6833250034441 0.6961795229904412,41.68330340077023 0.6962484237727332,41.68327737020947 0.6963090600544113,41.683256975123584 0.6963987119197663,41.68323322557463 0.6964927655300136,41.6832410750028 0.6965585222088112,41.68325831690575</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6965585222088112,41.68325831690575 0.6965296862881909,41.68330313241399</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lanes: 1
+width: 4
+highway: unclassified
+junction: roundabout</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6965296862881909,41.68330313241399 0.6964773145071268,41.68328669559198 0.6964209003072841,41.68328193226727 0.6963649352650835,41.683288976620595 0.6963137312938885,41.683307426113736 0.6962714206440066,41.683335670600265 0.6962415067450454,41.683371429041664 0.6962258760591017,41.68341188368968 0.6962257862275734,41.68345408262378 0.696241416913517,41.683494604308706</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lanes: 1
+width: 4
+oneway: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.696241416913517,41.683494604308706 0.6962489627619036,41.683526404421045 0.6962468068052217,41.683573702027424 0.69623728466321,41.683657294591406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lanes: 2
+layer: 1
+width: 6
+bridge: yes
+highway: unclassified
+overtaking: no
+change:lanes:forward: no
+change:lanes:backward: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.69623728466321,41.683657294591406 0.6960622030143351,41.6838625185716</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lanes: 1
+width: 4
+oneway: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6960622030143351,41.6838625185716 0.6959438948914166,41.6839086083392 0.6959003266001369,41.68392048299013</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lanes: 1
+width: 4
+highway: unclassified
+junction: roundabout</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6959003266001369,41.68392048299013 0.6958268444098958,41.68392377032249 0.6957594707635868,41.683946312025554 0.6957070989825227,41.68398502201505 0.6956762867682774,41.68403500281628 0.6956699087297601,41.68407351148766 0.6956764664313343,41.68411188595956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lanes: 1
+width: 4
+oneway: yes
+highway: unclassified
+surface: paved
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6956764664313343,41.68411188595956 0.6956740409800671,41.68414482626596 0.6956629917020725,41.68420708406988 0.6956364914011909,41.68428537585633 0.695590497658644,41.68437091304624 0.6955245613167896,41.6844795954294</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+oneway: no
+highway: unclassified
+surface: paved
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6955245613167896,41.6844795954294 0.695385502110808,41.68461940632393 0.6947552441074697,41.68525297933379 0.6945720776210377,41.685439883521745 0.6944073265979303,41.68562678716676</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+oneway: yes
+highway: unclassified
+surface: paved
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6944073265979303,41.68562678716676 0.6942793166699432,41.6857087669862 0.6941956835169916,41.68574392033013 0.6941086367659605,41.68576538801163</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+surface: paved
+junction: roundabout
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6941086367659605,41.68576538801163 0.694012157704446,41.68579222260344</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+surface: paved
+junction: roundabout
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.694012157704446,41.68579222260344 0.6939410111339438,41.68583797555666 0.6938942089076411,41.685898822908854 0.6938771409172428,41.68597120904451 0.6938905258149761,41.68603460554683 0.693929063540665,41.68609189714705 0.6939891608331725,41.68613771697327</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de la Diputació</name>
+      <description>name: Avinguda de la Diputació
+oneway: yes
+highway: residential
+name:ca: Avinguda de la Diputació
+surface: paved
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6939891608331725,41.68613771697327 0.6940117085468039,41.6861834696808 0.6940553666696122,41.68630992677506 0.6940715363447263,41.686490119319195</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de la Diputació</name>
+      <description>name: Avinguda de la Diputació
+oneway: no
+highway: residential
+name:ca: Avinguda de la Diputació
+surface: paved
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6940715363447263,41.686490119319195 0.6940617447081295,41.686781606189754 0.6941093554181877,41.68709891950956 0.6943446241910985,41.68822238392057</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Horta</name>
+      <description>name: Carrer de l'Horta
+oneway: no
+highway: living_street
+name:ca: Carrer de l'Horta
+surface: paved
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6943446241910985,41.68822238392057 0.6944494575847553,41.68875610146608 0.6945083870673936,41.68901068237054 0.6945530333370142,41.68920837599062 0.694568664022958,41.68966017775852</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de la Sardana</name>
+      <description>name: Plaça de la Sardana
+oneway: no
+highway: living_street
+name:ca: Plaça de la Sardana
+surface: paved
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.694568664022958,41.68966017775852 0.6945857320133563,41.68987926860925 0.6945920202203452,41.690051401313944 0.6945832167305608,41.69009487045102 0.6945765691974582,41.690127472284544</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Lleida</name>
+      <description>ref: LV-9224b
+name: Avinguda de Lleida
+lanes: 1
+width: 6
+oneway: no
+highway: tertiary
+name:ca: Avinguda de Lleida
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6945765691974582,41.690127472284544 0.6947562322542823,41.69018690686035 0.695083937669929,41.6902737778402 0.6951962270804439,41.69029819560801 0.6953925089700241,41.69030798954523 0.6954578164911795,41.6902987993439 0.6956463728693162,41.69027887605622 0.695912364024944,41.69023138213342 0.6961763788869467,41.69018402233932 0.6963006158907405,41.690172283008195 0.6963897287669252,41.69018281486536 0.696492855361542,41.690209915942106 0.6965784648081186,41.69025050045401 0.6966894965772358,41.69031503312931 0.6967891197422447,41.690368497261375 0.6968487678771103,41.69040062938461 0.6968885632441967,41.69042202843064 0.6969663573478014,41.69046382027743</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Riu</name>
+      <description>ref: LV-9224b
+name: Carrer del Riu
+lanes: 1
+width: 6
+oneway: no
+highway: tertiary
+name:ca: Carrer del Riu
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6969663573478014,41.69046382027743 0.6971407203444491,41.69056477799755 0.6972821151701695,41.69067646857973 0.6973752704651328,41.69078782356171 0.697434199947771,41.69089193358737 0.6974734563256869,41.690992689392495 0.6975315773245695,41.691146371877856 0.6975773914040596,41.69131836703062 0.6975717320177696,41.691389271294746 0.6975472080105132,41.69145782766125 0.6974721088527608,41.69162921825785 0.6974539628840215,41.69169998801873 0.6974642935097889,41.691773776312104</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: LV-9224b
+lanes: 1
+width: 6
+noname: yes
+oneway: no
+highway: tertiary
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6974642935097889,41.691773776312104 0.6975193602367055,41.69184501547504 0.6976403633054763,41.691952880272126</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Corbins</name>
+      <description>ref: LV-9224b
+name: Pont de Corbins
+lanes: 1
+layer: 1
+width: 6
+bridge: yes
+oneway: no
+highway: tertiary
+name:ca: Pont de Corbins
+surface: paved
+wikidata: Q96658083</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6976403633054763,41.691952880272126 0.6988577601785152,41.692940223824685</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: LV-9224b
+lanes: 1
+width: 6
+noname: yes
+oneway: no
+highway: tertiary
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6988577601785152,41.692940223824685 0.6989250439932957,41.69299469195922 0.6994676264249039,41.693451430942346 0.7012294921916473,41.69487529004998 0.7024243413510549,41.6958409232042 0.7027600417727303,41.69616610676597 0.7029691695708733,41.69672692381071 0.7032489947818766,41.69778146930156</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7032489947818766,41.69778146930156 0.7031627565146011,41.697963306557995 0.7031223323268158,41.698103021075994 0.7030642113279332,41.69867508950116 0.702945094721259,41.69902272808086 0.7028671209545974,41.69914312340786</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>noname: yes
+highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7028671209545974,41.69914312340786 0.7028336137944997,41.69927009160602 0.7028178932770277,41.69944072359161 0.7027454890651277,41.69977521194469 0.7026783849134038,41.70001948728059 0.70253492396253,41.70036966730091 0.7024050275724462,41.70056303346293 0.7023407081981035,41.70065498782297 0.7022755803400047,41.70074070446032 0.702208476188281,41.70082769532834 0.7021254718560284,41.70091998466338 0.7020678898463162,41.700982695727525 0.7020068942385246,41.70104708349447 0.7019300882817323,41.70117498691944 0.7018054021202964,41.70142509204257 0.7017020958626228,41.70177177677909 0.7016833210731847,41.7019739919115 0.7017650677640396,41.70219210184893 0.7018000122285918,41.70226218929476 0.7018884962840776,41.70258257849301 0.7019337713743972,41.702729191062424 0.7019786871386032,41.702820672843956 0.7020075230592234,41.702927177862605 0.7020511811820316,41.70300812960702</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Nòria</name>
+      <description>name: Carrer de la Nòria
+highway: residential
+name:ca: Carrer de la Nòria</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7020511811820316,41.70300812960702 0.7020603439979296,41.70306500367967 0.7020860358150554,41.70314468095156 0.702127807475767,41.70325507539238 0.7021526009776088,41.70331107736006 0.7021941031437351,41.70341349041313 0.7022491698706516,41.70356157658256 0.7023010026625451,41.70372220408453</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plça de la Creu</name>
+      <description>name: Plça de la Creu
+highway: residential
+name:ca: Plça de la Creu</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7023010026625451,41.70372220408453 0.7023229215554777,41.703757817058815 0.7024275752860777,41.70380992866358 0.7025591784752011,41.70387270397697</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plça de la Creu</name>
+      <description>name: Plça de la Creu
+highway: residential
+name:ca: Plça de la Creu</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7025591784752011,41.70387270397697 0.7026351759482378,41.7039132128005</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Balaguer</name>
+      <description>name: Carrer de Balaguer
+highway: residential
+name:ca: Carrer de Balaguer</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7026351759482378,41.7039132128005 0.7027651621698499,41.70397598801304 0.7029851595829306,41.70404661005389 0.7032454015207401,41.70413782169177 0.7034867788375829,41.70422547863654</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pintor Viladrich</name>
+      <description>name: Carrer del Pintor Viladrich
+highway: residential
+name:ca: Carrer del Pintor Viladrich</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7034867788375829,41.70422547863654 0.703171021015215,41.70439998736286 0.7029196723987183,41.70465799382413 0.7026979681865976,41.70498480946434 0.7025360019408708,41.705245026762796 0.7021418211941993,41.705817232849974 0.7020972647561069,41.70583272499742 0.7017922867171483,41.7060636983894</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pintor Viladrich</name>
+      <description>name: Carrer del Pintor Viladrich
+highway: residential
+name:ca: Carrer del Pintor Viladrich</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7017922867171483,41.7060636983894 0.7016707446592071,41.70614102466189 0.7014963816625593,41.70623612310713</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pintor Viladrich</name>
+      <description>name: Carrer del Pintor Viladrich
+highway: residential
+name:ca: Carrer del Pintor Viladrich</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7014963816625593,41.70623612310713 0.7015229717949693,41.70645810835221 0.7015297989911287,41.70652530735986 0.7015598027216182,41.70682200154004 0.7015695943582151,41.706911197307534 0.7016561919516042,41.7074544169792 0.7016943703511792,41.70769376749878</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Gombalda</name>
+      <description>name: Camí de la Gombalda
+highway: track
+name:ca: Camí de la Gombalda
+surface: asphalt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7016943703511792,41.70769376749878 0.701712156993805,41.70781521960711 0.7017341657182659,41.70792211873294 0.7017570727580109,41.70803270616099 0.7017773746834319,41.70813886723043 0.7017935443585461,41.708236913495135 0.7018079174030919,41.708324229536586 0.7018213921323537,41.70839377379506 0.7018316329265927,41.70850382390957 0.7018417838893033,41.7086050215634 0.7018536416510538,41.708715004253726 0.7018697214946394,41.70882371256945 0.7018840945391854,41.70892356847292 0.7018976590999756,41.70901718743296 0.7019043964646065,41.70908538969838 0.7019061032636463,41.70910262467436 0.70191041517701,41.70918289802298 0.7019112236607657,41.709261897093604 0.701909516861726,41.709341030190956 0.7019052947798906,41.709416810099654 0.7018993658990154,41.70949077925182 0.7018884064525491,41.709562267036965 0.7018723266089634,41.70962798744472 0.7018536416510538,41.70968941584673 0.7018316329265927,41.70974883234567 0.7018062106040522,41.70980697462274 0.7017681220360055,41.709876517277216 0.7017435081972206,41.709911322106905 0.7016992212537135,41.70996108158019</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Pla de Violes</name>
+      <description>name: Camí del Pla de Violes
+highway: track
+name:ca: Camí del Pla de Violes
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7016992212537135,41.70996108158019 0.7017977664403815,41.71003518422847 0.7018866996535092,41.71009909350268 0.7019764413503929,41.71015978378295 0.7020747170424756,41.71022677773851 0.7021365211340229,41.710268489655554 0.7021967082580589,41.71030651319623 0.7022619259476861,41.71034252488862 0.7023541829273652,41.710387992136226 0.7024600942993627,41.71043989718489 0.7025599869589568,41.71048791267063 0.7026667068147103,41.71054296948932 0.70279965747676,41.71060808534923 0.702934404769378,41.710673804687815 0.7030606180667968,41.71073449442551 0.7031639243244705,41.71078948397262 0.7032604932175133,41.710845211136395 0.7033655062742268,41.71091160083523 0.7034671057328609,41.71097671632173 0.7035781375019781,41.71104940953667 0.7036958168041977,41.711127802773206 0.7038220301016164,41.71121068893129 0.7039491417143193,41.711289685509996 0.7040863144582044,41.71137572326922 0.7042294160829647,41.71146417506222 0.7043785364201285,41.71155651619009 0.7044954072385925,41.7116304828802 0.704592784615391,41.71169311643883 0.7046851314265984,41.71175688994599 0.7047605000789361,41.711818919847566 0.7048011937613067,41.71186002719801 0.7048435044111888,41.71190428630612 0.7049121356988955,41.711982678500114 0.7049765449047668,41.71206549649685 0.705046793159985,41.71215837323264 0.7051255754104023,41.71226150984048 0.7052093882264105,41.71236900510154 0.7052755042313219,41.71246382609962 0.7053221267945676,41.71253081765398 0.7053862665058538,41.71261832903872 0.7054346856996678,41.712680827517964 0.7054477112712876,41.71269960387325 0.7054750200559248,41.71273869890969 0.7054931660246639,41.71277048456503 0.7055253257118355,41.712884885970766 0.7055566769152513,41.712979102684855 0.7055897349177068,41.71308217091783 0.7056270150019976,41.71318778718551 0.7056668103690843,41.713302791368505 0.7057040904533751,41.713414107174735 0.7057438858204618,41.71352790391714 0.7057727217410819,41.7136227902631 0.7058064983957649,41.71373283142601 0.7058429699963001,41.713844682945144 0.7058777347977955,41.71395847892524 0.7059141165668024,41.71406161264478 0.7059504983358091,41.71417467061533 0.70598948521914,41.71429423289096 0.7060283822709423,41.71441687954833 0.7060606317896422,41.714524371204874 0.7060944982758536,41.71463561783915 0.7061283647620649,41.71473553177092 0.7061681601291513,41.714848119162944 0.7062063385287264,41.71495869467643 0.7062478406948527,41.71509971338457 0.7062825156648197,41.715211026078826 0.7063206940643948,41.71533179342847 0.7063570758334017,41.71545121944058 0.706391840634897,41.71556192802733 0.7064154663268695,41.71562636824956 0.7064408886494101,41.71568262766234 0.7064764619346613,41.71573130978432 0.7065333252921459,41.715788910208836 0.7066086041129552,41.715857775840696 0.706700142440407,41.71593549266284 0.7067984181324897,41.71601709857767 0.7069118753528739,41.71610882967132 0.7070532701785943,41.71622570616017 0.7070804891317031,41.716247029558616 0.7071888259549679,41.71633829094184 0.7073099188552674,41.71643820222677 0.7074353236689304,41.71654307538159 0.7075622556185764,41.716648685962376 0.7076852349809725,41.71674859676477 0.7078080346803115,41.716849781439244 0.7079282292653268,41.716950898900436 0.7080494119971544,41.717049468155764 0.7081519097710726,41.717133017215716 0.708254317713462,41.71721898009983 0.7083677749338464,41.717314397425476 0.7084948865465492,41.717420677273566 0.7086228066430079,41.717528767386746 0.708737072347148,41.71762492183836 0.708849810915305,41.71772027150815 0.7089523086892231,41.7178024786345 0.7090607353440163,41.71789420717991 0.709184343527111,41.717997871007135 0.7093299604346669,41.71811742617073 0.7094587788464095,41.71822417405931 0.7095866989428682,41.718328507879576 0.7097120139250028,41.7184264715502 0.7098432577880127,41.718532682506925 0.7099636320360847,41.71863507131229 0.7101142795092316,41.71876347616508 0.7102354622410594,41.718862713160135 0.7103693112183931,41.71896959391449 0.7105006449129315,41.71907962592321 0.7106317989444129,41.719187109781515 0.7107623241551954,41.7192964038511 0.7108985985837963,41.7194095867162 0.7110342441916984,41.71952149540758 0.711173932218379,41.71963662236003 0.7113093981632242,41.71974967052383 0.711473789860218,41.719886320411284 0.7116203050830581,41.720007011924984 0.7117456200651927,41.72010819146929 0.7118744384769354,41.72021312568593 0.7120064908237009,41.72032121110246 0.7121429449153587,41.72043117374661 0.7122732904630844,41.720539325846616 0.7124054326413785,41.72064928811753 0.7125383833034281,41.72076059120012 0.7126697169979664,41.720871223591175 0.7128034761437718,41.72098252628936 0.7129230419080881,41.721084911191504 0.7130152988877672,41.72116141480038 0.71312713914064,41.721253674947235 0.7132431116438199,41.721352304652505 0.7133616892613237,41.72145160469909 0.7134844889606627,41.721552714919724 0.713608186975286,41.72165449547185 0.7137309866746252,41.72175822028237 0.7138528880586803,41.72186382229302 0.7139808081551389,41.72197002756869 0.714106212968802,41.72207623266883 0.7142264973853455,41.722179889750066 0.714344985171321,41.72227912146936 0.7144763188658592,41.72238532605864 0.7146042389623178,41.722492200954214 0.714732069227248,41.72259961205663 0.7148625944380306,41.722708430986636 0.7149964434153644,41.7228203339332 0.7151250821640504,41.72292647058021 0.715253002260509,41.7230346184805 0.7153852342703314,41.72314269915126 0.715512974703733,41.72325010916629 0.715647721996351,41.72335892699467 0.7157781573756051,41.72346700711993 0.7159085927548593,41.723574416592825 0.7160382196503577,41.72368001561868 0.7161711703124075,41.72378869862534 0.7163050192897413,41.72389811896206 0.7164565650781722,41.72402577578606 0.7165913123707901,41.72413827985662 0.7167250715165956,41.7242483030152 0.7168598188092135,41.72435959986388 0.7169952847540588,41.72446888513614 0.7171315591826597,41.724579578188674 0.7172689115896015,41.724695232446265 0.7174077911325264,41.72481028308379 0.7175449638764115,41.72492412669366 0.7176797111690294,41.725037232601004 0.7178100567167551,41.72514852808311 0.7179439056940888,41.725260426780096 0.718060776512553,41.72535140718278 0.7181734252491815,41.72544560562165 0.7182963147800491,41.725550531122295 0.7184216297621837,41.72565297579082 0.718557095707029,41.725764806564484 0.7186910345158912,41.72587670418816 0.7188221885473726,41.72598927206231 0.7189578341552746,41.72610371698292 0.7190924017848358,41.726219301452694 0.7192329881268004,41.726336897039765 0.7193735744687652,41.726452615178154 0.7195209880068892,41.72657403184204 0.7196657964306893,41.72669223017406 0.719859832532059,41.72684958178514 0.7200038324721035,41.72696529900011 0.7201519646624547,41.72708852486663 0.7202968629177832,41.72720551547332 0.7204146320515312,41.72730219179097 0.7205357249518306,41.727406510872086 0.7206669688148405,41.72751652843414 0.7208186044347998,41.727639082815244 0.7209634128585999,41.72775989385271 0.7211074127986442,41.7278799671948 0.7212565331358081,41.72800379468886 0.7214022398748923,41.72812333123663 0.7215495635814878,41.72824662192418 0.7216960788043277,41.72836790111354 0.7218451093099632,41.72849179470906 0.7219848871681722,41.72860998951282 0.7221279887929324,41.728728921557575 0.7222702819339369,41.72884711592506 0.7224194022711008,41.728968528063646 0.7225659174939407,41.72909047630319 0.7227082106349452,41.72920551907013 0.7228479884931543,41.729323712560756 0.7229902816341588,41.72944250920232 0.7231299696608394,41.72955761837966 0.7232672322362529,41.72967259326935 0.7234087168935017,41.729788305399545 0.723550111719222,41.72990401732132 0.723699232056386,41.73002220952682 0.7238118807930144,41.730107484766364 0.7238956936090227,41.73017010031828 0.7239669300110535,41.73021877146531 0.7240304409016407,41.73025416863999 0.7240964670750235,41.73028319699027 0.7241718357273612,41.730306593965125 0.724245497580659,41.73031671700892 0.7243208662329965,41.73031738740911 0.7244175249575678,41.73030538724457 0.7245334974607476,41.73028768867378 0.724685133080707,41.730263621291286 0.7248486264624168,41.73023707341601 0.725013736811638,41.73021052552978 0.7251789369923877,41.73018592179713 0.7253619238157627,41.730158703487895 0.7255499412047289,41.730130881805216 0.7257404738764907,41.730102523788545 0.7259411575109629,41.730073428316345 0.726138517378884,41.730043729468235 0.7263383925296006,41.730015170292084 0.7265256014348112,41.72998607478032 0.7267145171390614,41.729958320063275 0.7269075650936188,41.7299280177981 0.7270989960806646,41.729896374709504 0.7273099205093759,41.729862921512016 0.7274225692460045,41.72984267527982 0.7275647725554806,41.72981639539276 0.7277824343488226,41.729784215924575 0.7278833151552294,41.72978850652125 0.7280638765273374,41.72985829571781 0.7282110205708762,41.72990361507861 0.7283994871174845,41.729937805699485 0.728969198670673,41.73001838822807 0.7304472866391634,41.73030438164409 0.7308897069165923,41.73039166770734 0.7310166388662382,41.730412785285466 0.7312555009002858,41.73043470733542 0.7314844814662077,41.73042967934297 0.7317260384461074,41.73042471839003 0.7329729000604653,41.73041586912169 0.7334358917579007,41.730421969753785 0.7334854787615839,41.73042471839003 0.7335408149830857,41.730432696138486 0.73360279873769,41.7304560930589</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: LV-9225
+lanes: 2
+oneway: no
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.73360279873769,41.7304560930589 0.7336982896523919,41.730377388198185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: LV-9225
+lanes: 2
+oneway: no
+highway: tertiary
+turn:lanes:forward: through
+turn:lanes:backward: through</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7336982896523919,41.730377388198185 0.7338990631183926,41.730223933554505</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: LV-9225
+lanes: 2
+oneway: no
+highway: tertiary
+turn:lanes:forward: through
+turn:lanes:backward: through</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7338990631183926,41.730223933554505 0.734338339292327,41.72986017285173</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: LV-9225
+lanes: 2
+oneway: no
+highway: tertiary
+turn:lanes:forward: through
+turn:lanes:backward: through</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.734338339292327,41.72986017285173 0.734390441578806,41.729816998757634</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: LV-9225
+lanes: 2
+oneway: no
+highway: tertiary
+turn:lanes:forward: through;right
+turn:lanes:backward: through;right</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.734390441578806,41.729816998757634 0.7350671424823332,41.72927859391415</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: LV-9225
+lanes: 2
+oneway: no
+highway: tertiary
+turn:lanes:backward: through;right</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7350671424823332,41.72927859391415 0.7351373009060229,41.729223620186026</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Ponent</name>
+      <description>name: Carrer de Ponent
+oneway: no
+highway: track
+name:ca: Carrer de Ponent
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7351373009060229,41.729223620186026 0.7352258747930371,41.72931097475884 0.7354744386321529,41.72955708205315 0.7357575876097074,41.729704571671476 0.7360543909795805,41.729835568984896 0.7363219092711912,41.729962811769504 0.7365640052402614,41.73003977409013 0.7370153188390032,41.73009307111354 0.7370549345430328,41.73009783097134 0.7381600420055568,41.730348024690535 0.738624381175918,41.7304967192099 0.7390924932704727,41.7306464860199 0.7393219229940369,41.730700788134236 0.7396024668572674,41.73073390569747</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Ponent</name>
+      <description>name: Carrer de Ponent
+oneway: no
+highway: living_street
+name:ca: Carrer de Ponent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7396024668572674,41.73073390569747 0.7402536556067257,41.730892521158395</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Ponent</name>
+      <description>name: Carrer de Ponent
+oneway: no
+highway: living_street
+name:ca: Carrer de Ponent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7402536556067257,41.730892521158395 0.7408477115041139,41.730995627701894</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer dels Bons Aires</name>
+      <description>name: Carrer dels Bons Aires
+highway: residential
+name:ca: Carrer dels Bons Aires</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7408477115041139,41.730995627701894 0.7408885848495413,41.73095821975531 0.7416036438157005,41.730192491732105 0.7418974827451359,41.729876530730735 0.7420321402062255,41.72979869668724 0.7421237683652055,41.72970068331315</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer dels Bons Aires</name>
+      <description>name: Carrer dels Bons Aires
+highway: residential
+name:ca: Carrer dels Bons Aires</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7421237683652055,41.72970068331315 0.742404042733851,41.72934576906443</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de l'Empit del Vall</name>
+      <description>name: Plaça de l'Empit del Vall
+highway: residential
+name:ca: Plaça de l'Empit del Vall</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.742404042733851,41.72934576906443 0.7424300938770905,41.72931606987991 0.742494323419905,41.72923481605887</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de l'Empit del Vall</name>
+      <description>name: Plaça de l'Empit del Vall
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Plaça de l'Empit del Vall
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.742494323419905,41.72923481605887 0.742664823660831,41.72920102731095 0.7429261435769813,41.72906520172831</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

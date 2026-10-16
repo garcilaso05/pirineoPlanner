@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Variant Alcover - Gorg de la Peixera</name>
+    <Placemark>
+      <name>Carrer de les Rodes</name>
+      <description>name: Carrer de les Rodes
+oneway: yes
+source: PNOA
+highway: residential
+name:ca: Carrer de les Rodes
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.1689250379490839,41.2616552008313 1.168825414784075,41.26155850228336 1.1686577891520582,41.26150002390207 1.1675945431817742,41.261573695849606</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de les Rodes</name>
+      <description>name: Carrer de les Rodes
+oneway: yes
+source: PNOA
+highway: residential
+name:ca: Carrer de les Rodes
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.1675945431817742,41.261573695849606 1.1674583585847018,41.261569171543584 1.1672404272967745,41.26156208121262 1.1656116918551374,41.26134390122347 1.165440023804342,41.26132283273652</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Font Fresca</name>
+      <description>name: Camí de la Font Fresca
+oneway: no
+source: PNOA
+highway: residential
+name:ca: Camí de la Font Fresca
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.165440023804342,41.26132283273652 1.1653130918546961,41.261159484204896 1.1651133065355082,41.26097378364168</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Font Fresca</name>
+      <description>name: Camí de la Font Fresca
+highway: unclassified
+name:ca: Camí de la Font Fresca
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.1651133065355082,41.26097378364168 1.1650503346340912,41.26086830548663 1.164854501902153,41.26077660282928 1.1646149212158783,41.26062588065616 1.164488168929289,41.260397298202044 1.1643085058724651,41.26032801426328 1.1640205059923765,41.26027952896806 1.1633846784342767,41.2603868988631 1.1628156855333154,41.26055322055956 1.1627618764477967,41.26056267448005</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Font Fresca</name>
+      <description>name: Camí de la Font Fresca
+layer: 1
+bridge: yes
+highway: unclassified
+name:ca: Camí de la Font Fresca
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.1627618764477967,41.26056267448005 1.1626567735595548,41.26058117714904</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Font Fresca</name>
+      <description>name: Camí de la Font Fresca
+highway: unclassified
+name:ca: Camí de la Font Fresca
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.1626567735595548,41.26058117714904 1.1626077255450418,41.26059292701642</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>access: yes
+highway: service
+service: alley
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.1626077255450418,41.26059292701642 1.161991121934022,41.260814013207266 1.1617818144728222,41.26089889551969 1.1615692730765996,41.26109519810604 1.161493275603563,41.26124071959434 1.16102336687844,41.26152122738586 1.1605995417273927,41.2617793150985 1.160258810740126,41.261983515642896</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+horse: yes
+access: no
+bicycle: yes
+highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.160258810740126,41.261983515642896 1.160115709115366,41.26204942150242 1.15965954461409,41.262302172558066 1.1592378754197241,41.26254472621797 1.158995959113711,41.262678022305614 1.15886929665865,41.262757702714396 1.1587333815561627,41.26287020048195 1.158608964889312,41.26293779358521 1.1584662225906655,41.26296027958708 1.1583602213871396,41.26300883041754 1.1582439793893744,41.263116398401515</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+oneway: no
+bicycle: yes
+highway: track
+service: alley
+surface: concrete
+motor_vehicle: private</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.1582439793893744,41.263116398401515 1.1583327329394453,41.26322491156176 1.1580603637453004,41.263419383980256 1.1576536964161794,41.26362783346074 1.1571533348029248,41.26384418265516 1.1569450154885375,41.264034804338266 1.1568686586893875,41.26418092699454 1.1568182632019481,41.264259997851966 1.1566332102534196,41.26441989490386 1.156505290156961,41.26453110685394 1.1564698965347668,41.26459343137945</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Remei</name>
+      <description>lit: no
+name: Camí del Remei
+oneway: no
+highway: service
+name:ca: Camí del Remei
+service: alley
+surface: asphalt
+maxspeed: 30
+motor_vehicle: permit
+maxspeed:advisory: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.1564698965347668,41.26459343137945 1.1563458391940298,41.26459471433222 1.1562348074249125,41.264603695000915 1.1560978143440843,41.26463070452338 1.1559482448492786,41.26468040201553 1.155863982875628,41.26471531178019 1.155792836305126,41.26474488715616 1.155701477640731,41.264771018812816 1.1555588251736126,41.26479397684879 1.1553938944874484,41.26481652973511 1.1552214179528975,41.26485319503964 1.1550000730668903,41.26490640358492 1.1548872446672052,41.264938477242914 1.154807025112333,41.264969267939776 1.1545059098290962,41.265095131514556 1.154105710370021,41.265253203396504 1.153966561332511,41.265306006477275 1.1538349581433875,41.265346317751884 1.153745306278032,41.265375622749964 1.1536101996593007,41.265410397096986 1.1533908310669185,41.26543652848732 1.153261383834477,41.265450100600646 1.1531366078415128,41.26546272739012 1.1530375236656745,41.265491694721455 1.1528958593453689,41.26555530126404 1.1527479068180742,41.265640717595836 1.1526259156024907,41.26570290601693</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

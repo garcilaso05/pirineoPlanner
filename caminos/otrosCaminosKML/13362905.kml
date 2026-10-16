@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Sainte-Colombe</name>
+      <description>name: Chemin de Sainte-Colombe
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.642688074630049,43.46477468454038 1.642736314160806,43.46444673020251</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Sainte-Colombe</name>
+      <description>name: Chemin de Sainte-Colombe
+layer: 1
+bridge: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.642736314160806,43.46444673020251 1.642731283595215,43.46437970472325</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Sainte-Colombe</name>
+      <description>name: Chemin de Sainte-Colombe
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.642731283595215,43.46437970472325 1.642751136362994,43.464286077567486 1.6428435730057298,43.46396001138971 1.642967001525768,43.4635551157277 1.6431775666283657,43.46272868983712 1.6433398023686776,43.462124201860405 1.6434618834157892,43.4617397023722 1.6434953905758871,43.46153137917604 1.6435124585662853,43.46141140555422 1.6435410249923204,43.46133720435812</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Delmont</name>
+      <description>name: Chemin de Delmont
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6435410249923204,43.46133720435812 1.64358064069635,43.46134691963414 1.6436281615748798,43.461348419307484 1.6436764909371657,43.46134202939473 1.6437421577844347,43.461313274778966 1.6443214813111633,43.460980411394665 1.6450537879307774,43.46055697783197 1.645938538654107,43.46005229644446 1.6465839781857468,43.45968180285297 1.64691922944978,43.45948423142463 1.647605901652961,43.459178613887374 1.647766789920347,43.459111386950646 1.6478460213284063,43.459083218124675 1.6479425003899206,43.459066069041334 1.6480256843852301,43.4590607873835</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6480256843852301,43.4590607873835 1.6476038355278078,43.458329827572065 1.6475442772244706,43.45820763057378 1.647634917236638,43.45810088731611 1.648038260799208,43.45781430323343 1.6489255268053327,43.45711430204437</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

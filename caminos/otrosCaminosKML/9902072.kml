@@ -1,0 +1,364 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Boucle locale de Verdelais</name>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>area: yes
+highway: pedestrian
+surface: sett</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.249800998925161,44.588386269701935 -0.2498016277458599,44.588287683878384 -0.2498019870719735,44.5882157756187 -0.24938507894861361,44.58821449611148 -0.24936378887638,44.588214432136134 -0.24936280072956749,44.58838492622331 -0.249800998925161,44.588386269701935</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>highway: pedestrian
+ref:mhs: PA33000111
+surface: gravel
+heritage: 3
+wikidata: Q2839008
+wikipedia: fr:Allées de Verdelais
+description: Site de pèlerinage de Verdelais : Allées de Verdelais
+source:heritage: data.gouv.fr:Ministère de la Culture - 04/2015
+heritage:operator: mhs
+mhs:inscription_date: 2009-05-15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2498016277458599,44.588287683878384 -0.2498250737747754,44.588287683878384 -0.2503829275662136,44.588290370840106</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2503829275662136,44.588290370840106 -0.25037906481049194,44.5883586324211 -0.25033639483449627,44.58870089874595 -0.25039757010534475,44.588779907601904</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: parking_aisle
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.25039757010534475,44.588779907601904 -0.25111271890303233,44.58879410999215</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>oneway: yes
+highway: service
+service: parking_aisle
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.25111271890303233,44.58879410999215 -0.25127118171915097,44.58879622115797</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Demi-Lune</name>
+      <description>ref: D 120
+name: Rue de la Demi-Lune
+highway: tertiary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.25127118171915097,44.58879622115797 -0.2512386627058658,44.58887746899649</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Demi-Lune</name>
+      <description>ref: D 120
+name: Rue de la Demi-Lune
+highway: tertiary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2512386627058658,44.58887746899649 -0.25110131029892396,44.58908532220192 -0.2506216997687326,44.58951708384083 -0.2503513068682126,44.58991768719295 -0.25025896005700515,44.59005459029251</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Cotes</name>
+      <description>ref: D 120
+name: Route des Cotes
+highway: tertiary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.25025896005700515,44.59005459029251 -0.24986666577243014,44.590163728700695 -0.24970595716810118,44.59026071201453</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Lion d'Or</name>
+      <description>name: Chemin du Lion d'Or
+source: bing
+highway: residential
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24970595716810118,44.59026071201453 -0.2495040158922311,44.59019891395859 -0.24930683568736683,44.5900980281712 -0.24897149459180504,44.58968232826012 -0.24887537485640426,44.5895669834827 -0.2483947761794003,44.58932119534538 -0.24837159964507,44.58931511780149 -0.2480312279839171,44.589224722257825 -0.24776622497510187,44.58921589381078 -0.24731024013688283,44.589273022795815 -0.24690348297623346,44.58936073135224</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Lion d'Or</name>
+      <description>name: Chemin du Lion d'Or
+source: bing
+highway: residential
+surface: asphalt
+maxspeed: 30
+ref:FR:FANTOIR: 335430064</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24690348297623346,44.58936073135224 -0.24663237142348624,44.589492389899654 -0.24651460228973812,44.58970778980522 -0.24639162292734215,44.58977438640686 -0.2462115107128762,44.58982159893702 -0.24586350337180832,44.58991288918127 -0.2453652977152356,44.59005817279919</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Le Luc</name>
+      <description>foot: yes
+name: Le Luc
+horse: yes
+access: yes
+bicycle: yes
+highway: unclassified
+surface: asphalt
+alt_name: Pas de la mule
+maxspeed: 50
+ref:FR:FANTOIR: 33543B037</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2453652977152356,44.59005817279919 -0.24541506438197586,44.58995677497996 -0.2455168435036666,44.589886596070265 -0.24565850782397225,44.58983829604217 -0.2459615095693058,44.589782383111825 -0.24599681335997164,44.58977048401444 -0.24603957316749575,44.58973862512882 -0.24607056504479788,44.58966946953587 -0.24610308405808298,44.58958867062139 -0.24611673845040158,44.589541521875915 -0.2461267995815837,44.58946308982112 -0.24618159681391505,44.58931607741372</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Le Luc</name>
+      <description>foot: yes
+name: Le Luc
+horse: yes
+access: no
+bicycle: yes
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24618159681391505,44.58931607741372 -0.24619489188011998,44.58927967611181 -0.24623711269847362,44.589132407343094</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Le Luc</name>
+      <description>foot: yes
+name: Le Luc
+horse: yes
+layer: 1
+access: yes
+bridge: yes
+bicycle: yes
+highway: unclassified
+name:oc: Lo Luc
+surface: asphalt
+alt_name: Pas de la mule
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24623711269847362,44.589132407343094 -0.24620513267435898,44.58908289117457</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Le Luc</name>
+      <description>foot: yes
+name: Le Luc
+horse: yes
+access: yes
+bicycle: yes
+highway: unclassified
+name:oc: Lo Luc
+surface: asphalt
+alt_name: Pas de la mule
+maxspeed: 50
+sidewalk: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24620513267435898,44.58908289117457 -0.24620073092946676,44.58906011628186 -0.2461483591484026,44.58880479376992 -0.24611143839022528,44.588640314554496 -0.24588811721059317,44.58840898088354 -0.2458388895330234,44.588367716899114</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Bachon</name>
+      <description>name: Chemin de Bachon
+highway: residential
+surface: asphalt
+alt_name: Bachon
+maxspeed: 50
+lane_markings: no
+ref:FR:FANTOIR: 335430006</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2458388895330234,44.588367716899114 -0.24603858502068318,44.5882748248456 -0.24620486317977375,44.58818692272437 -0.24640339085756416,44.5880571165104 -0.24651648875183482,44.58792481495507 -0.24651181751235735,44.587897689260494</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 19E6
+highway: tertiary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24651181751235735,44.587897689260494 -0.24638820932926253,44.58790031226454 -0.24545593772740326,44.587833713515614</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Quinsac</name>
+      <description>name: Chemin de Quinsac
+highway: unclassified
+maxspeed: 50
+source:name: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020
+ref:FR:FANTOIR: 33543B053</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24545593772740326,44.587833713515614 -0.24547201757098902,44.58779072177549 -0.24560451907539665,44.587660210941046 -0.24575669368452646,44.58754518203126 -0.24584859133809192,44.587501678268566 -0.24595153826965202,44.587482613374064 -0.24604972413020632,44.587467387044434 -0.24613290812551578,44.587438021968886 -0.24618896299924484,44.5873734699315 -0.24619426305942113,44.58731781053546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Quinsac</name>
+      <description>name: Chemin de Quinsac
+highway: unclassified
+maxspeed: 80
+source:name: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24619426305942113,44.58731781053546 -0.2461527608932948,44.5871219786046 -0.24610191624821362,44.5870231987067 -0.24569246414171195,44.58642507772131 -0.2455395708803548,44.586220605813494 -0.24539080986930462,44.58609009145373 -0.24521276377999213,44.585969429387866 -0.24488658550032832,44.5857586220493 -0.24459238724477922,44.58555587521098 -0.24444721949486548,44.585488186143806 -0.2443764322504769,44.585458820068396 -0.2442355764139269,44.585415570658 -0.24401225523429482,44.58535543089185 -0.24329198603948776,44.585224274803046 -0.24261654277735828,44.58514730843364 -0.2424905091429963,44.58517782628308 -0.24240202508751055,44.585233231813646 -0.24226521166973916,44.58539938411004 -0.2422087974698965,44.585451014703814 -0.24215247310158217,44.58548729044673 -0.24210423357082492,44.58550827534588 -0.24199688489437265,44.58549298452073 -0.24191648567644397,44.58547199961606 -0.24182970841999804,44.58546931252406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Quinsac</name>
+      <description>name: Chemin de Quinsac
+highway: unclassified
+maxspeed: 80
+source:name: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24182970841999804,44.58546931252406 -0.24175236347403534,44.58547660605919 -0.24120753525421681,44.586016325119786</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 19E7
+highway: tertiary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24120753525421681,44.586016325119786 -0.240971188502965,44.585561313365126</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Malagar</name>
+      <description>ref: D 19E7
+name: Route de Malagar
+highway: tertiary
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.240971188502965,44.585561313365126 -0.24079080679391376,44.58528940503437 -0.24051574265391637,44.58469932759254 -0.24036886810496286,44.584473608431516 -0.24019369662455956,44.58432959044758 -0.2400251726772587,44.58422261639651</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Calèze</name>
+      <description>hgv: no
+name: Rue Calèze
+highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2400251726772587,44.58422261639651 -0.24073115865904823,44.58345319077734 -0.2414067815842345,44.582725470863735 -0.2418516273129305,44.582256997149564 -0.24194406395566642,44.58224381687302 -0.2426955945223608,44.58260800089068 -0.2427827311049204,44.58258797466789 -0.24318697298277422,44.582096018421666 -0.24330483194805066,44.58206677859694 -0.24390355908491632,44.58218751274537 -0.24401944175656776,44.5822203994811</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Cussol</name>
+      <description>name: Rue de Cussol
+highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24401944175656776,44.5822203994811 -0.2440963375448884,44.58229481045065 -0.24468266793083318,44.582614207098906 -0.24500624109617308,44.582761620344726 -0.24540132015812885,44.582927011931226 -0.24584661504446687,44.58306169215989 -0.24627097918468488,44.58321019194583 -0.24634877328828966,44.58323687196196 -0.24779685752629033,44.58425799718998</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Cussol</name>
+      <description>name: Rue de Cussol
+highway: service
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24779685752629033,44.58425799718998 -0.2478281188981777,44.58429369786029 -0.24785991925923553,44.58439632117041 -0.24786243454203108,44.58454628907336 -0.24785021745416708,44.58473477207506 -0.24786602780316755,44.58479747164825 -0.24790860794763483,44.58484577586514 -0.24799457672032504,44.584882115964774 -0.24842900199172524,44.58512011746416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Cussol</name>
+      <description>name: Rue de Cussol
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24842900199172524,44.58512011746416 -0.24850967070423918,44.585172324114346 -0.2485790206441732,44.58524909851476 -0.2486314822567658,44.58532843195532 -0.24885821703447758,44.58594403018303 -0.24911423689045162,44.58662737368827 -0.24920523622873295,44.58730930168056 -0.24922158556690388,44.58743220013297 -0.24933800722772578,44.5876428734503</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Cussol</name>
+      <description>name: Rue de Cussol
+highway: steps
+incline: down
+surface: paving_stones
+step_count: 30
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24933800722772578,44.5876428734503 -0.2493787009100964,44.58812448270888 -0.24938480945402844,44.58819658300766</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24938480945402844,44.58819658300766 -0.24938507894861361,44.58821449611148</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Malagar</name>
+      <description>ref: D 19E7
+name: Route de Malagar
+highway: tertiary
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2400251726772587,44.58422261639651 -0.2395220262866234,44.58391429714207 -0.23909909945085986,44.583602073445874</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Malagar</name>
+      <description>ref: D 19
+name: Route de Malagar
+highway: tertiary
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.23909909945085986,44.583602073445874 -0.23892069403543376,44.58328728884151 -0.23881604030483383,44.58310487934054</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.23881604030483383,44.58310487934054 -0.23869144397492645,44.58310986985713 -0.23855157628518905,44.58308159025748 -0.23841637983492903,44.583044225335485 -0.2382767816397769,44.58297461390993 -0.23813448849877236,44.58289962797957 -0.23801860582712092,44.582804231916455 -0.23771057351619637,44.58250780572609 -0.23761903518874455,44.582442224506345 -0.2365301872328633,44.58174981027533 -0.23585097104654051,44.58135087816936 -0.23531997688209752,44.581109278180556 -0.23503853470358282,44.58097190612904 -0.23479598957687056,44.580835173587765 -0.23423121875774464,44.58039349393056 -0.23405703542415385,44.58028721646168 -0.23386380780653973,44.58020109381881 -0.23346136255925418,44.58010306997199 -0.2326155987192557,44.579904398417845 -0.23177091285759807,44.57969120165035 -0.2316208043736217,44.57966112881411 -0.23150878445769196,44.57966727135214 -0.23143108018561567,44.57968550700808 -0.23138077452970499,44.57970937331407</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Route de Belberaud</name>
+      <description>ref: D 94
+name: Route de Belberaud
+width: 7.5
+highway: tertiary
+surface: asphalt
+source:width: ARCore
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5352766059394058,43.49581907578448 1.5353841342789152,43.49586977491157</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Deyme</name>
+      <description>ref: D 94
+name: Pont de Deyme
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+width: 3.9
+bridge: yes
+oneway: no
+source: data.gouv.fr:Ministère de la Culture - 08/2011
+highway: tertiary
+ref:mhs: PA31000024
+surface: asphalt
+heritage: 3
+wikidata: Q22976691
+maxweight: 7.5
+source:width: ARCore
+cycleway:both: no
+lane_markings: no
+maxweightrating: 7.5
+source:heritage: data.gouv.fr:Ministère de la Culture - 04/2015
+heritage:operator: mhs
+mhs:inscription_date: 1998-04-24</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5353841342789152,43.49586977491157 1.535663689995333,43.495984401701364</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Belberaud</name>
+      <description>ref: D 94
+name: Route de Belberaud
+width: 5.2
+highway: tertiary
+surface: asphalt
+source:width: ARCore
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.535663689995333,43.495984401701364 1.5357333094298522,43.496018678914034</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

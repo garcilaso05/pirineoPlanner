@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Route d'Espanès</name>
+      <description>ref: D 35c
+name: Route d'Espanès
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.470560715230038,43.46409817081873 1.4705592779255834,43.46417367262906 1.4705385268425202,43.46428418676688 1.4702663373114317,43.46503456915965 1.470050472148658,43.46559808332592 1.4698276899581963,43.46611308491005 1.4696597948315944,43.46648067039358 1.4694873182970434,43.46679570463048 1.4693584100537724,43.467062100263995 1.4692563614374963,43.46731519458741 1.4690786746742974,43.46778578291577 1.4690481319546376,43.467917479187236</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4690481319546376,43.467917479187236 1.468848077140864,43.46835468267255 1.4687279723873772,43.46858149784862 1.4686662581273582,43.4686657302296 1.4685684315929177,43.468757068770145</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: fine_gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4685684315929177,43.468757068770145 1.46857112653877,43.468788297261625 1.4685670841199916,43.4688808091281</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Boulanger</name>
+      <description>name: Chemin du Boulanger
+bicycle: yes
+highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4685670841199916,43.4688808091281 1.468447698018732,43.468996073891184 1.4678442098108606,43.469614118758514 1.4677158405567599,43.46973577114939 1.4675800152858012,43.46984190711891 1.4666439707597483,43.470511511263446 1.4658862418175935,43.47113729855811 1.4652130443436744,43.471648276231626 1.4648482385067936,43.47188772626263 1.4647355897701648,43.4719402708471 1.4646591431394862,43.47197338825405 1.4646268936207862,43.47203369057244 1.4646591431394862,43.4720707194257 1.4646630957267361,43.47210468425178 1.4646349784583435,43.47213389007547 1.464557184354739,43.47223611034719</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Gaillardous</name>
+      <description>name: Chemin des Gaillardous
+bicycle: yes
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.464557184354739,43.47223611034719 1.4590593151528704,43.474320831599606 1.4589801735763395,43.47434416932723 1.4588916895208537,43.47435388251289 1.4588105716506976,43.47433047959983 1.458673668401398,43.474292474292746</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,173 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue des Pins</name>
+      <description>ref: M 2a
+name: Rue des Pins
+lanes: 2
+highway: tertiary
+old_ref: D 2a
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+cycleway:both: shared_lane
+cycleway:both:lane: pictogram</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3713971283205386,43.67004237516934 1.3716146104508238,43.67004458441059 1.37176076634755,43.670050432401744 1.3719184206799133,43.670063492913265 1.3720618816307872,43.67008097190185 1.3722596906563502,43.67011638470698 1.3724421384905547,43.67015387677331 1.3725124765773014,43.67016830179086</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Pins</name>
+      <description>ref: M 2a
+name: Rue des Pins
+lanes: 2
+highway: tertiary
+old_ref: D 2a
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+parking:lane:left: parallel
+parking:lane:left:parallel: painted_area_only</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3725124765773014,43.67016830179086 1.3726619562405786,43.670190069265736 1.3727297790445296,43.67019858132093</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Pins</name>
+      <description>ref: M 2a
+name: Rue des Pins
+lanes: 2
+highway: tertiary
+old_ref: D 2a
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+parking:lane:left: parallel
+parking:lane:left:parallel: painted_area_only</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3727297790445296,43.67019858132093 1.3729790615358728,43.670206508577344</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Pins</name>
+      <description>ref: M 2a
+name: Rue des Pins
+lanes: 2
+highway: tertiary
+old_ref: D 2a
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3729790615358728,43.670206508577344 1.3730726659884782,43.67020598875729 1.3731658212834414,43.67020748323995</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Pins</name>
+      <description>ref: M 2a
+name: Rue des Pins
+lanes: 2
+highway: tertiary
+old_ref: D 2a
+surface: asphalt
+maxspeed: 50
+sidewalk: right
+traffic_calming: island</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3731658212834414,43.67020748323995 1.3732475679742964,43.67020871781256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Pins</name>
+      <description>ref: M 2a
+name: Rue des Pins
+highway: tertiary
+old_ref: D 2a
+surface: asphalt
+maxspeed: 50
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3732475679742964,43.67020871781256 1.3737320294070219,43.67021209664272 1.3738153930653882,43.67021151184521 1.373902529647948,43.670210927047684</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Pins</name>
+      <description>ref: M 2a
+name: Rue des Pins
+highway: tertiary
+old_ref: D 2a
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+traffic_calming: island</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.373902529647948,43.670210927047684 1.373987420442297,43.67020917265509</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Pins</name>
+      <description>ref: M 2a
+name: Rue des Pins
+bus_bay: right
+highway: tertiary
+old_ref: D 2a
+surface: asphalt
+maxspeed: 50
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.373987420442297,43.67020917265509 1.3741069862066135,43.67020319472439</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Pins</name>
+      <description>ref: M 2a
+name: Rue des Pins
+highway: tertiary
+old_ref: D 2a
+surface: asphalt
+maxspeed: 50
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3741069862066135,43.67020319472439 1.3742391283849076,43.67019539742256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Beau Soleil</name>
+      <description>name: Rue Beau Soleil
+note: ajout du alt_name pour cohérence FANTOIR
+oneway: yes
+highway: residential
+surface: asphalt
+alt_name: Rue de Beausoleil
+maxspeed: 50
+source:maxspeed: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3742391283849076,43.67019539742256 1.3742348164715437,43.67013932179714 1.3742392182164358,43.67011618977416 1.3745503946308548,43.6684722988298 1.3746358244143746,43.668226806211955</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Beau Soleil</name>
+      <description>name: Rue Beau Soleil
+note: ajout du alt_name pour cohérence FANTOIR
+highway: residential
+surface: asphalt
+maxspeed: 50
+source:maxspeed: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3746358244143746,43.668226806211955 1.3748121637046473,43.667572002701476 1.374855642164399,43.66713117432427</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,421 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Boucle des moulins</name>
+    <Placemark>
+      <name>Chemin de la Mélina</name>
+      <description>name: Chemin de la Mélina
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3307691127971935,44.84432119297649 1.330670028621355,44.84445029821892 1.3306361621351437,44.844522207229495 1.330628616286757,44.844594625690604 1.330633377357763,44.84466360466784 1.3306632912567242,44.844774811598526 1.3308295694158145,44.845084419224854 1.33092883325471,44.845236197052245 1.3309524589466823,44.84527008109507 1.3310043815701043,44.84534549212637 1.331449406961857,44.84587317550789 1.3318263400550738,44.84627481033744 1.3324226417406722,44.846820827951035 1.3325408600320623,44.84692687183079 1.3326447052789063,44.84701081513591 1.332697795712198,44.84704839214484 1.3327533115967567,44.84708781613295 1.332837843064992,44.847140806006614 1.3328981200205565,44.847178510310115 1.3329849871085309,44.847229780480504 1.3330888323553751,44.84728461722096 1.333491996254888,44.84748657647337 1.333586588854306,44.847534407148146 1.3338106286861653,44.84764739183337 1.3339555269414938,44.84770560369854 1.3341438138250452,44.84777750864555 1.3343972285666954,44.84786992133756 1.3345902765212525,44.847931508486916 1.3347713768825311,44.84797952985862 1.3348799832003813,44.84800506905989 1.3349717910224181,44.84802048173947 1.335013832177715,44.84802869758764 1.3350574903005232,44.848036594990965</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Port</name>
+      <description>name: Route du Port
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3350574903005232,44.848036594990965 1.3350939619010584,44.84798131314486 1.3351521727314692,44.84790412227558 1.3353391121420946,44.84768152921439 1.335563421468539,44.84742530729533 1.3358225854280077,44.84714959518767 1.3358624706266227,44.84709488569824 1.3359123271248912,44.84700998716764 1.3359261611802666,44.84698381062621 1.3359572428890971,44.84692521589182 1.33598706695653,44.84686158958557 1.3360144655726958,44.84678739065117 1.3361237007112443,44.846385695704946</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Port</name>
+      <description>name: Route du Port
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3361237007112443,44.846385695704946 1.3361466077509896,44.84630149672626 1.336248027546567,44.84596469958077</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Port</name>
+      <description>name: Route du Port
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.336248027546567,44.84596469958077 1.3362588073299762,44.845928714141486 1.336341003178473,44.84556471856716 1.336368401794639,44.84546217521671 1.3363932851280087,44.84537912133822 1.3364070293518557,44.845332626399966 1.3364205939126461,44.84528613142419</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Mioudre</name>
+      <description>ref: D 50
+name: Route de Mioudre
+highway: secondary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3364205939126461,44.84528613142419 1.336477726764716,44.84529167260821</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Mondane</name>
+      <description>name: Route de Mondane
+source: Garmin-Track
+highway: unclassified
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.336477726764716,44.84529167260821 1.336503238918785,44.8452542218369 1.3365264154531153,44.84522091101136 1.336568815934526,44.845175116556284 1.3366350217709653,44.84513479957195 1.3367022157542177,44.84508429184086 1.3367940235762548,44.84503002623427 1.3369011027581215,44.84496308584399 1.3369949767053122,44.844913597037326 1.3371740109414372,44.844839077132406 1.337253781338667,44.84480372791303 1.3373340907250673,44.84476977990355 1.337399218583166,44.84473589556645 1.3374568904244062,44.8446851964083 1.337511328330624,44.84462487963816 1.3376589215318049,44.844406668704636</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Fontaine</name>
+      <description>name: Route de la Fontaine
+source: Garmin-Track
+highway: unclassified
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3376589215318049,44.844406668704636 1.3377315054067618,44.84429278596275 1.337771929594547,44.84423858330351 1.3378032807979627,44.84418081378562 1.3378339133491512,44.844127630109895</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Fontaine</name>
+      <description>name: Route de la Fontaine
+source: Garmin-Track
+highway: unclassified
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3378339133491512,44.844127630109895 1.337849993192737,44.84407992399253 1.3379123362734548,44.843758081824014 1.3379226668992223,44.84370477037098 1.337978721772951,44.843556109499424 1.3380345071520952,44.84343579200073</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Fontaine</name>
+      <description>name: Route de la Fontaine
+source: Garmin-Track
+highway: unclassified
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3380345071520952,44.84343579200073 1.3380796924108866,44.84333853145682 1.3381111334458307,44.84325037899488 1.3381183199681035,44.843211525627076 1.3381169724951774,44.84318107985496 1.338105294396484,44.843144774206095 1.338088316237614,44.8431010163147 1.338068463469835,44.843059997242214 1.3380357647934928,44.84301057049496 1.338000461002827,44.8429694239694 1.3379505146730302,44.842914774204274 1.3378926631687327,44.842854901441704 1.3378095690049516,44.84275891380847</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Carrière</name>
+      <description>name: Route de la Carrière
+source: Garmin-Track
+highway: unclassified
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3378095690049516,44.84275891380847 1.3377183001720852,44.84266158842714 1.3376714979457824,44.84261732061095 1.3376122091370306,44.842574390350954 1.3375449253222502,44.8425468105083 1.337474677067032,44.842517893060936 1.3374172747203765,44.842500695453204 1.3373401992689993,44.842485217601855 1.3372327607610186,44.8424671919508 1.336670235730103,44.84238502548409</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Carrière</name>
+      <description>name: Route de la Carrière
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.336670235730103,44.84238502548409 1.336624691145198,44.84231527943784</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Carrière</name>
+      <description>name: Route de la Carrière
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.336624691145198,44.84231527943784 1.3366108570898225,44.84227617065898 1.3366049282089474,44.84224527852662 1.3366049282089474,44.84219107394093 1.3366061858503453,44.84215648743951 1.3366173249598683,44.842126295890914 1.3366468795327158,44.84207088098206 1.3366838901224216,44.84202132599543 1.3367698588951118,44.841939477370204</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Carrière</name>
+      <description>name: Route de la Carrière
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3367698588951118,44.841939477370204 1.3368179187628122,44.84190973157642 1.336891131458468,44.84185890253994 1.3369582356101917,44.84179622607233 1.3369887783298515,44.8417569258541 1.33701150570654,44.84172227539632 1.337046360339564,44.84167501315746</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Carrière</name>
+      <description>name: Route de la Carrière
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.337046360339564,44.84167501315746 1.3371111288715487,44.841598896667016 1.3371871263445854,44.84151813027263 1.3372715679812925,44.84143577136429 1.3373577164170396,44.84138252145832 1.3373969727949557,44.84135309385759 1.3374191611824735,44.8413120735406 1.337419700171644,44.841268887523135 1.3374081119044785,44.84119722923688 1.3374102678611604,44.84113168571302 1.337415657752865,44.841082575793514 1.3374301206289398,44.841027223577235 1.3374565310982929,44.84097900532019 1.3374999197265156,44.8409237803976 1.337569090003393,44.840861612486</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Carrière</name>
+      <description>name: Route de la Carrière
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.337569090003393,44.840861612486 1.3376360144920598,44.84080148280278 1.337682277729192,44.84077180011822 1.3377257561889435,44.840751226059645</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Carrière</name>
+      <description>name: Route de la Carrière
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3377257561889435,44.840751226059645 1.3377654617245014,44.840731671142684 1.3379103599798299,44.84064001136198 1.3381076300162225,44.84047032254362 1.3381437422906441,44.84043962053435 1.338177069787685,44.84041031984635 1.3383172069720077,44.840308022110115</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3383172069720077,44.840308022110115 1.338271213229461,44.84032547516139</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.338271213229461,44.84032547516139 1.3382395925314596,44.84033751394187 1.3381202962617287,44.840383184848086 1.337983842170071,44.84042299558059 1.3378578983672373,44.84045802900244 1.3377747143719276,44.84048197911131 1.3376591011948618,44.84051108867172</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3376591011948618,44.84051108867172 1.337570437476319,44.840533510029864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.337570437476319,44.840533510029864 1.3374976739383053,44.840554084166186 1.3373651724338977,44.84059899053727 1.3369584152732485,44.8407995719008</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3369584152732485,44.8407995719008 1.3368672362719103,44.84083772623165</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3368672362719103,44.84083772623165 1.3367947422284818,44.84086588016241 1.3367199125653149,44.84089078555124 1.3366263979442379,44.84091231500911</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3366263979442379,44.84091231500911 1.336559473455571,44.84092339821802 1.33651653398499,44.840923907790796</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.33651653398499,44.840923907790796 1.3364991965000066,44.840922124286074 1.3364697317586873,44.84091900315268</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3364697317586873,44.84091900315268 1.3364111616021628,44.84090900278535 1.3363551067284338,44.84089237796704 1.3359549971008868,44.840718231114465</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3359549971008868,44.840718231114465 1.335936491806034,44.84071007792046 1.3358945404822657,44.8406917969266</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3358945404822657,44.8406917969266 1.3357237707467544,44.840601984294096 1.335627022190655,44.84054452961463 1.3355497670762206,44.84049191585568 1.335473589940127,44.84042821874666 1.3353902262817607,44.84034700483051 1.3353719006499651,44.84032420121623</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3353719006499651,44.84032420121623 1.3353359680386003,44.84027948572289 1.3352979693020819,44.840221202655975 1.3352581739349956,44.84015189987236 1.3352340092538526,44.84010043230999 1.3352164022742838,44.84005017495535 1.3351533405413387,44.8397583756841 1.3351354640671849,44.83969748047407</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3351354640671849,44.83969748047407 1.3350855177373877,44.83952619642628 1.3350479681585112,44.83942338753425 1.335006016834743,44.839340516044736</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.335006016834743,44.839340516044736 1.3349628977011054,44.8392828053137</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3349628977011054,44.8392828053137 1.3348189875925893,44.839090180998255 1.334673191021977,44.83889500808534</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.334673191021977,44.83889500808534 1.3346504636452885,44.83886468742987 1.3346014156307757,44.83882321944878 1.334531257207086,44.8387867836558 1.3344845448123117,44.838761877357484 1.3344167220083607,44.8387420032703 1.3343605773031033,44.83872709770039 1.3335165202621444,44.8386142866169 1.333453368697671,44.83860772560411 1.3334065664713686,44.83861097426102 1.3333738677950262,44.83861759897258 1.333280263342421,44.83864581768732 1.3332242084686918,44.838662379454775 1.3330048398763101,44.838750284140794</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3330048398763101,44.838750284140794 1.3329015336186363,44.83879168847543 1.332852395772595,44.838813282416616 1.3326980652067832,44.8388613750884 1.3326466815725313,44.83888621764485 1.3325976335580187,44.838912780058756 1.332550831331716,44.838945903435416 1.332506364725152,44.83898240282652 1.3324665693580657,44.839030495357136 1.332447884400156,44.83907858784762 1.332416712859797,44.839144324802774 1.3323460154469366,44.839336821540506</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3323460154469366,44.839336821540506 1.3323129574444812,44.83942657244691</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Croix</name>
+      <description>name: Route de la Croix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3323129574444812,44.83942657244691 1.3322349836778196,44.83963900572437 1.3322095613552791,44.839718882982005 1.332197973088114,44.8397486299069 1.3321841390327385,44.83977557411042 1.332169855819721,44.839795320445425 1.3321441640025948,44.83982449405056 1.332114878924333,44.83985029165852 1.3321028414995257,44.83986080179179 1.332076790356286,44.83987768169876</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Cimes</name>
+      <description>name: Route des Cimes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.332076790356286,44.83987768169876 1.332042564543961,44.83985952783634 1.3320071709217667,44.839850801240786 1.3319717772995727,44.83984532323121 1.331865686264518,44.839830099457714 1.3318026245315728,44.83981812426904 1.3317303101512015,44.83980391965372 1.3316871910175634,44.839794110186375 1.331562594687656,44.8397592037566 1.3315010600906938,44.839747228553186 1.3314317999822882,44.83973410678489 1.3313948792241113,44.8397274822017 1.3313471786825244,44.839722131576266 1.331305676516398,44.8397209850136 1.3312657014862548,44.8397209850136 1.3312056940252754,44.83972429730566 1.3311197252525853,44.83974417105404 1.3306823355407476,44.83985621555205</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Cimes</name>
+      <description>name: Route des Cimes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3306823355407476,44.83985621555205 1.3303627149626576,44.83993813083454 1.3298957706779724,44.84004507915016 1.3297694675490253,44.840074125233755 1.3297063159845517,44.840095209114224</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Cimes</name>
+      <description>name: Route des Cimes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3297063159845517,44.840095209114224 1.3296105555752644,44.8401413897922 1.3288687268136383,44.840577397265335 1.328772876572823,44.84063810045463 1.3286073170659598,44.84074912406564 1.3285447943221849,44.84080422176217 1.3284855953449615,44.840869128692</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Cimes</name>
+      <description>name: Route des Cimes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3284855953449615,44.840869128692 1.3284564000982277,44.8409156909293 1.328406723263016,44.84100900638051 1.3283652210968895,44.841114678780656 1.32833916995365,44.84123582917815 1.32833916995365,44.841364877638924 1.328353992155838,44.84149137797193 1.3283800432990773,44.84161520280231 1.3283972011210041,44.84169800732434</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse de Larue</name>
+      <description>name: Impasse de Larue
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3283972011210041,44.84169800732434 1.328398638425459,44.8417046953767 1.328403219833408,44.841721511047766 1.3284191200139366,44.841756097810304 1.3284239709164711,44.841781894553385</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3284239709164711,44.841781894553385 1.3284723002787564,44.84178877368293 1.3286277986544377,44.84180412433014 1.328772696909766,44.84182692735869 1.32887995575469,44.84184590864373 1.3289389750688567,44.8418762914259 1.3289819145394375,44.84192202480783 1.3291053430594755,44.842237698805015 1.3293036910742093,44.84269407270228 1.3294061888481272,44.84286432822121</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3294061888481272,44.84286432822121 1.3294270297627189,44.842857003358894 1.3294467926989693,44.84285248105212 1.3294749997988908,44.84285101607943 1.3298437582230218,44.842856111636465</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Moulins</name>
+      <description>name: Route des Moulins
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3298437582230218,44.842856111636465 1.3298616346971757,44.843058532274796 1.3298723246490567,44.84314171688726 1.329884541736921,44.84319350020326 1.329896579161728,44.843231270784486 1.329905741977626,44.843252926755795</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Moulins</name>
+      <description>name: Route des Moulins
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.329905741977626,44.843252926755795 1.3299193065384163,44.843285092227575 1.3299487712797353,44.843352098261605 1.330010844865868,44.84347757513093 1.3300757032293815,44.84362196873321 1.3301317581031107,44.84372457905284 1.3301387649623266,44.84374387818006 1.3301417294027644,44.84376273144661 1.3301437955279176,44.843796680049536 1.3301483769358666,44.84391999037893 1.3301272665266899,44.84397272839377</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Pintoune</name>
+      <description>ref: D 50
+name: Route de la Pintoune
+highway: secondary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3301272665266899,44.84397272839377 1.3301798179708109,44.84399998908783 1.3302748597278706,44.84405151685982 1.3303861609915733,44.84412610147657 1.3304397005825068,44.84416221542796 1.3305052775982475,44.84420017645298 1.3305777716416758,44.84423807376005 1.3306519724841441,44.84427240424022 1.3307691127971935,44.84432119297649</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

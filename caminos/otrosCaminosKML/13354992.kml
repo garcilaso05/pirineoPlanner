@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: yes
+highway: track
+surface: grass
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4898199661008615,43.458859692808915 1.4891499127304368,43.4583891002 1.4874947668194467,43.457349701578664</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: yes
+highway: track
+surface: grass
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4874947668194467,43.457349701578664 1.4890573862561725,43.45610370382551</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4890573862561725,43.45610370382551 1.4892072252455637,43.45593618207332 1.489231928915877,43.45581300210036</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.489231928915877,43.45581300210036 1.489194199673944,43.45573859840595</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: strava heatmap
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.489194199673944,43.45573859840595 1.4889785141742267,43.45565428280284 1.488839634631302,43.4555039751136 1.488635806893335,43.45515001696222 1.488516241129019,43.455119629154055 1.4882199767483164,43.455186012801065 1.4878740355324018,43.45506870019668</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: yes
+highway: track
+surface: compacted
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4878740355324018,43.45506870019668 1.4877270711519197,43.45491669558873 1.4872797101404283,43.454378187987174 1.4868044115236008,43.453838501787104 1.4860610556259917,43.45295638227929 1.486044975782406,43.45292423263749</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 74c
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.486044975782406,43.45292423263749 1.4857655997290449,43.453021529269805 1.4856152217504832,43.45308152443423 1.4853489611002704,43.453180777173394</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 68
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4853489611002704,43.453180777173394 1.4852364021951703,43.453232881535655 1.48505934425267,43.45333852478568 1.4849794840239119,43.45339062901202</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Mas du Pont</name>
+      <description>name: Chemin du Mas du Pont
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.9932679967564177,44.031224120336304 3.9934338257578657,44.03151901643481 3.993428076540048,44.03155783204064 3.993316685444817,44.03168622690842 3.9933545045182783,44.03173770103032</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.9933545045182783,44.03173770103032 3.9934519717266053,44.03185711823757 3.993840942244629,44.03211061259334 3.994009286528873,44.03220929749137 3.9941820325580095,44.03229338619497 3.994383704339294,44.03235099528402</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.994383704339294,44.03235099528402 3.994452515290057,44.03237747477927</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

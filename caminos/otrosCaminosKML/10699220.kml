@@ -1,0 +1,2084 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>La Via Augusta a la Selva</name>
+    <Placemark>
+      <name>Avinguda d'Agustí Simón</name>
+      <description>name: Avinguda d'Agustí Simón
+oneway: no
+highway: residential
+name:ca: Avinguda d'Agustí Simón</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.568991269741598,41.72737667670488 2.569117932196659,41.72731211417873 2.56929148670955,41.727223416023 2.5695705034367986,41.72711319682893</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda d'Agustí Simón</name>
+      <description>name: Avinguda d'Agustí Simón
+oneway: no
+highway: residential
+name:ca: Avinguda d'Agustí Simón
+surface: asphalt
+sidewalk: right</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5695705034367986,41.72711319682893 2.5696588078292275,41.72712908610397 2.570479329009742,41.72733946778028</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda d'Agustí Simón</name>
+      <description>name: Avinguda d'Agustí Simón
+oneway: no
+highway: residential
+name:ca: Avinguda d'Agustí Simón
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.570479329009742,41.72733946778028 2.5705523620423407,41.727358172809936</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-5523
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxheight: 3
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5705523620423407,41.727358172809936 2.5707039976623003,41.72730118614349 2.570832816074043,41.72719592828548 2.570981397422037,41.72695209142586 2.5709960399611673,41.72692822392438</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-5523
+lanes: 2
+oneway: no
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5709960399611673,41.72692822392438 2.5710543406231072,41.72680969080814 2.5710616169769085,41.72679487415323 2.571127463487234,41.7266609207108</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-5523
+lanes: 2
+oneway: no
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.571127463487234,41.7266609207108 2.5712465800939084,41.72641862383467 2.5712994908641433,41.726341388999195 2.5713214097570756,41.72632288480607</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-5523
+lanes: 2
+layer: 1
+bridge: yes
+oneway: no
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5713214097570756,41.72632288480607 2.571389502055612,41.72626549495583</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-5523
+lanes: 2
+oneway: no
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.571389502055612,41.72626549495583 2.5714236380364084,41.72623673296721</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GR 83</name>
+      <description>name: GR 83
+highway: track
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5714236380364084,41.72623673296721 2.5709000998888234,41.726005697971466 2.5704591169158495,41.72574838059374 2.570708219744136,41.72514557808486</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GR 83</name>
+      <description>name: GR 83
+highway: service
+surface: dirt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.570708219744136,41.72514557808486 2.57070687227121,41.72499968709367 2.570545984003824,41.72493827332367 2.5703099067471573,41.72484809688471</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GR 83</name>
+      <description>name: GR 83
+highway: track
+surface: dirt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5703099067471573,41.72484809688471 2.5698623660726088,41.7246177273552</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GR 83</name>
+      <description>name: GR 83
+highway: track
+surface: dirt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5698623660726088,41.7246177273552 2.569817719802988,41.72441699141653 2.56977972106647,41.724246425717304 2.5697906805129356,41.72398843082755 2.5697999331603625,41.72380137047534 2.569865510176103,41.72361618689492 2.56994546023639,41.72352808706068 2.5704104282274503,41.723092078264195</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GR 83</name>
+      <description>name: GR 83
+layer: 1
+bridge: yes
+highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5704104282274503,41.723092078264195 2.5707898766034623,41.72278077569395</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GR 83</name>
+      <description>name: GR 83
+highway: track
+surface: compacted
+tracktype: grade2
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5707898766034623,41.72278077569395 2.570991638216275,41.72263058825879 2.571063862765119,41.72255428754342 2.5720105074115236,41.7210967119294</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GR 83</name>
+      <description>name: GR 83
+highway: track
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5720105074115236,41.7210967119294 2.5723076701075103,41.72127238174864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5723076701075103,41.72127238174864 2.5724019033808143,41.721365513377876 2.572509341888795,41.721399507394665 2.572704186473921,41.72142827154867 2.573011230638033,41.72157370130499 2.5744822219157784,41.72223191937335 2.577364915662518,41.72342128093528 2.5782584698756317,41.723710521971626 2.5788990585047373,41.72392299328958 2.579670172344626,41.724138480996025 2.580797198700082,41.72446010209351 2.5820704707837936,41.724773005627064 2.5828494897981815,41.7249707234016 2.5841267144691424,41.72523930750829 2.585146931137317,41.725422273921545 2.585522606589136,41.72548717357211 2.585728230957671,41.72562890667199 2.5858943294537045,41.725882671162026 2.5860484803564594,41.72606268578701 2.5865428232573104,41.72638443134084 2.586906640947379,41.726567327449146 2.5870607918501336,41.72657919422411</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5870607918501336,41.72657919422411 2.5871833220548877,41.72666239567515 2.5875396837280977,41.72677583374101 2.5885123795177423,41.72707692635935 2.589457497028165,41.72733946778028 2.5906082389071217,41.72763459094654 2.591217206838226,41.72775272028469 2.592652624830721,41.72797697770986 2.592763027779139,41.72798696703584</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.592763027779139,41.72798696703584 2.5928160283809025,41.72788620215283 2.592844325312352,41.72765772071487 2.5928822342173423,41.72740751651793 2.592960926636231,41.72707679227255 2.5930775279601095,41.72678528690412 2.5931706832550727,41.726689615465716 2.5933048017269917,41.72663960076777 2.5934564373469513,41.72662002395851 2.5937041028707832,41.72661130825384 2.5939023610539884,41.72657651246724 2.594129724652399,41.7265112116531 2.594496955940547,41.726450268636285 2.5946952141237523,41.726417685217434 2.595094515267543,41.72635902161304 2.5958465848234082,41.72629801140766 2.596939565029596,41.72623063193767 2.5972952080505793,41.726228419476264 2.5974760389172724,41.72624799640485 2.5976886701450237,41.72629801140766 2.5977936832017368,41.7263676703078 2.597851983863676,41.726476415812286 2.597872375620626,41.72656779675666 2.5978548584725853,41.72672662363538 2.5978548584725853,41.727326997757494 2.5978839638877913,41.727420589912484 2.5979422645497303,41.727459675994155 2.598085186511434,41.72746617916495 2.599664963770086,41.72729662720798 2.6001021738188674,41.72722261150402 2.6006998229773926,41.727072501494746 2.60129729247286,41.726905026849835 2.601734592353169,41.72685279987967 2.6021281442791424,41.72683322313538 2.602369970753627,41.72681143394378 2.6025331946407517,41.72674620041216 2.602754809021344,41.72670476736385 2.60297336912997,41.72675049121175 2.6044628657025686,41.72711822508094 2.6071612251530065,41.727840277985386 2.607602926778209,41.72805890354558 2.6082127031930686,41.72830622239466 2.6087648077666885,41.728463771178596 2.6094177931467155,41.7285676861225 2.6095988036764655,41.728641432109754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+horse: yes
+oneway: no
+bicycle: yes
+highway: track
+surface: gravel
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6095988036764655,41.728641432109754 2.609608056323892,41.728839070938136 2.609519572268406,41.729096375937274 2.6095329571661394,41.72924567672406 2.6096201835802275,41.729452230136744 2.609641204157876,41.72950720366925 2.609625393808875,41.72964208974724</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+horse: yes
+layer: 1
+bridge: yes
+oneway: no
+bicycle: yes
+highway: track
+surface: gravel
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.609625393808875,41.72964208974724 2.6095937731108747,41.72972461682528</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+horse: yes
+oneway: no
+bicycle: yes
+highway: track
+surface: gravel
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6095937731108747,41.72972461682528 2.6095469708845718,41.72984998269549 2.6095124755776613,41.72989677695225 2.60944070018646,41.72994122476057</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path
+surface: ground
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.60944070018646,41.72994122476057 2.6095328673346105,41.7300250252205 2.609628807406955,41.73008817717487 2.6096844131230417,41.73011901568629 2.6097979601749546,41.73017298304565 2.6099210293688793,41.73021897258568 2.610190344291058,41.730313029807725 2.610357610596961,41.730377991557795 2.6105414957356206,41.7304568304975 2.6107093908622225,41.73050851821924 2.6108332685399023,41.730540026926754 2.6109530139672756,41.73057998262722 2.611090366374217,41.73063609486934 2.6112172983238637,41.73068248631564 2.6113269826200547,41.73071191671002 2.611454363727343,41.73073397273706 2.611595758553063,41.73076601765039 2.6117650909841195,41.73080101228643 2.6119140316582263,41.73084700137684 2.612001886893013,41.73087797360285 2.6123216871341604,41.73096197395882 2.612506470588104,41.7310404769855 2.612828067459818,41.73116899112695 2.6129740436934874,41.73122999670662 2.613028301936648,41.73126210841153 2.613063515895786,41.7313121865498 2.613111665595015,41.73141267790359</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Tordera</name>
+      <description>name: Carrer de la Tordera
+oneway: no
+highway: residential
+name:ca: Carrer de la Tordera</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.613111665595015,41.73141267790359 2.614043488039232,41.73193222709183</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Tordera</name>
+      <description>name: Carrer de la Tordera
+highway: residential
+name:ca: Carrer de la Tordera
+check_date: 2023-01-01</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.614043488039232,41.73193222709183 2.614302831661757,41.73206757734523 2.616430760906779,41.733485888726825 2.6177249637366105,41.73485087575951 2.6186460962289466,41.735580617756135</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Via Romana</name>
+      <description>name: Carrer de la Via Romana
+oneway: no
+highway: residential
+name:ca: Carrer de la Via Romana</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6186460962289466,41.735580617756135 2.6193088732455703,41.735959495780094 2.619947126254937,41.73626470145176 2.6207723186749288,41.736575670553265</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>noname: yes
+highway: residential
+junction: roundabout</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6207723186749288,41.736575670553265 2.620794776557032,41.73655086815808 2.6208242412983513,41.73653062403383 2.620859095931375,41.73651580962099 2.620897543825535,41.736507296359584 2.6209375188556785,41.73650548645346 2.6209771345597086,41.73651051397032 2.6210139654863576,41.73652217780793</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>noname: yes
+highway: residential
+junction: roundabout</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6210139654863576,41.73652217780793 2.6210373216837444,41.736533908676954 2.6210578032722225,41.73654832088452 2.621074961094149,41.736565012227864 2.621088256160354,41.736583513470826 2.621097598639309,41.736603288344185 2.621102359710315,41.73662400167958 2.6211028088679567,41.736644983141964 2.621098586786121,41.736665696463916</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Via Romana</name>
+      <description>name: Carrer de la Via Romana
+oneway: no
+highway: unclassified
+name:ca: Carrer de la Via Romana
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.621098586786121,41.736665696463916 2.6213149011065378,41.73670209558631 2.621637575956593,41.7367925905526</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Via Romana</name>
+      <description>name: Carrer de la Via Romana
+layer: 1
+bridge: yes
+oneway: no
+highway: unclassified
+name:ca: Carrer de la Via Romana
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.621637575956593,41.7367925905526 2.6219034772806924,41.73689247003401</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Via Romana</name>
+      <description>name: Carrer de la Via Romana
+oneway: no
+highway: unclassified
+name:ca: Carrer de la Via Romana
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6219034772806924,41.73689247003401 2.6225414607954742,41.73715068123522</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Via Romana</name>
+      <description>name: Carrer de la Via Romana
+oneway: no
+highway: residential
+name:ca: Carrer de la Via Romana
+surface: paved
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6225414607954742,41.73715068123522 2.623166867896278,41.73741666718152 2.6233228154296016,41.73749408979911 2.62348693763201,41.7375751991079 2.6241350721095023,41.73781289571546 2.6250606961782585,41.738152278828 2.625525484506262,41.73832267354419</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Via Romana</name>
+      <description>name: Carrer de la Via Romana
+oneway: no
+highway: residential
+name:ca: Carrer de la Via Romana
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.625525484506262,41.73832267354419 2.6256010328216566,41.73835042464713 2.6258089928099304,41.738426371444824 2.6268858931725325,41.738865225541566 2.6270793902847327,41.7389671127294 2.6272728873969315,41.739088974956225 2.6275976283721407,41.73939858977184 2.6279117692269973,41.73970438237219 2.6280441808998765,41.73979768837327 2.6282672325849235,41.7399548067929 2.6284610890232365,41.74011011502357 2.6286420995529864,41.74035839291686 2.628696537459204,41.740430181513254 2.628881231081619,41.74067363206613 2.629082184210677,41.740838992914746 2.629544996245055,41.741217705860315 2.6296606992536495,41.741358532883304 2.6296746231405534,41.74138159068154 2.629863988002446,41.74169199878142 2.6300073591217914,41.741883900080076 2.630221427653997,41.7421516761695 2.6304945155003696,41.74256972636995 2.6307064280758934,41.74302168939779 2.630796439267362,41.743232488209415 2.6309488833710772,41.74343457290693 2.6311172276553214,41.74359918935796 2.631432266825462,41.7439900176862 2.6315168881252258,41.74422011666808 2.6315635106884714,41.74450068483232 2.6315931550928475,41.74459358171352</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>noname: yes
+highway: residential
+junction: roundabout</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6315931550928475,41.74459358171352 2.631622799497223,41.74460169175232 2.6316471438414233,41.74461677240026 2.6316633135165373,41.7446370139755 2.6316695118919977,41.74466007059647 2.631665020315577,41.74468339530925 2.6316502879449173,41.74470417306351</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Via Romana</name>
+      <description>name: Carrer de la Via Romana
+oneway: yes
+highway: residential
+name:ca: Carrer de la Via Romana
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6316502879449173,41.74470417306351 2.6317729978127287,41.744778771848374 2.6322322165859706,41.74497562375134 2.632541416706764,41.74511047734537 2.6333500801255285,41.745459071233036 2.633875325072153,41.74557810612824 2.6344451264568707,41.745677167657675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+oneway: yes
+highway: residential
+name:ca: Carrer Major
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6344451264568707,41.745677167657675 2.634513937407634,41.745677368729645 2.634560470139351,41.74568628291929 2.6347177651456004,41.74575739532018 2.6347939422816937,41.74579017000059</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+layer: -1
+oneway: yes
+tunnel: yes
+highway: residential
+name:ca: Carrer Major
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6347939422816937,41.74579017000059 2.6348572735092244,41.74581751573339</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+oneway: yes
+highway: living_street
+name:ca: Carrer Major
+surface: paved
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6348572735092244,41.74581751573339 2.63505436388256,41.745893922866266 2.6351921654471444,41.745949284468885 2.6352504661090834,41.74597280978437 2.6355082825956258,41.746012688860716 2.6358252980593915,41.74606483322904 2.636172496916704,41.746093184198166 2.6363553939085507,41.746098076917335 2.636669085605765,41.746105717601324 2.636713642043857,41.74610926984883 2.636953132898604,41.74611369340206 2.637188760997628,41.74608038269829 2.6374193585310612,41.74604747411884 2.638104323935203,41.74597280978437 2.6385170099767272,41.74592663045325 2.638807884465725,41.74590511583336 2.6389941950556515,41.7459029040496 2.6391829310968453,41.74590042417074</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça dels Bous</name>
+      <description>name: Plaça dels Bous
+oneway: yes
+highway: residential
+name:ca: Plaça dels Bous
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6391829310968453,41.74590042417074 2.639254167498876,41.74589928476691 2.6396640687630195,41.74589271643856 2.639683202878571,41.74589238131975 2.639731532240857,41.74589157703459 2.6397822870544094,41.745887086442295</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Raval</name>
+      <description>name: Carrer del Raval
+oneway: yes
+highway: residential
+name:ca: Carrer del Raval</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6397822870544094,41.745887086442295 2.640148979353387,41.74588407037266 2.6409889939755673,41.74584888288316 2.641548734229102,41.74567730170566</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Ravalet</name>
+      <description>name: Carrer del Ravalet
+oneway: yes
+highway: residential
+name:ca: Carrer del Ravalet</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.641548734229102,41.74567730170566 2.641765228212575,41.745602569916635 2.642558081282339,41.74521878897324 2.6428327860962226,41.74509780969874 2.642946961968834,41.74505759493098 2.643293532005448,41.744939497417356 2.6436435156401403,41.74485853145958 2.643867106314358,41.744816305795396 2.644495657518656,41.7446992802381 2.6449150809248114,41.744627295339185 2.645195355293457,41.74461268386939 2.6453822048725537,41.7446030322545 2.645584774969123,41.74459237526138 2.645829026894875,41.74458212041726 2.646157630625806,41.74456817918864 2.646253031708979,41.74457997561305 2.6462843829123956,41.74460082042588 2.6462982169677707,41.744626826163596 2.6463475344768685,41.74472186766182</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda Coronel Estrada</name>
+      <description>ref: C-35z
+name: Avinguda Coronel Estrada
+highway: tertiary
+name:ca: Avinguda Coronel Estrada</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6463475344768685,41.74472186766182 2.646500427738226,41.74470370388848 2.6466065187732806,41.74469070103652 2.6467329117337566,41.744686210360214 2.6468172635389347,41.74468721573554</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda Coronel Estrada</name>
+      <description>ref: C-35z
+name: Avinguda Coronel Estrada
+highway: tertiary
+name:ca: Avinguda Coronel Estrada</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6468172635389347,41.74468721573554 2.646937008966308,41.74469076806153 2.6470637612528973,41.74470350281347</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda Coronel Estrada</name>
+      <description>ref: C-35z
+name: Avinguda Coronel Estrada
+lanes: 1
+oneway: yes
+highway: tertiary
+name:ca: Avinguda Coronel Estrada</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6470637612528973,41.74470350281347 2.6472664211809946,41.744674883130564</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+lanes: 2
+highway: primary
+junction: roundabout
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6472664211809946,41.744674883130564 2.6472807942255407,41.74466007059647 2.6472974130582965,41.74464653153515 2.647316008184678,41.74463446702267</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+lanes: 2
+highway: primary
+junction: roundabout
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.647316008184678,41.74463446702267 2.6473498746708897,41.744618515052686 2.6473873344182373,41.7446073888864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+lanes: 2
+highway: primary
+junction: roundabout
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6473873344182373,41.7446073888864 2.64742677045921,41.74460169175232 2.6474670149839383,41.74460162472722 2.6475066306879684,41.74460698673578 2.647544090435316,41.74461791182686 2.6475782264161123,41.744633729746845</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+lanes: 2
+highway: primary
+junction: roundabout
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6475782264161123,41.744633729746845 2.6476050860431077,41.744651826514925 2.6476447915786654,41.744696599237734</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+lanes: 1
+oneway: yes
+highway: primary
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6476447915786654,41.744696599237734 2.6479003622769977,41.74478969691021 2.6480354688957295,41.74482240505972</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+highway: primary
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6480354688957295,41.74482240505972 2.649067543325654,41.744966709463014 2.6500912634234366,41.74515719345975 2.6510529997666152,41.74535451337277</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+highway: primary
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6510529997666152,41.74535451337277 2.653068100611952,41.74580880263352 2.653280192850533,41.74586811871314 2.6534596762443003,41.7459248208126 2.6537333030798425,41.74602488716146 2.6539371308178095,41.74612300967227 2.6549030892428234,41.74669612524861</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+highway: primary
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6549030892428234,41.74669612524861 2.6549857342489616,41.74675550753131</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+oneway: yes
+highway: primary
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6549857342489616,41.74675550753131 2.655127308737739,41.746814219531096 2.655251815236119,41.74684773092243 2.6553295195081943,41.74686756965786</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+lanes: 2
+highway: primary
+junction: roundabout
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6553295195081943,41.74686756965786 2.655373267462531,41.746851685265455 2.6554195306996635,41.74684042544062 2.6554611226973184,41.74683452743633</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+lanes: 2
+highway: primary
+junction: roundabout
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6554611226973184,41.74683452743633 2.6555034333472,41.746832382707375 2.6555455643340253,41.7468339912541 2.655587335994737,41.746839420099015 2.6556317127697726,41.7468494735143 2.6556738437565977,41.74686381638406 2.6557131001345136,41.74688218061448 2.65574894291435,41.74690423108861 2.6557804737808226,41.74692949864387 2.655807423239346,41.74695758114057 2.655836528654552,41.74700141393903 2.6558544051287054,41.747048530812876 2.655860334009581,41.74709732321477 2.6558539559710637,41.74714598153468</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera d'Hostalric a les Mallorquines</name>
+      <description>ref: GI-555
+name: Carretera d'Hostalric a les Mallorquines
+oneway: yes
+highway: secondary
+name:ca: Carretera d'Hostalric a les Mallorquines
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6558539559710637,41.74714598153468 2.6559169278724806,41.7472741953608 2.6559787319640282,41.74735897853957 2.6560499683660583,41.7474426892521</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera d'Hostalric a les Mallorquines</name>
+      <description>ref: GI-555
+name: Carretera d'Hostalric a les Mallorquines
+highway: secondary
+name:ca: Carretera d'Hostalric a les Mallorquines
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6560499683660583,41.7474426892521 2.6571586690897187,41.748343795655074 2.657993203988666,41.749022113670534</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera d'Hostalric a les Mallorquines</name>
+      <description>ref: GI-555
+name: Carretera d'Hostalric a les Mallorquines
+highway: secondary
+name:ca: Carretera d'Hostalric a les Mallorquines
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.657993203988666,41.749022113670534 2.6580518639767186,41.74907251306314</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera d'Hostalric a les Mallorquines</name>
+      <description>ref: GI-555
+name: Carretera d'Hostalric a les Mallorquines
+highway: secondary
+name:ca: Carretera d'Hostalric a les Mallorquines
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6580518639767186,41.74907251306314 2.6584113697534235,41.74936116946036</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera d'Hostalric a les Mallorquines</name>
+      <description>ref: GI-555
+name: Carretera d'Hostalric a les Mallorquines
+bridge: yes
+highway: secondary
+name:ca: Carretera d'Hostalric a les Mallorquines
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6584113697534235,41.74936116946036 2.658615017828333,41.74952952383436</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera d'Hostalric a les Mallorquines</name>
+      <description>ref: GI-555
+name: Carretera d'Hostalric a les Mallorquines
+highway: secondary
+name:ca: Carretera d'Hostalric a les Mallorquines
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.658615017828333,41.74952952383436 2.659046478659296,41.749846192390116 2.6596559855795707,41.750224182017895 2.6598192094666953,41.75034247086793 2.659965095868837,41.7504651827534 2.6601797033902126,41.75067012649348 2.6607675609121406,41.75131202910778</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera d'Hostalric a les Mallorquines</name>
+      <description>ref: GI-555
+name: Carretera d'Hostalric a les Mallorquines
+oneway: yes
+highway: secondary
+name:ca: Carretera d'Hostalric a les Mallorquines
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6607675609121406,41.75131202910778 2.66101253149012,41.75147119690864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: GI-555
+lanes: 2
+highway: secondary
+junction: roundabout
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.66101253149012,41.75147119690864 2.6610562794444563,41.75147367657231</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary_link</name>
+      <description>lanes: 1
+oneway: yes
+source: ICGC
+highway: secondary_link
+source:date: 2017</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6610562794444563,41.75147367657231 2.6611689281810853,41.75146060807351 2.661232528903201,41.75144197708089 2.661297297435186,41.75141128284382 2.661365928722893,41.751369396579605 2.6614224327542635,41.75133709387398</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+source: Bing
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6614224327542635,41.75133709387398 2.6614999573632834,41.75122932871356 2.6615643665691544,41.7511086958567 2.66173486681008,41.75071992142373 2.6619085111545004,41.75012720510402 2.6623041292056273,41.7493690108164 2.662634439735598,41.74892748066157 2.662745112178601,41.748795919100765 2.6631171943692835,41.748353379686435 2.663294970964011,41.74801217388441 2.663414806222912,41.74788489983567 2.663610818617907,41.74779019812857</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>noname: yes
+source: Bing
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.663610818617907,41.74779019812857 2.6638866912416606,41.74733250475269 2.6640644678363876,41.74725402163933 2.6645146136252595,41.74722419669064 2.6647940795101497,41.74712399816607 2.6649502067065294,41.74687480811386 2.6650446196428903,41.746658190262735 2.665255813566187,41.746504774517035 2.6655907953356355,41.746360272500795 2.665718266274452,41.746289227791 2.6658179792709893,41.746217981932325</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+highway: primary
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6658179792709893,41.746217981932325 2.6658757409437577,41.74621000614453 2.666013812002927,41.74617703060806 2.6662176397408937,41.74610699104856 2.6664014350480243,41.74603587903489 2.666565018261262,41.7459549144597</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.666565018261262,41.7459549144597 2.666609035710185,41.7459714022871</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.666609035710185,41.7459714022871 2.667206595037181,41.745769928788896 2.66765692048911,41.745655585930194 2.6679960345088656,41.74557609540549 2.6682949040038917,41.745455518949555 2.6684953181437785,41.74532220764048 2.6685928751836343,41.74522207317197 2.6687718195882306,41.745143319380546 2.669076707795661,41.74508259511456 2.6694267812618824,41.74508708576313</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+lanes: 1
+layer: 1
+bridge: yes
+oneway: no
+highway: primary
+maxspeed: 80
+bridge:name: Pont de la Riera de Santa Coloma</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6694267812618824,41.74508708576313 2.6700119438379577,41.74533581358366</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+lanes: 1
+oneway: no
+highway: primary
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6700119438379577,41.74533581358366 2.670950683309863,41.745721872641546 2.6713672321071087,41.745877569066536 2.671492277594658,41.745925222954966</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+lanes: 1
+oneway: yes
+highway: primary
+maxspeed: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.671492277594658,41.745925222954966 2.671836871337647,41.74607120046906 2.6720557907723865,41.74615350536742 2.672231591073489,41.7462157031359</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary_link</name>
+      <description>ref: C-35
+lanes: 1
+oneway: yes
+highway: primary_link
+maxspeed: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.672231591073489,41.7462157031359 2.672268511831666,41.7462368155113 2.6722976172468713,41.746249214839644 2.672386460628471,41.74628480424987 2.6725006365010824,41.746332926999166 2.672563788065556,41.74636302045497 2.672620022602342,41.74639311389669 2.6726855996180827,41.74643667898775 2.6727292577408908,41.74647441303505 2.6727606089443063,41.7465071203263 2.6728124417362005,41.74657059119028</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary_link</name>
+      <description>ref: C-35
+lanes: 1
+oneway: yes
+highway: primary_link
+maxspeed: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6728124417362005,41.74657059119028 2.6728227723619677,41.746632721531725 2.672828521579786,41.74668861868074 2.6728317555148093,41.74673338998322 2.6728302283788254,41.746801418175</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+highway: primary
+maxspeed: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6728302283788254,41.746801418175 2.6727704904124323,41.746993572293796 2.6727429121332094,41.74713237597511 2.6727270119526807,41.747223727534035 2.6727233288600156,41.747311995938134 2.6727300662246467,41.74738987578085 2.672758542819153,41.747471173657 2.672798697512354,41.74754449580821 2.672849003168264,41.747630082893416 2.6729699164055067,41.74779106941172 2.6730149220012405,41.74785902946105 2.673067293782305,41.74792692241679 2.6731181384273865,41.74797182689892 2.6731838951061833,41.74800687918178 2.6734509642401525,41.74813287958168 2.6735932573811567,41.74821250098346 2.6737856765150156,41.74834828607554 2.6739748617138512,41.748432933793644 2.674220910270171,41.74848259641715 2.6744551908962695,41.74852307712369 2.6746916274790498,41.74861677243593 2.675068111414624,41.74880557008535 2.6757710431244477,41.74913497608523 2.6761748358446598,41.74930822352696</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-35
+highway: primary
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6761748358446598,41.74930822352696 2.6763274596114313,41.74936277794373 2.676507392162841,41.749437773436064 2.6766748381318006,41.74950640194211 2.677100370081888,41.749676699509806 2.677447928265314,41.74985068270549 2.6777932406605296,41.75007218220108 2.6781011831399257,41.75028389613317 2.678345255402621,41.750459486139114 2.6787412327798608,41.75068272602188 2.6791744902413916,41.750897587811686 2.679524294213028,41.75110112278645 2.67964520745027,41.751183086145225 2.6797429441531824,41.751264781326725</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6797429441531824,41.751264781326725 2.679897005224409,41.75130800802139</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.679897005224409,41.75130800802139 2.6804170399423857,41.75137201028329 2.680572987475709,41.751431991402754 2.6807949611824147,41.75143601248138 2.6809189286916237,41.751408132997696 2.681078020328441,41.751295207561355 2.6812575037222075,41.751304992206435 2.6812840040230896,41.751334011042296 2.6814389634095996,41.751348017819815 2.6815630207503367,41.75136001405268 2.6818160761658736,41.75148252293922</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6818160761658736,41.75148252293922 2.681937977549928,41.751379985429786 2.6820749706307563,41.751232009441146 2.6822300198487956,41.75120801692534 2.6824159711126083,41.751187978476494 2.6826269853728477,41.7511259865801 2.6828259622082804,41.75101802001004 2.6831000382014656,41.75075403394451 2.6832549975879765,41.75062797167037 2.683648998671591,41.75038000156234 2.684126992234271,41.75015796697439 2.6846390319462192,41.749976009291586 2.6847371279752448,41.7499597905707 2.6848431291787707,41.74994223145504 2.6849596406711216,41.74997989642243</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6849596406711216,41.74997989642243 2.685014976892623,41.7497439873656 2.68514298682061,41.749597012904104 2.685275039167376,41.74949299794278 2.6855699560751525,41.7493850286262 2.6857330002992197,41.749312981960735 2.685830018349905,41.749241002234676 2.685868017086423,41.749093021315296 2.6858220233438765,41.748872992895535 2.6857170102871626,41.74862300538104 2.6853946049316924,41.748086969890146</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6853946049316924,41.748086969890146 2.6857279697336285,41.74785400283264 2.6860870263526917,41.74770997300624 2.686222043139894,41.74759797937208 2.6862059632963087,41.747394031157064 2.6862589638980716,41.747309985269695 2.6864520118526287,41.74729798827998 2.6866989587242336,41.747302009617556 2.6868489773766813,41.747366015873496 2.6869270409748713,41.74752398706137 2.6869670160050148,41.747635980824604 2.6870386117331595,41.74780299928751 2.687179287906652,41.74772987849707 2.687379432551954,41.74760783160268 2.6876453338760533,41.74763470740769 2.6879760037321376,41.74766801730502 2.688391474551043,41.74766902263365 2.6885567645633213,41.747605619877575 2.689011042602501,41.747797972654716 2.689257989474105,41.74782598774979 2.6894559781627247,41.74783798464083 2.6896759755758057,41.74781801216177 2.6897323897756484,41.747806082288754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera vella de Maçanet a Tordera</name>
+      <description>name: Carretera vella de Maçanet a Tordera
+highway: track
+name:ca: Carretera vella de Maçanet a Tordera
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6897323897756484,41.747806082288754 2.689964334782008,41.74797243009323 2.690081295432,41.748089918834815 2.690124504397166,41.748196683945174 2.6901122873093026,41.74829098292512 2.690139416430883,41.748385281766545 2.690103573651047,41.74845297310248 2.689981402772406,41.748514498433046 2.6898630048179593,41.74858487047087 2.6898268925435374,41.748629573430065 2.689811082194537,41.748740895056756 2.6898539318335897,41.74885288669713 2.6901909797281913,41.74910428074506 2.6903399204022986,41.74921962276604 2.690495778104093,41.74952932277446 2.6905850706433347,41.74976818148774 2.6905800400777435,41.7500097200909 2.6906299864075405,41.75025139182367 2.6906411255170637,41.750401715739784 2.690589472388227,41.75049292860869 2.690510330811696,41.75060163326922 2.690521739415804,41.750690098085215 2.690685322629042,41.75102338148274 2.690817734301922,41.75131243121641 2.6910045838810186,41.75170180522018 2.691046984362429,41.75188751099149 2.691171580692336,41.75216181304795 2.6912845887550785,41.75239188274259 2.69149946577104,41.752695871030824 2.6916636778049767,41.752914277953224 2.6918910414033874,41.75308577277278 2.692047887251995,41.753195210220014 2.6920633382748815,41.753251168671156 2.6923613094546237,41.75346119672205 2.692726205123033,41.75365963037871 2.692938027867029,41.75380150236031 2.6930319018142193,41.75391670191062 2.693172038998542,41.75423522524549 2.6934871680002113,41.75495777747447 2.6935178903829278,41.75511988485682 2.6934933663756717,41.755302498098075 2.6934097332227203,41.75553496902853 2.693296276002336,41.756221118588265 2.6933745192635827,41.75632136992655 2.6934481811168807,41.756536681930605 2.69365865638795,41.756961473710035 2.693751362525271,41.7573181786911 2.6937542371341796,41.757545013346665 2.693714172272508,41.75768339214459</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.693714172272508,41.75768339214459 2.693855028109058,41.7576630206599 2.694063976244144,41.75756699314661 2.6942068083743194,41.75744509897828 2.6942839736572255,41.75739899491143 2.6943540422493863,41.757394974206356 2.694562990384473,41.75740301561626 2.69462596228589,41.757415680834804</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: -1
+tunnel: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.69462596228589,41.757415680834804 2.6946981868347324,41.75743022237893</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6946981868347324,41.75743022237893 2.6947619672199057,41.75744302161551 2.695050236594579,41.757576709824065 2.695550328713248,41.75772487222008 2.6957085220347823,41.75771341326815 2.6960354189666726,41.75766657226789 2.6963550395447626,41.75768299007588 2.6966186950806517,41.75773391875964 2.696819558378181,41.75775187781216</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.696819558378181,41.75775187781216 2.697213020472625,41.75776702238241 2.697744014637068,41.75769900581105 2.698162988885582,41.7576870107629 2.6985439643975764,41.7577790174156 2.698833042256006,41.75794801982362 2.6990429785379053,41.75814402721368 2.6991980277559438,41.75838399305287 2.699418025169025,41.75865598899148 2.6996220325700486,41.758768030343695 2.6997670206569055,41.75884797360521 2.6998529894295955,41.758963968219135 2.6999074273358135,41.759093900700634 2.6999009594657677,41.75922798752923 2.699959978779934,41.759371991512396 2.700291996108945,41.75949997989069 2.7006090115727104,41.75967996730387 2.7008989877464247,41.75978001221139 2.7010969764350445,41.75986397476289 2.70110910369138,41.75989252066519 2.7011392870849265,41.759963885365394 2.7011879757733257,41.760300001984824</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7011879757733257,41.760300001984824 2.701533737326183,41.76039937583955 2.7019092331149452,41.760447488007905 2.7024026777005123,41.760559526232335 2.7027460138021024,41.760655482259466 2.703067880168403,41.76070359423582 2.703411216269993,41.76070359423582 2.703754642203112,41.760719609217155 2.7040978884731737,41.7608236059862 2.704516323732517,41.760871583820254 2.7048167203635263,41.760871583820254 2.704993957969083,41.76091909256192</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.704993957969083,41.76091909256192 2.7050374364288348,41.76100090936747 2.705080196236359,41.76105196943403 2.7051259204843205,41.76109237520594 2.705142988474719,41.76112862646555 2.705142988474719,41.761177609188614 2.7051058880534846,41.761220092121974</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7051058880534846,41.761220092121974 2.705120171266502,41.76134358730325 2.705148737692537,41.76143511966082 2.705174429509663,41.761486179381876 2.705220063926096,41.76153522883944 2.7052656983425294,41.76158200000857</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7052656983425294,41.76158200000857 2.7053830183186354,41.76176499690578 2.7054849771033833,41.76203302510656 2.7055069858278435,41.76222499961725 2.70556600514201,41.7623369677316 2.7058770018933727,41.762576984898324 2.7060219899802296,41.76280902744185 2.705995040521706,41.76297701151441 2.7058660424469068,41.76312898077117 2.7058390031568544,41.76327297600027 2.7059839912437114,41.76411797825212 2.7061240385965055,41.76423001006787 2.70628501669542,41.76431403380131 2.7066710227730058,41.76456999058869 2.707008968982892,41.76476999799589 2.707099968321173,41.76489402237643 2.707303975722197,41.76497402501009 2.707444562064161,41.765094631806974 2.7075670024373863,41.76517403115782 2.7076519830632644,41.7652299791646 2.707876921210408,41.7653359787275 2.708180461944912,41.76561752665296 2.708514096241434,41.76585692852199 2.7085826376976123,41.76596158699296 2.7086158753631246,41.76601250910659 2.7092509842689974,41.766253986579386 2.709519041549779,41.766300017281964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.709519041549779,41.766300017281964 2.7097739834274113,41.766387991444084 2.709864982765693,41.76641398835542 2.710183974523084,41.76636996780607 2.7107369774119876,41.766314020793374 2.710879001058407,41.766331977444686 2.7109890446807117,41.76638598137316 2.7110639641754073,41.766491979026206 2.7110859728998684,41.76665298524 2.7110830084594304,41.766784979212915 2.711059023441345,41.76685499621013 2.7111800265101156,41.767021026640705 2.7114399989533395,41.76714698971542 2.7117989657408743,41.76737901573177 2.7119680286773455,41.76748099167102 2.7120859774741506,41.767650973543255 2.7122009618305176,41.76804098543123 2.7122200061145407,41.76835702665305 2.7122710304226785,41.76864700332201 2.712234019832973,41.76880699913</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.712234019832973,41.76880699913 2.7120734010601724,41.76886977794565</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7120734010601724,41.76886977794565 2.7121714072576695,41.76887433392989 2.713121555333683,41.7690439101128 2.7135252582223663,41.76905369205199 2.7144348024475375,41.76903298917893 2.714526610269574,41.768993928400214 2.7145877855404232,41.76896779853497 2.7146716881879596,41.76897088051964 2.7147043868643017,41.7689720865136 2.7147641248306953,41.769022068243196 2.7150061309682374,41.76907539991172 2.715664775734554,41.76936349735445 2.716186607083099,41.76947431402623 2.717224520562371,41.769681676026615</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.717224520562371,41.769681676026615 2.717255242945087,41.7695961853445 2.717268088853651,41.769448519352494 2.717269077000463,41.76903962213898 2.717251919178536,41.76893818467484</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.717251919178536,41.76893818467484 2.7178318715259633,41.76901972325675 2.7182362930668744,41.769063272990984 2.7186432298905805,41.768965721545236 2.718956202935568,41.76880539113392 2.7195259144887562,41.76865001832207 2.719560140301081,41.768648008322046 2.720124641625622,41.768615178312615 2.7206708173183665,41.76858208028611 2.72098684463532,41.76860010330266 2.721111710459813,41.768607205307795 2.7216769304365807,41.768745828250516 2.7220015815802614,41.768792929162885 2.722304942651708,41.76881343111394 2.722521795961295,41.768788708172146</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.722521795961295,41.768788708172146 2.7226828638917375,41.769036205159644 2.722695799631829,41.76908330585881</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.722695799631829,41.76908330585881 2.723086656611949,41.76927157431095 2.723393700776061,41.76937019727958 2.723718801077384,41.76949937169937 2.7241210666616134,41.7696834849975 2.7248421443401756,41.770106380790665 2.7251886245452606,41.7702356207264 2.725394608239909,41.77049048192064 2.7254783312243887,41.77066367171797 2.725590979961018,41.77105178936069 2.725564120334022,41.771255796398066 2.7255823561342902,41.771498728069844 2.72561460565299,41.77175867599918 2.725649999275184,41.771924023773096 2.7257009337517943,41.77207081311314 2.7256493704544855,41.77223756700378 2.7256632943413894,41.7723389322546 2.725826967386156,41.77248411274128 2.7259551569771996,41.772589296368075 2.7261058942818748,41.772748076420676 2.7262721724409653,41.77289620378625 2.7265457992765088,41.77302021245746 2.7266746176882513,41.77303220463932 2.7269963942230224,41.77306422844357 2.7273665899516084,41.77314422088893 2.7276937563780845,41.773204181659864 2.727935223526456,41.77321617380733 2.7282084910358857,41.77329181137847</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>noname: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7282084910358857,41.77329181137847 2.7288684832751278,41.77351778562792 2.728931994165715,41.77352937574732</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>noname: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.728931994165715,41.77352937574732 2.7290660228061054,41.77349333247895 2.72913761853425,41.77349607927149 2.729193763239508,41.77355999241106 2.729290691458664,41.77365479008465 2.729337942842609,41.77376352250877 2.729426786224208,41.773896506769525 2.7294640663084992,41.773924309489445 2.7296325004242714,41.77420320695039 2.729721523468928,41.7743162930603</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Llevant</name>
+      <description>name: Carrer de Llevant
+highway: residential
+name:ca: Carrer de Llevant</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.729721523468928,41.7743162930603 2.729493620881347,41.77453831106341 2.729308298438233,41.77470968110271 2.729272635321453,41.774740632171245 2.7292366128785597,41.77477158322484</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Sebastià</name>
+      <description>name: Carrer de Sant Sebastià
+highway: residential
+name:ca: carrer de Sant Sebastià</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7292366128785597,41.77477158322484 2.729172293504217,41.77483026959713 2.7289329823125277,41.77504846720213 2.7288631832149512,41.77518051089426 2.7289008226253557,41.77527657904127 2.7289510384497384,41.77531556900131 2.729029461374042,41.77537659963001 2.7293245579448753,41.77556860120718 2.7298383942873916,41.77591160329198</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de Sant Llorenç</name>
+      <description>name: Passeig de Sant Llorenç
+oneway: no
+highway: residential
+name:ca: Passeig de Sant Llorenç</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7298383942873916,41.77591160329198 2.7295660250932468,41.77619270285162 2.7295070057790802,41.776280730439424 2.72947475626038,41.776448679238676 2.7295324281016202,41.776607717704195 2.729596298318322,41.776722005422826 2.7296812789441987,41.77687782762314 2.7298503418806703,41.777260816349305 2.7299000187158824,41.77741067505516 2.729927417332048,41.777667919402056 2.7299323580661103,41.777691433091675 2.7299921858640332,41.77827846865084 2.729999821543948,41.77833360135041 2.7300089843598463,41.77839462910718</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de les Monges</name>
+      <description>name: Camí de les Monges
+highway: track
+name:ca: Camí de les Monges
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7300089843598463,41.77839462910718 2.7297321235892804,41.77845719757029 2.7293504294250583,41.77852559407522 2.7292452367052875,41.77854441817397 2.72835356895427,41.77865682673401 2.727699236101318,41.778760794428216 2.727280711010447,41.77877680490222 2.726905215221685,41.778720801720425 2.7266149695533857,41.77876200023811 2.7260785854972376,41.778913999093085 2.7253281329088845,41.779080869170826 2.7245765125106614,41.7792261013861 2.72385821960948,41.77934487269036 2.723536443074708,41.779432895951594 2.7229891894036227,41.77961691374896 2.722462956310185,41.77972208567849 2.7216047058877377,41.77998206726857 2.721316975502234,41.78001469049596 2.721025831518651,41.78012093358143 2.7202748399411267,41.780240909010466 2.720106495656883,41.780229989982935 2.719913088376212,41.7801753948174 2.719471925740181,41.78000491022829 2.7190124374723537,41.77962622515604 2.7186542791685753,41.77930481335795 2.7184901569661664,41.779147590284744 2.71838927615976,41.77914799221896 2.7183001632835753,41.77921812970016 2.7179568271819847,41.77941011977687 2.717571090598984,41.77966903081586</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.717571090598984,41.77966903081586 2.7176461897567363,41.78009708584238 2.717701256483653,41.78041233080016 2.717705029407846,41.7804292117019 2.717794591441673,41.7807563787772 2.7178696905994255,41.78102379173986 2.7178946637643238,41.781226427322835 2.7179358066043364,41.78135711856082 2.717989525858327,41.78148519705534 2.7179197267607504,41.78167322814737 2.7178767872901695,41.781946532064644 2.717882177181875,41.78221722236978 2.717882177181875,41.782309193846636 2.717832230852078,41.782381203468766 2.7177212889144884,41.782483892399334 2.7176727798891465,41.7825510788709 2.717653286447481,41.78261317438073 2.7176693662910667,41.78271452323363 2.7177212889144884,41.78291320135287 2.7176140300695644,41.78314517034022 2.717493476158436,41.783385310611116</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.717493476158436,41.783385310611116 2.717249224232684,41.783753189025255 2.7171741250749313,41.78397323182388 2.7171525655081123,41.78418516883135 2.7172385342808028,41.784961171143486 2.7172546141243887,41.785182482468365 2.717226137529882,41.78526922504622 2.7171311856043503,41.78537318201967 2.7167556898155887,41.785705213569464 2.7165894116564977,41.785857195966635 2.71649823265516,41.78597722764489 2.71649823265516,41.786153188856346 2.716637561355727,41.786545231645995 2.7166322612955507,41.786837202499235 2.716541082294212,41.78704122630716 2.7161762764573316,41.787593212613025 2.7157632310896935,41.78827312514268 2.715650582353065,41.788469106865804 2.715613032774188,41.788673125480386 2.7156112361436207,41.78875711719673 2.715637556781445,41.78879047272819 2.7157472410776355,41.78878913314895 2.7159402890321935,41.78879308490764 2.7163079694779833,41.788845931284264 2.716812283678488,41.78895390118575 2.7172307189378313,41.78919388574353 2.7175496208636933,41.78943708436071 2.7179518864479224,41.78983701045797 2.718499140119008,41.7905329737063 2.7187300969785553,41.790860089227465</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7187300969785553,41.790860089227465 2.718807801250631,41.790981718979154 2.7189043701436737,41.79137768384082 2.718727402032702,41.7917416317949 2.718394755882993,41.79223758625259 2.718248240660153,41.792482179799784 2.7181479886744455,41.792717529883845 2.718024560154407,41.79296680982165 2.7178851416223124,41.793137527844124 2.7178100424645595,41.793417413331866 2.717568575316188,41.793701383001235 2.7171395399364933,41.79404937807861 2.716962481993993,41.79415332081455 2.7168498332573647,41.794161290643665 2.7167794053390892,41.794160821830225 2.716651305579574,41.79410389445727 2.716313359369688,41.79388669932168 2.716059495470396,41.79364137442123 2.7159217837373406,41.79348941047794 2.715750115686545,41.793433420146215 2.715612493785018,41.79341881978851 2.7155248182132885,41.79348941047794 2.7153585400541975,41.793609427866315 2.7152941308483256,41.79382541841487 2.715385309849664,41.79429329498001 2.71528883078815,41.79449729505843 2.714972264482026,41.794569290991504 2.714639708163845,41.794517319981885 2.714355391376421,41.79444130560713 2.7141247040114593,41.79443728722358 2.7138887165863217,41.794517319981885 2.713811910629529,41.794608871977</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.713811910629529,41.794608871977 2.713727738487407,41.7947093312213 2.7134178197143854,41.79520372235473 2.7133879956469524,41.79525120566979</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7133879956469524,41.79525120566979 2.7133306831318262,41.79539037377281</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7133306831318262,41.79539037377281 2.7133015777166207,41.795449175219275</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7133015777166207,41.795449175219275 2.713457615081472,41.795461029262874 2.713642937524586,41.79547609795922 2.715251820198444,41.79561941782726 2.715949092521978,41.79569168038686 2.7168563909589385,41.79578530682576 2.7177961185776556,41.79586212326542 2.7181597566046674,41.79591322255483 2.7186257127425404,41.795952199967076 2.7190272596745415,41.795985819640386 2.7199022187612742,41.796078909878844 2.7215337389802916,41.79623501989609 2.723162923579571,41.79636902909278 2.724784023341293,41.79648221005513 2.7251331984922307,41.79653451432583 2.7265776894690945,41.79661400869904 2.7280731149225685,41.79673689997496 2.728565661192851,41.7967721935022 2.728850337306388,41.79680032115705 2.7290530870660143,41.79683219915096 2.7293027288834715,41.79692682848066 2.729461640857232,41.79692053325711 2.7295279365251996,41.79691852414309 2.7296368123376356,41.79690211637619</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7296368123376356,41.79690211637619 2.72967049916079,41.79688577557559 2.7297288896542575,41.7968739217955 2.7298260873679987,41.79687157782742 2.730241737849961,41.79689220474353 2.7308695704020325,41.796935668580744 2.7310607318944933,41.79698736974781 2.7314840180563698,41.79721058169107 2.7351174338860487,41.7997270031446 2.736141962467587,41.80047361982878 2.7369272696889637,41.80095517594376 2.738480995804377,41.802042095933274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.738480995804377,41.802042095933274 2.73856849171305,41.802092989399966 2.7386082870801367,41.80211609234191 2.73962068840534,41.802806029403975 2.7397787918953447,41.80291370793362 2.741972387987636,41.80423208560785 2.743004192922976,41.80463292382817 2.7435633941873405,41.80474267511875 2.7440575574251347,41.80480742762239 2.7442124269801167,41.804845596078884 2.7442527613363734,41.80489849618274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7442527613363734,41.80489849618274 2.744287076980227,41.80486662220134 2.7443152840801486,41.804828721606185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7443152840801486,41.804828721606185 2.7443542709634787,41.80470972966262</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7443542709634787,41.80470972966262 2.7443413352233876,41.80467470835632 2.7443201349826825,41.8046443074363</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>access: yes
+highway: track
+motorcar: no
+tracktype: grade1
+motorcycle: no
+motor_vehicle: agricultural</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7443201349826825,41.8046443074363 2.7444210157890887,41.80463868259489 2.7445222559216096,41.80467410569505</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7445222559216096,41.80467410569505 2.7471053615210947,41.802100623416486 2.7471712978629497,41.801996291778686 2.7472116322192064,41.801868589087064 2.7470378082117293,41.801177905305025 2.7470753577906057,41.801041629314525 2.7471640215091484,41.80094586763431 2.74736641194266,41.80087823167604</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: -1
+width: 3
+tunnel: yes
+highway: track
+surface: asphalt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.74736641194266,41.80087823167604 2.7478423393801865,41.800787626166596</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7478423393801865,41.800787626166596 2.748628904242962,41.80060828982856 2.7498412705504096,41.80026669222638 2.750411970250411,41.79993547273803 2.751023273801254,41.7994425913977 2.751316573741519,41.79926867570473 2.7516167008779435,41.799137083424675 2.752255403044952,41.79894528635546 2.7525004634544605,41.798800567586326 2.75269449955583,41.79873031758936</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+width: 3
+bridge: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.75269449955583,41.79873031758936 2.7529270733828883,41.79883592694555</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7529270733828883,41.79883592694555 2.7530811344541153,41.79890577501641 2.753260797510939,41.79900917413012 2.753422224767495,41.79904292613631 2.755644297454293,41.798732393615154 2.7559497246508937,41.798680693855864 2.7574549417409644,41.798426078629674 2.757610080790532,41.798399893787085 2.759572001371049,41.797607177771496 2.7597822071475324,41.79754851224456 2.7599112052223322,41.79751790703397</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Lateral A2</name>
+      <description>ref: N-II
+name: Lateral A2
+lanes: 2
+oneway: no
+highway: unclassified
+name:ca: Lateral A2
+maxspeed: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7599112052223322,41.79751790703397 2.7601498875933226,41.797939279896056 2.760599943550667,41.79877552136173 2.760916689519848,41.79933999659856 2.7612113369330387,41.79980997586518 2.761471219544734,41.8001454149294 2.761929270508107,41.80072266870108 2.762599144215475,41.802056225570844 2.763137863891361,41.8030047791856 2.763215927489551,41.8031407161812 2.7632527584162,41.803269019012 2.7632489854920066,41.803375692307775 2.7632670416292173,41.803457990667596 2.7632714433741095,41.803483503807314</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Lateral A2</name>
+      <description>ref: N-II
+name: Lateral A2
+lanes: 1
+oneway: yes
+highway: unclassified
+name:ca: Lateral A2
+surface: paved
+maxspeed: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7632714433741095,41.803483503807314 2.7633787022190335,41.803551270942734 2.763451196262462,41.80357243141698</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-63
+lanes: 1
+highway: primary
+junction: roundabout
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.763451196262462,41.80357243141698 2.7634864102216,41.803538079124564</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-63
+lanes: 1
+highway: primary
+junction: roundabout
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7634864102216,41.803538079124564 2.7635511787535845,41.80349482065605 2.7636375068523886,41.80344707559422</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-63
+lanes: 1
+layer: 1
+bridge: yes
+highway: primary
+junction: roundabout
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7636375068523886,41.80344707559422 2.76372850619067,41.8034044197375 2.763821571654105,41.80337562534407 2.7639462578155407,41.80334750057519 2.7640298909684926,41.80333732208437 2.764132298910882,41.80332888464996 2.764258332545244,41.80333390693248 2.764351487840207,41.80334341578631</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-63
+lanes: 1
+highway: primary
+junction: roundabout
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.764351487840207,41.80334341578631 2.76443332436259,41.80336062546886 2.764521179597377,41.80338801363119 2.764581815879055,41.803413727689815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-63
+lanes: 1
+highway: primary
+junction: roundabout
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.764581815879055,41.803413727689815 2.7646478420524376,41.80345249964932 2.7646913205121897,41.80348497700667</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-63
+lanes: 1
+oneway: yes
+highway: primary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7646913205121897,41.80348497700667 2.7648524782741597,41.803556293207826 2.7649741999951587,41.803596471314364 2.765071936698071,41.803611203280454 2.7651870108859664,41.80362432812011 2.765446983329191,41.80361722999288</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eix Olot-Lloret de Mar C-63</name>
+      <description>ref: C-63
+name: Eix Olot-Lloret de Mar C-63
+highway: primary
+name:ca: Eix Olot-Lloret de Mar C-63
+name:es: eje Olot - Lloret de Mar C-63
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.765446983329191,41.80361722999288 2.765496570332874,41.80361200684214</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.765496570332874,41.80361200684214 2.765442401921242,41.80355917263963 2.7653814961449785,41.80352381588663 2.765275494941452,41.80347513335577 2.7650457058917746,41.803343683641316 2.7647419854942137,41.803150091135784 2.764438624422767,41.802869980293835 2.7641266395245916,41.80248312665866 2.7637814169609047,41.80197801028678 2.7633700783923065,41.80131491763032 2.763036533927313,41.800726083992146 2.7625097618447048,41.80000920371039 2.762086026525186,41.79944399772213 2.7617654178002837,41.799083107072875 2.761491431638627,41.79876239552889 2.761281585188257,41.79844007512683 2.7610945559461033,41.798112797381506 2.7609401355487635,41.79773997864607 2.7608942316377445,41.79751462551162</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7608942316377445,41.79751462551162 2.761017570326254,41.79748951181457 2.761178728088225,41.79745683050875 2.761263259556461,41.79745488838144 2.761697864490918,41.797382627809874 2.762436459317521,41.79724841982221 2.762674243373227,41.797198594030704 2.7630818988491606,41.797100013855946</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7630818988491606,41.797100013855946 2.7631847559491924,41.79707389544184</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7631847559491924,41.79707389544184 2.7635350090784705,41.79698736974781 2.763912032003216,41.79687706940963 2.7641434380204046,41.79679697262736 2.764372508417855,41.79671707665701 2.7645058184060187,41.79666778621826 2.764648111547023,41.79663101927662 2.7647673179852257,41.79662947894892 2.7649595574560277,41.796663031296205 2.765097718346725,41.796683524338015 2.7652287825466777,41.79669450753419 2.765506002643357,41.79671627300886 2.76571117785425,41.79672712225809 2.765901980020597,41.79670301281286 2.7660894584203928,41.79663068442277 2.766710104450191,41.796281296966704 2.766984899095603,41.79612699528718 2.7672177424172473,41.796010130269664 2.7673853680492635,41.79594871745011 2.7675344883864277,41.79594409641769 2.767641387905238,41.795966531861836 2.7677515213590707,41.79595802648543 2.767854019132989,41.795930300289925</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>La Masia</name>
+      <description>name: La Masia
+highway: residential
+name:ca: La Masia</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.767854019132989,41.795930300289925 2.7679222910945818,41.79578818660677 2.768046797592961,41.79560448310831 2.7682382285800067,41.795372023424264 2.76847053291248,41.79510051801828 2.768537637064204,41.79503220616622 2.768726732431511,41.79483912433181 2.768837404874515,41.794736120326526 2.7690344952478503,41.79458616816597 2.769598816909334,41.79417207335207 2.7700694442866842,41.79380599603874 2.770214791699655,41.79369970865546 2.7704110735892353,41.79354941920021</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7704110735892353,41.79354941920021 2.770550402289802,41.79357018113346 2.7708462175128625,41.793652023269324 2.7710896609548588,41.79373319556272 2.7714377581274547,41.79382508354637 2.7717123731098106,41.79390170141454 2.7718659850233953,41.79392889269887 2.7719286874302265,41.79394503333265 2.772002439115053,41.79396398685176 2.7721406898372787,41.79400912701252 2.772344158249132,41.794069871956125 2.7725440333998486,41.7941215084616 2.772770588514503,41.7941752210989 2.7729538448324638,41.794224580427894 2.773107636409105,41.79425826798068 2.7732407667342116,41.79428572700663 2.773415129730859,41.79431291812805 2.773659112162026,41.79431901268817 2.773833744653259,41.79430889973646 2.7739996634862356,41.79429329498001 2.7741221038594612,41.7942898123729</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Selva</name>
+      <description>name: Carrer de la Selva
+layer: 1
+bridge: yes
+highway: residential
+name:ca: Carrer de la Selva</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7741221038594612,41.7942898123729 2.7741724993469,41.7941858698583</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Selva</name>
+      <description>name: Carrer de la Selva
+highway: residential
+name:ca: Carrer de la Selva</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7741724993469,41.7941858698583 2.774277961561256,41.79390571983166</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de la Devesa</name>
+      <description>name: Passeig de la Devesa
+highway: residential
+name:ca: Passeig de la Devesa
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.774277961561256,41.79390571983166 2.77450173189853,41.79388736905805 2.774709512223747,41.793872701830104 2.775029402296422,41.793848122495376 2.7754585275076455,41.79382997262636 2.775643490624646,41.79383117815287</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Pau Clarís</name>
+      <description>name: Carrer de Pau Clarís
+highway: residential
+name:ca: Carrer de Pau Clarís
+name:etymology:wikidata: Q2532926</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.775643490624646,41.79383117815287 2.7758750763048923,41.79390042891572 2.7761958646928515,41.79404040363345</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Pau Clarís</name>
+      <description>name: Carrer de Pau Clarís
+highway: residential
+name:ca: Carrer de Pau Clarís
+name:etymology:wikidata: Q2532926</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7761958646928515,41.79404040363345 2.776276982563007,41.79409371449819</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>noname: yes
+highway: primary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.776276982563007,41.79409371449819 2.77641711974733,41.794138117860484 2.7765427940555787,41.79415988420332</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: C-63
+highway: primary
+junction: roundabout
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7765427940555787,41.79415988420332 2.7765895962818807,41.7941393233812</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Costa Brava</name>
+      <description>ref: C-63
+name: Carrer de la Costa Brava
+highway: primary
+name:ca: Carrer de la Costa Brava</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7765895962818807,41.7941393233812 2.7766620004937805,41.79405212399069 2.7767333267273395,41.793983208259405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Costa Brava</name>
+      <description>ref: C-63
+name: Carrer de la Costa Brava
+highway: primary
+name:ca: Carrer de la Costa Brava</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7767333267273395,41.793983208259405 2.776766205066739,41.79390290693969</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Costa Brava</name>
+      <description>ref: C-63
+name: Carrer de la Costa Brava
+highway: primary
+name:ca: Carrer de la Costa Brava
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.776766205066739,41.79390290693969 2.7768468737792524,41.7937092189389 2.77687867414031,41.79363286873625</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Doctor Fleming</name>
+      <description>name: Carrer del Doctor Fleming
+highway: residential
+name:ca: Carrer del Doctor Fleming
+name:etymology:wikidata: Q37064</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.77687867414031,41.79363286873625 2.7770159367157237,41.79366227027243 2.777248241048197,41.79381436775331 2.777520610242342,41.793956820680876 2.7776007399656852,41.79399238363315</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7776007399656852,41.79399238363315 2.777953418546231,41.794173412818814 2.778238633648939,41.7943117126106 2.7784421020607923,41.79434740931228 2.7788158012189856,41.79435859382823 2.7790922128319093,41.79439971532517 2.7793190374411494,41.79443172845925 2.7797561576584022,41.7944713095297 2.780162824987523,41.7945475247877 2.780600035036304,41.79465722637958 2.7810024802835898,41.79475400204802 2.781149175169486,41.79478460857851 2.781282574989178,41.79475788646627 2.781377706577766,41.79472111842898 2.7814894569991107,41.7946601731841 2.781619083894609,41.79463559415135 2.7817818586240914,41.79467738519869 2.78215924087495,41.79481240224231 2.7823645957488994,41.794668611759924 2.7824670036912895,41.79459661593842 2.782736138950412,41.794396902454885</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+bridge: yes
+highway: unclassified
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.782736138950412,41.794396902454885 2.782770274931208,41.79436488930341</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.782770274931208,41.79436488930341 2.7828843609722917,41.79421118576978 2.782988385882192,41.793991512977314 2.7832604855817524,41.793501599754194 2.7832821349801,41.79342511535601 2.7832237444866315,41.79317831525259 2.7831631082049535,41.79285603374114 2.7831448724046863,41.79276153235064 2.7831257382891343,41.79266857124375 2.783143255437175,41.79257072082637 2.7832082036322165,41.792457198081046</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Picornell</name>
+      <description>name: Carrer de Picornell
+highway: residential
+name:ca: Carrer de Picornell</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7832082036322165,41.792457198081046 2.7846141568833924,41.79289682132872 2.7853063986413344,41.793130227632 2.7855802949714623,41.793200014947</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí Caldes-Vidreres</name>
+      <description>foot: yes
+name: Camí Caldes-Vidreres
+horse: yes
+bicycle: yes
+highway: unclassified
+name:ca: Camí Caldes-Vidreres
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7855802949714623,41.793200014947 2.7859141987625695,41.79326598465188 2.7863167338413835,41.79332766793888 2.7865362820968222,41.79337408105706 2.7867880798709614,41.79346449612584 2.7880273058054046,41.794008390303915 2.7884010947951268,41.794168121924976 2.7885797697051378,41.79424440451677 2.7893941823417205,41.79450539879075 2.789641668202495,41.79460538938703 2.7897773138103976,41.79469312380721 2.790087232583419,41.7949348951375 2.790421405869111,41.795190997623976 2.7906750901053465,41.79540738467517 2.790845770009329,41.795629128741304 2.79108894395674,41.79598561872606 2.7915748426939206,41.796736029356396 2.7916558707325483,41.79685677734132 2.791756122718256,41.79705460799075 2.7917985231996667,41.79719973252369 2.791840294860378,41.79746962175953 2.7918524221167136,41.79762432202493 2.7918635612262364,41.79780400156142 2.791869400275583,41.79805640927296 2.7918577221768897,41.79823139976142 2.791834006653389,41.798374110747474 2.791757290528125,41.79865531274115 2.791636467122411,41.79896450626921 2.7915251658587086,41.79917518829082 2.7915142064122422,41.79927128745717 2.791496868927259,41.7993576761318 2.7915016299982645,41.79946998123471 2.791526333668578,41.79962521241249 2.7915639730789827,41.799768121197125 2.7916159855339333,41.799920873861495 2.7917228850527436,41.800128807087326 2.791824215016792,41.80025303096309 2.791864369709992,41.80029039852928 2.792217138122066,41.800627308343756 2.792339937821405,41.80076171015474 2.7924310269912147,41.800893968761805 2.7924895971477395,41.80102629406207 2.7925149296387515,41.801139198935225 2.792533434933605,41.80129877885259 2.7925548148373665,41.80171389906731 2.7925516707338724,41.801805172920666 2.792503431203115,41.801914125471946 2.7923667974484,41.80210290022826 2.792312808699825,41.802176092987 2.792274809963306,41.80222772296139 2.792184619108781,41.80237009022394 2.7920345106248043,41.802726408782796 2.79191144143088,41.80304027015315 2.79176492620804,41.80334756753894 2.791652187639883,41.8035729671251 2.791443239504797,41.80406909788299 2.791390688060676,41.804248022758365 2.7912861241616045,41.80463258901614 2.7912374354732052,41.80481178016682 2.791228721814949,41.805003894487314 2.7912226132710174,41.805055990916905 2.7912351896849947,41.805469479713665 2.7912669002145245,41.80567659139859 2.7913387654372537,41.805983675257494 2.7913746980486187,41.80613728359583 2.7914747703712695,41.80653469491564 2.7916160753654617,41.80692507296952 2.7918926666414423,41.80753012077244</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí Caldes-Vidreres</name>
+      <description>foot: yes
+name: Camí Caldes-Vidreres
+horse: yes
+bicycle: yes
+highway: track
+name:ca: Camí Caldes-Vidreres
+surface: sand</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7918926666414423,41.80753012077244 2.791986181262519,41.80768479675049 2.792031905510481,41.80775108634104 2.792208693958395,41.80800787415799 2.792337512370138,41.80830409955537 2.792369582225781,41.80857842822821 2.792355209181235,41.80876182670284 2.7922573826467945,41.809049478017336 2.792192973440923,41.80929949791978 2.792228277231589,41.809969873195854 2.7924542035255455,41.81043542233374 2.792588142334407,41.810841578216944 2.7928595233817397,41.81170932103038 2.7928837778944113,41.81184457000878 2.792847755451518,41.81195591585936 2.792616079939743,41.812306891711636 2.792564516642435,41.81240852838875 2.79246183920546,41.81268946792998 2.7923511667624568,41.8129272210929 2.792342992093371,41.81303113320913 2.7923659889646446,41.813357397411465 2.792441088122397,41.81354787923199 2.7924425254268517,41.81367482216232 2.792388985835918,41.81382057858165</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí Caldes-Vidreres</name>
+      <description>foot: yes
+name: Camí Caldes-Vidreres
+horse: yes
+width: 3
+bicycle: yes
+highway: track
+name:ca: Camí Caldes-Vidreres
+surface: compacted
+tracktype: grade2
+smoothness: intermediate
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.792388985835918,41.81382057858165 2.7923471243436775,41.814006171484394 2.7923631143557355,41.81417449012382 2.7923955435374923,41.814275922980514 2.7927116606859737,41.81477002925264 2.792749389927907,41.81486951956673 2.7927398677858952,41.815111683433656 2.7927996955838172,41.81521539115194 2.7928827897475985,41.8153515700441 2.792928064837918,41.815579203730586 2.792895635656161,41.81573479758491 2.792962829639414,41.81582698877378 2.793215435897308,41.81607122448454 2.7935120596041245,41.81626009142819 2.7936984600255794,41.81632449753969 2.7937941306033376,41.81639372399479 2.7939823276553613,41.816501111887334 2.7941273157422177,41.81657502464641 2.794333389268395,41.81667852914573 2.7944458583419665,41.81671648968021 2.794595787162886,41.81676717064091 2.7947009798826565,41.816831308443845 2.794891243059833,41.81696360082823 2.7949947289805634,41.817045480036505 2.7950920165258335,41.817096227686235 2.7953257581627615,41.817213723739386 2.7955469233857118,41.81735257634709 2.7955408148417797,41.81742521609184 2.7954243931809577,41.81758301477417 2.795364385719979,41.81769823367678 2.7953889097272353,41.81779912536374 2.7955469233857118,41.81800211333262 2.7956355871042544,41.81816078092096 2.7958332164667605,41.81847001421769 2.795937960028889,41.81859788466175 2.795964729824356,41.818648497185826 2.795980180847243,41.81868177021227 2.795998596310567,41.81872521926906 2.7960006624357208,41.81877188178259 2.7961065738077178,41.81948212522659 2.796216258103909,41.820167523769626 2.7962938725444575,41.82043350034547 2.796371127658891,41.82061746738867 2.7965196191753563,41.820813484093286 2.796702516167203,41.821026972915796 2.7967900120758764,41.82123262845555 2.796992222846332,41.821525780181155 2.79708510864671,41.821651100628074 2.797151583977734,41.82176510721051 2.7971646095493545,41.82184282972609 2.797209165987447,41.822011797212255 2.7972431223051863,41.82212192039332 2.797329001246348,41.82216878126399</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí Caldes-Vidreres</name>
+      <description>foot: yes
+name: Camí Caldes-Vidreres
+horse: yes
+width: 3
+bicycle: yes
+highway: track
+name:ca: Camí Caldes-Vidreres
+surface: compacted
+tracktype: grade2
+smoothness: intermediate
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.797329001246348,41.82216878126399 2.797435990596687,41.822261230966845 2.7976945257354564,41.82250617852045 2.798566161055638,41.8230166223792 2.7986152090701504,41.823079482003806</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Sant Maurici</name>
+      <description>name: Avinguda de Sant Maurici
+highway: unclassified
+name:ca: Avinguda de Sant Maurici
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7986152090701504,41.823079482003806 2.7985484642445404,41.82332228425541 2.798498607746272,41.82356568806985 2.798512441801647,41.82402879541258 2.7984170407184736,41.82462397514026 2.798418837349042,41.824660391311106 2.7984271018496556,41.824830221598994 2.7985196283239206,41.82499998449528 2.7986757555203,41.82522323272931 2.7987742108754396,41.825318891179656 2.7990055270611003,41.825431887121624 2.799176656122725,41.825528683249814 2.7993903653288172,41.82570420116709 2.7997030688792193,41.82588741672535 2.799855333319877,41.82605951971883 2.799996997640183,41.82623162224968 2.8004566655710668,41.82665186911485 2.8009601712878163,41.82708523325434 2.8014353800731153,41.827528300539655 2.801702628870141,41.82776211619852 2.802112440302756,41.828136433677585 2.802440774539102,41.82837339318216 2.8026782891002227,41.82855017511136 2.8032987554669644,41.829011907661986 2.803676586875465,41.8292979954258 2.8038224732776063,41.829439097670516 2.8039169760454956,41.829557106567094 2.8039987227363508,41.82972089960983 2.8041385005945596,41.83005671754555 2.804221774421397,41.83023068352914 2.804888324362214,41.831624469337854 2.805065741630828,41.832059874761825 2.805096374182016,41.83221127869028</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Turó</name>
+      <description>name: Carrer del Turó
+highway: residential
+name:ca: Carrer del Turó</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.805096374182016,41.83221127869028 2.8050351090796393,41.83233430248513 2.8048274185859507,41.8326367070869 2.80481331503599,41.832738579231744 2.8049202145548002,41.83299687325337 2.8053747620885647,41.833960429937655 2.8054645936169766,41.834137196437716 2.8058488928955225,41.83455310781435 2.80635078164476,41.83508728291256 2.8066430934382134,41.83539897781218</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Sant Maurici</name>
+      <description>name: Avinguda de Sant Maurici
+highway: residential
+name:ca: Avinguda de Sant Maurici</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8066430934382134,41.83539897781218 2.806733823281909,41.83544937626515 2.8068419804421167,41.835515570188925 2.8073684830301397,41.835786904323705</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Sant Maurici</name>
+      <description>name: Avinguda de Sant Maurici
+highway: residential
+name:ca: Avinguda de Sant Maurici</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8073684830301397,41.835786904323705 2.8078028184700115,41.83602570953698 2.8079356793005323,41.83610067063095 2.8082523354381848,41.8363709314176 2.808439813837981,41.83658021876621</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Prim</name>
+      <description>name: Carrer Prim
+highway: residential
+name:ca: Carrer Prim</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.808439813837981,41.83658021876621 2.808412235558758,41.83664299814445</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Santa Maria</name>
+      <description>name: Carrer de Santa Maria
+oneway: yes
+highway: residential
+name:ca: Carrer de Santa Maria
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.808412235558758,41.83664299814445 2.8089553569795367,41.83676621420775 2.8091878409750666,41.83681547379515 2.809265455415615,41.836848469666045</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Santa Maria</name>
+      <description>name: Carrer de Santa Maria
+oneway: yes
+highway: residential
+name:ca: Carrer de Santa Maria
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.809265455415615,41.836848469666045 2.809535488990021,41.83697750812153 2.80958193189021,41.837018602263825 2.809696017931293,41.83708800713155</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+oneway: yes
+highway: residential
+name:ca: Carrer Major</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.809696017931293,41.83708800713155 2.8097433591467667,41.837185588775824 2.809886191276941,41.83739366875358 2.8099214950676075,41.837538902689026 2.809925178160272,41.83770060054463 2.8099196086055103,41.8378153816801 2.8098027377870465,41.83800759779114 2.8097414726846694,41.838191179700786</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+oneway: yes
+highway: residential
+name:ca: Carrer Major</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8097414726846694,41.838191179700786 2.8097374302658906,41.83820349432699</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+oneway: yes
+bicycle: yes
+highway: residential
+name:ca: Carrer Major</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8097374302658906,41.83820349432699 2.8096838906749575,41.8383799813998</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+oneway: yes
+highway: residential
+name:ca: Carrer Major</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8096838906749575,41.8383799813998 2.8096802075822924,41.83839062281184 2.809672392239321,41.83840949625525</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Llibertat</name>
+      <description>name: Carrer Llibertat
+oneway: yes
+highway: residential
+name:ca: Carrer Llibertat</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.809672392239321,41.83840949625525 2.8096894602297193,41.8387514258673 2.8096811957291052,41.838774984074334 2.809617684838518,41.83888902709032 2.8095756436832215,41.838933131699875 2.809591903189864,41.838988413003676 2.809621817088825,41.83911249459399 2.809721979243004,41.83918551121027</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: GI-674
+lanes: 1
+highway: secondary
+junction: roundabout
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.809721979243004,41.83918551121027 2.809681824549804,41.83919829412902 2.8096491258734626,41.839219911310416 2.80962720698053,41.83924808725415 2.8096184933222736,41.83928001105191 2.809619211974501,41.839289581495514</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: GI-674
+lanes: 1
+highway: secondary
+junction: roundabout
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.809619211974501,41.839289581495514 2.8096219967518814,41.83931119864607 2.8096425681718875,41.83934198466832 2.8096726617339063,41.83936540880577 2.809711289291123,41.83938046717531 2.8097325793633567,41.83938448273992</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Girona</name>
+      <description>name: Carrer de Girona
+source: IDEE
+highway: residential
+name:ca: Carrer de Girona</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8097325793633567,41.83938448273992 2.8097190148025666,41.83945810137984 2.8097234165474587,41.839735375188 2.8097643797244145,41.84017500865242 2.8097804595680005,41.84033710139784 2.8097836036714945,41.84054731272413</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Girona</name>
+      <description>name: Carrer de Girona
+source: IDEE
+highway: residential
+name:ca: Carrer de Girona</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8097836036714945,41.84054731272413 2.8099019117944133,41.841790095280736 2.8101658368248876,41.842153890712545 2.8102658193160104,41.84229402769461 2.810326455597688,41.84241147750764 2.810378108726525,41.84252216790333 2.810403531049066,41.84260936824345 2.8104064954895036,41.84267040171857 2.8103882596892356,41.84290543359213 2.8103549321921952,41.843382186939024 2.8103640051765644,41.84352908032707 2.8103882596892356,41.843675973377906 2.8104338042741404,41.84387031336974 2.8105248036124215,41.844308580007066 2.8105399851407236,41.844446503884356 2.810543039412689,41.84451422767838</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Antic Camí de Girona</name>
+      <description>name: Antic Camí de Girona
+oneway: no
+highway: unclassified
+name:ca: Antic Camí de Girona
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.810543039412689,41.84451422767838 2.8104469196772888,41.844717733232855 2.8100392642013556,41.845128489923816 2.810003421421519,41.84573571973192 2.8099553615538184,41.84691449466831 2.8099913839967114,41.84727156918218 2.8099553615538184,41.847896712454556 2.809739586222573,41.84933427790201 2.809739586222573,41.8496022076755 2.8091522676898157,41.850334391657675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Antic Camí de Girona</name>
+      <description>name: Antic Camí de Girona
+oneway: no
+highway: residential
+name:ca: Antic Camí de Girona</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8091522676898157,41.850334391657675 2.8091081604093655,41.850490570194346 2.8089604773766563,41.851012969238326 2.808929305836297,41.85142388625198</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Antic Camí de Girona</name>
+      <description>name: Antic Camí de Girona
+oneway: no
+highway: residential
+name:ca: Antic Camí de Girona</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.808929305836297,41.85142388625198 2.809403975632426,41.85276468455445 2.8095019818299236,41.85305722349724 2.809494705476122,41.853479970685264 2.8093807092665672,41.85424449498722 2.8092908777381553,41.854846017836685 2.809288003129246,41.85494832299534 2.809276414862081,41.85534777322518</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí antic de Girona</name>
+      <description>name: Camí antic de Girona
+highway: track
+name:ca: Camí antic de Girona
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.809276414862081,41.85534777322518 2.809698623045617,41.85678303017304 2.809692514501685,41.85683207362718 2.809618403490745,41.85742627925582 2.8094741340561153,41.858056073654815 2.8091864935021404,41.858850717739855 2.8088507930804654,41.85977922847777 2.8083114445838797,41.860859530207165 2.80822260120228,41.8631869306641 2.808451491936674,41.865045886609046 2.8082882680495493,41.86506281211215</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8082882680495493,41.86506281211215 2.808013114078024,41.86508930419496</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí antic de Girona</name>
+      <description>name: Camí antic de Girona
+highway: track
+name:ca: Camí antic de Girona
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.808013114078024,41.86508930419496 2.807859502164439,41.86508997318681 2.8075891092639194,41.865114324485326 2.807476999516461,41.86515118591131 2.807424088746227,41.86520751494589 2.807402888505521,41.8652873923754 2.8074470856175,41.86624203366291 2.8077724554134083,41.867488732243885 2.807759968830959,41.868083775393984 2.807544193499713,41.86865513201922 2.807590456736845,41.86894880238743</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí antic de Girona</name>
+      <description>name: Camí antic de Girona
+highway: track
+name:ca: Camí antic de Girona
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.807590456736845,41.86894880238743 2.80765468627966,41.86981549003192 2.8076581897092683,41.86993971251432 2.8076342945227104,41.87102766905599 2.807665376231541,41.871558195008866 2.808033865161087,41.87276291606807 2.8081872075800858,41.87340158962763</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí antic de Girona</name>
+      <description>name: Camí antic de Girona
+highway: track
+name:ca: Camí antic de Girona
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8081872075800858,41.87340158962763 2.808371272381802,41.87397517297895 2.8081794820686423,41.8741090195019 2.8078543817673194,41.8742122971871 2.807183879239253,41.8743759759228 2.8070496709358057,41.8744438686959 2.8069317221390007,41.87461570732347 2.8068887826684197,41.875015101585866 2.806645159563366,41.8767509761049 2.806497207036072,41.8771720951533 2.806309459141691,41.87741569547066 2.8057729852540145,41.877731197302275 2.8055854170226913,41.87798817262723 2.805584608538935,41.87805900453018 2.8055723914510713,41.879078333136185 2.8055357401874788,41.8794655934824 2.805581105109327,41.879800013309264</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>width: 5
+noname: yes
+highway: unclassified
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.805581105109327,41.879800013309264 2.8057799022817025,41.88010647410184 2.806136084291856,41.88074560934105 2.8062595128118937,41.88093976981633</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>width: 5
+noname: yes
+highway: unclassified
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8062595128118937,41.88093976981633 2.80628915721627,41.88100116801125 2.8063391035460667,41.88118837194733 2.806405399214035,41.88139209522171 2.806452291271866,41.88166851844222 2.8064742999963266,41.88197771241572 2.8064896611876855,41.882195076956805 2.8065119394067315,41.88265769312008 2.806477264436764,41.88312351618903 2.8064477996954458,41.88351322657678 2.806477264436764,41.88386421134775 2.8065818283358364,41.8840924039184 2.806902976049909,41.88450892682572 2.8073021873621715,41.88510969681434 2.8074748435597794,41.885381221862026 2.8075013438606606,41.88542288681031 2.8078559089033033,41.88634519333867</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>width: 5
+noname: yes
+highway: unclassified
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8078559089033033,41.88634519333867 2.8078691141379792,41.886712881693356 2.8078319238852165,41.88706799521077 2.8075272153408437,41.887275912924636 2.806297511548412,41.887897990123406 2.8061052720776107,41.8880548794172 2.805961900958265,41.888254902676756 2.8058021805007485,41.88872777362942 2.805495675325807,41.88924959279466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>width: 5
+bridge: yes
+noname: yes
+highway: unclassified
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.805495675325807,41.88924959279466 2.805190876949905,41.88942520341209</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>width: 5
+noname: yes
+highway: unclassified
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.805190876949905,41.88942520341209 2.805136528875216,41.889454025976825 2.8038587652150846,41.89022922102981 2.8038029798359405,41.89027897442831 2.80377701852423,41.89034818776096 2.803799296743276,41.89041191745891 2.8038587652150846,41.89052540029984 2.8040558555884205,41.89081047740158 2.804134009018139,41.89100420605947 2.804267768163944,41.891394470222124 2.8043372977669354,41.89162089723993 2.8043578691869415,41.89171338034208</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+width: 5
+bridge: yes
+noname: yes
+highway: unclassified
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8043578691869415,41.89171338034208 2.8043549047465035,41.89183421670257</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>width: 5
+noname: yes
+highway: unclassified
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8043549047465035,41.89183421670257 2.804345741930606,41.89193117985918</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.804345741930606,41.89193117985918 2.8042390220748525,41.89196461539629 2.8040808287533188,41.89202132202722 2.8039547052874285,41.892077092414674 2.8038167240597875,41.89219839618279 2.8037274315205463,41.89229228273381 2.8036500865745837,41.892356010492165 2.803565555106348,41.892438395076105</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de l'Església</name>
+      <description>name: Plaça de l'Església
+highway: residential
+name:ca: Plaça de l'Església</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.803565555106348,41.892438395076105 2.8030772309179004,41.892952025787885</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+highway: residential
+name:ca: Carrer Major</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8030772309179004,41.892952025787885 2.8032391073320992,41.89302170431384</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Cellera</name>
+      <description>name: Carrer de la Cellera
+highway: residential
+name:ca: Carrer de la Cellera</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8032391073320992,41.89302170431384 2.80312250600822,41.89316661133122 2.8030842377771163,41.89321041103412 2.803056030677195,41.893240502415644 2.803024859136836,41.89326939012857 2.8029135578731337,41.89335491640577 2.802360285489645,41.89378528770916 2.8022769218312784,41.89383838179268 2.8019720336238483,41.894007627248</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

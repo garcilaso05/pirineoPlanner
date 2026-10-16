@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue de Flourens</name>
+      <description>ref: M 57
+name: Avenue de Flourens
+lanes: 2
+highway: tertiary
+old_ref: D 57
+surface: asphalt
+maxspeed: 30
+cycleway:both: lane
+zone:maxspeed: FR:30
+source:maxspeed: FR:zone30
+cycleway:both:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5064669161254656,43.593864419890295 1.506492068953421,43.593885824658955 1.5065618680509971,43.59398360987309 1.506596093863322,43.59404287947644 1.5066269959090959,43.59410937066341 1.506652508063165,43.594178789466135 1.5066779303857052,43.59425848761795 1.5067061374856268,43.59436778776879 1.5067390158250256,43.594537202610276</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

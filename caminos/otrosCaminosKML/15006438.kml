@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Luc</name>
+      <description>foot: yes
+name: Chemin de Luc
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+lane_markings: no
+sidewalk:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.8963846035325984,44.109621214838754 3.896243478201464,44.10957309790541 3.8960721694767817,44.10949421442995 3.895721826515975,44.109320773613675 3.8953872939041694,44.109131013684596 3.89493696845224,44.108972729443614 3.8938719258513883,44.10886572286451 3.8938476713387167,44.10885817628109 3.8935264337931157,44.108758909594165 3.893250740832419,44.10864596854099 3.893115993539801,44.10861978115003 3.8930076567165366,44.10860771946606 3.8929444153205344,44.10862848878132 3.8928443429978836,44.10869008717339 3.8926963006390602,44.10873343176263 3.8924561809636153,44.10876523067471 3.892344161047686,44.10875723257268 3.8922395971486146,44.10874168787127 3.89221606128817,44.108738204825585 3.8918399366787093,44.108562181749306 3.891658207496732,44.108523481112584 3.8915015413111815,44.10851161291225 3.891294838964306,44.108453174891046 3.8909850100228125,44.108282827084565 3.890288456351507,44.1080630060923 3.8900823828253297,44.10803140030729 3.889416641368269,44.10796980122876</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Luc</name>
+      <description>foot: yes
+name: Chemin de Luc
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+lane_markings: no
+sidewalk:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.889416641368269,44.10796980122876 3.8889007389005994,44.107925295048304</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Luc</name>
+      <description>foot: yes
+name: Chemin de Luc
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+lane_markings: no
+sidewalk:left: separate
+sidewalk:right: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.8889007389005994,44.107925295048304 3.888625225602959,44.10788111134327 3.888157293171462,44.10776552403457 3.887898758032692,44.107692572329974 3.887805423074672,44.10766741654891</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Abraham Mazel</name>
+      <description>ref: D 983
+name: Avenue Abraham Mazel
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 30
+sidewalk:both: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.887805423074672,44.10766741654891 3.8878331810169513,44.1075793067287 3.8878259944946785,44.107468685502006 3.8877976077317005,44.10742217937346</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Abraham Mazel</name>
+      <description>ref: D 983
+name: Avenue Abraham Mazel
+lanes: 2
+layer: 1
+bridge: yes
+highway: secondary
+surface: asphalt
+maxspeed: 30
+sidewalk:both: yes
+maxweight:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.8877976077317005,44.10742217937346 3.8877399358904596,44.10736219221881</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Abraham Mazel</name>
+      <description>ref: D 983
+name: Avenue Abraham Mazel
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 30
+sidewalk:both: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.8877399358904596,44.10736219221881 3.8877152322201463,44.10733529473291 3.887673460559435,44.107290078548 3.887546708272845,44.107198614033955 3.887416811882762,44.10712263000706 3.8867886200045776,44.10689732195749 3.8862553800519235,44.10671871327703 3.8862283407618725,44.10670987635829 3.88619788787374,44.1066967177323 3.8859684581501766,44.10659718940263</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

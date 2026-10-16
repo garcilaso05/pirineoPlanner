@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Allée Louis Delafage</name>
+      <description>name: Allée Louis Delafage
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4068120405870812,43.50948323075183 1.4126003351203056,43.50733880432274 1.4133742337375745,43.507062813179665 1.4135220964333404,43.50694547095394 1.4135477882504666,43.50692312313051</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

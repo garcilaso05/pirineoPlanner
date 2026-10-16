@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Route de Corronsac</name>
+      <description>ref: D 94
+name: Route de Corronsac
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4747214421314943,43.45767991145857 1.4746396056091111,43.45764189568155 1.4745550741408753,43.45759722874318 1.4744665900853895,43.45755093158976 1.4737304207100537,43.457214069825916 1.4734728737180967,43.45708952309271 1.4732717409259821,43.45696882336983 1.4727580842465227,43.45663971814723 1.4725098797335203,43.45646059077538 1.4723269827416738,43.45631198051445 1.4722243053046988,43.45622401402294 1.4721183041011727,43.45612183188142 1.4720167944740672,43.4559918705547 1.471394172150644,43.45495171341516 1.4712935608388225,43.454726803409535</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Notre-Dame</name>
+      <description>name: Chemin de Notre-Dame
+date_on: 01/11
+highway: unclassified
+surface: asphalt
+date_off: 30/04
+cycleway:both: no
+lane_markings: no
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4712935608388225,43.454726803409535 1.4712446026558381,43.45474141052141 1.4706484806332962,43.4550023164209 1.4702522337614714,43.455177991991 1.4696869239531747,43.45540387846255 1.4679200276208402,43.456055775306204</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Notre-Dame</name>
+      <description>name: Chemin de Notre-Dame
+highway: track
+surface: grass
+tracktype: grade3
+motor_vehicle: destination
+access:conditional: yes @ Novembre 1 - May 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4679200276208402,43.456055775306204 1.4665595291230413,43.456562772344455 1.4658768095071104,43.456838798655426 1.465801710349358,43.45686507749438 1.465711878820946,43.456886987386106 1.4656180048737555,43.45689376901765 1.465553595667884,43.45688118387389 1.465487928820615,43.45685490504194 1.465441036762784,43.45682230101621 1.4653759089046854,43.45675018084883 1.4651358790607685,43.45643189904656 1.4649322309858588,43.4561258748284</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

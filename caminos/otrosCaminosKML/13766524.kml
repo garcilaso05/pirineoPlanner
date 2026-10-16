@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: designated
+highway: footway
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5001379256227299,43.595526812570945 1.5001681090162764,43.595511914218065 1.5002052094375105,43.59550078924473 1.5007067388606345,43.595446725748545 1.5009348211112723,43.59539949334029 1.5011559863342228,43.59535596922877 1.5013208271888585,43.595330921706385 1.5017643254446285,43.595305613939416 1.5020027383210337,43.595300018904666 1.502480192894543,43.59528830836513 1.5029394116677852,43.59519052527102 1.5030084022816055,43.59518167729192 1.5032051333288277,43.59517217872468 1.5034902586000072,43.59514817206517 1.503504631644553,43.59514381313139 1.5035393066145202,43.59511349576231 1.503564998431646,43.59511121870607</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+bicycle: designated
+highway: footway
+surface: wood
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.503564998431646,43.59511121870607 1.5037489734018337,43.59510198036276</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: designated
+highway: footway
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5037489734018337,43.59510198036276 1.5037731380829766,43.595104192360594 1.5038093401889265,43.5951265725693 1.5038457219579333,43.59514908288712</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

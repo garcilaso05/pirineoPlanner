@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de la Glacière</name>
+      <description>name: Chemin de la Glacière
+lanes: 1
+oneway: yes
+highway: tertiary
+surface: asphalt
+cycleway: lane
+maxspeed: 50
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4158683162924037,43.64280586973867 1.4160122264009198,43.64285182978622 1.416114544511781,43.64296552712194 1.4162324034770575,43.643109192401354 1.4164035325386823,43.64330479765256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Glacière</name>
+      <description>name: Chemin de la Glacière
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:both: lane
+cycleway:both:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4164035325386823,43.64330479765256 1.4166288300119394,43.643418819163514 1.4167783995067453,43.64348681592508 1.4168296933094686,43.6435102182344 1.416903085668181,43.643543501503046 1.417120298303881,43.64364543139858 1.417200068701111,43.64368807548725 1.4176273074502383,43.64392827295166 1.4179792673785563,43.64410352873648 1.4184681305561742,43.64435003007297 1.418777330676968,43.64451741898511 1.4189322002319502,43.64462168741541 1.4189958009540662,43.644667906094384 1.4191195888002177,43.644757678138575 1.4193866579341863,43.64495711330774</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Glacière</name>
+      <description>name: Chemin de la Glacière
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:left: no
+cycleway:right: lane
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4193866579341863,43.64495711330774 1.4194263634697446,43.64498708052985 1.4194813403651327,43.64504577983916 1.4195169136503838,43.645112279651855 1.4195229323627874,43.64516616849787</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

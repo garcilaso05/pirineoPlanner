@@ -1,0 +1,242 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Le Moulin de Piis : boucle locale</name>
+    <Placemark>
+      <name>Route du Canal</name>
+      <description>ref: D 226E1
+name: Route du Canal
+highway: tertiary
+sidewalk: both
+cycleway:both: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08934886360979473,44.55496729796703 -0.08935182805023233,44.555000712192</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Canal</name>
+      <description>ref: D 226E1
+name: Route du Canal
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08935182805023233,44.555000712192 -0.08936251800211335,44.555263800534355 -0.08938066397085255,44.555455579024176 -0.08946896836328151,44.55565900691839 -0.08965572811084996,44.55596811609869 -0.0896921997113852,44.55606227597208 -0.08971582540335755,44.5561563716825 -0.08973307305681266,44.55635160379355 -0.0897439426717505,44.556675111561184 -0.089761280156734,44.556946193554886 -0.0897590343685237,44.55707370087059 -0.08974798509052904,44.55720728880777 -0.08971762203392579,44.557404181633764 -0.08964809243093494,44.557822224628495 -0.08963839062586645,44.55800452141415 -0.08964575681119623,44.55819757103922 -0.08972013731672132,44.55907102297589 -0.08973639682336389,44.559229505155095</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Canal</name>
+      <description>ref: D 226E1
+name: Route du Canal
+lanes: 2
+highway: tertiary
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08973639682336389,44.559229505155095 -0.08975930386310893,44.559451417884986 -0.08977682101114927,44.55949481462217 -0.08979011607735422,44.5595209934642 -0.08979793142032608,44.55953622711258 -0.08981446042155389,44.55956887063139</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de l'Osier</name>
+      <description>ref: D 226E1
+name: Route de l'Osier
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08991426324961954,44.55962570871455 -0.08995630440491634,44.559625516694084 -0.09002026445314566,44.559625068646355 -0.09022373286499873,44.55958519238393 -0.09068627540479186,44.55957623142231 -0.09116804189166518,44.55958000782773 -0.09155557510523434,44.55956957470708 -0.09163956758429952,44.559578471662846 -0.09173442967830253,44.559602794268784 -0.09194346764491713,44.559705589169994 -0.09294086710487504,44.56041337129925 -0.09352872462680285,44.56077250759106 -0.09430774364119132,44.5611962868442 -0.09459664183656416,44.56131219994915 -0.09503933160857825,44.56143796956711 -0.09577496199474374,44.56160918222329</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de l'Auriol</name>
+      <description>ref: D 226E1
+name: Route de l'Auriol
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.09577496199474374,44.56160918222329 -0.09571657150127597,44.56170819731263 -0.0956545877466717,44.56199730504808 -0.09558703443730593,44.562361103840935 -0.09538006259584478,44.56333881782513 -0.09532319923836002,44.563590220022085 -0.09522492354627733,44.56405141990392 -0.09511200531506352,44.5643522282925</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>ref: D 226E1
+layer: 1
+bridge: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.09511200531506352,44.5643522282925 -0.0950562199359197,44.56446890312755</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>ref: D 226E1
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.0950562199359197,44.56446890312755 -0.09455145657777293,44.5655587743078</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.09455145657777293,44.5655587743078 -0.09444428756437748,44.56559288645337 -0.09428636373742925,44.56564127062556 -0.09409816668540621,44.565714806810185 -0.0939815653615275,44.56577823089476 -0.09387403702201841,44.565846774908415 -0.09257507312118157,44.56674347164735 -0.09245442937852431,44.56685809372278 -0.09193143022010995,44.56763490672717 -0.09173020759646716,44.56785179557088 -0.09143582967786121,44.56808109912544</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.09143582967786121,44.56808109912544 -0.0913117723371243,44.56807969118005 -0.09093286295028269,44.56810119434223 -0.09051918876194563,44.56808301905091 -0.09023091938727168,44.5680610039017 -0.08936179934988604,44.5680983144549</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Moulin de Piis</name>
+      <description>name: Chemin du Moulin de Piis
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08936179934988604,44.5680983144549 -0.08932829218978838,44.56807578733131 -0.08930412750864558,44.56803988471004 -0.08919749748442059,44.56776040668487 -0.08900435969833488,44.567496670866305 -0.08873082269432049,44.567277028767236 -0.08844911102122062,44.56701898664027 -0.0883391572304444,44.56678020705514 -0.0882144710690086,44.56642859577181 -0.08806903382450963,44.56621989356626 -0.0878590077110825,44.5659976866538</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+highway: path
+surface: compacted
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.0878590077110825,44.5659976866538 -0.08791209814437397,44.56591890283556 -0.08800130085208704,44.56586917489536</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+layer: 1
+bridge: yes
+highway: path
+surface: compacted
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08800130085208704,44.56586917489536 -0.08803965891471895,44.56585362290534</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+highway: path
+surface: compacted
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08803965891471895,44.56585362290534 -0.08812751414950583,44.565813110911805 -0.08817287907135386,44.56576939888713 -0.08817593334331988,44.56571979881935</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+layer: 1
+bridge: yes
+highway: path
+surface: compacted
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08817593334331988,44.56571979881935 -0.08814350416156316,44.565629430587144</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+highway: path
+surface: compacted
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08814350416156316,44.565629430587144 -0.08811098514827803,44.56554559024617 -0.08810442744670395,44.56537848520613</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path
+surface: compacted
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08810442744670395,44.56537848520613 -0.08817970626751317,44.56529720452672 -0.08828489898728356,44.56520139558004</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin rural nº 4 du Moulin de Piis</name>
+      <description>name: Chemin rural nº 4 du Moulin de Piis
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08828489898728356,44.56520139558004 -0.08828642612326656,44.56469252390718 -0.08826962762745354,44.56434422808953 -0.08832307738685864,44.563817620309756 -0.08836871180329192,44.562848490811675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Sourd</name>
+      <description>name: Chemin de Sourd
+highway: unclassified
+surface: asphalt
+maxspeed:type: FR:rural</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08836871180329192,44.562848490811675 -0.08833978605114327,44.56251221663984 -0.08831346541331857,44.56171382971084 -0.08833268936039872,44.56126541230177 -0.08837140674914427,44.56097860512132 -0.08844497877091366,44.56073730452376 -0.08852681529329695,44.56059617201281</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de La Bassanne</name>
+      <description>name: Route de La Bassanne
+width: 4.5
+highway: unclassified
+surface: asphalt
+sidewalk: no
+source:width: ARCore
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08852681529329695,44.56059617201281 -0.08867162371709701,44.56056020076933 -0.0888284695657043,44.560473408851855 -0.08917459044467554,44.56014211343966 -0.08930556481310017,44.560051608530294</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de La Bassanne</name>
+      <description>name: Route de La Bassanne
+width: 4.7
+highway: unclassified
+surface: asphalt
+sidewalk: left
+source:width: ARCore
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08930556481310017,44.560051608530294 -0.08961835819503058,44.55983552268937 -0.08969920657060135,44.559763771259625 -0.08976370560800113,44.55971147778897 -0.08980754339386615,44.5596760820594</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

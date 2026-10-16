@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>residential</name>
+      <description>ref: D 4
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.40982148662041,43.498154905892605 1.409816006897177,43.49809541160634</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Tindo l'Esclop</name>
+      <description>name: Chemin de Tindo l'Esclop
+highway: residential
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.409816006897177,43.49809541160634 1.4094220058135623,43.497849483890874 1.409358494922975,43.49782191959324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Catilat</name>
+      <description>name: Place du Catilat
+highway: residential
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.409358494922975,43.49782191959324 1.4092977688097685,43.497878677270386 1.409238569832545,43.49792318411421 1.4091772148986397,43.497956613098324 1.409045611709516,43.49800222766668 1.4089623378826783,43.49802757631904 1.4089052948621366,43.49806048393671 1.408802437762105,43.498164615250296</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Aliette</name>
+      <description>name: Chemin de l'Aliette
+oneway: yes
+highway: residential
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.408802437762105,43.498164615250296 1.407921459962969,43.49922390331381 1.407145405389018,43.500168684486724</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Berterole</name>
+      <description>name: Chemin de la Berterole
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+check_date:cycleway: 2026-07-25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.407145405389018,43.500168684486724 1.407091057314329,43.50023788575443 1.4067512246423461,43.50067179283702 1.4065599733183574,43.50128397510539 1.4063179671808157,43.5018754956198 1.4060625761455405,43.502597914277956 1.4060358063500735,43.50265557968627</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

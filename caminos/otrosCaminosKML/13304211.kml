@@ -1,0 +1,169 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Plaça Major</name>
+      <description>ref: GIV-5125
+name: Plaça Major
+narrow: yes
+highway: tertiary
+name:ca: Plaça Major
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9166031724214316,42.18652071045924 2.9166217675478125,42.18646772724172 2.916781488005329,42.18649022514604</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Creu</name>
+      <description>ref: GIV-5125
+name: Carrer de la Creu
+narrow: yes
+highway: tertiary
+name:ca: Carrer de la Creu
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.916781488005329,42.18649022514604 2.916844909064388,42.18639630632672 2.916899706296719,42.186315100714914 2.917041370617025,42.18589762234926 2.9170967966700547,42.18579731264367 2.917168122903614,42.18570638811475 2.9173898271157346,42.185437208142446</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Pobla</name>
+      <description>name: Carrer de la Pobla
+highway: residential
+name:ca: Carrer de la Pobla
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9173898271157346,42.185437208142446 2.9169318659838903,42.185240913715994 2.916867366946491,42.18483108306923 2.9166956090641674,42.184182484198075 2.9166579696537624,42.18380047072716 2.9167577724818283,42.18340500880259 2.9167383688716915,42.18305001621545 2.916748160508288,42.18273070091049 2.916815534154597,42.18254711218557 2.9169488441427602,42.18208361152091 2.9170339146001663,42.1814928312977 2.917051611411264,42.18121497962561 2.917200372422314,42.18049398412241</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.917200372422314,42.18049398412241 2.917298288788283,42.180254271766145 2.91736970485337,42.18002647428891 2.917375184576603,42.179684776534316 2.917397103469536,42.17938368422976 2.9174685195346233,42.179017485355864 2.917545415322944,42.17870826833106 2.9176277010029694,42.17824860061588 2.9176551894506635,42.17787840091465 2.9177914638792646,42.17746659197534 2.917805657260754,42.1768221781663 2.9178627901128236,42.17634139325596 2.9178769834943132,42.176161780342504 2.918019635961431,42.17571807168138 2.9183190444456275,42.17487278641752 2.9184473238682003,42.174592775277134 2.9186183630982967,42.174407898007814 2.9189106748917495,42.17406450552036 2.919032576275804,42.17396477621669</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.919032576275804,42.17396477621669 2.918073265383893,42.17324249968368 2.9180571855403072,42.173123328921925 2.9181536646018214,42.17239172204552 2.918243316467177,42.17155451478671 2.9181645342167597,42.171230813868426 2.918250323326393,42.17084119880156 2.9184256744698525,42.1702106324899 2.918496282051185,42.17007980467236</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.918496282051185,42.17007980467236 2.9184234286816424,42.16993938917173 2.9180953639398823,42.16992860333091 2.9180078680312094,42.16966927654269 2.9178329660453906,42.16955589147942 2.917713939270245,42.16952799459477</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Romanyà d'Empordà</name>
+      <description>name: Camí de Romanyà d'Empordà
+highway: unclassified
+name:ca: Camí de Romanyà d'Empordà</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.917713939270245,42.16952799459477 2.9174279156837812,42.169700568920135</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9174279156837812,42.169700568920135 2.9150342647777165,42.16870779405581 2.9148249573165166,42.168594207527086 2.9145860952824694,42.16850139399875 2.913980720612501,42.16832528761118 2.9138283663403146,42.16825437885165 2.913682030780531,42.167977600895405 2.9122834437146854,42.1670569076543 2.912257123076861,42.16703992916743</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.912257123076861,42.16703992916743 2.9120620988286787,42.166911025683184 2.9116036885391923,42.166653284509444 2.9113507229551843,42.16645020689564 2.9111346781293537,42.1664149845153 2.910635663989025,42.166302725531416 2.910597216094865,42.16629400314652 2.9104392024363883,42.166043983128986 2.9102560359499563,42.16555412746324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera Madrid-Barcelona-Frontera Francesa</name>
+      <description>hgv: delivery
+ref: N-II
+name: Carretera Madrid-Barcelona-Frontera Francesa
+lanes: 2
+highway: primary
+name:ca: Carretera Madrid-Barcelona-Frontera Francesa
+surface: asphalt
+maxspeed: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9102560359499563,42.16555412746324 2.9095148360090297,42.16502531612456</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera Madrid-Barcelona-Frontera Francesa</name>
+      <description>hgv: delivery
+ref: N-II
+name: Carretera Madrid-Barcelona-Frontera Francesa
+lanes: 2
+highway: primary
+name:ca: Carretera Madrid-Barcelona-Frontera Francesa
+surface: asphalt
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9095148360090297,42.16502531612456 2.90925630087026,42.164826694455954 2.9091209247569427,42.164590784637475 2.909090471868811,42.1643550071096 2.9091888373924224,42.16411723114149 2.9094391080305786,42.16375500560244</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Bàscara</name>
+      <description>hgv: delivery
+ref: N-II
+name: Pont de Bàscara
+lanes: 2
+bridge: yes
+highway: primary
+name:ca: Pont de Bàscara
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9094391080305786,42.16375500560244 2.9109036314382783,42.16159998711852 2.9111987280091114,42.16116569846</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera Madrid-Barcelona-Frontera Francesa</name>
+      <description>hgv: delivery
+ref: N-II
+name: Carretera Madrid-Barcelona-Frontera Francesa
+lanes: 2
+highway: primary
+name:ca: Carretera Madrid-Barcelona-Frontera Francesa
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9111987280091114,42.16116569846 2.911377672413708,42.160889022668236 2.9114301340263005,42.160804121911944 2.9114628327026426,42.16072328296831 2.9114747802959213,42.16068199780075 2.9114868177207285,42.16058497755097 2.911483493954177,42.160529175857405 2.9114747802959213,42.16047870125211 2.9114628327026426,42.16043581778274 2.9114443274077897,42.16038287929831</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Girona</name>
+      <description>hgv: delivery
+ref: N-II
+name: Carrer Girona
+lanes: 2
+highway: primary
+name:ca: Carrer Girona
+surface: asphalt
+maxspeed: 50
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9114443274077897,42.16038287929831 2.9113765944353673,42.1602259946743 2.911302483424427,42.160075169318866 2.9112334029790783,42.15993180166097 2.9109327368534834,42.159307585880065 2.910867608995385,42.15917467120623 2.9108208067690824,42.15907918023114 2.910782089380337,42.15898641933424 2.910747234747313,42.158898319663045 2.910678513628078,42.15868649372335 2.9106344961791555,42.15852760715542 2.9106108704871834,42.158442303682584 2.9105726920876083,42.15830159598547 2.9103568269248346,42.15750302559904 2.9102905312568663,42.15725783210241</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

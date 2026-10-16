@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+layer: 1
+bridge: yes
+oneway: yes
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: yes
+cycleway:width: 1.5
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4292278815347728,43.584892874483636 1.43119600049075,43.58456160323525 1.4314939716704924,43.58452360225265 1.431569789480472,43.584533623062036 1.4315982660749789,43.584550931728856</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+layer: 1
+bridge: yes
+footway: sidewalk
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4315982660749789,43.584550931728856 1.4316435411652984,43.584567199268335</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

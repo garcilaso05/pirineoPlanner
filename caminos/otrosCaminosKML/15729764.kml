@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Boulevard Léo Lagrange</name>
+      <description>name: Boulevard Léo Lagrange
+lanes: 2
+width: 3
+highway: cycleway
+surface: asphalt
+smoothness: excellent
+name:etymology:wikidata: Q3270494</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3519731264266073,43.53999457673275 1.3519430328645892,43.539963189699755 1.3508539154141228,43.538642510128106 1.350501506328163,43.53822190007291 1.35041850199591,43.538123177733596 1.3503623572906525,43.53805519207084 1.349975363066254,43.537585476772065 1.34924359543581,43.5366998910054</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Léo Lagrange</name>
+      <description>name: Boulevard Léo Lagrange
+lanes: 2
+width: 3
+highway: cycleway
+surface: asphalt
+cycleway: crossing
+smoothness: excellent
+name:etymology:wikidata: Q3270494</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.34924359543581,43.5366998910054 1.3492314681794746,43.53668530370542 1.3492133222107352,43.53666459494314</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Léo Lagrange</name>
+      <description>name: Boulevard Léo Lagrange
+lanes: 2
+width: 3
+highway: cycleway
+surface: asphalt
+smoothness: excellent
+name:etymology:wikidata: Q3270494</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3492133222107352,43.53666459494314 1.34911747196992,43.53655571101942 1.349105793871226,43.53652367097571 1.3490987870120101,43.53649768726923 1.3490997751588225,43.53647880186151 1.3491216042202268,43.536441096150455 1.349307016494869,43.53634530139683 1.3493476203457113,43.53631332636361 1.3493989141484346,43.53624501304847 1.3494142753397926,43.53620711182404 1.3494234381556909,43.536166475433234 1.3494218211881797,43.53612662048488 1.3494045735347242,43.536060716492884 1.3493804986851101,43.536017214608904 1.3493046808751303,43.53592558703505 1.3492862654118059,43.535897909879814</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Léo Lagrange</name>
+      <description>name: Boulevard Léo Lagrange
+width: 1.8
+highway: cycleway
+surface: asphalt
+smoothness: excellent
+name:etymology:wikidata: Q3270494</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3492862654118059,43.535897909879814 1.3492657838233277,43.53586632534597 1.3492479971807023,43.535839299391505 1.3492417089737134,43.535812078056445 1.3492446734141512,43.535780232986205 1.3492611125838505,43.53575301162449 1.3492856365911072,43.53572702758593 1.3492990214888405,43.535713612263386 1.349310070766835,43.53569928521661 1.349318784425091,43.535684502305685</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+surface: paving_stones
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3491532249182276,43.53548587693954 1.3491729878544785,43.53551029812639</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway
+crossing: uncontrolled
+cycleway: crossing
+crossing:markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3491729878544785,43.53551029812639 1.3491867320783255,43.53552599280392 1.3491965237149222,43.53553869181386</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+surface: paving_stones
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3491965237149222,43.53553869181386 1.34929111631434,43.53564959638708</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

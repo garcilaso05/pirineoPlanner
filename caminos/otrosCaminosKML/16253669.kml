@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Liaison Neuvic - Saint-Germain-du-Salembre</name>
+    <Placemark>
+      <name>Rue de Puy de Pont</name>
+      <description>name: Rue de Puy de Pont
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.45061156534710817,45.11074758777025 0.4504958623385136,45.11066028922903 0.4504127681747325,45.110553527432835 0.45034503520230995,45.11042127946778 0.45016833658592365,45.11027470322518 0.4500713185352387,45.11015139376762 0.4500413148047492,45.11002117361937 0.45006233538239754,45.10989260153594 0.4501193784029391,45.109708872286845 0.45032554176064454,45.109327083805404 0.4503427894140996,45.10926298721583 0.45031089922151335,45.10913213104689</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Puy de Pont</name>
+      <description>name: Route de Puy de Pont
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.45031089922151335,45.10913213104689 0.45020462852340204,45.10912769309016 0.45009880698293275,45.109099099960694 0.4500006211223785,45.10904571762744 0.4498000273194347,45.10900818512571 0.44925609741490025,45.10901021391021 0.44878358357545334,45.10897261798558 0.4486208986774993,45.10890611181205 0.4484705206989378,45.10882698901849 0.44806708730483963,45.1086922010583 0.44776255842352314,45.10857668638194 0.44743593098621726,45.108410324549226 0.4472798037898373,45.108271921786134 0.44707373026366026,45.108065172919886 0.44691697424658144,45.107898809596335 0.44685256504071,45.10773612304196 0.4468472649805337,45.1075866234534</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Château Rompu</name>
+      <description>name: Rue du Château Rompu
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.4468472649805337,45.1075866234534 0.4468996367615979,45.10741911751202 0.446929101502917,45.10729789413204 0.44691311149085966,45.107085879400906 0.4468888569781885,45.106911714796695 0.44683531738725496,45.10671859244825 0.4467762082415599,45.106586081988794 0.4466743392883407,45.10640437097345 0.4465563006600074,45.1061203908766 0.44643556708582177,45.10572469310127 0.446357772982217,45.10556009825013 0.44626398886655494,45.105389669799386 0.4461942796005073,45.1051569149437 0.44608702075558343,45.10481789384697 0.44600644187459787,45.1044904103634 0.4459232578792883,45.103996296684365 0.44586971828835487,45.10374641670257 0.44578383934719307,45.10334512276085 0.4457785392870167,45.10318229641643 0.4457999191907788,45.10300057456624 0.44586971828835487,45.10276958535021 0.445960897289693,45.10255368599283 0.4460842359782026,45.102262204713504 0.44632031323486926,45.10156167977305 0.44639002250091697,45.101417807321546 0.44651884091265964,45.10123227536584 0.4468868806845634,45.10084979610274 0.44691194368099035,45.100793616074746 0.44691975902396214,45.100758931537754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Grand Mur</name>
+      <description>ref: D 3
+name: Route du Grand Mur
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: secondary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.44691975902396214,45.100758931537754 0.4470628606487224,45.10074688388743 0.44719383501714705,45.10073363146915 0.447268395185729,45.10072507129301 0.44741122731590394,45.100708775250475 0.4474856976529575,45.100704970726255 0.4475416626951581,45.100706809579655</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 44
+oneway: yes
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.4475416626951581,45.100706809579655 0.4476977000600097,45.10067707087422 0.44811667430852303,45.100617910461054 0.44851867039816656,45.1005879814827</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 44
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.44851867039816656,45.1005879814827 0.4488032566801756,45.10055158478027 0.44911434326306615,45.10049261446399 0.44928071125368507,45.10043529272184</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 44
+layer: 1
+bridge: yes
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.44928071125368507,45.10043529272184 0.4501660907977133,45.100051983796675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Gare</name>
+      <description>ref: D 44
+name: Route de la Gare
+oneway: no
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.4501660907977133,45.100051983796675 0.45104536179780946,45.09968547591655 0.45158336282146866,45.09948180304649 0.45211893839386075,45.09933570599482</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.45211893839386075,45.09933570599482 0.45213322160687824,45.099288782383276 0.45226204001862097,45.09912632493304 0.4523200711859751,45.09908117664465</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.4523200711859751,45.09908117664465 0.45247422208872995,45.09896469135931</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.45247422208872995,45.09896469135931 0.4525390804522434,45.09899398708218 0.4526430155306161,45.09900920563359 0.4527432675163238,45.098992718869376 0.45302803346138965,45.09888650594741</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.45302803346138965,45.09888650594741 0.4531390652305069,45.09884991792794 0.45335043881686016,45.09878409748034 0.4535831923069755,45.09871593075182 0.45381316101971014,45.09864237400465</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

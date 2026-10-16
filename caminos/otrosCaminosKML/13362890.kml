@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Bellevue</name>
+      <description>name: Chemin de Bellevue
+highway: service
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6219070776679265,43.459069394529365 1.6219981668377363,43.45908902142554 1.6220867407247503,43.459118168332715 1.6222520307370285,43.459216889520185 1.6228141964418306,43.45961848877908</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade5
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6228141964418306,43.45961848877908 1.6230147004132462,43.459695495898345 1.6231790022787114,43.45976220054643 1.623450562989101,43.45987357041071 1.6238502234590055,43.46008828936508 1.62415600998172,43.46023910729408 1.6243739412696474,43.46033411000738 1.624613971113564,43.4604109858068 1.62489703025959,43.460504423351686 1.6251624824260473,43.46060562002735 1.625490367504751,43.46070349113568 1.6257109937385308,43.46076328306727</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

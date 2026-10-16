@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: sand
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.430245043930981,43.58039228388337 1.4302266284676566,43.580444473739405 1.43020381125944,43.58048390893728 1.430166261680564,43.58051722710413 1.430088467576959,43.580558874786774 1.4300106734733544,43.580591021572104 1.4299185063252036,43.580626226837566 1.4297622892972954,43.58069448985372 1.429694466493344,43.580738675311 1.4296040061442334,43.58080082122327 1.4295395969383622,43.580866871520456 1.429448417937024,43.58096793158859 1.4293908359273118,43.5810689914871 1.429359933881538,43.58115742689337 1.4293464591522764,43.58123122057666 1.4293478066252023,43.581303127032896</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: asphalt
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4293478066252023,43.581303127032896 1.4295167797301453,43.58202882430725 1.4295816380936588,43.58213691028519</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Fernand Jourdant</name>
+      <description>name: Allée Fernand Jourdant
+note: vérifié le 18 mars 2009 sur un des panneaux : il y a bien un "t" à la fin de Jourdant
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4295816380936588,43.58213691028519 1.4296181995257224,43.58224987651832 1.4297568994055905,43.58268748852522 1.4299056604166407,43.582989422687355 1.4299177876729763,43.583013889699686 1.4300960134253455,43.58327521759406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Fernand Jourdant</name>
+      <description>name: Allée Fernand Jourdant
+note: vérifié le 18 mars 2009 sur un des panneaux : il y a bien un "t" à la fin de Jourdant
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4300960134253455,43.58327521759406 1.4301271849657047,43.583350505325264 1.4303831149901503,43.58372251773686 1.4305107655920237,43.58388662673186</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Fernand Jourdant</name>
+      <description>name: Allée Fernand Jourdant
+note: vérifié le 18 mars 2009 sur un des panneaux : il y a bien un "t" à la fin de Jourdant
+highway: residential
+surface: asphalt
+maxspeed: 30
+maxheight: 4.1
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4305107655920237,43.58388662673186 1.4305635865307296,43.583952803785266 1.4306803675176654,43.58411040508856 1.4308310149908123,43.584313490222364 1.4308534728729152,43.584343878102395 1.4309824709477148,43.58451800621551 1.431091526423207,43.58466512976308 1.431140843932305,43.58473983012638 1.4314374676391215,43.58517592743544 1.4316306054252073,43.585445379595086</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

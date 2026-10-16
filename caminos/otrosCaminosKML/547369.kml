@@ -1,0 +1,308 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tour du Poey asp27</name>
+    <Placemark>
+      <name>Place de la Mairie</name>
+      <description>name: Place de la Mairie
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5992386375884386,42.97458917676122 -0.5992144729072959,42.97456492394157 -0.5991804267580279,42.97454422030748 -0.5991384754342594,42.97453311264061 -0.5990312165893356,42.97452469973181 -0.5989386901150712,42.97451740416153 -0.5988665553977565,42.97449886946559 -0.5986765617151651,42.97446653232313</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Fontaine Peloy</name>
+      <description>name: Rue Fontaine Peloy
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+surface: asphalt
+maxspeed: 30
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5986765617151651,42.97446653232313 -0.5984839629182498,42.9743267331396 -0.5984437183935213,42.97428019906725</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Haut</name>
+      <description>name: Rue de Haut
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+surface: asphalt
+maxspeed: 30
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5984437183935213,42.97428019906725 -0.5982602824125041,42.97424897915435 -0.5980789125566404,42.97420113049918 -0.5975920256726476,42.97416412663731</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Poey</name>
+      <description>name: Rue du Poey
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+surface: asphalt
+maxspeed: 30
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5975920256726476,42.97416412663731 -0.597589690052909,42.974494400105456</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Poey</name>
+      <description>name: Chemin du Poey
+source: Direction Générale des Impôts - Cadastre ; mise à jour : 2010
+highway: path
+name:oc: Camin deth Puei
+surface: ground
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.597589690052909,42.974494400105456 -0.5977438409556638,42.97461697876221 -0.5977877685730573,42.974683690368174 -0.5978835289823444,42.97494508085996 -0.5979214378873343,42.975237098141704 -0.5979199107513512,42.975572821000554 -0.5981896748311724,42.97639227152707 -0.5983351120756714,42.97668520206627</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Poey</name>
+      <description>name: Chemin du Poey
+source: Direction Générale des Impôts - Cadastre ; mise à jour : 2010
+highway: path
+name:oc: Camin deth Puei
+surface: ground
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5983351120756714,42.97668520206627 -0.5983995212815427,42.97684937926332 -0.5984585405957094,42.97712022467398 -0.5984591694164082,42.97740427917122 -0.598473272966369,42.97749937995566 -0.5984644694765844,42.97766079463387 -0.5984892629784262,42.97790521613522 -0.5985101038930177,42.97806702408051 -0.5985028275392164,42.97813767526345 -0.5985040851806142,42.97825249147782 -0.5985422635801892,42.978309406591045 -0.5985249260952058,42.978593915645426 -0.5985242074429784,42.97879508884385 -0.5985154937847225,42.978951110988866 -0.5985249260952058,42.97922240718795 -0.5985490009448201,42.979286090642596 -0.5985979591278047,42.97955252204829 -0.5986066727860606,42.97970801650882 -0.5986012828943559,42.979949406749846 -0.5985859217029975,42.98000093125248</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Minipiste du Tour du Poey</name>
+      <description>name: Minipiste du Tour du Poey
+highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5985859217029975,42.98000093125248 -0.5983793990191784,42.98018678713534 -0.598189584999644,42.980296670547226 -0.597971743543245,42.98044729988124 -0.5978080704984784,42.98059247413885 -0.5976933556366963,42.980673506067475 -0.5975713644211129,42.98073179904336 -0.597447307080376,42.98076032117828 -0.5973447194749295,42.98076912754906 -0.5971248118933771,42.98077747388437 -0.5970000359004128,42.98079423227077 -0.5967860571997355,42.98084371877335 -0.5967143716400629,42.98084470455986 -0.5966406199552367,42.98082019133088 -0.5966037890285878,42.98079022340228 -0.5965782768745187,42.98073278483165 -0.5965648919767854,42.980655301823546 -0.5965380323497902,42.980640580698164 -0.5964214310259115,42.98061021836593 -0.5961733163444377,42.98059451143925 -0.5956099828297664,42.98056309757387 -0.5955523109885258,42.98050717033865 -0.5954357096646472,42.98042278649381 -0.595347135777633,42.980365873336815 -0.5952035849952306,42.98027951770698 -0.5950507815654019,42.98021478376491</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Minipiste du Tour du Poey</name>
+      <description>name: Minipiste du Tour du Poey
+highway: track
+surface: dirt
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5950507815654019,42.98021478376491 -0.5948642913124188,42.98024028303145 -0.5943989639952448,42.980319803872064 -0.594202502442608,42.980343594384564</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.594202502442608,42.980343594384564 -0.5942385248855011,42.98037658563252 -0.5942832609866502,42.98047010455192</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5942832609866502,42.98047010455192 -0.5942193009384209,42.980488768887035 -0.5936731252456762,42.980231608024425</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Ronde du Poey</name>
+      <description>name: Chemin de Ronde du Poey
+highway: path
+name:oc: Andami deth Puei
+surface: dirt
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5936731252456762,42.980231608024425 -0.5934645364367036,42.979977403487496 -0.5929010232589755,42.97943527659908 -0.5918666132093118,42.97907670392751</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Ronde du Poey</name>
+      <description>name: Chemin de Ronde du Poey
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: track
+surface: grass
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5918666132093118,42.97907670392751 -0.5918257398638844,42.978966818335365 -0.5916862315002608,42.97888052646177 -0.591311903521368,42.978679682149945</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Ronde du Poey</name>
+      <description>name: Chemin de Ronde du Poey
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: path
+name:oc: Andami deth Puei
+surface: dirt
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.591311903521368,42.978679682149945 -0.5912838760845035,42.97858813215269 -0.5913402004528179,42.978486000839126 -0.5914674917285776,42.97813307472378 -0.591501178551732,42.97788438218119 -0.5914871648332998,42.97732232281398 -0.591641136072998,42.97669341750889 -0.5917747155557463,42.97649381480447 -0.5922951095998369,42.97609710497056 -0.5927158804789184,42.975863323639686 -0.5929307574948798,42.975712420177615 -0.5933035583377894,42.97555231488006 -0.5938910565336035,42.975309132801485 -0.5944373220578767,42.97517327904324 -0.5953182100254844,42.975074099694915 -0.5953553104467183,42.97506989327768</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Ronde du Poey</name>
+      <description>name: Chemin de Ronde du Poey
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: path
+name:oc: Andami deth Puei
+surface: ground
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5953553104467183,42.97506989327768 -0.5955133241051951,42.97502802626532 -0.5956145642377152,42.9749805725685 -0.5957068212173944,42.97489138318051 -0.595743382649458,42.97478878564791</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Carrérasse</name>
+      <description>name: Chemin Carrérasse
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: path
+name:oc: Era Carrerassa
+surface: ground
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.595743382649458,42.97478878564791 -0.5958264768132392,42.974819413756926 -0.5962801260317195,42.97480922629747 -0.5965133286794769,42.9746593718601 -0.5967105088843412,42.97420172203499</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Carrérasse</name>
+      <description>name: Chemin Carrérasse
+width: 4
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+surface: asphalt
+maxspeed: 30
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5967105088843412,42.97420172203499 -0.5968015980541509,42.974065405745876 -0.5968065387882135,42.97390772804133</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'Aoulet</name>
+      <description>name: Rue d'Aoulet
+width: 3.1
+oneway: no
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+surface: asphalt
+maxspeed: 30
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5968065387882135,42.97390772804133 -0.5970494432410395,42.973818274190954 -0.5972671050343816,42.97376227509422 -0.5973659197156348,42.97377509179339 -0.5974621292825638,42.973750378565924</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'Aoulet</name>
+      <description>name: Rue d'Aoulet
+width: 3.2
+oneway: no
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+surface: asphalt
+maxspeed: 30
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5974621292825638,42.973750378565924 -0.5975898697159656,42.97371751521615 -0.5978893680316912,42.97368182559839</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'Aoulet</name>
+      <description>name: Rue d'Aoulet
+width: 2.5
+oneway: no
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5978893680316912,42.97368182559839 -0.5979100292832259,42.97367932798165</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'Aoulet</name>
+      <description>name: Rue d'Aoulet
+width: 2.8
+oneway: no
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5979100292832259,42.97367932798165 -0.598099124650533,42.973684388941805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'Aoulet</name>
+      <description>name: Rue d'Aoulet
+width: 4
+oneway: no
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.598099124650533,42.973684388941805 -0.5982648638204531,42.97383371994223 -0.5984510845788511,42.97399567005396</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Fontaine Peloy</name>
+      <description>name: Rue Fontaine Peloy
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+surface: asphalt
+maxspeed: 30
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5984510845788511,42.97399567005396 -0.5984437183935213,42.97428019906725</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Fontaine Peloy</name>
+      <description>name: Rue Fontaine Peloy
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+surface: asphalt
+maxspeed: 30
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5984437183935213,42.97428019906725 -0.5984839629182498,42.9743267331396 -0.5986765617151651,42.97446653232313</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Mairie</name>
+      <description>name: Place de la Mairie
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5986765617151651,42.97446653232313 -0.5988665553977565,42.97449886946559 -0.5989386901150712,42.97451740416153 -0.5990312165893356,42.97452469973181 -0.5991384754342594,42.97453311264061 -0.5991804267580279,42.97454422030748 -0.5992144729072959,42.97456492394157 -0.5992386375884386,42.97458917676122</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

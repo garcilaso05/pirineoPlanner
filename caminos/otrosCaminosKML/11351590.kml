@@ -1,0 +1,171 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Camí de Sant Tomàs de Fluvià</name>
+      <description>name: Camí de Sant Tomàs de Fluvià
+highway: unclassified
+name:ca: Camí de Sant Tomàs de Fluvià
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.010121296927881,42.18205938131946 3.0101727703936616,42.18185768450204 3.010224423522499,42.181655987041204 3.010279580080943,42.181405029236196 3.010313985556325,42.18124859614822 3.010333928155633,42.1812219026337 3.0104431632941813,42.18107558735894</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Torroella de Fluvià</name>
+      <description>name: Carretera de Torroella de Fluvià
+highway: unclassified
+name:ca: Carretera de Torroella de Fluvià
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0104431632941813,42.18107558735894 3.0105829411523906,42.18096887950875 3.0107244258096393,42.18087641697766</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Torroella de Fluvià</name>
+      <description>hgv: no
+name: Carretera de Torroella de Fluvià
+goods: no
+highway: unclassified
+name:ca: Carretera de Torroella de Fluvià
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0107244258096393,42.18087641697766 3.0109745167847386,42.180816705681615 3.0113621398298354,42.18076970879134 3.011671609445215,42.18076012301906 3.0121693659441453,42.1807974010142 3.01280887659491,42.18092208243468 3.0133463386293986,42.18097320640574 3.013511269315563,42.18099277728997</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Torroella de Fluvià</name>
+      <description>name: Carretera de Torroella de Fluvià
+width: 4.5
+highway: unclassified
+name:ca: Carretera de Torroella de Fluvià
+surface: asphalt
+maxspeed: 30
+tracktype: grade1
+brp_access: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.013511269315563,42.18099277728997 3.0138099591475327,42.180468887925535 3.0141700937449367,42.18030393177351 3.01467279097793,42.180138309505935 3.01546357792254,42.17998140730327 3.0157073806906505,42.17981778125676 3.0160873680558327,42.17928948857586 3.016643515048231,42.17874441584602 3.0171401037372925,42.17847121201641 3.018339983462291,42.17794889946035 3.019465123355651,42.17764247319861 3.0206991390614455,42.177364870893186 3.0209162618656173,42.17723512301888 3.0211367084363405,42.17690832229332 3.0212975068721977,42.17675600555008 3.0214963938761015,42.176655082191225 3.021906834129416,42.17659290373559 3.022294008016871,42.17654923232121 3.0227428961643463,42.17646748148274 3.0232248423142756,42.176329210483665 3.024740210367057,42.176298320820976 3.025496142678644,42.17619659785965 3.0265966687332186,42.175831379125334 3.02747450242886,42.17577519144054 3.0280229239098153,42.17586280160027 3.0290984767994917,42.17619659785965 3.030245805080369,42.176616869742865 3.030768894070312,42.17692110410125 3.031164512121438,42.17721621668762 3.0316255275252484,42.17769879236656 3.031999226683442,42.17790522898238 3.0325571703064087,42.17816658569182 3.0329505425693246,42.17831317397962 3.0331884164565595,42.17834372980607 3.033817865976142,42.17826897118929</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí dels Masos</name>
+      <description>name: Camí dels Masos
+width: 4
+highway: unclassified
+name:ca: Camí dels Masos
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.033817865976142,42.17826897118929 3.0337751960001462,42.177792191538074 3.0336885085752283,42.17711709149922 3.03372974124677,42.176605818751746 3.0337778909459985,42.17642906920374 3.0338859582746784,42.176282276830754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lit: no
+layer: 1
+width: 6
+bridge: yes
+noname: yes
+highway: unclassified
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0338859582746784,42.176282276830754 3.0339587218126916,42.1762250243843 3.034033731138916,42.17618601280389 3.0341190710909074,42.176156121662 3.034185726084989,42.17613941190837 3.034286067902225,42.176125498205764 3.0343901826436546,42.17612137069532 3.034499866939845,42.176138080453704 3.0345772118858085,42.17615512307126</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>width: 6
+noname: yes
+highway: unclassified
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0345772118858085,42.17615512307126 3.0355858402868177,42.17640450397323 3.036807099915578,42.176704212448044</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Torroella de Fluvià</name>
+      <description>name: Carretera de Torroella de Fluvià
+highway: unclassified
+name:ca: Carretera de Torroella de Fluvià
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.036807099915578,42.176704212448044 3.037621332889104,42.17616058203373 3.037889839327527,42.17601498734909 3.038229941494095,42.17589109512897</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Tramuntana</name>
+      <description>name: Carrer de la Tramuntana
+highway: residential
+name:ca: Carrer de la Tramuntana
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.038229941494095,42.17589109512897 3.038759767848669,42.17575422090558 3.0392028169467964,42.17561022304439 3.0393619984151425,42.175564420604644 3.0394162566583036,42.175558096137244 3.039527378258949,42.175557630123826</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Casades de Còdol</name>
+      <description>ref: C-31a
+name: Carrer Casades de Còdol
+highway: tertiary
+name:ca: Carrer Casades de Còdol
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.039527378258949,42.175557630123826 3.039540224167512,42.175403312922235 3.0395447157439324,42.17536070586321</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Pere Pescador</name>
+      <description>name: Carrer de Sant Pere Pescador
+oneway: yes
+highway: residential
+name:ca: Carrer de Sant Pere Pescador
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0395447157439324,42.17536070586321 3.039654130545538,42.17529919187114 3.0397680369235642,42.175263308681444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Pere Pescador</name>
+      <description>ref: GIV-6217z
+name: Carrer de Sant Pere Pescador
+highway: residential
+name:ca: Carrer de Sant Pere Pescador
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0397680369235642,42.175263308681444 3.0401666194151282,42.17513222501959</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Pere Pescador</name>
+      <description>ref: GIV-6217z
+name: Carrer de Sant Pere Pescador
+oneway: yes
+highway: living_street
+name:ca: Carrer de Sant Pere Pescador
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0401666194151282,42.17513222501959 3.0402961564790982,42.17513049410095 3.0403662250712595,42.17511791165255 3.040532862556464,42.17507430579346 3.0406462299453194,42.17502797037437 3.040849069536474,42.17492498046352 3.0410290919194116,42.17485367965776</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

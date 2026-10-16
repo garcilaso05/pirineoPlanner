@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+bicycle: no
+footway: sidewalk
+highway: footway
+surface: asphalt
+footway:surface: asphalt
+check_date:surface: 2024-12-05</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4048062822206993,43.60468040480793 1.4048441911256893,43.60466440289834 1.405284904604078,43.60445852429146</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+source: ToulouseMetropole - Orthophotoplan 2015
+bicycle: designated
+footway: crossing
+highway: path
+surface: asphalt
+segregated: no
+tactile_paving: yes
+crossing:island: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.405284904604078,43.60445852429146 1.4052795147123736,43.604452604864534 1.4052486126665997,43.60441897470274 1.4052337904644117,43.60440290767489</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+source: ToulouseMetropole - Orthophotoplan 2015
+bicycle: designated
+footway: crossing
+highway: path
+surface: concrete
+segregated: no
+tactile_paving: yes
+crossing:island: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4052337904644117,43.60440290767489 1.4051986663368028,43.60435600754072 1.4051807898626487,43.604332004545284 1.4051648896821196,43.604310798638906</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+source: ToulouseMetropole - Orthophotoplan 2015
+bicycle: designated
+footway: crossing
+highway: path
+surface: asphalt
+segregated: no
+tactile_paving: yes
+crossing:island: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4051648896821196,43.604310798638906 1.4051455759035112,43.60428549464883 1.4051005703077766,43.60422643028093</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

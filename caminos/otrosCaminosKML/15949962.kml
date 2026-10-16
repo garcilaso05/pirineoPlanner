@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Allée François-Joseph Unhassobiscay</name>
+      <description>lit: no
+foot: designated
+name: Allée François-Joseph Unhassobiscay
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4823979055604093,43.61658867808027 1.4823136435867588,43.61659062914603 1.4820058807704197,43.61665481917418 1.481854065487403,43.61667432980746 1.4817631559806503,43.61667797179164 1.4816018185556226,43.616653778606896 1.4814870138623122,43.616620675550706 1.4812867793854818,43.616540876949415 1.4810719023695205,43.616443973860044 1.480704581249844,43.61625042735642 1.480269167831631,43.61602098029106 1.480077197855415,43.61593792908251 1.4800186276988903,43.61591698741276</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

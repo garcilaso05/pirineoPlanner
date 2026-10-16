@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Balcon du Casteth asp107</name>
+    <Placemark>
+      <name>Place de l’Église</name>
+      <description>ref: D 237
+name: Place de l’Église
+oneway: yes
+highway: tertiary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6170799876148081,42.99508129595485 -0.6170109970009878,42.99516841923801</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Temple</name>
+      <description>name: Rue du Temple
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6170109970009878,42.99516841923801 -0.6169699439925034,42.99532893337974 -0.6168396882763061,42.99564858063666 -0.6168121998286121,42.995715992158296 -0.6167927063869467,42.995906005523054 -0.6168257643894023,42.9959701316159</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Casteth</name>
+      <description>name: Rue du Casteth
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6168257643894023,42.9959701316159 -0.6167669247382924,42.99603662294478 -0.6166184332218275,42.996203967897806</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6166184332218275,42.996203967897806 -0.6162470696833724,42.99642380867078 -0.61579863069354,42.996631230938405 -0.6154580793693303,42.99686191100986</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Contour du Casteth</name>
+      <description>name: Contour du Casteth
+highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6154580793693303,42.99686191100986 -0.6156815802120194,42.99683188519939 -0.6158278259402739,42.99675041465508</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du balcon du Casteth</name>
+      <description>name: Sentier du balcon du Casteth
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6158278259402739,42.99675041465508 -0.616126785266829,42.996737668447246 -0.616403107048224,42.9965768294738 -0.6166726914649884,42.99643070742708 -0.6168940363509954,42.996350287591255 -0.6173110343058837,42.99615797600481 -0.6177334221524767,42.995947069883236 -0.6179078749806527,42.99590692536502 -0.6180834956186981,42.99593728014227 -0.6185059732968194,42.99615409954368 -0.6186017337061065,42.9961809062529</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Contour du Casteth</name>
+      <description>name: Contour du Casteth
+highway: path
+name:oc: Contorn deth Castèth
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6186017337061065,42.9961809062529 -0.6186374866544145,42.996201011277144</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passage du Casteth</name>
+      <description>name: Passage du Casteth
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6186374866544145,42.996201011277144 -0.6186668615642053,42.99617748971218 -0.6186762938746885,42.996149631757675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passage du Casteth</name>
+      <description>name: Passage du Casteth
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6186762938746885,42.996149631757675 -0.6187996325631983,42.996059816049495</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Proudequi</name>
+      <description>name: Chemin de Proudequi
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6187996325631983,42.996059816049495 -0.6188340380385798,42.995983272200434</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'en Haut</name>
+      <description>ref: D 442
+name: Rue d'en Haut
+highway: tertiary
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6188340380385798,42.995983272200434 -0.6186353306977327,42.99580081493279 -0.6184969003124497,42.9956883968075 -0.6183942228754751,42.99563498005754 -0.6182637874962208,42.99558070911765 -0.6181593134286777,42.995512771820266</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'en Haut</name>
+      <description>ref: D 442
+name: Rue d'en Haut
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6181593134286777,42.995512771820266 -0.6181022704081361,42.995455215598525 -0.6180445087353672,42.995421312593365 -0.6179656366534215,42.995381824767264 -0.6179259311178634,42.99536191658574 -0.6178016941140697,42.99531598976616 -0.6177324340056641,42.99529470178665 -0.6176319125253712,42.9952638867662 -0.6175247435119756,42.99523727676809 -0.6172685439929448,42.995143714609185 -0.6170799876148081,42.99508129595485</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

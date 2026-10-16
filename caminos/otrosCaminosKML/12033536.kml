@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rond-Point Léopold Gourp</name>
+      <description>lit: yes
+name: Rond-Point Léopold Gourp
+footway: sidewalk
+highway: footway
+surface: asphalt
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4915099666448757,43.56386463106288 1.4914958630949149,43.56389899990502 1.4914973902308981,43.56392751040692</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rond-Point Léopold Gourp</name>
+      <description>lit: yes
+name: Rond-Point Léopold Gourp
+footway: sidewalk
+highway: footway
+surface: asphalt
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4914973902308981,43.56392751040692 1.4914958630949149,43.56389899990502 1.4915099666448757,43.56386463106288</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4915099666448757,43.56386463106288 1.491499815682165,43.563857601070026</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Didier Daurat</name>
+      <description>lit: yes
+name: Avenue Didier Daurat
+oneway: yes
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.491499815682165,43.563857601070026 1.4918109022650556,43.56360601791534 1.491807488666976,43.56356038784381</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Didier Daurat</name>
+      <description>lit: yes
+name: Avenue Didier Daurat
+lanes: 2
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: lane
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/
+cycleway:both:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.491807488666976,43.56356038784381 1.492415468451268,43.56306711219663 1.4924638876450822,43.563025582603096 1.4925088034092882,43.562974288959026 1.4925457241674653,43.56290802375522</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Didier Daurat pro</name>
+      <description>lit: yes
+name: Avenue Didier Daurat pro
+lanes: 2
+oneway: no
+highway: residential
+surface: asphalt
+alt_name: Impasse Clément Ader
+maxspeed: 30
+sidewalk: both
+cycleway:both: lane
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/
+cycleway:both:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4925457241674653,43.56290802375522 1.4925664752505285,43.56284117263585 1.492576805876296,43.56278799111791 1.4926198351784052,43.56225467618842 1.4926484914359686,43.562027171312536 1.4926275606898487,43.561971906049905 1.492558210749915,43.56191878885924</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

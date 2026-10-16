@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>residential</name>
+      <description>ref: D 4
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.40982148662041,43.498154905892605 1.409816006897177,43.49809541160634</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue des Pyrénées</name>
+      <description>ref: D 4
+name: Avenue des Pyrénées
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.409816006897177,43.49809541160634 1.4098098085217166,43.498030573845355 1.4097948066564718,43.497869098194286 1.4097545621317433,43.49765177656979 1.4097538434795158,43.49759241211596 1.4097524061750613,43.49753409023017 1.4097707318068573,43.497468926045336 1.4098492445626896,43.497312205892875 1.4099121266325778,43.49718200730304 1.4099406032270843,43.497106481565964 1.4099406032270843,43.497070184866644 1.4099379981127604,43.497029913099325</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

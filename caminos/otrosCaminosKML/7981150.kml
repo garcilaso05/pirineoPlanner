@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Grains de Méjean</name>
+    <Placemark>
+      <name>Grains de Méjean</name>
+      <description>dog: no
+name: Grains de Méjean
+bicycle: no
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.9057818797197736,43.54351021171971 3.905806044400916,43.54355950338487 3.906831740792324,43.544930407604255 3.906924357098117,43.5450248864608</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grains de Méjean</name>
+      <description>dog: no
+name: Grains de Méjean
+bicycle: no
+highway: footway
+surface: wood
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.906924357098117,43.5450248864608 3.906936933512094,43.54504389941748 3.906970171177606,43.545158107257095 3.907053804330558,43.54521670868715 3.9072043619721764,43.54527498449721 3.907247031948172,43.54531607053726 3.9072554761118425,43.545350319734666 3.907211997652091,43.54543138477266 3.9072051704559323,43.54544369102191 3.9067520602266224,43.546221519011624 3.906708941092984,43.54628239831105 3.9063121552319884,43.54684118276266 3.9061565670247793,43.54700011829355 3.905502862992526,43.54751820224162 3.90524801094642,43.54775787234667 3.905013370994208,43.54800177362681 3.904861106553551,43.54812483075875 3.9046565601633567,43.548239032761195 3.9044588409693217,43.54831091350013 3.904063761907366,43.54838722158208 3.903821755769824,43.54846059965509 3.903617299211159,43.548602993229565 3.9036065194277487,43.54861321534337 3.9036072380799767,43.54865110876923 3.903697069608388,43.548910697628465 3.9037110833268205,43.54896460758996 3.9036454164795518,43.5490997078251 3.9036078669006753,43.54916872276812 3.9031170274294325,43.54979421591691 3.903043904565305,43.54998328845046 3.9030392333258277,43.55000418796064 3.903174699270673,43.550592170898426 3.903186826527009,43.55072687684513 3.9031727229770476,43.55084843096203 3.9031538583560814,43.55094849970019 3.9030928627482893,43.55112103161719 3.9030566606423394,43.55121478460272 3.902993598909394,43.551335296038644 3.9029285608828244,43.55146752629967 3.902925237116273,43.55154890864007</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grains de Méjean</name>
+      <description>dog: no
+name: Grains de Méjean
+bicycle: no
+highway: footway
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.9072051704559323,43.54544369102191 3.907245774306774,43.545467001264925</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grains de Méjean</name>
+      <description>dog: no
+foot: yes
+name: Grains de Méjean
+bicycle: no
+highway: track
+surface: compacted
+type:MMM: Chemin Prive
+tracktype: grade2
+wheelchair: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.907245774306774,43.545467001264925 3.9074663107090255,43.545758378542054 3.90779186016799,43.546217416981754 3.907798867027206,43.54630277821252 3.907758622502478,43.546415486105516 3.9073027274957877,43.54763637710689 3.907058565401564,43.548277903062726 3.9070264057143924,43.54849960003199 3.9070461686506426,43.54881082083325 3.907150732549715,43.549886994352015</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grains de Méjean</name>
+      <description>name: Grains de Méjean
+bicycle: no
+highway: footway
+surface: wood
+wheelchair: yes
+check_date:surface: 2026-03-29</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.907150732549715,43.549886994352015 3.906910343379684,43.549871824273794</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grains de Méjean</name>
+      <description>dog: no
+name: Grains de Méjean
+layer: 1
+bridge: yes
+bicycle: no
+highway: footway
+surface: wood
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.906910343379684,43.549871824273794 3.906474480803829,43.54984233050565 3.906051374305009,43.54958867048217 3.905424440068222,43.549386509971114 3.9052446871798696,43.54932276904458 3.904825623099828,43.54900927208674 3.90445551720277,43.5489256726226</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>dog: no
+bicycle: no
+highway: footway
+surface: compacted
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.90445551720277,43.5489256726226 3.9042462097415704,43.548872283496046 3.904157096865386,43.54886160566506 3.904106072557248,43.548860173272956 3.903943207996237,43.54890288458657 3.903749531220981,43.54891121849788 3.903697069608388,43.548910697628465</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>dog: no
+foot: yes
+bicycle: no
+highway: track
+surface: wood
+type:MMM: Chemin Prive
+tracktype: grade2
+wheelchair: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.902925237116273,43.55154890864007 3.902855707513282,43.55163497848372</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>dog: no
+bicycle: no
+highway: footway
+surface: compacted
+wheelchair: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.902855707513282,43.55163497848372 3.902871158536169,43.55164552561193</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>dog: no
+layer: 1
+bridge: yes
+bicycle: no
+highway: footway
+surface: wood
+wheelchair: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.902871158536169,43.55164552561193 3.9029809326638882,43.551719615880295</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>dog: no
+bicycle: no
+highway: footway
+wheelchair: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.9029809326638882,43.551719615880295 3.9030227941561284,43.55174787172315 3.902996743012889,43.55178270321627</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

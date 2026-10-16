@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Impasse Bourrouil</name>
+      <description>name: Impasse Bourrouil
+highway: residential
+maxspeed: 30
+zone:maxspeed: FR:30
+source:maxspeed: https://www.villeneuve-tolosane.fr/ad_attachment/2024-P-011%20zone%2030%20sur%20la%20commune.pdf</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3612387994246582,43.52350462708229 1.360404713683353,43.522853783502605</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Allée André Turcat</name>
+      <description>lit: yes
+name: Allée André Turcat
+highway: service
+surface: asphalt
+maxspeed: 30
+sidewalk: right
+smoothness: excellent
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3632142845659654,43.65522758438174 1.3630147687413623,43.65669577460277 1.3629762310156737,43.656774415031556 1.3629109234945183,43.656837132324505 1.3627727626038209,43.656928900929394 1.3611216591116089,43.65786828621692 1.360500833418754,43.658238213071805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée André Turcat</name>
+      <description>lit: yes
+foot: yes
+name: Allée André Turcat
+access: no
+bicycle: yes
+highway: service
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.360500833418754,43.658238213071805 1.3602891005062872,43.65836767393453 1.3601761822750733,43.65844598722251 1.360009365126812,43.65860807265755</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+foot: designated
+source: survey
+bicycle: designated
+highway: footway
+surface: concrete
+segregated: no
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.360009365126812,43.65860807265755 1.3600779065829904,43.65862802460348 1.3601327936468504,43.65865597031463</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

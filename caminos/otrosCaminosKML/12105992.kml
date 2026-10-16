@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Allée des Pyrénées</name>
+      <description>ref: D 54a
+name: Allée des Pyrénées
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5899457385111815,43.52441678635164 1.5897949113749779,43.524217407386445 1.5897055290042077,43.524097883907785 1.5896616013868143,43.52404297467717</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

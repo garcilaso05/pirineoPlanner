@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Visenc</name>
+      <description>name: Chemin du Visenc
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6611295890977384,43.46861650776116 1.6617881440325264,43.4685854095717 1.6620496436117336,43.4685854095717 1.6622144844663695,43.468591211960465 1.6624371768253028,43.4686174856914 1.6632860847687958,43.46877030339376 1.6634658376571483,43.46880237941534 1.663619988559903,43.46884130090646 1.6637500646130434,43.468886089928056 1.663893615395446,43.46896008627382 1.6652869922326434,43.469774692039465 1.666703186278058,43.47059808791044</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

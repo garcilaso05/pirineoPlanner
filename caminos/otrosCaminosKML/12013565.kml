@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin Côtes de Pech David</name>
+      <description>foot: yes
+name: Chemin Côtes de Pech David
+bicycle: yes
+highway: path
+surface: gravel
+tracktype: grade2
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4518367704370212,43.549640170845386 1.4519181578017624,43.54970313014239 1.4519699007621276,43.549770712024014 1.451991370497418,43.54981732915446 1.45200313842764,43.54986967572164 1.4519876874047533,43.54994930231564 1.4519652295226502,43.54998947366451 1.4519374715803708,43.55003420250931 1.4518745895104825,43.550097421824304</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

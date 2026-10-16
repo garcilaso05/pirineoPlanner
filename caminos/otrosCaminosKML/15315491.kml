@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Voie du T.O.E.C.</name>
+      <description>name: Voie du T.O.E.C.
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+long_name: Voie du Toulouse Olympique Employés Club
+cycleway:both: no
+name:etymology:wikidata: Q108179170</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4037071036390505,43.598215677152226 1.4037194105584427,43.59787322458176 1.4037009052635903,43.59765801972755 1.4036677574296061,43.597542089828686 1.4036220331816442,43.59741191238648 1.403612780534218,43.597385629650326 1.4036026295715074,43.59735687476248</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway
+surface: asphalt
+cycleway: crossing</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4036026295715074,43.59735687476248 1.4036628166955436,43.59734418877818</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4036628166955436,43.59734418877818 1.4037024323995733,43.59732272018327 1.403735939559671,43.59729682774649 1.4038181354081678,43.59720626918652 1.4038508340845097,43.59717439150008 1.4039003312566647,43.59714791349053 1.4039527928692572,43.59713327576527</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4039527928692572,43.59713327576527 1.403932221449251,43.59706216889812 1.4039285383565858,43.59701819059238</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4039285383565858,43.59701819059238 1.4039489301135357,43.59645128393342 1.4040532245180217,43.59579947129466 1.4040993979236256,43.59553182205995 1.4041076624242395,43.59548068621752</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

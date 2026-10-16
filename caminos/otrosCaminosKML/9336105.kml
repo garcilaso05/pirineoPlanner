@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>dog: yes
+horse: no
+width: 2
+bicycle: yes
+highway: footway
+incline: 0%
+surface: asphalt
+smoothness: excellent
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.10080741404790969,43.20349098981716 0.10079977836799468,43.20359071671849 0.10071946898159441,43.204626806061945 0.10025243486538066,43.204576517862066 0.10019323588815718,43.204570100875245 0.10015748293984922,43.20467971339415 0.09979052114628638,43.204611680318685 0.09975431904033638,43.20460500141787 0.09959540706657564,43.2045754701908</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

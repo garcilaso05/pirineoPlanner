@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue de la Résistance</name>
+      <description>name: Avenue de la Résistance
+highway: cycleway
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3421398080005216,43.54214611238279 1.3421179789391173,43.54221507017146 1.3421174399499467,43.542226986381905 1.3421372028861975,43.542392510766476 1.3421539115504821,43.54242461280732 1.3421998154615005,43.5424763146384 1.3426522968701116,43.5429192295154 1.3427552438016717,43.543000688512954 1.342915593079887,43.54312238844095 1.343055191275039,43.543208730776996 1.343205389590544,43.543287389449105 1.3437611772568288,43.54351581156747 1.3439006856204525,43.54355559651725 1.3441274203981644,43.54360807875127 1.3442601015656288,43.543618822627295 1.344309688569312,43.5436119856155 1.3443572992793706,43.54358789328206 1.3444032930219174,43.54353593194633 1.3444300628173842,43.543526229887455 1.3444552156453395,43.54352720660486</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Résistance</name>
+      <description>name: Avenue de la Résistance
+highway: cycleway
+surface: asphalt
+cycleway: crossing
+smoothness: excellent
+surface:colour: green</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3444552156453395,43.54352720660486 1.3444888126369654,43.54354140156272</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

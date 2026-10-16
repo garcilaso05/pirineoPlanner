@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: fine_gravel
+segregated: no
+traffic_sign: FR:C115
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4558590669531946,43.66161989657994 1.456069991381906,43.66177008089296 1.4562360898779396,43.66190739750635 1.456307865269141,43.66197628314773 1.456306158470101,43.66201371531216 1.4562909769417993,43.662057581100164</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: fine_gravel
+segregated: no
+traffic_sign: FR:C115
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4562909769417993,43.662057581100164 1.456235730551826,43.66209442833731 1.4556601799492908,43.66226859133912 1.454604839153507,43.66257967899593 1.4543300445080947,43.66264167538249 1.4538731613545919,43.66277950988673 1.453778389092117,43.66280732369457 1.453725388490354,43.662808298477316 1.4536583741701588,43.66279361174886 1.4535920785021907,43.662766902689214 1.4535105114743925,43.6627128996637</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+traffic_sign: FR:C115
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4535105114743925,43.6627128996637 1.4533207872863865,43.66276482315123 1.4531557667686936,43.662795431343724 1.452985536022353,43.66281278247777 1.4528968723038105,43.66281440711553</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

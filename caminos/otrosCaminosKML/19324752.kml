@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.554807597183676,43.646156895591865 1.5548134362330228,43.64613368932429 1.554827270288398,43.64604950965094 1.5548343669791427,43.646025718308756</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5548343669791427,43.646025718308756 1.5549575260045951,43.64603761398102 1.55501214357387,43.646032998720486 1.5550628085558942,43.64601102747527 1.5550882308784348,43.64599068131499</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5550882308784348,43.64599068131499 1.5551291940553906,43.645995231575085 1.5552162408064218,43.646005112138646 1.5552402258245077,43.646007777290386</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5552402258245077,43.646007777290386 1.555236632563371,43.645985286006166 1.5552404054875646,43.645908191540265 1.5552925077740434,43.64584208263194 1.5554510604216905,43.64573281101235 1.5555779025398084,43.645622694140485 1.5556350353918782,43.645590517094355 1.5557220821429094,43.64559220720226</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5557220821429094,43.64559220720226 1.5557237889419493,43.64556757062468 1.5557268432139153,43.64552382279842</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

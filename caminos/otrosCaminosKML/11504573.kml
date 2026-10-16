@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+width: 3
+bridge: yes
+highway: track
+surface: concrete
+tracktype: grade1
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.064846304710329,42.307172814726364 3.0646758943009313,42.307153415813595</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: concrete
+tracktype: grade1
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0646758943009313,42.307153415813595 3.0641846955035748,42.3071863673879 3.063961374323943,42.307160723623895 3.063594322698852,42.307032305342865 3.063003770231072,42.30674969119338 3.0628648906881466,42.306628579945965</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+noexit: yes
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 3
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0628648906881466,42.306628579945965 3.062506732384368,42.30678251010896 3.0623734223962047,42.30678251010896 3.0622225054284726,42.30673580626242 3.0615593690857357,42.306452991475716 3.0613840179422755,42.30640881193106</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0613840179422755,42.30640881193106 3.061174800312604,42.30642422494864 3.0596175707675832,42.306963080273604 3.0591381399004485,42.30755972877902 3.0585703148093564,42.30801812318815 3.0582398246163294,42.308530524465695</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>hgv: no
+width: 4.5
+noname: yes
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+maxweight: 6
+brp_access: 2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0582398246163294,42.308530524465695 3.0579568553018315,42.30844608782496 3.057307193688356,42.30837201467552 3.056808359211084,42.30822599398753 3.055995383878956,42.30802649383763 3.055751760773903,42.30792950052933 3.0553777022895963,42.307780622153736 3.054204592360064,42.30719387449818 3.05395989127667,42.30705748411598</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+width: 8
+bridge: yes
+noname: yes
+highway: unclassified
+surface: asphalt
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.05395989127667,42.30705748411598 3.0539247671490606,42.307121327872835 3.0535398390498156,42.307519203895296</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

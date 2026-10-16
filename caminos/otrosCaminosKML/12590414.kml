@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Liaison Bosset - Fraisse</name>
+    <Placemark>
+      <name>Route du Landais</name>
+      <description>name: Route du Landais
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+width: 5
+highway: unclassified
+surface: asphalt
+maxweight: 3.5
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:rural
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.3094639559928852,44.93534337072145 0.30941176387487784,44.935274373226015 0.3093112423945849,44.935234119349396 0.3092037140550758,44.935193611075384 0.30912349450020393,44.935174787754654 0.30894490942172087,44.9351793028085 0.30875653270664105,44.93517809455469 0.3084043931152662,44.93512327796034 0.3081878991317934,44.935068016166646 0.3080235074347995,44.935011291692504 0.30788489738645985,44.934924678654156 0.3078371070133447,44.934872723486976 0.3078150084573554,44.93482591928144 0.3077780876991781,44.93472843159496 0.30777494359568364,44.93459711230364 0.307810337217878,44.934315331251476 0.3078854363756304,44.93406852527168 0.3080806402868695,44.93382241776309 0.3085827086991639,44.93329757566957 0.30871215593160556,44.93314399501497 0.3088133960641258,44.93302411914616 0.3088477117079792,44.9329034162944 0.3088522931159282,44.932833398348954 0.3088335183264901,44.93276210841854 0.30880701802560856,44.93269660554986 0.30873434431912333,44.932619719077614 0.3086310380614496,44.93254467676392 0.30840574058819237,44.93241653224734 0.3081749633917021,44.93224558765305 0.3081101050281887,44.932137602301125 0.30806770454677823,44.93206707465601 0.30797122548526373,44.931759524778265</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Landais</name>
+      <description>name: Route du Landais
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+width: 5
+highway: unclassified
+surface: asphalt
+sidewalk: no
+maxweight: 3.5
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.30797122548526373,44.931759524778265 0.30785318685693047,44.93161897724284 0.30763543523205994,44.931448793431876 0.3074776910681685,44.93128477798888 0.3073595626083068,44.93107592631644 0.3073408776503971,44.931011311881484</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Landais</name>
+      <description>name: Route du Landais
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+width: 5
+highway: unclassified
+surface: asphalt
+sidewalk: right
+maxweight: 3.5
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.3073408776503971,44.931011311881484 0.3072995551473276,44.9308785849549 0.30727916339037814,44.93079870698252 0.307208286314461,44.93056307903626 0.30718987085113664,44.93049890920677</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Landais</name>
+      <description>name: Route du Landais
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+width: 5
+highway: unclassified
+surface: asphalt
+sidewalk: left
+maxweight: 3.5
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.30718987085113664,44.93049890920677 0.3071719045454543,44.93043601125674 0.30714773986431143,44.930384878797675 0.3070614117655075,44.93026010014304 0.307000236494659,44.93008469727413 0.3069981703695055,44.929970793238816</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

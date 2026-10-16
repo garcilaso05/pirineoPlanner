@@ -1,0 +1,289 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Villefranche, la bastide du Queyran (Variante) - 6 km</name>
+    <Placemark>
+      <name>Chemin de Ronde</name>
+      <description>name: Chemin de Ronde
+oneway: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.1975201273677458,44.30551162410405 0.19760097574331656,44.30566893109059 0.1979080199074286,44.30598759376771 0.19793748464874772,44.306038121925184 0.1979590442155666,44.30609379284731 0.19797090197731698,44.306156406500314 0.19797072231426013,44.30622840569023 0.1979705426512033,44.30632721157763 0.19796847652604985,44.30709123196881 0.19796775787382254,44.307328182339056 0.19796685955853843,44.30769151295346 0.19796335612893035,44.30899940740561</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Ronde</name>
+      <description>name: Chemin de Ronde
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19796335612893035,44.30899940740561 0.19768083597207478,44.30904022640863 0.19700027231282582,44.309143270159254 0.19684800787216758,44.30916609017937</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grand Rue</name>
+      <description>name: Grand Rue
+oneway: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19684800787216758,44.30916609017937 0.19677722062777894,44.30871740195886 0.19671119445439617,44.308298794612284 0.19669313831718535,44.30815570118291 0.19668460432198623,44.30799692235118</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grand Rue</name>
+      <description>name: Grand Rue
+oneway: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19668460432198623,44.30799692235118 0.19670005534487306,44.307747375157376 0.1967085893400722,44.30761122299535 0.19671263175885076,44.307546810955955 0.1967138894002485,44.307515697729976 0.19676967477939233,44.30681873143211 0.1967835986662962,44.30654931529126 0.19679878019459782,44.30607122877323 0.19679401912359196,44.30595692971201 0.19678440715005188,44.30572691664091</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Remparts</name>
+      <description>ref: D 108
+name: Rue des Remparts
+highway: tertiary
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19678440715005188,44.30572691664091 0.19685986563391794,44.30571238811595 0.19704168464742375,44.30567748107001 0.19728818236138615,44.30560541691873 0.1975201273677458,44.30551162410405 0.19757986533413974,44.30548038122779</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Remparts</name>
+      <description>ref: D 108
+name: Rue des Remparts
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19757986533413974,44.30548038122779 0.19770041924526857,44.30541757399616</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Moulins</name>
+      <description>ref: C 2
+name: Route des Moulins
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19770041924526857,44.30541757399616 0.19747539126659663,44.30514178709674 0.19698769589884815,44.30454520867174 0.19679788187931366,44.304313004309435</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Bompas</name>
+      <description>name: Chemin de Bompas
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19679788187931366,44.304313004309435 0.19657509968885203,44.304233095452936 0.19482374421093265,44.30351391084978 0.19463330137069929,44.3034392725223</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19463330137069929,44.3034392725223 0.19452119162324116,44.30345232298605 0.19410823608713143,44.30347848819284</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19410823608713143,44.30347848819284 0.19398902964892875,44.303484531261056</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: R
+highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19398902964892875,44.303484531261056 0.19338464312577314,44.30335878388364 0.19309565509887192,44.303220692895074 0.19284807940656856,44.30299979806852 0.19229561550683505,44.30207461515876 0.19196539480839275,44.30160247116957 0.19157929889927816,44.30105028161347 0.19106447440994925,44.30045449739596 0.19092002531226282,44.30032231438688 0.19001443367434195,44.29965882319181 0.18948730226562063,44.29906077460641 0.1892338875239705,44.29882282646925 0.1892163703759302,44.29877762842987 0.1892163703759302,44.29871140648856 0.18924861989463007,44.2986413268771 0.18964693289160867,44.29834757023783 0.18967783493738236,44.298267974729924 0.18967235521414924,44.298166197764154 0.18951281441968962,44.29761236853007 0.18943636778901102,44.297413698539444 0.1891894209174066,44.2966586821493</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.1891894209174066,44.2966586821493 0.18852978800427764,44.29662556999309 0.18759500111962285,44.29667559184517 0.1867971174842679,44.29668131413659 0.18671258601603224,44.296692823013146 0.18664709883181993,44.29671892693708</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Astaffort</name>
+      <description>name: Chemin d'Astaffort
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.18664709883181993,44.29671892693708 0.18667467711104238,44.29634356939734 0.18668312127471312,44.296229187100685 0.1867582204324655,44.29542869767592</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Astaffort</name>
+      <description>ref: R
+name: Chemin d'Astaffort
+highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.1867582204324655,44.29542869767592 0.18688685918115144,44.29419707998597</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: R
+highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.18688685918115144,44.29419707998597 0.1869572870994264,44.29350709274142 0.18697947548694413,44.293357211857256 0.1871806082790585,44.29269672834614 0.18732748282801207,44.29204048123917 0.18741533806279892,44.29187021330195 0.18749178469347752,44.29169550811158</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: R
+highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.18749178469347752,44.29169550811158 0.1889746337329736,44.29157558687591 0.19033486273618738,44.291539128199695 0.19138499330332312,44.29162349109862 0.1917900436649326,44.291674417424076 0.19259331719199227,44.29179060901392 0.19370929426945394,44.29175562938959</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19370929426945394,44.29175562938959 0.19397995666455917,44.29172431489204 0.19424693596699952,44.29176032334774</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19424693596699952,44.29176032334774 0.19444411617186372,44.2918106708479 0.194474928386109,44.29181022074272</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>layer: 1
+bridge: yes
+highway: service
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.194474928386109,44.29181022074272 0.19461641304335783,44.291788229885725</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19461641304335783,44.291788229885725 0.1947445128028733,44.29177421231761</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.1947445128028733,44.29177421231761 0.19475915534200444,44.2917349245286 0.19478870991485195,44.29168296944156 0.1948047897584377,44.29161783261529 0.19476993512541388,44.29123671964779 0.19478340985467565,44.29117518320704</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Moulins</name>
+      <description>ref: C 2
+name: Route des Moulins
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19478340985467565,44.29117518320704 0.19475915534200444,44.291046580196884 0.19476589270663536,44.2909516066931 0.19477263007126625,44.290832519862 0.19484368681024009,44.2906241816286 0.19487045660570687,44.29046201166502 0.19487593632893999,44.29033720093216 0.19485707170797345,44.290195092562016 0.19483030191250672,44.29001748876718 0.19465980167158084,44.28931092642593 0.1945220899385253,44.28887790522427</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Larbes</name>
+      <description>name: Chemin de Larbes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.1945220899385253,44.28887790522427 0.19465333380153516,44.28886080037113 0.19522861490948532,44.28890388401424 0.1954405274850091,44.288907677945474 0.1960333257409996,44.28890677769063 0.19645840853344493,44.2889009903377 0.19656827249269274,44.288884271314956 0.19668631112102605,44.28885321250236 0.19674793554951667,44.288797782448185 0.19676697983354,44.288731099123446 0.19680039716210923,44.28841047795337 0.1968648063679806,44.28833266950339 0.19696667532119974,44.288285727165544 0.19708471394953303,44.28825691869852 0.19739220727128715,44.28821460623698</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19739220727128715,44.28821460623698 0.19756477363736655,44.28821647107256 0.19778881346922594,44.288180074615845 0.1982071588970404,44.28808889046095 0.1986122092586499,44.28798613127895</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: R
+highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.1986122092586499,44.28798613127895 0.19871551551632363,44.28806387588314 0.20141908519540974,44.291471869277295 0.20148349440128113,44.29158028084845 0.20151843886583337,44.29165712048263 0.20152373892600967,44.29176373128973 0.20149418435316213,44.291855809949276 0.20135341834814063,44.292188886576376 0.2011857927161239,44.29265358318543 0.20067078856373818,44.29399068263851 0.20059443176458802,44.29413657541815 0.2004602234611406,44.29431069466489 0.199809843195438,44.29491219939019 0.19966629241303574,44.295112871055146 0.19956981335152127,44.295338424930804 0.19941287767138563,44.2959316892127 0.19941692009016418,44.296098730572446 0.19945976972921664,44.29628679619981 0.19986751503667852,44.29775060129849 0.19987551004270718,44.29789359150351 0.19983257057212625,44.29803857447186 0.19858274451733077,44.30078180336191 0.19846740083484982,44.30098997697901 0.19769880227775716,44.30205552117405 0.19760906058087363,44.30220608703981 0.19755677863133783,44.30233472990101 0.19751312050852968,44.30256218470492</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>ref: R
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19751312050852968,44.30256218470492 0.1974441298947093,44.30296810383577 0.197413317680464,44.30307077251552 0.19737711557451393,44.303185977232324 0.19722422231315684,44.30343457949767</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Marnès</name>
+      <description>ref: R
+name: Chemin de Marnès
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19722422231315684,44.30343457949767 0.19711022610360204,44.30356990560509 0.19705920179546405,44.30366492298958 0.19692696978564167,44.303967974702665 0.19686741148230452,44.3041045210388 0.19674937285397123,44.304237016968145</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Moulins</name>
+      <description>ref: C 2
+name: Route des Moulins
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.19674937285397123,44.304237016968145 0.19679788187931366,44.304313004309435</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

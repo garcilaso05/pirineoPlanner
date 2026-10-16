@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2025-10-11</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3187966361850336,43.57682777885598 1.3184402745118236,43.576692024922345 1.3183732601916283,43.57667777269393 1.3182979813708189,43.5766568824352 1.3181223607327734,43.57659479732446 1.317180477157374,43.576249228085494 1.3163905885280478,43.57595090457122 1.3162376952666908,43.5759130283125 1.315628906998643,43.575678871806126 1.3155840810659654,43.57565882723799</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3155840810659654,43.57565882723799 1.3155176057349405,43.57564678747793 1.3154626288395523,43.57565648436594 1.3154036095253856,43.575685705180106 1.3153530343748898,43.57570438306502 1.3152779352171375,43.575716032335265 1.3152050818475953,43.57570783229052 1.3151377082012863,43.5757032116299 1.3150876720399611,43.57572312602386 1.315030090030249,43.57578091677687 1.3149881387064803,43.575762694473354 1.3149194175872452,43.57574186897686 1.3148508761310669,43.57572078315432</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3148508761310669,43.57572078315432 1.3149707113899685,43.57556999327612 1.314950319633019,43.57551610711671 1.3148168299817988,43.57545688434968 1.3147967077194347,43.57543352062665 1.3148061400299178,43.57539609960293 1.314828418248964,43.57536739928898</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+surface: paved
+segregated: yes
+footway:surface: concrete
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.314828418248964,43.57536739928898 1.314449419030594,43.575217389488934 1.3142776611482703,43.575150096468064 1.314198429740211,43.57511918330464 1.3141727379230852,43.57510922600862 1.3137492720981512,43.5749443121214 1.313591977091902,43.57487897121402 1.3135317001363376,43.5748552167829 1.3134803165020856,43.57483699419926 1.3134621705333465,43.57483178774577</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

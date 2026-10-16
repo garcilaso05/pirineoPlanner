@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Canal</name>
+      <description>name: Chemin du Canal
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4637506768926563,43.57347497062453 1.463725973222343,43.573439110356 1.4636941728612851,43.57340377072383 1.4636470113088689,43.573357432169196 1.4636164685892088,43.57332742923769</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Canal</name>
+      <description>lit: yes
+name: Chemin du Canal
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk:left: no
+sidewalk:right: separate
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4636164685892088,43.57332742923769 1.4628099611271264,43.57253999337685 1.4627543554110394,43.57250367696927</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Canal</name>
+      <description>lit: yes
+name: Chemin du Canal
+highway: residential
+surface: asphalt
+maxspeed: 30
+smoothness: excellent
+sidewalk:both: separate
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4627543554110394,43.57250367696927 1.4626933598032474,43.57248948883275 1.4614023010769108,43.57236960545411</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Canal</name>
+      <description>lit: yes
+name: Chemin du Canal
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+smoothness: good
+cycleway:both: no
+zone:maxspeed: FR:30
+source:maxspeed: sign
+sidewalk:both:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4614023010769108,43.57236960545411 1.4613077084774933,43.57237390095388 1.4611997309803422,43.57235782536982</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,149 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5557927795557698,43.47402982632854 1.5550664018170308,43.47341319560946</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Pierre Paul Riquet</name>
+      <description>name: Allée Pierre Paul Riquet
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5550664018170308,43.47341319560946 1.554180483283832,43.47274512300377 1.5533924811166022,43.47213793195174 1.55314993598989,43.47195102748718 1.553136461260628,43.47192957939689 1.5530971150511839,43.47189470178702</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Nationale 113</name>
+      <description>ref: D 813
+name: Route Nationale 113
+highway: primary
+old_ref: N 113
+surface: asphalt
+alt_name: Route départementale 813
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5530971150511839,43.47189470178702 1.5532921392993662,43.471784071179165</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Nationale 113</name>
+      <description>ref: D 813
+name: Route Nationale 113
+bus_bay: left
+highway: primary
+old_ref: N 113
+surface: asphalt
+alt_name: Route départementale 813
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5532921392993662,43.471784071179165 1.5534737786498152,43.47168582685734</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Nationale 113</name>
+      <description>ref: D 813
+name: Route Nationale 113
+highway: primary
+old_ref: N 113
+surface: asphalt
+alt_name: Route départementale 813
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5534737786498152,43.47168582685734 1.5536317024767634,43.47159859984719</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: fine_gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5536317024767634,43.47159859984719 1.5534428766040413,43.47138750735395 1.553472880334531,43.47092568291081</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quartier Pradelot</name>
+      <description>lit: yes
+name: Quartier Pradelot
+highway: residential
+surface: asphalt
+sidewalk: right
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.553472880334531,43.47092568291081 1.5538276250402299,43.47072319355398 1.5534967755210887,43.47042649913398</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quartier Pradelot</name>
+      <description>lit: yes
+name: Quartier Pradelot
+highway: residential
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5534967755210887,43.47042649913398 1.5531859584327832,43.47011500428202 1.5530750164951943,43.470070607333774 1.5529549117417076,43.47004192206352 1.5526607134861585,43.46999530847033 1.5523305826192446,43.469949281586395 1.5518542958556045,43.46988728214483 1.5517402098145212,43.46981498197967</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Graves</name>
+      <description>name: Chemin des Graves
+lanes: 2
+highway: residential
+surface: asphalt
+sidewalk: no
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5517402098145212,43.46981498197967 1.551621272870904,43.46983740873087 1.5505812932664786,43.46975506861226</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Graves</name>
+      <description>name: Chemin des Graves
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: residential
+surface: asphalt
+maxweight: 3.5
+cycleway:both: no
+lane_markings: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5505812932664786,43.46975506861226 1.5504768191989355,43.4697418993984</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Graves</name>
+      <description>name: Chemin des Graves
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5504768191989355,43.4697418993984 1.5503381193190677,43.46971608251538</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

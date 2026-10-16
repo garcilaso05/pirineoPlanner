@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin des Ramiers</name>
+      <description>name: Chemin des Ramiers
+source: filaire ToulouseMetropole 2013
+bicycle: yes
+highway: service
+surface: asphalt
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3917160319005095,43.66234059589522 1.3917579832242781,43.66241318523847 1.3917703799751988,43.66244262386384</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Ramiers</name>
+      <description>name: Chemin des Ramiers
+oneway: yes
+source: filaire ToulouseMetropole 2013
+bicycle: yes
+highway: service
+surface: asphalt
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3917703799751988,43.66244262386384 1.391782237736949,43.66249012854676 1.3917878971232391,43.66253782814952 1.3917935565095292,43.66259748509254 1.3918138584349504,43.66263257738428 1.391837124800809,43.66265499744882 1.3918689251618668,43.662668189540845 1.3919192308177772,43.66267468810728 1.3919635177612846,43.662669814182514 1.3920090623461892,43.66265200810736 1.392035203320957,43.66262542895613</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Ramiers</name>
+      <description>lit: no
+name: Chemin des Ramiers
+source: filaire ToulouseMetropole 2013
+bicycle: yes
+highway: service
+surface: asphalt
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.392035203320957,43.66262542895613 1.3922009424908774,43.66266968421118 1.3924010871361792,43.662762288714205 1.3924559742000389,43.66279283192247 1.3925160714925464,43.66284189597981 1.3931045578351733,43.66314589728489 1.3928935435749337,43.66354282527369 1.3929151929732806,43.6636885858262 1.3932687698691102,43.66407329320849 1.393280986956974,43.66410500546379 1.39333722149376,43.66424368139984 1.3933082957416114,43.66473521807945 1.393277483527366,43.66488662928124 1.393196994477909,43.66502920239854 1.393042843575154,43.66508742723877 1.3928135036831184,43.66526489568351 1.3927290620464112,43.66532571960681</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3927290620464112,43.66532571960681 1.3927542148743666,43.66537510650777 1.3927101974254448,43.66546211833045 1.3926693240800172,43.665599491481586 1.3926632155360852,43.665631007983286</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3926632155360852,43.665631007983286 1.3926954650547851,43.66564562903515 1.3927949983882657,43.665691311676476 1.3928353327445226,43.66571606996401</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

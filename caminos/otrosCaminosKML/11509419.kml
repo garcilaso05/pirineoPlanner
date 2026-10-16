@@ -1,0 +1,176 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>width: 2
+highway: track
+surface: ground
+tracktype: grade4
+smoothness: horrible</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.755342643181886,42.39803540958685 2.7551949601491765,42.39805570921011 2.754982867910596,42.39803852750326 2.7548172185722044,42.39796767778981</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+bicycle: yes
+highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7548172185722044,42.39796767778981 2.75476089420389,42.3979165306155 2.754746700822401,42.397866179465424 2.75468229161653,42.397747432851375 2.7546289316886527,42.397647924342536 2.754414413998805,42.39736273208202 2.7540851814471754,42.39703999026575 2.7539854684506384,42.396811515919 2.7540066686913436,42.39650701484322 2.753942259485472,42.39614247403043 2.753620393119172,42.39566707513205 2.7535559839133006,42.39544569431559 2.7534959764523212,42.39525356936604 2.7534595048517865,42.3951366753762 2.753348113756555,42.39504067884374 2.753137638485486,42.394859432744255 2.753094699014905,42.39476429823512 2.752987440169981,42.39459791201053 2.7527943023838954,42.39443942009691 2.7526794976905853,42.39434309078515 2.7526387141766864,42.39423057371589</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7526387141766864,42.39423057371589 2.752660273743505,42.39403340298776 2.752695038545,42.393872388612685 2.7527599867400427,42.39369770711973 2.7528319417943,42.393476783760505 2.7529038070170295,42.393310593153416 2.752917730903934,42.393135910096824 2.752873623623483,42.392971509875196 2.752739055993922,42.39271290042262 2.7525720591826044,42.39247817393746 2.7523958995553883,42.392245304228034 2.752326280120869,42.39210478584864 2.7523007679668003,42.391972892012724 2.7523054392062773,42.39181359732731 2.7522173144769053,42.391674869306485 2.7520340581589453,42.39157382522266 2.75188332085427,42.39147961457117 2.751781272237994,42.391431713044845 2.7517163240429516,42.39138878740779</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7517163240429516,42.39138878740779 2.751451860023307,42.39119008179659 2.751375413392629,42.391126787790334</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.751375413392629,42.391126787790334 2.7512757003960915,42.39102567647811 2.751064596304323,42.39092469769534 2.7510135719961855,42.39083221107239 2.7511228071347347,42.39045609297866 2.751092533909659,42.3902754971079 2.750960301899837,42.38999969263907 2.7509092775916995,42.38979587388389 2.7507793812016152,42.38960061330337 2.750672661345862,42.38953380126972 2.7501820913692043,42.389273518954965 2.7499398157370774,42.3891552205184 2.7497333828847865,42.389191181143566 2.7495015277099553,42.3892786277439 2.7492355365543277,42.389162717846006</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de les Salines</name>
+      <description>name: Carretera de les Salines
+highway: residential
+name:ca: Carretera de les Salines</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7492355365543277,42.389162717846006 2.7492766793943404,42.389057489785394 2.7492923999118126,42.38904402111169</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>foot: designated
+horse: permissive
+access: yes
+noname: yes
+bicycle: yes
+highway: unclassified
+motor_vehicle: permissive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7492923999118126,42.38904402111169 2.7491946632089004,42.388921475952635 2.7490556040029186,42.38888020730704 2.7489887693457806,42.388778826982126 2.748903878551431,42.38869337014126 2.7488930089364927,42.38858668162386 2.7488649814996284,42.38849200204766 2.748781887335847,42.3883011827902 2.748606715855444,42.388118391198155 2.748416183183682,42.38786891796675 2.748370997924891,42.38771021001205 2.7482825138694054,42.38760079948688 2.7482337353494777,42.38742868818385 2.748248198225552,42.387284576120734 2.7483330890199014,42.387203230951926 2.7484324426903246,42.387108482938885 2.7485005349888607,42.386988720714974</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Rectoria</name>
+      <description>foot: yes
+name: Carrer de la Rectoria
+horse: permissive
+access: yes
+oneway: yes
+bicycle: yes
+highway: residential
+name:ca: Carrer de la Rectoria
+surface: asphalt
+maxspeed: 30
+motor_vehicle: permissive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7485005349888607,42.386988720714974 2.7486017751213816,42.38673459845264 2.7486395043633145,42.38672179278661 2.748598810680944,42.38652818141398</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Valls</name>
+      <description>name: Carrer de Valls
+highway: residential
+name:ca: Carrer de Valls</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.748598810680944,42.38652818141398 2.7486054582140462,42.38637829474937</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Burriana</name>
+      <description>name: Carrer de la Burriana
+highway: living_street
+name:ca: Carrer de la Burriana</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7486054582140462,42.38637829474937 2.7485582068301015,42.3863772994848 2.7485398811983055,42.38636907196371 2.7484604701271893,42.38632952676672 2.7481978027381126,42.38617260640221 2.748191514531124,42.386115677056736</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de la Vila</name>
+      <description>name: Plaça de la Vila
+highway: living_street
+name:ca: Plaça de la Vila
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.748191514531124,42.386115677056736 2.7481833398620386,42.38602749618542 2.7481121932915364,42.38595809264354 2.748074823375717,42.385926973822116 2.748032333062778,42.38591231015039 2.7479683730145488,42.38589028146063</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont</name>
+      <description>name: Carrer del Pont
+oneway: yes
+highway: residential
+name:ca: Carrer del Pont
+surface: paving_stones
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7479683730145488,42.38589028146063 2.7478975857701604,42.38587309642319 2.747860036191284,42.3858612858542 2.747761760499201,42.385842375668865 2.7476280911849242,42.385838394576496</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont</name>
+      <description>name: Carrer del Pont
+layer: -1
+oneway: yes
+tunnel: yes
+highway: residential
+name:ca: Carrer del Pont</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7476280911849242,42.385838394576496 2.7475014287298634,42.38584171215349</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont</name>
+      <description>name: Carrer del Pont
+oneway: yes
+highway: residential
+name:ca: Carrer del Pont
+surface: paving_stones
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7475014287298634,42.38584171215349 2.7472596920869066,42.385911712987216</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont</name>
+      <description>name: Carrer del Pont
+highway: residential
+name:ca: Carrer del Pont</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7472596920869066,42.385911712987216 2.74713734154521,42.38583647038175 2.746928932399294,42.385708411771816</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

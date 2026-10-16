@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue de l'Aubépine</name>
+      <description>name: Rue de l'Aubépine
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3672275979292976,43.52549971331798 1.3671535767498864,43.525547782162505</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Lou Verdai</name>
+      <description>name: Rue du Lou Verdai
+highway: residential
+created_by: Potlatch 0.7</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3671535767498864,43.525547782162505 1.367719425547353,43.52598658771638</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.367719425547353,43.52598658771638 1.3682609300006203,43.52641542473422</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

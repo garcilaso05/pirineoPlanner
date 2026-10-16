@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>source: ToulouseMetropole - Orthophotoplan 2015
+footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4273442042155025,43.668167479761664 1.4287121587301597,43.66877672647561</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: ToulouseMetropole - Orthophotoplan 2015
+footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4287121587301597,43.66877672647561 1.4286838617987097,43.66883767679849</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: ToulouseMetropole - Orthophotoplan 2015
+footway: crossing
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4286838617987097,43.66883767679849 1.4287436895966321,43.66885398652257</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Fronton</name>
+      <description>ref: M 4
+name: Route de Fronton
+lanes: 2
+highway: secondary
+old_ref: D 4
+maxspeed: 50
+source:maxspeed: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4287436895966321,43.66885398652257 1.4286687701019365,43.66900538733545</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

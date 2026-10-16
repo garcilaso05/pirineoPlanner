@@ -1,0 +1,445 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>L’Écluse de l’Aiguille</name>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+railway: abandoned
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6343749680331805,43.23099902099409 2.6342921433639845,43.23095778679593 2.633298876154334,43.23044778945484</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6186888560364703,43.22703360340685 2.6192414995992612,43.22712942995557 2.619576661031766,43.22717433223461 2.620145384438142,43.22722512544336 2.6208909861239613,43.22734242093893 2.62096348016739,43.22731499528245 2.6212397121172564,43.22688901237982 2.621360355859914,43.22672681343615 2.6216850070035944,43.22640627615917 2.6218082558605755,43.2263162740681 2.622416415307925,43.22604312509006</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Promenade Paul Riquet</name>
+      <description>ref: C 1
+name: Promenade Paul Riquet
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.622416415307925,43.22604312509006 2.6224716616978982,43.22523761321287</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6224716616978982,43.22523761321287 2.622751037751259,43.22540649274279</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Cers</name>
+      <description>name: Rue du Cers
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.622751037751259,43.22540649274279 2.6231190775231634,43.225240296961 2.6237967665735025,43.22514427107038 2.623832070364169,43.22514060545738</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Paix</name>
+      <description>name: Rue de la Paix
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.623832070364169,43.22514060545738 2.624416514288017,43.22502749500504 2.6246375896794385,43.2249520879202</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Marcellin Albert</name>
+      <description>name: Rue Marcellin Albert
+highway: service
+service: alley</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6246375896794385,43.2249520879202 2.624701100570026,43.22488217918532</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Louis Pasteur</name>
+      <description>name: Rue Louis Pasteur
+highway: residential
+name:etymology:wikidata: Q529</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.624701100570026,43.22488217918532 2.625042101051877,43.22523761321287 2.625190682399871,43.22538541555569 2.625415261220901,43.22559651438316 2.6258025249398846,43.22586946899264 2.626394604543648,43.22627719675518 2.6269780603206834,43.22663589543754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Giratoire du Languedoc</name>
+      <description>name: Giratoire du Languedoc
+highway: residential
+junction: roundabout
+name:etymology:wikidata: Q206221</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6269780603206834,43.22663589543754 2.6269298207899263,43.22664859385586 2.626892989863278,43.22667889986415 2.6268732269270267,43.226716733261554 2.6268789761448454,43.22677341785802 2.626922095278483,43.226820807711135 2.626991624881474,43.226846793568 2.6270720240994025,43.2268439789795</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue François Mitterrand</name>
+      <description>name: Avenue François Mitterrand
+highway: residential
+name:etymology:wikidata: Q2038</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6270720240994025,43.2268439789795 2.6271306840874553,43.22689202333273 2.6271895237385654,43.22696958804652 2.6272176410069585,43.22703648344193</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6272176410069585,43.22703648344193 2.6273900277099806,43.22708642584681 2.627602479274675,43.22734510459439 2.627913655689094,43.22779327339888</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Segmento de ruta</name>
+      <description>railway: razed</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.627913655689094,43.22779327339888 2.628031065496729,43.227848582450406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+railway: abandoned</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.628031065496729,43.227848582450406 2.6281438040648855,43.22790598599281 2.6288437713342714,43.228262907831954 2.629959029759506,43.22885087849578 2.633298876154334,43.23044778945484</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: strava heatmap
+highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6186888560364703,43.22703360340685 2.618595071920809,43.22703170520183 2.6184367887677467,43.227117582555714 2.617508829079251,43.2278426915479 2.6171224636755515,43.22810660342169 2.616763137561904,43.22829033306194 2.615033072156218,43.22912669846916 2.613850170590089,43.229922079310064 2.6136410427919463,43.230031580813446</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: strava heatmap
+highway: path
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6136410427919463,43.230031580813446 2.6119807764838368,43.23083873107364 2.6111572908628844,43.229961219738534 2.610761223654116,43.23016418667432 2.6106529766623794,43.2301918074047 2.6087894216054734,43.230608407660974</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6342921433639845,43.23095778679593 2.6340476219436475,43.23106977357701 2.6338895184536426,43.23110217181838 2.6336105915579235,43.2311284176538 2.6282864565320034,43.231223779609074 2.624275119462296,43.23127581300837 2.622537238713639,43.23130487315165 2.622416235644868,43.231281703579064</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Promenade Paul Riquet</name>
+      <description>ref: C 1
+name: Promenade Paul Riquet
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.622416235644868,43.231281703579064 2.622361528244065,43.23130448044711 2.622108562660057,43.231315868877935</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.622108562660057,43.231315868877935 2.6220806250547204,43.23128419070875 2.621967078002808,43.231286023330554 2.621680964584816,43.2313106982688 2.6209934838978795,43.23132208669846 2.620810407242976,43.23134191826918 2.6201775441253137,43.231458485886094 2.6197597376866697,43.23158401999343 2.619454130827012,43.23173527581371 2.6189113687323475,43.232152716367935 2.618581956517661,43.23238997160175 2.618071893099337,43.232611976214415 2.6167905361780694,43.23308072268411 2.61607377041287,43.2334202703744 2.615125418967425,43.23386381314869 2.615055530038321,43.23389018869079 2.614379188460907,43.2341750830868 2.6139768330451503,43.23426782237197 2.613662961684879,43.23429432863431 2.6134349692657692,43.23427299273022 2.613225841467626,43.2342350985754 2.6130380935732456,43.23417842091815 2.6123579790716382,43.23377218586654 2.6114900268441223,43.233118421210314 2.610080390500282,43.23195060690506 2.608893626178432,43.23079356968877 2.6087894216054734,43.230608407660974 2.608726988693227,43.23056658413462</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.608726988693227,43.23056658413462 2.608688810293652,43.23035831694537</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.608688810293652,43.23035831694537 2.608716298741346,43.23025640844796 2.6086844983802884,43.23013990398397 2.608543373049153,43.22993268257243 2.6083717948298863,43.229796410874854 2.60806951173678,43.229751968694345 2.6076597901356933,43.2297646010111 2.607235425995475,43.22979078197013 2.6065323146225947,43.229664786001614</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6065323146225947,43.229664786001614 2.606383643443073,43.22963821227318</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 111
+highway: tertiary
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.606383643443073,43.22963821227318 2.606368102588658,43.22969371600807</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 111
+layer: 1
+bridge: yes
+highway: tertiary
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.606368102588658,43.22969371600807 2.606311868051872,43.22989472026654</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 111
+highway: tertiary
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.606311868051872,43.22989472026654 2.6063006391108208,43.229935104304936</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Laure</name>
+      <description>ref: D 111
+name: Route de Laure
+highway: tertiary
+surface: asphalt
+maxspeed: 80
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6063006391108208,43.229935104304936 2.6061037284005417,43.230512521129995</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Étang</name>
+      <description>ref: C 4
+name: Chemin de l'Étang
+highway: unclassified
+surface: asphalt
+maxspeed: 80
+smoothness: intermediate
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6061037284005417,43.230512521129995 2.606008506980425,43.230530585771255 2.605959728460497,43.2305398798962 2.6044586436207338,43.23064630407088 2.6030231357967106,43.230755084308306 2.6025069638344553,43.230770727178474 2.601563283628488,43.23079913304959 2.5994767667180634,43.230890699350454 2.596720016774157,43.23100078817338 2.596014659613067,43.231017805452886 2.5957990639448782,43.23103089566465</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Étang</name>
+      <description>ref: C 4
+name: Chemin de l'Étang
+layer: 1
+bridge: yes
+highway: unclassified
+maxspeed: 80
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5957990639448782,43.23103089566465 2.5956076329578317,43.23104261140178</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Étang</name>
+      <description>ref: C 4
+name: Chemin de l'Étang
+highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5956076329578317,43.23104261140178 2.5955283117182444,43.23106578106527 2.5955322643054948,43.231125014204466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+bridge: yes
+highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5955322643054948,43.231125014204466 2.595536037229688,43.23120839865864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+bridge: yes
+highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.595536037229688,43.23120839865864 2.5955391813331823,43.231314428961504</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Jean Bonnery</name>
+      <description>name: Allée Jean Bonnery
+highway: unclassified
+surface: asphalt
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5955391813331823,43.231314428961504 2.595518609913176,43.2318549188362 2.5955484339806087,43.23230089464156 2.5955651426448934,43.23255182822852 2.595578617374155,43.2327540011468 2.5957516328978762,43.235345603515896 2.595755495653598,43.235403916246504 2.5956662929458854,43.23547682344288</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'École Buissonnière</name>
+      <description>name: Chemin de l'École Buissonnière
+highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5956662929458854,43.23547682344288 2.594782889695482,43.23547629987266</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'École Buissonnière</name>
+      <description>name: Chemin de l'École Buissonnière
+highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.594782889695482,43.23547629987266 2.5908458432997716,43.23544809252043</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+bridge: yes
+highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5908458432997716,43.23544809252043 2.5906411172465207,43.23543506870375</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5906411172465207,43.23543506870375 2.587885714775541,43.23538179537435 2.5873057624281133,43.235382318945376 2.587161582825012,43.23536772440119 2.5870168642327407,43.23531432012002 2.586772073317818,43.23516621461988 2.5865279112235937,43.23501032059367 2.586344205747992,43.23493132628122 2.583285891363207,43.23445028993954 2.5805627384109266,43.23405407021523 2.5804529642832077,43.23403810094869 2.5804690441267932,43.23264548627437</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+bridge: yes
+highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5804690441267932,43.23264548627437 2.5804690441267932,43.23250529367424</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5804690441267932,43.23250529367424 2.580469313621379,43.232450905141704 2.580482339192998,43.230147103704496</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Marie Anne Lawless</name>
+      <description>ref: C 4
+name: Allée Marie Anne Lawless
+highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.580482339192998,43.230147103704496 2.5850552131468088,43.23045263287882 2.5871644574339214,43.23066659402159 2.5889881272922124,43.23086262077818 2.591476999618394,43.23102821217147 2.591590636501835,43.23100589335773</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Marie Anne Lawless</name>
+      <description>ref: C 4
+name: Allée Marie Anne Lawless
+layer: 1
+bridge: yes
+highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.591590636501835,43.23100589335773 2.5917222396909585,43.230947510967624</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Marie Anne Lawless</name>
+      <description>ref: C 4
+name: Allée Marie Anne Lawless
+highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5917222396909585,43.230947510967624 2.5917724555153407,43.230924275808015 2.5918409071399906,43.23095438333707 2.5920131141799567,43.23101453289951 2.5920945015446977,43.23104287320595 2.5925080859015064,43.231070100832056 2.5929533807878444,43.231088230759056</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Marie Anne Lawless</name>
+      <description>ref: C 4
+name: Allée Marie Anne Lawless
+layer: 1
+bridge: yes
+highway: unclassified
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5929533807878444,43.231088230759056 2.5931726595486975,43.23109739389699</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Marie Anne Lawless</name>
+      <description>ref: C 4
+name: Allée Marie Anne Lawless
+highway: unclassified
+surface: asphalt
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5931726595486975,43.23109739389699 2.5938834066014933,43.23113489729722 2.594817385002392,43.231104528053436 2.5955283117182444,43.23106578106527</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

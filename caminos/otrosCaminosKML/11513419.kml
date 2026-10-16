@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GI-504
+oneway: no
+highway: tertiary
+maxspeed: 70
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.837480999500638,42.320168808941226 2.837622214663302,42.32041509717774 2.837878234519276,42.320870674737776 2.837953872666199,42.321017131030835 2.8380519686952246,42.32114146916718 2.8382003703801613,42.32124282582091 2.8383963827751564,42.32133488355757 2.8388842578059617,42.32157631861237 2.8394361827165246,42.321842327827035 2.8397066654485728,42.321968125550846</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

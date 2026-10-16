@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue des Artisans</name>
+      <description>name: Rue des Artisans
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3996733985187686,43.6852087193155 1.3997403230074357,43.68514362809414 1.3998262019485974,43.68504228832749</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Occitanie</name>
+      <description>name: Rue de l'Occitanie
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3998262019485974,43.68504228832749 1.3999160334770093,43.68488618577505 1.399965889975278,43.684738203038584</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

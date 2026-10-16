@@ -1,0 +1,279 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Puigcerdà Camí del Segre ermita de Sant Marc</name>
+    <Placemark>
+      <name>Camí de Sant Marc</name>
+      <description>lit: yes
+name: Camí de Sant Marc
+highway: residential
+name:ca: Camí de Sant Marc
+surface: asphalt
+sidewalk: right</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9296141984596595,42.42686301111322 1.9298515333577235,42.42593190494825 1.9299487310714654,42.42554439307987 1.9300883292666178,42.42488063087481</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Sant Marc</name>
+      <description>name: Camí de Sant Marc
+highway: unclassified
+name:ca: Camí de Sant Marc
+surface: asphalt
+source:date: 2019
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9300883292666178,42.42488063087481 1.9302494870285887,42.424143123807006 1.9307331399775585,42.422006877204566 1.9311697212056405,42.419964526892954 1.931334023071106,42.419250902154054 1.9309818834797314,42.418006731283754 1.9308259359464082,42.417745572299864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>noname: yes
+highway: track
+surface: asphalt
+tracktype: grade1
+source:date: 2019</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9308259359464082,42.417745572299864 1.9304611301095274,42.417824822030276 1.9301607334785176,42.4178644136991 1.930001192684058,42.417894322966674 1.9298043718053075,42.417886829071705 1.9291735748127985,42.4178644136991 1.928647880708532,42.41784849745333 1.928497682393027,42.41783271383896 1.9265450144599365,42.41719108665612 1.9262868386472802,42.4170989703387 1.92539705735836,42.41670012966084 1.9250000918343078,42.41654958554634 1.9244743977300414,42.41636740678881 1.9240344927354078,42.41628032953284 1.9234443894252695,42.41615352679305</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9234443894252695,42.41615352679305 1.9235164343110558,42.41581980622327 1.92363159833048,42.414234609264746 1.9237128958636929,42.41358690994701</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9237128958636929,42.41358690994701 1.923675615779402,42.41350188482149 1.9236010556108203,42.412859284805904 1.9235537143953467,42.41246419759771</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9235537143953467,42.41246419759771 1.9234012702916317,42.412109101145944 1.9229813078963058,42.411504026486575 1.9226020391833505,42.41101640754047 1.922446181481556,42.41073379640245 1.9221922277507353,42.41027117626682 1.9221683325641776,42.41013587166826 1.9221464136712454,42.41005866832538 1.9221481204702848,42.4096786195563 1.9221751597603371,42.40927847147894 1.9222260044054182,42.40816808533247 1.9222497199289188,42.407652980467645 1.9223641652961159,42.40713090682499 1.9226706704710572,42.40622199350757 1.9227455899657528,42.40594002407121 1.9227758631908278,42.405839400937985</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: paved
+sac_scale: hiking
+surface:note: stones, cobblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9227758631908278,42.405839400937985 1.922834972336523,42.4056729777484 1.9230200252850513,42.4052200046228 1.9235880300392003,42.40402596797496 1.924024970593396,42.40329697159276 1.9240776118690455,42.40309963035091</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9240776118690455,42.40309963035091 1.9242021183674245,42.40307847002629</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path
+surface: wood
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9242021183674245,42.40307847002629 1.9242739835901541,42.402866932721025</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9242739835901541,42.402866932721025 1.9242801819656146,42.402819305220596</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+highway: track
+surface: compacted
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9242801819656146,42.402819305220596 1.9248826820266733,42.40279980314174 1.9251946669248483,42.402809819516335 1.926129004651861,42.402985205312945 1.926599003208512,42.40304497169214 1.9271502094668478,42.40315170196577 1.9276912647624729,42.4033211168315 1.9280034293237045,42.40343733224618 1.9285683798058872,42.4036901265629 1.9290012779413044,42.40399373046136 1.9291650408175998,42.40417189889925 1.9292814624784216,42.40423803202908 1.929610425535466,42.40442309829069</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Sant Marc</name>
+      <description>name: Carretera de Sant Marc
+highway: unclassified
+name:ca: Carretera de Sant Marc
+surface: asphalt
+source:date: 2019
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.929610425535466,42.40442309829069 1.9295876981587776,42.4046423911542 1.9296553412996722,42.404758670452935 1.9297387947895668,42.404844967728124 1.930013230108865,42.40502121014199 1.9307651200016736,42.40544659109065 1.9308450700619597,42.405491895019864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9308450700619597,42.405491895019864 1.9310515029142508,42.405570629589135 1.9313875626620398,42.40576020239266 1.9318328575483774,42.40599733341707 1.932220839919589,42.406213105287804 1.9323472328800646,42.40627247061238</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9323472328800646,42.40627247061238 1.9324824293303242,42.40646502613327 1.9325878017131515,42.406628993027866 1.9326717043606885,42.40683587459447 1.9327911802934763,42.407215277297645 1.9328623268639784,42.407664919593 1.9328386113404779,42.40784878183656 1.9327239863102241,42.40821371893575 1.9327239863102241,42.40848519839228 1.9326458328805056,42.40875740627435 1.9326205902210218,42.40912691464523 1.932573069342492,42.40936011966952 1.9324473052027153,42.40962847682424 1.9323325903409334,42.40979767522118 1.9322011668148666,42.409907113376754 1.9319712879336606,42.410225212531515 1.9318577408817477,42.41041908243034 1.9317288326384767,42.41099292851297 1.931703589978993,42.411302532610165 1.9318098606771044,42.411616180960934 1.9319888050817007,42.41175871169781 1.9321495136860296,42.41187179425303 1.9324360762616637,42.412107509375474 1.9325842982835437,42.41214882907073 1.9327812988253512,42.41217608811644 1.9332371040005132,42.41225859474217 1.9346536573720414,42.41254391826553 1.93546887849238,42.412664626571356 1.936325062789674,42.41272398579038 1.9367363115267442,42.412827582415694 1.9372297561123109,42.412974885645305 1.9377074801804055,42.41315992613232 1.9380642910112578,42.413315717860996 1.938673797931533,42.41364713048101 1.9387762957054513,42.41375291420854</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9387762957054513,42.41375291420854 1.9387878839726165,42.41380438008294</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: low_water_crossing
+highway: track
+surface: concrete
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9387878839726165,42.41380438008294 1.9388239064155095,42.413920775042584</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9388239064155095,42.413920775042584 1.93884762193901,42.41398689789496 1.9388568745864367,42.41401282970669 1.939146581265565,42.4146032895158 1.9394918936607806,42.41518618322758 1.9396930264528953,42.41568272295476 1.9398221143592231,42.41622568235842 1.9399087119526122,42.41665947615364 1.9399470700152444,42.41682527332587 1.9399624312066026,42.41698563193384 1.9399795890285292,42.41713451704021 1.9400322303041786,42.4174470088177 1.9402919332528177,42.417883579506345 1.940838288608619,42.4186283224281 1.940982108885607,42.41885393202887</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera d'Age</name>
+      <description>name: Carretera d'Age
+oneway: no
+highway: unclassified
+name:ca: Carretera d'Age
+source:date: 2019</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.940982108885607,42.41885393202887 1.940931533735111,42.418872898583835 1.9406916835542507,42.41901998866497 1.9399114068984649,42.419463113685964 1.9389191278356261,42.42016148350341 1.9383151006385841,42.42061209402773 1.9379398743444076,42.42087072112203 1.9375282662812239,42.42110169410985 1.9374876624303818,42.42112410832522 1.9369354680252335,42.421284588568085 1.9362066648352272,42.42148160734588 1.9358447336072557,42.42164931486519 1.9354904380591986,42.42185422379947 1.934961869346023,42.42218658599314 1.9346697372156272,42.422370405667586 1.934145300752758,42.42274566933994 1.934108200331524,42.42278592102652 1.9340852034602505,42.422833400742206 1.9340366944349083,42.42290057519473 1.93395683420615,42.42308246972317 1.9339094929906768,42.42320587653805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Age</name>
+      <description>name: Camí d'Age
+lanes: 2
+oneway: no
+highway: unclassified
+name:ca: Camí d'Age
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9339094929906768,42.42320587653805 1.9338564923889139,42.423294204103804 1.9337892984056615,42.42338127162003 1.9337045872743692,42.42345056746237 1.9336013708482238,42.42351197213521 1.9334698574906288,42.42357118846361</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Age</name>
+      <description>name: Camí d'Age
+layer: 1
+bridge: yes
+oneway: no
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2012
+highway: unclassified
+name:ca: Camí d'Age
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+maxweight:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9334698574906288,42.42357118846361 1.9331657777669544,42.4236886262798</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Age</name>
+      <description>name: Camí d'Age
+oneway: no
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2012
+highway: unclassified
+name:ca: Camí d'Age
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9331657777669544,42.4236886262798 1.9330707360098944,42.42373312129555 1.9329702145296015,42.423803212485815 1.9328872101973489,42.42389273281355 1.9328402283079895,42.42397648393776 1.9327966600167095,42.424096573438455</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Age</name>
+      <description>name: Camí d'Age
+lanes: 2
+oneway: no
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2012
+highway: unclassified
+name:ca: Camí d'Age
+surface: asphalt
+source:date: 2019
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9327966600167095,42.424096573438455 1.932662721207847,42.42442388412888 1.9325931017733278,42.424549808106676 1.932528602735928,42.424640719889176 1.9324551205456875,42.424727785535424 1.9318722935893506,42.42530097021414 1.9311979283055618,42.42578741714459 1.9308666296287784,42.42603097073959 1.9308371648874598,42.42605258748449 1.9303791139240871,42.42638950272006 1.9297461609748963,42.42686579605608</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Age</name>
+      <description>name: Camí d'Age
+lanes: 2
+oneway: no
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2012
+highway: unclassified
+name:ca: Camí d'Age
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9297461609748963,42.42686579605608 1.9296141984596595,42.42686301111322</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

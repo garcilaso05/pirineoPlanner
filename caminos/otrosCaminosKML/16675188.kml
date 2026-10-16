@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue de l'Aire</name>
+      <description>name: Rue de l'Aire
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.912122106289658,42.93231258108032 2.9121837307181484,42.932474903574565</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Aire</name>
+      <description>name: Rue de l'Aire
+layer: 1
+bridge: yes
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9121837307181484,42.932474903574565 2.9122234362537065,42.932563496748934</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Couminal</name>
+      <description>name: Chemin du Couminal
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9122234362537065,42.932563496748934 2.9124872714526524,42.93300297488792</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

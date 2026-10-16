@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Sironis</name>
+      <description>foot: designated
+name: Chemin de Sironis
+bicycle: designated
+highway: path
+surface: gravel
+tracktype: grade2
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5098170033145326,43.61661592795963 1.5099255198008543,43.61666171293199 1.5102199875509887,43.61707162995943 1.5102365165522165,43.61713868101117 1.5101914211249534,43.61719688724668 1.5096730033744883,43.617413778142044 1.5096383284045214,43.617461578579 1.5096480302095898,43.61751770339728 1.5098365865877263,43.617877603362416 1.5105570354455902,43.61901692553175 1.51086704405014,43.61941512065992</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Sironis</name>
+      <description>name: Chemin de Sironis
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.51086704405014,43.61941512065992 1.5109540009696427,43.619535820801815</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

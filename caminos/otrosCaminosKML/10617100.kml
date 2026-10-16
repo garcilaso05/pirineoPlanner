@@ -1,0 +1,1013 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta dels dolmens</name>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1.5
+highway: path
+surface: ground
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1357170924203706,42.329638189771465 3.135672176656165,42.32970592886219 3.1356739732867327,42.32978077383152 3.1357161941050866,42.32987972578381 3.135703887185694,42.329981201181276 3.1356795428414945,42.33003399754387 3.1356244761145775,42.33007909025118 3.135549287125297,42.3301235852326 3.135448765645004,42.33017060377577 3.135372408845854,42.3301437739899 3.1353604612525747,42.33006899586296</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 0.8
+highway: path
+surface: ground
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1353604612525747,42.33006899586296 3.135334230446279,42.33002157878081 3.1353406983163246,42.329914591367505 3.1353136590262727,42.32987507703786 3.135236763237952,42.32979737651895</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 0.8
+highway: path
+surface: ground
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.135236763237952,42.32979737651895 3.135059705295452,42.32952801397693 3.134999428339887,42.329472427924166 3.1349042967512992,42.3294734905015 3.1348256941639385,42.329467314270495 3.1347632612516922,42.32947707669988 3.1346895095668663,42.329521904162306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Sant Pere de Rodes</name>
+      <description>ref: GIP-6041
+name: Carretera de Sant Pere de Rodes
+highway: tertiary
+name:ca: Carretera de Sant Pere de Rodes
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1346895095668663,42.329521904162306 3.1346097391696364,42.32953531918929 3.1345490130564304,42.32956148512479 3.134502929482355,42.32961361773034 3.1344920598674166,42.32967943093245 3.13449071239449,42.32976968323387</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 5
+noexit: yes
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 1
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.13449071239449,42.32976968323387 3.1343275783388944,42.32974418149295</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 5
+noexit: yes
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 1
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1343275783388944,42.32974418149295 3.134208102406107,42.329718679741696 3.134088806136375,42.32970752272227 3.133965736942451,42.32970121369255 3.133773856797763,42.32969762750695</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 5
+noexit: yes
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 1
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.133773856797763,42.32969762750695 3.133965736942451,42.32970121369255 3.134088806136375,42.32970752272227 3.134208102406107,42.329718679741696 3.1343275783388944,42.32974418149295</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 5
+noexit: yes
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 1
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1343275783388944,42.32974418149295 3.13449071239449,42.32976968323387</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Sant Pere de Rodes</name>
+      <description>lit: no
+ref: GIP-6041
+name: Carretera de Sant Pere de Rodes
+lanes: 2
+highway: tertiary
+name:ca: Carretera de Sant Pere de Rodes
+surface: asphalt
+sidewalk: no
+smoothness: good
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.13449071239449,42.32976968323387 3.134470590132126,42.32983768782578 3.1344282794822442,42.329918974468086 3.1343735720814414,42.32996087955065 3.1343051204567915,42.3299899009623 3.1338704256908057,42.330107115452094 3.1335013079405614,42.33018328815076 3.1329176725004686,42.330215032282155 3.1323271200326888,42.33034400095251 3.1320163927759115,42.33043710793328 3.131793341090865,42.33053220707521 3.1315958913914153,42.33065280745624 3.1313899076967666,42.33075428160652 3.1311152028828833,42.33086219732624 3.1306946116668586,42.33099541487628 3.1303856810406496,42.331090579583474 3.1302105095602464,42.33116216884961 3.130124720450613,42.33125281747877 3.130086631882566,42.331362326161305 3.13011528814013,42.33145171273114 3.130193621232905,42.33149348397466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1
+highway: path
+surface: ground
+sac_scale: mountain_hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.130193621232905,42.33149348397466 3.1300376736995816,42.33155471299693</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1
+highway: path
+surface: ground
+sac_scale: mountain_hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1300376736995816,42.33155471299693 3.12995008795938,42.3315021171376 3.129901039944867,42.331441020882146 3.1298810973455597,42.33137228752381 3.1298651971650306,42.33132387528721</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1
+highway: path
+surface: ground
+sac_scale: mountain_hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1298651971650306,42.33132387528721 3.1298068066715627,42.33133503201995 3.129747428031283,42.33121967927711 3.129710686936162,42.33119397889626 3.1296302877182334,42.331319293057135 3.1295361442764578,42.331332110018714 3.1294764063100637,42.331367373251844 3.129404720750391,42.33137520952319 3.129256498728511,42.3311848808261 3.1292375442760165,42.3312320313944 3.129212211785004,42.33124298891577 3.1290620134695,42.33108593092701 3.1289586173802975,42.3311114985333 3.12885153819843,42.33129040507716 3.1287838052260075,42.331322679922884 3.1286485189442192,42.33131491005413 3.128596686152325,42.331334500747005 3.128412262024496,42.33130508150083 3.128341384948579,42.331311921642815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1
+highway: path
+surface: ground
+sac_scale: mountain_hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.128341384948579,42.331311921642815 3.1281780712299256,42.331308401958196 3.1281311791720947,42.33133270770079 3.1280851854295477,42.331311921642815 3.1280691954174906,42.33132507065154 3.128056080014342,42.33135282966091 3.1279387600382362,42.3313153749181 3.1278957307361273,42.331285623617134 3.127803473756448,42.331284295433726</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1
+highway: path
+surface: ground
+sac_scale: mountain_hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.127803473756448,42.331284295433726 3.127589584887299,42.33122187078197 3.1274394764033224,42.33120108468736 3.1273212581119325,42.33121768699989 3.1272687066678118,42.3312344221265 3.1270229276060766,42.33118029858589 3.126865183442185,42.33116502444944 3.1267358260412723,42.33120247928178</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1
+highway: path
+surface: ground
+sac_scale: mountain_hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1267358260412723,42.33120247928178 3.1266945035382023,42.33116920823501 3.1265237338026917,42.33118441596117 3.1264260869313074,42.331148422123 3.126366079470328,42.3311623016682 3.126319097580969,42.33119969009291 3.1262216303726422,42.33121217503262 3.1261521007696507,42.33119690090391 3.126118324114968,42.331228777342226 3.1260875119007228,42.33122930861606 3.126066221828489,42.33125480975487 3.126013760215897,42.33122240205586 3.1259586934889803,42.3312214059173 3.1258671551615285,42.33118268931995 3.125780916894253,42.3311611063008 3.1257252213466376,42.33116602058889 3.125491569541238,42.331078692304125 3.1254411740537993,42.331019787149266 3.125345683139097,42.33101693154284 3.1253045402990844,42.33104342890914 3.125263397459072,42.33101102110121 3.1250629833191845,42.33099528205732 3.1249833925850115,42.3309531120258 3.1248944593718835,42.33098837547142 3.124809299082949,42.3309606163012 3.1246944045581104,42.330949393092546 3.124628378384727,42.33095769428257 3.1245949610561583,42.33098067197086</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+sac_scale: mountain_hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1245949610561583,42.33098067197086 3.1245251619585823,42.330978082000634 3.1244624595517507,42.33100179018566 3.1243836773013336,42.3309756912588 3.124213087228879,42.330945873387634 3.1241085233298076,42.33093292352827 3.1240698957725903,42.330885307868606 3.1239717997435648,42.33085668532782 3.123865618876982,42.3308412782935 3.123796358768576,42.33082221872428 3.123690177901993,42.33080920242978 3.1236370874687016,42.330780579854355 3.1235647730883302,42.33073542124019 3.1234182578654903,42.3306937823128 3.123297703954361,42.33065812024304 3.1232509915595874,42.33062597787605 3.1232011350613185,42.33056063053385 3.123096571162247,42.33050471334365 3.1230033260357555,42.330479676770864 3.122924364122281,42.330460085811744 3.1228471988393753,42.330448198413244 3.1227924914385725,42.33043511563128 3.1227314059992524,42.330399984695696 3.122683885120723,42.33037269013674 3.1226332201386984,42.33033988352222 3.1225921671302137,42.33033277763382 3.1225423106319457,42.33034346967119 3.1224915558183923,42.330359009647744 3.1224550842178567,42.330361267592735</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1
+highway: path
+surface: ground
+sac_scale: mountain_hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1224550842178567,42.330361267592735 3.122372798537832,42.33033882095952 3.122372798537832,42.33026132024421 3.1223940886100654,42.330221075619164 3.1225015271180463,42.33021523151306 3.1226395981772157,42.33013660166897 3.12265289324342,42.33007968794517 3.1227536842182984,42.33005232683675 3.1228253697779715,42.329944276906375 3.122822674832119,42.329873682414004 3.1228916654459398,42.32983250779109 3.1228969655061154,42.32973242678077 3.122905499501315,42.32970108087087 3.1229414321126794,42.329674582939084 3.122908194447167,42.32964217442589 3.122998385301693,42.32960392173309 3.1229824851211636,42.3295519219415 3.1230342280815293,42.32952250186159 3.1231284613548334,42.32952057594165 3.1231922417400053,42.32954308927788 3.1234045136416433,42.32957941608954 3.1235716901160178,42.32960591406141 3.1237349140031423,42.329607906389676 3.1237839620176553,42.32960199581564 3.123817199683167,42.32954308927788 3.1238078572042127,42.3294734905015 3.1237759670116265,42.32941458384339 3.1236871236300274,42.32938708962331 3.123676523509675,42.3293342263065 3.123614090597428,42.329282226291966 3.1234375716440987,42.32918898477896 3.123277132534355,42.329136984644364 3.1231643041346695,42.329003630335144 3.122908194447167,42.328821131051406 3.1228073136407604,42.328778893150464 3.1227608707405716,42.32872503314443 3.122771470860924,42.32867389598136 3.1228404614747447,42.32859738939483</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1.5
+highway: path
+surface: ground
+sac_scale: mountain_hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1228404614747447,42.32859738939483 3.1227675182736743,42.32853170788476 3.1226944852410754,42.32846197516504 3.1225844416187702,42.32836003243091 3.1224490655054535,42.328303117099665 3.122381422364559,42.32826087885089 3.12229653157021,42.328188290096094 3.1222545802464414,42.32811908829578 3.1222056220634573,42.32801428926324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>ford: seasonal
+width: 1.5
+highway: path
+surface: ground
+sac_scale: mountain_hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1222056220634573,42.32801428926324 3.1221917880080814,42.32793632079495</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1.5
+highway: path
+surface: ground
+sac_scale: mountain_hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1221917880080814,42.32793632079495 3.122221162917872,42.32784287804849 3.1221606164677227,42.32781730911359 3.122005297755098,42.32785171095087</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 2
+noexit: yes
+highway: track
+surface: ground
+tracktype: grade4
+brp_access: no
+smoothness: horrible</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.122005297755098,42.32785171095087 3.1217933851795747,42.32793658644577 3.1215830895715624,42.327987192907024 3.1213138644809115,42.32796547596603 3.1207756837941956,42.32777022239848 3.1203794369223705,42.32776650327702 3.119948874406692,42.32759289975588 3.1191757842731787,42.327571182678774 3.1187990308430193,42.327614616825485 3.118549478857091,42.32769059330357 3.1183195999758846,42.32784971856698 3.118118916341412,42.32804151843297 3.1179086207334,42.32812101425863 3.117712788001462,42.3283381163818 3.117507343295984,42.32849000108645 3.116964221875205,42.32879748845626 3.1165386000935893,42.32898191374508 3.115858485591983,42.32901086919684 3.115427923076304,42.32897467488006 3.1151978645320404,42.3290289995532 3.114766673195663,42.32930606793871</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 2.5
+noexit: yes
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 33
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.114766673195663,42.32930606793871 3.114097068982881,42.329520907996816 3.1138573086335493,42.32964031492053 3.113588173374427,42.32972711391579 3.1131869857685395,42.32988616761692 3.112828737633232,42.329960016213256 3.112712405803939,42.32998392401364 3.1116860805918325,42.3300076989839</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: gravel
+mtb:scale: 1
+tracktype: grade3
+brp_access: 3
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1116860805918325,42.3300076989839 3.111401224815238,42.33000271819478</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: gravel
+mtb:scale: 1
+tracktype: grade3
+brp_access: 3
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.111401224815238,42.33000271819478 3.110698742263057,42.32997250139903 3.1102318878098996,42.32996672368039 3.109925202971901,42.32991040749848 3.1096752018283307,42.32988437452942 3.1093217147640297,42.32991771266643 3.1086635191553555,42.32994221817818 3.108267002788945,42.32985986899513 3.107955826374526,42.32983549627269 3.1075495183715187,42.32985568512247 3.1074554647612715,42.32985860719229 3.1073473076010636,42.32986192772603 3.1072695134974584,42.3298643185102</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Sant Pere de Rodes</name>
+      <description>ref: GIP-6041
+name: Carretera de Sant Pere de Rodes
+lanes: 2
+highway: tertiary
+name:ca: Carretera de Sant Pere de Rodes
+surface: asphalt
+sidewalk: no
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1072695134974584,42.3298643185102 3.1071568647608303,42.32983443370147 3.1069239316076582,42.329798771144496 3.1067154326302138,42.32977048016311</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+highway: track
+surface: gravel
+mtb:scale: 1
+tracktype: grade3
+brp_access: 2
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1067154326302138,42.32977048016311 3.106718307239123,42.329833902415864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+width: 4
+bridge: yes
+highway: track
+surface: gravel
+mtb:scale: 1
+tracktype: grade3
+brp_access: 2
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.106718307239123,42.329833902415864 3.106713995325759,42.32993517865546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+highway: track
+surface: gravel
+mtb:scale: 1
+tracktype: grade3
+brp_access: 2
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.106713995325759,42.32993517865546 3.1067274700550214,42.329976419621715 3.106864193641264,42.33010631852713 3.1069912154224384,42.3302392056267 3.107282898395192,42.33046280862338 3.107548530224706,42.33082089053108 3.1078064365427767,42.3310231076217 3.108083656639456,42.33119630322054 3.108306438829918,42.33142162944953 3.1087165197571185,42.33190667910549 3.10922442721876,42.332397701740746 3.109482243705302,42.33258822599121 3.109825939133006,42.33279037099226 3.110099386305492,42.33311669699815 3.110712666149961,42.33369709356565 3.1110291426245555,42.33392818819089 3.1111072062227456,42.334043668778826 3.111076034682387,42.33416207102462</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+noexit: yes
+highway: track
+surface: gravel
+mtb:scale: 1
+tracktype: grade3
+brp_access: 3
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.111076034682387,42.33416207102462 3.111009559351362,42.334190891279555 3.110790460253565,42.33423657866121 3.110693172708295,42.3342487309679 3.1106400822750033,42.33425882468533 3.11060352084294,42.334267922310836 3.1105843867273877,42.33428372694179 3.110550610072705,42.33431341041862 3.110529140337415,42.334345617307164 3.1105162045973236,42.334365074244204 3.1104940162098056,42.33437490231933 3.1104481122987875,42.334389378805575 3.110361065547756,42.334417070056666 3.1100813301682813,42.33454649495108 3.1099249334773162,42.33459709609443</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 2.5
+noexit: yes
+highway: track
+surface: gravel
+mtb:scale: 1
+tracktype: grade4
+brp_access: 3
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1099249334773162,42.33459709609443 3.10984947499345,42.334607322567265 3.1097968337178004,42.33460061559501 3.109750839975254,42.33457949858855 3.1097176921412695,42.33455433082633 3.109704397075065,42.33451999906056 3.1097095174721843,42.33448872194235 3.1097258668103547,42.33446242524495 3.109839593525325,42.33435730475129 3.109866812478433,42.33431022293185 3.1098730108538937,42.33426181295662 3.1098787600717124,42.334222301358004 3.1098659141631497,42.33416180540009 3.1095536597703894,42.333692777134964 3.109529135763133,42.33366807386448 3.1094909573635583,42.33363978462344 3.109449365365903,42.333616874313286 3.1089584360631317,42.333379801918156 3.108906064282068,42.333349719558754 3.1088667180726235,42.33331678168294 3.1088439008644064,42.33327746871181 3.1088373431628327,42.3332380229019 3.1088586332350663,42.33314080282031 3.1089180118753466,42.33297199546372 3.1089263662074886,42.3328996777754 3.108926006881375,42.33282330914375 3.108916844065477,42.33270151758627 3.1088999557381354,42.33261458988002 3.108880731791056,42.332558076845366 3.108850728060566,42.332511923389255 3.108795930828235,42.332455078222665 3.1085912047749837,42.33227212409593 3.108373003992471,42.332076286221366 3.1081207570606906,42.33187958442598 3.1080268831134994,42.33181908621464 3.1079802605502547,42.33179637446715 3.107931392198798,42.33178727648413 3.107887644244461,42.33179710496208 3.10783850639842,42.33181297662255</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1
+highway: path
+surface: ground
+mtb:scale: 2
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.10783850639842,42.33181297662255 3.1077710429205827,42.33214229607156 3.1078030229446973,42.332362970349514 3.1077852363020715,42.33248907907615 3.1071597393697394,42.332914818675704 3.1069783695138757,42.33308030582211 3.1068611393692978,42.3333062893721 3.1068647326304344,42.33340350919788 3.106804186180285,42.33344288849712 3.10669755615606,42.333398329456855 3.106523372822469,42.333264320111255 3.1064488126538867,42.33314857246351 3.106281726011041,42.33301197269927 3.105791156034383,42.3327677260031 3.1055672958655807,42.332691490026605 3.10544287919873,42.33263099259621 3.1051158924353106,42.332680931203754 3.1048741557923543,42.332678274895834 3.1047392288366793,42.33277290579606 3.1039393689076995,42.33278871080272 3.103409812047711,42.332833270274875 3.1031325919510317,42.33284648537307 3.102937118545207,42.33281487538483 3.102802011926476,42.33284907526636 3.1025994418299065,42.332888521320214 3.10243235518706,42.33288593142855 3.1020485050661564,42.33281487538483 3.101753498326851,42.33279130069838 3.101522541467304,42.332867470146404</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+noexit: yes
+highway: track
+surface: ground
+tracktype: grade4
+brp_access: 33
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.101522541467304,42.332867470146404 3.1014301048245683,42.33284389547968</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 2.5
+noexit: yes
+highway: track
+surface: ground
+tracktype: grade4
+brp_access: 33
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1014301048245683,42.33284389547968 3.101423008133824,42.3327992031999 3.101355364992929,42.33275982349763 3.1012452315390964,42.3327624133945 3.101085331418523,42.332828090486885 3.1009253414664215,42.33285173156706 3.100804518060707,42.33284648537307 3.1004953179399135,42.33270457233924 3.099919497842793,42.33258902288473 3.099851944533427,42.33252586904143 3.0998234679389207,42.33244451936013 3.0995106745569903,42.33220007123571 3.099187281054707,42.332092423444664 3.0989135643876358,42.33196359117618 3.0985510043389652,42.33187427174235 3.0984608134844396,42.331916507564785</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Farigola</name>
+      <description>name: Carrer Farigola
+highway: residential
+name:ca: Carrer Farigola
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0984608134844396,42.331916507564785 3.098428114808098,42.331851493606216 3.0983160948921675,42.33178628035452 3.0982309346032335,42.33176077943119</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer dels Màrtirs</name>
+      <description>name: Carrer dels Màrtirs
+oneway: no
+highway: residential
+name:ca: Carrer dels Màrtirs</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0982309346032335,42.33176077943119 3.097693382737216,42.33141731286268 3.0974877583686813,42.33117518507106 3.0972041602334848,42.33092342696304 3.0967746756961474,42.33047429755898 3.0967750350222607,42.33044859687356 3.0968631597516327,42.33028702100615 3.0968447442883082,42.330153868366125 3.096780604577022,42.33007948871384 3.0962369441670736,42.32969092001113 3.0960668930837896,42.32934750855108 3.095870611194209,42.328943328592544 3.0957387385105006,42.32894910640519 3.0943055663062164,42.32894990334482</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Camí de Quermançó</name>
+      <description>lit: yes
+name: Carrer Camí de Quermançó
+highway: residential
+name:ca: Carrer Camí de Quermançó
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0943055663062164,42.32894990334482 3.094316795247268,42.328895711426746</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Quermançó</name>
+      <description>lit: no
+name: Carrer de Quermançó
+lanes: 1
+layer: -1
+tunnel: yes
+highway: residential
+name:ca: Carrer de Quermançó
+surface: concrete
+sidewalk: no
+maxheight: 2.8
+smoothness: good
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.094316795247268,42.328895711426746 3.0943513803857066,42.32871918889933</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Quermançó</name>
+      <description>lit: yes
+name: Carrer de Quermançó
+lanes: 2
+highway: residential
+name:ca: Carrer de Quermançó
+surface: asphalt
+sidewalk: no
+smoothness: good
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0943513803857066,42.32871918889933 3.094388570638469,42.32853629031792 3.0944252219020614,42.3283567118179 3.094465107100676,42.3282066199268 3.0944731919382327,42.32817600379353</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Quermançó</name>
+      <description>name: Carrer de Quermançó
+layer: 1
+bridge: yes
+highway: residential
+name:ca: Carrer de Quermançó</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0944731919382327,42.32817600379353 3.0945125381476775,42.328028103087405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Sebasià</name>
+      <description>name: Carrer de Sant Sebasià
+highway: residential
+name:ca: Carrer de Sant Sebasià
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0945125381476775,42.328028103087405 3.094534906198252,42.327928417682465 3.0945452368240196,42.32788113181223 3.09455538778673,42.3278341115577 3.094557992901054,42.3277109820806 3.094532480746985,42.327661504418096 3.0943527278586327,42.327312303916266 3.094326407220808,42.327269400868104 3.0940950910351472,42.32689270287935 3.093932855294835,42.326623195070866</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de la Sardana</name>
+      <description>ref: GIP-6041
+name: Plaça de la Sardana
+oneway: yes
+highway: tertiary
+name:ca: Plaça de la Sardana</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.093932855294835,42.326623195070866 3.093880034356129,42.32654608826267 3.0938644935017137,42.326523773096405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Sebastià</name>
+      <description>lit: yes
+ref: GIP-6041
+name: Carrer de Sant Sebastià
+lanes: 2
+highway: tertiary
+name:ca: Carrer de Sant Sebastià
+surface: asphalt
+sidewalk: both
+smoothness: good
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0938644935017137,42.326523773096405 3.093707108663936,42.32630699678367 3.0935729003604884,42.32612223157941 3.093500675811645,42.32603629100115 3.093365479361385,42.32587550077861 3.093257412032706,42.325746921436696</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Figueres</name>
+      <description>ref: GIP-6041
+name: Carrer Figueres
+highway: tertiary
+name:ca: Carrer Figueres
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.093257412032706,42.325746921436696 3.093240703368421,42.32570388449083</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Figueres</name>
+      <description>ref: GIP-6041
+name: Carrer Figueres
+highway: tertiary
+name:ca: Carrer Figueres
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.093240703368421,42.32570388449083 3.0930419960275737,42.325611301825376 3.0928709567974773,42.325531470751955</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de Margineda</name>
+      <description>ref: GIP-6041
+name: Plaça de Margineda
+highway: tertiary
+name:ca: Plaça de Margineda
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0928709567974773,42.325531470751955 3.0926262557140833,42.32538170419697 3.092486567687403,42.32527338058179</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de Margineda</name>
+      <description>ref: GIP-6041
+name: Plaça de Margineda
+highway: tertiary
+name:ca: Plaça de Margineda
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.092486567687403,42.32527338058179 3.092497976291511,42.32515097666466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de Margineda</name>
+      <description>name: Plaça de Margineda
+highway: residential
+name:ca: Plaça de Margineda</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.092497976291511,42.32515097666466 3.092570560166468,42.3250890108361 3.0927089007202224,42.32497072434224</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Sol</name>
+      <description>name: Carrer del Sol
+highway: residential
+name:ca: Carrer del Sol
+name:etymology:wikidata: Q525</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0927089007202224,42.32497072434224 3.092873831406387,42.324911879883466 3.0935463102280787,42.324764967743874</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de Pau</name>
+      <description>name: Passeig de Pau
+highway: residential
+name:ca: Passeig de Pau</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0935463102280787,42.324764967743874 3.093502382610685,42.32418322683857 3.0938385321900026,42.32330432893216</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí antic de Pau</name>
+      <description>name: Camí antic de Pau
+width: 2.5
+highway: track
+name:ca: Camí antic de Pau
+tracktype: grade2
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0938385321900026,42.32330432893216 3.0939966356800075,42.323144926500284 3.0944501950669596,42.32292030122117 3.09469624362328,42.32284551450736 3.0950535934433026,42.32263550018739 3.0952461922402175,42.32248360134766 3.095482628822998,42.32239420203401 3.095694361735465,42.32225100346306 3.095973737788826,42.322015283027696 3.096916160353396,42.32155360316665 3.096969969438915,42.321518799368384 3.097111993085334,42.32142680832039 3.0976127140247023,42.32120211048749 3.0981819764202485,42.321023175251476 3.0987975020529275,42.32098730843916 3.09955253604923,42.3208451693893 3.1005470609002788,42.320460595303636 3.1007914026575594,42.320366078722074 3.1011394099986274,42.3202661819137 3.102021286113047,42.319879611653015 3.102802101758004,42.31956537211901 3.103938829918529,42.31910593263066 3.104347832867388,42.31896060106622 3.1045762744441396,42.3189801956066 3.1047278202325708,42.31911762290646</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 5
+highway: track
+tracktype: grade2
+brp_access: 1
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1047278202325708,42.31911762290646 3.1047545001965093,42.319145387302754 3.1048736168031836,42.31930108024545 3.104962460184783,42.31934093332586 3.10507744454115,42.31934657917688 3.105310108199737,42.31925232660943 3.1063918594648743,42.318899426207686 3.1067856808854315,42.31877289170243 3.107026159886991,42.31873722287466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 2.5
+highway: track
+tracktype: grade2
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.107026159886991,42.31873722287466 3.1076264141598395,42.31860338156226 3.108741762416602,42.31822749518285 3.1095500665092533,42.31769072899462 3.1099817070032727,42.31751517138231 3.1106097192184006,42.317169900006945 3.110951618015536,42.31690280824948 3.1114530576071315,42.31661226745783</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>width: 3.5
+noname: yes
+highway: unclassified
+surface: asphalt
+brp_access: 3
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1114530576071315,42.31661226745783 3.1119159594730386,42.31643670683686 3.1128579328799666,42.316349623804555 3.113281937694071,42.31622580759997</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Vilajuïga</name>
+      <description>name: Carrer de Vilajuïga
+oneway: no
+highway: residential
+name:ca: Carrer de Vilajuïga</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.113281937694071,42.31622580759997 3.1147232845674404,42.316365698637284</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Albera</name>
+      <description>name: Carrer de l'Albera
+narrow: yes
+highway: residential
+name:ca: Carrer de l'Albera</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1147232845674404,42.316365698637284 3.114841233364245,42.31633162264403</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer dels Baladres</name>
+      <description>name: Carrer dels Baladres
+narrow: yes
+highway: residential
+name:ca: Carrer dels Baladres</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.114841233364245,42.31633162264403 3.114786615794971,42.31597133265071 3.1148910000309855,42.315751132275295 3.1150333830035186,42.315511401940796 3.1151109974440665,42.315457530576204 3.1153245269871017,42.315259182589756</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+highway: residential
+name:ca: Carrer Major</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1153245269871017,42.315259182589756 3.1156493577938393,42.31543833349432 3.1158949571925176,42.315719181568575 3.1160724642926594,42.31583609052048 3.1161676857127762,42.31589660410289 3.116296593956047,42.31604712391391</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Progrés</name>
+      <description>name: Carrer del Progrés
+highway: living_street
+name:ca: Carrer del Progrés</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.116296593956047,42.31604712391391 3.1167866249435345,42.316086979055136 3.1168166286740244,42.31608950321323</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Rei</name>
+      <description>name: Carrer del Rei
+highway: living_street
+name:ca: Carrer del Rei</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1168166286740244,42.31608950321323 3.116980571213376,42.316059014033684 3.1170882792159422,42.31601092213876</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Pere de Rodes</name>
+      <description>name: Carrer de Sant Pere de Rodes
+highway: living_street
+name:ca: Carrer de Sant Pere de Rodes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1170882792159422,42.31601092213876 3.1174066421526336,42.31618741389907 3.1177778260280324,42.31637499812542 3.1178948765095527,42.316428204456095</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Pere de Rodes</name>
+      <description>name: Carrer de Sant Pere de Rodes
+lanes: 2
+highway: residential
+name:ca: Carrer de Sant Pere de Rodes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1178948765095527,42.316428204456095 3.118311065980685,42.31657181482695 3.118385805812324,42.316594532071136 3.118415180722115,42.31660343297744 3.118802893598741,42.31668958571444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Pere de Rodes</name>
+      <description>lit: yes
+name: Carrer de Sant Pere de Rodes
+highway: residential
+name:ca: Carrer de Sant Pere de Rodes
+surface: asphalt
+sidewalk: both
+sidewalk:left:surface: paving_stones
+sidewalk:right:surface: unhewn_cobblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.118802893598741,42.31668958571444 3.118898474344971,42.31666720062758 3.1191120038880067,42.31671801542752 3.1194389906514255,42.3168707252787</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Pere de Rodes</name>
+      <description>lit: yes
+name: Carrer de Sant Pere de Rodes
+oneway: no
+highway: residential
+name:ca: Carrer de Sant Pere de Rodes
+surface: asphalt
+sidewalk: both
+sidewalk:left:surface: paving_stones
+sidewalk:right:surface: unhewn_cobblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1194389906514255,42.3168707252787 3.119823020435387,42.31705000444405 3.119867936199593,42.317060499466436</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Puig Castellar</name>
+      <description>name: Carrer del Puig Castellar
+highway: living_street
+name:ca: Carrer del Puig Castellar</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.119867936199593,42.317060499466436 3.1197309431187645,42.31734439580029</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: no
+width: 2
+highway: steps
+incline: up
+handrail: no
+ramp:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1197309431187645,42.31734439580029 3.119905395946941,42.31741560216698</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+incline: down</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.119905395946941,42.31741560216698 3.119948874406692,42.317475914959324 3.1200125649603363,42.317622113459464 3.120066194382798,42.31780670435635</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí vell de Pau al Monestir de Rodes</name>
+      <description>name: Camí vell de Pau al Monestir de Rodes
+width: 2
+highway: path
+incline: down
+surface: ground
+mtb:scale: 4
+sac_scale: mountain_hiking
+smoothness: horrible
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.120066194382798,42.31780670435635 3.120086226813634,42.3178745226103 3.1200882031072594,42.31792560212844 3.120050473865326,42.31808143093541 3.1200681706764235,42.31815688754213 3.1200725724213156,42.318204379990284 3.120128088305874,42.31827173285531 3.1201436291602893,42.31838651153609 3.1202656203758727,42.31853901807047 3.1204207594254405,42.31872759162347 3.1205760781380647,42.318924400967106 3.120726905274268,42.31900962061679 3.1208955190530974,42.31911456749367 3.120997477837845,42.31920476853027 3.1210308053348856,42.31927862966571 3.121052903890875,42.31937859446365 3.121157198295361,42.31953926844731 3.121252599378535,42.31964428086229 3.1212591570801087,42.31971482041268 3.12129473036536,42.31984440840132 3.121281435299155,42.320073893395325 3.1213500665868614,42.320298595257206 3.1213789923390105,42.32047567277752 3.1213723448059083,42.32057576851471 3.121401180726528,42.32073969403635 3.1214543609913483,42.32084138343825 3.1215674588856186,42.32104150716988 3.1217072367438274,42.32121858259946 3.1218159328932065,42.32131861073513 3.121915735721272,42.32141697822211 3.1220421286817475,42.32148100667252 3.1221751691753257,42.321500600428045 3.1225500361433887,42.321613779154085 3.1230069192968917,42.32175970236366 3.123204279164813,42.321882710650684 3.1233816964334262,42.32195318127264 3.1235703426430916,42.322068019657124 3.123630080609485,42.322091000592636 3.123692423690203,42.32218172871274 3.123791957023684,42.322261497618015 3.1239761116569285,42.32240907978894 3.1240514803092663,42.32241240071588 3.124100258829194,42.32243372106278 3.124180208889481,42.32248951259052 3.1242377908991923,42.32255181307138 3.1244152979993345,42.32270590354796 3.1246060103341526,42.32280426886606 3.12482340263291,42.32282731595076 3.1249386564838626,42.322869889938055 3.1251426638848856,42.32287321084069 3.12518713049145,42.322909275832 3.125342359372546,42.32288297429341 3.1255685551610872,42.32298472664936 3.125719382297291,42.322981405752614 3.125794840781157,42.32301421620478 3.1259367745960476,42.32303387590073 3.125892397821012,42.32311258104086 3.1257548657510137,42.32311922282033 3.1257548657510137,42.3231617966101 3.12583032423488,42.3231946069682 3.125972168218242,42.32318477714612 3.1260831101558306,42.32325039782124 3.1262384288684553,42.32327331190727 3.1264024612393353,42.32321758749223 3.126491214789406,42.32325690675087 3.1266820169557534,42.32322409642526 3.1268417374132698,42.32313562801262 3.1269436961980177,42.32306668632554 3.1271034166555336,42.32300770725005 3.1271920803740763,42.32296500052011 3.1272186705064864,42.323017470681904 3.127294128990352,42.323001131876715 3.1274404645501352,42.32296500052011 3.1275558082326165,42.32296500052011 3.1277022336239275,42.32293219004226 3.127835274117506,42.32298472664936 3.127966967138158,42.32308448630594 3.128066230977053,42.32323432474723 3.1282398753214733,42.32324036875488 3.1283226101591413,42.32338409641415 3.1285707248406145,42.32353997812078 3.1287691626868765,42.32358587249085 3.1290090128677366,42.323436101304246 3.129153731460008,42.323338268314465 3.129393581640868,42.32326487686787 3.1295340781513046,42.32317933089267 3.129840134168604,42.323215993467706 3.130067587598543,42.323154822746346 3.1302784221957256,42.32318537490561 3.1305224046268925,42.32311198328067 3.130795312810208,42.32306921020366 3.131072443075359,42.323133369808275 3.131494112269725,42.32310587284288 3.1317836392857963,42.32308149750361 3.132023399635128,42.323142601878494 3.132213572980776,42.32300498411572 3.1323955716573386,42.32297748709423 3.1324948354962334,42.32291332733065 3.1327140244255594,42.32291332733065 3.1329579170251978,42.32294686841605 3.1330779319471556,42.322910205684174 3.13317557881854,42.322795169582456 3.133313110888538,42.3226366957168 3.13338991684533,42.322594918591854 3.1335596984340293,42.322481276701446 3.133733612273035,42.32230486901199 3.1339558554743254,42.322188370590474 3.134125726894553,42.32209272748341 3.134218702526459,42.3220896722151 3.1344128284593573,42.321985128814184 3.134481459747064,42.321985128814184 3.134574525210499,42.32198207354063 3.1346754958484335,42.3219282741344 3.134707925030191,42.3219612179738 3.1346350716606484,42.322032884048724 3.1346269868230916,42.32210468287975 3.134380399277601,42.322499209684345 3.134395940132016,42.32254643318154 3.1344434610105463,42.32260302162939 3.134501671840957,42.32262181801571 3.1345958152827325,42.32257771623823 3.1346252800240517,42.322577184891315 3.1346460311071147,42.32259007005251 3.134651331167291,42.32262181801571 3.134719962454998,42.32262779566389 3.134837282431104,42.322520197909704 3.1349747246695743,42.32249622085422 3.1351647183521654,42.32240961113725 3.135306203009414,42.32240057821513 3.1356093844178043,42.32231091310892 3.1357791660065035,42.32224808103986 3.1359894616145154,42.32217342636458 3.136159333034742,42.32216738225443 3.136373491398477,42.322230214404094 3.136175412878328,42.322355812096596 3.1359773343581803,42.322487320781434 3.13581159518826,42.32263078448777 3.135843934538488,42.32268458329331 3.1359369101703947,42.32267860565052 3.1358803163074946,42.32275332614456 3.1359369101703947,42.322830968946114 3.1359530798455086,42.32293571019556 3.1360177585459654,42.32299243112914 3.1360218009647434,42.32314187128306 3.1360339282210794,42.32319872486619 3.136102739171843,42.323174814487025 3.136207842060085,42.32292069972917 3.136253566308047,42.322889284006955 3.136316897535577,42.32299541993569 3.136357411554891,42.323234590417904 3.136357411554891,42.323348230947666 3.136486679124275,42.3232733783249 3.136640380869389,42.32317780328491 3.1368007301476037,42.32315050559222 3.1369564081863417,42.323173087625946 3.137261206562244,42.3233931291951 3.1374240711232546,42.32345569445093 3.137536809691411,42.3234928882041 3.1377084777422066,42.3235692017467 3.1380222592709495,42.323587599340584 3.1384280282847867,42.32364159657969 3.1389884871905487,42.3238494157797 3.139179558851481,42.323870669222636 3.1392082151090444,42.323874986327354 3.139431087131034,42.323908792567906 3.139931269081232,42.32393403100677 3.140424534003742,42.3240236937998 3.1407884415253386,42.32405657012523 3.1408759374340125,42.32405743354365 3.141099707771286,42.324059625298034 3.1412614045224276,42.32400582766828 3.141439270948683,42.323963918618645 3.141617137374939,42.323952029992505 3.1419243612021077,42.32417313150423</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 1
+highway: track
+surface: compacted
+mtb:scale: 4
+sac_scale: mountain_hiking
+tracktype: grade2
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1419243612021077,42.32417313150423 3.1419868839458824,42.32424433014345 3.1420740205284425,42.324343490054304 3.142175080997906,42.32447798332062 3.1422679667982836,42.32462748636218 3.1425775262451916,42.32475938879511</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 1
+highway: track
+surface: compacted
+mtb:scale: 4
+sac_scale: mountain_hiking
+tracktype: grade2
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1425775262451916,42.32475938879511 3.14269808015632,42.324800101826554 3.1428067763056986,42.32481517826055 3.143060460541934,42.32491141497217 3.1432499152353546,42.32497783083636</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 1
+highway: track
+surface: compacted
+mtb:scale: 4
+sac_scale: mountain_hiking
+tracktype: grade2
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1432499152353546,42.32497783083636 3.143436405488338,42.32511471371131 3.143464702419788,42.325198397418276 3.1433637317818532,42.325344910053076 3.143376218364302,42.32543251195957</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Sant Pere de Rodes</name>
+      <description>ref: GIP-6041
+name: Carretera de Sant Pere de Rodes
+highway: tertiary
+name:ca: Carretera de Sant Pere de Rodes
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.143376218364302,42.32543251195957 3.142942691408186,42.325614489753 3.1424877845483077,42.325798525883904 3.1422904246803864,42.325868327971 3.142058569505555,42.32590638369091</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 2.5
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 3
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.142058569505555,42.32590638369091 3.142039525221532,42.32599670782052 3.1419595751612457,42.32607301832602 3.1419496038615917,42.32616898745521 3.14200287395794,42.32631171220773 3.142061084788351,42.32647628692759 3.1420681814790954,42.32667559576772 3.1420627915873913,42.326771829633415 3.142115792189154,42.32693109004841 3.1421292669184155,42.32703509392165 3.1421819980255936,42.32715297805283</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 2
+highway: track
+surface: ground
+tracktype: grade4
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1421819980255936,42.32715297805283 3.1421080666777104,42.32725332882085 3.142068271310624,42.32741278725664 3.142049586352714,42.3275098169525 3.1420047604200367,42.327563877238305 3.1418910337050674,42.32754707472202 3.1417809002512342,42.32747993102517 3.141657741225781,42.32746870719546 3.141581204763574,42.32750417183397 3.1414935291918447,42.32755457940376</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 5
+noexit: yes
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 1
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1414935291918447,42.32755457940376 3.1413592310568683,42.32747621188654 3.1413125186620943,42.32745383063701 3.141199330936295,42.32742361261685 3.141022542488381,42.327406278756975</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 3
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.141022542488381,42.327406278756975 3.140981579311424,42.3273890113056 3.1408840222715693,42.32738847999933 3.1407039100571033,42.32743231275162 3.1406303380353338,42.32746512088258 3.14049253647075,42.32752967448302</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 0.8
+highway: path
+surface: ground
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.14049253647075,42.32752967448302 3.140533319984649,42.327648088991474 3.1406221633662486,42.32777168348184 3.140602310598469,42.32787960431863 3.14054400993653,42.32795910034891 3.140456424196328,42.328113111169344 3.1404272289495947,42.32820927642356 3.1404311815368446,42.32833087744269 3.1403315583718356,42.32840452862834 3.140147224075535,42.32846921408906 3.139970705122205,42.32850853006554 3.1395288238339467,42.32888222985164 3.139383476420976,42.32901830729239 3.1393031670345755,42.32903557429652 3.139251693568796,42.32903789870056 3.13918979964572,42.32905602904913 3.138964861498576,42.3290922233191 3.138752589596939,42.329101985806695 3.1384326096927353,42.32916228739721 3.1382782791269235,42.32917457350714 3.138188627261569,42.32922657361066 3.137894339174491,42.32932771800562 3.1378407097520293,42.32934518415848 3.13770093189382,42.32941949826794 3.1376111901969366,42.329475814889356 3.1375948408587657,42.32951499741462 3.13755558448085,42.3295527188735 3.1374212863458735,42.32961348490847</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1
+highway: path
+surface: ground
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1374212863458735,42.32961348490847 3.1373358565623537,42.32961069564914</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1
+highway: path
+surface: ground
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1373358565623537,42.32961069564914 3.1372435995826744,42.32959728063821 3.1371365204008077,42.329549796789465 3.1370502821335324,42.329487901704844 3.1369319740106136,42.32950536781321 3.1367126054182317,42.32955789893123</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1
+highway: path
+surface: ground
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1367126054182317,42.32955789893123 3.1366940102918504,42.32955862945216 3.1365516273193177,42.32956400874236 3.136424425875086,42.329572575759144 3.136327138329816,42.32954030001542 3.1360908814100927,42.32953146735016 3.1359157997612175,42.32954953114545 3.1358230936238964,42.32956998573094 3.13576856588615,42.32959927296675 3.1357170924203706,42.329638189771465</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

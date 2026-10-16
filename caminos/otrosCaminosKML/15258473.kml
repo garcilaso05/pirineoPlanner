@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Quai de la Daurade</name>
+      <description>lit: yes
+name: Quai de la Daurade
+width: 2.3
+highway: cycleway
+name:oc: Cai de la Daurada
+surface: paving_stones
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4388781233059549,43.60193907249313 1.43891459490649,43.60194401639693 1.4389598699968098,43.60194889524898 1.4390050552556009,43.60194928555712 1.4390876104302117,43.60193107117426 1.4391532772774807,43.60190296897276 1.439656244005059,43.60152079073938 1.4397270312494477,43.6014608129307 1.4397546993601988,43.60141449597029 1.4397562264961818,43.60138047379828 1.4397459857019428,43.60133077407074 1.439718497254249,43.60129122242578</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

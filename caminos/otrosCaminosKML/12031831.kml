@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Ruisseau de Fontbazi</name>
+      <description>name: Chemin du Ruisseau de Fontbazi
+lanes: 2
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5503381193190677,43.46971608251538 1.55022484176174,43.4700679995825 1.5500369142043022,43.47025699606497 1.5500191275616766,43.470274793909546 1.5497090291255986,43.47053191676445 1.5496601607741427,43.47057240177961</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Fontaine Chapillonie</name>
+      <description>name: Rue de la Fontaine Chapillonie
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5496601607741427,43.47057240177961 1.5495781445887025,43.470558320038286 1.549484270641512,43.47052950461294 1.5494220173923223,43.470505709059026 1.549092425514579,43.47060760611858 1.5490052889320196,43.47068609868199</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Presbytère</name>
+      <description>name: Chemin du Presbytère
+note: Nom vérifié sur le terrain "Chemin du Presbytère" différe du cadastre "Rue du Presbytère"
+oneway: yes
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+ref:FR:FANTOIR: 311620020S</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5490052889320196,43.47068609868199 1.5486341948881497,43.470817332283325 1.5483982074630114,43.47106578220073</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Bataille</name>
+      <description>name: Rue de la Bataille
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+ref:FR:FANTOIR: 311620005A</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5483982074630114,43.47106578220073 1.5485839790637672,43.4712337183809 1.5486983345994358,43.471385095236585</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Languedoc</name>
+      <description>ref: D 95c
+name: Place du Languedoc
+lanes: 1
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5486983345994358,43.471385095236585 1.548776398197626,43.47145661121612 1.5488652415792254,43.47155831109597</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

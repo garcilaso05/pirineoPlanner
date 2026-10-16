@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue des Fontaines</name>
+      <description>ref: D 133
+name: Rue des Fontaines
+source: survey;cadastre 2015
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.8863418878137845,44.0003020734252 3.886280982037521,44.00027357641082 3.88603610129107,44.000212188238095 3.8858933589924236,44.00017923245601 3.885492890038763,44.00002078596971 3.8850966431669374,43.999731484340096 3.884708391301142,43.99939668880154 3.884543370783449,43.99925969413571</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

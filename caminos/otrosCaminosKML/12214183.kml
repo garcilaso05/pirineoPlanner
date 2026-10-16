@@ -1,0 +1,409 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Volta al Segre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+source: PNOA
+highway: footway
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4617015298980511,42.3537301747936 1.461604691510423,42.353749028263444 1.4615282448797444,42.35378447808227</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: PNOA
+highway: footway
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4615282448797444,42.35378447808227 1.4615057869976416,42.35384322914248</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4615057869976416,42.35384322914248 1.4613177696086752,42.35369107374128 1.4611613729177102,42.35346622562194 1.4611708950597218,42.3534093330119</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: C-462
+noname: yes
+oneway: no
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4611708950597218,42.3534093330119 1.4600822267668974,42.352819691516665 1.4599474794742793,42.35277581007187 1.4597574857916882,42.352793601644706</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Palanca</name>
+      <description>foot: yes
+name: Camí de la Palanca
+horse: permissive
+lanes: 2
+access: yes
+oneway: no
+bicycle: yes
+highway: tertiary
+name:ca: Camí de la Palanca
+surface: asphalt
+cycleway: no
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4597574857916882,42.352793601644706 1.4595172762847146,42.3526565134627</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: C-462
+lanes: 2
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4595172762847146,42.3526565134627 1.4596539998709575,42.352516902285274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de la Palanca</name>
+      <description>ref: C-462
+foot: yes
+name: Pont de la Palanca
+horse: permissive
+lanes: 1
+layer: 1
+access: yes
+bridge: yes
+oneway: no
+bicycle: yes
+highway: tertiary
+name:ca: Pont de la Palanca
+surface: asphalt
+cycleway: no
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4596539998709575,42.352516902285274 1.4599932037222412,42.352184702116936</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>camí del Salit</name>
+      <description>ref: C-462
+foot: yes
+name: camí del Salit
+horse: permissive
+lanes: 1
+access: yes
+oneway: no
+bicycle: yes
+highway: tertiary
+name:ca: camí del Salit
+surface: asphalt
+cycleway: no
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4599932037222412,42.352184702116936 1.460085191207335,42.35211326955721</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>camí del Salit</name>
+      <description>ref: C-462
+foot: yes
+name: camí del Salit
+horse: permissive
+lanes: 1
+access: yes
+oneway: no
+bicycle: yes
+highway: tertiary
+name:ca: camí del Salit
+surface: asphalt
+cycleway: no
+maxspeed: 70</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.460085191207335,42.35211326955721 1.460103965996773,42.352108091357344 1.4601228306177396,42.35210590058035 1.4601439410269166,42.352106298903436 1.4601655005937353,42.35210941910094</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>camí del Salit</name>
+      <description>ref: C-462
+foot: yes
+name: camí del Salit
+horse: permissive
+lanes: 1
+access: yes
+oneway: no
+bicycle: yes
+highway: tertiary
+name:ca: camí del Salit
+surface: asphalt
+cycleway: no
+maxspeed: 70</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4601655005937353,42.35210941910094 1.460283629053597,42.35214858752439 1.4604418223751305,42.352221613333455 1.460795219607903,42.3523883774084 1.4608927766477584,42.35242581960008 1.4609894353723298,42.35245317097422 1.461139094698664,42.352471825666754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: designated
+highway: path
+surface: ground
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.461139094698664,42.352471825666754 1.4612127565519617,42.35257658394401 1.4615302211733694,42.35273272523468 1.462213030620829,42.3530057724013 1.4632101605862016,42.353342017768526 1.4641877072783804,42.353602117097 1.4651189009018988,42.353799680339264 1.46660597202323,42.35397931895799 1.467464222445678,42.35407478080882 1.4675132704601908,42.35408500411388 1.4689836329172377,42.354390573951136 1.470067270644471,42.354812580514526 1.4708533863496038,42.35523119866635 1.4715521858091205,42.355756691276376 1.4722281680604206,42.356421583157825 1.4723728866526922,42.356569417088075 1.473459219325778,42.35767899024586 1.4738799902048596,42.35797578031925 1.474687126487641,42.35854512742645 1.4761629686679207,42.35909428991887 1.4773328446624296,42.35923660805081 1.4788265633168636,42.3591641214306 1.4805017416586899,42.35869899696124 1.4811982953299958,42.3583181061133 1.4817412370877179,42.35800100508753 1.4824354551392855,42.357697577005986 1.4833418552609619,42.35739799759181 1.4839236940704863,42.35727499237998 1.4842903863694639,42.35699751616638 1.4844057300519449,42.35668339568236 1.4843962977414615,42.35642032188796 1.484334493649914,42.35594847241416 1.4843022441312141,42.35585228319391</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Salit</name>
+      <description>name: Camí del Salit
+highway: unclassified
+name:ca: Camí del Salit</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4843022441312141,42.35585228319391 1.4844375304130024,42.355798778291316 1.484528529751284,42.35580110170615</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.484528529751284,42.35580110170615 1.4845574555034324,42.35581398006108 1.484600125479428,42.355883284152604 1.4846428852869524,42.35617417463036</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4846428852869524,42.35617417463036 1.4846655228321122,42.35632778443981 1.4847240031571083,42.356638322052135 1.484850396117584,42.35708321529039 1.4849307055039844,42.35714249432173 1.4859793089351367,42.357139971810895 1.486649901294732,42.35719838782527 1.4873132173005261,42.35730778494245 1.4884211095404307,42.3576363734394 1.4890245079167737,42.3577952237876 1.4896736305410785,42.35787368628531 1.489906204368137,42.35790720872697 1.490762568328488,42.357929180852295 1.491735533612718,42.357822307300424 1.493019675311367,42.357492591290345 1.4948090295258045,42.35697222461326 1.4952624092496998,42.35684032335627 1.4972706828988773,42.3562708944202 1.4989201694235774,42.35581517495986 1.500128133986133,42.35562007424183 1.5017114146743937,42.355504301362004 1.5024612384420484,42.35547522534147 1.5031106305609383,42.355487174392636</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5031106305609383,42.355487174392636 1.50385326780632,42.3555813726664 1.5052848230430929,42.355779527136555</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5052848230430929,42.355779527136555 1.5055173968701512,42.35583150524087 1.5056299557752513,42.35585261511004 1.5056719969305483,42.35583927208035</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5056719969305483,42.35583927208035 1.5057867117923305,42.3558615768448</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera d'Alàs</name>
+      <description>ref: LV-4051
+name: Carretera d'Alàs
+oneway: no
+highway: tertiary
+name:ca: Carretera d'Alàs</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5057867117923305,42.3558615768448 1.5057394604083856,42.35594097112071</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont d'Alàs</name>
+      <description>ref: LV-4051
+foot: yes
+name: Pont d'Alàs
+layer: 1
+bridge: yes
+oneway: no
+highway: tertiary
+name:ca: Pont d'Alàs
+bridge:name: Pont d'Alàs</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5057394604083856,42.35594097112071 1.5052675753896376,42.35672388890138</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera d'Alàs</name>
+      <description>ref: LV-4051
+name: Carretera d'Alàs
+oneway: no
+highway: tertiary
+name:ca: Carretera d'Alàs</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5052675753896376,42.35672388890138 1.5052254444028124,42.35679392219401</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+width: 3
+bicycle: yes
+highway: track
+surface: compacted
+tracktype: grade2
+source:date: 2019</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5052254444028124,42.35679392219401 1.5050104775553228,42.35672149913836 1.504466008661618,42.35646499737907 1.5039059989134975,42.35638500632124 1.5025969738814786,42.356270031444005 1.5014129943370091,42.35628098460246 1.5005530371155216,42.356380027621334 1.499525993251188,42.35652500720124 1.4987950341044998,42.35668399312348 1.497705018338749,42.356990014998146 1.4967410362073605,42.35726901802465 1.4957870253756254,42.357540983380005 1.49459603897194,42.35788098820482 1.492957961051348,42.35835999227109 1.4919469970305999,42.35861701733796 1.4911190198332267,42.358732983623895 1.4899919934777703,42.35873198792116 1.4888199615265796,42.35860400679682 1.4883468188664342,42.358477286640436 1.487855979395191,42.35834598596786 1.4866690354102838,42.35803300070007 1.4861085765045219,42.35797491736648 1.4855459616420776,42.35794803306246 1.4849229799925407,42.357978900225355 1.4843112272840553,42.358048268310284 1.4831792601945366,42.35833921514718 1.4824154227084496,42.35866368267509 1.4815082141030171,42.35916232917794 1.4808540609131216,42.35946037345436 1.480171431128719,42.359690510461824 1.4793128213801576,42.35990591050268 1.4786359408135736,42.35999950474331 1.4780334407525146,42.360049487993436 1.4774191727612336,42.360033888975416 1.4769137805823882,42.36000010215291 1.4765128624710855,42.35995191109368 1.4761775213755235,42.35990810100778 1.4757051871991336,42.35981278077593 1.4750080047071286,42.35962579073673 1.473836242250523,42.359121903909966 1.4732582661967204,42.35878741535003 1.4729385557871022,42.35877460398459</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: C-462
+noname: yes
+oneway: no
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4729385557871022,42.35877460398459 1.4729204996498915,42.35865219888979</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: C-462
+noname: yes
+oneway: no
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4729204996498915,42.35865219888979 1.472875494054157,42.35855760693684 1.4727911422489781,42.35845637679436 1.4724976626456565,42.35817791008572 1.4723857325612553,42.35805902201611</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: C-462
+layer: 1
+bridge: yes
+noname: yes
+oneway: no
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4723857325612553,42.35805902201611 1.4721865760627657,42.35783943363339</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: C-462
+noname: yes
+oneway: no
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4721865760627657,42.35783943363339 1.4718468332223118,42.35744200857242 1.471239122932605,42.35683102985013</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: PNOA
+highway: track
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.471239122932605,42.35683102985013 1.4712014835222005,42.35685512658109</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+source: PNOA
+highway: track
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4712014835222005,42.35685512658109 1.4709742097553182,42.35697288843368</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4709742097553182,42.35697288843368 1.4709510332209876,42.356929408181216 1.4708059553026025,42.35688108200274 1.4706951930280705,42.356801423385654</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: PNOA
+highway: footway
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4706951930280705,42.356801423385654 1.4707143271436225,42.3567706884089</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+source: PNOA
+highway: footway
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4707143271436225,42.3567706884089 1.4708002060847842,42.356585481643286</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: PNOA
+highway: footway
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4708002060847842,42.356585481643286 1.4708053264819034,42.35657698468897 1.4676469397744678,42.35565817834255 1.4651846575806962,42.35494202981267 1.464779876713672,42.35469660699381 1.4637533718385085,42.35444779759646</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: PNOA
+highway: footway
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4637533718385085,42.35444779759646 1.4628767059527363,42.35419307895131</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: PNOA
+highway: footway
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4628767059527363,42.35419307895131 1.4626646137141555,42.35413147366135 1.4621482620888437,42.35393377869155 1.4617015298980511,42.3537301747936</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

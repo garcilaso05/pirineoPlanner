@@ -1,0 +1,351 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin d'Augustin</name>
+      <description>lit: yes
+name: Chemin d'Augustin
+highway: residential
+surface: asphalt
+maxspeed: 20
+sidewalk: no
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5182311632547665,43.523539800574554 1.5181812169249695,43.52351400668223</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Augustin</name>
+      <description>lit: yes
+name: Chemin d'Augustin
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+cycleway:both: shared_lane
+cycleway:both:lane: pictogram</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5181812169249695,43.52351400668223 1.5180894091029324,43.52348150375675 1.5179814316057814,43.52342880859587 1.5179075002578981,43.52336249991022 1.5177923362384742,43.52321457526143 1.5177430187293761,43.52316481100918 1.5176585770926687,43.5230805243417</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+highway: residential
+surface: asphalt
+junction: roundabout
+sidewalk: no
+cycleway:left: no
+lane_markings: no
+cycleway:right: shared_lane
+cycleway:right:lane: pictogram</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5176585770926687,43.5230805243417 1.5176742077786123,43.52306397964972 1.517681304469357,43.52304456894232 1.5176792383442035,43.523024702272224 1.517668009403152,43.52300639887531 1.5176491447821854,43.52299180826311 1.5176307293188611,43.52298620650927</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Augustin</name>
+      <description>lit: yes
+name: Chemin d'Augustin
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: right
+cycleway:both: lane
+cycleway:both:lane: advisory</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5176307293188611,43.52298620650927 1.5176345920745826,43.52288667758698 1.5175983899686327,43.52270637870225 1.5175331722790055,43.522491817116325 1.5174942752272034,43.522363496677514 1.5173811773329327,43.52209832195161 1.517330871677022,43.52201748609346 1.5172562216769117,43.521928117073465</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+highway: residential
+surface: asphalt
+junction: roundabout
+sidewalk: no
+cycleway:left: no
+lane_markings: no
+cycleway:right: shared_lane
+cycleway:right:lane: pictogram</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5172562216769117,43.521928117073465 1.5172103177658929,43.521941014360024 1.5171610002567948,43.521941014360024 1.5171150963457765,43.521928312486914 1.5170783552506562,43.52190440690308 1.5170551787163256,43.521870404939165 1.5170515854551891,43.521832494680964 1.5170682941194735,43.52179640826184 1.5171026995948556,43.52176768241459</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Augustin</name>
+      <description>lit: yes
+name: Chemin d'Augustin
+highway: residential
+surface: asphalt
+cycleway:both: lane
+lane_markings: no
+cycleway:both:lane: advisory</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5171026995948556,43.52176768241459 1.5169327383431002,43.52157630669306 1.5168836903285872,43.52152816954571 1.5167475955630432,43.521412874733514 1.5166759100033704,43.521354119891356 1.5165652375603669,43.52127289220491 1.5162648409293573,43.5210622989849 1.516141412409319,43.52096797799722 1.5160703556703454,43.52091059063907 1.5159912140938145,43.520834312919604 1.5159013825654026,43.520735106142766 1.5158410157783095,43.520661173212176 1.5156797681848104,43.520459501955884 1.515618413250905,43.52036947923304 1.5155895773302845,43.52031157018911 1.5155640651762157,43.52023718076202 1.5155542735396188,43.52017927159109 1.5155258867766406,43.52005537574291 1.5155090882808275,43.519975579386326 1.515484294778986,43.51992157836351 1.5154473740208083,43.519867707572445 1.5154004819629774,43.519829274935155 1.5153467627089872,43.51979807282687 1.5152905281722013,43.51977377555809 1.514953120951486,43.519665968523675 1.5145504960411436,43.51954558920262 1.5143738872562855,43.519501489142314 1.5142571961008786,43.519486506839755 1.5141310726349881,43.51947921110846 1.5139748556070798,43.519475302680625 1.5138428032603142,43.519478689984766 1.5136965575320596,43.519493672289265 1.5135718713706237,43.51951119506677 1.5134344291321535,43.51954187620026 1.5133356144509005,43.519574185827146 1.5132038315987197,43.519629880808694 1.5130883980847107,43.519688702470226 1.5130173413457368,43.51973827416925</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Labège</name>
+      <description>lit: yes
+name: Route de Labège
+highway: residential
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5130173413457368,43.51973827416925 1.5129350556657115,43.51968609686074 1.512894002657227,43.51966297207163 1.5127282634873074,43.519587604739684 1.5125445580117047,43.519516601722 1.5123327352677092,43.51945139612482 1.5121821776260909,43.519415894546285 1.5120252419459552,43.51937909013546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+highway: residential
+surface: asphalt
+junction: roundabout
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5120252419459552,43.51937909013546 1.512012306205864,43.51939967455207 1.5119911059651587,43.51941641567053 1.5119637971805215,43.519427294138 1.5119330747978046,43.51943152827151 1.5119021727520308,43.51942853180782 1.5118694740756888,43.519416024827336 1.5118454890576027,43.519395700978514 1.5118336312958522,43.519370426439025 1.5118354279264208,43.5193437187956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Labège</name>
+      <description>lit: yes
+name: Route de Labège
+highway: residential
+surface: asphalt
+sidewalk: right
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5118354279264208,43.5193437187956 1.5117701204052654,43.51933140721939 1.5111792984428998,43.519226270164744 1.5103323667930317,43.5190856962949 1.5099289333989339,43.51901632121065 1.5098091879715607,43.51899749546979 1.509568439475417,43.518954632688434 1.5093009211838058,43.51892212730659 1.509067808367577,43.51891457094277 1.5086516188964443,43.51886011298242 1.5085050138420761,43.518848127013264 1.5079708755741386,43.518765788552045 1.5079063765367386,43.51875458425908 1.5074100573422626,43.51863772075379 1.5072909407355883,43.518614530421466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5072909407355883,43.518614530421466 1.5071759563792213,43.518574207884235</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse des Genêts</name>
+      <description>lit: yes
+name: Impasse des Genêts
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5071759563792213,43.518574207884235 1.5069167924197526,43.518493823295024 1.5066320264746869,43.51842008304283 1.5063080939832334,43.5183340960625 1.5062322761732538,43.51832282654767 1.5061613092658082,43.51831989517062 1.505980478399115,43.51833357492892 1.5058188714795018,43.51836380066956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5058188714795018,43.51836380066956 1.5056310337535923,43.51851102065536 1.5055527006608171,43.518529520840566</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Pierre Mendès France</name>
+      <description>lit: yes
+name: Avenue Pierre Mendès France
+width: 1.4
+highway: cycleway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5055527006608171,43.518529520840566 1.505014070816459,43.51835591852745</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.505014070816459,43.51835591852745 1.5049537040293663,43.51844822420978 1.504916783271189,43.51850268254187</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Pierre Mendès France</name>
+      <description>lit: yes
+name: Avenue Pierre Mendès France
+width: 2.1
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.504916783271189,43.51850268254187 1.504808626110981,43.51846411875197 1.504752571237252,43.51844399000725 1.5040402072169452,43.51819508351846 1.5039661860375337,43.51816589996338 1.5027325296578524,43.51771361819711 1.5023413133516184,43.51757668878411 1.5022085423526255,43.51756502827264 1.5020933783332011,43.51759232298589</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5020933783332011,43.51759232298589 1.5019543191272198,43.51774247625925 1.5019152424123605,43.51777687140333 1.5018426585374034,43.51785810379644</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Auguste Renoir</name>
+      <description>name: Rue Auguste Renoir
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5018426585374034,43.51785810379644 1.5017098875384105,43.51781302536886 1.501665420931847,43.51779888949663</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Jean Ingres</name>
+      <description>lit: yes
+name: Rue Jean Ingres
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.501665420931847,43.51779888949663 1.5016381121472095,43.51783302403959 1.5016043354925266,43.51787530133798 1.501513695480359,43.518022717941776</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Cocorastii-Mirlii</name>
+      <description>lit: yes
+name: Allée Cocorastii-Mirlii
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.501513695480359,43.518022717941776 1.501009291448326,43.51784768104162 1.5009198192460278,43.51783712800052 1.500266384708359,43.51762222338552 1.4995347069094438,43.517394680320265 1.4993200095565393,43.51732347929364 1.4986850803137233,43.51713000489943</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4986850803137233,43.51713000489943 1.498562011119799,43.51708876936754 1.498318837172388,43.517009685661975 1.498265207749926,43.51699997933512 1.4981740287485878,43.51716342324821</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+foot: yes
+bicycle: designated
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4981740287485878,43.51716342324821 1.4980520375330046,43.517122318025166</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+foot: yes
+bicycle: designated
+footway: crossing
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4980520375330046,43.517122318025166 1.4979655297711438,43.5171012116874</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Toulouse</name>
+      <description>lit: yes
+ref: D 813
+name: Avenue de Toulouse
+lanes: 2
+highway: primary
+old_ref: N 113
+surface: asphalt
+cycleway:both: lane
+cycleway:both:lane: advisory</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4979655297711438,43.5171012116874 1.4979975996267867,43.51704460236848 1.4980126014920316,43.517014831968865</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Toulouse</name>
+      <description>lit: yes
+ref: D 813
+name: Avenue de Toulouse
+lanes: 2
+bus_bay: left
+highway: primary
+old_ref: N 113
+surface: asphalt
+cycleway:both: lane
+cycleway:both:lane: advisory</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4980126014920316,43.517014831968865 1.4980639851262834,43.51691249203672 1.498079885306812,43.51688057184414</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Toulouse</name>
+      <description>lit: yes
+ref: D 813
+name: Avenue de Toulouse
+lanes: 2
+highway: primary
+old_ref: N 113
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.498079885306812,43.51688057184414 1.4980906650902215,43.516858683702324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue André Lupiac</name>
+      <description>lit: yes
+name: Rue André Lupiac
+highway: living_street
+surface: asphalt
+cycleway:left: opposite_lane</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4980906650902215,43.516858683702324 1.498029938977015,43.51684487332306 1.4979732552825873,43.5168313235139 1.497927620866154,43.51681849027838</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

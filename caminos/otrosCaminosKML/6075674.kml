@@ -1,0 +1,426 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Eskoriatzaren tartea</name>
+    <Placemark>
+      <name>Santa Ana auzoa</name>
+      <description>name: Santa Ana auzoa
+oneway: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5272912047581846,43.01858702672619 -2.5273553444694703,43.01858538475759 -2.527378880329915,43.0185847936489</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>layer: 1
+bridge: yes
+oneway: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.527378880329915,43.0185847936489 -2.527502308849953,43.01859070473567</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Arbiñoste kalea</name>
+      <description>name: Arbiñoste kalea
+oneway: yes
+source: b5m.gipuzkoa.net calles 034
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.527502308849953,43.01859070473567 -2.527580372448143,43.018594317066196</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.527580372448143,43.018594317066196 -2.5278108801500476,43.018608175277706 -2.528089986708824,43.01865237704043 -2.528364691522708,43.018746494506445 -2.528745307708589,43.01895568040241 -2.5289144604765887,43.019028320612755</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Bidebarrieta pasealekua</name>
+      <description>name: Bidebarrieta pasealekua
+highway: path
+tracktype: grade3
+destination:forward: Gatzaga</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5289144604765887,43.019028320612755 -2.5289204791889923,43.01899337976281 -2.5289272165536234,43.018953710051925 -2.52891553845493,43.018907669510966 -2.5288614598748254,43.018861628935475 -2.52829893484391,43.0185086062573 -2.528229405240919,43.01844857578044 -2.528200389657242,43.01836240501522 -2.528265966672983,43.018249568418774 -2.5285202797299173,43.01799039812869 -2.5289767137257786,43.017467785070856 -2.529123318780146,43.017141026500425 -2.5292559999476105,43.016875414835596 -2.529317265049988,43.01671167294751 -2.529527740321057,43.01643397411428 -2.5295985275654456,43.016322119191614 -2.529702193149233,43.016263006114364 -2.5297720820783374,43.01623909814251 -2.5304029689023744,43.01600172563133 -2.5305543350277486,43.01599233317497 -2.5306881840050823,43.016035682961586 -2.5308256262435527,43.01614550228406 -2.530930279974153,43.01622037898224 -2.5309931620440413,43.01623318682937 -2.5310968276278283,43.01621361381063 -2.5311887252813943,43.01618129861169 -2.531344672814717,43.016085929266886 -2.5315495785310245,43.01598037913752 -2.5317834099994814,43.015949114720875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Bidebarrieta pasealekua</name>
+      <description>name: Bidebarrieta pasealekua
+source: b5m.gipuzkoa.net calles 034
+highway: path
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5317834099994814,43.015949114720875 -2.5318163781704084,43.01589400786371 -2.5318667736578475,43.015857226143694 -2.5319118690851106,43.015798769436174 -2.531868480456887,43.01574412221658 -2.5316156047044074,43.01557827548917 -2.531601680817504,43.015538406525934 -2.531619197965544,43.01549893162911 -2.5316967225745635,43.0154496043929 -2.531822307051283,43.015418996527345 -2.5319306438745484,43.01541453014225 -2.532203372394807,43.0154337750051 -2.5323596792542435,43.015452231676775 -2.532481670469827,43.01547318426176 -2.5326895406265724,43.015523102617195 -2.5327563752837112,43.015529867864885 -2.5328321930936912,43.01552553285189 -2.532885822516153,43.01550057368023 -2.532974935392337,43.015450589624365 -2.5330556041048515,43.01543049089924 -2.5331685223360654,43.01540980102827 -2.533451491650563,43.01537091718841 -2.5336263936363808,43.0153621157753 -2.533832197667972,43.015313905027334 -2.533953290568272,43.0152674019812 -2.534030186356593,43.01521098086521 -2.5341156161401126,43.01512132438684 -2.5343267202318804,43.01483337185233 -2.5343374101837615,43.014706801047865 -2.534362473180188,43.01463592916537 -2.5344250857554913,43.0145726764338 -2.5344647912910494,43.014544826820014 -2.5345710619891606,43.0145071247284 -2.534674008920721,43.01448052306446 -2.534908469209876,43.01443040681195 -2.5350914560332516,43.01439421536433 -2.535231862712159,43.01436472358815 -2.535409998633,43.014321503988576 -2.5355725936994262,43.014287085927045 -2.5356308045298364,43.014276510908076 -2.535770672219574,43.01427046803927 -2.5358562816661503,43.014277430475005 -2.5360408854570373,43.01432623318637 -2.5361626071780354,43.01434981348657 -2.5362413894284526,43.01435342606658 -2.536358799236087,43.01434731752207 -2.5364490799221406,43.0143377277628 -2.536620658141408,43.014315329757586 -2.536740403568781,43.01430587135996 -2.5368350859997273,43.014311191708806 -2.5369569873837823,43.014322029455016</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade4
+smoothness: very_bad
+destination:backward: Gatzaga</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5369569873837823,43.014322029455016 -2.5372144445442104,43.01423598426574 -2.537493820597572,43.01417391342456 -2.5377580151226313,43.01417818284951 -2.538012957000265,43.014193487093415</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vasco-Navarroaren bide berdea</name>
+      <description>foot: designated
+name: Vasco-Navarroaren bide berdea
+oneway: no
+bicycle: designated
+highway: cycleway
+name:es: Via Verde del Vasco Navarro
+name:eu: Vasco-Navarroaren bide berdea
+railway: abandoned
+surface: compacted
+wikidata: Q8961476
+segregated: no
+electrified: no
+official_name: Vasco-Navarroaren bide berdea / Vía verde del Vasco-Navarro
+railway:operator: Ferrocarril Vasco-Navarro
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.538012957000265,43.014193487093415 -2.537752535399399,43.014076110670274 -2.5370001963489486,43.013736985474374</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vasco-Navarroaren bide berdea</name>
+      <description>foot: designated
+name: Vasco-Navarroaren bide berdea
+layer: 1
+bridge: yes
+oneway: no
+bicycle: designated
+highway: cycleway
+name:es: Via Verde del Vasco Navarro
+name:eu: Vasco-Navarroaren bide berdea
+railway: abandoned
+wikidata: Q8961476
+segregated: no
+electrified: no
+official_name: Vasco-Navarroaren bide berdea / Vía verde del Vasco-Navarro
+railway:operator: Ferrocarril Vasco-Navarro
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5370001963489486,43.013736985474374 -2.536833109706102,43.01364962578492</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vasco-Navarroaren bide berdea</name>
+      <description>foot: designated
+name: Vasco-Navarroaren bide berdea
+oneway: no
+bicycle: designated
+highway: cycleway
+name:es: Via Verde del Vasco Navarro
+name:eu: Vasco-Navarroaren bide berdea
+railway: abandoned
+surface: asphalt
+wikidata: Q8961476
+segregated: no
+electrified: no
+official_name: Vasco-Navarroaren bide berdea / Vía verde del Vasco-Navarro
+railway:operator: Ferrocarril Vasco-Navarro
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.536833109706102,43.01364962578492 -2.5367740903919356,43.01362019933522 -2.5367096811860637,43.01361231724808 -2.5366292819681355,43.01361231724808 -2.5365407979126497,43.01361041241021 -2.5364496189113117,43.01359858927725 -2.5363637399701497,43.013573103849566 -2.5360918199336466,43.01347247571734 -2.5359023652402257,43.01340252199042 -2.535870205553055,43.01337697079705 -2.5358305898490245,43.013296310404805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vasco-Navarro trenbidearen Bide Berdea</name>
+      <description>foot: designated
+name: Vasco-Navarro trenbidearen Bide Berdea
+bicycle: designated
+highway: cycleway
+name:es: Via verde del Vasco Navarro
+name:eu: Vasco-Navarro trenbidearen Bide Berdea
+railway: abandoned
+surface: asphalt
+segregated: no
+electrified: no
+railway:operator: Ferrocarril Vasco-Navarro
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5358305898490245,43.013296310404805 -2.5357844164434207,43.01320520607216 -2.5356555980316786,43.012947525241664 -2.5356181382843306,43.01291218682272 -2.535569808922045,43.01288473056496 -2.5354624602455926,43.01285339888741 -2.53538736108784,43.01284157560871 -2.534936766141326,43.01281812609922 -2.5347221586199495,43.01281812609922 -2.534507640930102,43.0128357296534 -2.5342367090404117,43.01285727429494 -2.534008716621302,43.01289057651561 -2.5337217048880256,43.012949495784866 -2.5334669426734493,43.013016100108146 -2.5331450763071492,43.01312993159007 -2.5328660595799017,43.013249477408564 -2.53252281330984,43.01341822053325 -2.532343060421488,43.0135095872866 -2.5319407948372588,43.013714324514225 -2.531775504824981,43.013793999099434 -2.5315705991086737,43.013892787559456 -2.5313667713707066,43.01398888283054 -2.531136084005745,43.01408300744448 -2.530881321791168,43.01417719759762 -2.530621079853359,43.014251682595514 -2.5302778335832965,43.01434981348657 -2.529902337794535,43.014443871864145 -2.529497287432925,43.01454390725707 -2.5288804143273205,43.014687096176786 -2.5284028699222825,43.01480670464692 -2.5281293329182684,43.01489097560379 -2.5279148152284208,43.0149380700788 -2.527364866611482,43.01508519902889 -2.5271958935065393,43.01513032288179 -2.527096719499173,43.01516559434197 -2.5269893708227205,43.01521459339456 -2.5268875018695014,43.01526759902807 -2.5267936279223107,43.01533032558607</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vasco-Navarroaren bide berdea</name>
+      <description>foot: designated
+name: Vasco-Navarroaren bide berdea
+oneway: no
+bicycle: designated
+highway: cycleway
+name:es: Via Verde del Vasco Navarro
+name:eu: Vasco-Navarroaren bide berdea
+railway: abandoned
+surface: asphalt
+wikidata: Q8961476
+segregated: no
+electrified: no
+official_name: Vasco-Navarroaren bide berdea / Vía verde del Vasco-Navarro
+railway:operator: Ferrocarril Vasco-Navarro
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5267936279223107,43.01533032558607 -2.5266969691977392,43.015404874867485 -2.526275928824073,43.01575587925471 -2.526230294407639,43.0158048778363 -2.5261821447084105,43.01589709489993 -2.5261311204002728,43.01595791604986 -2.5260640162485486,43.016012825805184 -2.5259809220847678,43.01607167639753 -2.5257904792445345,43.01620500956217 -2.5255865616750395,43.01636783326566 -2.5255410170901347,43.01641492660808 -2.5254873876676722,43.016471675022935 -2.52543097346783,43.01651292268044 -2.525331799460463,43.01656783193949 -2.525315719616877,43.01659141137896 -2.525321109508582,43.016620770724096</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vasco-Navarroaren bide berdea</name>
+      <description>foot: designated
+name: Vasco-Navarroaren bide berdea
+oneway: no
+bicycle: designated
+highway: cycleway
+name:es: Via Verde del Vasco Navarro
+name:eu: Vasco-Navarroaren bide berdea
+railway: abandoned
+surface: asphalt
+wikidata: Q8961476
+segregated: no
+electrified: no
+official_name: Vasco-Navarroaren bide berdea / Vía verde del Vasco-Navarro
+railway:operator: Ferrocarril Vasco-Navarro
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.525321109508582,43.016620770724096 -2.5253103297251727,43.016644284462416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vasco-Navarroaren bide berdea</name>
+      <description>foot: designated
+name: Vasco-Navarroaren bide berdea
+oneway: no
+bicycle: designated
+highway: cycleway
+name:es: Via Verde del Vasco Navarro
+name:eu: Vasco-Navarroaren bide berdea
+railway: abandoned
+surface: asphalt
+wikidata: Q8961476
+segregated: no
+electrified: no
+official_name: Vasco-Navarroaren bide berdea / Vía verde del Vasco-Navarro
+railway:operator: Ferrocarril Vasco-Navarro
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5253103297251727,43.016644284462416 -2.525216455777982,43.0167188321487 -2.525192291096839,43.01674241153018 -2.5251548313494916,43.01679732058403 -2.525114496993235,43.016830620668124 -2.525050177618892,43.01687961839217 -2.5249750784611393,43.01694832022892</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vasco-Navarro trenbidearen Bide Berdea</name>
+      <description>foot: designated
+name: Vasco-Navarro trenbidearen Bide Berdea
+layer: -2
+tunnel: yes
+bicycle: designated
+highway: cycleway
+name:es: Via verde del Vasco Navarro
+name:eu: Vasco-Navarro trenbidearen Bide Berdea
+railway: abandoned
+surface: asphalt
+segregated: no
+electrified: no
+railway:operator: Ferrocarril Vasco-Navarro
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5249750784611393,43.01694832022892 -2.5240336440433824,43.01819938956305</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vasco-Navarroaren bide berdea</name>
+      <description>foot: designated
+name: Vasco-Navarroaren bide berdea
+oneway: no
+bicycle: designated
+highway: cycleway
+name:es: Via Verde del Vasco Navarro
+name:eu: Vasco-Navarroaren bide berdea
+railway: abandoned
+surface: asphalt
+wikidata: Q8961476
+segregated: no
+electrified: no
+official_name: Vasco-Navarroaren bide berdea / Vía verde del Vasco-Navarro
+railway:operator: Ferrocarril Vasco-Navarro
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5240336440433824,43.01819938956305 -2.52402016931412,43.018232820245046 -2.5240336440433824,43.01834460600825 -2.5240255592058247,43.01839747758211 -2.523996094464506,43.018440694313036 -2.52394776510222,43.018472023139985 -2.52389683062561,43.01848969075232</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vasco-Navarroaren bide berdea</name>
+      <description>foot: designated
+name: Vasco-Navarroaren bide berdea
+layer: -1
+oneway: no
+tunnel: yes
+bicycle: designated
+highway: cycleway
+name:es: Via Verde del Vasco Navarro
+name:eu: Vasco-Navarroaren bide berdea
+railway: abandoned
+surface: asphalt
+wikidata: Q8961476
+segregated: no
+electrified: no
+official_name: Vasco-Navarroaren bide berdea / Vía verde del Vasco-Navarro
+railway:operator: Ferrocarril Vasco-Navarro
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.52389683062561,43.01848969075232 -2.523620598675744,43.018484830517465</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vasco-Navarro trenbidearen Bide Berdea</name>
+      <description>foot: designated
+name: Vasco-Navarro trenbidearen Bide Berdea
+bicycle: designated
+highway: cycleway
+name:es: Via verde del Vasco Navarro
+name:eu: Vasco-Navarro trenbidearen Bide Berdea
+railway: abandoned
+surface: asphalt
+segregated: no
+electrified: no
+railway:operator: Ferrocarril Vasco-Navarro
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.523620598675744,43.018484830517465 -2.523561489530049,43.01848377965583 -2.5235158551136156,43.01849947689973 -2.52348109031212,43.018522989918644 -2.5234435407332443,43.01857789738026 -2.523384790913662,43.018649093106696 -2.523341581948496,43.01870150466804 -2.5232129431998107,43.0188486246012 -2.523183388626963,43.018889673626795 -2.5230841247880678,43.01908000939003 -2.5229339264725623,43.019346728043494 -2.522679074426458,43.01977809917311 -2.522544955954539,43.01997808673954 -2.522341128216572,43.0202702841507 -2.5222097046905056,43.020427186165136 -2.52203803663971,43.02062132640324 -2.521898618107615,43.02075070910331 -2.521740334954553,43.02088409778429 -2.521571272018082,43.021001723899154 -2.5214023887446673,43.021097808045745 -2.521199818648099,43.02118331821243</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 3
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.521199818648099,43.02118331821243 -2.5212224561932586,43.02119888341428</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 3
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5212224561932586,43.02119888341428 -2.5216556238232606,43.02162846829308 -2.5216844597438812,43.02165486983413</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5216844597438812,43.02165447578137 -2.5219288913326903,43.02151379878158 -2.521904636820019,43.02148897339521 -2.5216577797799427,43.021630701259674</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5216577797799427,43.021630701259674 -2.5216308303214188,43.02164909039328 -2.521665056133744,43.02168613134567 -2.5216952395272907,43.021673718688575</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Intxaurtxueta auzoa</name>
+      <description>name: Intxaurtxueta auzoa
+oneway: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5222053029456135,43.02127112691556 -2.5221654177469985,43.021326491650356 -2.522167843198266,43.021409374469656 -2.522150595544811,43.021477874211286 -2.5221148425965025,43.02151570337429 -2.522065614918933,43.02153468362264 -2.522001744702232,43.021566076546485 -2.5217201228606605,43.0217131896159</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GI-3341
+highway: tertiary
+surface: asphalt
+ref:colour: grey
+ref:colour_tx: white</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.52188190944333,43.021392298779105 -2.5219051758091893,43.02138172498373 -2.5220212381438976,43.021329184358606 -2.5222053029456135,43.02127112691556 -2.5223421163633852,43.021215171047444 -2.5224789297811565,43.02114456938053 -2.5227262359788742,43.020941695859754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5227262359788742,43.020941695859754 -2.522890358181283,43.02078781627409 -2.5231126912141026,43.020583168306125 -2.523449200119534,43.02027369935159 -2.5237618138384077,43.019986099364104 -2.523791907400425,43.0199480065495</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Gaztañadui kalea</name>
+      <description>name: Gaztañadui kalea
+bridge: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.523791907400425,43.0199480065495 -2.523798195607414,43.01993907443782 -2.5239351886882426,43.019745785850006</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Gaztañadui kalea</name>
+      <description>name: Gaztañadui kalea
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5239351886882426,43.019745785850006 -2.5239456989770668,43.01973232196037 -2.5239859435017955,43.0196806994098 -2.5241262603491745,43.019576994434665 -2.524268733153236,43.019471910050655 -2.5246015589660025,43.01926121531895 -2.5249136336957054,43.01905347538528 -2.5250164907957373,43.0189849729388 -2.5254271107121085,43.018716676427445 -2.5256205179927793,43.018592609419066 -2.5258197643227964,43.01846479846432 -2.5259652015672955,43.01837278229366 -2.5261060574038456,43.01828562623611</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+junction: roundabout</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5261060574038456,43.01828562623611 -2.526141361194512,43.01830007562873 -2.5261819650453536,43.01830099513542 -2.526218436645889,43.01828792500334 -2.526242421663975,43.01826401781988</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Santa Ana auzoa</name>
+      <description>name: Santa Ana auzoa
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.526242421663975,43.01826401781988 -2.526332343023916,43.01832109292103 -2.5264792175728688,43.01841429138986 -2.526517395972444,43.018444306652384 -2.52661773778968,43.01847701473358 -2.526676128283148,43.018486472488746 -2.5272039783440965,43.01857277443737 -2.5272912047581846,43.01858702672619</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

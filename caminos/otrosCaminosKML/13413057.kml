@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Lombardel</name>
+      <description>foot: yes
+name: Chemin de Lombardel
+bicycle: yes
+highway: path
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4201308223155509,43.46031011482689 1.4203156956010228,43.460076422136375 1.4204157679236737,43.45990760729551 1.42065525877842,43.459405072261966 1.4207644040854404,43.45924277609286</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Lombardel</name>
+      <description>name: Chemin de Lombardel
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4207644040854404,43.45924277609286 1.4208371676234541,43.459175418816415</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4208371676234541,43.459175418816415 1.4211419659993558,43.45904657254903 1.4213147120284921,43.459002232676916 1.4221731421139967,43.458815287593836 1.4223955649783449,43.45877649005911</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4223955649783449,43.45877649005911 1.4227255161822017,43.45854676901985 1.4227763608272828,43.458489387528374 1.422834122500052,43.45844941607087 1.422910479299202,43.45840761880891 1.4232928022841234,43.45814177189705 1.4247935277977735,43.45708169815849 1.4248846169675828,43.45701551221612 1.4248793169074068,43.45697267063647 1.4248511098074856,43.45693282859224 1.4247410661851807,43.456838276991014 1.4247116014438619,43.456797391528696 1.4247157336941687,43.456743920866415 1.4247464560768854,43.45669038494864 1.424778615764057,43.45666182374534</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

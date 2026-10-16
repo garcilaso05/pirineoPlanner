@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+width: 3
+bicycle: yes
+highway: path
+surface: pebblestone
+mtb:scale: 4
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6044978101671212,42.247337302074506 2.604371057880532,42.24734408484287 2.6041880710571568,42.247335772626634 2.6040490118511745,42.24731309689519</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont medieval de Llierca</name>
+      <description>foot: yes
+name: Pont medieval de Llierca
+note: Old Roman bridge
+image: https://commons.wikimedia.org/wiki/File:Pont_de_Llierca,_la_platja_de_la_Garrotxa.jpg
+layer: 1
+width: 3
+bridge: yes
+bicycle: yes
+highway: path
+name:ca: Pont medieval de Llierca
+surface: dirt
+wikidata: Q18696750
+tracktype: grade2
+wikipedia: ca:Pont de Llierca
+wikimedia_commons: File:Pont_de_Llierca,_la_platja_de_la_Garrotxa.jpg</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6040490118511745,42.24731309689519 2.6039192951241477,42.24731429385482 2.6036156645581157,42.247444030845095 2.6035660775544325,42.247446225266515 2.603491697048907,42.247446025773655</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+width: 3
+bicycle: yes
+highway: path
+surface: dirt
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.603491697048907,42.247446025773655 2.603343115700914,42.247461785707166</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.603343115700914,42.247461785707166 2.603288587963168,42.24749470201127 2.603208368408296,42.24754317871877</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

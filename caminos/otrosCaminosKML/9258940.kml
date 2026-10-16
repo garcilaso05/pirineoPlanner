@@ -1,0 +1,172 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Le Tucau : boucle locale</name>
+    <Placemark>
+      <name>Chemin du Tucau</name>
+      <description>name: Chemin du Tucau
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.287242420641149,44.499911299017924 -0.2878352188971394,44.49892021754425 -0.2879585575856491,44.49880930609848 -0.2881584327363657,44.49866680604567 -0.28829120373535855,44.498547180057976 -0.2883568705826277,44.49848880863798 -0.2883990914009813,44.4984467119794 -0.28913723706994227,44.49797467628517 -0.28928968117365744,44.497903168983676 -0.2894841664326692,44.49791181906512 -0.29034511180096945,44.498028627076465 -0.2905570243764932,44.49799601312427 -0.2907286924272885,44.49791950802535 -0.29092183021337414,44.497490911021 -0.29111101541220974,44.49728529354952 -0.29128663605025507,44.49713132025334 -0.29152262347539326,44.49705468586865 -0.29179086041923136,44.49703181086976 -0.29299253677479803,44.49733789939732</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Rural nº 26 de Maurin à Caubet</name>
+      <description>name: Chemin Rural nº 26 de Maurin à Caubet
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.29299253677479803,44.49733789939732 -0.29368980909833164,44.497524101931596 -0.29385536860519484,44.497563828479294 -0.294014370410484,44.497627390899304 -0.29412028178248173,44.49767141039756 -0.2941846909883531,44.497753105884854 -0.2941404938763744,44.49807251812281 -0.29443020055550295,44.49817202573037 -0.29594026854810784,44.49918599408437 -0.29784604442336743,44.49963456933968 -0.2979787255908318,44.499747401395325 -0.29806720964631767,44.49983902522081 -0.2981114965898248,44.499909376843625</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Léogeats</name>
+      <description>name: Route de Léogeats
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2981114965898248,44.499909376843625 -0.2980088191528499,44.49997197562061 -0.29791898762443797,44.50006039547769 -0.29775603323189864,44.50034878423906 -0.2976298199344799,44.50047000832701 -0.2974771063361796,44.50054298613156 -0.2973039111494013,44.500580980685484 -0.2956865843118725,44.50066228766626 -0.29497853220492953,44.50086891837193 -0.2946781355739199,44.50089948043273 -0.2944742180044248,44.50089192000828 -0.2934817592785296,44.5005953968251 -0.29254310963815305,44.50042406878423 -0.29119123496708155,44.50023377489514 -0.29023381053726705,44.5001115892322 -0.28952548893573876,44.50010742453545 -0.28822948947533955,44.49995928928229 -0.2875890805092907,44.49989899710133 -0.287242420641149,44.499911299017924</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.287242420641149,44.499911299017924 -0.28649169855821033,44.50075967649318 -0.28587392713732135,44.50169882960863 -0.28570091161359995,44.501914682760855 -0.2854139897118521,44.50224861607186</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Stade</name>
+      <description>name: Chemin du Stade
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2854139897118521,44.50224861607186 -0.28530080198605307,44.502243426409166 -0.28510658622162643,44.50220049955194 -0.2846560811066405,44.50212701126178 -0.28436646425904033,44.50206672132248 -0.28419093345252344,44.50203372520815 -0.2841549110096302,44.50202699784274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Clottes</name>
+      <description>name: Chemin des Clottes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2841549110096302,44.50202699784274 -0.2841141274957312,44.5020241146859 -0.28405933026339986,44.5020202064064 -0.282373731464278,44.501543778765665 -0.28093373206383443,44.501138274012455 -0.28082153248484787,44.50114660325838 -0.2807371806796691,44.501067795730044 -0.28060521816443196,44.501009426833484 -0.28041782959616457,44.50094612438565 -0.27971193344590345,44.50073891730951 -0.2796002728560874,44.500691824689504 -0.27955724355397804,44.50066100623324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Langon</name>
+      <description>ref: D 222
+name: Route de Langon
+lanes: 2
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.27955724355397804,44.50066100623324 -0.27983751792262335,44.50048179754833 -0.2801158159976436,44.50029451523429</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Moulin de Masseilles</name>
+      <description>name: Route du Moulin de Masseilles
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2801158159976436,44.50029451523429 -0.2800785359133527,44.50026613130731 -0.2800398185246071,44.500236529996286 -0.27887712905237116,44.499925074598515 -0.2777250397004879,44.499623484747765 -0.2771255040798666,44.49950360443116 -0.27651806328474493,44.499373472178334 -0.27604761557045154,44.499225911719485 -0.27498149499125846,44.498846917340295 -0.2747853927647352,44.498806230561456 -0.2742083150262168,44.498709799578506 -0.2739595715240441,44.498674302684826</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin rural nº 21 de Bernède</name>
+      <description>name: Chemin rural nº 21 de Bernède
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2739595715240441,44.498674302684826 -0.27406683036896795,44.4983926975008 -0.27432832994817513,44.49797467628517 -0.27447313837197523,44.49772497702018 -0.27483659673592997,44.49717591680541 -0.27488348879376107,44.497132922141574 -0.2749531980598087,44.49710889381339 -0.2751209135233538,44.497104216297686 -0.27516250552100857,44.49708018795768 -0.27522951984120386,44.49665837684571</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin rural nº 21 de Bernède</name>
+      <description>name: Chemin rural nº 21 de Bernède
+layer: 1
+bridge: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.27522951984120386,44.49665837684571 -0.27523760467876096,44.49660391217771</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin rural nº 21 de Bernède</name>
+      <description>name: Chemin rural nº 21 de Bernède
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.27523760467876096,44.49660391217771 -0.2753233937883944,44.49581660370016</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Mazères</name>
+      <description>ref: D 125
+name: Route de Mazères
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2753233937883944,44.49581660370016 -0.2754454748355062,44.49586837787302 -0.27556207615938494,44.49590682401125 -0.27574191887926564,44.49594270705072 -0.2759256243548681,44.49596449317106 -0.2760851651493277,44.495982370599016 -0.2765732198431899,44.49601998366432</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2765732198431899,44.49601998366432 -0.2766111287481797,44.49592220245944 -0.27693685787020145,44.49522132556354</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin rural nº 24 du Bourg à Boy</name>
+      <description>name: Chemin rural nº 24 du Bourg à Boy
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.27693685787020145,44.49522132556354 -0.27719162008477777,44.495255030386744 -0.27778432850923984,44.495426309538985 -0.27942150811454763,44.495874977795225 -0.2806743884413091,44.496412516523264</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin rural nº 23 de Gampes à Clavier</name>
+      <description>name: Chemin rural nº 23 de Gampes à Clavier
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2806743884413091,44.496412516523264 -0.28125236449511165,44.496543616527106 -0.2825720794790116,44.49688699974418 -0.28323350902270883,44.49711132868443</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.28323350902270883,44.49711132868443 -0.2842709733443385,44.497419595351886 -0.2843287350171073,44.49746810026839 -0.2843670930797392,44.4974978311352</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Préchac</name>
+      <description>ref: D 222
+name: Route de Préchac
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2843670930797392,44.4974978311352 -0.2844773163651007,44.497424977669574</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Caubet</name>
+      <description>name: Chemin de Caubet
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2844773163651007,44.497424977669574 -0.2845399289404038,44.497452081476126 -0.28716777064103866,44.498126917344635 -0.2878111440475251,44.498279286155146 -0.28823622683997047,44.49839801565452 -0.2883990914009813,44.4984467119794</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

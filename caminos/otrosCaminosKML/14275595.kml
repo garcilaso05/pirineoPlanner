@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tour du lac</name>
+    <Placemark>
+      <name>path</name>
+      <description>horse: unknown
+layer: 1
+bridge: yes
+highway: path
+surface: wood
+mtb:scale: 1
+sac_scale: hiking
+mtb:scale:uphill: 0
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.10562705521026776,43.26566507631895 -0.10550991489721856,43.265722575062895</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground
+mtb:scale: 1
+sac_scale: hiking
+horse_scale: common
+mtb:scale:uphill: 0
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.10550991489721856,43.265722575062895 -0.10541900539046567,43.26574370371171 -0.10523979149128382,43.26574579695206 -0.10496930875923544,43.26577013086584 -0.10469909552177228,43.26580237982798 -0.10458770442654146,43.265838095697156 -0.10453191904739766,43.265865373187516 -0.1044579876995146,43.26594216874223 -0.10440929901111533,43.26602380479637 -0.10439330899905801,43.26615312707149 -0.10445637073200319,43.266295531707094 -0.10450056784398189,43.266395286708175 -0.10469370563006757,43.26671561362928 -0.1048976231995627,43.26693441877653</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Mailhol</name>
+      <description>name: Chemin de Mailhol
+access: destination
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.666703186278058,43.47059808791044 1.6666371601046754,43.47125842634319</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Prat Loung</name>
+      <description>name: Chemin du Prat Loung
+access: destination
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6666371601046754,43.47125842634319 1.6661217067946477,43.47165857657921 1.6647381215940464,43.47274310208597 1.6639341294147596,43.47329461456486 1.662522696440351,43.47431209624673 1.6622656884375646,43.47448263096718 1.6621701975228627,43.47465648983701 1.6622027165361477,43.47564187621461 1.6622418830825354,43.475715994664576 1.6625121861515268,43.47594402077695 1.6629337655143641,43.47630431071066 1.6631341796542511,43.47641701902572 1.6636507109426197,43.47653878809688 1.6637455730366228,43.47652007948145 1.664892003002216,43.47605490451894</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Mailhol</name>
+      <description>name: Chemin de Mailhol
+access: destination
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.664892003002216,43.47605490451894 1.6655421137733335,43.476837929596556 1.6660095072156607,43.47752042819349</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Mailhol</name>
+      <description>name: Chemin de Mailhol
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6660095072156607,43.47752042819349 1.6663954234617187,43.47810990000364</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 97
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6663954234617187,43.47810990000364 1.6663553586000468,43.478216803486774 1.666140391752557,43.47859076863449 1.6658973076366743,43.478899286509346 1.6655693327264423,43.479196917092615 1.6654333277924267,43.47925597370946 1.6653070246634796,43.47935159837393 1.6650558557100397,43.47963788480819 1.6647848339888207,43.47985292465982 1.6640368966832626,43.480311030649055 1.6635733659966574,43.480587730720046 1.6635320434935879,43.48066301638579</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Château</name>
+      <description>ref: D 97
+name: Avenue du Château
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6635320434935879,43.48066301638579 1.6638807694868827,43.48100111630981 1.664388227790882,43.48143972432311 1.6645515415095349,43.48158090732181 1.6647247366963132,43.48173069390989 1.6648365769491862,43.48182742273635 1.6653568811617478,43.48231041273988</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Lauragais</name>
+      <description>ref: D 2
+name: Avenue du Lauragais
+lanes: 2
+highway: primary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6653568811617478,43.48231041273988 1.6652039879003908,43.48236659837082 1.6650510946390338,43.482422783949495 1.664984170150367,43.48244742215661</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Sports</name>
+      <description>name: Chemin des Sports
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.664984170150367,43.48244742215661 1.6650031246028616,43.48246586821515 1.66502809776776,43.482490376043934 1.6653620913903961,43.48278818447745 1.6654653976480698,43.4828650317207 1.6657233937976688,43.48312281798473 1.6658007387436315,43.48322019637824 1.6659841747246489,43.48345568979626 1.6660961946405786,43.483647707829675 1.6661594360365803,43.48375199435378 1.6663440398274671,43.484139286856944 1.6664610004774594,43.48444510409026 1.6665488557122463,43.48470431752782</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

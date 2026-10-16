@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin des Herbettes</name>
+      <description>lit: yes
+name: Chemin des Herbettes
+bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked
+segregated: no
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4654033973523792,43.57395781306829 1.4654510080624379,43.573911995593285 1.4654943966906606,43.5738700829862</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Herbettes</name>
+      <description>lit: yes
+name: Chemin des Herbettes
+bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked
+segregated: no
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4654943966906606,43.5738700829862 1.4655087697352067,43.573856285661954</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Herbettes</name>
+      <description>lit: yes
+name: Chemin des Herbettes
+footway: sidewalk
+highway: footway
+surface: asphalt
+segregated: yes
+smoothness: good
+cycleway:width: 2
+footway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4655087697352067,43.573856285661954 1.465866299218286,43.57401560551544 1.4662222117338541,43.57419191118555 1.4663958560782746,43.57428322026844 1.466566895308371,43.5743574779451 1.4667618297250247,43.57444188818151 1.466936731710843,43.57450937723684 1.4669861390514694,43.57453319688538 1.467098158967399,43.57458949191891</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

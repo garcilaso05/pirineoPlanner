@@ -1,0 +1,699 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Estación Goya-La Junquera</name>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8916072943984158,41.64400573191689 -0.8916327167209565,41.64397572479175</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: paving_stones
+crossing: traffic_signals
+tactile_paving: yes
+button_operated: no
+crossing:island: no
+traffic_signals:vibration: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8916327167209565,41.64397572479175 -0.8916652357342415,41.643938601863674 -0.8917032344707597,41.643895168681986 -0.8917100616669191,41.643887314455895</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8917100616669191,41.643887314455895 -0.8917197634719874,41.64387617085142</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenida Francisco de Goya</name>
+      <description>lit: yes
+name: Avenida Francisco de Goya
+footway: sidewalk
+highway: footway
+surface: paving_stones
+wikidata: Q54578398
+name:etymology:wikidata: Q5432</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8917197634719874,41.64387617085142 -0.8918448987910654,41.643939810205254 -0.8918613379607647,41.643944106530675 -0.8918750821846118,41.64394101854681 -0.891893228153351,41.643927726788476</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de Fernando el Católico</name>
+      <description>lit: yes
+name: Paseo de Fernando el Católico
+footway: crossing
+highway: footway
+surface: paving_stones
+crossing: traffic_signals
+wikidata: Q54153174
+name:etymology:wikidata: Q12860</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.891893228153351,41.643927726788476 -0.8919141588994709,41.643938467603505</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de Fernando el Católico</name>
+      <description>lit: yes
+name: Paseo de Fernando el Católico
+footway: crossing
+highway: footway
+surface: paving_stones
+crossing: traffic_signals
+wikidata: Q54153174
+tactile_paving: yes
+button_operated: no
+crossing:island: no
+name:etymology:wikidata: Q12860
+traffic_signals:vibration: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8919141588994709,41.643938467603505 -0.8919295200908294,41.64394638895344 -0.8919475762280402,41.64395578716397</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de Fernando el Católico</name>
+      <description>lit: yes
+name: Paseo de Fernando el Católico
+footway: crossing
+highway: footway
+surface: paving_stones
+crossing: traffic_signals
+wikidata: Q54153174
+button_operated: no
+crossing:island: no
+name:etymology:wikidata: Q12860
+traffic_signals:vibration: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8919475762280402,41.64395578716397 -0.8919704832677853,41.643967602055255 -0.8919869224374847,41.64397612757205</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de Fernando el Católico</name>
+      <description>lit: yes
+name: Paseo de Fernando el Católico
+highway: footway
+surface: paving_stones
+wikidata: Q54153174
+name:etymology:wikidata: Q12860</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8919869224374847,41.64397612757205 -0.8920498943389015,41.64400868563764</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de Fernando el Católico</name>
+      <description>name: Paseo de Fernando el Católico
+note: #Zaccesibilidad
+width: 5.5
+highway: pedestrian
+surface: paving_stones
+wheelchair: yes
+tactile_paving: yes
+traffic_signals:sound: yes
+name:etymology:wikidata: Q12860</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8920498943389015,41.64400868563764 -0.8920634588996917,41.64399411842269 -0.892789477312317,41.643213727094114 -0.8928936818852748,41.64310470651223 -0.8929723743041638,41.64302032284407 -0.8938898237038351,41.64203751685212</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de Fernando el Católico</name>
+      <description>name: Paseo de Fernando el Católico
+note: #Zaccesibilidad
+width: 5.5
+highway: pedestrian
+surface: paving_stones
+wheelchair: yes
+tactile_paving: yes
+traffic_signals:sound: yes
+name:etymology:wikidata: Q12860</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8938898237038351,41.64203751685212 -0.8939566583609736,41.641965819762774 -0.8940096589627365,41.64190902594437 -0.894112875388882,41.64179812345019 -0.8944760642582514,41.64140747930664 -0.8945240342944235,41.64135800246922</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaza de San Francisco</name>
+      <description>lit: yes
+name: Plaza de San Francisco
+note: #Zaccesibilidad
+width: 14
+highway: pedestrian
+surface: paving_stones
+wheelchair: yes
+tactile_paving: yes
+traffic_signals:sound: yes
+name:etymology:wikidata: Q676555</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8945240342944235,41.64135800246922 -0.8945718246675386,41.641304229092654 -0.8945980554738349,41.641276167562474 -0.8947116025257476,41.64115432130285 -0.8947552606485557,41.64110940931763 -0.894831437784649,41.64103119928362</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaza de San Francisco</name>
+      <description>lit: yes
+name: Plaza de San Francisco
+highway: pedestrian
+surface: paving_stones
+name:etymology:wikidata: Q676555</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.894831437784649,41.64103119928362 -0.8948875824899065,41.641059193787385 -0.8950304146200816,41.640907070030465 -0.8949731919364833,41.64087639012952</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaza de San Francisco</name>
+      <description>lit: yes
+name: Plaza de San Francisco
+note: #Zaccesibilidad
+width: 14
+highway: pedestrian
+surface: paving_stones
+wheelchair: yes
+tactile_paving: yes
+traffic_signals:sound: yes
+name:etymology:wikidata: Q676555</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8949731919364833,41.64087639012952 -0.895156987243614,41.64068083059274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaza de San Francisco</name>
+      <description>name: Plaza de San Francisco
+note: #Zaccesibilidad
+width: 14
+highway: pedestrian
+surface: paving_stones
+wheelchair: yes
+tactile_paving: yes
+traffic_signals:sound: yes
+name:etymology:wikidata: Q676555</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.895156987243614,41.64068083059274 -0.8952174438622352,41.64060141163441</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaza de San Francisco</name>
+      <description>name: Plaza de San Francisco
+width: 14
+highway: pedestrian
+surface: paving_stones
+crossing: traffic_signals
+pedestrian: crossing
+wheelchair: yes
+tactile_paving: yes
+traffic_signals:sound: yes
+name:etymology:wikidata: Q676555</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8952174438622352,41.64060141163441 -0.8952449323099294,41.640572409927856 -0.8952627189525549,41.64055341111764</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaza de San Francisco</name>
+      <description>lit: yes
+name: Plaza de San Francisco
+note: #Zaccesibilidad
+width: 14
+highway: pedestrian
+surface: paving_stones
+wheelchair: yes
+tactile_paving: yes
+traffic_signals:sound: yes
+name:etymology:wikidata: Q676555</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8952627189525549,41.64055341111764 -0.8952978430801641,41.64051353373805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de Fernando el Católico</name>
+      <description>lit: yes
+name: Paseo de Fernando el Católico
+highway: pedestrian
+surface: paving_stones
+wikidata: Q54153174
+name:etymology:wikidata: Q12860</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8952978430801641,41.64051353373805 -0.8953433876650689,41.64046392194684</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de Fernando el Católico</name>
+      <description>lit: yes
+name: Paseo de Fernando el Católico
+highway: pedestrian
+surface: paving_stones
+wikidata: Q54153174
+name:etymology:wikidata: Q12860</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8953433876650689,41.64046392194684 -0.8956972340554836,41.64007937891939 -0.8958699800846197,41.63989180594663 -0.8967053234673225,41.63898441230381 -0.8967656004228869,41.63891902253771 -0.8968032398332914,41.63887820425173 -0.8968504912172361,41.6388300681806</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de Fernando el Católico</name>
+      <description>lit: yes
+name: Paseo de Fernando el Católico
+highway: pedestrian
+surface: paving_stones
+wikidata: Q54153174
+name:etymology:wikidata: Q12860</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8968504912172361,41.6388300681806 -0.8968982815903512,41.63878139498983 -0.8970171287024404,41.63865598582686 -0.8970875566207154,41.63860630546997 -0.8971295079444837,41.63853621582025 -0.8978171682944772,41.63780658072516</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8978171682944772,41.63780658072516 -0.8977491658274693,41.63777099838286</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: paving_stones
+crossing: traffic_signals
+tactile_paving: no
+button_operated: no
+crossing:island: no
+traffic_signals:vibration: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8977491658274693,41.63777099838286 -0.897730121543446,41.63776092790505 -0.897710268775667,41.637750588879534</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: traffic_signals
+tactile_paving: no
+button_operated: no
+crossing:island: no
+traffic_signals:vibration: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.897710268775667,41.637750588879534 -0.897691943143871,41.63774092121781 -0.8976745158273589,41.637731790647074</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8976745158273589,41.637731790647074 -0.8976605021089268,41.63772460703536</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de Fernando el Católico</name>
+      <description>lit: yes
+name: Paseo de Fernando el Católico
+footway: sidewalk
+highway: footway
+surface: paving_stones
+wikidata: Q54153174
+name:etymology:wikidata: Q12860</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8976605021089268,41.63772460703536 -0.8976707429031656,41.637713730911436 -0.8977038009056213,41.637677275741936 -0.8977124247323488,41.6376645869212 -0.8977156586673716,41.6376529051475 -0.8977152095097295,41.6376406862785 -0.8977072145037008,41.637623633567344</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle de Manuel Lasala</name>
+      <description>lit: yes
+name: Calle de Manuel Lasala
+footway: sidewalk
+highway: footway
+surface: paving_stones
+name:etymology:wikidata: Q5993440</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8977072145037008,41.637623633567344 -0.897696075394178,41.63761269028971 -0.8976850261161832,41.6376061108949 -0.8976694852617679,41.637600605686465 -0.8976144185348515,41.63759033377193</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8976144185348515,41.63759033377193 -0.897621964383238,41.6375679772464</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt
+crossing: traffic_signals
+tactile_paving: yes
+button_operated: no
+crossing:island: no
+traffic_signals:vibration: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.897621964383238,41.6375679772464 -0.897636786585426,41.63752447263396 -0.897650530809273,41.63748432483284</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.897650530809273,41.63748432483284 -0.897657717331546,41.63746297532306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle de Manuel Lasala</name>
+      <description>lit: yes
+name: Calle de Manuel Lasala
+footway: sidewalk
+highway: footway
+surface: paving_stones
+name:etymology:wikidata: Q5993440</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.897657717331546,41.63746297532306 -0.8977512319526229,41.63745780578661 -0.8978436685953587,41.63744162580621 -0.897935117091282,41.637412085582554</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Puente de los Cantautores</name>
+      <description>lit: yes
+name: Puente de los Cantautores
+source: survey
+bicycle: yes
+highway: pedestrian
+surface: paving_stones
+old_name: Puente del 13 de Septiembre
+name:etymology:wikidata: Q488205</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.897935117091282,41.637412085582554 -0.8978876860442805,41.637372273396075</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Puente de los Cantautores</name>
+      <description>name: Puente de los Cantautores
+layer: 1
+bridge: yes
+oneway: no
+source: http://www.heraldo.es/noticias/aragon/zaragoza_provincia/zaragoza/2012/04/27/el_puente_septiembre_llamara_los_cantautores_185681_301.html;survey
+bicycle: yes
+highway: pedestrian
+surface: sett
+old_name: Puente del 13 de Septiembre
+wikidata: Q6091304
+wikipedia: es:Puente de los Cantautores
+motor_vehicle: no
+name:etymology:wikidata: Q488205</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8978876860442805,41.637372273396075 -0.8973654953696218,41.63694366981741</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de San Sebastián</name>
+      <description>name: Paseo de San Sebastián
+bicycle: yes
+highway: pedestrian
+surface: sett
+name:etymology:wikidata: Q10313</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8973654953696218,41.63694366981741 -0.8972156563802307,41.63682873052844 -0.897136784298285,41.63676837389216</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de San Sebastián</name>
+      <description>lit: yes
+foot: yes
+name: Paseo de San Sebastián
+lanes: 1
+width: 4
+bicycle: yes
+highway: pedestrian
+surface: asphalt
+motor_vehicle: no
+name:etymology:wikidata: Q10313</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.897136784298285,41.63676837389216 -0.8971625659469393,41.63674829975922 -0.8971978697376052,41.63670969563985 -0.897220058125123,41.63667028584544 -0.8972328142021574,41.63662181243665</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de San Sebastián</name>
+      <description>lit: yes
+foot: yes
+name: Paseo de San Sebastián
+lanes: 1
+width: 4
+bicycle: yes
+highway: pedestrian
+surface: asphalt
+motor_vehicle: no
+name:etymology:wikidata: Q10313</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8972328142021574,41.63662181243665 -0.8972299395932481,41.63656763228145 -0.8972145784018899,41.63652459695844</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de Manuel Azaña</name>
+      <description>name: Paseo de Manuel Azaña
+lanes: 1
+bicycle: yes
+highway: pedestrian
+surface: asphalt
+old_name: Paseo de los Plátanos
+motor_vehicle: no
+name:etymology:wikidata: Q203708</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8972145784018899,41.63652459695844 -0.8973721429027244,41.63648928245974 -0.8975952844192998,41.63643691491655 -0.8976949974158369,41.63640052616275 -0.8977647066818847,41.63635359672486 -0.8978130360441703,41.636306801528875 -0.8978681027710868,41.636225430174605 -0.8979894651659713,41.63579822887921 -0.8980758830963037,41.63556908453768 -0.8981018444080147,41.63547717144513 -0.8981091207618161,41.63538787664241 -0.898104539353867,41.63523177828787 -0.8980836984392756,41.63498000595166 -0.8980675287641613,41.634921326071186 -0.8980281825547168,41.634875469788724 -0.8979727565016866,41.63483169480052 -0.8979167016279576,41.63480779310728 -0.8978580416399046,41.63479402948777 -0.8972858148039204,41.634727896933555 -0.8970827057181809,41.634711917686936 -0.8969578398936884,41.63469822118667 -0.8968837288827486,41.634685733198594 -0.8968179722039512,41.63466820972737 -0.8967718886298757,41.634653170422624 -0.896724008425232,41.63462107760876 -0.8966761282205886,41.634580390880345 -0.8966407345983943,41.63452547047025 -0.8966159410965526,41.634471422832725 -0.8966041731663307,41.63441119826894 -0.8965938425405633,41.634269801245864 -0.8965826135995116,41.63404300138444 -0.8966180970532345,41.63387139030174 -0.8966922080641743,41.63369078190043 -0.8969260395326306,41.633253492623155 -0.8970276389912647,41.633091212092104 -0.8971420843584613,41.63290892296533 -0.8971695728061556,41.63284742125045 -0.8972538347798059,41.632562068639665 -0.8973718734081391,41.63216827996234 -0.8974696999425796,41.6319473812538 -0.8974985358631999,41.631888698612485 -0.8975850436250606,41.63171271751082 -0.8975945657670723,41.63162220892043 -0.8975864809295153,41.63155117167369 -0.8975632145636566,41.631480201491726</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo de Manuel Azaña</name>
+      <description>name: Paseo de Manuel Azaña
+lanes: 1
+oneway: no
+bicycle: yes
+highway: pedestrian
+surface: asphalt
+old_name: Paseo de los Plátanos
+motor_vehicle: no
+name:etymology:wikidata: Q203708</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8975632145636566,41.631480201491726 -0.897521892060587,41.631416482690355 -0.8974423013264141,41.631345176644075 -0.8973704361036846,41.63130327926935 -0.8971905035522755,41.63123110023463 -0.8970718361032431,41.631200281440755 -0.8970546782813166,41.631195917122355 -0.8967958736479618,41.63114052382461</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenida de los Bearneses</name>
+      <description>name: Avenida de los Bearneses
+lanes: 1
+oneway: no
+bicycle: yes
+highway: living_street
+surface: asphalt
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8967958736479618,41.63114052382461 -0.896782668413285,41.631030475665206 -0.8967683852002678,41.630960109202455 -0.896764971602188,41.630847307842366 -0.8967827582448135,41.63073349912725 -0.8968175230463091,41.63061928734743 -0.8970745310490955,41.63029437689187 -0.8971923001828438,41.630111475555445 -0.8972285022887937,41.63005138120721 -0.8972477262358738,41.63001962182512</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenida de los Bearneses</name>
+      <description>name: Avenida de los Bearneses
+note: See mapillary image on node
+lanes: 1
+bicycle: yes
+highway: living_street
+surface: asphalt
+motor_vehicle: private</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8972477262358738,41.63001962182512 -0.8971437911575011,41.629868277747136 -0.897097078762727,41.62983342961496 -0.8970538697975609,41.629811607557286 -0.8969853283413824,41.629793209878315 -0.8962479013246488,41.6297200891242 -0.8961515120946627,41.629713508923714</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenida de los Bearneses</name>
+      <description>name: Avenida de los Bearneses
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8961515120946627,41.629713508923714 -0.8961445052354466,41.62965972583127 -0.896137408544702,41.62960741988433 -0.896137408544702,41.629572504466104 -0.8961455832137876,41.629537589028956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo Reyes de Aragón</name>
+      <description>name: Paseo Reyes de Aragón
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8961455832137876,41.629537589028956 -0.8961968770165109,41.62950891806932</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8961968770165109,41.62950891806932 -0.8961639088455835,41.62947977708088 -0.8961498951271514,41.62946930243666</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: paving_stones
+mapillary: 380981090574850
+survey:date: 2022-04-08</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8961498951271514,41.62946930243666 -0.8965983341169838,41.62916050110286 -0.8973889413985374,41.62859802094331 -0.8975247666694963,41.62849199721443 -0.8975647416996396,41.628453388150156 -0.8976725395337339,41.62834521550085 -0.8977817746722829,41.62819178595079 -0.8978704383908254,41.627987526000666 -0.898221859329973,41.627073518586265 -0.8983665779222448,41.62681849128442 -0.8985142609549539,41.62663087971852 -0.8987683045173029,41.62639787533152 -0.8992379437478407,41.625988403334034 -0.8999186870701464,41.62540877240684 -0.9002864573474648,41.62508323134333 -0.9004928901997555,41.62490461281727 -0.9007058807536202,41.624661529667314 -0.9013438642684021,41.623782729429955 -0.9017788285289727,41.62320146703373 -0.9019545389985464,41.62305131568329 -0.9031042028991627,41.62230122521277 -0.9035169787722156,41.62203953089794 -0.9036867603609141,41.621965595514204 -0.903787281841207,41.62194289780445 -0.9039601177018718,41.62190710524593 -0.9042067052473626,41.62188877246435 -0.9043320202294972,41.621911067274965 -0.9044030769684711,41.62192852706101</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9044030769684711,41.62192852706101 -0.9044032566315279,41.621890384137664</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>layer: 1
+bridge: yes
+highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9044032566315279,41.621890384137664 -0.904463892913206,41.62170886917745</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.904463892913206,41.62170886917745 -0.9044765591587121,41.621669181598655 -0.9044928186653545,41.62162392026918 -0.9045631567521012,41.62140701464391 -0.904565312708783,41.621350471323886 -0.9045673788339366,41.621304403926736 -0.9045620787737603,41.621277676762865 -0.9045521074741065,41.62123617576787 -0.9045476158976858,41.62119870397274 -0.9045539041046746,41.62115230069806 -0.9045692652960333,41.6211097251605 -0.9045794162587437,41.6210846096094 -0.9045203071130486,41.62107151459892</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo Infantes de España</name>
+      <description>name: Paseo Infantes de España
+lanes: 2
+oneway: no
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9045203071130486,41.62107151459892 -0.9045240800372419,41.621023029460076 -0.9045160850312134,41.62098972108872</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino de la Fuente de la Junquera</name>
+      <description>name: Camino de la Fuente de la Junquera
+lanes: 2
+oneway: no
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9045160850312134,41.62098972108872 -0.9045986402058238,41.62095372653904 -0.904658198509161,41.62093176716771 -0.9047374299172204,41.620909472018525 -0.9047995035033531,41.620888117019014 -0.9049979413496151,41.62081988841969 -0.905294744719488,41.62075118966851 -0.9055573222770361,41.62064266832495 -0.9056973696298305,41.62055973264534 -0.9058570002558184,41.62042461777126 -0.9061585646966973,41.62021093154263 -0.9065193281147998,41.619959100540214</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino de la Fuente de la Junquera</name>
+      <description>name: Camino de la Fuente de la Junquera
+lanes: 2
+oneway: no
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9065193281147998,41.619959100540214 -0.9067235151788801,41.61980981465771 -0.9070339729410718,41.619575576823 -0.9071953103660998,41.619443011799866 -0.9073250270931267,41.619340129334745 -0.9073810819668557,41.61929547077235 -0.9075639789587023,41.619151690138125 -0.9076759090431037,41.619063715841406 -0.9077495708964016,41.61900347688351 -0.9078180225210514,41.618945789801984 -0.9078660823887518,41.618901668215855 -0.9078877317870993,41.618881924299956 -0.9080173586825976,41.61875352154296 -0.9080485302229565,41.61872021199939 -0.9082046574193365,41.618554066962616 -0.9083574608491652,41.61838839159471 -0.9084445974317248,41.61829470792916 -0.9085123304041474,41.61822540207609 -0.9085738650011096,41.618162274586965 -0.9086396216799071,41.61809498330181 -0.9087078038099717,41.61803460912492 -0.9087673621133089,41.61798531581734 -0.9088829752903751,41.61788988547857 -0.9091851685519529,41.61762891199429 -0.9094192695149945,41.61740279232374 -0.9095368589856856,41.61727149883374 -0.9096355838354103,41.6171686129044 -0.9097588326923917,41.61706398070087 -0.9099728113930691,41.616883190896544 -0.9100904008637601,41.61673571117118 -0.9102166141611789,41.61656277800356 -0.9103283645825233,41.616438803105595 -0.9104571829942663,41.61632423020904 -0.9106685565806195,41.61618339794655 -0.9108215396735051,41.61607829403096 -0.9109808109733794,41.61598568155699 -0.9113017790243954,41.615878898336376 -0.9113823579053809,41.61584988550628 -0.9115020135012255,41.61580676919298 -0.9118408580263955,41.61562020014065 -0.9121019084479607,41.61550408111674 -0.9124491073052727,41.61537761926989 -0.9127070136233436,41.61530891472127 -0.9128707764996385,41.61524847077634 -0.9130249274023935,41.615198369419055 -0.9132334263798374,41.61511227021281 -0.9134422846833953,41.61499097893631 -0.9136684804719365,41.61487297828952 -0.9137510356465472,41.614825630217446 -0.9140077741547485,41.6146610198411 -0.9140987734930298,41.61459110563739 -0.9141842032765496,41.614513333552296</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino de la Fuente de la Junquera</name>
+      <description>name: Camino de la Fuente de la Junquera
+lanes: 2
+oneway: no
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9141842032765496,41.614513333552296 -0.9142230104968234,41.61447256697282 -0.9142655906412908,41.61442327094279</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9142655906412908,41.61442327094279 -0.9145686822181529,41.614598090345105</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9145686822181529,41.614598090345105 -0.9147063939512083,41.61467747418159</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

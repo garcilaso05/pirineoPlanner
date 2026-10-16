@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Selery</name>
+      <description>name: Chemin du Selery
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3056823110152298,43.62332968774255 1.305624639173989,43.62338892843557 1.305594096454329,43.62342970108499 1.3055709199199987,43.62347307483001 1.3055488213640094,43.62352750330836 1.3052832793660236,43.62424397777597 1.305112419798984,43.624726608059504 1.305044327500448,43.624815694605495 1.3048795764773404,43.62496206936628 1.3045799883300864,43.625246104313504 1.3041894906760798,43.62559529378998 1.303814713539545,43.6258864785473 1.3036036992793052,43.62606549339807 1.3032086202173496,43.626459415227984</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Selery</name>
+      <description>name: Chemin du Selery
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3032086202173496,43.626459415227984 1.3029876346574563,43.62664499586242 1.3027810221421088,43.62681809122858 1.3027022398916914,43.62688149004525</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Selery</name>
+      <description>name: Chemin du Selery
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3027022398916914,43.62688149004525 1.302586626714625,43.626971873883676 1.3025376685316405,43.62700672689585</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Selery</name>
+      <description>name: Chemin du Selery
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3025376685316405,43.62700672689585 1.30237309717159,43.627131898461386 1.3022744621533937,43.62720843180449</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Selery</name>
+      <description>foot: yes
+name: Chemin du Selery
+bicycle: yes
+highway: track
+surface: compacted
+tracktype: grade2
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3022744621533937,43.62720843180449 1.3019928403118222,43.627371186754765</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

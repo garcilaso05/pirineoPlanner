@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Carrer Gran</name>
+      <description>name: Carrer Gran
+oneway: no
+source: PNOA
+highway: living_street
+name:ca: Carrer Gran</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.813668098623084,42.24743292574155 2.81371813478441,42.2474881852494 2.8137679912826785,42.24754337821132</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça Major</name>
+      <description>name: Plaça Major
+source: PNOA
+highway: living_street
+name:ca: Plaça Major
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8137679912826785,42.24754337821132 2.813925555783513,42.24747202633695 2.814080964327666,42.24764013202203</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Escorxador</name>
+      <description>name: Camí de l'Escorxador
+oneway: yes
+source: PNOA
+highway: living_street
+name:ca: Camí de l'Escorxador
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.814080964327666,42.24764013202203 2.814092283100246,42.24763421375195</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Escorxador</name>
+      <description>name: Camí de l'Escorxador
+oneway: yes
+source: PNOA
+highway: residential
+name:ca: Camí de l'Escorxador
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.814092283100246,42.24763421375195 2.814419629189779,42.24746018976471</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.814419629189779,42.24746018976471 2.8147124799724015,42.24782672348809</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Figueres</name>
+      <description>name: Carrer Figueres
+oneway: yes
+source: PNOA
+highway: living_street
+name:ca: Carrer Figueres
+maxspeed: 20
+name:etymology:wikidata: Q6839</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8147124799724015,42.24782672348809 2.814849203558645,42.24779061548907 2.8149569115612105,42.24779347487096 2.815065967036703,42.24780471290552 2.8151416950151544,42.24781748037428 2.8151981092149967,42.2478299153544</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Figueres</name>
+      <description>name: Carrer Figueres
+oneway: no
+source: PNOA
+highway: living_street
+name:ca: Carrer Figueres
+maxspeed: 20
+name:etymology:wikidata: Q6839</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8151981092149967,42.2478299153544 2.815284257650744,42.247855117793236 2.815450715472891,42.2479021977839 2.8155118907437395,42.247916694158135 2.8156757434515636,42.2479043921894 2.8158097720919537,42.2478986069384</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí antic de Lladó</name>
+      <description>ref: GR2
+name: Camí antic de Lladó
+oneway: no
+source: PNOA
+highway: track
+name:ca: Camí antic de Lladó
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8158097720919537,42.2478986069384 2.816049442609757,42.247929328610034 2.816192274739932,42.24797747249825 2.8163010607208387,42.24800327335141 2.816415955245678,42.24803279802608 2.816532826064142,42.248061790711205 2.8166405340667073,42.248062522177854 2.8168481347288674,42.24805387757141 2.8173217265466555,42.24798332423907 2.8176418861139156,42.24792287839017 2.8178638598206214,42.24787367050561 2.8180820606031345,42.24781362353502 2.818342931361643,42.247778114003935</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GR2</name>
+      <description>name: GR2
+source: PNOA
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.818342931361643,42.247778114003935 2.818533823359518,42.24805786738991 2.818613324262162,42.24846402959378 2.818678631783318,42.24875661371283 2.8187610072948717,42.24893269550127 2.8192012716156185,42.24900657257052 2.819357488643527,42.24914288916785 2.819439864155081,42.249259389753185 2.8196529445404743,42.249302013486634 2.8199425613880744,42.24930480630435 2.8202778126521078,42.249196883758124 2.8204510976704142,42.24920260239429 2.821786084014144,42.24992121804776 2.8222348823300902,42.25010873369385 2.8230414796237007,42.25038422109476 2.8234704251718683,42.25048928235 2.823882302729637,42.25054606855054 2.82397887162268,42.25052339397308 2.8242090199984715,42.250648270283826 2.824441863320115,42.25071928609469 2.8247117172314646,42.25067107780484 2.824899195631261,42.25071077484068 2.8251519815522115,42.25072793033588 2.825566374392776,42.250986326106066 2.8256120986407374,42.25101478548285 2.8258137704220228,42.25119651292945 2.8259870554403292,42.25145789898262 2.8264045923843875,42.25200320890731 2.826594855561564,42.252403693854454 2.826805061338048,42.25265649742136 2.827137437993173,42.25299447598854 2.827475474034587,42.25317918985223 2.8277964420856025,42.25332121569487 2.8280321600161553,42.25342627205808 2.8282536845652197,42.25375008392476</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GR2</name>
+      <description>name: GR2
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8282536845652197,42.25375008392476 2.8285462658532574,42.25380972629876 2.8288331877550053,42.25375859476864 2.829250724699064,42.25391198923465 2.829531897382993,42.254156275966906 2.8298302278888494,42.25478686913495</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

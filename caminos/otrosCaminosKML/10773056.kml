@@ -1,0 +1,598 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tour du dolmen</name>
+    <Placemark>
+      <name>Rue Larribau</name>
+      <description>name: Rue Larribau
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4612813949657662,43.13004653262079 -0.46109553353348187,43.13009347313045 -0.4610032765538028,43.13017883133921 -0.46087903955000903,43.130239998092954</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Hount de Camy</name>
+      <description>name: Chemin Hount de Camy
+highway: service
+service: driveway
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.46087903955000903,43.130239998092954 -0.4603958357586812,43.13024248934208 -0.4599020318470006,43.13022668957618 -0.45971554159401745,43.13020990641789 -0.45948916614241936,43.13018958305598 -0.4593120183683909,43.13015798349276 -0.45911160422850394,43.13010678167622 -0.4589072375013667,43.1300545308666 -0.45862301054547133,43.12996897580593 -0.4581034249851366,43.1298946313112 -0.45769208641653825,43.12982749828594 -0.45737650825722703,43.129760299627286 -0.457310212589259,43.12973820600338 -0.45712623761907134,43.12967671094886 -0.4569110911085248,43.12960833204697 -0.4567291822634906,43.12950638637057 -0.45654808190221197,43.129412373293945 -0.4564030039838267,43.12932603061302 -0.45632898280441525,43.12923503303149 -0.4563055367754998,43.12907152550954</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Baigts</name>
+      <description>name: Chemin de Baigts
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: track
+tracktype: grade2
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4563055367754998,43.12907152550954 -0.4562835280510388,43.12898957490306 -0.45617941330960937,43.12881741271134 -0.45605706276791236,43.128660197918016 -0.45591647642594757,43.128578574565275 -0.4557505575929708,43.128501015889036 -0.455543675583038,43.128447386924364 -0.4552377093972669,43.12836097732003 -0.4550072915268902,43.12827122396747 -0.45469342016661884,43.12814986988252 -0.4543687690229381,43.1280268765178 -0.4542589050636903,43.12797167365856 -0.4540095327408187,43.12783471528077 -0.4533212435701263,43.127459831948705 -0.45301707401492347,43.127353096644875 -0.4526527173356846,43.127224528872524 -0.45228746234116163,43.12706337622957 -0.4519254412816614,43.12688137419879 -0.45164642455441384,43.12674238092875 -0.45133506847693805,43.12661781122024</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Couret et de Nouts</name>
+      <description>name: Chemin de Couret et de Nouts
+source: survey
+highway: track
+surface: gravel
+tracktype: grade2
+smoothness: bad
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.45133506847693805,43.12661781122024 -0.45114345782683535,43.12656522961452 -0.4509584947098351,43.126525629472646 -0.45081233881310884,43.12649671610783 -0.45065540313297325,43.126479079604216 -0.4504876876694281,43.126477112707576 -0.4502973346607232,43.1265083863565</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Couret et de Nouts</name>
+      <description>name: Chemin de Couret et de Nouts
+source: survey
+highway: path
+name:oc: Camin de Coret e de Nots
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4502973346607232,43.1265083863565 -0.450172558667759,43.12654660968345 -0.450054609870954,43.12650261679564 -0.44996603598393986,43.12636552400191 -0.4499284864050637,43.126253017204206 -0.449696541398704,43.126150213609066 -0.44953152088101134,43.1261277252996 -0.44939066504446135,43.12614923015547</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Couret et de Nouts</name>
+      <description>name: Chemin de Couret et de Nouts
+source: survey
+highway: track
+tracktype: grade5
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.44939066504446135,43.12614923015547 -0.4492110019876374,43.126266719966274 -0.44901921167447784,43.126388995673715 -0.4487684020471518,43.12649081541945 -0.44841976588538496,43.12649868300383</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Couret et de Nouts</name>
+      <description>name: Chemin de Couret et de Nouts
+source: survey
+highway: path
+name:oc: Camin de Coret e de Nots
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.44841976588538496,43.12649868300383 -0.44821908225091267,43.12649848631423 -0.4478726020458277,43.12642328527861 -0.44770901883258957,43.126305795768516</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Couret et de Nouts</name>
+      <description>name: Chemin de Couret et de Nouts
+source: survey
+highway: track
+tracktype: grade5
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.44770901883258957,43.126305795768516 -0.44751534205733345,43.1262252838534</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Couret et de Nouts</name>
+      <description>name: Chemin de Couret et de Nouts
+source: survey
+highway: track
+surface: cobblestone
+tracktype: grade3
+smoothness: very_bad
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.44751534205733345,43.1262252838534 -0.4468176205761578,43.12622397258355 -0.4467833947638328,43.126258131154046 -0.4465619600462974,43.1261936166786 -0.44622167821667286,43.12605488410052 -0.4457937208153183,43.12593182095955</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Couret et de Nouts</name>
+      <description>name: Chemin de Couret et de Nouts
+source: survey
+highway: path
+name:oc: Camin de Coret e de Nots
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4457937208153183,43.12593182095955 -0.44567271774654743,43.12592670698243 -0.44553042460554293,43.125940278689995 -0.44520649211408947,43.12604157467313 -0.4448981903085796,43.12604590187644</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Bégue</name>
+      <description>name: Chemin de Bégue
+source: survey
+highway: path
+name:oc: Camin de Veguèr
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4448981903085796,43.12604590187644 -0.44485641864786807,43.126074290945105 -0.44482147418331586,43.12616149054248 -0.4448820206334655,43.126407222272974</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Bégue</name>
+      <description>name: Chemin de Bégue
+highway: path
+name:oc: Camin de Veguèr
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4448820206334655,43.126407222272974 -0.4451307641356382,43.12692753038464 -0.44541328429249377,43.1273784692432 -0.4457692866395903,43.127752697455364 -0.4459897332103132,43.12796977237154 -0.44615044181464225,43.128195369497405 -0.44629426209162976,43.12846987438104 -0.4463840037885133,43.128666688445 -0.4464524554131632,43.12886087944904 -0.44625716167039564,43.12891601594517 -0.4460432728012468,43.12896616978969 -0.4458531892871271,43.12908529320065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: fine_gravel
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4458531892871271,43.12908529320065 -0.44587241323420723,43.129162129972244 -0.44580126666370495,43.12937480735891 -0.44545370848027915,43.12961967390272</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Dolmen</name>
+      <description>ref: D 920
+name: Route du Dolmen
+lanes: 2
+highway: secondary
+surface: asphalt
+ref:FR:FANTOIR: 641570480</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.44545370848027915,43.12961967390272 -0.44527880649446105,43.129600268182934 -0.4451152232812229,43.129596596829856 -0.44476452099430264,43.12960511961346 -0.44466561648152103,43.12960289057786 -0.44453554042838056,43.12958263257415 -0.44441067460388795,43.129560211086485</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: survey
+highway: path
+surface: ground
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.44441067460388795,43.129560211086485 -0.44429820553031624,43.12958702508685 -0.444147917383283,43.129530119076975 -0.44402709397756895,43.12945492176842 -0.4438927060110647,43.12933868372422 -0.4437902082371466,43.129192877765924 -0.4437196006558148,43.129040318731526 -0.4437037004752859,43.128862584026365 -0.4436580660588526,43.12868950362531 -0.4434848708720744,43.1284408963741 -0.4433918054086396,43.128294432662926 -0.4433521897046099,43.12819491056775 -0.4431054224960623,43.12779596826425 -0.44292899337426117,43.12743196802065 -0.4428915336269134,43.127221316313815 -0.4428847064307541,43.12717437359994</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: parking_aisle
+surface: fine_gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4428847064307541,43.12717437359994 -0.44278705955937037,43.12705760672106 -0.4428059241803368,43.126996895723465 -0.4428910844692714,43.126840397442095</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 232
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4428910844692714,43.126840397442095 -0.44254460426418646,43.12659132373374 -0.44244462177306393,43.12654877326728 -0.4423437409666574,43.126537168589486 -0.442261455286632,43.12653887323156 -0.44216380841524816,43.12656168920553</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 232
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.44216380841524816,43.12656168920553 -0.4419405770671445,43.12663138277449</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 232
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4419405770671445,43.12663138277449 -0.4418838035411881,43.126647117906074</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4418838035411881,43.126647117906074 -0.442167042350271,43.12718361790818 -0.4423660191857035,43.127528999997615 -0.4425416398237489,43.12784087808656 -0.44261440336176255,43.1279600692507</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Houns</name>
+      <description>name: Chemin de Houns
+highway: path
+name:oc: Camin deu Hons
+surface: ground
+smoothness: bad
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.44261440336176255,43.1279600692507 -0.44275112694800556,43.1281437726693 -0.4428220040239226,43.12831042961174 -0.44285614000471907,43.12843801168489 -0.4428220040239226,43.12854330275345 -0.44268896353034454,43.12861600986748 -0.44258089620166485,43.12864059521111 -0.4423319730364354,43.12868602890012 -0.4421179943357581,43.12873998545954 -0.44188883410677915,43.12879531874687 -0.4415979596177813,43.12884901296715 -0.4413209191841589,43.12890342830715 -0.44094102165050475,43.12905100508798 -0.4407862419270509,43.12916966941136 -0.4406443979436884,43.12925693015642 -0.4405501646703843,43.12929502064547 -0.44028821593353507,43.12933140654659 -0.4400404605781749,43.12930092106334 -0.4398180377138269,43.12921700395569 -0.4394553878336278,43.12895463113106 -0.43886196075693845,43.12869802653531 -0.4385910288672481,43.128537992311614 -0.43842546936038485,43.12849629549306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Houns</name>
+      <description>name: Chemin de Houns
+highway: track
+surface: ground
+tracktype: grade3
+smoothness: bad
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43842546936038485,43.12849629549306 -0.43830922736261974,43.12857982022369 -0.43817115630345055,43.12874700046438 -0.4380919248953912,43.12877919080336 -0.4380320970974689,43.12878148542973 -0.4378625850033555,43.128748901727235 -0.43780760810796737,43.12873913316918 -0.4376417791065189,43.128748573923296 -0.437259096795484,43.12875178640179 -0.43693184053747924,43.12878410785976 -0.43678568464075307,43.12879977687683 -0.436572424592303,43.12880410388503 -0.4362305257951672,43.128811512246834 -0.435990406119722,43.12881741271134 -0.4358479333156607,43.12883170494525 -0.4355283127375709,43.12885792921895 -0.4352570215217668,43.128873991581045 -0.4351229928813762,43.12887799078075 -0.43488502916261296,43.12884501376556 -0.4345460049743863,43.128742017844196 -0.43451959450503314,43.12873106919054 -0.4344865365025775,43.12870038672556</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade4
+check_date:surface: 2025-03-16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4344865365025775,43.12870038672556 -0.4343740674290058,43.1286712777061 -0.4341337680905038,43.12859503036644 -0.43392185551497997,43.12849813120264 -0.43380857795765254,43.1284557131848</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Pouey</name>
+      <description>name: Chemin du Pouey
+source: survey
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+smoothness: good
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43380857795765254,43.1284557131848 -0.43349946766838704,43.12823051038719 -0.43313645846207427,43.12797082135749 -0.4328090225410127,43.12775177958939 -0.43255830274521495,43.12764511035696 -0.432335879880867,43.127576270249556 -0.4321008806025413,43.12750316852688 -0.43176050894138845,43.127405021951084 -0.43140082350162695,43.12731139901859 -0.431213075607246,43.12728982900892</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade5
+check_date:surface: 2025-03-16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.431213075607246,43.12728982900892 -0.4311102185072143,43.12724301747243 -0.43096397277895965,43.12712212028529 -0.4304990047878994,43.12686917951887 -0.4304221089995788,43.12682558024013 -0.4303503336083776,43.126798896154945 -0.43023606790423763,43.126787816027715</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: asphalt
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43023606790423763,43.126787816027715 -0.4300520031025215,43.12672887496208</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Église</name>
+      <description>name: Chemin de l'Église
+source: survey
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+smoothness: good
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4300520031025215,43.12672887496208 -0.429538795580704,43.12645010065415 -0.4293855429932333,43.12639391292225 -0.42923803962358076,43.12637666976897 -0.4291265586968216,43.126386110887715 -0.42900304034525516,43.12644701918126 -0.42853160448414923,43.12665131394048 -0.4285193873962852,43.12671359879232 -0.42850968559121677,43.12676309881355 -0.4282581573116633,43.126926809194515</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Herrelore</name>
+      <description>name: Chemin Herrelore
+source: BDOrtho IGN;survey;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+smoothness: intermediate
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4282581573116633,43.126926809194515 -0.42860320021229353,43.127111368029304 -0.4288629929924609,43.127345425857264 -0.42913329606145245,43.12761639420729 -0.42919006958740885,43.12769297057644</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Herrelore</name>
+      <description>name: Chemin Herrelore
+source: BDOrtho IGN; survey; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: unclassified
+surface: asphalt
+smoothness: intermediate
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42919006958740885,43.12769297057644 -0.4292460346296095,43.12782881472147 -0.429309815014782,43.12790742323709 -0.42938419552030704,43.12796472412642 -0.42939641260817113,43.12797488617785 -0.42952217674794785,43.12807952242859 -0.42955891784306827,43.12823732876645 -0.4295392447383461,43.128417622173075 -0.4296073370368823,43.128779780850145 -0.42954849738577255,43.12962308301501 -0.42946782867325856,43.1298067158794 -0.4293639834264144,43.12996648454566 -0.4292443278305697,43.13009432540194 -0.42912673835987836,43.130255470059566 -0.42909583631410475,43.13048912250309 -0.4290934108628376,43.130506888968306 -0.42905550195784775,43.13057126777692 -0.42899091308891957,43.13064947941556 -0.42885302169280715,43.130739688188896 -0.4286188308982372,43.13085657915585 -0.42851777042877376,43.13094809879234 -0.42783657794882596,43.131691789098625 -0.4276959916068613,43.131840211398845 -0.4276669760231842,43.13196070591654 -0.4276437096573255,43.132228310410895 -0.42762062295452363,43.13229681749766 -0.42756681386900486,43.13235948994235 -0.4274061052646758,43.132403478617796 -0.4271087629056323,43.13248680134253 -0.426905024999194,43.13257989189994 -0.4267747692829967,43.13272811537533 -0.42672832638280767,43.13283071124588 -0.4267002091144148,43.13294589375296 -0.4267256314369553,43.13306736943463 -0.4267403638076149,43.133138497824845 -0.4267668641084964,43.13336519033587 -0.42674898763434244,43.13356992087804 -0.42672931452962026,43.133667992006075 -0.4266557425078508,43.13396921885243 -0.4266234929891509,43.134172701828014 -0.4265886383561271,43.13497430278756 -0.4266646358291636,43.13534310912075 -0.4266825123033176,43.13543029550437 -0.42672895520350657,43.13580899762438 -0.4267308416656032,43.13582368154373 -0.4267170076102278,43.13615472432518 -0.4266961666956362,43.13636600079122 -0.42665196958365753,43.13663201275312 -0.4266467593550096,43.13685390701107 -0.4266449627244414,43.13693348720756 -0.42664801699640736,43.13713322386726 -0.4266517000890723,43.137376289457215 -0.4267126058653356,43.13782039952161 -0.4267044311962501,43.138315570246284 -0.42666526464986254,43.13849340858132 -0.42659860965578084,43.13876078783961 -0.4265065323391586,43.1390661847824</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: BDOrtho IGN; survey; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: track
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4265065323391586,43.1390661847824 -0.42671655845258577,43.13929429740835 -0.42718736549299274,43.139694410142724 -0.4273285806556563,43.13979207815508 -0.42760849569818804,43.13990187254646 -0.4279245230151412,43.14004981608022 -0.4287913074327882,43.14046028049223 -0.4289228207903833,43.140487089713595 -0.42905020189767146,43.14048767964742 -0.4291748880591072,43.140477323030396 -0.42923570400384214,43.140476602000035 -0.4293223914287596,43.14048610649052 -0.42941806200651833,43.14050642643075</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: track
+surface: compacted
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42941806200651833,43.14050642643075 -0.42975618787946096,43.14068327517378 -0.4298991996726928,43.140802375762505 -0.4300653880002549,43.140935175595025 -0.43024343408956744,43.14108757386278 -0.4303810559910945,43.141241610435564 -0.4306034788554425,43.14150681462139 -0.43073589052832173,43.14161929336021 -0.4308842023817298,43.14172757689227 -0.43188330864072755,43.14238087909694 -0.43215477951958853,43.142613502025156 -0.4322903352959621,43.14273089466303 -0.4324055891469146,43.14284402660661 -0.4324901206151503,43.14291881417859 -0.43258129961648845,43.14297970600793 -0.43276680172265913,43.143059999231625 -0.4328004885458136,43.143105225572405 -0.4328011173665125,43.14315831732109</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4328011173665125,43.14315831732109 -0.43302641483976967,43.14314848551926</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: BDOrtho IGN; survey; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: track
+surface: grass
+tracktype: grade4
+check_date:surface: 2025-03-16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43302641483976967,43.14314848551926 -0.4331061852369995,43.1432291062476 -0.4332263798220147,43.14325637307151 -0.4333356149605636,43.143328931603754 -0.4335621700752185,43.143464872108964 -0.4338197170671756,43.14351278549366 -0.4339506016040719,43.14354798312718 -0.4340771742276043,43.1435920948441 -0.4342308759727171,43.143632077204906 -0.43442715786229724,43.14364787350745 -0.43448168560004324,43.14364577607333 -0.43453181159289717,43.14363122512207 -0.4346116718216554,43.14359399564545</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Lanne Séque</name>
+      <description>name: Chemin Lanne Séque
+source: BDOrtho IGN;survey;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: track
+surface: grass
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4346116718216554,43.14359399564545 -0.4346485027483043,43.14356469708013 -0.4347812737472971,43.14344140699029 -0.43478657380747343,43.14332689970384 -0.4347812737472971,43.14326037133071 -0.4348322082239067,43.143235922954716 -0.4350803229053805,43.14315182833206 -0.4354490813295116,43.14303240459276 -0.4357669951085615,43.142936511487235 -0.43596678042774967,43.142918879724185 -0.436406685422383,43.14286106848031 -0.43662803030839004,43.142827902367884 -0.4367848761569973,43.14280830420208 -0.43682512068172585,43.14282488726586 -0.43683994288391387,43.14284160141651 -0.43689491977930195,43.14311459856349 -0.43692698963494503,43.143159628227885 -0.4369739715243045,43.143164478582754 -0.4371469870480259,43.14314488052486 -0.4373763269400616,43.143098933213956 -0.43772226815597604,43.143012806492514 -0.43802814451021876,43.14293447957427 -0.4383955554614236,43.1428494013519 -0.43847873945673316,43.142838586315165</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Lanne Séque</name>
+      <description>name: Chemin Lanne Séque
+source: BDOrtho IGN;survey;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: track
+surface: grass
+tracktype: grade4
+smoothness: bad
+check_date:surface: 2025-03-16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43847873945673316,43.142838586315165 -0.43865301262185225,43.142862117210846 -0.43888908987851893,43.14287391542812 -0.43918409661782376,43.14284448542635 -0.43953012766526656,43.14276622383822 -0.4397803084718939,43.142693795729805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Lanne Séque</name>
+      <description>name: Chemin Lanne Séque
+source: BDOrtho IGN;survey;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: track
+surface: compacted
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4397803084718939,43.142693795729805 -0.440041358893459,43.142638868292636 -0.4401164580512114,43.14261448521401 -0.4404196394596017,43.14248732599051 -0.4408420273061947,43.14230720515321 -0.4411463765244545,43.14218692766106 -0.44134086178346627,43.142091033229384 -0.4415018398823805,43.14200968998796 -0.441646738137709,43.14194709297989 -0.44191353777709247,43.14184438131053 -0.44220719704347117,43.14174940399749 -0.4425479280307377,43.14164767520041 -0.44287913687599256,43.14155669595242 -0.44304676250800923,43.14150288179461 -0.44335263886225196,43.141406003081734 -0.4435242170815188,43.141341373489674 -0.4436798052887283,43.14127189332465 -0.4438071863960164,43.141202413080656 -0.44389836539735456,43.141145714521166 -0.4439761595009593,43.14110160103908 -0.4440499111857856,43.141086983934734 -0.4441030914506054,43.14108337881876</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4441030914506054,43.14108337881876 -0.44413031040371426,43.14097922364951</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Bioussales</name>
+      <description>name: Chemin de Bioussales
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.44413031040371426,43.14097922364951 -0.444227508117456,43.14091367593785</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Bioussales</name>
+      <description>name: Chemin de Bioussales
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: unclassified
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.444227508117456,43.14091367593785 -0.44425032532567266,43.14090200843781</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de List</name>
+      <description>name: Chemin de List
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.44425032532567266,43.14090200843781 -0.4443120395856916,43.14086857907144 -0.4445446134127502,43.14077510784413 -0.44480090276330947,43.14059852155906 -0.4451189063738878,43.14029372220565 -0.4452424247254543,43.1400858678397 -0.4453357596834743,43.139733411817375 -0.4454210098039372,43.13951238014898 -0.44543906594114796,43.13939091726978 -0.44550419379924666,43.13923451625073 -0.445543090851049,43.13914930178029 -0.4455983372410223,43.13907287085423 -0.445781863053568,43.13888998686118 -0.4458742996963039,43.13884501960205 -0.4459602684689941,43.13882161826023 -0.446222576531957,43.13881086806099 -0.446294082428573,43.13879310400811 -0.44634600505199507,43.1387590179881 -0.44639280727829767,43.138669083244125 -0.44640753964895724,43.138545783281735 -0.44644374175490725,43.13846259991307 -0.4465242308043643,43.138391215513565 -0.4466851190717502,43.13832369851172 -0.44683127496847636,43.138273814543055 -0.44727306642520637,43.13822058745146 -0.4474060170872561,43.138202495473806 -0.4476376925990305,43.13816309951845 -0.4476735353788669,43.13815621669503</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de List</name>
+      <description>name: Chemin de List
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4476735353788669,43.13815621669503 -0.44773498014430063,43.13812488345099 -0.44782103874851925,43.13806700212322 -0.44831097990447805,43.13758690618951 -0.4485090584246265,43.13739588936426 -0.4486772230458136,43.1372860249213 -0.4488582335755637,43.13718317431818 -0.44909646678891224,43.13702847200172 -0.4495629619159555,43.136617001266124 -0.44977451516536565,43.13652640784713 -0.4501739061406851,43.13645049806274 -0.45035761161628757,43.13642388372914 -0.4505414069234185,43.13640919995394 -0.450909626358379,43.13637989794553 -0.4512132569244114,43.13634948152822 -0.45136210776699004,43.13632503038868 -0.4515070958538469,43.136302086951275 -0.4519930844225556,43.13625449567935 -0.45211848923621867,43.136239877416216 -0.4522326651088302,43.13620211901636 -0.45249120024759987,43.136047283111964 -0.45326518869639726,43.1353971909147 -0.4534502416449258,43.1352407141265 -0.4536511947739834,43.135088629055495 -0.45402417527994976,43.134846275468924 -0.4543996710687118,43.13461827735812 -0.4546983609006815,43.134437084463755</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Jean de Prechac</name>
+      <description>name: Rue Jean de Prechac
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: unclassified
+surface: asphalt
+maxspeed: 50
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4546983609006815,43.134437084463755 -0.4550313663765047,43.13409272470831 -0.45537101938543023,43.1337526896719 -0.4554793562086951,43.13366458311923 -0.4555825726348403,43.13358080310989 -0.45579942594442685,43.133420126104184 -0.4559709143321652,43.13331097563309</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Jean de Prechac</name>
+      <description>name: Rue Jean de Prechac
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+maxspeed:type: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4559709143321652,43.13331097563309 -0.45611958551168696,43.13321637840053 -0.456323682744239,43.133096673030295 -0.45640363280452567,43.13303741026302 -0.45641998214269663,43.13300037100432</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Château de Lassalle</name>
+      <description>ref: D 920
+name: Rue du Château de Lassalle
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.45641998214269663,43.13300037100432 -0.4568445259459714,43.133049800381734 -0.45697909357553257,43.133066320536095</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Saubole</name>
+      <description>name: Rue Saubole
+highway: residential
+surface: asphalt
+maxspeed: 30
+maxspeed:type: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.45697909357553257,43.133066320536095 -0.45702356018209644,43.13303570580206 -0.4571359394241398,43.13300069878547 -0.4572013367768238,43.132981884144684 -0.4574866417110601,43.13290518328436 -0.45781982684994,43.13284788702335 -0.45794828593556913,43.13284100360166 -0.45821382793355486,43.13284008581204 -0.45840436060531653,43.13282389337867 -0.4585101821457859,43.13280868428753 -0.45861753082223816,43.13276948152658 -0.45879108533513,43.13267160562743 -0.4590247371405296,43.132502600524575</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place Casenave</name>
+      <description>name: Place Casenave
+highway: residential
+surface: asphalt
+maxspeed: 30
+old_name: Place Cazenave
+maxspeed:type: FR:zone30
+ref:FR:FANTOIR: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4590247371405296,43.132502600524575 -0.45921131722504116,43.13221487121262</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Donat du Clos</name>
+      <description>name: Rue Donat du Clos
+highway: residential
+surface: asphalt
+maxspeed: 30
+source:name: cadastre (bano)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.45921131722504116,43.13221487121262 -0.45946239634695263,43.131740891745764 -0.4595978622917978,43.1315059984855 -0.45972820783952356,43.13127490669182 -0.45981237998164554,43.13120259608737 -0.45990930820080206,43.13114057803939 -0.4602399780568865,43.13103122682485 -0.46031867047577535,43.130984090359725 -0.4604210784181649,43.130891587399745 -0.46087903955000903,43.130239998092954</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Larribau</name>
+      <description>name: Rue Larribau
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.46087903955000903,43.130239998092954 -0.4610032765538028,43.13017883133921 -0.46109553353348187,43.13009347313045 -0.4612813949657662,43.13004653262079</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>horse: no
+bicycle: no
+highway: path
+surface: rock
+sac_scale: mountain_hiking
+motorcycle: no
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1289271763453534,42.50930821169142 3.1289617614837915,42.50931860837023 3.1289764938544513,42.50933787864294 3.128961581820735,42.50948257105065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>ford: yes
+horse: no
+bicycle: no
+highway: path
+sac_scale: hiking
+motorcycle: no
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.128961581820735,42.50948257105065 3.1289859261649347,42.50948720649982</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>horse: no
+bicycle: no
+highway: path
+sac_scale: hiking
+motorcycle: no
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1289859261649347,42.50948720649982 3.1290314707498394,42.50947641252478 3.1290754881987617,42.50945840048868 3.1292117626273623,42.5094005897642 3.1292503901845796,42.50941257572636 3.129293688981274,42.50941939646623 3.1293421081750883,42.50942197907628 3.1293767831450547,42.509414032583486 3.129421968403846,42.50941250950558 3.1296086383198864,42.50946707540378 3.1298490274899167,42.50949621251437</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: no
+horse: no
+bicycle: no
+highway: steps
+incline: up
+handrail: no
+material: concrete
+sac_scale: hiking
+motorcycle: no
+trail_visibility: good
+check_date:handrail: 2023-07-16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1298490274899167,42.50949621251437 3.129980361184455,42.5094854847616 3.1300245582964332,42.50942873359436</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>horse: no
+bicycle: no
+highway: path
+surface: rock
+sac_scale: hiking
+motorcycle: no
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1300245582964332,42.50942873359436 3.130117713591397,42.509422508842434 3.13019559752653,42.50945210951896 3.1302361115458437,42.50949780181092</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

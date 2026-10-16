@@ -1,0 +1,660 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Grande Boucle</name>
+    <Placemark>
+      <name>Chemin Latéral de Rupé</name>
+      <description>name: Chemin Latéral de Rupé
+bicycle: yes
+highway: living_street
+surface: asphalt
+short_name: Chemin de Rupé
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.422482432066319,43.65295607584758 1.4219015814036073,43.65360928390396 1.4215469265294371,43.65403129802752 1.4212040395854886,43.65442412662113 1.4208961869376209,43.654795309583925 1.4197740114846986,43.656123516149556 1.4196812155158491,43.65625168171943 1.4196180639513756,43.6563554748329</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Latéral de Rupé</name>
+      <description>name: Chemin Latéral de Rupé
+bicycle: yes
+highway: living_street
+surface: asphalt
+short_name: Chemin de Rupé
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4196180639513756,43.6563554748329 1.419574315997039,43.65641663274499 1.4195288612436625,43.65647187628899 1.4194248363337614,43.65656618015078</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+mtb: yes
+foot: designated
+source: survey
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no
+check_date:surface: 2020-12-30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4194248363337614,43.65656618015078 1.419381986694709,43.656544017781684 1.4193548575731283,43.656511586616865 1.4193477608823841,43.65646667689878 1.4193877359125273,43.65641819256341 1.4194290584155966,43.65638420151137 1.4195685667792204,43.6563201838946 1.4195725193664708,43.6560177728492 1.4195577869958114,43.6557082760223 1.4195161949981565,43.65558797348624 1.4195055050462753,43.655271195153055 1.4194960727357921,43.65508199826901 1.4194490908464328,43.65487291259592 1.4194371432531538,43.654791409932436 1.4194447789330689,43.65474038946877 1.4194813403651327,43.65449932531599 1.4194826878380586,43.65443582564639 1.41945376208591,43.65437531566336 1.4194148650341079,43.65432669965 1.4193706679221292,43.65427132414299</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée des Foulques</name>
+      <description>name: Allée des Foulques
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4193706679221292,43.65427132414299 1.4193051807379167,43.65430473143854</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4193051807379167,43.65430473143854 1.4191187803164618,43.65414367430554 1.4190992868747965,43.65404208719926 1.4190564372357442,43.65394608950072 1.4190018196664695,43.653874789824364</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4190018196664695,43.653874789824364 1.419041794696613,43.65376748267694 1.4190964122658873,43.653691178144136</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4190964122658873,43.653691178144136 1.4190133181021063,43.65369637777466 1.41894693260261,43.653725495697294 1.4188624011343745,43.65382350860097 1.4187581965614164,43.6539720875385 1.418724330075205,43.654020508853854 1.4186758210498625,43.654068995125144 1.4186035965010195,43.65412911544737 1.4185364923492956,43.654150498769084 1.418399139942354,43.65414126949439 1.4179577976432658,43.65407049000955 1.4157038347638815,43.653684678605345 1.4155930724893497,43.65365491070869 1.41553647862645,43.65362481782 1.41550764270583,43.653585820533614</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>mtb: yes
+foot: designated
+source: survey
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.41550764270583,43.653585820533614 1.4154064025733095,43.65358939528592 1.4153180981808806,43.65360200441053 1.4151377164718295,43.65363749193263 1.4148209705026489,43.653710416774835 1.4147338339200894,43.65372647062749 1.4146809231498547,43.65372790052509 1.4146063629812728,43.65371919114828 1.4140680026314998,43.653606099125696 1.413975386325707,43.6535726914415 1.4139345129802796,43.65357412134275 1.413777577300144,43.65365900542024 1.4137454176129727,43.653656080626305 1.4136985255551417,43.65364061171379 1.4124867880683927,43.65331550364729 1.4124422316303005,43.65329541994452 1.412347279704769,43.65320761053734 1.4122986808478981,43.653180182258005 1.4122633770572324,43.653171927773386</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4122633770572324,43.653171927773386 1.4122269952882254,43.65316419325528 1.4121900745300482,43.653156523732115</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>mtb: yes
+foot: designated
+source: survey
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4121900745300482,43.653156523732115 1.412145158765842,43.6531654281784 1.4120555967320154,43.653165103198624 1.4119884925802917,43.65319779615448 1.4119468107511086,43.653306274244265 1.411920759607869,43.653328697791416 1.411869106479032,43.6533461816528 1.4115304416169192,43.65336080569652 1.4107387563570246,43.65340012810753 1.410334155153057,43.65338400917191 1.4100889150804925,43.6533442967758 1.40999854456291,43.653329087766075 1.4098657735639173,43.65328333072214 1.4095814567764935,43.65315041411129 1.409376640891714,43.653085613094575 1.4085621384236031,43.6529506811644 1.4085261159807099,43.652946586404546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+mtb: yes
+foot: designated
+source: survey
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no
+check_date:surface: 2021-02-05</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4085261159807099,43.652946586404546 1.4084453574366675,43.653146709340895 1.4083393562331414,43.653486312343084 1.4082670418527699,43.65372400080429 1.408161130480772,43.65402681337124 1.4080880076166447,43.65421841838789 1.4080175796983696,43.65444498988126 1.407984701358971,43.654528897810636 1.407913015799298,43.65461722524092 1.4077071219361779,43.65480687854852 1.407596539324703,43.65490898431359 1.4075744407687136,43.65491808348218</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4196180639513756,43.6563554748329 1.4197113090778672,43.65638608629296</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Halage</name>
+      <description>ref: M 501
+foot: designated
+name: Chemin de Halage
+bicycle: designated
+highway: path
+old_ref: D 501
+surface: asphalt
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4197113090778672,43.65638608629296 1.421417389465467,43.654390719392005 1.4217971971675927,43.65395239402591 1.422742135014958,43.65284187745077 1.4228024119705225,43.652760632016346</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Halage</name>
+      <description>ref: M 501
+foot: designated
+name: Chemin de Halage
+bicycle: designated
+highway: path
+old_ref: D 501
+surface: asphalt
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4228024119705225,43.652760632016346 1.422888201080156,43.652635773818474 1.4230226788781886,43.65245508320259 1.4231528447628574,43.652246573355846 1.4232699850759067,43.65198281516228 1.4232944192516348,43.651907093337734 1.42344515655631,43.65143820087508 1.4234657279763163,43.651017273500116 1.4234687822482825,43.65058769834285 1.4233905389870354,43.650156105137576 1.4233310705152267,43.64974790871016</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>ref: M 501
+foot: designated
+bicycle: designated
+highway: path
+old_ref: D 501
+surface: asphalt
+segregated: no
+smoothness: excellent
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4233310705152267,43.64974790871016 1.4232313575186897,43.649062418468525 1.4231260749673909,43.648414881054684 1.4230929271334067,43.64809591983665 1.4230271704546091,43.64775427129761</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>ref: M 501
+foot: designated
+bicycle: designated
+highway: path
+old_ref: D 501
+surface: asphalt
+segregated: no
+smoothness: excellent
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4230271704546091,43.64775427129761 1.422878409443559,43.647764021568236 1.4228078916937557,43.64777663191592 1.4227039566153827,43.6477794919944 1.4226108013204197,43.64776207151424 1.4225296834502639,43.647726190509346 1.4222786941598806,43.647447591977546 1.4220813342919596,43.64713707594564 1.4219810823062518,43.646943693264106 1.4219238596226536,43.6468127777105</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>ref: M 501
+foot: designated
+bicycle: designated
+highway: path
+old_ref: D 501
+surface: asphalt
+segregated: no
+smoothness: excellent
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4219238596226536,43.6468127777105 1.4219033780341754,43.64672287873164 1.4218905321256126,43.64555079954497</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: concrete
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4218905321256126,43.64555079954497 1.4218204635334513,43.64554962946947</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+layer: -1
+tunnel: yes
+bicycle: designated
+highway: path
+surface: concrete
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4218204635334513,43.64554962946947 1.4214013096218814,43.645542283994956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4214013096218814,43.645542283994956 1.4213042017396678,43.64555008449884 1.4212238923532676,43.64556737561215 1.4211539135926348,43.645593312272794 1.4210910315227463,43.64564629063001 1.4210112611255166,43.64572748068436 1.4208861258064387,43.64593861331434 1.4209167583576272,43.64603007355517</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Glacière</name>
+      <description>lit: yes
+name: Chemin de la Glacière
+highway: residential
+surface: asphalt
+maxspeed: 30
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4209167583576272,43.64603007355517 1.4208115656378566,43.645972870293626 1.4205179962030066,43.645784294155916 1.4198775872369576,43.64529858274289 1.4197898218336993,43.64524768422374</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Glacière</name>
+      <description>lit: yes
+name: Chemin de la Glacière
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4197898218336993,43.64524768422374 1.4197249634701858,43.64519880080332 1.4196724120260646,43.645178779390925 1.4195229323627874,43.64516616849787</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Glacière</name>
+      <description>name: Chemin de la Glacière
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:left: no
+cycleway:right: lane
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4195229323627874,43.64516616849787 1.4195169136503838,43.645112279651855 1.4194813403651327,43.64504577983916 1.4194263634697446,43.64498708052985 1.4193866579341863,43.64495711330774</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Glacière</name>
+      <description>name: Chemin de la Glacière
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:both: lane
+cycleway:both:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4193866579341863,43.64495711330774 1.4191195888002177,43.644757678138575 1.4189958009540662,43.644667906094384 1.4189322002319502,43.64462168741541 1.418777330676968,43.64451741898511 1.4184681305561742,43.64435003007297 1.4179792673785563,43.64410352873648 1.4176273074502383,43.64392827295166 1.417200068701111,43.64368807548725 1.417120298303881,43.64364543139858 1.416903085668181,43.643543501503046 1.4168296933094686,43.6435102182344 1.4167783995067453,43.64348681592508 1.4166288300119394,43.643418819163514 1.4164035325386823,43.64330479765256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Glacière</name>
+      <description>name: Chemin de la Glacière
+lanes: 1
+oneway: yes
+highway: tertiary
+surface: asphalt
+cycleway: lane
+maxspeed: 50
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4164035325386823,43.64330479765256 1.4162324034770575,43.643109192401354 1.416114544511781,43.64296552712194 1.4160122264009198,43.64285182978622 1.4158683162924037,43.64280586973867</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Glacière</name>
+      <description>name: Chemin de la Glacière
+lanes: 2
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:left: no
+lane_markings: yes
+cycleway:right: lane
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4158683162924037,43.64280586973867 1.415937486569281,43.64291820201348 1.4159497934886736,43.642934388764935 1.41597036490868,43.64295610110743 1.4160881340424278,43.64307987431115 1.4162210847044776,43.64321021293962 1.4164035325386823,43.64330479765256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Ginestous</name>
+      <description>name: Chemin de Ginestous
+highway: residential
+surface: asphalt
+maxspeed: 30
+maxspeed:type: FR:urban
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4158683162924037,43.64280586973867 1.415788096737532,43.6427539939992</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.415788096737532,43.6427539939992 1.4158129800709018,43.642717719959265</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+footway: sidewalk
+highway: footway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4158129800709018,43.642717719959265 1.4158543025739716,43.642690676933164</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Ginestous</name>
+      <description>foot: designated
+name: Chemin de Ginestous
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4158543025739716,43.642690676933164 1.415347383259143,43.64246139578769 1.4146423854241659,43.64214279300404 1.414301564605371,43.64197890791062 1.414228980730414,43.64193678267357 1.41416699697581,43.64188048562855 1.4141325016689,43.641816127510154</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Isabelle Eberhardt</name>
+      <description>foot: designated
+name: Rue Isabelle Eberhardt
+highway: cycleway
+name:oc: Carrièra Isabelle Eberhardt
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2024-08-22</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4141325016689,43.641816127510154 1.4141291779023486,43.64173018656172 1.4141627748939747,43.64164652078506 1.4143631890338615,43.64144232899479 1.414713711657725,43.64105949189592 1.415542407507325,43.640176402417346 1.4155186919838245,43.64015468907026</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Isabelle Eberhardt</name>
+      <description>foot: designated
+name: Rue Isabelle Eberhardt
+highway: cycleway
+name:oc: Carrièra Isabelle Eberhardt
+surface: asphalt
+cycleway: crossing
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2024-08-22</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4155186919838245,43.64015468907026 1.4154876102749938,43.64013772144926 1.415455989576993,43.64012029875298</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Isabelle Eberhardt</name>
+      <description>foot: designated
+name: Rue Isabelle Eberhardt
+highway: cycleway
+name:oc: Carrièra Isabelle Eberhardt
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2024-08-22</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.415455989576993,43.64012029875298 1.415424368878992,43.640105996535844 1.4156696089515566,43.639825932434164 1.4157969002273165,43.639683169451025</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: designated
+horse: yes
+width: 3
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+smoothness: intermediate
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4157969002273165,43.639683169451025 1.4157542302513206,43.63965378467834 1.4146493024518536,43.63901459730559 1.414335341260054,43.63883451582739 1.414099174171859,43.6386805684896 1.4138301287442652,43.63848202264977 1.4135705156271547,43.638267873258 1.41326248331623,43.63795269389425</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: designated
+horse: yes
+width: 3
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.41326248331623,43.63795269389425 1.41316744155917,43.63783528135713 1.412909265746514,43.637493184384404 1.4127711048558165,43.637335982955896 1.4125988079843226,43.63716759883559 1.4124532809082948,43.63704277323721 1.4122564600295446,43.636892592095506 1.412216215504816,43.63687321805076</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2025-05-23</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.412216215504816,43.63687321805076 1.4121829778393036,43.63684922803367</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2025-05-23</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4121829778393036,43.63684922803367 1.4121492011846208,43.63682471789792</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: designated
+horse: yes
+width: 3
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4121492011846208,43.63682471789792 1.4121076990184942,43.63680189810737 1.412096739572028,43.63679429150859 1.4119027933021866,43.63666718965155 1.4117593323513127,43.63658761269985 1.4115299026277488,43.6364478976825 1.411411863999415,43.63635661789589 1.410976091255089,43.635925702615 1.4107801686916224,43.63576550640582 1.4105696934205532,43.63562481425297 1.40863301549952,43.63445050303812 1.4080238679053585,43.6340561134464 1.4077782685066802,43.63387159596331 1.4075883646556173,43.63371171936322 1.4073778893845483,43.63351270198455 1.407253113391584,43.63338747868976 1.4071015676031529,43.63321082627725 1.40692864191096,43.63298469482726 1.4067918284931886,43.63278762558108 1.4066791797565599,43.632604209512685 1.4065828803581024,43.63240421319007 1.4065011336672475,43.63221813018816</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: designated
+horse: yes
+width: 2.7
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4065011336672475,43.63221813018816 1.406459182343479,43.63213627169003 1.406428370129234,43.632077624786426 1.4063760881796983,43.631931527428506 1.4060207146533006,43.63063028949773 1.405874468925046,43.63006701567326 1.4054708558678908,43.62856670361692 1.4052495109818839,43.62789040006104 1.4049976233762167,43.62722098144278 1.404802329633449,43.626716978105655 1.4045138805957182,43.62600527996254 1.4044273728338577,43.6258858282926 1.4043335887181958,43.625781982527116 1.4040224123037766,43.62552760191029 1.4037796875140076,43.625360615275966 1.4034747094750488,43.62516508166089 1.403193626622648,43.625032492991366 1.402966263024237,43.62495823280446 1.4029181133250086,43.6249359937464 1.4028802044200186,43.62490289525002 1.4028555007497052,43.624867195672586</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4028555007497052,43.624867195672586 1.4028466074283927,43.62483728344201</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>lit: yes
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4028466074283927,43.62483728344201 1.4024490130836411,43.62489249100377 1.4023740935889457,43.62491082848657 1.4022606363685612,43.6248891746499 1.4021607437089671,43.62488780909238 1.4021187025536705,43.624916420767434 1.4021016345632722,43.62495537163955 1.402156521627132,43.6253009213432 1.4021749370904564,43.625328232300184</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>mtb: yes
+foot: designated
+bicycle: designated
+highway: path
+surface: compacted
+tracktype: grade5
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4021749370904564,43.625328232300184 1.4021576894370014,43.62534351342547 1.402164157307047,43.62543897160101 1.4022081747559687,43.62585071452848 1.4022602770424475,43.62610691448446 1.4022804891363405,43.62625738268061 1.4023749919042299,43.626780181955475 1.4024362570066065,43.62717578972784 1.4026004690405436,43.62781341242256 1.4026500560442272,43.628075781208224 1.4026929056832798,43.62820641247643 1.402730904419798,43.628380413665035 1.4027974695823513,43.628589526534675 1.4029286236138325,43.628939932010255 1.4029726410627545,43.629094684566816 1.4030319298715062,43.62934501874121 1.4030858287885535,43.6294640083858 1.4032070115203814,43.62964119198287 1.4033544250585053,43.629971174720964 1.4034191037589618,43.63016877336919 1.4036135890179737,43.630598494544216 1.4039538708475983,43.6313330902182 1.4042284858299536,43.63202710517947 1.4043937758422316,43.63235551437486 1.4044225219313236,43.632428920184026 1.4044521663356995,43.63257521138752 1.4044773191636548,43.63269608016211 1.4045222349278608,43.63281382783087 1.4046408125453644,43.633027476518194 1.4046844706681727,43.63308781295456</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+mtb: yes
+foot: designated
+bicycle: designated
+highway: path
+surface: compacted
+tracktype: grade5
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4046844706681727,43.63308781295456 1.4047425916670553,43.633285531391024 1.4047947837850625,43.63357492343118 1.4048361062881323,43.63367661017083 1.4048900950367076,43.633757686367446 1.4049374362521807,43.633828294738265 1.4049571093569027,43.6338914911103 1.404968697624068,43.63396372474221 1.404972380716733,43.63406378540841 1.4049418379970728,43.63426241086362 1.4049070731955775,43.63442397642075 1.40488883739531,43.63472838165442 1.4048356571304899,43.63524922180452 1.4048900950367076,43.636155723860064</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>mtb: yes
+foot: designated
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4048900950367076,43.636155723860064 1.404882818682906,43.636228084798894 1.4048476945552972,43.63695689047442 1.404842663989706,43.6371768307185 1.404786159958335,43.63754948554041 1.4047513951568393,43.63770090028141 1.4047022573107981,43.63793520555193 1.4046830333637181,43.638225030285646 1.4046774638089565,43.63830701051411 1.404582961041067,43.638661780126185 1.4045401114020146,43.63883061513959 1.4044884582731778,43.63915528152169 1.404410664169573,43.63950178976187 1.4043007103787968,43.640058409134305 1.4042838220514553,43.640186023897975</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>mtb: yes
+foot: designated
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4042838220514553,43.640186023897975 1.4042519318588689,43.64029972627873 1.404149164590366,43.64066501566164 1.404106225119785,43.64090763055402 1.4040506194036981,43.64108809587285 1.4039983374541622,43.64131907248751 1.4039527030377288,43.6415811872887 1.4038333169364694,43.64204118559894 1.4037555228328646,43.642281909709915 1.4036550013525717,43.642603112051205 1.4036248179590252,43.64276530525448 1.4035329203054598,43.64300297113737 1.4034196427481322,43.64332520972915 1.4033638573689886,43.64348428067435 1.4033337638069703,43.643642311098226 1.4033353807744817,43.6438661922376 1.4031738636863973,43.6445882097284 1.4027859711467145,43.64582901685088 1.4025931028552139,43.64629561298199 1.4025701059839406,43.64634768067319 1.4025724416036793,43.646414309051174 1.4025778314953838,43.64651356894647 1.4023339388957454,43.64705172763219 1.4023078877525061,43.64717783248514 1.4023060911219378,43.647283071332446 1.4022881248162553,43.64760879707181 1.402300701230233,43.64795720660402 1.4022872265009712,43.64811581027392 1.4022683618800047,43.648248673025854 1.4022541684985157,43.64833317462321 1.4022555159714418,43.64848703222634 1.4022703381736297,43.64862431421633 1.4023151641063074,43.64874697072891 1.4023561272832632,43.64882321654291 1.4024022108573386,43.648886397144096 1.4026037029755667,43.64913307385506 1.4029920446728914,43.64959892932303 1.4040092969006284,43.650523414551465 1.4046956097776957,43.65121889782085 1.4048310757225408,43.65136130840158 1.4049674399826704,43.651485584269146 1.405087275241572,43.651608689922064 1.405194623918024,43.65177508364537 1.4052729570107994,43.65185997026569 1.4054171366139006,43.65198827492963 1.4055341870954212,43.65211956918545 1.405810419045288,43.65244669862485 1.4058724027998923,43.65251488015724 1.4059775056881343,43.6526143899574 1.4061284226558664,43.65280157972903 1.4063541692867656,43.653080023434896 1.4064355566515068,43.65320462072552 1.4065111049669012,43.653321223276635 1.4066194417901663,43.65346811357062 1.4067014579756063,43.65359420495233 1.4069413081564661,43.653949079275634 1.4070069750037353,43.6540643804817 1.4071044422120622,43.65422888255199 1.4072460167008394,43.65443511070603 1.407421457675828,43.65469632335189 1.4075744407687136,43.65491808348218</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>mtb: yes
+foot: designated
+bicycle: designated
+highway: path
+surface: metal
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4075744407687136,43.65491808348218 1.4075960901670608,43.65494947560329</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

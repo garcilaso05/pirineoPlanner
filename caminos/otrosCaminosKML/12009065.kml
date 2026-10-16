@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+width: 1.5
+source: survey
+highway: path
+surface: ground
+motorcar: no
+mtb:scale: 0
+sac_scale: hiking
+smoothness: good
+trail_visibility: good
+class:bicycle:mtb: -1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5321733757904152,43.49787848177904 1.5329864409540717,43.497318526838285</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+width: 1.5
+highway: path
+surface: dirt
+motorcar: no
+mtb:scale: 0
+sac_scale: hiking
+trail_visibility: good
+class:bicycle:mtb: -1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5329864409540717,43.497318526838285 1.5337588124353576,43.496944873114074 1.5341623356609844,43.49670083049906</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+layer: 1
+width: 1.5
+bridge: yes
+highway: path
+surface: dirt
+motorcar: no
+mtb:scale: 0
+sac_scale: hiking
+trail_visibility: good
+class:bicycle:mtb: -1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5341623356609844,43.49670083049906 1.5342757030498402,43.4966219807384</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+width: 1.5
+highway: path
+surface: ground
+motorcar: no
+mtb:scale: 0
+sac_scale: hiking
+smoothness: good
+trail_visibility: good
+class:bicycle:mtb: -1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5342757030498402,43.4966219807384 1.5343703854807862,43.49655577292596 1.5347213572622918,43.496316876810205 1.535139433195521,43.49600499409762 1.5352766059394058,43.49581907578448</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

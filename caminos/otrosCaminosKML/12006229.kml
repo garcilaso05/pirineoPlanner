@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+ref: M 500
+foot: designated
+bicycle: designated
+highway: path
+old_ref: D 500
+surface: asphalt
+segregated: no
+smoothness: good
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.470064396035562,43.57010251507317 1.4700110361076852,43.57023978083134 1.4699872307526562,43.57036812956452 1.4699506693205924,43.570475520535744 1.4699168028343812,43.570603087743656 1.4698958720882611,43.570699023312834 1.4698817685383003,43.57079176956244 1.4698625445912201,43.570951878541464 1.4698469139052763,43.57111302844991 1.4698249051808157,43.57177643304303 1.4697781029545132,43.57259049787859 1.4697687604755583,43.57265122037424 1.4697557349039383,43.57271200789161 1.4697217785861987,43.57282316948846 1.469573736227376,43.5732178305496 1.469313404458038,43.573823809872124 1.4693109790067709,43.5738316196829 1.469309721365373,43.57384483127716 1.4693185248551575,43.573977988365826 1.4693162790669472,43.573993803191115 1.4693090925446741,43.574010594235624 1.469302984000742,43.57402042155021</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+ref: M 500
+foot: designated
+layer: 1
+bridge: yes
+bicycle: designated
+highway: path
+old_ref: D 500
+surface: asphalt
+segregated: no
+smoothness: good
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.469302984000742,43.57402042155021 1.469022260474455,43.57437147039803 1.4689205711842925,43.57448542741681</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+ref: M 500
+foot: designated
+bicycle: designated
+highway: path
+old_ref: D 500
+surface: asphalt
+segregated: no
+smoothness: good
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4689205711842925,43.57448542741681 1.4688486161300345,43.574530203159576 1.468775223771322,43.574562678568455 1.46870407720082,43.57459411266498 1.4685748096314348,43.574654312493486 1.4683817616768777,43.5747650800207 1.4680959177534707,43.57493331350749</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

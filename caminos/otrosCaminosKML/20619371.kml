@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Parcours pédestre Chapelle Notre Dame du rugby</name>
+    <Placemark>
+      <name>Parcours pédestre Chapelle Notre Dame du rugby</name>
+      <description>foot: yes
+name: Parcours pédestre Chapelle Notre Dame du rugby
+horse: no
+access: permissive
+bicycle: no
+footway: crossing
+highway: footway
+incline: up
+surface: asphalt
+crossing: uncontrolled
+description: Cheminement pour se rendre à pied à la Chapelle ND du rugby, par accès forêt
+motor_vehicle: no
+crossing:markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42658073318162687,43.769181801481785 -0.4265396801731426,43.769168373336804 -0.426491799968499,43.76915267472869</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: asphalt
+informal: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.426491799968499,43.76915267472869 -0.42648353546788514,43.769168373336804 -0.4264661979829016,43.7691827096654 -0.42644311128009976,43.76918660188072 -0.426324533662596,43.76913879248502 -0.42597383137567574,43.768997310182435 -0.42588229304822395,43.76896039888018 -0.42568080092999594,43.76885933055813 -0.42511046055610846,43.76854237192707</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt
+crossing: unmarked
+crossing:markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42511046055610846,43.76854237192707 -0.42506132271006714,43.76851499637912 -0.42502296464743516,43.768493978177396</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42502296464743516,43.768493978177396 -0.4239244148864854,43.767884511986374 -0.4238848890139842,43.76783910180338 -0.4238436563424431,43.767657201239025</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt
+crossing: uncontrolled
+crossing:markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4238436563424431,43.767657201239025 -0.4238023338393736,43.767661872016504 -0.4237594842003211,43.76766680228122</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: concrete:plates</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4237594842003211,43.76766680228122 -0.42379281169736194,43.767822883872526 -0.42377520471779323,43.76782930617367</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: unmarked
+crossing:markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42377520471779323,43.76782930617367 -0.42377780983211716,43.767845329487656</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Laburthe</name>
+      <description>ref: D 352
+name: Route de Laburthe
+oneway: no
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42377780983211716,43.767845329487656 -0.4235932060412306,43.767802124914624 -0.42331050622131816,43.76764831378644 -0.4232504089288105,43.76763229041968 -0.42321564412731516,43.767630084773714 -0.42317593859175706,43.76762768451184 -0.4230729916601969,43.767649481481016 -0.423015858808127,43.767654022515266 -0.4229477665095907,43.76763689632716 -0.4227689119365225,43.76752940343608 -0.42256930628039113,43.76743897172934 -0.42251846163531,43.767421910351835</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Parcours pédestre Chapelle Notre Dame du rugby</name>
+      <description>foot: yes
+name: Parcours pédestre Chapelle Notre Dame du rugby
+horse: no
+access: permissive
+bicycle: no
+highway: footway
+incline: up
+description: Cheminement pour se rendre à pied à la Chapelle ND du rugby, par accès forêt
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42251846163531,43.767421910351835 -0.4224810018879622,43.767379094706236 -0.42240850784453376,43.76734289600015 -0.42224878738701727,43.76716832451322 -0.42156678642331374,43.76611692760408</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Chapelle</name>
+      <description>name: Route de la Chapelle
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42156678642331374,43.76611692760408 -0.4214408426204802,43.766156630223314 -0.42139844213906974,43.76615617610854 -0.4213414889500565,43.766155592246676 -0.42128732053842416,43.766141320066076 -0.4212207553758709,43.76612367445627 -0.4211653293228408,43.76608228510108 -0.4211417036308684,43.76606457460021 -0.42104513473782557,43.76596291752131 -0.42093518094704935,43.76587280781555 -0.4208306170479778,43.76580501460691</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

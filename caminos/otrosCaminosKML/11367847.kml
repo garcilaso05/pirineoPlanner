@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Carrer de l'Empordà</name>
+      <description>ref: GIV-5128
+name: Carrer de l'Empordà
+narrow: yes
+oneway: no
+highway: tertiary
+name:ca: Carrer de l'Empordà
+maxspeed: 20
+maxwidth: 2.8
+maxheight: 3.6</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.907271742744583,42.218092404558654 2.9073321993632044,42.218066791061084 2.9075194980999433,42.21796753034382</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Empordà</name>
+      <description>ref: GIV-5128
+name: Carrer de l'Empordà
+oneway: no
+highway: tertiary
+name:ca: Carrer de l'Empordà
+maxspeed: 20
+maxwidth: 2.8
+maxheight: 3.6</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9075194980999433,42.21796753034382 2.9076202890748215,42.21794211638174 2.9078031860666678,42.217895878911406 2.90804573119338,42.217865009559844</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Empordà</name>
+      <description>ref: GIV-5128
+name: Carrer de l'Empordà
+oneway: no
+highway: tertiary
+name:ca: Carrer de l'Empordà
+maxspeed: 30
+maxwidth: 2.8
+maxheight: 3.6</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.90804573119338,42.217865009559844 2.9082359045390285,42.217878914075676 2.908919881796357,42.218005983910984 2.909006479389746,42.218018291708674 2.9094265316166004,42.21809426735806 2.909917101593258,42.218210625684186 2.9103419148911183,42.21834727492551</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

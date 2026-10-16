@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue de Nazan</name>
+      <description>name: Rue de Nazan
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no
+source:maxspeed: Passage à 30 km/h sur la commune le 01/01/2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.543765326048222,43.550329268816725 1.5436966049289866,43.55036012959597 1.543625997347655,43.5503827217598 1.5435747035449319,43.550398672994284</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: survey
+bicycle: yes
+highway: path
+surface: fine_gravel
+motorcycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5435747035449319,43.550398672994284 1.5441015654590677,43.550943030755874 1.5443692634137354,43.5511912812638 1.5446395664827268,43.551441614139414 1.544882740430138,43.5517017769312 1.5451030971693327,43.55196962103455 1.545333425208181,43.552232581066 1.5454647589027193,43.552405825461 1.54550940517234,43.55246402921588 1.5455239578799427,43.552508170281094</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5455239578799427,43.552508170281094 1.545540666544227,43.552562728072175</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>oneway: yes
+highway: service
+service: parking_aisle
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.545540666544227,43.552562728072175 1.5456038181087008,43.5526883149716 1.5456269048115028,43.552715398478064</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5456269048115028,43.552715398478064 1.545669934113612,43.55275732580543 1.5457110769536246,43.55284280798343 1.5460756132959206,43.55345472142004 1.5461405614909622,43.553487729022166 1.5461995808051288,43.55350322370883</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: permissive
+highway: footway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5461995808051288,43.55350322370883 1.5463822981339188,43.5537672838071 1.5467612973522888,43.55421617029814 1.5469067345967877,43.554361219489394</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

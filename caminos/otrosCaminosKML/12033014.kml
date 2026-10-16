@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5480046555370386,43.53973267032603 1.5480547815298928,43.53978841181471 1.5480973616743599,43.53983607856088</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5480973616743599,43.53983607856088 1.5480864022278935,43.53985691647085 1.5480972718428314,43.53991356950222 1.548102841397593,43.539966510735134 1.5480890073422175,43.540020884523756 1.5480643935034326,43.54006158343523 1.5480305270172212,43.540104496337754 1.548015614983505,43.54013178085321 1.5481322163073836,43.54029568304061</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5481322163073836,43.54029568304061 1.5481141601701727,43.5403053205014 1.5480892768368029,43.540329414146655</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Lycée</name>
+      <description>lit: yes
+name: Avenue du Lycée
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:left: no
+lane_markings: no
+cycleway:right: separate
+source:maxspeed: Passage à 30 km/h sur la commune le 01/01/2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5480892768368029,43.540329414146655 1.5480791258740922,43.540396615830645 1.5481779405553453,43.54055947541495</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Lycée</name>
+      <description>lit: yes
+name: Avenue du Lycée
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:left: no
+lane_markings: no
+zone:maxspeed: FR:30
+cycleway:right: separate
+source:maxspeed: Passage à 30 km/h sur la commune le 01/01/2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5481779405553453,43.54055947541495 1.548223035982608,43.54062830478313 1.548261843202882,43.54070423188527 1.5482887926614057,43.54077657743138 1.5482860977155535,43.54082281081322 1.548241720940518,43.54090010513437 1.5479498583047073,43.541357422413846</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Lycée</name>
+      <description>lit: yes
+name: Avenue du Lycée
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+lane_markings: no
+zone:maxspeed: FR:30
+source:maxspeed: Passage à 30 km/h sur la commune le 01/01/2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5479498583047073,43.541357422413846 1.5479293767162294,43.541392780845875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Lycée</name>
+      <description>name: Avenue du Lycée
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no
+zone:maxspeed: FR:30
+source:maxspeed: Passage à 30 km/h sur la commune le 01/01/2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5479293767162294,43.541392780845875 1.5478658658256423,43.54150250255175</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

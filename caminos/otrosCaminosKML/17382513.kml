@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Piste Cyclable du Riou-Gras</name>
+      <description>lit: yes
+foot: designated
+name: Piste Cyclable du Riou-Gras
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4887466589993954,43.61271347641779 1.488719529877815,43.61270612692927 1.48834592055115,43.61264180260647 1.4882456685654422,43.6126155915634 1.4873586720539025,43.61232167588375 1.4871490950981174,43.61225221297289 1.4863780710897576,43.61205410014782 1.4861050730749135,43.611909124853455 1.4859846089953133,43.61185468585724 1.4856136946145004,43.611765515065215 1.485525300390543,43.61174418169786</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

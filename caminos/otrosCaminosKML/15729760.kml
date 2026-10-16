@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue du Général de Gaulle</name>
+      <description>name: Avenue du Général de Gaulle
+highway: cycleway
+surface: asphalt
+smoothness: excellent
+name:etymology:wikidata: Q2042</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3443070834549882,43.542174698293415 1.3443502924201545,43.542145786802855 1.3444008675706502,43.54211348926548 1.3445398369451036,43.54199536868907 1.3445921188946393,43.541965610602176 1.3446397296046975,43.54193656877894 1.3449509060191167,43.54175059659259 1.3451176333358492,43.541603824020896 1.345344817271203,43.54141719964043 1.3460445150460036,43.540795331258145 1.3461062293060226,43.54076218647008 1.346163182495036,43.540750530440086</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Général de Gaulle</name>
+      <description>name: Avenue du Général de Gaulle
+highway: cycleway
+surface: asphalt
+cycleway: crossing
+smoothness: excellent
+surface:colour: green
+name:etymology:wikidata: Q2042</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.346163182495036,43.540750530440086 1.3462222018092025,43.540755609604275 1.3462758312316645,43.540760298063134</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Général de Gaulle</name>
+      <description>name: Avenue du Général de Gaulle
+highway: cycleway
+surface: asphalt
+smoothness: excellent
+name:etymology:wikidata: Q2042</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3462758312316645,43.540760298063134 1.346323441941723,43.54075880036103 1.346435102531539,43.54070638076413 1.3465337375497353,43.54067108704713 1.346634438693085,43.54066958934281 1.3467090886931954,43.54069107814029 1.3467729589098962,43.54072780443098</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

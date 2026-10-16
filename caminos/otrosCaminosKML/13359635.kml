@@ -1,0 +1,234 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6134192558743952,43.45399507388364 1.6133465821679098,43.454004790339404</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de l'Hers</name>
+      <description>ref: D 16
+name: Avenue de l'Hers
+lanes: 2
+bus_bay: left
+highway: secondary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6133465821679098,43.454004790339404 1.6133799096649506,43.45405219879586</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de l'Hers</name>
+      <description>ref: D 16
+name: Avenue de l'Hers
+lanes: 2
+highway: secondary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6133799096649506,43.45405219879586 1.6134032658623378,43.45408558684741 1.6134666869213967,43.45419038086608 1.6136999794006823,43.45463550888037 1.6138844035285123,43.454979427695456</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grand'Rue</name>
+      <description>hgv: no
+psv: yes
+ref: D 16
+name: Grand'Rue
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: secondary
+surface: asphalt
+maxspeed: 50
+maxweight: 3.5
+cycleway:both: no
+lane_markings: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6138844035285123,43.454979427695456 1.6138376013022093,43.454986209540934 1.613592181566588,43.4550237053075 1.6133467618309665,43.45506120105081 1.6132591760907649,43.455074569092815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Mairie</name>
+      <description>lit: yes
+name: Place de la Mairie
+highway: residential
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6132591760907649,43.455074569092815 1.6133060681485958,43.45524072382667</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place Jeanne-d'Arc</name>
+      <description>lit: yes
+name: Place Jeanne-d'Arc
+oneway: yes
+highway: residential
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6133060681485958,43.45524072382667 1.6129400046703173,43.45532432269989</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Calbayrac</name>
+      <description>name: Rue de Calbayrac
+oneway: yes
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6129400046703173,43.45532432269989 1.6130866995562139,43.45550188840986 1.6131184999172719,43.455531232674566 1.613222794321758,43.4556949734102 1.6129810576788015,43.45584469374258</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Faubourg du Cers</name>
+      <description>lit: yes
+name: Rue du Faubourg du Cers
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+cycleway:both: no
+lane_markings: no
+ref:FR:FANTOIR: 310480102B</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6129810576788015,43.45584469374258 1.6131020607475723,43.45596969950268 1.6132589065961798,43.45612907006049 1.6134593207360666,43.456343085017885 1.6137244135764104,43.4566183950405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Faubourg du Cers</name>
+      <description>name: Rue du Faubourg du Cers
+highway: tertiary
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6137244135764104,43.4566183950405 1.6138585320483294,43.45675631041432 1.6138870984743643,43.45678187199989 1.6139412668859967,43.456845971540645</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6139412668859967,43.456845971540645 1.612514562551758,43.45752660926819 1.612003780481208,43.45778222138127</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Roujairou</name>
+      <description>lit: yes
+name: Chemin de Roujairou
+highway: residential
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.612003780481208,43.45778222138127 1.611845317665089,43.457863469290885</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Rouquet</name>
+      <description>name: Chemin de Rouquet
+highway: track
+surface: fine_gravel
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.611845317665089,43.457863469290885 1.611869662009289,43.4579646703868 1.6119056844521817,43.45806880561601 1.6119520375208425,43.45818122190509 1.6120841796991365,43.45843291887108 1.6120930730204492,43.458494604029845 1.6120751965462954,43.458574416446304 1.612018872177981,43.45866472693756 1.612016716221299,43.458762992423544 1.612047887761658,43.45905733148368</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.612047887761658,43.45905733148368 1.6123033686284616,43.459858182081014 1.6122004216969015,43.46000769649134 1.6117355435373697,43.460153428672406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6117355435373697,43.460153428672406 1.6118420837300662,43.460570409863024 1.6119278728396995,43.46100649282298 1.611611935354275,43.46133929086048 1.6115654026225577,43.46146089470207 1.6115540838499776,43.46164026807234 1.6116103183867636,43.462157715859675 1.6117631218165922,43.46272393011288 1.6118931080382042,43.463199900681914 1.6122954634539615,43.46413207492485 1.6125386374013726,43.46485879182745 1.6128875430577247,43.46568942650199 1.612934974104726,43.465820214563756</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: mud
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.612934974104726,43.465820214563756 1.613153264718767,43.46639337067358 1.6132890001581977,43.466950417656 1.613442612071782,43.46706327381044</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Fontanelles</name>
+      <description>ref: D 95
+name: Route des Fontanelles
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.613442612071782,43.46706327381044 1.6132984324686808,43.467148029882615 1.613181561650217,43.467229982371705 1.6131156253083625,43.46728676879659 1.6130301056933143,43.46740099345293 1.6130241768124391,43.4675146963211 1.6130294768726154,43.46764319855975 1.6131153558137772,43.46811430590163 1.6132520794000202,43.468943722332035 1.6132699558741743,43.46925078998341 1.6132683389066627,43.4696870711059 1.6132251299414966,43.469878089793205 1.6130387295200417,43.47042408697825 1.6124903978706153,43.471435097758054 1.612379096606913,43.47164097471837 1.612352955632145,43.47169690950284 1.6122784852950913,43.47183172646289 1.6121805689291224,43.47198597025625 1.6121069070758247,43.47209347129788 1.6120551641154595,43.47215188294195 1.611974136076832,43.472235197666954 1.6117500962449727,43.47244387512429 1.611617415077508,43.47254511700505 1.6112042798783415,43.47283371736598 1.6110863310815364,43.4729095994096 1.6109723348719818,43.47296950964993 1.6108710049079331,43.47301370889689 1.6107852157982998,43.47304780357416 1.6106994266886663,43.47307361903402 1.6106000730182426,43.47309597938553 1.6104699969651022,43.473119773919606 1.6103071324040914,43.47314030892094 1.6096545961817068,43.47320210945427 1.6091631278897651,43.47325608708356 1.608752058815752,43.47330863047835 1.6082981401026863,43.473369974507996 1.6081740827619493,43.4733914220871 1.6080581102587697,43.47341762854119 1.6079273155534017,43.473455112877424 1.6078085582728412,43.47349703011631 1.607708036792548,43.4735427283483 1.607619462905534,43.47359038224527 1.6075477773458613,43.47364338167888 1.6074928004504732,43.47369892347088 1.6074485135069663,43.473763591784085 1.6074237200051242,43.473831780273265 1.6074055740363853,43.47389840413389 1.6074023401013624,43.47397969557471 1.6074070113408399,43.47405270784215 1.6074250674780506,43.47411933145921 1.6074578559859212,43.47419090939256 1.6075136413650648,43.47427122260119 1.6075773319187088,43.47434847181234 1.607636261401347,43.474403491443454 1.60769662818844,43.474445408024536</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'En Fourtanier</name>
+      <description>name: Chemin d'En Fourtanier
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.60769662818844,43.474445408024536 1.6076665346264218,43.47446581219734 1.607536368741753,43.474500818701394 1.604998987390229,43.47418549867743 1.6044115790259432,43.47413882309063 1.6042212260172384,43.474152382482686</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6042212260172384,43.474152382482686 1.6030920437051002,43.47437239623155 1.6020565556770954,43.4745922788016 1.601386142980557,43.4746916266082 1.6006430565775334,43.47474221309265 1.5999376095849143,43.47481268208092 1.599766121197176,43.47484762319543 1.5995359728213845,43.47485173007883 1.5993925118705106,43.47484599347972 1.5991037035066662,43.47480661953475</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

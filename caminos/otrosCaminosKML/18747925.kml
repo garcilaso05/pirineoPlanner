@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Place du Portail</name>
+      <description>ref: D 141
+name: Place du Portail
+source: SiiG
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.565279237072364,44.288147600726404 4.565318762944865,44.28823312598074</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grand' Rue</name>
+      <description>ref: D 141
+name: Grand' Rue
+source: SiiG
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.565318762944865,44.28823312598074 4.565479741043779,44.28857561157843 4.56548477160937,44.288685507491394</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Vieille Route</name>
+      <description>name: Rue de la Vieille Route
+source: SiiG
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.56548477160937,44.288685507491394 4.56554702485856,44.288729620128876 4.565588616856214,44.28880948578185 4.565610176423034,44.28885629909316 4.565629041044001,44.28890169768087 4.565669285568728,44.288998603614004 4.565722286170492,44.289095380779834 4.565763608673561,44.28914778828148 4.565776005424482,44.289193186643885 4.565785258071909,44.289225724258806 4.565801966736193,44.28928198985473 4.565812566856545,44.289321600801934 4.565835743390877,44.28939882921146 4.565879311682155,44.28955142093273 4.565918478228543,44.28978059713469 4.565928629191253,44.289840205949766 4.565933929251431,44.28989942888736 4.565941475099817,44.290020318086 4.565950278589601,44.29013831342025</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Vieille Route</name>
+      <description>name: Rue de la Vieille Route
+source: SiiG
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.565950278589601,44.29013831342025 4.565960429552312,44.29020679561725 4.565973185629346,44.29026788295565 4.566057178108411,44.2904069046405 4.566203783162779,44.29064958092808 4.566234056387855,44.29070237285468 4.566277355184549,44.2907812712972 4.566367096881432,44.29094781289389 4.566462318301549,44.29112297041887 4.5664892677600735,44.29119563105971 4.566515139240256,44.291270092047945 4.566563738097126,44.291409625769965 4.566586465473815,44.29149257423102 4.566592304523161,44.29157198602 4.566595718121241,44.29165351963172 4.566594460479843,44.291734281520384</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: SiiG
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566594460479843,44.291734281520384 4.566507144234227,44.29178797268267 4.566435189179969,44.29194679535443 4.566417761863457,44.29220341844799 4.566416863548174,44.29233542683384 4.566387758132968,44.292487303625734 4.5663513763639605,44.29262760605399</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Ardèche</name>
+      <description>name: Chemin de l'Ardèche
+source: SiiG
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.5663513763639605,44.29262760605399 4.566383805545717,44.29273170740996 4.566248159937816,44.293146825003 4.5661673115622445,44.29323362896146 4.566124282260136,44.29330152885731 4.566112873656027,44.293447809142705 4.5660999379159355,44.293582386683454 4.566134343391317,44.29364359910832 4.566334757531204,44.29390047198125</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse Camplong</name>
+      <description>name: Impasse Camplong
+source: SiiG
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566334757531204,44.29390047198125 4.566397370106508,44.29399962010877 4.566399166737075,44.29411259218751 4.566419288999439,44.294191421750604 4.566454502958578,44.294275909435655 4.566639825401691,44.29465140878747</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566639825401691,44.29465140878747 4.566693903981796,44.294762129199626 4.5668020611420035,44.29485060250319 4.5668020611420035,44.295019382963325 4.5666591391803,44.2952601112831 4.566594999469014,44.295419117455275 4.566570205967172,44.29561162172322 4.566547029432842,44.296117890790406 4.566458096219714,44.296635407198735 4.566455041947748,44.29702722240226 4.566454233463992,44.29712790832867</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>hazard: flooding
+highway: track
+tracktype: grade4
+access:conditional: no @ rain</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566454233463992,44.29712790832867 4.566396471791223,44.297147775454675 4.5663450881569725,44.29718442353355 4.566319396339845,44.29724248175906 4.566327301514346,44.297271092934345 4.566375541045104,44.29734310302169</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Goudon</name>
+      <description>name: Chemin de Goudon
+hazard: flooding
+source: SiiG
+highway: track
+tracktype: grade4
+access:conditional: no @rain</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566375541045104,44.29734310302169 4.5663758105396886,44.29739858930554 4.566376169865802,44.29748828023285 4.566322360780283,44.29761629048751 4.56618851180295,44.29793692569652 4.566181594775262,44.2979528706141 4.566140272272192,44.2981031898258 4.566125809396119,44.29819950193282 4.566118712705374,44.29824540764787 4.566126617879874,44.298258523559866</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse de la Blanchisserie</name>
+      <description>name: Impasse de la Blanchisserie
+source: SiiG
+highway: service
+service: parking_aisle</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566126617879874,44.298258523559866 4.566161203018312,44.29826347417294 4.566194081357711,44.29827478985841 4.56622920548532,44.29829472089001 4.5662531905034065,44.298317095072264 4.5663618866527855,44.29844941118268 4.566399975220832,44.298496216810214 4.566428721309923,44.29853382844816 4.5664907948960565,44.29861419511516 4.566545232802273,44.2986894182158 4.566586465473815,44.298754997250555 4.566595897784298,44.29879138715393 4.566596257110411,44.29883549220093 4.566583141707264,44.29888486924048</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse de la Blanchisserie</name>
+      <description>name: Impasse de la Blanchisserie
+source: SiiG
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566583141707264,44.29888486924048 4.56650417979379,44.29891688714237 4.566399705726246,44.298945111744224</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-Martin d'Ardèche</name>
+      <description>ref: D 141
+name: Route de Saint-Martin d'Ardèche
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566399705726246,44.298945111744224 4.566427104342412,44.29900342540027 4.566473726905658,44.299093178168974</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Roque</name>
+      <description>name: Chemin de la Roque
+source: SiiG
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566473726905658,44.299093178168974 4.566419199167912,44.29915078445826</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

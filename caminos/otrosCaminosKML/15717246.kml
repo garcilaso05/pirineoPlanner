@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Allée du Médoc</name>
+      <description>name: Allée du Médoc
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: left
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3135549665021962,43.60692863079497 1.3135411324468207,43.60693890805787 1.3135296340111842,43.60695191724889 1.313525681423934,43.60696739818254 1.3135245136140647,43.60698990407058 1.313536191712758,43.60721840990787</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

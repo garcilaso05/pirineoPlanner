@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin des Gaillardous</name>
+      <description>name: Chemin des Gaillardous
+bicycle: yes
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.458673668401398,43.474292474292746 1.458232595596895,43.47452813288695 1.4580058608191835,43.474711118055026 1.4578811746577478,43.47484729725229 1.4577228915046858,43.47512760770239 1.4572548692416594,43.47585647397508 1.4570282242954764,43.476110509281796 1.4567318700832452,43.476533768712834 1.4566165264007642,43.47668760938545</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Mérigues</name>
+      <description>name: Chemin des Mérigues
+bicycle: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4566165264007642,43.47668760938545 1.4564957928265785,43.47679660135376 1.4561351192400047,43.47770170947639 1.4561123020317879,43.47791382287958 1.455995610876381,43.478214522011974 1.4556522747747902,43.4786933039069 1.4554565318743806,43.4788859889195 1.4553331033543426,43.47905631517981 1.4552606991424426,43.47909418712268 1.455237881934226,43.47912730060922 1.4552431819944023,43.47914776838514 1.4552740840401759,43.47917110424858</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route d'Espanès</name>
+      <description>ref: D 35c
+name: Route d'Espanès
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4552740840401759,43.47917110424858 1.4552232393950948,43.47920597765899 1.4551241552192564,43.4792815909657 1.455066213883431,43.47934657922353 1.4550265981794013,43.47941547843358 1.4548062414402065,43.47988923170688 1.4547022165303056,43.48008647571413 1.4545707930042389,43.48027798299402 1.4543646296465336,43.48053180416477 1.4542835117763775,43.48062182112403 1.4542306908376712,43.480670707903066 1.4541071724861048,43.48076587405279 1.4540241681538522,43.48082010565464 1.453971167552089,43.480849698359144</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 35c
+oneway: yes
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.453971167552089,43.480849698359144 1.4539161906567009,43.4808916104687 1.4538537577444548,43.48092420151359 1.4537901570223388,43.48094369095003</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>highway: tertiary
+surface: asphalt
+junction: roundabout
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4537901570223388,43.48094369095003 1.4537759636408498,43.480952229798135 1.4537593448080937,43.480957770271445</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 35
+oneway: yes
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4537593448080937,43.480957770271445 1.453721705397689,43.48099231674064 1.4536728370462328,43.48103853076003 1.453623160211021,43.48106968772354 1.45355138481982,43.481104168946864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Venerque</name>
+      <description>ref: D 35
+name: Route de Venerque
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.45355138481982,43.481104168946864 1.4534669431831129,43.481152403517356 1.4533730692359224,43.48120402750148 1.4532685053368506,43.48124782963524 1.4529466389705508,43.481357725920326 1.452522544324918,43.48149780102595</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>highway: tertiary
+surface: asphalt
+junction: roundabout
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.452522544324918,43.48149780102595 1.4525259579229977,43.4815155955601 1.4525196697160088,43.48153299900051 1.4525045780192356,43.48154720854739 1.4524829286208882,43.48155600803575 1.4524583147821035,43.48155802865883 1.452434509427074,43.48155281414754 1.4524125007026134,43.48153840905774</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Allée Louis Pasteur</name>
+      <description>lit: yes
+name: Allée Louis Pasteur
+bicycle: yes
+covered: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4957669031132614,43.60656072964509 1.4954928271200763,43.606706628478534 1.4952149782026982,43.60685441329369 1.495189016890987,43.60686826810149 1.4947297082862165,43.60711277566342 1.4940534565403316,43.6074655178623 1.4935047655647915,43.607739228252015</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

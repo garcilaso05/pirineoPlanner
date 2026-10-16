@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin d'Auzil</name>
+      <description>name: Chemin d'Auzil
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4339466418907238,43.51249731305136 1.4340310835274312,43.51250500051479 1.4341190285937464,43.51249099369511 1.4342129923724654,43.512467996444585 1.434379719689198,43.512414509887506 1.4347194625296518,43.51230538674037 1.4348110008571038,43.51227600489212 1.435129004467682,43.5121550244926 1.4362239609674954,43.51164517120511 1.4365027980316862,43.511544125146955 1.4371590173467355,43.511331022299466 1.4376807588637521,43.51116977766991</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Pont d'Auzil</name>
+      <description>name: Chemin du Pont d'Auzil
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4376807588637521,43.51116977766991 1.437704294724196,43.51121942151692 1.4378865628953437,43.51173097227062 1.4381975596467063,43.51213632690787</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Pont d'Auzil</name>
+      <description>name: Chemin du Pont d'Auzil
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4381975596467063,43.51213632690787 1.4385949743284006,43.51245998323625 1.4389380409354058,43.5127100208941 1.4391670215013277,43.51293901486994 1.4393439896122995,43.51322898579571 1.4399124435240902,43.51448527150589 1.4399116350403345,43.51459621479198</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Valette Haut</name>
+      <description>lit: yes
+foot: designated
+name: Chemin de Valette Haut
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3074068966976822,43.57593509025992 1.3073341331596684,43.57597797762128 1.3058057395352676,43.5769063936498 1.3047862415193205,43.57753569877194 1.3037671028294868,43.578175279493195 1.3035677666679406,43.5782689253066 1.302643040914468,43.57854478589382 1.3025956098674665,43.578581489118015</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Valette Haut</name>
+      <description>lit: yes
+foot: designated
+name: Chemin de Valette Haut
+bicycle: designated
+highway: path
+incline: 17%
+surface: asphalt
+segregated: no
+motor_vehicle: no
+ref:FR:FANTOIR: 315573512</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3025956098674665,43.578581489118015 1.302571894343966,43.57864070881202 1.3025229361609811,43.57902602586011 1.302476672923849,43.579310212685634 1.3024605032487349,43.579349193095894 1.3023895363412894,43.579428390279105 1.302238799036614,43.57953713168143 1.3018368927784991,43.57982879975116</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Valette Haut</name>
+      <description>name: Chemin de Valette Haut
+bicycle: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+motor_vehicle: destination
+ref:FR:FANTOIR: 315573512</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3018368927784991,43.57982879975116 1.3017725734041563,43.57985652181009 1.3017202914546202,43.5799119008145 1.3017163388673703,43.57998283271988 1.301759188506423,43.580081876947034 1.3017746395293097,43.58010081376823 1.3020349712986474,43.580421111951594</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Valette Haut</name>
+      <description>name: Chemin de Valette Haut
+bicycle: yes
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3020349712986474,43.580421111951594 1.3024822424786107,43.58095387559443 1.3025176361008048,43.5809961086411 1.3025531195545275,43.581066518677694 1.3025711756917384,43.58113510656394 1.3025250022861348,43.5812254290122</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

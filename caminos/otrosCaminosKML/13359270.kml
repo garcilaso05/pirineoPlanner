@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Toulouse</name>
+      <description>ref: D 16g
+name: Chemin de Toulouse
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5940335222115674,43.44092098378877 1.5941340436918603,43.440830385898344 1.594293404823263,43.440699021977515 1.594722080876845,43.44034549898649 1.5947891850285687,43.44028810022476 1.5949464800348179,43.440151386591154 1.5954367805168903,43.43976629080229 1.595760084187645,43.43948999089077 1.5958009575330723,43.43945059391675 1.5958177560288855,43.43942919952277 1.595825212045744,43.43940291310761</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Toulouse</name>
+      <description>ref: D 16g
+name: Chemin de Toulouse
+oneway: yes
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.595825212045744,43.43940291310761 1.5958465919495055,43.43915557238377 1.595836620649852,43.438978806637245 1.595836620649852,43.43893158204782 1.5958492868953582,43.43889798994865 1.595872822755802,43.43886237578043 1.5959056112636723,43.43883367570287 1.5959518745008043,43.438800083549346 1.5963274601210948,43.43862012060734 1.596346234910533,43.43859168132577</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Toulouse</name>
+      <description>ref: D 16g
+name: Chemin de Toulouse
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.596346234910533,43.43859168132577 1.5963744420104542,43.43859272496936 1.5964030084364893,43.43858907221669 1.5964257358131775,43.43858300603767 1.5965200589180102,43.4385455000786 1.5965385642128627,43.43853819456734</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

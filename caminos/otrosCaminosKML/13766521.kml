@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Nollet</name>
+      <description>lit: no
+foot: yes
+name: Chemin de Nollet
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5025037287549874,43.59088537435886 1.5023597288149428,43.59101419959316 1.5017589355529237,43.591698009730386 1.501478122195108,43.592057023207765 1.5013203780312165,43.5922863014446 1.5011541897036544,43.59248922887162 1.5010709158768165,43.592564895447886 1.5010378578743608,43.592611219220636 1.5010091117852693,43.59270822576967</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Nollet</name>
+      <description>lit: yes
+name: Chemin de Nollet
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5010091117852693,43.59270822576967 1.5005551930722036,43.59338479493133 1.5004705717724394,43.593504311166505 1.5003392380779013,43.59371458629643 1.500142057873037,43.59410702850934 1.5001205881377466,43.59419147611778 1.5001205881377466,43.5942526973068 1.5001460104602868,43.59442842324305 1.5001666717118218,43.59448990442871</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

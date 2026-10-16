@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Sion</name>
+      <description>name: Chemin de Sion
+oneway: yes
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5899457385111815,43.52441678635164 1.5898874378492418,43.52443333067262 1.5898712681741278,43.52445658390349 1.5898566256349966,43.52451012492203 1.589835066068178,43.52457141695424 1.589799582614455,43.52463362081274 1.5897599669104254,43.524676414424746 1.5896930424217586,43.52472259501614 1.5893656963322256,43.524892792010334 1.5888273359824525,43.52513339880552 1.5885328682323183,43.5252608014736 1.5884686386895035,43.52528268656741 1.5884168957291385,43.52529388964807 1.5883700036713073,43.52529727662554 1.5883028995195836,43.52529239156182 1.588251336222275,43.525280732541496 1.5880200200366141,43.5251698740345 1.5878654199762174,43.52507972807134</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Sion</name>
+      <description>name: Chemin de Sion
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5878654199762174,43.52507972807134 1.5877684917570607,43.525153395049855 1.58730298477683,43.52562131830178 1.5870590921771914,43.52584179591453 1.5868437660035883,43.52600033086979</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Côte de Rembillot</name>
+      <description>name: Côte de Rembillot
+highway: service
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5868437660035883,43.52600033086979 1.587031693561026,43.526345927812116</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Côte de Rembillot</name>
+      <description>name: Côte de Rembillot
+highway: path
+surface: gravel
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.587031693561026,43.526345927812116 1.5871252980136314,43.52646518630498 1.5873929959682989,43.526806612100955 1.5877601374249184,43.52718861330004 1.5881562046336868,43.52756292653585</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Côte de Rembillot</name>
+      <description>name: Côte de Rembillot
+highway: service
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5881562046336868,43.52756292653585 1.588424261914468,43.527756432606715</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Reynerie</name>
+      <description>name: Chemin de la Reynerie
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.588424261914468,43.527756432606715 1.5884283043332466,43.52787119424442 1.588430999279099,43.52792798879934 1.5884451028290598,43.52801598117503 1.5884698963309014,43.528123968681975 1.5885846111926833,43.52855422337923 1.5886516255128789,43.52882887876165 1.5887180110123753,43.529213016442206 1.5887182805069604,43.52930257005982</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Reynerie</name>
+      <description>name: Chemin de la Reynerie
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5887182805069604,43.52930257005982 1.5887058837560397,43.529365224948144 1.5886744427210953,43.529442468826915 1.588632221902742,43.52951782384772 1.5885744602299727,43.529602883075285 1.5884966661263682,43.529697711598 1.5883894072814444,43.529819698894556 1.5882640024677812,43.52995099941432 1.588100419254543,43.530118185723936 1.5879274037308215,43.530266028315175 1.587537804392099,43.53063309319951 1.5872199804445775,43.5309460995672 1.5870750821892492,43.53107928634502 1.5869215601071929,43.531205699537864 1.586715666244073,43.531360312737576 1.5865027655217363,43.531518181914144 1.586419312031842,43.53158011809952</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Reynerie</name>
+      <description>lit: no
+name: Chemin de la Reynerie
+bicycle: yes
+highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.586419312031842,43.53158011809952 1.5863622690113004,43.53162857286266 1.5863435840533906,43.5316427706219 1.5860197413934656,43.531886411464995 1.5860056378435048,43.53191207152323</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Negreney</name>
+      <description>lit: no
+name: Chemin de Negreney
+bicycle: yes
+highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5860056378435048,43.53191207152323 1.58601156672438,43.53195642301946 1.5862383015020916,43.53216437313878 1.586409969552887,43.53237440659033 1.5865642102871702,43.532597073813506 1.586682159083975,43.53275272546434 1.5867854653416489,43.5328401897931 1.587368831287156,43.53334960348927 1.5876209883874084,43.53355377153956 1.5878362247294835,43.53372049198659 1.5881031142003954,43.53390968006062</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

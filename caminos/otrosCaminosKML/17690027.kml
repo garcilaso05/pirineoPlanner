@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Halage</name>
+      <description>ref: M 501
+foot: designated
+name: Chemin de Halage
+bicycle: designated
+highway: path
+old_ref: D 501
+surface: asphalt
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4228024119705225,43.652760632016346 1.422742135014958,43.65284187745077 1.4217971971675927,43.65395239402591 1.421417389465467,43.654390719392005 1.4197113090778672,43.65638608629296</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

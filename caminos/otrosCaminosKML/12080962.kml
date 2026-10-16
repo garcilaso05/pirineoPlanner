@@ -1,0 +1,751 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Circuit au fil du temps</name>
+    <Placemark>
+      <name>Avenue du Mamelon Vert</name>
+      <description>lit: yes
+ref: D 312
+name: Avenue du Mamelon Vert
+highway: tertiary
+surface: asphalt
+smoothness: good
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11643513555115179,42.88861248325074 -0.1160881163568964,42.8883199891406 -0.11605092610413384,42.88829609723369 -0.11601355618831448,42.88827207368161</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Mamelon Vert</name>
+      <description>lit: yes
+ref: D 920
+name: Avenue du Mamelon Vert
+lanes: 2
+highway: living_street
+surface: asphalt
+sidewalk: both
+smoothness: excellent
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11601355618831448,42.88827207368161 -0.11593477393789718,42.88830518010848 -0.11571531551398681,42.888341972319495 -0.11565243344409844,42.888351318459044</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Latapie Flurin</name>
+      <description>lit: yes
+name: Boulevard Latapie Flurin
+highway: living_street
+surface: asphalt
+smoothness: good
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11565243344409844,42.888351318459044 -0.11567552014690032,42.88840568400329 -0.11587054439508264,42.88886311616427 -0.1159498656346704,42.88904918148422 -0.11627209132708408,42.889822593783144</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Féria</name>
+      <description>lit: yes
+name: Rue de la Féria
+oneway: yes
+highway: living_street
+surface: asphalt
+smoothness: excellent
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11627209132708408,42.889822593783144 -0.11566249457528056,42.890082501840766</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Féria</name>
+      <description>lit: yes
+name: Rue de la Féria
+highway: living_street
+surface: asphalt
+smoothness: good
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11566249457528056,42.890082501840766 -0.11543683777590977,42.890184582421796</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place Bordenave</name>
+      <description>lit: yes
+name: Place Bordenave
+highway: living_street
+surface: asphalt
+smoothness: good
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11543683777590977,42.890184582421796 -0.11532580600679258,42.89023440505536 -0.11529068187918351,42.89024612027908</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+source: BDOrtho IGN
+highway: footway
+surface: paving_stones
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11529068187918351,42.89024612027908 -0.11530325829316117,42.8902831087798 -0.11532023645203102,42.89034471235453 -0.11501777369586799,42.89038012121901 -0.11495543061515011,42.89037413198872 -0.11493800329863817,42.89037268404284 -0.11487539072333505,42.890371104465494</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place Bordenave</name>
+      <description>lit: yes
+ref: D 920
+name: Place Bordenave
+highway: living_street
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11487539072333505,42.890371104465494 -0.11485904138516408,42.89042559986084</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pont Neuf</name>
+      <description>lit: yes
+ref: D 920
+name: Rue du Pont Neuf
+highway: living_street
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11485904138516408,42.89042559986084 -0.11484817177022622,42.89043830228304 -0.1148329004103962,42.890450280730576 -0.11480675943562832,42.890466603007006</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pont Neuf</name>
+      <description>lit: yes
+ref: D 920
+name: Rue du Pont Neuf
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 2
+layer: 1
+bridge: yes
+highway: living_street
+surface: asphalt
+smoothness: excellent
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11480675943562832,42.890466603007006 -0.11454561918253477,42.890576975706416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pont Neuf</name>
+      <description>lit: yes
+ref: D 920
+name: Rue du Pont Neuf
+lanes: 2
+highway: living_street
+surface: asphalt
+smoothness: excellent
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11454561918253477,42.890576975706416 -0.11425519385117894,42.89070110362257 -0.11412430931428272,42.890757112478546 -0.11406367303260465,42.89078297789076</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Gare</name>
+      <description>lit: yes
+name: Place de la Gare
+highway: living_street
+surface: asphalt
+sidewalk: no
+smoothness: excellent
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11406367303260465,42.89078297789076 -0.11412763308083396,42.89089262605718 -0.11413472977157851,42.89094902962989 -0.1141046362095605,42.89103932789094 -0.11409520389907725,42.89107717151059 -0.1140784054032642,42.891125874569546 -0.11400860630568813,42.89127909150961 -0.11397968055353948,42.891360175234524</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Gare</name>
+      <description>lit: no
+name: Avenue de la Gare
+lanes: 2
+highway: living_street
+surface: asphalt
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11397968055353948,42.891360175234524 -0.11402657261137052,42.891421185402066 -0.11409933614938418,42.89146751886547 -0.11415889445272132,42.89150378267405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11415889445272132,42.89150378267405 -0.11399315528280127,42.89203128375819 -0.11399522140795473,42.892133887624595</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: parking_aisle
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11399522140795473,42.892133887624595 -0.1141655419858238,42.892169295461905</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Gare</name>
+      <description>name: Avenue de la Gare
+highway: living_street
+surface: asphalt
+sidewalk: right
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.1141655419858238,42.892169295461905 -0.1142218663541381,42.89212217275945 -0.11424791749737757,42.892057017008206 -0.11430208590900996,42.891920979475366 -0.11441230919437143,42.891660421021506 -0.11439811581288234,42.891622906831664 -0.11435733229898333,42.89160342576969</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Gare</name>
+      <description>name: Avenue de la Gare
+highway: living_street
+surface: asphalt
+sidewalk: right
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11435733229898333,42.89160342576969 -0.11415889445272132,42.89150378267405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Gare</name>
+      <description>lit: yes
+name: Place de la Gare
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11397968055353948,42.891360175234524 -0.1139190442718614,42.89133681102277 -0.11386487586022899,42.89130508833237 -0.1137461185796684,42.891238878681165 -0.11368970437982569,42.89120748501455 -0.1136355359681933,42.89118760893224</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>lit: yes
+oneway: yes
+highway: service
+service: parking_aisle
+surface: asphalt
+oneway:foot: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.1136355359681933,42.89118760893224 -0.11369554342917249,42.89109448084542</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11369554342917249,42.89109448084542 -0.11358738626896449,42.891020175719795 -0.11352845678632624,42.89097357866001 -0.11347204258648352,42.890990493133515</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Richelieu</name>
+      <description>lit: yes
+name: Rue Richelieu
+oneway: yes
+highway: living_street
+surface: asphalt
+sidewalk: both
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11347204258648352,42.890990493133515 -0.11338706196060583,42.89076619499094 -0.11311163849449479,42.88984023255151 -0.11300860173140626,42.88954649374788 -0.1129351195411653,42.889343778274856 -0.11290295985399382,42.889238405455735</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: yes
+highway: path
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11069705684230992,42.887798379977745 -0.11071448415882185,42.88779943307324 -0.11074691334057857,42.88780121017185 -0.11077000004338043,42.88767780042435 -0.11077359330451692,42.88765838393493 -0.11078437308792632,42.88764620748929 -0.11080467501334744,42.88765509300391 -0.11079721899648924,42.887783570820396 -0.11078500190862522,42.887822403714324 -0.11075409986285151,42.887920802208946 -0.11075733379787435,42.88811911254423 -0.11077440178827261,42.88812023145238 -0.11078599005543775,42.8880987089215 -0.11093277477286288,42.88783438266988 -0.11091813223373174,42.88799300488407 -0.11090348969460058,42.88814859905805 -0.11091983903277157,42.88815037614661 -0.11098299059724516,42.8880405914688 -0.1110899799475838,42.88788927521672 -0.11110641911728318,42.88789138140459 -0.11109698680679993,42.88794897245141 -0.11108971045299856,42.88799372888495 -0.1110930342195498,42.888177822285535 -0.11112519390672128,42.888189472081805 -0.11117810467695594,42.888040130741324 -0.11126146833532222,42.88790777017653 -0.11127611087445337,42.88791191673259 -0.11126030052545287,42.88802992891774 -0.11123577651819638,42.88821382475619 -0.11124907158440137,42.8882183003818 -0.11125868355794144,42.88820388623349 -0.11143699914183917,42.88793587460663 -0.11145253999625443,42.88793870479443 -0.11140771406357687,42.88823001598844 -0.11142235660270801,42.8882350839749 -0.11161648253560626,42.88796378156904 -0.11162860979194188,42.88796957357853 -0.11161729101936196,42.888144518336 -0.11158189739716765,42.88826292498397 -0.11155737338991119,42.88834467085289 -0.11157165660292868,42.888350726098125 -0.11175832651896872,42.88815610232049 -0.11184743939515338,42.88799827034477 -0.11186513620625053,42.88800169289399 -0.11186926845655748,42.888155378321514 -0.11183522230728936,42.888278721295585 -0.11183162904615289,42.88829181906757 -0.11174628909416152,42.888430892223646 -0.11175895533966762,42.88843892199402 -0.11187726346258615,42.88834480248867 -0.11202180239180097,42.8882296868984 -0.11203851105608562,42.888238703964966 -0.11188983987656383,42.88849190528877 -0.11190421292110973,42.888499276873986 -0.11208836755435424,42.888404828371606 -0.1121587056411008,42.88830643064911 -0.112230930189944,42.88831742224195</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.112230930189944,42.88831742224195 -0.11201767014149402,42.88886430087626 -0.11200958530393697,42.88888503333229 -0.11192316737360465,42.88912039558267 -0.11192199956373532,42.889182000318705 -0.11194293030985529,42.889232218663764 -0.11200805816795394,42.889275921095916 -0.11207165889006962,42.88927940939113 -0.1121234916819633,42.88925887451838 -0.11232148037058325,42.88910157190105</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: asphalt
+ref:FFRP: GR10
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11232148037058325,42.88910157190105 -0.1123780742334828,42.88901778670306 -0.11248147032268493,42.888969476882814</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: BDOrtho IGN
+footway: crossing
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11248147032268493,42.888969476882814 -0.11257300865013672,42.8889334748532</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: BDOrtho IGN
+footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11257300865013672,42.8889334748532 -0.1125856748956428,42.88941722980243 -0.11262600925189976,42.88954590139844 -0.11262502110508724,42.889572425484346 -0.11261460064779144,42.889593815867904 -0.11264056195950252,42.88967871916333</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11200805816795394,42.889275921095916 -0.11205791466622259,42.88916719149354 -0.11215250726564037,42.888970069237786</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: BDOrtho IGN
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11215250726564037,42.888970069237786 -0.11221494017788665,42.88897987600263</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>source: BDOrtho IGN
+highway: steps
+incline: down
+surface: rock
+handrail: yes
+step_count: 14</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11221494017788665,42.88897987600263 -0.11230809547284987,42.889004491633685</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: BDOrtho IGN
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11230809547284987,42.889004491633685 -0.1123780742334828,42.88901778670306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Docteur Domer</name>
+      <description>lit: yes
+ref: C 2
+name: Avenue du Docteur Domer
+lanes: 2
+highway: residential
+surface: asphalt
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11248147032268493,42.888969476882814 -0.11248317712172477,42.888924918609064 -0.11248470425770776,42.88888378280339</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Docteur Domer</name>
+      <description>lit: yes
+name: Avenue du Docteur Domer
+highway: residential
+surface: asphalt
+sidewalk: both
+smoothness: intermediate
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban
+sidewalk:both:surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11248470425770776,42.88888378280339 -0.11249063313858296,42.888842778605 -0.11250294005797538,42.888763073736875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Docteur Domer</name>
+      <description>lit: yes
+name: Avenue du Docteur Domer
+highway: living_street
+surface: asphalt
+sidewalk: both
+smoothness: intermediate
+lane_markings: no
+parking:lane:right: perpendicular
+sidewalk:left:surface: paving_stones
+sidewalk:right:surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11250294005797538,42.888763073736875 -0.11268592688135054,42.88839772004642 -0.1127224883134142,42.888329598555096</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Victoire</name>
+      <description>lit: yes
+name: Place de la Victoire
+lanes: 2
+highway: residential
+surface: asphalt
+smoothness: intermediate
+cycleway:both: no
+maxspeed:type: FR:urban
+sidewalk:both: yes
+parking:lane:right: perpendicular
+sidewalk:left:surface: paving_stones
+sidewalk:right:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.1127224883134142,42.888329598555096 -0.1128142063039228,42.88816906848235</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Victoire</name>
+      <description>lit: yes
+name: Place de la Victoire
+highway: living_street
+surface: asphalt
+smoothness: good
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.1128142063039228,42.88816906848235 -0.11282830985388348,42.888135172165114 -0.11283935913187815,42.88803012637239</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Maréchal Joffre</name>
+      <description>lit: yes
+name: Rue du Maréchal Joffre
+highway: living_street
+surface: asphalt
+smoothness: good
+lane_markings: no
+name:etymology:wikidata: Q207958</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11283935913187815,42.88803012637239 -0.11283648452296897,42.88797082412596 -0.11282193181536625,42.88791816947534 -0.11272509342773815,42.88772347851434</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Général Castelnau</name>
+      <description>lit: yes
+name: Rue du Général Castelnau
+highway: living_street
+surface: asphalt
+smoothness: excellent
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11272509342773815,42.88772347851434 -0.11280180955300197,42.88771531701371 -0.11314739144280275,42.887665887256986</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>lit: yes
+name: Rue de l'Église
+oneway: yes
+highway: living_street
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11314739144280275,42.887665887256986 -0.11303698849438445,42.8874602695749</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>lit: no
+name: Rue de l'Église
+ramp: no
+highway: steps
+incline: up
+service: alley
+surface: paving_stones
+handrail: yes
+step_count: 16
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11303698849438445,42.8874602695749 -0.11295820624396716,42.88732810522277 -0.11293628735103466,42.8872865734381</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>lit: yes
+name: Rue de l'Église
+highway: footway
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11293628735103466,42.8872865734381 -0.11291230233294867,42.88724379106332</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>lit: yes
+name: Rue de l'Église
+ramp: no
+highway: steps
+incline: up
+surface: concrete
+handrail: yes
+step_count: 18
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11291230233294867,42.88724379106332 -0.11301542892756558,42.88719712533146</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>lit: yes
+name: Rue de l'Église
+highway: footway
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11301542892756558,42.88719712533146 -0.113020100167043,42.88717566829763 -0.1130305206243388,42.88711300845059</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Pierre Jarré</name>
+      <description>lit: yes
+name: Rue Pierre Jarré
+highway: living_street
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.1130305206243388,42.88711300845059 -0.11311343512506301,42.88713611098564 -0.11322527537793592,42.8871692180222</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Pierre Jarré</name>
+      <description>lit: yes
+name: Rue Pierre Jarré
+ramp: no
+highway: steps
+incline: up
+surface: concrete
+handrail: yes
+step_count: 24
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11322527537793592,42.8871692180222 -0.11340772321214058,42.88729019348383</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Victor Hugo</name>
+      <description>lit: yes
+name: Rue Victor Hugo
+oneway: yes
+highway: living_street
+surface: asphalt
+smoothness: excellent
+name:etymology:wikidata: Q535</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11340772321214058,42.88729019348383 -0.1136310443917727,42.887202588317415</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Raillère</name>
+      <description>lit: yes
+name: Rue de la Raillère
+oneway: yes
+highway: living_street
+surface: asphalt
+smoothness: excellent
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.1136310443917727,42.887202588317415 -0.11366652784549541,42.88728111045959 -0.11374477110674223,42.88744631598138 -0.11376381539076555,42.88748179232855</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de l'Esplanade</name>
+      <description>lit: yes
+name: Avenue de l'Esplanade
+highway: pedestrian
+surface: asphalt
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11376381539076555,42.88748179232855 -0.11408972417584412,42.8873893168354</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de l'Esplanade</name>
+      <description>lit: yes
+name: Avenue de l'Esplanade
+layer: 1
+bridge: yes
+highway: pedestrian
+surface: paving_stones
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11408972417584412,42.8873893168354 -0.11435481701618777,42.88732231315305</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de l'Esplanade</name>
+      <description>lit: yes
+name: Avenue de l'Esplanade
+layer: -1
+tunnel: yes
+highway: pedestrian
+surface: concrete
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11435481701618777,42.88732231315305 -0.11448597104766925,42.88728887710359</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Esplanade des Œufs</name>
+      <description>lit: yes
+name: Esplanade des Œufs
+highway: pedestrian
+surface: paving_stones
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11448597104766925,42.88728887710359 -0.11471369397219354,42.8872510311596</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Esplanade des Œufs</name>
+      <description>lit: yes
+name: Esplanade des Œufs
+highway: pedestrian
+surface: concrete
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11471369397219354,42.8872510311596 -0.11495650859349105,42.88768938449648 -0.11500672441787331,42.88782062661632 -0.11501453976084516,42.88784800708355 -0.1150228940929875,42.88787729627182 -0.11503789595823227,42.8879250804008</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Esplanade des Œufs</name>
+      <description>lit: yes
+name: Esplanade des Œufs
+highway: pedestrian
+surface: concrete
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11503789595823227,42.8879250804008 -0.11505667074767036,42.88798148668724 -0.1151103900016607,42.888161499403424 -0.11517830263714014,42.88843181367276</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Mamelon Vert</name>
+      <description>lit: yes
+ref: D 920
+name: Avenue du Mamelon Vert
+lanes: 2
+highway: living_street
+surface: asphalt
+sidewalk: both
+smoothness: excellent
+cycleway:both: no
+sidewalk:both:surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11517830263714014,42.88843181367276 -0.11505262832889183,42.888468605808235 -0.1149856140086965,42.88848821949582</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Mamelon Vert</name>
+      <description>lit: yes
+ref: D 920
+name: Avenue du Mamelon Vert
+lanes: 2
+highway: living_street
+surface: asphalt
+sidewalk: both
+smoothness: excellent
+cycleway:both: no
+sidewalk:left:surface: paving_stones
+sidewalk:right:surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.1149856140086965,42.88848821949582 -0.11490647243216559,42.888507833177165 -0.11477864216723538,42.88852619631612</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place Georges Clemenceau</name>
+      <description>lit: yes
+ref: D 920a
+name: Place Georges Clemenceau
+lanes: 2
+oneway: no
+highway: living_street
+surface: asphalt
+sidewalk: both
+smoothness: excellent
+cycleway:both: no
+sidewalk:left:surface: concrete
+sidewalk:right:surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11477864216723538,42.88852619631612 -0.11463850498291274,42.888527381034585 -0.11437278332187019,42.88852277379602 -0.11425959559607113,42.88851040006789</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place Georges Clemenceau</name>
+      <description>name: Place Georges Clemenceau
+highway: living_street
+surface: asphalt
+smoothness: excellent
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11425959559607113,42.88851040006789 -0.11416167923010209,42.888478017746344 -0.1141466773648573,42.88847420031708</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

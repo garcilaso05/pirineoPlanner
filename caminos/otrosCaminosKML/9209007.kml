@@ -1,0 +1,342 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Les Bariattes : boucle locale</name>
+    <Placemark>
+      <name>Avenue Élie Samson</name>
+      <description>lit: yes
+name: Avenue Élie Samson
+highway: pedestrian
+surface: paving_stones
+maxspeed: 20
+access:conditional: no @ Fr 00:00-14:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24533026341915495,44.55609280908662 -0.2452814848992273,44.55608282341571 -0.2451134999410969,44.55604819360778 -0.24502986678814537,44.55603097471225 -0.24450713712431627,44.55592337250244 -0.24447488760561634,44.55591658734752 -0.24438523574026122,44.555897832150976 -0.24408232382645612,44.5558342692727 -0.2437825560161454,44.55577141044665 -0.24361484055260033,44.555736076331335 -0.2435775604683094,44.55572833098797 -0.24344056738748115,44.55569958999407</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Arthur Gibaud</name>
+      <description>lit: yes
+name: Avenue Arthur Gibaud
+width: 6.5
+highway: residential
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+source:width: ARCore</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24344056738748115,44.55569958999407 -0.24339142954143977,44.55578920551836 -0.24336744452335382,44.55583292504191 -0.24333717129827895,44.555883173648446 -0.2432797689516237,44.55597099658653 -0.24313361305489747,44.556180119623455 -0.24305662743504844,44.55629021776759 -0.2430238389271781,44.55633720144708 -0.24295457881877247,44.55641951881042 -0.24271427948027052,44.55652948848116</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Arthur Gibaud</name>
+      <description>lit: yes
+ref: N 524
+name: Avenue Arthur Gibaud
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+old_name: Allée Marine
+cycleway:left: track
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24271427948027052,44.55652948848116 -0.24267807737432046,44.55653909001414 -0.24128092761292938,44.55690868381948 -0.24101475679424478,44.55693928049967</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Salvador Allende</name>
+      <description>ref: N 524
+name: Boulevard Salvador Allende
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+old_name: Allée Marine
+cycleway:both: no
+name:etymology:wikidata: Q440</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24101475679424478,44.55693928049967 -0.24088665703472936,44.556928910915296 -0.24083886666161422,44.55692507032802 -0.24026771780397096,44.55687898326097 -0.2396501260461388,44.55682918358358 -0.23942779301331926,44.55678776916647 -0.23932960715276497,44.55676952633041 -0.2389390196672298,44.55669668294908</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Salvador Allende</name>
+      <description>ref: N 524
+name: Boulevard Salvador Allende
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 80
+old_name: Allée Marine
+shoulder: no
+cycleway:both: no
+name:etymology:wikidata: Q440</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2389390196672298,44.55669668294908 -0.2384277884390374,44.5564739275792 -0.23820428759634846,44.55626800612389</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Salvador Allende</name>
+      <description>ref: N 524
+name: Boulevard Salvador Allende
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 80
+old_name: Allée Marine
+cycleway:both: no
+name:etymology:wikidata: Q440</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.23820428759634846,44.55626800612389 -0.2380107904841491,44.55604032028444 -0.23787927712655396,44.555790613761204 -0.2378219646114272,44.555532712717856 -0.237847656428553,44.55514729927401 -0.2379199708089246,44.5547929931836</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Bariattes</name>
+      <description>name: Chemin des Bariattes
+source: Bing
+highway: unclassified
+surface: asphalt
+tracktype: grade1
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2379199708089246,44.5547929931836 -0.2374703640092228,44.554905590420695 -0.2373970614820386,44.554914872161625 -0.23731720125328037,44.5549173686296 -0.23723347826880045,44.55491122347743 -0.2371240634671947,44.55489918921919 -0.23680219710089467,44.55485969379037 -0.23666664132452103,44.554848107606006 -0.23638466015683593,44.554830120210234 -0.23622179559582507,44.55482538331505 -0.23609683993980407,44.55482397504884 -0.23589723428367265,44.554825895411845 -0.23537154017940592,44.554815589462976 -0.23530219023947194,44.55481341305118</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: compacted
+tracktype: grade2
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.23530219023947194,44.55481341305118 -0.23477110624350042,44.554812900954275 -0.23366590894944822,44.55478287926534 -0.23348022718022074,44.554786912030416 -0.23287404402649683,44.55480413129408 -0.23226247098106828,44.55484228250692 -0.2320611585258971,44.55486110205572</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>lit: no
+source: Bing
+highway: track
+surface: compacted
+tracktype: grade2
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2320611585258971,44.55486110205572 -0.23194078427782508,44.55487147200858 -0.2316268230860253,44.554901621675846 -0.23157651743011462,44.55490347802428 -0.23151875575734573,44.55490117359174 -0.23146566532405427,44.55489253196889 -0.23140709516752966,44.55487262422545 -0.23137062356699442,44.55484522706258 -0.23134762669572098,44.55481341305118 -0.23129561424077047,44.55471547443609 -0.23107229306113833,44.55433178392096 -0.23103510280837578,44.55426297028943 -0.2310088720020795,44.554174888722336 -0.23099961935465305,44.554118173340406 -0.23100563806705665,44.554029579450344 -0.23102665864470504,44.553754579059714 -0.23102980274819948,44.55351708931536 -0.2310337553354496,44.55332178368079 -0.2310360011236599,44.553200797560685 -0.23103869606951224,44.55313998433654</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Bas</name>
+      <description>lit: no
+name: Route du Bas
+highway: unclassified
+surface: asphalt
+maxspeed: 50
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.23103869606951224,44.55313998433654 -0.23113014456543562,44.55313620751315 -0.23145192110020724,44.553117707476424 -0.23179525720179772,44.55304889240929 -0.2320025883693725,44.552986030574516</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Bas</name>
+      <description>lit: no
+name: Route du Bas
+width: 5.2
+highway: unclassified
+surface: asphalt
+maxspeed: 50
+sidewalk: right
+source:width: ARCore
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2320025883693725,44.552986030574516 -0.23302909324453588,44.55267428096082 -0.23334431207773343,44.55257781108083</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Bas</name>
+      <description>lit: yes
+name: Route du Bas
+width: 5
+highway: unclassified
+surface: asphalt
+maxspeed: 50
+sidewalk: right
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.23334431207773343,44.55257781108083 -0.23417273843274847,44.552324184794074 -0.2343498862067768,44.552269900175155</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Bas</name>
+      <description>lit: yes
+name: Route du Bas
+width: 3.1
+oneway: no
+highway: unclassified
+surface: asphalt
+maxspeed: 50
+sidewalk: right
+source:width: ARCore
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2343498862067768,44.552269900175155 -0.23455263596640258,44.55220786969368 -0.23489022285017472,44.55212247364921</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Bas</name>
+      <description>lit: yes
+name: Route du Bas
+width: 5
+highway: unclassified
+surface: asphalt
+maxspeed: 50
+sidewalk: right
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.23489022285017472,44.55212247364921 -0.23536129938516695,44.552003405491995 -0.23578144144354965,44.551909623142905</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Bas</name>
+      <description>lit: yes
+name: Route du Bas
+width: 4.9
+source: adresse.data.gouv.fr - 2025-01
+highway: unclassified
+surface: asphalt
+maxspeed: 50
+sidewalk: no
+source:width: ARCore
+cycleway:both: no
+lane_markings: no
+ref:FR:FANTOIR: 332270082</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.23578144144354965,44.551909623142905 -0.23580380949412427,44.551904629948744</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Bas</name>
+      <description>lit: yes
+foot: yes
+name: Route du Bas
+width: 5
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+source:width: ARCore
+cycleway:both: no
+lane_markings: no
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.23580380949412427,44.551904629948744 -0.23592750750874752,44.55187697532721 -0.2359794301321696,44.551845799846895</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-Pey</name>
+      <description>lit: yes
+ref: D 224
+foot: yes
+name: Route de Saint-Pey
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+shoulder: no
+sidewalk: no
+cycleway:both: no
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2359794301321696,44.551845799846895 -0.2361128299518614,44.55186820522457</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-Pey</name>
+      <description>lit: yes
+ref: D 224
+name: Route de Saint-Pey
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+sidewalk: right
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2361128299518614,44.55186820522457 -0.23693703422504106,44.55191628073444 -0.23750153554958173,44.55194931261966</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-Pey</name>
+      <description>lit: yes
+ref: D 224
+name: Route de Saint-Pey
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 70
+shoulder: no
+sidewalk: right
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.23750153554958173,44.55194931261966 -0.23806720468399178,44.55198157630341 -0.23824309481662242,44.55196858121072</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Salvador Allende</name>
+      <description>foot: yes
+name: Boulevard Salvador Allende
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 80
+sidewalk: no
+lane_markings: no
+cycleway:right: no
+name:etymology:wikidata: Q440</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.23824309481662242,44.55196858121072 -0.23833418398643214,44.55207388618867 -0.23840748651361626,44.55217842279595 -0.2384362326027081,44.552261386191425</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Salvador Allende</name>
+      <description>ref: N 524
+name: Boulevard Salvador Allende
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 80
+old_name: Allée Marine
+cycleway:both: no
+name:etymology:wikidata: Q440</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2384362326027081,44.552261386191425 -0.23816431256620513,44.553594609659214 -0.23796668320369885,44.55456382928792 -0.2379199708089246,44.5547929931836</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

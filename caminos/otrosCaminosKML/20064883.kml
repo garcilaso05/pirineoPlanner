@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Carré Grand</name>
+      <description>name: Rue Carré Grand
+access: yes
+oneway: yes
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8624916312726065,42.72137359203883 1.8624399781437697,42.72129037131563 1.862371167193006,42.721236518670786 1.8622951697199697,42.72112689935592 1.8622844797680886,42.7210692847919 1.862300739274731,42.72100322266583</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue En Malet</name>
+      <description>name: Rue En Malet
+access: yes
+oneway: yes
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.862300739274731,42.72100322266583 1.8622047992023871,42.72097517428933 1.8621256576258565,42.720953989507144 1.8620827181552755,42.720967320741636 1.8620552297075814,42.72098599766435 1.861986059430704,42.721073706530106 1.8619600082874648,42.72109238342079 1.861899012679673,42.721114492100384</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue En Malet</name>
+      <description>name: Rue En Malet
+highway: service
+service: alley
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.861899012679673,42.721114492100384 1.8617534856036455,42.721177122317116 1.8616615879500802,42.72120167281686</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Mairie</name>
+      <description>name: Place de la Mairie
+highway: service
+service: alley
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8616615879500802,42.72120167281686 1.861605263581766,42.721072716588736 1.8615738225468217,42.72097920005709</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Courneilh</name>
+      <description>name: Rue du Courneilh
+highway: service
+service: alley
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8615738225468217,42.72097920005709 1.8614538076248632,42.72100361864281</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: alley
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8614538076248632,42.72100361864281 1.8614069155670323,42.720895582827204</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: alley
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8614069155670323,42.720895582827204 1.8614530889726362,42.720879611725486 1.8615577427032362,42.720859878829685 1.861722583557872,42.72086179272286 1.8617614806096745,42.720885485395605 1.8617889690573683,42.72093029686055</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: alley
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8617889690573683,42.72093029686055 1.8618487070237622,42.72092442319468</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue En Barré</name>
+      <description>name: Rue En Barré
+access: yes
+oneway: yes
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8618487070237622,42.72092442319468 1.861892095651985,42.720871428184175 1.8619566845209137,42.720787480827084 1.862050378805047,42.72066730127619 1.862126286446555,42.72061747388178 1.8621476663503171,42.72060572649025 1.8622912171327195,42.72060222867099</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Llabinet</name>
+      <description>name: Rue du Llabinet
+access: yes
+oneway: yes
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8622912171327195,42.72060222867099 1.8626191920429516,42.72060321861986 1.8628867103345623,42.720627769346684 1.8630019641855147,42.720641628623675 1.8630758057018695,42.720648030288665 1.8631307825972576,42.720646974343964 1.8631844120197196,42.72063819680299 1.8632111818151862,42.720627769346684 1.8632354363278578,42.72060572649025</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

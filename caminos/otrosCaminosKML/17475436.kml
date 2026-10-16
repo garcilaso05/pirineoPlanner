@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Liaison Boucle des Puys Longs - Boucle du Viaduc</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2059869214575314,45.18074486944292 1.2064818033475528,45.18057732504291 1.2067955848762957,45.18041091991271 1.207065798113759,45.18035659119183 1.207273668270504,45.180329616772696 1.207530496610234,45.1803489927652 1.2077946911352935,45.18041471912203 1.2078080760330268,45.180474493315145</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Iris</name>
+      <description>name: Route des Iris
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2078080760330268,45.180474493315145 1.2079416555157756,45.180395216511535 1.2079604303052136,45.18031321682617</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2079604303052136,45.18031321682617 1.2079952849382376,45.18016067810116 1.208499599138742,45.17983552673595 1.2085102890906232,45.179472507448324 1.2083279310879471,45.178897801328375</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2083279310879471,45.178897801328375 1.2089448041935515,45.178825930994556 1.2094437285023518,45.178795726430714 1.2099264831360375,45.178844800923585 1.2106560948097993,45.178939403762094 1.2109994309113898,45.17894687573327 1.2112675780236997,45.178841128253325</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2112675780236997,45.178841128253325 1.2113245312127128,45.17882840054938 1.2114774244740698,45.178868103377646 1.2118876850643272,45.17904401126934 1.2119561366889773,45.17913380133717 1.212096992525527,45.17937480275147 1.2121479270021367,45.17940886960582 1.2122512332598105,45.17942868916043 1.2124819206247723,45.179366317695354 1.2125944795298724,45.17935219703947 1.2128983795904904,45.179102773755694</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2128983795904904,45.179102773755694 1.212980305944402,45.17908757656676 1.2130955597953543,45.17902241857323 1.213401436149597,45.178813519896885 1.2138775432501805,45.17869998355642 1.214101403418983,45.178641473942875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.214101403418983,45.178641473942875 1.2146303314582725,45.17867250177573 1.214831464250387,45.17881801575401 1.2148891360916274,45.17904312476585 1.215075536513082,45.17927849095814 1.2165897367559941,45.17929261163232 1.2168551889224515,45.179248223312925 1.2170724015581516,45.17911391835833 1.2186094190092802,45.17876792808631</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Trassalvas</name>
+      <description>name: Route de Trassalvas
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2186094190092802,45.17876792808631 1.2196983567966897,45.17856251119811 1.2199627309848062,45.17852819054835 1.2200145637766997,45.17855269625425</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

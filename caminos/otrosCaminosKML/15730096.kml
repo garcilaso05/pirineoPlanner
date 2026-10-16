@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Route de Portet</name>
+      <description>foot: designated
+name: Route de Portet
+bicycle: designated
+highway: path
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3590370286632811,43.52279971991902 1.3589430648845624,43.52280877394423 1.3588055328145636,43.52282551411675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Portet</name>
+      <description>foot: designated
+name: Route de Portet
+bicycle: designated
+highway: path
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3588055328145636,43.52282551411675 1.358817839733956,43.52287058879943 1.3588304161479337,43.52292602019107 1.3593044571233635,43.52284740009405 1.3594312992414814,43.52283990935866 1.359489869398006,43.52277288351978</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Portet</name>
+      <description>name: Route de Portet
+highway: tertiary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.359489869398006,43.52277288351978 1.359760891119225,43.52273588574592 1.3599286964142983,43.52272507301194 1.3599901411797322,43.52272109965741 1.3602028622390114,43.52271478137179</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3602028622390114,43.52271478137179 1.360404713683353,43.522853783502605</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

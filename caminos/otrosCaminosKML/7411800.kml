@@ -1,0 +1,822 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Andoain-Urnieta</name>
+    <Placemark>
+      <name>La Salle etorbidea</name>
+      <description>lit: yes
+name: La Salle etorbidea
+lanes: 2
+highway: residential
+name:es: Avenida La Salle
+name:eu: La Salle etorbidea
+surface: asphalt
+maxspeed: 30
+sidewalk: separate
+smoothness: good
+parking:both: separate
+maxspeed:type: ES:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.0197159401090747,43.219587275958254 -2.019647398652896,43.21957221938826 -2.0195864030451043,43.21955650818084 -2.019431443658594,43.219514677071324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>La Salle etorbidea</name>
+      <description>lit: yes
+name: La Salle etorbidea
+lanes: 2
+highway: residential
+name:es: Avenida La Salle
+name:eu: La Salle etorbidea
+surface: asphalt
+maxspeed: 30
+sidewalk: separate
+smoothness: good
+parking:both: separate
+maxspeed:type: ES:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.019431443658594,43.219514677071324 -2.0193083744646696,43.21948050515775 -2.019243156775042,43.219462502705156 -2.0191969833694388,43.21945130845014 -2.0191520676052326,43.21944319097737 -2.019096282226089,43.21943612091957 -2.018838375908018,43.21941222673667 -2.0186694028030754,43.21940011598286</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: gravel
+stroller: no
+smoothness: horrible
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.0097340403349953,43.22525842862208 -2.009749671020939,43.22524730088848 -2.009771230587758,43.22523558403738 -2.0098757944868293,43.22517398871049 -2.0099992230068673,43.22511828448775 -2.0100473727060963,43.22508306839587 -2.0100393777000676,43.22505767090435 -2.0100111706001464,43.22505177973211 -2.0099080440055292,43.225066507661616 -2.0097564083855697,43.22509478527628 -2.009706911213415,43.225085032119</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: designated
+bicycle: designated
+highway: path
+railway: abandoned
+surface: asphalt
+segregated: yes
+smoothness: excellent
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.009706911213415,43.225085032119 -2.009791891839293,43.22502952418745 -2.0100313826940392,43.224830925820335</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+foot: designated
+tunnel: yes
+bicycle: designated
+highway: path
+railway: abandoned
+surface: concrete
+segregated: yes
+smoothness: good
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.0100313826940392,43.224830925820335 -2.0103554050170205,43.22457721121035 -2.0109979699397513,43.224016691934246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+bicycle: designated
+highway: path
+railway: abandoned
+surface: asphalt
+stroller: yes
+segregated: yes
+smoothness: good
+wheelchair: yes
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.0109979699397513,43.224016691934246 -2.0110332737304173,43.22399351959117</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: designated
+footway: crossing
+highway: footway
+railway: abandoned
+surface: asphalt
+crossing: uncontrolled
+stroller: yes
+segregated: yes
+smoothness: good
+wheelchair: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+crossing:markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.0110332737304173,43.22399351959117 -2.011065702912174,43.2239759112229 -2.011107115246772,43.223949531390275</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+bridge: yes
+bicycle: designated
+highway: path
+railway: abandoned
+surface: concrete
+stroller: yes
+segregated: no
+smoothness: good
+wheelchair: yes
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.011107115246772,43.223949531390275 -2.0112058400964967,43.22385579452296 -2.011610171805879,43.22351547349774</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plazaolako Bide Berdea</name>
+      <description>dog: leashed
+lit: yes
+foot: designated
+name: Plazaolako Bide Berdea
+bicycle: designated
+highway: path
+name:es: Vía Verde del Plazaola
+name:eu: Plazaolako Bide Berdea
+railway: abandoned
+surface: paved
+stroller: yes
+segregated: yes
+smoothness: intermediate
+wheelchair: yes
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.011610171805879,43.22351547349774 -2.011742942804872,43.22340582936984 -2.0120549277030464,43.22320467279439 -2.012276362420582,43.223071920873714 -2.0135338241552923,43.222366196860555 -2.013571912723339,43.22234479132039 -2.0142054944932286,43.22199248254285 -2.014219957369303,43.221984496329945 -2.0145995854083716,43.22176461322105 -2.015913012185283,43.221034325910004 -2.015958377107131,43.221008206651796 -2.0159654737978756,43.221004017095545 -2.0159931419086266,43.220987586176875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Geltoki auzoa</name>
+      <description>lit: no
+foot: yes
+name: Geltoki auzoa
+horse: yes
+lanes: 1
+width: 4.2
+bicycle: yes
+highway: living_street
+surface: asphalt
+sidewalk: both
+smoothness: good
+parking:both: no
+cycleway:both: track
+motor_vehicle: private
+sidewalk:both:surface: asphalt
+cycleway:both:segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.0159931419086266,43.220987586176875 -2.016035542390037,43.22093776969918 -2.0164223569513786,43.220717293656065 -2.0165561160971843,43.22064351779497</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Geltoki auzoa</name>
+      <description>lit: yes
+foot: yes
+name: Geltoki auzoa
+horse: yes
+lanes: 1
+width: 4.2
+bicycle: yes
+highway: living_street
+surface: asphalt
+sidewalk: both
+smoothness: good
+parking:both: no
+cycleway:both: track
+motor_vehicle: private
+sidewalk:both:surface: asphalt
+cycleway:both:segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.0165561160971843,43.22064351779497 -2.0167199688050075,43.22055311442198 -2.0168375582756988,43.22048817578314 -2.0169920685045675,43.220463300076545</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Geltoki auzoa</name>
+      <description>lit: yes
+foot: yes
+name: Geltoki auzoa
+horse: yes
+lanes: 1
+width: 4.2
+bicycle: yes
+highway: living_street
+surface: asphalt
+sidewalk: both
+smoothness: good
+parking:both: no
+cycleway:both: track
+motor_vehicle: private
+sidewalk:both:surface: asphalt
+cycleway:both:segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.0169920685045675,43.220463300076545 -2.0170518963024895,43.22046369285094</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>San Juan kalea</name>
+      <description>lit: yes
+name: San Juan kalea
+oneway: yes
+highway: residential
+name:es: Calle San Juán
+name:eu: San Juan kalea
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9906448405474557,43.24791080542574 -1.990672239163621,43.24782076965882 -1.9906753832671154,43.24781579674921 -1.9910006632314952,43.24730548245856 -1.9910120718356035,43.24726131478141</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>oneway: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9910120718356035,43.24726131478141 -1.9910356975275756,43.24709897375516</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>San Juan kalea</name>
+      <description>name: San Juan kalea
+highway: residential
+name:es: Calle San Juan
+name:eu: San Juan kalea</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9910356975275756,43.24709897375516 -1.9912296437974173,43.246693282882184 -1.9912593780333219,43.24664499240154 -1.9913902625702178,43.24643278865688 -1.991443083508924,43.24634720025834 -1.9915332743634497,43.246201019183346 -1.9916206804405947,43.246059418201476 -1.9916711657595618,43.24599169303139 -1.9917028762890914,43.24594922571242</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>San Juan kalea</name>
+      <description>lit: yes
+name: San Juan kalea
+highway: residential
+name:es: Calle San Juan
+name:eu: San Juan kalea
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9918318743638908,43.24582378663281 -1.9918855037863528,43.24576921368186 -1.9920507937986307,43.24558828502352 -1.992188415700158,43.24543477334264 -1.9925837642566988,43.244821900602915 -1.9926244579390697,43.24477517910973</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9926244579390697,43.24477517910973 -1.992555377493721,43.244751033113914 -1.9922975610071785,43.24468062359721 -1.9921894038469705,43.244656804746 -1.9921408948216281,43.24464731646477 -1.9917940552904296,43.244579720597756 -1.9916771844719656,43.24457448567752 -1.991593730982071,43.24458030952624</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.991593730982071,43.24458030952624 -1.9915508813430183,43.24451788307385 -1.9915348014994327,43.24443981720007 -1.99153210655358,43.24431182297763 -1.9915146792370684,43.24426778400354 -1.9914341901876114,43.2441456787469 -1.991424937540185,43.24408220485657 -1.9914597023416802,43.243972794036765 -1.9916286754466233,43.24373152677977 -1.991706469550228,43.243521472327984 -1.9917708787560995,43.24331429641782 -1.9921597594425946,43.24263831958133 -1.9923381648580207,43.24226021426185 -1.9926815009596113,43.24165548954034 -1.9927055758092258,43.24159692103348 -1.9927230031257375,43.241509886165076 -1.9927592950632163,43.241389804018475 -1.9929189256892041,43.24095501959613 -1.9929724652801373,43.240887615953646 -1.9930275320070543,43.24082799966014 -1.9930596916942256,43.24077041196668 -1.9930583442212995,43.24072839909233 -1.9930505288783273,43.240670026016346</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9930505288783273,43.240670026016346 -1.9930404677471454,43.24061472860017</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9930404677471454,43.24061472860017 -1.99300570294565,43.240621468997965 -1.992995641814468,43.240619571216136</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.992995641814468,43.240619571216136 -1.9925772065551248,43.2405388827134</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9925772065551248,43.2405388827134 -1.9925543893469084,43.24053449817694</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9925543893469084,43.24053449817694 -1.9925269008992141,43.24051296813511 -1.992514863474407,43.240469515383126 -1.9933255031867967,43.23734070491075 -1.9933294557740469,43.23732512917122 -1.9933624239449739,43.237292930571 -1.9933952124528442,43.23728749869166</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9933952124528442,43.23728749869166 -1.9936205997576297,43.237315770636734 -1.9936674918154607,43.23731092775818 -1.9937044125736383,43.237279187260846 -1.9940033719001933,43.23689182097269 -1.9941066781578671,43.236815577782544 -1.994313200841686,43.23673789470872 -1.9944701365218218,43.236702292660325 -1.994627431528071,43.23669129790588</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: concrete
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.994627431528071,43.23669129790588 -1.9951663308670142,43.23678121923219 -1.9952134924194302,43.23678468781054</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: no
+highway: steps
+incline: up
+surface: concrete
+handrail: yes
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9952134924194302,43.23678468781054 -1.9953208410958827,43.236799412905086</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: concrete
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9953208410958827,43.236799412905086 -1.9953337768359742,43.23680203069929</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: concrete
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9953337768359742,43.23680203069929 -1.9951200676298821,43.2376384101921</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: concrete
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9951200676298821,43.2376384101921 -1.9951592341762696,43.237645020031245</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: uncontrolled
+smoothness: good
+crossing:markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9951592341762696,43.237645020031245 -1.9952132229248452,43.23765490206667</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: concrete
+crossing: uncontrolled
+smoothness: good
+crossing:markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9952132229248452,43.23765490206667 -1.995249784356909,43.237658894146755</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: asphalt
+stroller: yes
+smoothness: excellent
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.995249784356909,43.237658894146755 -1.995269277798574,43.23765869781495 -1.9952877830934272,43.23759580616208 -1.9952904780392797,43.23758526967696 -1.9954607087856204,43.23759417006203</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+foot: designated
+width: 3
+bicycle: designated
+highway: path
+surface: concrete
+stroller: yes
+mtb:scale: 0
+segregated: yes
+wheelchair: yes
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9954607087856204,43.23759417006203 -1.995516314501707,43.23757427508183 -1.9956077629976305,43.23754633047696 -1.9956816943455136,43.23750608237015 -1.9957026250916337,43.2374473789862 -1.9957915583047614,43.23713880898679 -1.9958344977753424,43.23705281486337 -1.995917681770652,43.236982527339016 -1.995928371722533,43.23697702998732 -1.996046410350866,43.2369159700834 -1.9961456741897616,43.236872972879624 -1.9962260734076898,43.236814399775426 -1.9962931775594137,43.236742083183636 -1.9963415069216994,43.23664640263799 -1.9963628868254615,43.23654672978942 -1.9963602817111377,43.23642159857602 -1.9963388119758474,43.236323888720804 -1.9963011725654427,43.23621452941371 -1.9962530228662136,43.23608939751816 -1.9961725338167566,43.23593900329949 -1.9960785700380377,43.2358079807055 -1.9959149868247994,43.235591092535664 -1.9958579438042579,43.23549390491882 -1.9958336892915867,43.235458825714005 -1.9957915583047614,43.23539769884242 -1.995765956319164,43.23533140164151 -1.995756793503266,43.2352745941109 -1.9957674834551469,43.2352160194703 -1.9957888633589094,43.23515541592815 -1.9958344977753424,43.23508892212356 -1.9958882170293328,43.23504009887046 -1.9959526262352039,43.235004888510844 -1.9960438052365423,43.2349775971958 -1.9961280672101924,43.23496208629908 -1.9962073884497804,43.234961889958576 -1.9964043889915877,43.23496902366266 -1.9964857763563288,43.23496503140635 -1.9965842317114681,43.2349510257838 -1.9966552884504425,43.23492942832216 -1.9967185298464445,43.23490167884506 -1.997130227741156,43.23466076834893 -1.997403405419057,43.23450068440101 -1.9974705095707808,43.234448784649786 -1.9975371645648625,43.23438602057886 -1.997584326117279,43.23437437093189 -1.9976522387527582,43.234379999413285</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+segregated: yes
+footway:surface: paving_stones
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9976522387527582,43.234379999413285 -1.9976978731691915,43.2344214930857 -1.9977062275013338,43.23442908498485</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: designated
+bicycle: designated
+footway: crossing
+highway: footway
+crossing: uncontrolled
+segregated: yes
+footway:surface: paving_stones
+cycleway:surface: asphalt
+crossing:markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9977062275013338,43.23442908498485 -1.997753838211392,43.234467895282116 -1.9978188762379625,43.23452791048234</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+segregated: yes
+footway:surface: paving_stones
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9978188762379625,43.23452791048234 -1.9978523833980601,43.234558932492874 -1.9984821922437563,43.23511071586869 -1.9987089270214682,43.23531837779989</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: designated
+bicycle: designated
+footway: crossing
+highway: footway
+crossing: uncontrolled
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: paving_stones
+crossing:markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9987089270214682,43.23531837779989 -1.998761029307947,43.23537008047134 -1.9987929195005332,43.2354037853538</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+segregated: yes
+footway:surface: paving_stones
+cycleway:surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9987929195005332,43.2354037853538 -1.9988002856858629,43.23541137713058</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+width: 2
+footway: sidewalk
+highway: footway
+surface: paving_stones
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9988002856858629,43.23541137713058 -1.9988231028940797,43.2354031963366 -1.9988619999458817,43.23540018580414 -1.9989002681769856,43.23540502883454 -1.9989425788268675,43.23542080140388 -1.9989844403191073,43.23544017351665 -1.999019474615188,43.23546281793796 -1.999049119019564,43.2354865749374 -1.9990796617392244,43.23551857815341</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: paving_stones
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9990796617392244,43.23551857815341 -1.9991013111375713,43.23553559417143</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: paving_stones
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9991013111375713,43.23553559417143 -1.9991128994047365,43.235544625748304</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: paving_stones
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9991128994047365,43.235544625748304 -1.9991529642664083,43.23552237403476</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+crossing: uncontrolled
+cycleway: crossing
+segregated: yes
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9991529642664083,43.23552237403476 -1.9991690441099943,43.23549992597434 -1.9991786560835338,43.23548631315233</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9991786560835338,43.23548631315233 -1.9991889867093013,43.235469886137096 -1.9991961732315744,43.23546131267322</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+crossing: uncontrolled
+cycleway: crossing
+segregated: yes
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9991961732315744,43.23546131267322 -1.9992101869500065,43.23544089342613 -1.9992292312340298,43.23542008149416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+segregated: yes
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9992292312340298,43.23542008149416 -1.9992450415830305,43.235409086508376 -1.9993239136649763,43.23538258073089 -1.9993787108973076,43.235339320659435 -1.9993864364087508,43.23532740940895 -1.9994078163125129,43.23529442439546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+crossing: uncontrolled
+cycleway: crossing
+segregated: yes
+cycleway:surface: asphalt
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9994078163125129,43.23529442439546 -1.999425962281252,43.235266413298554 -1.9994547982018724,43.2352245929687</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9994547982018724,43.2352245929687 -1.9995218125220675,43.23512727387405 -1.9995455280455685,43.23509160543795</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+crossing: uncontrolled
+cycleway: crossing
+segregated: yes
+tactile_paving: no
+crossing:island: no
+crossing:markings: lines</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9995455280455685,43.23509160543795 -1.999564841824177,43.23506248165355 -1.9996008642670702,43.23500822629674</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2026-03-27
+check_date:cycleway:surface: 2026-03-27</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9996008642670702,43.23500822629674 -1.9997603152300014,43.23471463133252 -1.9998746707656696,43.234519795017064 -1.9999120406814894,43.234427972378995 -1.9999332409221946,43.23434910820664 -1.9999477936297974,43.234249824286024 -1.9999475241352123,43.23414772595243 -1.9999123101760745,43.23401637226781 -1.9998760182385962,43.23389300295392 -1.9998123276849518,43.23372100542469 -1.9997972359881788,43.233629116134786 -1.9997975953142926,43.233534085184964 -1.999817627745128,43.23343381820946 -1.9998658672758856,43.233324322818675 -1.999905393148387,43.23325638714558</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+layer: -1
+tunnel: yes
+highway: cycleway
+surface: asphalt
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.999905393148387,43.23325638714558 -1.9999655802724225,43.23315271637709</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+segregated: yes
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9999655802724225,43.23315271637709 -1.9999972908019519,43.23307620671326 -2.000013370645538,43.23301749906175 -2.000013370645538,43.232968674149106 -2.000002680693657,43.23291788572661 -1.9999804923061393,43.23283182019751 -1.9999714193217695,43.23279379424823 -1.999962795495042,43.23277402859912 -1.9999488716081382,43.23275511378321 -1.9999285696827171,43.23273390823868 -1.9998999134251534,43.23271028106463 -1.9998641604768455,43.23268580304085 -1.9997955291891392,43.23264247560567 -1.9997733408016214,43.23262578602652 -1.9997595067462457,43.23261099447409 -1.9997556439905242,43.232603009652266 -1.999756721968865,43.23258998522754 -1.999769837372013,43.23258101866217</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+crossing: uncontrolled
+cycleway: crossing
+segregated: yes
+crossing:markings: lines</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.999769837372013,43.23258101866217 -1.9997913071073037,43.23256707794112 -1.9998346059039984,43.23253782205137 -1.999857512943743,43.23252401221933 -1.9998890438102157,43.232505031876364</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+segregated: yes
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.9998890438102157,43.232505031876364 -1.9999106932085633,43.23248801501212 -1.9999257849053362,43.232474925113316 -1.9999334205852513,43.23244926890351 -1.9999354867104047,43.23240070533394 -1.9999572259402807,43.23238309939418 -2.0001515315362357,43.232391215143984 -2.000275499045444,43.2323798923637 -2.000386261319976,43.232346120359146 -2.000476092848388,43.23230128733969 -2.0005458021144356,43.23224781492153 -2.0006046417655456,43.23217752185492 -2.0006600678185755,43.232084779388806 -2.0008048762423756,43.2318356764841</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+crossing: uncontrolled
+cycleway: crossing
+segregated: yes
+tactile_paving: no
+cycleway:surface: asphalt
+crossing:markings: dots</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.0008048762423756,43.2318356764841 -2.0008319155324275,43.23178920683322 -2.000864524377241,43.231732723252144</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+segregated: yes
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.000864524377241,43.231732723252144 -2.0009200402617995,43.2316530701873 -2.000987503739637,43.23155247286461 -2.0010246041608717,43.231497298075155 -2.001147942849381,43.23134290002994 -2.0012578068086286,43.23122993198816 -2.0014268697451003,43.231064406593944 -2.0016859438730403,43.230806201789655</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+crossing: uncontrolled
+cycleway: crossing
+segregated: yes
+cycleway:surface: asphalt
+crossing:markings: lines</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.0016859438730403,43.230806201789655 -2.0017109170379386,43.23078041397472 -2.0017211578321774,43.230769810859826 -2.001761582019963,43.23073093275612</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+segregated: yes
+smoothness: excellent
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.001761582019963,43.23073093275612 -2.00180191637622,43.23069192372478 -2.001856174619381,43.230626472273826 -2.0022996728751505,43.2301895165863 -2.0027087656555387,43.229796410874854 -2.0027363439347607,43.22978279677882 -2.0028695640913963,43.229700392161455 -2.002939542852029,43.22964462662247 -2.003025331961662,43.229554825670796 -2.003080758014692,43.22948407132923 -2.003161336895678,43.22936861263433 -2.0034768252234607,43.22906320893233 -2.003967485031647,43.228592271592035 -2.0050177952618395,43.22759141129861 -2.0053481956233385,43.2272702240172 -2.0054648867787455,43.22718578689234 -2.005592267886034,43.22711221522465 -2.005585081363761,43.22710049873201 -2.0055770863577322,43.22709349501745</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,363 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tour Igaüt-Chechit asp21</name>
+    <Placemark>
+      <name>Chemin de Chichit</name>
+      <description>name: Chemin de Chichit
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5386319104832186,42.998312987722855 -0.5387285692077898,42.99835437897646</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Capdarest</name>
+      <description>name: Route de Capdarest
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5387285692077898,42.99835437897646 -0.5387382710128583,42.99810622813853</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Bordenave</name>
+      <description>name: Chemin de Bordenave
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5387382710128583,42.99810622813853 -0.5388202871982984,42.998098803965114</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Bordenave</name>
+      <description>name: Pont de Bordenave
+layer: 1
+bridge: yes
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5388202871982984,42.998098803965114 -0.5389709346714453,42.998031395057446</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Bordenave</name>
+      <description>name: Chemin de Bordenave
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5389709346714453,42.998031395057446 -0.5390525016992433,42.99799723067055</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier de Cazaubon</name>
+      <description>name: Sentier de Cazaubon
+highway: path
+name:oc: Sendèr de Casaubon
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5390525016992433,42.99799723067055 -0.5392700736610571,42.99824617035463 -0.5393353811822125,42.99829032107216 -0.5395285189682982,42.99826128146688 -0.5407549888257066,42.9983030012575</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Capdarestet</name>
+      <description>name: Chemin de Capdarestet
+highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5407549888257066,42.9983030012575 -0.5408752732422503,42.99839031707404</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Capdarestet</name>
+      <description>name: Chemin de Capdarestet
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5408752732422503,42.99839031707404 -0.5410632007996881,42.998527367834605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont du Moulin</name>
+      <description>name: Pont du Moulin
+layer: 1
+bridge: yes
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5410632007996881,42.998527367834605 -0.5411471034472248,42.9985851839794</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Capdarestet</name>
+      <description>name: Chemin de Capdarestet
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5411471034472248,42.9985851839794 -0.5412496910526712,42.998593724996184 -0.5413344920154922,42.99854891749494 -0.5414317795607623,42.99848538539536 -0.5414969972503894,42.99845969659603 -0.5415702099460451,42.99850207325415</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Casaubon</name>
+      <description>name: Route de Casaubon
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5415702099460451,42.99850207325415 -0.5414589985138711,42.99864162036827</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Capderestet</name>
+      <description>name: Chemin de Capderestet
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5414589985138711,42.99864162036827 -0.5416715399100938,42.99870620350637</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Moulin</name>
+      <description>name: Chemin du Moulin
+highway: path
+name:oc: Camin deth Molin
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5416715399100938,42.99870620350637 -0.5416562685502637,42.99881598811537 -0.5417797869018302,42.99890041241198 -0.5418965678887657,42.9990488280732 -0.5419625940621485,42.99903161476566 -0.5419708585627624,42.99899738523519 -0.5419416633160284,42.998892528435874 -0.5420087674677522,42.99880731572969 -0.5422478989963848,42.99871500730631 -0.5424608895502496,42.99870462670625 -0.5425924927393732,42.99862118764209 -0.5426342644000846,42.99858781198469 -0.5427191551944339,42.998632422357325 -0.542986314159931,42.9986240784462 -0.5433405198764595,42.99868393120091 -0.5436091161464112,42.99865673138327 -0.5437282327530855,42.998670002793375 -0.5436863712608454,42.998703378406134 -0.5436854729455614,42.99873373180199 -0.54385920712151,42.998756595388954 -0.5437470973740519,42.99886401471389 -0.5438869650637893,42.99897097395298 -0.543705235881812,42.99898608488698 -0.5438189625967814,42.99908640825457 -0.543768028120172,42.999182526690824 -0.5437594941249728,42.999303610740654 -0.5438196812490088,42.99952357182247 -0.5438240829939011,42.999608126544935</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Laroumyaü</name>
+      <description>name: Chemin de Laroumyaü
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5438240829939011,42.999608126544935 -0.5439718558581386,42.99977408209546 -0.5440421041133567,42.9998439199465</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Eths Crets</name>
+      <description>name: Chemin d'Eths Crets
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5440421041133567,42.9998439199465 -0.5438246219830714,43.00027201175593</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Eths Crets</name>
+      <description>name: Chemin d'Eths Crets
+highway: path
+name:oc: Camin deras Crapas
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5438246219830714,43.00027201175593 -0.5437567991791205,43.00037200453277 -0.5436969713811981,43.000416613610035 -0.5436795440646861,43.000659630680055 -0.5435226982160789,43.000767375167 -0.5434361904542181,43.000873477022836 -0.543322104413135,43.00098687112567 -0.543123217409231,43.00099922226676 -0.542911933654406,43.00079910719634 -0.5426972363015015,43.000801932200226</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Guiraude</name>
+      <description>name: Chemin de Guiraude
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5426972363015015,43.000801932200226 -0.5426819649416714,43.000943510717086 -0.542546229502241,43.00100487225599</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Guiraude</name>
+      <description>name: Chemin de Guiraude
+highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.542546229502241,43.00100487225599 -0.5424609793817781,43.00109159295595 -0.5425067934612681,43.001115375429556 -0.5424981696345407,43.00114507065991</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Michel Loustau</name>
+      <description>name: Rue Michel Loustau
+highway: residential
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5424981696345407,43.00114507065991 -0.5426562731245456,43.00120643199753 -0.5427606573605602,43.00122811211286 -0.5429730190937262,43.001272326384985 -0.5430836915367296,43.00131410982836 -0.5431598686728231,43.00139491735048 -0.5432358661458595,43.001459431897544 -0.5433215654239645,43.001506273883656</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Général Loustaunau</name>
+      <description>ref: D 237
+name: Rue du Général Loustaunau
+highway: tertiary
+motor_vehicle: designated</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5433215654239645,43.001506273883656 -0.5432370339557289,43.001530910257536 -0.543184302848551,43.00154621765286 -0.5430977052551619,43.001553115834064 -0.5429940396713745,43.0015552838337 -0.542832792077875,43.00154450953168 -0.5427329892498094,43.001537808440446 -0.5426368695144086,43.00152269813401 -0.5423114997185005,43.00146442487392 -0.5422485278170838,43.00144281053904 -0.5420568273354526,43.001352805476195 -0.5419157918358458,43.00128421758796 -0.541882464338805,43.001281589697996</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Acot</name>
+      <description>name: Chemin d'Acot
+bicycle: no
+highway: pedestrian</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.541882464338805,43.001281589697996 -0.5418285654217578,43.00120058493481 -0.5417211269137772,43.001140800329 -0.5416622872626673,43.00107280348136 -0.5414756173466273,43.001061897699756 -0.5414159692117617,43.00105841573293</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Acot</name>
+      <description>name: Chemin d'Acot
+bicycle: no
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5414159692117617,43.00105841573293 -0.541243313014154,43.00109638886989 -0.5411762986939587,43.001109331265866 -0.5411207828094001,43.001132982337786 -0.5410926655410072,43.00114027474979</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Acot</name>
+      <description>name: Chemin d'Acot
+bicycle: yes
+highway: service
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5410926655410072,43.00114027474979 -0.5410214291389766,43.00121208196771 -0.5409124634950128,43.00129288962403</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Acot</name>
+      <description>name: Chemin d'Acot
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5409124634950128,43.00129288962403 -0.5408035876825775,43.00148249156137 -0.5407425022432574,43.0016791224743 -0.5407253444213307,43.00186852612985 -0.5406216788375433,43.00195432585935</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Labays</name>
+      <description>name: Chemin de Labays
+highway: path
+name:oc: Camin de Labays
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5406216788375433,43.00195432585935 -0.540438422519583,43.002071791144616 -0.5400940982711798,43.00230672104139 -0.5397559723982372,43.0023703148858</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Labays</name>
+      <description>name: Chemin de Labays
+highway: path
+name:oc: Camin de Labays
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5397559723982372,43.0023703148858 -0.5395767584990555,43.00190958650539 -0.5394021260078227,43.00173798680162 -0.5391838353937816,43.00150581400458 -0.5390046214945998,43.00141561194272 -0.5388678979083568,43.001085483092474 -0.5389020338891533,43.00085968050706 -0.5386762872582541,43.000709495377684 -0.5383122000736005,43.00064787075205 -0.5379644622271178,43.0005187084897 -0.5375677661976506,43.00031090515496 -0.5375197961614786,43.00021222624657 -0.5372132909865369,43.00007419376594 -0.537186700854127,43.00000008576645 -0.5370256329236844,42.99984050360944 -0.5369752374362453,42.99977197973183 -0.5369346335854032,42.999589730811024 -0.5369537677009548,42.99946733334124 -0.5368341121051101,42.999355973112614</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Barrada</name>
+      <description>name: Chemin de Barrada
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5368341121051101,42.999355973112614 -0.5366100722732507,42.99926550509688 -0.536299165353417,42.99918502327158 -0.5361371991076902,42.99923653165191</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Barrada</name>
+      <description>name: Chemin de Barrada
+highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5361371991076902,42.99923653165191 -0.5358521636680391,42.99929782919622 -0.5354622050032027,42.99930420203495 -0.5353221576504086,42.99924047361802 -0.5351922612603249,42.99926340271585 -0.535158933763284,42.99935511902159</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Barrada</name>
+      <description>name: Chemin de Barrada
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.535158933763284,42.99935511902159 -0.535143662403454,42.99940288240167 -0.5350740429689348,42.99939867764893 -0.5350042438713587,42.99928987957175 -0.5347908041598518,42.99913640562807 -0.5346542602366657,42.99908121798614</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Labays</name>
+      <description>name: Chemin de Labays
+highway: path
+name:oc: Camin de Labays
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5346542602366657,42.99908121798614 -0.5344972347250015,42.99917681083449 -0.5343049952542,42.999206375602846 -0.5341420408616607,42.999196980578006 -0.5339620184787232,42.999140216201525 -0.533758729729927,42.999195469489955</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Chichit</name>
+      <description>name: Chemin de Chichit
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.533758729729927,42.999195469489955 -0.5337926860476667,42.999069786254104</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Barrada</name>
+      <description>name: Pont de Barrada
+layer: 1
+bridge: yes
+highway: path
+name:oc: Pontet de Varadat
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5337926860476667,42.999069786254104 -0.5337925063846098,42.99896611217342</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Chichit</name>
+      <description>name: Chemin de Chichit
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5337925063846098,42.99896611217342 -0.5337666349044272,42.998842399464216 -0.5338046336409454,42.998692472203956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Chichit</name>
+      <description>name: Chemin de Chichit
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5338046336409454,42.998692472203956 -0.5343553907416392,42.99849418922694 -0.5349880741962445,42.99835470747836 -0.5354424420669522,42.998391368279506 -0.5364693062682292,42.998430328569285 -0.5367880285310349,42.99838177602899</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Chichit</name>
+      <description>name: Chemin de Chichit
+highway: service
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5367880285310349,42.99838177602899 -0.5370181769068262,42.998373169282395 -0.5370801606614305,42.99837086976973 -0.5377812059091573,42.99846810622973 -0.5382662063310535,42.99839800401357 -0.5386319104832186,42.998312987722855</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Chichit</name>
+      <description>name: Chemin de Chichit
+highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.533758729729927,42.999195469489955 -0.533417908911132,42.999301968256496 -0.5331298191995149,42.999325620024145 -0.5329435086095885,42.999372726434245 -0.5328776620992626,42.99941602225212 -0.5326848836392906,42.99941897871808 -0.5323800852633888,42.99950221960144 -0.5322559380911235,42.999579810252236 -0.5320394441076506,42.99958946801479 -0.5317221591492995,42.99972579341263 -0.5315683675726582,42.99992072178134 -0.5308640883899086,43.00009810803039 -0.5305797716024848,43.000115912325626 -0.5302965327934019,43.00020657618444 -0.5301819975946767,43.00028357466092</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

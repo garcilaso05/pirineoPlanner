@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Edmond Rostand</name>
+      <description>lit: yes
+name: Rue Edmond Rostand
+lanes: 2
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+smoothness: good
+cycleway:both: no
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4569425250173713,43.64514562703754 1.4570081020331118,43.645090503083956 1.4570429566661358,43.64499917142217 1.457079428266671,43.64460218585242 1.457113923573581,43.64422580444675 1.4571160795302631,43.64415930365273 1.4571288356072976,43.644085002092 1.457148329048963,43.64404820880918 1.457177973453339,43.64400953033386</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

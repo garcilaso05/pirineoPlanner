@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4794376872046502,43.52968351338087 1.47937435597712,43.52968221079198 1.4791921776375005,43.52967836815458 1.4789854752906244,43.52967406961075 1.4789555613916632,43.5296734183162</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4789555613916632,43.5296734183162 1.4789032794421277,43.5297022055284 1.4788859419571438,43.52972259103463 1.4788451584432452,43.52973691950132 1.4788029376248912,43.52975170387022</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4788029376248912,43.52975170387022 1.478782815362527,43.52975242029328 1.478584557179322,43.529781728502485</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.478584557179322,43.529781728502485 1.4785758435210659,43.52975079205902 1.4785665908736396,43.52971861814099</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4785665908736396,43.52971861814099 1.4785310175883886,43.5297136031765 1.4784460369625105,43.529654791289225 1.478392677034634,43.529666775111444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.478392677034634,43.529666775111444 1.4783607868420476,43.52967472090529</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Coteaux</name>
+      <description>lit: yes
+ref: D 79a
+name: Chemin des Coteaux
+highway: residential
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4783607868420476,43.52967472090529 1.4783343763726946,43.529624310687204 1.4782888317877896,43.529575203018226 1.4778088619314846,43.52918800653543 1.4777245999578343,43.529104900624866 1.4776862418952024,43.52903312724633 1.4776518364198208,43.52890651410899 1.4776343192717802,43.528819174336206 1.4776585737844516,43.52840702790024 1.4776436617507351,43.528304381636815 1.4776000934594553,43.52821052788902 1.4773251191509862,43.52786161992771 1.4772847847947292,43.527799289134876 1.4772415758295632,43.527779619425125</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>lit: yes
+name: Rue de l'Église
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+sidewalk: left
+cycleway:both: no
+lane_markings: no
+maxspeed:type: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5700061934756941,43.48834850477206 1.570191336255751,43.48832999533566 1.5706304327666287,43.48827309833545 1.5708320147163852,43.488246898324185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>name: Rue de l'Église
+oneway: yes
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5708320147163852,43.488246898324185 1.5710866870994329,43.48812098169366 1.571169601600157,43.48807562035872 1.5712104749455849,43.488020613176964 1.5712260157999998,43.48797349205608 1.5711803813835665,43.487840210125086 1.5711743626711627,43.4877313032531 1.5712756028036834,43.48763002164119 1.5713501629722653,43.48751511829411 1.5713710937183853,43.487450920923344 1.5712285310827954,43.48722619700073</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Autan</name>
+      <description>name: Chemin de l'Autan
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5712285310827954,43.48722619700073 1.5716132795189839,43.48693043088862 1.5717756050908243,43.48678886933706</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Autan</name>
+      <description>name: Chemin de l'Autan
+highway: track
+surface: dirt
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5717756050908243,43.48678886933706 1.5721549636353078,43.48641782268301</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Autan</name>
+      <description>lit: yes
+name: Chemin de l'Autan
+highway: footway
+surface: fine_gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5721549636353078,43.48641782268301 1.5722488375824983,43.486329704470656</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Autan</name>
+      <description>name: Chemin de l'Autan
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5722488375824983,43.486329704470656 1.57231549257658,43.486282907912134 1.5726849696529384,43.48602357089516 1.5736111327108657,43.485368282101994 1.5738661644200271,43.485193020148714 1.5740812210990456,43.48502427545216 1.5743273594868943,43.48499800885406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Chabrousse</name>
+      <description>name: Chemin de Chabrousse
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5743273594868943,43.48499800885406 1.574656142880882,43.48500902388046 1.5750444845782066,43.48502199423442 1.5753845867447744,43.485332695298034 1.5754893303069029,43.48542883176239</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

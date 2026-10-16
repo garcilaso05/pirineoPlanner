@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Monfalcou</name>
+      <description>lit: no
+name: Chemin de Monfalcou
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.529736515919184,43.570716921723 1.5298408103236705,43.57059286935991 1.5299313605043097,43.57046510687419 1.5300449973877506,43.57034372249889</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

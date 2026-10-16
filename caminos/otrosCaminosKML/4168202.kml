@@ -1,0 +1,516 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta de las Pasarelas</name>
+    <Placemark>
+      <name>Camino de Abajo</name>
+      <description>name: Camino de Abajo
+highway: residential
+surface: unhewn_cobblestone
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.02441683824306748,42.17158866906506 0.024610604849852058,42.17136250481622 0.024644022178421304,42.17134179912925 0.024690105752496635,42.17133760472881 0.02477311008474928,42.171335807128536 0.024903096306361373,42.171339868373536 0.024963463093454204,42.1713483237516 0.0250258061741721,42.171357311750675 0.025079884754276097,42.17137548747824 0.025118422479964826,42.1713908003582 0.025133693839794854,42.17139952204036 0.025158756836221787,42.171413902826615 0.025198372540251462,42.17145098659834 0.02521849480261574,42.17149359629124 0.025223884694320454,42.171526818516256 0.025231700037292297,42.17155398216624 0.02525074432131563,42.17158826959992 0.025283083671543933,42.171628016368714 0.02531668066317,42.17166396819838 0.025363393057944217,42.17170471358062 0.025424927654906403,42.17175537896211 0.02554709853354666,42.17184232891778 0.025594439749019756,42.17186489860342 0.02563180966483913,42.17187328733408 0.025675288124590512,42.17187208894406 0.025707088485648344,42.17186849377384 0.025744458401467718,42.171864499140035 0.025778863876849495,42.171861769473445</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.025778863876849495,42.171861769473445 0.025787577535105456,42.17181962606953 0.02579835731851489,42.17177228960604</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.02579835731851489,42.17177228960604 0.025833211951538725,42.171769093894156 0.025863844502727204,42.17175677708639 0.02588522440648925,42.17174539235925 0.02591486881086519,42.1717368704569 0.025949094623190144,42.17173320870162 0.025979996668963855,42.171736271260585 0.026013773323646752,42.17173973328359 0.02605958740313685,42.17174213006864 0.026141693420105368,42.1717328092374</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+highway: path
+surface: earth</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.026141693420105368,42.1717328092374 0.026175200580203027,42.171613103011154 0.026290005273513505,42.17153640568818 0.02628704083307591,42.171487670882534 0.02625110822171113,42.17143647266514 0.026071355333358814,42.171472291448374 0.02601610894338546,42.1714549146806 0.026003802023993026,42.17141030763036 0.02604189059203969,42.17129739173272 0.026131811951980055,42.17111337034497</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+highway: path
+surface: earth</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.026131811951980055,42.17111337034497 0.02659713926915397,42.17049192802597 0.026674933372758718,42.170178208521655 0.027079893902839797,42.169482387489545 0.027195776574491216,42.169137303757616 0.02728102669495416,42.168998816992044 0.027229463397645697,42.16882790526291 0.027290638668494238,42.168653397719034 0.02725057380682251,42.16857523203202 0.027232068511969645,42.16847163238657 0.027271684215999313,42.168363172164675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero sortie de secours</name>
+      <description>ref: S4/PR163
+foot: yes
+name: Ruta de las Pasarelas del Vero sortie de secours
+type: route
+highway: path
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.027271684215999313,42.168363172164675 0.027714373988013418,42.16824618938416 0.0279179322313949,42.16823060941871 0.02804693030619446,42.168347126161486 0.02813280924735629,42.168490408170385 0.02822731201524566,42.16882011535229 0.028246176636212175,42.16896552685897 0.02819200822457977,42.169080710644856 0.02841856333923471,42.16918797119561 0.028551334338227576,42.16948431830197 0.028638560752315582,42.16973299313321 0.028836190114821875,42.17000217338147 0.028994024110241677,42.170178075363644 0.029036065265538473,42.17028506773807 0.029122213701285527,42.17036169999956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+foot: yes
+name: Ruta de las Pasarelas del Vero
+type: route
+oneway: yes
+highway: path
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.029122213701285527,42.17036169999956 0.029257230488488693,42.17041769275747 0.029585385061777558,42.17054033070568 0.029737380007850575,42.17062362051212 0.029905814123622986,42.17077961383535 0.02997534372661384,42.17085118554719 0.030258133378054667,42.17110018789505 0.03056553686828037,42.17127229188611 0.030839343366879993,42.17134998819598 0.030910939095024317,42.171311106764065 0.03096061593023613,42.17130578053866 0.031084134281802567,42.171403183814945</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+bridge: yes
+highway: path
+surface: metal
+bridge:structure: suspension</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.031084134281802567,42.171403183814945 0.031158065629685604,42.17141117314059 0.031401688734738815,42.171372092013044 0.03174520449938612,42.17138001476487 0.03201433975850833,42.1714459266954 0.03209698476464733,42.171559907568735</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+foot: yes
+name: Ruta de las Pasarelas del Vero
+type: route
+highway: path
+surface: metal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.03209698476464733,42.171559907568735 0.03211656803784113,42.17162808294619 0.03206743019179979,42.17167708395336 0.03210183566718157,42.17171463361251 0.03210390179233505,42.17175557869416 0.03194777459595507,42.17183021185609 0.03182910714692288,42.171898187210616 0.03179398301931381,42.17194512411699 0.03181778837434298,42.172059703284 0.031785538855643086,42.1721284107384</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+foot: yes
+name: Ruta de las Pasarelas del Vero
+type: route
+layer: 1
+bridge: yes
+highway: path
+surface: metal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.031785538855643086,42.1721284107384 0.03177547772446095,42.1721585035147 0.031792725377916047,42.172274480408 0.031819585004911215,42.17233206931446 0.031884084042311,42.17237581021762 0.03190627242982875,42.17241821955757 0.031945079650102716,42.17241129558564 0.031960620504517985,42.172430869119694</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+highway: path
+surface: metal
+bridge:structure: suspension</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.031960620504517985,42.172430869119694 0.03195253566696091,42.172490122298136 0.03201640588366181,42.17253120003083 0.03212779697889262,42.17254777758477 0.03222023362162853,42.17258632537411 0.032308538014057475,42.17262181062403 0.032444722611129996,42.17269198214779 0.03254120167264443,42.17288192422143 0.03250796400713201,42.17305701928352 0.03254407628155361,42.17310601918366 0.03254156099875808,42.173164073364056</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.03254156099875808,42.173164073364056 0.032498441865120346,42.17320188844373 0.032449304019079,42.17329309725765 0.03236953362184919,42.173358208286686</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+layer: 1
+bridge: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.03236953362184919,42.173358208286686 0.032244398302771336,42.173519986933684 0.03208548632901059,42.17368183174219 0.0319855936694165,42.17375919221601 0.031904565630788924,42.173827698098776 0.031808625558444964,42.17385619226333 0.0317991932479617,42.17389726910882</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+layer: 1
+bridge: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.0317991932479617,42.17389726910882 0.0317818557629782,42.173972232618674</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.0317818557629782,42.173972232618674 0.03174843843440895,42.17399679879396</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.03174843843440895,42.17399679879396 0.03165672044390035,42.17395558886305</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+layer: 1
+bridge: yes
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.03165672044390035,42.17395558886305 0.03167917832600334,42.17387170426808</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.03167917832600334,42.17387170426808 0.03168402922853759,42.1738537955584</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.03168402922853759,42.1738537955584 0.031631208289831354,42.1738227715363</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+layer: 1
+bridge: yes
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.031631208289831354,42.1738227715363 0.03151550528123676,42.173864114704</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.03151550528123676,42.173864114704 0.031370876520493515,42.173747408397794 0.031202891562363166,42.17362797228588 0.03120980859005089,42.17360959747941 0.031221576520272853,42.17355979906402 0.03117971502803288,42.17349601975283 0.031084403776387805,42.17347791121017 0.031048111838909372,42.17350467456918 0.03103194216379522,42.173516724734604 0.030928096916951007,42.17352098556602 0.030796314064770673,42.17353902752088 0.030775473150179092,42.17351858884839 0.030780503715770163,42.173496219479375 0.030742864305365564,42.173483104101614</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+layer: 1
+bridge: yes
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.030742864305365564,42.173483104101614 0.030429711597321496,42.17350028058565</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.030429711597321496,42.17350028058565 0.030366829527433126,42.17351213102541 0.030340239395023193,42.173528109142914 0.03026936231910616,42.173568320720776</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+layer: 1
+bridge: yes
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.03026936231910616,42.173568320720776 0.03002591887710977,42.17375612975499</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.03002591887710977,42.17375612975499 0.030000766049154425,42.1738354873927 0.029959443546084926,42.173850932827385 0.02988668000807124,42.17385133227823 0.029874193425621982,42.17379527598469</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+layer: 1
+bridge: yes
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.029874193425621982,42.17379527598469 0.029869162860030912,42.173772906713545 0.029839698118711788,42.17377430479322 0.029785170380965738,42.173809523075874 0.029689320140150185,42.173810921154754 0.029674677601019033,42.173812186083225</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.029674677601019033,42.173812186083225 0.029588169839158324,42.173820108529405 0.029512172366121817,42.17380120117721 0.029378682714901655,42.173736423480534 0.029397816830453404,42.1736729772241 0.029185275434230717,42.173500680038714</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+layer: 1
+bridge: yes
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.029185275434230717,42.173500680038714 0.028577115986881806,42.17343450394707</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.028577115986881806,42.17343450394707 0.028509203351402366,42.17349062713589 0.028487014963884612,42.173484701914276 0.02848656580624256,42.173461600202224 0.02850336430205559,42.17342012362022 0.028472731750867116,42.17340787370958 0.02841227513224587,42.173473517224764 0.028321904614663447,42.173469189814604 0.028179162316016856,42.1733606050104</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+layer: 1
+bridge: yes
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.028179162316016856,42.1733606050104 0.028107836082457763,42.173302417858956 0.027830256659664834,42.17319909225903 0.027766476274492347,42.17317678935287</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.027766476274492347,42.17317678935287 0.027689041497001243,42.17315941305338 0.02746877458933514,42.173154486438854 0.027372385359349112,42.17320142241295 0.02722811592471952,42.17320142241295 0.02702743229024722,42.17321899842833 0.026943619474238865,42.17322013021704 0.026913705575277686,42.17321367236359</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.026913705575277686,42.17321367236359 0.026824862193678266,42.17317139670872</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+layer: 1
+bridge: yes
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.026824862193678266,42.17317139670872 0.02669074372175922,42.173141504142</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.02669074372175922,42.173141504142 0.026605313938239457,42.17315142394855 0.02656039817403348,42.17316147690529 0.02650928403436708,42.1731799184178 0.026471105634792,42.17319190206925 0.026435083191898804,42.173207414236934 0.026410469353113933,42.173211408785924 0.0264049896298808,42.17319330016177 0.02644819859504695,42.173129187601496 0.02664969071327496,42.173021600853794 0.02664286351711565,42.173003425599255 0.026545036982675033,42.173008818257735 0.026522129942929986,42.17300349217529 0.026535963998305427,42.172978725886004</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruta de las Pasarelas del Vero</name>
+      <description>fee: yes
+ref: S4/PR163
+name: Ruta de las Pasarelas del Vero
+type: route
+oneway: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.026535963998305427,42.172978725886004 0.026631365081478925,42.1729022299474 0.02664412115851342,42.17280789148664 0.026645199136854363,42.17275609515124 0.0266860724822818,42.17269817374908 0.026761081808505782,42.17262201035332 0.02667439438358825,42.172570813054115</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle La Iglesia</name>
+      <description>name: Calle La Iglesia
+highway: residential
+surface: unhewn_cobblestone
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.02667439438358825,42.172570813054115 0.026651307680786374,42.17259511346788 0.02648997025575851,42.17275110192901 0.026392682710488367,42.172818876565174 0.026367799377118254,42.172828996150976 0.026347766946282387,42.17282600022114 0.026282369593598486,42.17278252593437</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaza Rafael Ayerbe</name>
+      <description>name: Plaza Rafael Ayerbe
+highway: residential
+surface: unhewn_cobblestone
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.026282369593598486,42.17278252593437 0.026240867427472163,42.17275483020164</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

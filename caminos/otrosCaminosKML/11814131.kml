@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+highway: track
+surface: compacted
+tracktype: grade2
+brp_access: 2
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.064846304710329,42.307172814726364 3.0647397645176326,42.30734820188556 3.064744795083224,42.30748758118103 3.0651076246264792,42.30864638384189</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0651076246264792,42.30864638384189 3.0662495630156528,42.30871321547224 3.0664947132566884,42.308699729572425 3.067104130345435,42.30858108010274 3.067326283715198,42.30856420608385 3.068338864703457,42.30835407766658 3.0685727860034424,42.30831202532558</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Mas Calanca</name>
+      <description>name: Camí del Mas Calanca
+width: 3
+highway: track
+name:ca: Camí del Mas Calanca
+surface: ground
+tracktype: grade3
+brp_access: 3
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0685727860034424,42.30831202532558 3.068638003693069,42.30824280166358</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.068638003693069,42.30824280166358 3.0688314109737402,42.30821011637637 3.069188760793763,42.30819310939095 3.069983769820209,42.30826771421866 3.0705450372097265,42.30836092030392 3.071530129750292,42.308553975377286 3.0717683629636405,42.30859629328912 3.071867896297121,42.30866970184424</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Pedret i Castelló</name>
+      <description>name: Carretera de Pedret i Castelló
+lanes: 2
+highway: unclassified
+name:ca: Carretera de Pedret i Castelló
+maxspeed: 60
+maxweight: 6
+lanes:forward: 1
+lanes:backward: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.071867896297121,42.30866970184424 3.072184013445603,42.30859177583679 3.072773218440456,42.30849637779692 3.0731797061065205,42.30839500061283 3.0739100364325096,42.30815092407524 3.076137588842541,42.30734899909879 3.0774930567747494,42.3068415043919 3.077731559482683,42.3067029873225 3.0781741594231686,42.306278930533736</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0781741594231686,42.306278930533736 3.0785021343334003,42.30655583336334</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0785021343334003,42.30655583336334 3.078650266523752,42.30652427660044 3.0793811358389114,42.306571777827 3.0798048711584305,42.30655138219984 3.0804601023266676,42.30646328895911 3.0808152063584804,42.306322711556426 3.0810319698365376,42.30636742264529</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0810319698365376,42.30636742264529 3.081417796251067,42.305902505492064 3.0815245161068203,42.30583221620384</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Castelló d'Empuries a Pedret i Marzà</name>
+      <description>name: Carretera de Castelló d'Empuries a Pedret i Marzà
+width: 5
+highway: unclassified
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0815245161068203,42.30583221620384 3.0816492022682564,42.3059258245108 3.081791944566903,42.30599040020992</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Castelló d'Empuries a Pedret i Marzà</name>
+      <description>ref: GIV-6101
+name: Carretera de Castelló d'Empuries a Pedret i Marzà
+width: 5
+highway: tertiary
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.081791944566903,42.30599040020992 3.081954719296385,42.306026873492186 3.082126477178709,42.30606547269868 3.0823102724858398,42.30605118900196 3.082612555578946,42.305987211288056 3.082809466289225,42.30601258978671 3.083159180429333,42.306111114070646 3.083328782354975,42.30616838165504</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Pau a Pedret</name>
+      <description>lit: yes
+ref: GIV-6101
+name: Carretera de Pau a Pedret
+lanes: 2
+width: 5
+highway: tertiary
+name:ca: Carretera de Pau a Pedret
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+smoothness: good
+cycleway:both: no
+sidewalk:both:surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.083328782354975,42.30616838165504 3.0834630804899503,42.30620100156672 3.083859417193304,42.306298130409346</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Pau a Pedret</name>
+      <description>lit: yes
+ref: GIV-6101
+name: Carretera de Pau a Pedret
+lanes: 2
+width: 5
+highway: tertiary
+name:ca: Carretera de Pau a Pedret
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+smoothness: good
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.083859417193304,42.306298130409346 3.08409666225984,42.30635619504944</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

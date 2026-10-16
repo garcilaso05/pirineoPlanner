@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: gravel
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5662845630851152,43.455731490598616 1.5663618181995496,43.45583562967377 1.5668535559860766,43.456355083396495 1.5674930666368412,43.45707856818452 1.5677815156745722,43.45732309691268 1.5681185635691737,43.457586273926985 1.5690114889615885,43.45819980578426</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Montbrun</name>
+      <description>ref: D 24
+name: Route de Montbrun
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5690114889615885,43.45819980578426 1.5692864632700576,43.4581315996594 1.5696958255450306,43.4580260299894 1.570008618926961,43.45795893218486 1.5701792988309438,43.457944912711916 1.5703500685664549,43.45794791222733 1.5704877802995103,43.45796688741922 1.570602135835179,43.457994926351645 1.570676516340704,43.458028768673714 1.5707105624899722,43.458043701021744</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Droits de l'Homme</name>
+      <description>ref: D 31b
+name: Rue des Droits de l'Homme
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5707105624899722,43.458043701021744 1.5707585325261442,43.45800229472011</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Tuiliers</name>
+      <description>ref: D 24
+name: Rue des Tuiliers
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5707585325261442,43.45800229472011 1.5707921295177703,43.458017292281454 1.5709175343314332,43.45807330487985 1.571188915378766,43.458272185048685 1.571259792454683,43.458340912666415 1.5712948267507634,43.45841531315884 1.5713091099637808,43.458495190886225 1.5713339034656226,43.45856991721975 1.5713620207340155,43.458628472345005 1.5714259807822448,43.45871063200198 1.5714729626716044,43.45876449216098</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Remparts</name>
+      <description>name: Rue des Remparts
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5714729626716044,43.45876449216098 1.571514285174674,43.45873762729349 1.5718985844532203,43.458435070680004 1.5719133168238797,43.45837690660582 1.5721090597242893,43.458224584280934 1.5722244034067705,43.458156899837064</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Boué</name>
+      <description>name: Place du Boué
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5722244034067705,43.458156899837064 1.5723122586415572,43.45809462747352 1.5723947239846394,43.458084911674895 1.5725201287983026,43.45813792470481 1.5726461624326646,43.45820410941863 1.5727467737444858,43.458247406571516</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Four</name>
+      <description>name: Rue du Four
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5727467737444858,43.458247406571516 1.5727703096049297,43.45821389040467</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Place</name>
+      <description>name: Rue de la Place
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5727703096049297,43.45821389040467 1.5728232203751644,43.45823821244977 1.5733127123734811,43.458557984486816 1.573355562012534,43.458577481136665</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

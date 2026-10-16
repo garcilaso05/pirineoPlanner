@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Federico Garcia Lorca</name>
+      <description>name: Rue Federico Garcia Lorca
+source: ToulouseMetropole - Orthophotoplan 2013
+bicycle: yes
+highway: service
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4890349283740694,43.54103522344428 1.4890749034042128,43.54112267576007 1.4892019251853874,43.54116929957875 1.4895129219367496,43.5412344165836 1.4899405200119904,43.54139610180252 1.4901323103251498,43.54153063295101 1.490369106234044,43.54176016870442 1.490421028857466,43.54182652228138</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: yes
+highway: track
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.490421028857466,43.54182652228138 1.49083712849707,43.541921917629615 1.4908951596644242,43.541976289654755 1.4908926443816286,43.542043424387 1.4906121903499265,43.542551588257766 1.4903214955239854,43.54320788428411 1.4902620270521767,43.543344169486375</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>bicycle: yes
+highway: service
+surface: fine_gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4902620270521767,43.543344169486375 1.4901316815044512,43.54364577998052 1.4899214757279668,43.54403066976461 1.4897949031044346,43.54422509970423 1.4896163180259516,43.544399278705704</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

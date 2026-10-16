@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Liaison St-Louis-en-l'Isle - Boucle des Loges</name>
+    <Placemark>
+      <name>Rue des Cadets</name>
+      <description>name: Rue des Cadets
+source: Bing;DGFiP - Cadastre 2013
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.39212567079616584,45.05592960795494 0.39205569203553287,45.05598767240424 0.3920001761509743,45.0560447214615 0.39171846447787445,45.056352620396446 0.3905360120693879,45.05741419904523 0.3900479573755258,45.0578519858274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Cadets</name>
+      <description>name: Rue des Cadets
+source: Bing;DGFiP - Cadastre 2013
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.3900479573755258,45.0578519858274 0.3894416843902735,45.05844098429496</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Cadets</name>
+      <description>name: Rue des Cadets
+source: Bing;DGFiP - Cadastre 2013
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.3894416843902735,45.05844098429496 0.38897635707309963,45.05889323099365</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de St Front</name>
+      <description>ref: D 3E10
+name: Route de St Front
+source: Bing Sat
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.38897635707309963,45.05889323099365 0.38941895701358525,45.05916640479574</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de St Front</name>
+      <description>ref: D 3E10
+name: Route de St Front
+source: Bing Sat
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.38941895701358525,45.05916640479574 0.39027190737585676,45.05969269693857 0.3907025597230636,45.05995837935245</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de St Front</name>
+      <description>ref: D 3E10
+name: Route de St Front
+source: Bing Sat
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.3907025597230636,45.05995837935245 0.39096747290035055,45.0601331313347</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de St Front</name>
+      <description>ref: D 3E10
+name: Route de St Front
+source: Bing Sat
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.39096747290035055,45.0601331313347 0.39121208415221626,45.06028262824928</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

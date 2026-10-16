@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>source: gps
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.391997010669187,44.123443406952354 3.3919160724620876,44.12354039200988 3.391883014459632,44.12361171203703 3.3918562446641656,44.12375951058953 3.391859658262245,44.12386100903229 3.3918453750492272,44.12398236844078 3.391798932149039,44.124203484384154 3.3917523095857924,44.12432232821941 3.391656459344977,44.12449069528372 3.391498086360387,44.124745082756746 3.3914023259510993,44.124938532573296 3.39094580212371,44.12553158127963 3.390559167225425,44.125999271140245 3.390401602724591,44.126266612943375 3.390227060064886,44.12650500136965</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Montjardin</name>
+      <description>ref: D 263
+name: Route de Montjardin
+highway: tertiary
+surface: asphalt
+maxspeed: 80
+cycleway:both: no
+maxspeed:type: FR:rural</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.390227060064886,44.12650500136965 3.3894809193898965,44.12663557617505 3.389011729317001,44.12675086865216 3.388632819930159,44.12689369431149 3.3882019879198952,44.12708539610958</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Montjardin</name>
+      <description>ref: D 263
+name: Route de Montjardin
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.3882019879198952,44.12708539610958 3.387644134128457,44.12741192609514 3.3873264898439923,44.12762748390177 3.387120506149344,44.127861675637675 3.3870611275090634,44.12795491360891 3.3869777638506973,44.128127332540025 3.3868954781706715,44.12839221449482 3.3868382554870733,44.128555605059596 3.3867462680019793,44.1286794050287 3.3866785350295574,44.12874117595791 3.386583583104026,44.12878573094087 3.3864896193253067,44.128803785048845 3.3863510991084955,44.128812231790334 3.3862638726944074,44.12884550291297 3.386189402357354,44.12890598409177</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Montjardin</name>
+      <description>ref: D 263
+name: Route de Montjardin
+oneway: yes
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.386189402357354,44.12890598409177 3.3861418814788244,44.12894428450773 3.3861011877964535,44.12896930227444 3.386022585209093,44.12900237987242</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Countal</name>
+      <description>ref: D 263
+name: Rue du Countal
+oneway: yes
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.385927094294391,44.12911508858566 3.3859240400224255,44.12917918028661 3.385936616436403,44.12926551698512 3.3859579065086365,44.1293161970197</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Countal</name>
+      <description>ref: D 263
+name: Rue du Countal
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.3859579065086365,44.1293161970197 3.385951079312477,44.12936971405736 3.3859056245591006,44.12942813139493 3.3858474137286896,44.12946430369087 3.3849931158934923,44.12977508792329 3.3848188427283725,44.129854975971114 3.3847170636066823,44.129919711646494 3.384667476602999,44.12998012724767 3.384643401753385,44.13000940009943 3.384589862162451,44.130134486571286 3.384578633221399,44.130160922338135 3.3845386581912558,44.13029439054127 3.3845271597556197,44.13033269005692 3.384464277685731,44.13045223080964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Countal</name>
+      <description>ref: D 263
+name: Rue du Countal
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.384464277685731,44.13045223080964 3.384406875339076,44.130509422011926 3.3843528865905,44.13053837221609</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

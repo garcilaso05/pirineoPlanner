@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Liaison Chancelade Abbaye-Terrassonnie</name>
+    <Placemark>
+      <name>Chemin de la Combe de l'Isle</name>
+      <description>name: Chemin de la Combe de l'Isle
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6657753235471887,45.2064284176185 0.6659028843175336,45.2064070884747 0.6659569628976377,45.20640512644624 0.6660110414777416,45.20641101253143</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Abbaye</name>
+      <description>ref: C 15
+name: Place de l'Abbaye
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6660110414777416,45.20641101253143 0.6659857988182578,45.20645278473144</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Abbaye</name>
+      <description>ref: C 15
+name: Place de l'Abbaye
+width: 5.2
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary
+surface: asphalt
+sidewalk: no
+source:width: ARCore
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6659857988182578,45.20645278473144 0.6659830140408771,45.20650708854559 0.6659907395523206,45.206532594864655 0.6660069092274347,45.2065860758191 0.6661163240290404,45.20675968287852 0.6661665398534228,45.206857403863026</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Abbaye</name>
+      <description>ref: C 15
+name: Place de l'Abbaye
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6661665398534228,45.206857403863026 0.6661813620556107,45.20691860597443</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Abbaye</name>
+      <description>ref: C 15
+name: Place de l'Abbaye
+lanes: 2
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6661813620556107,45.20691860597443 0.6661899858823381,45.2069539854483 0.6661997775189351,45.207138730500894 0.6661908841976224,45.20727638701021 0.6661766009846048,45.207361892104124 0.6661438124767344,45.20744037186994 0.666072396411647,45.20756030646419 0.6659967582647242,45.20765201353741</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Carrières</name>
+      <description>ref: C 15
+name: Route des Carrières
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6659967582647242,45.20765201353741 0.6659516628374612,45.20775099878386 0.6659467221033988,45.207776820993736</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

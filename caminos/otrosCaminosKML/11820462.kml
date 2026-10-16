@@ -1,0 +1,551 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Boucle des Deux Fontaines</name>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+foot: designated
+horse: yes
+bicycle: designated
+highway: path
+surface: gravel
+segregated: no
+motor_vehicle: permissive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5300785943793769,43.530455031840155 1.531023711889799,43.530120204722124 1.5310998890258924,43.53009278541848 1.5312063393870603,43.53005461981119 1.5313482732019514,43.53000362374874 1.5313972313849358,43.5299859737605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: yes
+oneway: no
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5313972313849358,43.5299859737605 1.5316138151999372,43.53021841913263 1.532301565381459,43.530879603760226</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+maxheight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.532301565381459,43.530879603760226 1.532401727535638,43.53097052259249</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+width: 3
+highway: cycleway
+surface: asphalt
+source:width: ARCore</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.532401727535638,43.53097052259249 1.5328297747685211,43.53138180485274 1.5330889387279898,43.53156507366917 1.533290071520104,43.531700212898116 1.5334672192941325,43.53180317901821 1.5335396235060326,43.531852805889976 1.5337219815087086,43.53206192865034 1.5337541411958804,43.532121389458524 1.5337930382476828,43.53214470485252</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: cycleway
+crossing: marked
+cycleway: crossing
+segregated: yes
+crossing:island: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5337930382476828,43.53214470485252 1.5338287911959907,43.532171081195195 1.533901285239419,43.532215302247536 1.5339426077424885,43.532242199572785</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: permissive
+footway: sidewalk
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5339426077424885,43.532242199572785 1.5339349720625735,43.53226421238695 1.5339136819903398,43.5322789310097 1.5338668797640373,43.53230621906624 1.5330671096665855,43.533006195828456</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: permissive
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5330671096665855,43.533006195828456 1.5330286617724254,43.533047029726326</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Payssière</name>
+      <description>lit: yes
+name: Chemin de la Payssière
+highway: living_street
+surface: asphalt
+maxspeed: 20
+sidewalk: no
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5330286617724254,43.533047029726326 1.5340831042529248,43.53362860042221 1.5345468146025874,43.53384983026593 1.5348784726054843,43.534008083674465 1.535026874290421,43.534091313078235</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Payssière</name>
+      <description>lit: yes
+name: Chemin de la Payssière
+highway: residential
+surface: asphalt
+maxspeed: 20
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.535026874290421,43.534091313078235 1.5351140108729804,43.534140221696205 1.5353122690561856,43.534251389339424 1.535595597696797,43.53442807187971 1.5356982751337718,43.53449221930126 1.5359376761569894,43.53465242474642</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Payssière</name>
+      <description>lit: yes
+foot: designated
+name: Chemin de la Payssière
+lanes: 2
+bicycle: designated
+highway: residential
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+segregated: no
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5359376761569894,43.53465242474642 1.5361788738107756,43.534822268103156</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: yes
+highway: cycleway
+surface: asphalt
+crossing: uncontrolled
+cycleway: crossing
+segregated: no
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5361788738107756,43.534822268103156 1.5361367428239503,43.53486752919304</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5361367428239503,43.53486752919304 1.5352625922209737,43.535805305282175 1.5352049203797333,43.53584867707345</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5352049203797333,43.53584867707345 1.5352646583461274,43.53587707060161</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5352646583461274,43.53587707060161 1.5353333794653623,43.535912302002124</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5353333794653623,43.535912302002124 1.5353517050971586,43.535980094713025 1.5353951835569097,43.53606781485122 1.5356936937258228,43.53641003287857 1.5362451694787438,43.53643471417977 1.5365820377102886,43.53639069158798 1.5368739003460987,43.53633312353485 1.5371231828374419,43.5363006926391 1.5374952650281244,43.53627470883654 1.5378308756182713,43.53627822544205 1.5381274094935593,43.536327588142235</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5381274094935593,43.536327588142235 1.538128397640372,43.53617656941107 1.5381440283263155,43.53603219280603 1.5381869677968965,43.53596811214527 1.5384454131041374,43.53589660742514 1.5394724569684715,43.53574220122384 1.5401406238767996,43.53550867004758 1.540368167138267,43.53542882900853 1.5408187620847815,43.53537249737985 1.5417778034821077,43.53507299457681 1.5418193954797619,43.53501659749206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: no
+bicycle: yes
+highway: steps
+incline: up
+surface: dirt
+handrail: no
+step_count: 6</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5418193954797619,43.53501659749206 1.5418482314003825,43.535008978020436</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5418482314003825,43.535008978020436 1.5419829786930004,43.53498598935238</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5419829786930004,43.53498598935238 1.542099130859237,43.53499172023928 1.5425559241812117,43.53482578479337</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5425559241812117,43.53482578479337 1.5425340951198077,43.53480540101206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+layer: 1
+bridge: yt
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5425340951198077,43.53480540101206 1.5424836098008399,43.53473708598864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5424836098008399,43.53473708598864 1.5424679791148963,43.53471598581323</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5424679791148963,43.53471598581323 1.54267198651592,43.534609573087735 1.5434200136530065,43.53452680026873 1.543966907997978,43.534299190711764 1.544449033810965,43.53425959502729 1.5450813579394571,43.534207625651966 1.5452070322477054,43.53418971639571 1.5458056695530424,43.53410407751499 1.5459550593847915,43.53406969167923 1.5463319026464797,43.53398288038165 1.546481561972814,43.53392042566491 1.5465723816480383,43.53388890522022 1.5466994932607414,43.53374120175994 1.547317174850102,43.533648724100665 1.5480729274986318,43.53341980872138 1.5492507984991692,43.53305269567169 1.5496662693180745,43.53294510774461 1.5498391950102675,43.53286988725785 1.5503165597522488,43.53282696920649 1.5505806644457798,43.53278027381091 1.5523402844243133,43.53227541417096 1.5525502207062118,43.532221880044894</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Piailles</name>
+      <description>lit: yes
+name: Chemin de Piailles
+layer: 1
+bridge: yes
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5525502207062118,43.532221880044894 1.5525684565064797,43.53225281522086</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Piailles</name>
+      <description>lit: yes
+name: Chemin de Piailles
+layer: 1
+bridge: yes
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5525684565064797,43.53225281522086 1.5525843566870083,43.53227860537649</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Piailles</name>
+      <description>lit: yes
+name: Chemin de Piailles
+width: 2.8
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5525843566870083,43.53227860537649 1.5526564914043233,43.532396289103204 1.5530297414048748,43.53300639120602 1.553098193029525,43.53311931933418 1.5532239571693016,43.5333137193363 1.553241923474984,43.53334139767759 1.553293666435349,43.53338848339137 1.5533255566279354,43.5334207204771 1.553346397542527,43.5334674153768</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Piailles</name>
+      <description>lit: yes
+name: Chemin de Piailles
+highway: cycleway
+surface: asphalt
+cycleway: crossing</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.553346397542527,43.5334674153768 1.5533915828013183,43.53352270678032 1.5534267967604558,43.5335378158476</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Piailles</name>
+      <description>lit: yes
+name: Chemin de Piailles
+lanes: 2
+width: 2.5
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5534267967604558,43.5335378158476 1.5534773719109516,43.53355129677944 1.55360699880645,43.53356692684158 1.553665209636861,43.53358548753509 1.5537491122843976,43.53363830407382 1.5538114553651157,43.533697633077566 1.5538755052448734,43.53377597853316 1.5542603435125903,43.53416972314699 1.5542848675198468,43.534206127787094 1.5543005880373189,43.53425477581391</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Piailles</name>
+      <description>lit: yes
+name: Chemin de Piailles
+lanes: 2
+highway: cycleway
+surface: asphalt
+cycleway: crossing</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5543005880373189,43.53425477581391 1.5543011270264893,43.534288510299426 1.554315679734092,43.53431827217542 1.5543517021769853,43.534343996323365 1.5543774838256394,43.53435532796986</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Piailles</name>
+      <description>lit: yes
+name: Chemin de Piailles
+lanes: 2
+width: 2.8
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5543774838256394,43.53435532796986 1.5544547389400736,43.53438469906667 1.554498037736768,43.53441126980268 1.5545994575323454,43.53452002735011 1.5547191131281901,43.53464272125798 1.554747230396583,43.534682381814946 1.55476097462043,43.534722823833846 1.5547687001318733,43.53476352632146 1.554763130577112,43.534798693248646 1.5547485778695094,43.534833404288136 1.5547166876769227,43.534872087862084 1.5545232803962519,43.535084912198826 1.5544741425502104,43.535146193485765 1.5544435099990221,43.535198487669696 1.5543818855705316,43.535301903680725 1.5543402935728767,43.53538688962755 1.5543064270866656,43.53547181033142 1.5542163260636686,43.53576167296817 1.554184435871082,43.53584209967168 1.5541364658349102,43.535941672340606 1.554070170166942,43.536049971269975 1.5540248950766224,43.53611007937113 1.5539726131270868,43.53616979667774 1.5539424297335402,43.53620483254002</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Piailles</name>
+      <description>lit: yes
+name: Chemin de Piailles
+lanes: 2
+width: 2.8
+highway: cycleway
+surface: asphalt
+cycleway: crossing</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5539424297335402,43.53620483254002 1.5539196125253238,43.5362312722293 1.5539010173989425,43.5362519811404</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Piailles</name>
+      <description>lit: yes
+name: Chemin de Piailles
+lanes: 2
+width: 2.8
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5539010173989425,43.5362519811404 1.5538269063880026,43.536334491102366 1.5536361042216558,43.53650830216822 1.553474856628156,43.53666889298872</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Piailles</name>
+      <description>lit: yes
+name: Chemin de Piailles
+lanes: 2
+width: 2.8
+highway: cycleway
+surface: asphalt
+cycleway: crossing</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.553474856628156,43.53666889298872 1.5534462003705927,43.53669748149627 1.5534187119228986,43.53672418145692</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Piailles</name>
+      <description>lit: yes
+name: Chemin de Piailles
+lanes: 2
+width: 2.8
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5534187119228986,43.53672418145692 1.5531334968201906,43.5370008835236 1.5527917776861115,43.53733482586613 1.5526604439915732,43.537463570304155 1.5522751565662145,43.53784231309656 1.552219461018599,43.537886009025634 1.552162777324171,43.5379209787702 1.5521054648090442,43.53793979860572</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5521054648090442,43.53793979860572 1.5519656869508354,43.53796037668904 1.5518980438099412,43.537976526572294 1.5516726565051555,43.538042623831686 1.5512683247957733,43.5381597102276 1.5509021714859663,43.53826859125493</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>lit: no
+highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5509021714859663,43.53826859125493 1.550619292002997,43.53786132831847 1.5504057624599619,43.537690125984625 1.5502630201613152,43.53761517189999 1.5501130913403955,43.537558581829984 1.550028110714518,43.537548032236835 1.5499551675134473,43.53753891530299 1.5497161258163432,43.53755929816032 1.549469717933909,43.537597979985605 1.5492525951297376,43.537614129965924 1.5489012640221183,43.53760227796467 1.5480129200376527,43.53752302578644 1.5472570775575945,43.53744637834654 1.546465841455342,43.537375526590715 1.5462106300831238,43.53737357295657 1.5460250381454246,43.537393630264184 1.5455835161832798,43.537509415500494 1.545150079058692,43.53763711763208 1.5450316811042453,43.53766831051348 1.5447944360377093,43.5377142857957 1.544479486699097,43.53773030550336 1.5442144836902816,43.5377265284995 1.5440652735215894,43.53769833120457 1.5439265736417211,43.53761530214176 1.5437791601035973,43.53747620378503 1.5435613186471981,43.53726319252412 1.543456125927428,43.537158672813355 1.5432835595613486,43.537038133034116 1.543168126047339,43.53702250387167</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.543168126047339,43.53702250387167 1.5430383194887838,43.536988575550915 1.5425319391631256,43.53691856983838 1.5417616338069933,43.536765924542415 1.54139637881247,43.53670627294803 1.541061576706079,43.53664753300158 1.540984770749287,43.53660123129613</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.540984770749287,43.53660123129613 1.54062481581494,43.53672808876723 1.54028201870252,43.536828897286 1.5395547426484968,43.5370884068125 1.5394607788697778,43.53713828982061</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: no
+ramp: no
+bicycle: yes
+highway: steps
+incline: up
+surface: dirt
+handrail: no
+step_count: 2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5394607788697778,43.53713828982061 1.539428080193436,43.537119795342</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: no
+ramp: no
+bicycle: yes
+highway: steps
+incline: up
+surface: dirt
+handrail: no
+step_count: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.539428080193436,43.537119795342 1.5393540590140244,43.53700029742973</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5393540590140244,43.53700029742973 1.5392271270643785,43.536871486880884</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5392271270643785,43.536871486880884 1.5390492606381228,43.536676186641145</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5390492606381228,43.536676186641145 1.5388384260409398,43.53660240349165 1.5384401130439613,43.53652568975946 1.538292340179724,43.53644103102832 1.5381274094935593,43.536327588142235</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

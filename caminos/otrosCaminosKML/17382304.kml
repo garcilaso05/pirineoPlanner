@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Georges de Buffon</name>
+      <description>lit: yes
+name: Rue Georges de Buffon
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4935047655647915,43.607739228252015 1.4930989965509545,43.60732332846581 1.4930600096676236,43.60728091875457</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

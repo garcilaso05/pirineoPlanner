@@ -1,0 +1,727 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>De la cave aux moulins</name>
+    <Placemark>
+      <name>Rue de la Glacière</name>
+      <description>lit: yes
+name: Rue de la Glacière
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.187936332423197,43.77814782082184 4.1880152943366715,43.77812777891369 4.189191458538169,43.778331570430296 4.189785065277915,43.778385209902424 4.189963111367228,43.77840628948834</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>lit: no
+highway: service
+service: parking_aisle</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.189963111367228,43.77840628948834 4.190011889887156,43.77832819769284 4.190027700236156,43.778302902155815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de la Vaunage</name>
+      <description>foot: designated
+name: Voie Verte de la Vaunage
+source: Bing
+bicycle: designated
+highway: path
+railway: abandoned
+surface: asphalt
+segregated: no
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.194219958004085,43.77999806862679 4.194157794586424,43.77997433040149</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de la Vaunage</name>
+      <description>lit: no
+foot: designated
+name: Voie Verte de la Vaunage
+source: Bing
+bicycle: designated
+highway: cycleway
+railway: abandoned
+surface: asphalt
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.194157794586424,43.77997433040149 4.19410820758274,43.77991200130058 4.194004901325067,43.77981062719226 4.193170815583763,43.77944060699532 4.193000584837422,43.779400978053204 4.192794601142772,43.779373218320316 4.192630838266478,43.77935077703152 4.19253507785719,43.77931088859276 4.192460517688608,43.77927969127497 4.192382723585004,43.77921768574679 4.192291544583665,43.77916728999293 4.192160121057599,43.77911702391556 4.191790015160542,43.77898341323349 4.19169335643597,43.77894851874405 4.191623737001451,43.778917515816275 4.191462669071009,43.77883812749278 4.1912883959058895,43.7787490100825 4.19115427743397,43.77868901466235 4.190979914437323,43.778621171120115 4.190802856494822,43.77856117557168 4.190644663173289,43.77851862734085 4.190534709382513,43.778489505134914 4.1903671735820245,43.77843301190656 4.190218502402503,43.77838021566098 4.190027700236156,43.778302902155815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+layer: 1
+bridge: yes
+source: Bing
+bicycle: designated
+highway: cycleway
+railway: abandoned
+surface: asphalt
+segregated: no
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.194219958004085,43.77999806862679 4.194477504996042,43.780102685338015</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de la Vaunage</name>
+      <description>lit: no
+foot: designated
+name: Voie Verte de la Vaunage
+source: Bing
+bicycle: designated
+highway: cycleway
+railway: abandoned
+surface: asphalt
+segregated: no
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.194477504996042,43.780102685338015 4.194841861675281,43.78025082176914 4.194925494828232,43.7802846777671 4.195775570581595,43.7806055304972 4.196090519920207,43.78073453265595</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+layer: 1
+bridge: yes
+source: Bing
+bicycle: designated
+highway: cycleway
+railway: abandoned
+surface: asphalt
+segregated: no
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.196090519920207,43.78073453265595 4.196239999583485,43.78079770404895</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de la Vaunage</name>
+      <description>foot: designated
+name: Voie Verte de la Vaunage
+source: Bing
+bicycle: designated
+highway: cycleway
+railway: abandoned
+surface: asphalt
+segregated: no
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.196239999583485,43.78079770404895 4.1969623349034455,43.78109157337856 4.197618105060852,43.78137448042615 4.197973568418779,43.78151807372492 4.198037797961593,43.781545119036636</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Cave</name>
+      <description>lit: yes
+ref: D 107
+name: Route de la Cave
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+maxweight: 3.5
+parking:both: no
+cycleway:both: no
+lane_markings: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.198037797961593,43.781545119036636 4.197938534122698,43.78161542381849 4.197903409995089,43.78165920212334 4.197859662040751,43.781707714933354 4.197365229308373,43.78225620528879 4.1973241762998885,43.782301215388976 4.197088458369335,43.78256440057017 4.196884900125954,43.782791784369955 4.196866035504987,43.782815391765666</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Fouillaquet</name>
+      <description>lit: yes
+name: Rue Fouillaquet
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+surface: asphalt
+sidewalk: both
+parking:left: no
+parking:right: street_side
+parking:right:orientation: parallel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.196866035504987,43.782815391765666 4.196732186527654,43.78277103060777 4.196377621485012,43.78266161924871</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Fouillaquet</name>
+      <description>lit: yes
+name: Rue Fouillaquet
+access: destination
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+maxspeed: 30
+sidewalk: no
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.196377621485012,43.78266161924871 4.1963447431456125,43.7827063696213 4.196206402591859,43.782864617047075 4.196111899823969,43.78291552852737 4.196017037729966,43.78308668158083 4.195941669077629,43.78311807147759 4.1954416667904875,43.78308720042222</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Fouillaquet</name>
+      <description>lit: yes
+name: Rue Fouillaquet
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+image: File:Calvisson-Pont_de_Fouillaquet-20150527.jpg
+layer: 1
+access: destination
+bridge: yes
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+maxspeed: 30
+sidewalk: both
+parking:both: no
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.1954416667904875,43.78308720042222 4.19526730379384,43.78307559134476</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Fouillaquet</name>
+      <description>lit: yes
+name: Rue Fouillaquet
+access: destination
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+maxspeed: 30
+sidewalk: right
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.19526730379384,43.78307559134476 4.195034460472196,43.78303401915503 4.194916691338448,43.783042580045134 4.194819313961649,43.783101079428086 4.194788501747404,43.783153676939705 4.194731458726863,43.783411021434276</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Clos de Fouillaquet</name>
+      <description>lit: yes
+name: Chemin du Clos de Fouillaquet
+access: destination
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+surface: asphalt
+sidewalk: no
+parking:left: no
+parking:right: on_kerb
+parking:right:orientation: parallel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.194731458726863,43.783411021434276 4.194704688931396,43.78398478930664 4.194627343985434,43.784322224763685 4.194582338389699,43.78451957465853</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Clos de l'Herboux</name>
+      <description>name: Clos de l'Herboux
+access: destination
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+surface: asphalt
+sidewalk: no
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.194582338389699,43.78451957465853 4.194487206801111,43.78459279435195</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.194487206801111,43.78459279435195 4.194497537426878,43.78461918973759 4.194343386524123,43.784773216632686 4.194235319195444,43.78488917430279 4.193911027377877,43.78502990562488 4.193772956318707,43.78516551323518 4.19363928700443,43.78526000386547 4.193436537244804,43.78514566823825 4.1931681206379094,43.78541072162415 4.192993667809733,43.78533413059031</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Herboux</name>
+      <description>lit: yes
+ref: D 1
+name: Rue de l'Herboux
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.192993667809733,43.78533413059031 4.192990613537767,43.78538309438702</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Herboux</name>
+      <description>lit: yes
+ref: D 1
+name: Rue de l'Herboux
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.192990613537767,43.78538309438702 4.192913897412504,43.78549749441268 4.192872664740962,43.785558974608136</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Nîmes</name>
+      <description>lit: yes
+ref: D 40D
+name: Route de Nîmes
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+parking:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.192872664740962,43.785558974608136 4.193041188688263,43.7857133233434</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Général de Gaulle</name>
+      <description>lit: yes
+ref: D 40D
+name: Place du Général de Gaulle
+highway: tertiary
+surface: asphalt
+sidewalk: both
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.193041188688263,43.7857133233434 4.193097602888106,43.78576060067039 4.193185817449007,43.785838682758204 4.193226870457491,43.785875129677905 4.193242411311906,43.78592999457205</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Amandiers</name>
+      <description>name: Chemin des Amandiers
+source: survey
+highway: residential
+maxspeed: 30
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.1878620417492005,43.77807323116203 4.18779475793442,43.778105077715125 4.18771840113527,43.77817000312011 4.187683456670717,43.77822422648122 4.187656686875251,43.77828811399075 4.187641595178478,43.77835388238101 4.187640607031665,43.77842172622653 4.187637912085813,43.77847977610972 4.1876520156357735,43.77857927153262 4.187825659980194,43.77918480203576 4.187866982483263,43.77932872488981 4.188026613109251,43.77988741987871 4.1880735949986105,43.78000170070415 4.18811779211059,43.780048204246526 4.188333657273363,43.78012558035332 4.188504067682761,43.780211777088674 4.188569824361559,43.78028830982704 4.188563086996928,43.78033961265021</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Douzil</name>
+      <description>name: Rue de Douzil
+source: survey
+highway: residential
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.188563086996928,43.78033961265021 4.188603870510827,43.780357318924096 4.1886668424122435,43.78037781409171 4.189042158537948,43.7805000066541 4.189579620572437,43.7807279171674</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Roc</name>
+      <description>lit: yes
+name: Rue du Roc
+source: survey
+highway: residential
+sidewalk: no
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.189579620572437,43.7807279171674 4.189609085313756,43.78078992112939 4.189791892474075,43.780939871867915 4.189959158779978,43.781249111649785 4.190010093256587,43.78140937349976 4.1902289228597995,43.78177821409379 4.190246709502424,43.781940290505226 4.190309232246199,43.7821231853278 4.190317227252227,43.78226839822993 4.190315879779302,43.78249208637387 4.190335283389438,43.78256102807148</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du 19 Mars 1962</name>
+      <description>lit: yes
+name: Rue du 19 Mars 1962
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+sidewalk: no
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.190335283389438,43.78256102807148 4.190134240428853,43.78277381939499 4.190072526168834,43.78279898332952</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Guillaume de Nogaret</name>
+      <description>lit: yes
+name: Rue Guillaume de Nogaret
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.190072526168834,43.78279898332952 4.189976586096489,43.78267121788217 4.189906876830442,43.78252879475709 4.1898733696703445,43.78234460405578 4.189850193136014,43.78215301918194</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>lit: no
+source: survey
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.189850193136014,43.78215301918194 4.189793329778529,43.78203322968179 4.1897246984908225,43.78197842606758 4.189586357937068,43.78188107656511 4.1894657141944105,43.78180681584538 4.189325936336202,43.78170460181304 4.189176636335981,43.78160258217631 4.188975413712338,43.78146651248524 4.188712386997149,43.78138440355138 4.188638635312322,43.78136111987585 4.188521315336216,43.781338614476105 4.188294131400863,43.781307612787664 4.187922498367822,43.781338679333174 4.1877103162977125,43.781356385311184 4.18740273314443,43.781344970468815 4.186858174419196,43.78131928706553 4.186741932421431,43.78132051935028 4.186631888799127,43.78131850878041 4.186487978690612,43.78133530676534 4.18635287207188,43.78136397358587 4.186219831578302,43.78136630843942 4.186013578389068,43.78130112707675 4.185874159856973,43.781295808793274 4.185813972732936,43.78128841508132 4.185571068280111,43.7812238173485</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: survey
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.185571068280111,43.7812238173485 4.185517528689178,43.781282383368264 4.1855071980634095,43.78130197021921 4.185522918580882,43.78131630363918 4.185533159375121,43.78133212876856 4.185531901733723,43.781348278179046 4.185522199928655,43.78135340188668 4.185506479411183,43.781356385311184 4.1854704569682895,43.781348018750805 4.185423834405043,43.781319676208085 4.185361042166684,43.78131571992532 4.185336069001785,43.78132577277447 4.185309568700904,43.78133011819907 4.185299956727364,43.78134477589763 4.185195841985934,43.78132428106148 4.185152094031597,43.78130618593132 4.185046362322657,43.781307483073455 4.184814417316297,43.781327588772854 4.184668980071798,43.78133070191281 4.184519769903106,43.78131338506978 4.18431755913265,43.781315525354024 4.184088668398257,43.78129970022026 4.1839711687590935,43.78131571992532 4.183894811959943,43.78133122076944 4.183759166352042,43.78133089648404 4.183680563764681,43.781343284185105 4.1836323242339235,43.78135041846203 4.18361166298239,43.781359174164386 4.18360258999802,43.781382911839856 4.183608069721253,43.78139769923948 4.183622802091913,43.78141151378056 4.183677689155772,43.781427728026586 4.183698979228006,43.78143421372376 4.183716765870631,43.781444979979526 4.183784588674583,43.78151612801857 4.183786564968207,43.78155750669331 4.183727096496399,43.78161101355784</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Roc de Gachone</name>
+      <description>name: Chemin du Roc de Gachone
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.183727096496399,43.78161101355784 4.183670322970442,43.78161749923514 4.18354033674883,43.78165498643613 4.183285035545084,43.78176459420726 4.183143910213948,43.78180208131602 4.183034764906927,43.781822316562184 4.182454004075745,43.78197823149846 4.1823366840996385,43.78203452680815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Roc de Gachone</name>
+      <description>name: Chemin du Roc de Gachone
+highway: track
+surface: ground
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.1823366840996385,43.78203452680815 4.182109500164285,43.78210982494481 4.181884562017141,43.78215081407149 4.181666001908514,43.78216028307461 4.181558383737477,43.782165017575615 4.181468642040594,43.7821543163057 4.181137882352981,43.78209899395252 4.180775322304311,43.782070911190935 4.180531699199257,43.7820860227017 4.180398658705679,43.782135832289526 4.180273972544243,43.78224038040402 4.1801552152636825,43.78236198545607 4.180132038729353,43.782459009896186 4.180153328801586,43.782911183218005 4.1801523406547725,43.78310049573164 4.180186207140985,43.78329759023991 4.180209114180729,43.78358762085853 4.180287267610448,43.78403090062599 4.1803040661062605,43.7841392069605 4.180362995588899,43.784324883770864 4.180409618152145,43.78439207230342 4.180473039211203,43.78445958502889 4.180507444686586,43.78448669386358 4.180550563820224,43.784508095566494 4.180637071582084,43.78453222111331 4.180790503832611,43.78455991359727 4.181160340235084,43.78460388430655 4.181225198598597,43.78462217299913 4.181275594086036,43.78464389892096 4.181369468033227,43.78471601595418 4.181450406240326,43.78479377513982 4.181612911475224,43.78495000659235 4.181701305699181,43.78502011281089 4.18180200684253,43.78508198261539 4.1819045944479765,43.78513153029525 4.182014278744168,43.78517160940938 4.182135641139053,43.7852072785013 4.182256464544767,43.78523497067254 4.182388876217646,43.785259031073196 4.182521287890525,43.78527167737153 4.182786919720039,43.78529100350436 4.183421309973685,43.785347295694564 4.183441432236049,43.78535092744695 4.183452301850987,43.78535468890455 4.183474939396146,43.78536882679477</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Roc de Gachone</name>
+      <description>name: Chemin du Roc de Gachone
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.183474939396146,43.78536882679477 4.184310103115792,43.785573177302524 4.184595767376142,43.78565171360191</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Clapas</name>
+      <description>name: Chemin du Clapas
+highway: residential
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.184595767376142,43.78565171360191 4.184945840842364,43.78549288988073 4.185282439579323,43.78529820216298 4.185522379591712,43.78516901529277</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Espendidou</name>
+      <description>name: Chemin de l'Espendidou
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: unclassified
+sidewalk: no
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.185522379591712,43.78516901529277 4.185618229832527,43.785796528819816 4.185497226763756,43.78604601485022 4.185525344032149,43.78625457840617</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse de la Source</name>
+      <description>name: Impasse de la Source
+highway: residential
+sidewalk: no
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.185525344032149,43.78625457840617 4.185528937293285,43.78628012998581 4.185533698364291,43.7863152796029 4.185357089579433,43.78645840707382</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Escate</name>
+      <description>name: Chemin de l'Escate
+source: Bing
+highway: residential
+surface: asphalt
+sidewalk: no
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.185357089579433,43.78645840707382 4.185379637293066,43.786492324407966 4.185496597943057,43.78657170256788 4.18556603771452,43.78668707308787 4.185614995897504,43.787306204952515</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Lavoir</name>
+      <description>name: Chemin du Lavoir
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+surface: asphalt
+sidewalk: right
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.185614995897504,43.787306204952515 4.18668551822159,43.78687903253772 4.187141233565224,43.786600496580235 4.187233760039487,43.786520015983896 4.1873069727351435,43.786174486455046 4.187265919726659,43.78601559927084</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-Étienne d'Escattes</name>
+      <description>ref: D 107
+name: Route de Saint-Étienne d'Escattes
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary
+surface: asphalt
+sidewalk: no
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.187265919726659,43.78601559927084 4.187438216598153,43.78595807552085</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Florent</name>
+      <description>name: Rue de Florent
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary
+surface: asphalt
+sidewalk: no
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.187438216598153,43.78595807552085 4.187795566418177,43.78589199123466 4.188405522496093,43.78573290874266 4.1889181910287405,43.78559600537046</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Florent</name>
+      <description>name: Rue de Florent
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary
+surface: asphalt
+sidewalk: no
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.1889181910287405,43.78559600537046 4.188405522496093,43.78573290874266 4.187795566418177,43.78589199123466 4.187438216598153,43.78595807552085</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Fontaines</name>
+      <description>name: Rue des Fontaines
+oneway: yes
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: service
+service: alley
+surface: asphalt
+sidewalk: no
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.188919718164723,43.78553160684962 4.189227930138704,43.78533212015542 4.1895621932559255,43.785024522820045 4.189584740969557,43.785003704979886</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Docteur Farel</name>
+      <description>name: Place du Docteur Farel
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: service
+service: alley
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.189584740969557,43.785003704979886 4.189753264916857,43.78510137366253 4.190010632245758,43.785187628076926 4.190124718286841,43.78517511146662</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Moulin à Huile</name>
+      <description>name: Rue du Moulin à Huile
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: service
+service: alley
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.190124718286841,43.78517511146662 4.190246440007839,43.785556185950846 4.190253267203999,43.785577781828295</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Bourely</name>
+      <description>lit: yes
+name: Rue Bourely
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+source: survey
+highway: residential
+surface: asphalt
+sidewalk: no
+maxweight: 3.5
+parking:both: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.190253267203999,43.785577781828295 4.190292164255801,43.78581611419181 4.190407957095925,43.786060606540595 4.190447393136897,43.786338691052265 4.190522222800063,43.786618395553894</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Bourely</name>
+      <description>lit: yes
+name: Rue Bourely
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+source: survey
+highway: residential
+sidewalk: no
+maxweight: 3.5
+parking:both: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.190522222800063,43.786618395553894 4.190489434292194,43.78675711241804</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Bourely</name>
+      <description>lit: yes
+name: Rue Bourely
+source: survey
+highway: residential
+sidewalk: no
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.190489434292194,43.78675711241804 4.190481259623108,43.786864376196064</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du 8 Mai 1945</name>
+      <description>lit: yes
+name: Rue du 8 Mai 1945
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+surface: asphalt
+sidewalk: no
+maxweight: 16
+parking:both: no
+maxweightrating: 16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.190481259623108,43.786864376196064 4.190756144100049,43.786775076195966 4.19103947274066,43.786587980265764 4.19114241967222,43.78655451694579 4.1919170369417165,43.7865204050926</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du 8 Mai 1945</name>
+      <description>lit: yes
+name: Rue du 8 Mai 1945
+source: survey
+highway: residential
+surface: asphalt
+sidewalk: right
+smoothness: good
+parking:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.1919170369417165,43.7865204050926 4.192684288025883,43.78647332292104 4.19277151443997,43.78649368628905</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Plaisance</name>
+      <description>lit: yes
+name: Rue de Plaisance
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.19277151443997,43.78649368628905 4.192908507520799,43.78629699142833 4.192989625390954,43.78618829989234 4.193080624729236,43.78606631351185 4.193186985258876,43.785997311004586</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Cave</name>
+      <description>lit: yes
+ref: D 107
+name: Route de la Cave
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+maxweight: 3.5
+parking:both: no
+cycleway:both: no
+lane_markings: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.198037797961593,43.781545119036636 4.197938534122698,43.78161542381849 4.197903409995089,43.78165920212334 4.197859662040751,43.781707714933354 4.197365229308373,43.78225620528879 4.1973241762998885,43.782301215388976 4.197088458369335,43.78256440057017 4.196884900125954,43.782791784369955 4.196866035504987,43.782815391765666</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Général de Gaulle</name>
+      <description>lit: yes
+name: Place du Général de Gaulle
+highway: tertiary
+surface: asphalt
+junction: roundabout</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.193399257160514,43.78605172182288 4.193417043803139,43.78602558647772 4.193421355716502,43.78599679218844 4.193412013237548,43.785968581553725 4.193390094344616,43.78594432688244 4.1933581143205005,43.78592681681951 4.193319756257869,43.78591812663822 4.193279601564669,43.78591922912397 4.193242411311906,43.78592999457205 4.193212317749888,43.78594932049203 4.193194531107263,43.785971889008145 4.193186985258876,43.785997311004586</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Général de Gaulle</name>
+      <description>lit: yes
+name: Place du Général de Gaulle
+highway: tertiary
+surface: asphalt
+junction: roundabout
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.193186985258876,43.785997311004586 4.193190488688484,43.78602318695414 4.193204682069973,43.78604711733362 4.193228307761945,43.786066702623515 4.19325911997619,43.78608032152992 4.193294064440743,43.78608648246276 4.193334129302415,43.7860840180897</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Général de Gaulle</name>
+      <description>lit: yes
+name: Place du Général de Gaulle
+highway: tertiary
+surface: asphalt
+junction: roundabout
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.193334129302415,43.7860840180897 4.19337060090295,43.78607189077871 4.193399257160514,43.78605172182288</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Route d'Espanès</name>
+      <description>ref: D 35c
+name: Route d'Espanès
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4698150237126903,43.46285720224994 1.4697867267812406,43.46276168188799 1.4696874629423453,43.46226797287404 1.4696791984417314,43.46218392718468 1.4696764136643508,43.462095708426176 1.4696903375512544,43.46195102416737 1.46974037371258,43.46180431827874 1.4697552857462963,43.46173292128417</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

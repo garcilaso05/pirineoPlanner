@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Liaison St-Martin-des-Combes - St-Georges-de-Montclard</name>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6146470803308272,44.956683972963 0.6137652940479353,44.956466504757934 0.6125422377886067,44.95617040086077 0.6119091950078877,44.95601859775513 0.6114102706990878,44.95580602187703 0.611135565885204,44.95568708329544</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

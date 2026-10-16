@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>secondary</name>
+      <description>source: Bing
+highway: secondary
+surface: asphalt
+junction: roundabout
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.406013617962556,43.687943786000695 1.406048113269466,43.687934172171275 1.4060763203693876,43.6879168932578 1.4060950053272971,43.6878937680876</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Fenouillet</name>
+      <description>ref: M 14a
+name: Rue de Fenouillet
+oneway: yes
+highway: secondary
+old_ref: D 14a
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4060950053272971,43.6878937680876 1.406126176867656,43.687889285960885 1.406258498709007,43.68787018819981</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Fenouillet</name>
+      <description>ref: M 14a
+name: Rue de Fenouillet
+lanes: 2
+highway: secondary
+old_ref: D 14a
+surface: asphalt
+maxspeed: 50
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.406258498709007,43.68787018819981 1.4065854854724265,43.68794566979141 1.406922713030085,43.688025828279514 1.4071714565322573,43.6880827316469 1.407487573680739,43.68816899600959</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Fenouillet</name>
+      <description>ref: M 14a
+name: Rue de Fenouillet
+lanes: 2
+highway: secondary
+old_ref: D 14a
+surface: asphalt
+maxspeed: 50
+cycleway:left: share_busway
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.407487573680739,43.68816899600959 1.4079711367981809,43.688317424987815 1.4082989320453558,43.688404273633196 1.408611006775059,43.68848547083187</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

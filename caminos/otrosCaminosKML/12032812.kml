@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5425559241812117,43.53482578479337 1.5425340951198077,43.53480540101206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+layer: 1
+bridge: yt
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5425340951198077,43.53480540101206 1.5424836098008399,43.53473708598864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5424836098008399,43.53473708598864 1.5424679791148963,43.53471598581323</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5424679791148963,43.53471598581323 1.54267198651592,43.534609573087735 1.5434200136530065,43.53452680026873 1.543966907997978,43.534299190711764 1.544449033810965,43.53425959502729 1.5450813579394571,43.534207625651966 1.5452070322477054,43.53418971639571 1.5458056695530424,43.53410407751499 1.5459550593847915,43.53406969167923 1.5463319026464797,43.53398288038165 1.546481561972814,43.53392042566491 1.5465723816480383,43.53388890522022 1.5466994932607414,43.53374120175994 1.547317174850102,43.533648724100665 1.5480729274986318,43.53341980872138 1.5492507984991692,43.53305269567169 1.5496662693180745,43.53294510774461 1.5498391950102675,43.53286988725785 1.5503165597522488,43.53282696920649 1.5505806644457798,43.53278027381091 1.5523402844243133,43.53227541417096 1.5525502207062118,43.532221880044894</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

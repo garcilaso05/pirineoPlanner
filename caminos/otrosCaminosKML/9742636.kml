@@ -1,0 +1,797 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Camino Ribera del Gállego</name>
+    <Placemark>
+      <name>Camino de la Conchada</name>
+      <description>lit: no
+name: Camino de la Conchada
+lanes: 1
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3213713945784747,42.62433711261375 -0.3213024039646543,42.62428568765391</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino de Santa Bárbara</name>
+      <description>lit: no
+name: Camino de Santa Bárbara
+lanes: 1
+layer: 1
+bridge: yes
+highway: tertiary
+surface: concrete
+maxspeed: 30
+shoulder: no
+cycleway:both: no
+source:maxspeed: sign
+maxweight:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3213024039646543,42.62428568765391 -0.32110127117254,42.62414826779057</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino de Santa Bárbara</name>
+      <description>lit: no
+name: Camino de Santa Bárbara
+lanes: 2
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lanes:forward: 1
+lanes:backward: 1
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32110127117254,42.62414826779057 -0.32103740095583905,42.62409168694097 -0.32106111647933977,42.62401263230332</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino de Santa Bárbara</name>
+      <description>lit: no
+name: Camino de Santa Bárbara
+lanes: 2
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lanes:forward: 1
+lanes:backward: 1
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32106111647933977,42.62401263230332 -0.3213817252042421,42.62372602535056 -0.32145170396487494,42.62366342905317 -0.3215199759264681,42.62357763170276 -0.32160630402527196,42.62329452604749</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vía Verde del Alto Gállego</name>
+      <description>foot: yes
+name: Vía Verde del Alto Gállego
+type: route
+lanes: 1
+route: bicycle
+access: no
+length: 1.6
+oneway: no
+bicycle: yes
+highway: unclassified
+surface: asphalt
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32160630402527196,42.62329452604749 -0.3218686120882348,42.623197491172235 -0.3220183612460975,42.62305729269639 -0.3221850885628302,42.622671993137395 -0.32225012658940044,42.62252161395269 -0.3223406767700397,42.62231227230267 -0.32245027123470227,42.62205870818684 -0.32263541401475926,42.62163083292517 -0.32280573459262835,42.62123732786812 -0.32296249060970716,42.620874690231375 -0.32311637201787685,42.62032471442943 -0.32314916052574727,42.62017829577392 -0.3232530057725914,42.61971438102874 -0.32330358092308736,42.61940322966136 -0.3234882745455024,42.618268674124096</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vía Verde del Río Gállego</name>
+      <description>foot: yes
+name: Vía Verde del Río Gállego
+type: route
+lanes: 1
+route: bicycle
+bicycle: yes
+highway: unclassified
+surface: asphalt
+maxspeed:type: ES:rural
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3234882745455024,42.618268674124096 -0.32371168555666285,42.61688309087635 -0.32389000114056055,42.615670217487114 -0.3239990566160527,42.613597694254246 -0.32403193495545146,42.613021870931 -0.32397004103237564,42.61271128112343 -0.32397004103237564,42.61216506770471 -0.3239409356171702,42.611559877211775 -0.3237663031259373,42.611262568782145 -0.3236025402496423,42.610925194388905 -0.3234969882037583,42.61080202550427 -0.3233150793587241,42.610769894450826 -0.3231258941598885,42.61080738067823 -0.3227619866382917,42.61106707300622 -0.32242359127076387,42.61130012082577 -0.32213496256997626,42.61148867405467 -0.32206713976602525,42.611533101660854</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 60
+lanes:forward: 1
+lanes:backward: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32206713976602525,42.611533101660854 -0.3220161154578872,42.61139380249787</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lanes: 2
+layer: 1
+bridge: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 60
+lanes:forward: 1
+lanes:backward: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3220161154578872,42.61139380249787 -0.32190319722667343,42.61113338429016</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 60
+lanes:forward: 1
+lanes:backward: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32190319722667343,42.61113338429016 -0.32186331202805857,42.61102158725917</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GR16</name>
+      <description>name: GR16
+width: 3
+highway: track
+surface: compacted
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32186331202805857,42.61102158725917 -0.32220170739558635,42.61079131515496 -0.32267520938184574,42.61047297893195 -0.32279818874424177,42.61040250178286 -0.3229191019814842,42.61031939682447 -0.3230390270719142,42.61023311828974 -0.3231652403693329,42.610132625133105 -0.32337966822765224,42.609862218399954 -0.32342566197019923,42.609782087866265 -0.3234483893468874,42.60972542784747 -0.3234512639557966,42.609662288559285 -0.3232715110674443,42.60875162117305 -0.32320422725266373,42.60860021663597</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GR16</name>
+      <description>name: GR16
+width: 1.5
+highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32320422725266373,42.60860021663597 -0.32302833712003315,42.60833330739209 -0.32302833712003315,42.60814051318175 -0.32306373074222744,42.60792166855049 -0.32314161467736063,42.60763511976512 -0.32311322791438246,42.60722869955722 -0.3231770082995549,42.606916097339386 -0.3231274212958715,42.60664508158362 -0.32295746004411613,42.60634808028447 -0.3228809235819092,42.606131212902646</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GR16</name>
+      <description>foot: yes
+name: GR16
+width: 1.5
+bicycle: yes
+highway: path
+surface: earth</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3228809235819092,42.606131212902646 -0.32290598657833613,42.606014183544545 -0.32287418621727826,42.60588478981191 -0.3227804021016162,42.60574799052483 -0.3226398157596514,42.60561740610153 -0.3225410010783983,42.60550163203707 -0.32244892376177603,42.605318019615844 -0.3224004147364336,42.60520581543197 -0.32241550643320677,42.60507522987219 -0.3224572780939184,42.60498279496617 -0.3224540441588955,42.604918725197635 -0.3224322150974914,42.60486331702681 -0.32247236979069155,42.60463408007323 -0.3224924920530558,42.60452689977179 -0.3224924920530558,42.60444180337401 -0.32246401545854925,42.60436669099468 -0.32243050829845166,42.60424721187373 -0.32239026377372304,42.60400190537871 -0.3224070622695361,42.60390457595725 -0.32246401545854925,42.60369510559963 -0.32247740035628264,42.603354979251044 -0.3224506305608159,42.60317512942039 -0.32237858567502947,42.60294337363408 -0.3223595413910062,42.602857613856386 -0.3223455276725739,42.60264549510195 -0.3222869575160493,42.6025752074626 -0.3221143911499699,42.602545783168594 -0.3216861642540302,42.60249129859647 -0.32142574265316387,42.6025098127768</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>GR16</name>
+      <description>name: GR16
+width: 1.5
+highway: path
+surface: earth</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32142574265316387,42.6025098127768 -0.32142071208757284,42.60245188982286 -0.3213403128696442,42.60238160196511 -0.3212918038443017,42.602322488691264 -0.3212398812208796,42.60218449137845 -0.3211980197286396,42.602075984412316 -0.3211611888019907,42.60199723243739 -0.32108420318214165,42.601926877944024 -0.32090840288103945,42.60179258263323 -0.3207812014368081,42.60169029054053 -0.32073601617801695,42.60160532251426 -0.32068067995651517,42.60148206907798 -0.32063890829580366,42.601372370669694 -0.3205736007746481,42.60128237683429 -0.3204596943966218,42.60115799865971 -0.32032575558775955,42.60107051721114 -0.32025380053350155,42.60090348879816 -0.32029242809071873,42.60072488824599 -0.3203089570919465,42.60054628718187 -0.32032000636994123,42.600337202279356 -0.3203807324831477,42.60011389988666 -0.3204137904856033,42.59993933068353 -0.32046337748928666,42.59983577917512 -0.3204137904856033,42.599679525838916 -0.32028973314486636,42.59955157370388 -0.3201325279701454,42.599391286007375 -0.32007728158017207,42.59927761638856 -0.32011869391477,42.59917201388673 -0.32001673513002243,42.599017808784865 -0.31996148874004904,42.59886962076094 -0.32000838079788013,42.59868889834312 -0.3199312155149743,42.59855499281074 -0.31972163855918917,42.59807590621619 -0.31966091244598266,42.59791349866163 -0.31955607905232597,42.59785457952966 -0.3192969150928575,42.59776530801145 -0.3192032208087238,42.59776940789138 -0.3190184373547804,42.59766988653612 -0.318935702517113,42.597608983355926 -0.3188171248996092,42.59757863093445 -0.3186295566682851,42.597566397383495 -0.31850001960431507,42.59764151796122 -0.3183271837436504,42.59766320768864 -0.3175022608182435,42.59776821760369</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>ref: GR16
+width: 1.5
+highway: path
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3175022608182435,42.59776821760369 -0.31738673747270574,42.59762842476845 -0.31732017231015247,42.59748830098265 -0.3173235859082322,42.597419991349426 -0.317325741864914,42.597377206865296 -0.31738053909724534,42.597278280032185 -0.3174572552225091,42.59707440826248 -0.3174052427675586,42.59688462109828 -0.3174327312152526,42.596609990774255 -0.3173969782669447,42.596381781510594 -0.31737470004789853,42.59615191819096 -0.3175011828399026,42.595814395830686 -0.31757987525879144,42.59568881641381 -0.3176186824790654,42.59544903110552 -0.31774830937456383,42.59514807477003 -0.3178985076900686,42.59415287833144 -0.3180605637673238,42.5937994736327 -0.3181017964388649,42.59374293134019</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: earth</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3181017964388649,42.59374293134019 -0.31828379511542754,42.59358633206809 -0.31839509637912994,42.59350551928304</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.31839509637912994,42.59350551928304 -0.31852580125296925,42.59331512606344 -0.31875936322684034,42.593028510095515 -0.3188621304953436,42.59281629174714</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3188621304953436,42.59281629174714 -0.3189213294725671,42.592748373787146</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3189213294725671,42.592748373787146 -0.31894226021868705,42.5927182173956 -0.31897271310681874,42.5926247721686 -0.3190057711092743,42.59253139293414 -0.3190264323608091,42.59246241654009 -0.3190374816388037,42.592403492254235 -0.319067844695407,42.59231831316565 -0.3191311759229374,42.592241069916334 -0.319215258233531,42.59217110120549 -0.31922909228890645,42.592122427273345 -0.3192373567895203,42.592059402410705 -0.3192690673190498,42.59202997315082 -0.3193076948762669,42.592005570001184 -0.3193835126862466,42.591810675127206 -0.31938773476808197,42.59175690863633 -0.319428967439623,42.591706184241396 -0.31947181707867556,42.59167067052704 -0.3195228413868135,42.59163310665071 -0.3195380229151151,42.591592500604015 -0.3195930896420317,42.59158238215504 -0.31977787309597505,42.59147372445886 -0.3198288974041131,42.59145950569581 -0.3198784844077964,42.59146869829183 -0.3198951032405526,42.59148589307212 -0.31994334277130987,42.59149911982296 -0.31999023482914096,42.591486885078524 -0.32001502833098266,42.59145447952763 -0.3200218555271419,42.59140468076044 -0.3199489123260714,42.59132247633393</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino del Puente de Oliván al Puente del Río Sía</name>
+      <description>name: Camino del Puente de Oliván al Puente del Río Sía
+highway: track
+surface: concrete
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3199489123260714,42.59132247633393 -0.32012318549119056,42.591254622880086 -0.32033159463710636,42.59113948346825 -0.32047173182142896,42.59086859748813 -0.320622199631519,42.59071291687797 -0.32083330372328706,42.59039150198369 -0.32105716389208966,42.589939269743574 -0.32132198723784816,42.58918227933257 -0.32148934337527957,42.58874200905796 -0.32173548176312833,42.588219527154756 -0.3218412134720692,42.58785570520754 -0.32197389463953363,42.58734598054034 -0.3220623786950194,42.58680510037216 -0.32212777604770326,42.586404430672424 -0.32222991449550775,42.58585467961071 -0.32225093507315605,42.58574177897909 -0.32234121575921015,42.58539487447021 -0.32238927562691055,42.58514281356755 -0.32240472664979736,42.58487811875954 -0.3223297173235734,42.58427768993903 -0.3221682002354887,42.5836802317277 -0.32212966250979996,42.58350316922723 -0.32212966250979996,42.583351703334664 -0.32217781220902875,42.58326809929574 -0.3222591097422416,42.58323191934857 -0.3222956711743053,42.58310320587454 -0.3222800404883616,42.582978328416566 -0.32233223260636895,42.5828189240946 -0.32271051317251165,42.58201018891734 -0.3234069770122895,42.580565591268766 -0.32346437935894473,42.580492632908076 -0.3235269919342479,42.58037548925099 -0.3235870892267555,42.58016832104764 -0.3236206862183816,42.58004118875061 -0.3236373948826662,42.579978482402524 -0.32359598254806826,42.57990208376029 -0.3234870169041046,42.57960039089125 -0.32338586660311275,42.57944759258664 -0.3233781410916693,42.57936358643281 -0.3233417593226624,42.57921462406129 -0.32324590908184686,42.57912678107504 -0.3231629047495943,42.579105812512594 -0.3228749947010339,42.57914020888893 -0.3227350371797681,42.57911910803723 -0.3225709149773595,42.578919211840244</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Oliván</name>
+      <description>ref: SC-22059-01
+name: Carretera de Oliván
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lanes:forward: 1
+lanes:backward: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3225709149773595,42.578919211840244 -0.3226732330882207,42.578880317336974 -0.32408538471485654,42.57866639713531</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Puente de Oliván</name>
+      <description>ref: SC-22059-01
+name: Puente de Oliván
+lanes: 2
+layer: 1
+bridge: yes
+highway: tertiary
+surface: asphalt
+lanes:forward: 1
+lanes:backward: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32408538471485654,42.57866639713531 -0.32438712881879234,42.57862121847071 -0.32467566768805156,42.5785780241971</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>trunk_link</name>
+      <description>lanes: 1
+oneway: yes
+highway: trunk_link
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32467566768805156,42.5785780241971 -0.3247561567375087,42.578600382033116 -0.32481257093735133,42.57863411721431 -0.3248635952454893,42.578708797579914 -0.32497040493277113,42.578871189031666</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pista de la Chopera</name>
+      <description>name: Pista de la Chopera
+highway: track
+surface: asphalt
+tracktype: grade1
+mtb:scale:imba: 0</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32497040493277113,42.578871189031666 -0.324967530323862,42.5789579078781 -0.32496339807355507,42.579077898516296 -0.3249438148003612,42.57928348282165</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pista de la Chopera</name>
+      <description>foot: yes
+name: Pista de la Chopera
+bicycle: yes
+highway: track
+incline: 0%
+surface: compacted
+tracktype: grade2
+smoothness: very_bad
+motor_vehicle: destination
+mtb:scale:imba: 0</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3249438148003612,42.57928348282165 -0.3249282739459459,42.5794469311213 -0.324982801683692,42.5797865265019 -0.32505179229751235,42.580151387728556 -0.32506445854301846,42.58037588612428 -0.3251293169065319,42.58083447152555 -0.32514800186444154,42.580966695364275 -0.3251398271953561,42.58106928605348 -0.3251335389883672,42.581147072304915 -0.32503589211698347,42.581379107587296 -0.32489988718296775,42.58155491937846 -0.32454819674923496,42.58206151649643 -0.32416048387260893,42.582611499437235 -0.32390123008161203,42.58299149082991 -0.3237163567961403,42.583267371728454 -0.3236437729211834,42.58337498545213 -0.32362652526772834,42.5853088259796 -0.32362140487060886,42.58642969582365 -0.3235991266515627,42.58714657368775 -0.3236110742448415,42.587970123172965 -0.3235991266515627,42.58853467024455 -0.32360083345060253,42.589896083310926 -0.3235713687092834,42.59000269356208 -0.32346150475003554,42.590401289951444 -0.3232619889254326,42.591039620853785 -0.32311574319717795,42.591553481739425 -0.3229764144966111,42.59190332797499 -0.3237401621511694,42.594233293491996 -0.3243352960268986,42.59600101206384 -0.32489162268235383,42.5977026194911 -0.32528831871182107,42.598915908891925 -0.3254225270152685,42.59910079656935 -0.32569211143203275,42.60023682540706 -0.32592127166101165,42.60132172022432</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pista de la Chopera</name>
+      <description>foot: yes
+name: Pista de la Chopera
+bicycle: yes
+highway: track
+incline: 0%
+surface: compacted
+tracktype: grade2
+smoothness: very_bad
+motor_vehicle: destination
+mtb:scale:imba: 0</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32592127166101165,42.60132172022432 -0.32691759314262864,42.60597847962882 -0.3270760559587473,42.60653406991024</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: compacted
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3270760559587473,42.60653406991024 -0.326947327378533,42.60681897082327 -0.3268536330943993,42.60702300906121 -0.32690977779965674,42.60737309903678 -0.32691130493563975,42.607704674413775 -0.32688866739048,42.60798487571933 -0.32692208471904927,42.608154331442336 -0.327139027860164,42.60847558860771 -0.3271751401345857,42.60862798518125 -0.327194184418609,42.6090874205776 -0.32712456498408976,42.60934381433633 -0.32704030301043935,42.609536869280745 -0.3269319661871745,42.60975841892653 -0.32692109657223667,42.60987782136317 -0.32691274224009437,42.60996932340777 -0.32687662996567274,42.610151798182095 -0.326770718593675,42.6104175095877 -0.3265660823719526,42.61073472216756 -0.32652278357525805,42.61086582476907 -0.3265030206390075,42.61106859360475 -0.3265155072214567,42.61133350774695 -0.3265444329736054,42.611551414816674 -0.3265756943454927,42.61173388495605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: earth</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3265756943454927,42.61173388495605 -0.3265588958496797,42.61192699860462 -0.3265308684128152,42.612154291477964 -0.32640743989277715,42.6124151020864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ford: yes
+highway: track
+surface: paving_stones
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32640743989277715,42.6124151020864 -0.32637168694446916,42.61248960975799 -0.3263281186531894,42.612580380740575</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: earth</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3263281186531894,42.612580380740575 -0.3260640139596582,42.61307482574364 -0.325950556739274,42.61320830340492 -0.3258246129364404,42.61336558057925 -0.32574520186532424,42.61353403000852 -0.32571079638994244,42.613719469296846 -0.3257055861612945,42.613861209328874 -0.3259641213000642,42.6144780127082 -0.3259801113121215,42.6145587982932 -0.32591139019288634,42.614691479464426 -0.3258161687727697,42.61478608156187</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track
+surface: concrete
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3258161687727697,42.61478608156187 -0.3256687552346456,42.61495842757125</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3256687552346456,42.61495842757125 -0.32566722809866266,42.61502618910523 -0.32569866913360684,42.61521691263675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32569866913360684,42.61521691263675 -0.32572759488575553,42.61542237774954 -0.32578059548751853,42.61567220072991 -0.32577817003625137,42.61586001353576</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32577817003625137,42.61586001353576 -0.32573172713606247,42.61595157289959 -0.3254659156434915,42.6164691947857 -0.32542665926557546,42.61671570821747 -0.3254015064376201,42.61690609604075 -0.32538821137141516,42.6170061816283 -0.3253352107696521,42.617199278928844 -0.32525391323643926,42.617460332834774 -0.325275023645616,42.61781228121518 -0.32528472545068454,42.61797351310149 -0.3253352107696521,42.618191396938926 -0.3253395226830158,42.61821440161999 -0.3253785095663466,42.61842170778775 -0.3253927927793641,42.618676278288795 -0.3254131845363137,42.6190263027653</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle La Florida</name>
+      <description>lit: yes
+name: Calle La Florida
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+maxspeed:type: sign
+sidewalk:both:surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3254131845363137,42.6190263027653 -0.325486756558083,42.61915527257211 -0.32552062304429435,42.61923129257912 -0.32580709578840006,42.619744987080956 -0.3259032155238008,42.6199600883712 -0.32592980565621077,42.62001958152865 -0.32604290355048143,42.620359286368725 -0.3260743445854256,42.62043411505112 -0.3261127924795859,42.62081678435412 -0.3261190806865748,42.62095242680384 -0.32613201642666606,42.621227676948536 -0.3260358068597369,42.62141368824491 -0.3257320864621761,42.62200106781626 -0.32555673531871593,42.62234023303741 -0.3250077748485905,42.623381777986026 -0.324994569613914,42.62341059753886 -0.3249250400109231,42.62356176777293 -0.32492333321188327,42.62356520495807 -0.32482083543796525,42.62379172826026 -0.3248140082418059,42.623887704619435 -0.32479837755586227,42.62399286862823 -0.32467971010683006,42.624584586376585 -0.3246708167855173,42.6246288063444 -0.32463362653275474,42.62484600590961 -0.3246250027060271,42.62489630673555 -0.32464907755564154,42.625034518125545</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenida de Zaragoza</name>
+      <description>lit: yes
+name: Avenida de Zaragoza
+lanes: 2
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+parking:left: yes
+lanes:forward: 1
+parking:right: no
+lanes:backward: 1
+parking:left:orientation: parallel
+parking:right:restriction: no_parking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32464907755564154,42.625034518125545 -0.32459445998636716,42.625141993628496 -0.32455143068425785,42.625411408649384 -0.3245590663641728,42.62550652324212 -0.3245683190115992,42.62567057739623 -0.32457981744723596,42.625874025098035 -0.32458520733894075,42.62595142494255 -0.3246019160032253,42.626233725353195</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenida de Zaragoza</name>
+      <description>name: Avenida de Zaragoza
+source: survey
+highway: living_street
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3246019160032253,42.626233725353195 -0.32455978501640015,42.62625527293204 -0.3245511611896726,42.626259701421255 -0.32453508134608683,42.6262678974303 -0.3241871638365473,42.62645343099155</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: survey
+highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3241871638365473,42.62645343099155 -0.3238715856772361,42.626683512990404 -0.3237247111282826,42.6267704296977 -0.32365491203070645,42.62683771570412 -0.3236259862785578,42.62689971394429 -0.3236331728008308,42.62698821665561 -0.32367790890197995,42.627056295578704</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle Solidaridad</name>
+      <description>lit: yes
+name: Calle Solidaridad
+source: survey
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+maxspeed:type: sign
+sidewalk:both:surface: paving_stones
+name:etymology:wikidata: Q815726</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32367790890197995,42.627056295578704 -0.3235917604662329,42.62720600285157 -0.32355672617015224,42.62727203256744 -0.32349671870917307,42.62738512233852 -0.3234104804418976,42.62760568315367 -0.32339161582093107,42.6276617320466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rambla de San Pedro</name>
+      <description>lit: yes
+name: Rambla de San Pedro
+lanes: 2
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+parking:both: yes
+cycleway:both: no
+lanes:forward: 1
+lanes:backward: 1
+source:maxspeed: sign
+sidewalk:both:surface: paving_stones
+parking:condition:both: free
+parking:both:orientation: parallel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32339161582093107,42.6276617320466 -0.3231329908506331,42.62770099267974 -0.32282199409927087,42.62782492128354 -0.32269928423146016,42.6278912808185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rambla de San Pedro</name>
+      <description>lit: yes
+name: Rambla de San Pedro
+lanes: 2
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+lanes:forward: 1
+maxspeed:type: sign
+lanes:backward: 1
+parking:lane:both: no_parking
+sidewalk:both:surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32269928423146016,42.6278912808185 -0.3226125069750142,42.627996107589134 -0.3226071170833095,42.62809002852436 -0.3226390072758958,42.628237023426365 -0.3226910197308463,42.628342576655804 -0.32275929169243933,42.62848137524488 -0.3227457271316491,42.628534184722014</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle Mayor</name>
+      <description>lit: yes
+name: Calle Mayor
+lanes: 2
+layer: 1
+bridge: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+smoothness: excellent
+lanes:forward: 1
+maxspeed:type: sign
+lanes:backward: 1
+maxweight:signed: no
+sidewalk:both:surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3227457271316491,42.628534184722014 -0.32248629367759546,42.62861349799525 -0.32217376979025025,42.62870907035522</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle Mayor</name>
+      <description>lit: yes
+name: Calle Mayor
+lanes: 2
+oneway: no
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+smoothness: excellent
+lanes:forward: 1
+maxspeed:type: sign
+lanes:backward: 1
+sidewalk:both:surface: sett</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32217376979025025,42.62870907035522 -0.3220088391040859,42.62876491997207 -0.32199132195604563,42.62876967875367</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle Mayor</name>
+      <description>lit: yes
+name: Calle Mayor
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+lane_markings: no
+maxspeed:type: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32199132195604563,42.62876967875367 -0.32193041617978224,42.62878071648182</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaza del Ayuntamiento</name>
+      <description>lit: yes
+name: Plaza del Ayuntamiento
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+maxspeed:type: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32193041617978224,42.62878071648182 -0.3219156838091227,42.62875408052373</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaza del Ayuntamiento</name>
+      <description>lit: yes
+name: Plaza del Ayuntamiento
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: right
+maxspeed:type: sign
+sidewalk:right:surface: sett</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3219156838091227,42.62875408052373 -0.32190679048780996,42.628743174979284 -0.3217644973468054,42.6285801864328 -0.32164160781593787,42.62843709191913</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino Conchada</name>
+      <description>lit: yes
+name: Camino Conchada
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: right
+cycleway:both: no
+maxspeed:type: sign
+sidewalk:right:surface: sett</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32164160781593787,42.62843709191913 -0.3215724375390606,42.628360686584514 -0.3215471948795769,42.62833292683763</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino de la Conchada</name>
+      <description>lit: yes
+name: Camino de la Conchada
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: right
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3215471948795769,42.62833292683763 -0.3215605797773103,42.62819842407923 -0.32156273573399213,42.62817277929428 -0.3215761206317255,42.62806808501102 -0.32156605950054334,42.62798877104284 -0.32152922857389454,42.62774811862589 -0.3215110826051552,42.62762980797815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino de la Conchada</name>
+      <description>lit: no
+name: Camino de la Conchada
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+cycleway:both: no
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3215110826051552,42.62762980797815 -0.3214466733992839,42.627590679490986 -0.3213209092595072,42.627389881225604 -0.3211902043856678,42.627175598754654 -0.32111905781516553,42.62705847674685 -0.32106632670798774,42.626961976507125 -0.3210516841688565,42.62693527367463</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino Conchada</name>
+      <description>lit: yes
+name: Camino Conchada
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+cycleway:both: no
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3210516841688565,42.62693527367463 -0.32104898922300423,42.626921327388764 -0.321043060342129,42.626795612386424</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino Conchada</name>
+      <description>lit: yes
+name: Camino Conchada
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+cycleway:both: no
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.321043060342129,42.626795612386424 -0.321049168886061,42.62670572137734 -0.32106201479462393,42.62666936835887 -0.32109561178624996,42.62659011870501 -0.3211621769488033,42.62649447699507 -0.3211927196684633,42.626414698345066</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino Santa Bárbara</name>
+      <description>lit: no
+name: Camino Santa Bárbara
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+cycleway:both: no
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3211927196684633,42.626414698345066 -0.32124293549284555,42.62626968204503 -0.3212956666000234,42.62591652562235 -0.32128856990927884,42.62584289328032 -0.32128740209940954,42.62583073137703 -0.32128794108858,42.62564512986238 -0.32150623170262105,42.625403675211906 -0.3215497999939009,42.624904502924096 -0.32157109006613444,42.6246034244833 -0.3215187182850703,42.62447638282514 -0.3213713945784747,42.62433711261375</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino de la Conchada</name>
+      <description>lit: no
+name: Camino de la Conchada
+lanes: 1
+oneway: yes
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+cycleway:right: no
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3213713945784747,42.62433711261375 -0.3214861992717851,42.62424668926271 -0.32169218296643376,42.624171732964264 -0.32191676178746365,42.624183102002995</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino de la Conchada</name>
+      <description>lit: no
+name: Camino de la Conchada
+lanes: 1
+oneway: yes
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+cycleway:right: no
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32191676178746365,42.624183102002995 -0.32207953651694615,42.62422302582022 -0.3222218296579506,42.62429613128673 -0.32209498753983296,42.624977211001074 -0.32217242231732407,42.62512527082257 -0.32213891515722637,42.6252449742869 -0.32205878543388294,42.625560392804545 -0.321947574001709,42.62583416843689</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino de la Conchada</name>
+      <description>lit: no
+name: Camino de la Conchada
+lanes: 1
+oneway: no
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+cycleway:right: no
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.321947574001709,42.62583416843689 -0.3219974304999776,42.62590971760874 -0.32198593206434084,42.62600159268106</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camino de la Conchada</name>
+      <description>lit: no
+name: Camino de la Conchada
+lanes: 1
+oneway: no
+highway: service
+surface: asphalt
+maxspeed: 30
+cycleway:right: no
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.32198593206434084,42.62600159268106 -0.3219699420522835,42.62609987902917 -0.3219042752050144,42.62650320174594 -0.32181013176323864,42.62711168400683 -0.32183878802080207,42.62718148128761 -0.3218464237007171,42.62724757712528 -0.32184516605931934,42.62745187891584</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue des Tilleuls</name>
+      <description>name: Rue des Tilleuls
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4274440968750963,43.68864110931505 1.4273557924826672,43.68877901402759</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Arénal</name>
+      <description>name: Rue de l'Arénal
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4273557924826672,43.68877901402759 1.427280872987972,43.68889132526199 1.4267576941665008,43.689610592860326 1.4266737016874356,43.6898969204134 1.4265832413383246,43.690253268993374 1.4265496443466985,43.69044267980846</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

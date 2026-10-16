@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue de Fenouillet</name>
+      <description>ref: M 14a
+name: Rue de Fenouillet
+oneway: yes
+highway: secondary
+old_ref: D 14a
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.408611006775059,43.68848547083187 1.4087776442602633,43.68855478067371 1.4088483416731234,43.68858862359457 1.408895413394011,43.68859148172904</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Fenouillet</name>
+      <description>ref: M 14a
+name: Rue de Fenouillet
+highway: secondary
+old_ref: D 14a
+surface: asphalt
+junction: roundabout
+cycleway:left: no
+lane_markings: no
+cycleway:right: shared_lane
+cycleway:right:lane: pictogram</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.408895413394011,43.68859148172904 1.4089011626118297,43.68861752972106 1.4089146373410915,43.68864201872069 1.4089404189897456,43.688668326520826 1.4089748244651275,43.68868891805017 1.4090155181474981,43.68870210442014</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Bergeron</name>
+      <description>name: Avenue du Bergeron
+oneway: no
+highway: unclassified
+surface: asphalt
+direction: forward
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4090155181474981,43.68870210442014 1.4090036603857476,43.688737376321605 1.4089929704338668,43.6887738174356</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Bergeron</name>
+      <description>name: Avenue du Bergeron
+oneway: yes
+highway: unclassified
+surface: asphalt
+direction: forward
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4089929704338668,43.6887738174356 1.4090048281956173,43.68879921577467 1.4091089429370467,43.688882880815584 1.409201289748254,43.688909318424585</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Bergeron</name>
+      <description>name: Avenue du Bergeron
+lanes: 2
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.409201289748254,43.688909318424585 1.4092241069564706,43.68892062098607</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Bergeron</name>
+      <description>name: Avenue du Bergeron
+lanes: 2
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4092241069564706,43.68892062098607 1.4094089802419425,43.68901247045836 1.4095759770532603,43.68911068558005</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Bergeron</name>
+      <description>name: Avenue du Bergeron
+lanes: 2
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4095759770532603,43.68911068558005 1.4096570050918877,43.68916732809035 1.4097586045505217,43.6892439123168 1.4099602763318064,43.68940909746976 1.4101660803633982,43.68955771824888 1.4101915925174675,43.68957330781976 1.4103728725418028,43.68968438339495 1.4105571170065756,43.68980780045946 1.4106666216397097,43.68989653067629 1.410733007139206,43.68998201295723 1.410736241074229,43.689992600799656 1.4107540277168547,43.69005242532205 1.4107334562968483,43.69018077827624 1.4102216860794854,43.691377708314675</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

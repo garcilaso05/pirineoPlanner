@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue Bernard de Jussieu</name>
+      <description>lit: yes
+name: Avenue Bernard de Jussieu
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+source:maxspeed: FR:zone30
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4928497140596113,43.60715830768809 1.4927908744085017,43.60713580186306 1.4922825177892183,43.60696349542654 1.4922101135773185,43.60694111962055</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Bernard de Jussieu</name>
+      <description>lit: yes
+name: Avenue Bernard de Jussieu
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+maxspeed:type: FR:zone30
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4922101135773185,43.60694111962055 1.4921563044917996,43.606923231978946</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4921563044917996,43.606923231978946 1.4921280075603498,43.60696212946187 1.4920786900512517,43.60696499148304 1.491993260267732,43.6069900992083 1.491906662674343,43.60702392307032 1.4918383907127497,43.60706867461239</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4918383907127497,43.60706867461239 1.491806410688635,43.607050071504474 1.4917729035285374,43.60703140334493 1.4917160401710527,43.60701559719836 1.4916407613502434,43.60699940077225 1.4915918929987872,43.60698652168331</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

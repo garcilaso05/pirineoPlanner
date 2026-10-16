@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Route de Mouyssaguèse</name>
+      <description>name: Route de Mouyssaguèse
+highway: residential
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5355444835571306,43.62344771387346 1.5354654318121281,43.62354571115153 1.5353796427024944,43.623609828726785 1.5351952185746647,43.62371849030313 1.5350290302471026,43.623845879656905 1.5349049729063657,43.623966896041566 1.5343432563592059,43.62451358013396 1.5342882794638177,43.62456573172886 1.5338358878867349,43.62500771793045 1.5336106802450065,43.62522419049288 1.533394096430005,43.625440207094115 1.5328615751295789,43.62596398885688</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Mouyssaguèse</name>
+      <description>name: Route de Mouyssaguèse
+highway: residential
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5328615751295789,43.62596398885688 1.5327597960078885,43.626066013600266 1.5326981715793977,43.62612759250436 1.5326706831317036,43.6261550981613</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Mouyssaguèse</name>
+      <description>name: Route de Mouyssaguèse
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5326706831317036,43.6261550981613 1.53257474305936,43.62625029494775 1.5324729639376689,43.62639972238637</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5324729639376689,43.62639972238637 1.532485181025533,43.6264189697579 1.5325431223613588,43.62651097991164 1.5325514766935011,43.62652430999291</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

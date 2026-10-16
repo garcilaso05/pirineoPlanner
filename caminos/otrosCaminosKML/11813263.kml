@@ -1,0 +1,314 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>living_street</name>
+      <description>noname: yes
+source: PNOA
+highway: living_street
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9526158236780273,42.34109289557481 2.9528591772884956,42.34127157452931 2.9528609739190634,42.341300989113414</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de l'Església</name>
+      <description>name: Plaça de l'Església
+source: PNOA
+highway: living_street
+name:ca: Plaça de l'Església
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9528609739190634,42.341300989113414 2.9532338645935012,42.34132821253115</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de l'Església</name>
+      <description>name: Plaça de l'Església
+source: PNOA
+highway: living_street
+name:ca: Plaça de l'Església
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9532338645935012,42.34132821253115 2.9532284747017967,42.341427677503546 2.9532230848100918,42.34152707592023</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Font</name>
+      <description>name: Carrer de la Font
+source: PNOA
+highway: living_street
+name:ca: Carrer de la Font
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9532230848100918,42.34152707592023 2.9531649638112096,42.341611667368184</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Font</name>
+      <description>name: Carrer de la Font
+source: PNOA
+highway: living_street
+name:ca: Carrer de la Font
+source:date: 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9531649638112096,42.341611667368184 2.9531010037629803,42.34170502326105</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Font</name>
+      <description>name: Carrer de la Font
+source: PNOA
+highway: living_street
+name:ca: Carrer de la Font
+source:date: 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9531010037629803,42.34170502326105 2.9530876188652466,42.34172461071742 2.9530311148338755,42.341796187879</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Serra</name>
+      <description>name: Carrer de la Serra
+source: PNOA
+highway: living_street
+name:ca: Carrer de la Serra
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9530311148338755,42.341796187879 2.953466258757503,42.34201662908917 2.953590585592825,42.341999299250936 2.953686435833641,42.3420188202178 2.95380923553298,42.342072270453194 2.953943174341842,42.342150885375226 2.9541576022001617,42.34227352180142 2.9542442896250787,42.3424753036843 2.954285432465092,42.342578883471376</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Mossèn Cinto Verdaguer</name>
+      <description>name: Carrer Mossèn Cinto Verdaguer
+source: PNOA
+highway: living_street
+name:ca: Carrer Mossèn Cinto Verdaguer
+source:date: 2008
+name:etymology:wikidata: Q379290</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.954285432465092,42.342578883471376 2.954271059420546,42.34263478992657</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.954271059420546,42.34263478992657 2.9543328635120933,42.34269282104006 2.9544159576758746,42.3427661898197 2.9545716357146117,42.342962392787165 2.9547245289759694,42.34309126892094 2.9548747272914744,42.34328952916532 2.955046305510741,42.34348181311856 2.955228663513417,42.34373358735052 2.9554648306016125,42.34395368978903 2.955673958399755,42.34411031726922 2.955979655090941,42.34428082100923 2.956215822179136,42.34438977584392 2.9564518096042747,42.344506830705775 2.9566341676069507,42.344726797647276 2.9569050994966406,42.34507769411809 2.9571384818074553,42.34533152018359 2.9573798591242983,42.34559311332994 2.9575729969103843,42.34574781130278 2.9579028582827123,42.34616409966536 2.9586377700166504,42.34670128684227 2.9590695901737267,42.34700058528278 2.9595202749517697,42.34730200685056 2.959710717792003,42.34734761831432 2.959952095108846,42.347387188058114 2.960185387588132,42.34744667541132 2.9603786152057463,42.34761517834504 2.9607541109945084,42.34804533016111 2.96105720257137,42.34836248142078 2.961118916831389,42.34842986838833 2.9612127009470512,42.34850130513415 2.961319959791975,42.34865387144401 2.961462163101451,42.348715415712235 2.961601581633546,42.34877881885974 2.961821579046627,42.348889824006925 2.962074903956749,42.34899458825431</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.962074903956749,42.34899458825431 2.962124490960432,42.348911932066066 2.962176593246911,42.34883671152077 2.962221239516532,42.34878359898973 2.9623613767008545,42.34871568127529 2.9624520167130224,42.348788113556616 2.9625277446914735,42.34876978972431 2.962638057808363,42.348811084730144 2.962747203115384,42.34882569067427 2.9628885979411046,42.34892202342981 2.9630424793492742,42.34899173346408 2.963233461178678,42.34917317836222 2.9633575185194148,42.34920252285931 2.9634815758601514,42.34933092147047 2.963621802876003,42.34940521196389 2.963753316233598,42.34948766833366 2.9639307335022114,42.34948487995577 2.963955527004053,42.34942990905217 2.9639927172568155,42.349388680842914 2.964090723454313,42.34935203352311 2.964177500710759,42.349377726483254 2.964294102034638,42.34943269743249 2.964444210518614,42.34951522015612 2.9644478936112795,42.34961420744759 2.964570783142147,42.34970403280252 2.9647295154528504,42.34979571693855 2.964864801734639,42.349802090342024 2.964949063708289,42.34987359191793 2.9650557835640425,42.350015731763655 2.9651104011333174,42.35003870248857 2.9654441252613672,42.34990107718173 2.9655866878969572,42.34982599059929 2.96588690486491,42.349752630058546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.96588690486491,42.349752630058546 2.965952661543708,42.349762721287334 2.9661251380782585,42.34981769189988 2.9664436806780072,42.350029806312875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9664436806780072,42.350029806312875 2.966583189041631,42.35015667628163 2.966812798428252,42.350266882326096 2.9669693747822743,42.35040251516258 2.967098193194017,42.3505135174424 2.967248391509522,42.35064038643484 2.967359872436281,42.350822025739646 2.967456531160852,42.35102019521576 2.9674950688865405,42.351235093871175 2.9674843789346594,42.35136189501919 2.967505758838422,42.35156012918097 2.9673664301378544,42.351714679694524 2.967416376467652,42.3517815983557</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: concrete
+tracktype: grade1
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.967416376467652,42.3517815983557 2.9677395903068784,42.35163707254686 2.967872720631985,42.35158960533917 2.9679852795370847,42.35156391328313 2.9681016113663783,42.351564311609664 2.968318913833607,42.35162107311442 2.96844773224535,42.35166847391071 2.9684947141347093,42.35167272271983 2.968531814555943,42.35166070655578 2.968588767744956,42.351620409237476 2.9687375287560065,42.351484779029036 2.9689408175048024,42.3514426891251 2.9690473576974994,42.35137311458489 2.969069725748074,42.35128329161516 2.969022564195658,42.351200903989046 2.969010167444737,42.35115330367558 2.9690449322462324,42.35111479851418 2.9690837394665066,42.351113006031966 2.969189201680862,42.351173020964616 2.9693001436184505,42.351266097107434 2.969354671356197,42.351332817082195 2.9694018329086127,42.351481194085636 2.969442885917097,42.35150708533893 2.969488610165059,42.35151777377628 2.9695629008390556,42.351488496747905 2.9696132963264947,42.35140756992502</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Altrera</name>
+      <description>name: Carrer d'Altrera
+highway: residential
+name:ca: Carrer d'Altrera</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9696132963264947,42.35140756992502 2.9697635844735277,42.35131210402298 2.9699539374822326,42.35126297686807 2.970180762091473,42.35122228096607 2.970338596086893,42.35120993277526 2.9705855429584975,42.35119413239853</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Mont</name>
+      <description>name: Carrer del Mont
+highway: residential
+name:ca: Carrer del Mont</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9705855429584975,42.35119413239853 2.971051858422484,42.3513652808055</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Mont</name>
+      <description>name: Carrer del Mont
+narrow: yes
+highway: living_street
+name:ca: Carrer del Mont</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.971051858422484,42.3513652808055 2.971114381166258,42.35135811090487 2.9711919956068065,42.35133912394182 2.97163863796607,42.35108870793452 2.971668462033503,42.35104927329738 2.971839501263599,42.35097777305886 2.9721142060774834,42.350901094439685 2.9724999426604843,42.3508509047474</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+narrow: yes
+highway: living_street
+name:ca: Carrer Major</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9724999426604843,42.3508509047474 2.9725707299048727,42.3508501080853 2.9728447160665294,42.35091078715343 2.972959610591368,42.35092751703937</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Priorat</name>
+      <description>name: Carrer del Priorat
+highway: living_street
+name:ca: Carrer del Priorat</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.972959610591368,42.35092751703937 2.9730976816505374,42.35086902880758 2.9735196203394887,42.35083178485409</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Priorat</name>
+      <description>name: Carrer del Priorat
+highway: living_street
+name:ca: Carrer del Priorat</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9735196203394887,42.35083178485409 2.9737883064409685,42.350990386848714 2.9739924935050492,42.35108870793452</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Priorat</name>
+      <description>name: Carrer del Priorat
+highway: residential
+name:ca: Carrer del Priorat</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9739924935050492,42.35108870793452 2.974487105900485,42.35126277770385 2.975198032616338,42.35134709050044 2.9754316844217366,42.351355521773876</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Mollet de Peralada al Priorat</name>
+      <description>lit: no
+name: Carretera de Mollet de Peralada al Priorat
+lanes: 1
+width: 3
+oneway: no
+bicycle: yes
+highway: unclassified
+name:ca: Carretera de Mollet de Peralada al Priorat
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9754316844217366,42.351355521773876 2.975602813483362,42.35134928130388 2.975920188273241,42.35134948046783 2.975995826420164,42.35134888297599 2.976991339418025,42.35134151390951 2.9774772381552053,42.351347223276406 2.978144686411306,42.35139807645169</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Mollet de Peralada al Priorat</name>
+      <description>lit: no
+name: Carretera de Mollet de Peralada al Priorat
+lanes: 1
+layer: 1
+width: 3
+bridge: yes
+oneway: no
+bicycle: yes
+highway: unclassified
+name:ca: Carretera de Mollet de Peralada al Priorat
+maxspeed: 40
+flood_prone: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.978144686411306,42.35139807645169 2.9783279427292664,42.3513893796322</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Mollet de Peralada al Priorat</name>
+      <description>lit: no
+name: Carretera de Mollet de Peralada al Priorat
+lanes: 1
+width: 3
+oneway: no
+bicycle: yes
+highway: unclassified
+name:ca: Carretera de Mollet de Peralada al Priorat
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9783279427292664,42.3513893796322 2.9787275133676427,42.35132969684614 2.979492698326656,42.351151776747216</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade4
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.979492698326656,42.351151776747216 2.9795165036816855,42.351280104988604 2.9794997950174005,42.35140418414099 2.9795353683026513,42.351534503500666 2.979500423838099,42.35164882316477 2.979269736473137,42.352144405134574 2.9791349891805194,42.3523754983515 2.979080730937359,42.35249393246603 2.9787544628261666,42.35305901413708 2.978663463487885,42.3532504051913 2.9785078752806755,42.35357549646479</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: compacted
+tracktype: grade4
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9785078752806755,42.35357549646479 2.9784923344262606,42.35361619084314 2.978293357590828,42.35413452737326 2.978293357590828,42.35441991601244 2.9782718878555374,42.35485991251959 2.9782779963994694,42.355185327387396 2.9782879676991234,42.355426831661035 2.978289494835106,42.35570311990901 2.97831473749459,42.35600801804816 2.978319678228653,42.35621692519412 2.978359383764211,42.356322075525355 2.9783630668568755,42.35642583164564 2.9783588447750406,42.356473826261364 2.9783177917665564,42.356573731948345 2.978314288336948,42.35666480862227 2.9784182234153205,42.357006278591854 2.9785615945346664,42.357385119561485 2.9786371428500606,42.35752983129681 2.9787933598779692,42.357752275153864 2.9789840722127874,42.358085707130044 2.9797144025387765,42.359027379043944 2.9803532843688423,42.36016777488913 2.9808254388821753,42.36118263013112 2.9809112279918093,42.3613094112092 2.980980937257857,42.361495732465464 2.9809863271495614,42.36168198679216 2.981023337739267,42.36189731362926 2.9811210744421794,42.36205940566282</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Peralada</name>
+      <description>lit: no
+name: Carretera de Peralada
+lanes: 1
+width: 3
+oneway: no
+highway: unclassified
+name:ca: Carretera de Peralada
+surface: asphalt
+maxspeed: 40
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9811210744421794,42.36205940566282 2.981015881722409,42.36245912468907</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,310 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Altres Itineraris - Les costes de Mata</name>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.783363073187199,42.10674351273643 2.7837236569422443,42.106633280594814 2.783869184018272,42.106610487709695 2.7840248620570094,42.10661282031527 2.784173533236532,42.106628815322644 2.784336397797542,42.10667819988243 2.784520732093844,42.10673138321149 2.784661138772752,42.10675037724677 2.7847475567030835,42.10676790507077 2.7847957064023126,42.10676910469352 2.7848638885323775,42.10671898710119 2.7849254231293394,42.106673867905045</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: concrete
+maxspeed: 20
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7849254231293394,42.106673867905045 2.7850154343208082,42.10674211317598 2.7852930137436016,42.10694431601812 2.7852548353440265,42.10697910497208</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Terri</name>
+      <description>lit: yes
+name: Camí del Terri
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Camí del Terri
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7852548353440265,42.10697910497208 2.785614610615316,42.10724062132516 2.785808377222101,42.1073965709305 2.786025320363215,42.10758577594087 2.7861458742743443,42.10769787247879 2.7861744407003792,42.107744923641945 2.7862315735524494,42.107839292441824 2.7862728960555185,42.10791993233606 2.7862841249965697,42.10794179172774</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Terri</name>
+      <description>lit: yes
+name: Camí del Terri
+lanes: 2
+oneway: no
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7862841249965697,42.10794179172774 2.7863393713865436,42.1080422248725 2.78644986416649,42.10816111831662 2.786582455502426,42.10826361708218 2.7867372352258797,42.10835791846588 2.7877263701852244,42.109040483026796 2.7878956127847525,42.10915490950442 2.7879321742168157,42.10917970076996</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de les Costes de Mata</name>
+      <description>name: Camí de les Costes de Mata
+width: 3
+oneway: no
+highway: track
+name:ca: Camí de les Costes de Mata
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7879321742168157,42.10917970076996 2.7883277024364133,42.10915937459866 2.7887167627859664,42.109117122798786 2.789021471330339,42.1090826682345 2.789125765734825,42.109053811689456 2.7892077819202656,42.1090114265325 2.789275874218802,42.10893598621449 2.789361304002322,42.10878917056792 2.7893845703681803,42.10873159048477 2.7893845703681803,42.10864528690574 2.7894001112225957,42.108481209816006 2.7894195148327325,42.10830267053443 2.789473773075893,42.10810107182367 2.7895319839063046,42.107962984667346 2.789586421812522,42.10789387433188 2.789667899008791,42.10783629343551 2.7897843206696136,42.10779597344802 2.789978266939455,42.10775572007955 2.7903119910675054,42.10770960195049 2.7903896055080533,42.10771246767336 2.7904673097801296,42.10773259437452 2.7905331562904556,42.107767182961915 2.7907194668803816,42.10796871609005 2.7908474768083686,42.10808101188382 2.7909173657374735,42.108112667932176 2.790977912187623,42.108102204776884</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de les Costes de Mata</name>
+      <description>name: Camí de les Costes de Mata
+width: 3
+oneway: no
+highway: track
+name:ca: Camí de les Costes de Mata
+surface: ground
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.790977912187623,42.108102204776884 2.7910891236197974,42.10827827879062 2.791197640106119,42.10851513155623 2.791293490346934,42.10871079766413 2.791395718626267,42.108850282705426 2.791495431622804,42.10892978837519 2.791595144619342,42.10897670533722 2.791808404667792,42.109020689957596 2.791933270492285,42.109049679804336 2.7920155561723097,42.10908280152104 2.792085355269886,42.10911159140964 2.792357095643332,42.10925840630948 2.792780022479095,42.109557833010875 2.792838233309506,42.10958948832174 2.7929081222386105,42.109601017515246 2.7929740585804654,42.10959528624012 2.793036221998126,42.109572227848936 2.79337937843666,42.10938109612157 2.793444865620872,42.109352506284345 2.7935798824080758,42.109338977755485</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+width: 3
+bridge: yes
+highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7935798824080758,42.109338977755485 2.793971458040423,42.10939029284969</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.793971458040423,42.10939029284969 2.7942714055137903,42.10942541367593</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de les Costes de Mata (Banyoles - Borgonyà)</name>
+      <description>name: Camí de les Costes de Mata (Banyoles - Borgonyà)
+width: 3
+highway: track
+name:ca: Camí de les Costes de Mata (Banyoles - Borgonyà)
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7942714055137903,42.10942541367593 2.79420016911176,42.10970751250987 2.794226579581113,42.10984459622893 2.7943926780771466,42.109944826431914 2.7945639868018284,42.110102968577486 2.794614112794682,42.110247981845866 2.7946984645998607,42.11035880747944 2.7946984645998607,42.11045630455431</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de les Costes de Mata (Banyoles - Borgonyà)</name>
+      <description>name: Camí de les Costes de Mata (Banyoles - Borgonyà)
+width: 3
+highway: track
+name:ca: Camí de les Costes de Mata (Banyoles - Borgonyà)
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7946984645998607,42.11045630455431 2.794123722481081,42.110899271262284 2.7937281942614836,42.11121301803719 2.793630727053156,42.11132377534259 2.7935410751878016,42.11158480728776 2.793480438906123,42.11168230247687 2.7926577617689268,42.11225447559489 2.7924495322860676,42.112454794941705 2.7922359129115044,42.11264998241217 2.7920734975081354,42.112777397056675 2.7918764071347995,42.1128792886043 2.7917449836087327,42.112953191527524 2.791640060383548,42.113063879153074 2.791460756652837,42.11332490393205 2.791291064895667,42.11361478211788 2.791255311947359,42.113681220678544 2.791219469167523,42.113707809411 2.791163683788379,42.11371520627443 2.7910939745223313,42.11370341127557</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de les Costes de Mata (Banyoles - Borgonyà)</name>
+      <description>name: Camí de les Costes de Mata (Banyoles - Borgonyà)
+layer: -1
+width: 3
+highway: track
+name:ca: Camí de les Costes de Mata (Banyoles - Borgonyà)
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7910939745223313,42.11370341127557 2.7908189103823338,42.11360458642488</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de les Costes de Mata (Banyoles - Borgonyà)</name>
+      <description>name: Camí de les Costes de Mata (Banyoles - Borgonyà)
+width: 3
+highway: track
+name:ca: Camí de les Costes de Mata (Banyoles - Borgonyà)
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7908189103823338,42.11360458642488 2.790592355267679,42.11351882258937</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de les Costes de Mata (El molí - Abocador)</name>
+      <description>name: Camí de les Costes de Mata (El molí - Abocador)
+highway: track
+name:ca: Camí de les Costes de Mata (El molí - Abocador)
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.790592355267679,42.11351882258937 2.7905824737995535,42.113456715372635 2.7905469005143027,42.113420130728294 2.7904426061098166,42.11338341278531 2.790365800153024,42.113344828934835 2.7903272624273354,42.11328572029625 2.7903136080350164,42.113222613267254 2.790321872535631,42.11313711547093 2.7903410964827104,42.1129743161525 2.790343791428563,42.11285829722626 2.790302558757022,42.11275447310187 2.7902394970240767,42.112646583796284 2.790135292451119,42.112504108323186 2.7900475270478604,42.112396218591414 2.7899981197072337,42.112314784713014 2.789844417962121,42.111970788730176 2.7897923156756423,42.11190561454244 2.7897236843879356,42.11185270211579 2.7896386139305296,42.111813984052674 2.789531624580191,42.111797790432355 2.7894054112827718,42.111789593659985 2.7892873726544383,42.11179372536651 2.789056864952534,42.11183237680161 2.788999282942821,42.11183850771673 2.788938916155729,42.11183437601313 2.788864805144789,42.11181611654558 2.78851913342346,42.11166337655989 2.788457868321083,42.111635120955 2.7883736961789607,42.11159620283709 2.788261227105389,42.11155548539704 2.787989486731943,42.1114659869058 2.787819435648659,42.111406876515034 2.7876766933500123,42.111347899350946 2.7875450003293607,42.11126653076667 2.787457234926102,42.111176898585285 2.787402258030714,42.11107307170669 2.787363899968082,42.1109305926966 2.787281614288057,42.11077391872878 2.787207503277117,42.11065383063591 2.7871279125429433,42.11053980671451 2.78706476097847,42.11046850000835 2.7869715158519788,42.110403390917796 2.78686452650164,42.110348411336844 2.786749182819159,42.11033821511842 2.7858575150681415,42.11030362793385 2.7856956386539435,42.11028736728565 2.78555837607853,42.110252780073345 2.7853334379313868,42.110171276799 2.7852126145256726,42.11014488650947 2.7850795740320944,42.11013349069922 2.784998635824995,42.11012649327086 2.784864158026962,42.11009797041204 2.784759863622476,42.11007571191049 2.784658443826899,42.11005938456157 2.784578763261198,42.110071580091976 2.7842631851018864,42.110153016852365 2.7839642257753314,42.110209995865546 2.783722668795432,42.11023851867395 2.7835580974353813,42.11023058826822</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Can Frigola</name>
+      <description>lit: yes
+foot: designated
+name: Camí de Can Frigola
+lanes: 1
+oneway: no
+bicycle: designated
+highway: living_street
+surface: concrete
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7835580974353813,42.11023058826822 2.7835614212019326,42.11017407576846 2.7835742671104953,42.11010176901781 2.7836614036930554,42.109943626869246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Can Frigola</name>
+      <description>lit: no
+name: Camí de Can Frigola
+lanes: 1
+oneway: no
+highway: living_street
+surface: concrete
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7836614036930554,42.109943626869246 2.7836405627784635,42.109923967366825</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Can Frigola</name>
+      <description>lit: no
+name: Camí de Can Frigola
+lanes: 1
+layer: 1
+bridge: yes
+oneway: no
+highway: living_street
+surface: concrete
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7836405627784635,42.109923967366825 2.783550910913108,42.109876318039035</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Can Frigola</name>
+      <description>lit: no
+name: Camí de Can Frigola
+lanes: 1
+oneway: no
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.783550910913108,42.109876318039035 2.783503390034578,42.109864522325786 2.7833957718635407,42.109833800147086 2.7824850598285003,42.109547570022485 2.7824306219222827,42.10953350839283 2.7823045882879205,42.1095009200543</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7823045882879205,42.1095009200543 2.7823484260737854,42.10928179803016 2.7823744772170254,42.10897550575624 2.782399809708038,42.108737921630734</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Joan Estany</name>
+      <description>lit: yes
+name: Carrer Joan Estany
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Carrer Joan Estany
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.782399809708038,42.108737921630734 2.7823583973734394,42.10870220063052 2.7822673980351587,42.10862362768793 2.782152862836433,42.10852479491702</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Joan Estany</name>
+      <description>lit: yes
+name: Carrer Joan Estany
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Carrer Joan Estany
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.782152862836433,42.10852479491702 2.7820014068795302,42.108391706984065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Pau Casals</name>
+      <description>lit: yes
+name: Carrer de Pau Casals
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Carrer de Pau Casals
+maxspeed: 30
+name:etymology:wikidata: Q208537</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7820014068795302,42.108391706984065 2.782082434918158,42.10834032443744 2.7822539233058965,42.108231427955836 2.782390557060611,42.108140125376046 2.7824785919584545,42.10807628013628 2.7826999368444616,42.10783722645972 2.7829610770975552,42.107544389475756 2.7830509984574956,42.10741829721259 2.783099687145895,42.10734398796541</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Pau Casals</name>
+      <description>lit: yes
+name: Carrer Pau Casals
+lanes: 1
+oneway: yes
+highway: living_street
+name:ca: Carrer Pau Casals
+maxspeed: 20
+name:etymology:wikidata: Q208537</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.783099687145895,42.10734398796541 2.78312142637577,42.10731099863047 2.7832241936442736,42.10708727050583 2.7833202235481465,42.10687847020626</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7833202235481465,42.10687847020626 2.783363073187199,42.10674351273643</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

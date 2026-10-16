@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Impasse Izard</name>
+      <description>name: Impasse Izard
+bicycle: yes
+highway: track
+surface: asphalt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.435205900256003,43.49462359367243 1.4351703269707514,43.49459733124863 1.4351018753461016,43.494556080321665</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Lauragais</name>
+      <description>ref: D 24
+name: Route du Lauragais
+lanes: 2
+highway: tertiary
+surface: asphalt
+smoothness: excellent
+cycleway:both: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4351018753461016,43.494556080321665 1.4352670755268515,43.49440339299613</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4352670755268515,43.49440339299613 1.4351531691488248,43.49404757724395 1.435094958318414,43.49392799400673 1.4349900350932288,43.49380899704624 1.434149032324236,43.493310979840516 1.4332933870161122,43.49285968485806</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Fontaine</name>
+      <description>name: Route de la Fontaine
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4332933870161122,43.49285968485806 1.433294015836811,43.4927608882791 1.4332624849703384,43.4926495138416 1.43321828785836,43.49252601766286 1.4330760845488837,43.492236989998865</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

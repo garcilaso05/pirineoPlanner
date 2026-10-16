@@ -1,0 +1,252 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: no
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5911616980797656,43.455676519179804 1.5912794672135138,43.45571910084073 1.592339569080303,43.45602597483355</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: no
+layer: 1
+bridge: yes
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.592339569080303,43.45602597483355 1.5930575924868997,43.45624292454711</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Romains</name>
+      <description>lit: no
+name: Chemin des Romains
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5930575924868997,43.45624292454711 1.59356046938295,43.45635319234785 1.5938785628250565,43.456390622058265 1.594388087254209,43.45641292337297 1.5945497840053509,43.45638631829483 1.594708156989941,43.45632541348854 1.5948766809372417,43.45622218817891 1.595071256027782,43.45617588997269 1.5952257662566507,43.456186779835654 1.5955453868347405,43.45630219922076 1.595761611323628,43.4563634953018</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Romains</name>
+      <description>name: Chemin des Romains
+oneway: yes
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.595761611323628,43.4563634953018 1.595904712948388,43.456403989806375 1.596072158917348,43.456429421123886 1.597548629918327,43.45641403191764 1.5984275415923095,43.456400729380285 1.599235127032733,43.45637973223202 1.6012778959888208,43.456361799879126 1.6033760909979387,43.45630330776745 1.6036100122979233,43.45630311214157</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>layer: 1
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6036100122979233,43.45630311214157 1.6036748706614368,43.45631908825355</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>layer: 1
+bridge: yes
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6036748706614368,43.45631908825355 1.6039596366065028,43.456549730673274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Romains</name>
+      <description>name: Chemin des Romains
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6039596366065028,43.456549730673274 1.6040968093503876,43.456506627929976</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6040968093503876,43.456506627929976 1.6041579846212362,43.45642100922774 1.6042405397958468,43.456349475458964 1.604389300806897,43.45625029312907</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.604389300806897,43.45625029312907 1.604630857786797,43.45619747407043 1.604733804718357,43.45609842190892 1.6050606118187196,43.45584782378042 1.6052569835398283,43.45575001002147 1.6053656796892064,43.45568251843553 1.6055198305919613,43.45553860134324 1.605624124996448,43.45546171934887 1.6056752391361144,43.45540153091695 1.6059190419042242,43.45525278763377 1.6060527112185012,43.45513638809735 1.6062338115797798,43.455054614843675 1.6062939987038156,43.45501327170522 1.6064276680180927,43.454866809823294 1.6064982755994246,43.45480472970219 1.6065591813756879,43.45476299513116 1.6066267346850536,43.45475393090021 1.6067153984035962,43.45472458625832 1.6068258911835431,43.45466387540955 1.6073647905224862,43.454300326355664 1.6077394778274923,43.45404202587022</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6077394778274923,43.45404202587022 1.6079115950359297,43.45407808757962 1.6082251070700875,43.45494799644014</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Puits</name>
+      <description>name: Rue des Puits
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6082251070700875,43.45494799644014 1.608328592990818,43.454927324837996 1.608829044435601,43.45483472640732 1.6089384592372067,43.45485259400287 1.6090495808378522,43.4548994149034 1.6091246799956047,43.45490391440307 1.6091978926912605,43.45489289388879</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Célestin d'Anduze</name>
+      <description>name: Chemin Célestin d'Anduze
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6091978926912605,43.45489289388879 1.6094551701886324,43.45484418188738 1.6098037165188708,43.45476488622953 1.6105223687461663,43.45461659785352</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Las Gourgues</name>
+      <description>name: Rue Las Gourgues
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6105223687461663,43.45461659785352 1.6103799857736334,43.45423850649643 1.610309917181472,43.45406289340812 1.6102906034028635,43.45400211668395 1.6102934780117726,43.45396207704903 1.6103139596002505,43.453932014699845 1.6103522278313542,43.45389477910129</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Las Gourgues</name>
+      <description>name: Rue Las Gourgues
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6103522278313542,43.45389477910129 1.61018388354711,43.45344612420248 1.6101410339080575,43.453319222082165</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6101410339080575,43.453319222082165 1.6101141742810625,43.45321696982028 1.6100756365553734,43.45311660853541 1.6100860570126694,43.453101218486104 1.6101049216336358,43.45309098018841 1.610756110383094,43.453080807101095 1.6110926192885253,43.4531359113036</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6110926192885253,43.4531359113036 1.6114007414309783,43.45321188328742 1.611461287881128,43.45321260061902</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.611461287881128,43.45321260061902 1.6115512092410682,43.45343627723351 1.611575733248325,43.45350579288747 1.6116101387237067,43.453554114697404 1.6116388848127985,43.45362447796564 1.6117023957033858,43.45380472233119</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6117023957033858,43.45380472233119 1.6120607336702208,43.453886888542435 1.612265459723472,43.45393351455709 1.6124969555721893,43.45398737897125 1.6128434357772743,43.45406778423628 1.6129496166438573,43.454085195581285</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6129496166438573,43.454085195581285 1.6130892148390095,43.453960185925546 1.6131973719992174,43.45389627895947</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6131973719992174,43.45389627895947 1.6131831786177284,43.4538718247454</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: marked</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6131831786177284,43.4538718247454 1.613246779339844,43.45385108756412</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: marked</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.613246779339844,43.45385108756412 1.6133151411329656,43.45383021995313</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6133151411329656,43.45383021995313 1.6134192558743952,43.45399507388364</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

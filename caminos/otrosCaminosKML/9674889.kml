@@ -1,0 +1,266 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Itinerari Mitjà - Fontcoberta</name>
+    <Placemark>
+      <name>Carrer Garrumbert</name>
+      <description>name: Carrer Garrumbert
+oneway: no
+highway: residential
+name:ca: Carrer Garrumbert
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7696113933233115,42.144633478730654 2.770735365406802,42.14461069951288</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Mossèn Pere Campolier</name>
+      <description>name: Carrer Mossèn Pere Campolier
+source: PNOA
+highway: residential
+name:ca: Carrer Mossèn Pere Campolier
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.770735365406802,42.14461069951288 2.7705211172115396,42.14438830198246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>noname: yes
+source: PNOA
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7705211172115396,42.14438830198246 2.7712069809309647,42.14407298770278 2.771354843626731,42.143985599943875 2.7714425191984615,42.14384918954256 2.7715895734104716,42.143308074293614 2.7717466887536637,42.142777878106706</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Can Calau</name>
+      <description>name: Camí de Can Calau
+source: PNOA
+highway: unclassified
+name:ca: Camí de Can Calau
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7717466887536637,42.142777878106706 2.7717875620990915,42.14263267284888 2.7718867361064587,42.14234952163832 2.7719941746144388,42.142185931465065 2.772096043567658,42.142143968119605 2.7723703890554283,42.14213557544718 2.7725508605960076,42.142089815380324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Banyoles a Melianta</name>
+      <description>name: Camí de Banyoles a Melianta
+highway: unclassified
+name:ca: Camí de Banyoles a Melianta
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7725508605960076,42.142089815380324 2.772464801991789,42.14164280373012 2.772505585505688,42.14115549016111 2.7726687195612842,42.14049338780447 2.772845508009199,42.13963977178309 2.7729044374918375,42.1389977703493 2.7729421667337704,42.13888293147338 2.7729860045196353,42.1388466279571 2.7730126844835734,42.138813921468646 2.7731377299711233,42.13873078962562 2.7731473419446626,42.13867610107001 2.7730630799710125,42.138328984179175 2.7730720631238537,42.13795588635504 2.773248941403297,42.13737781686146 2.773439294412002,42.13681652884925</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Banyoles a Melianta</name>
+      <description>name: Camí de Banyoles a Melianta
+highway: unclassified
+name:ca: Camí de Banyoles a Melianta
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.773439294412002,42.13681652884925 2.774286944714097,42.136134196834064 2.7743639303339465,42.13604007001107 2.7744047138478454,42.135969524763276 2.77461321282529,42.13502838102238 2.7746857068687176,42.13467551513016 2.7747582009121463,42.134440225698704 2.7748195558460513,42.134340500554174</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: GPS
+highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7748195558460513,42.134340500554174 2.775254789601208,42.134531690238965 2.7757140982059783,42.13475438885494 2.776095073717973,42.13486390592475 2.7763882838267095,42.134871899864045 2.776559502719863,42.1348481178917</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.776559502719863,42.1348481178917 2.7770282436351166,42.1350273817825 2.777160924802581,42.13501952109483 2.777597506030663,42.13492259473885 2.777944165898805,42.13491953039804 2.778237376007541,42.13504963152024 2.7789438111469726,42.135591483498736 2.77907972624946,42.135695803128634 2.779217617645573,42.13583682754032 2.77919228515456,42.136119608184885 2.7792817573568582,42.136306595776254 2.7798040378630455,42.13670808098364 2.780246997129645,42.13715719249683 2.780666510367329,42.13745881885073 2.7807198702952056,42.137565333644396</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: GPS
+highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7807198702952056,42.137565333644396 2.7810646437012507,42.137850771091784 2.7813150041709345,42.137965012323406 2.7815739884673465,42.138003114892435 2.7816424400919963,42.137937967479026 2.781727959707044,42.13771901039496 2.781796501163223,42.13759211219474 2.7819421180707784,42.13735077176631 2.782134716867694,42.137446095683295 2.7822285908148845,42.13763241322551 2.782432238889794,42.13778888756306 2.7825656387094857,42.13788887372955</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: GPS
+highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7825656387094857,42.13788887372955 2.7827445831140825,42.13857758161619 2.782971497554851,42.13865058860952 2.783202634077455,42.138634668296085 2.783491622104356,42.138603027493865 2.783669219036027,42.13867277046217 2.783722668795432,42.138860083574734 2.7836478391322648,42.13892363135405 2.7833713376878126,42.13907936977204 2.783194100082256,42.13914731370095 2.7831257382891343,42.1391996704435 2.783103010912446,42.139263217882025 2.783054501887104,42.139309712718024</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: GPS
+highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.783054501887104,42.139309712718024 2.7830189286018525,42.13934381779093 2.7828388163873865,42.1394124275499 2.7826452294436588,42.139464184571324 2.782389389250741,42.13949169504296 2.7821431610313647,42.13957902239313 2.782126093040966,42.139624984108 2.782177476675218,42.13964789834179 2.782269284497255,42.13964310234006 2.7823461802855753,42.13962571683072 2.7826579855206934,42.13959880591796 2.782831001044415,42.139617790102655 2.7828609149433756,42.13969858939348 2.7828437571214493,42.13975241112274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Farrès a Can Mas</name>
+      <description>name: Camí de la Farrès a Can Mas
+source: GPS
+highway: unclassified
+name:ca: Camí de la Farrès a Can Mas
+surface: asphalt
+maxspeed: 30
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7828437571214493,42.13975241112274 2.7827455712608953,42.13975081245818 2.782617381669851,42.139784117961646 2.782495659948853,42.139864783818425 2.7824060080834983,42.1399788881951 2.7822887779389203,42.140194706769144 2.781460531246962,42.14174518173283 2.7809361846156215,42.142481472524665 2.7809404965289852,42.14298302992171 2.7808420411738455,42.14330827411546 2.7804632216185325,42.143695527669145 2.779921717165265,42.14413979396454 2.7797610085609366,42.14429498670334 2.779660576912172,42.144496803301095 2.7796264409313753,42.14465079625914 2.7796264409313753,42.14476342668464 2.7796725245054503,42.144846217579264 2.779675758440473,42.145215278488436 2.779616110305608,42.14568038142124 2.779527895744707,42.14610691703733 2.779408779138033,42.14675071129294 2.7792722352148465,42.14737651619356 2.7791744985119347,42.14784573260422</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de la Farrès</name>
+      <description>name: Carretera de la Farrès
+highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7791744985119347,42.14784573260422 2.778460427692588,42.14798659675277 2.777571005729781,42.1481596294481 2.7769545817818186,42.14830069270426</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-5136
+source: PNOA
+highway: tertiary
+surface: asphalt
+junction: roundabout
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7769545817818186,42.14830069270426 2.7769358968239093,42.14827951325526 2.776901671011584,42.148249209314336 2.776867624862316,42.148229628298644 2.776814714092081,42.14821817273563 2.7767595575336363,42.14822150284137</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-5136
+noname: yes
+source: PNOA
+highway: tertiary
+surface: asphalt
+junction: roundabout
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7767595575336363,42.14822150284137 2.776723175764629,42.14822882907338 2.7766813142723894,42.14824681163927</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Fontcoberta</name>
+      <description>ref: GIV-5136
+name: Carrer de Fontcoberta
+oneway: yes
+highway: tertiary
+name:ca: Carrer de Fontcoberta
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7766813142723894,42.14824681163927 2.776568935030346,42.14826392837317 2.776407956931432,42.14827052197761</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Fontcoberta</name>
+      <description>ref: GIV-5136
+name: Carrer de Fontcoberta
+oneway: no
+highway: tertiary
+name:ca: Carrer de Fontcoberta
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.776407956931432,42.14827052197761 2.7755129654138635,42.148246278822576 2.7748675258822235,42.14824621222049 2.7743002397803025,42.14824048444075 2.7737314265423976,42.148235822294055 2.7730660444114505,42.14823122674913</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Fontcoberta</name>
+      <description>ref: GIV-5136
+name: Carrer de Fontcoberta
+highway: tertiary
+name:ca: Carrer de Fontcoberta
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7730660444114505,42.14823122674913 2.7722712150480615,42.148232425586976</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Fontcoberta</name>
+      <description>ref: GIV-5136
+name: Carrer de Fontcoberta
+oneway: no
+highway: tertiary
+name:ca: Carrer de Fontcoberta
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7722712150480615,42.148232425586976 2.7711801213039697,42.14822070361601 2.7709816834577077,42.148210913104506 2.7699800619159145,42.148198924721015 2.7697665323728793,42.14819632723763</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>lit: yes
+ref: GIP-5121
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7697665323728793,42.14819632723763 2.7697615018072885,42.148063988648026 2.7697497338770667,42.14774849286726 2.769735540495577,42.14720821018359</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>lit: yes
+ref: GIP-5121
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.769735540495577,42.14720821018359 2.7697324862236115,42.14715419498227 2.7697314082452706,42.147134280611574 2.7697307794245716,42.147123224469965 2.769667088870927,42.14583230675703 2.7696113933233115,42.144633478730654</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

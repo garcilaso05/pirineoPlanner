@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Lac</name>
+      <description>name: Chemin du Lac
+highway: residential
+surface: asphalt
+maxspeed: 30
+smoothness: excellent
+zone:maxspeed: FR:30
+source:maxspeed: https://www.villeneuve-tolosane.fr/ad_attachment/2024-P-011%20zone%2030%20sur%20la%20commune.pdf</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.351493605727944,43.52278389165587 1.3515130991696098,43.522751714021666 1.3527065110245626,43.521227230081365 1.3528019121077361,43.521033898482024 1.3531142563320244,43.52055942571816 1.3532823311216833,43.520379575854804 1.3534536398463648,43.52018207259839 1.3536411182461607,43.52003068773856 1.353816738884206,43.519902883185125</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.353816738884206,43.519902883185125 1.3541893600640587,43.52017288789956</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

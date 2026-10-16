@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin des Crêtes</name>
+      <description>ref: D 68
+name: Chemin des Crêtes
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4200458416896733,43.488918318906975 1.4193562050460549,43.48930649070999 1.4191396212310534,43.48943201383179 1.419026792831368,43.48950552881003 1.418940015574922,43.489583996826376 1.4188923150333355,43.48963887223902 1.418855124780573,43.489714276970574 1.4188253007131402,43.4898414285562 1.4186526445155323,43.49134663272689 1.4185892234564734,43.49201919191404 1.4185878759835475,43.49210919175646 1.4186019795335079,43.49219880044532</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

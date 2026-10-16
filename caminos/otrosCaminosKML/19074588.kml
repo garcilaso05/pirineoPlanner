@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue Raymond Poincaré</name>
+      <description>ref: M 64
+name: Avenue Raymond Poincaré
+lanes: 2
+highway: secondary
+old_ref: D 64
+surface: asphalt
+maxspeed: 50
+cycleway:both: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5146776076538466,43.620280306406755 1.514840202720272,43.620191473266345 1.5150284896038237,43.62008787779114 1.5164904078971997,43.619283494797955 1.5166539911104377,43.61918880724079</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Raymond Poincaré</name>
+      <description>ref: M 64
+name: Avenue Raymond Poincaré
+oneway: yes
+highway: secondary
+old_ref: D 64
+surface: asphalt
+cycleway:left: no
+lane_markings: no
+cycleway:right: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5166539911104377,43.61918880724079 1.5167152562128148,43.6191374313747</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Raymond Poincaré</name>
+      <description>ref: M 64
+name: Avenue Raymond Poincaré
+oneway: yes
+highway: secondary
+old_ref: D 64
+surface: asphalt
+cycleway:left: no
+lane_markings: no
+cycleway:right: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5167152562128148,43.6191374313747 1.516777868788118,43.61908462474254 1.5168578188484045,43.61901562487375 1.516887373421252,43.618993318584415</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>highway: secondary
+surface: asphalt
+junction: roundabout
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.516887373421252,43.618993318584415 1.5168848581384566,43.61897159758336 1.5168897988725192,43.61895020173932 1.5169018362973263,43.61893017158056</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>highway: secondary
+surface: asphalt
+junction: roundabout
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5169018362973263,43.61893017158056 1.516917916140912,43.61891469372603 1.5169489978497426,43.61889739494272 1.5169860084394482,43.61888809521882 1.5170241868390235,43.61888777005363</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Raymond Poincaré</name>
+      <description>ref: M 64
+name: Avenue Raymond Poincaré
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+oneway: yes
+highway: secondary
+old_ref: D 64
+surface: asphalt
+maxweight: 16
+cycleway:left: no
+lane_markings: no
+cycleway:right: separate
+maxweightrating: 16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5170241868390235,43.61888777005363 1.5171353982711973,43.61887990105531 1.5172067245047567,43.61886227709666 1.5172763439392758,43.6188395805519 1.5173824349743301,43.61879548809948</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Raymond Poincaré</name>
+      <description>ref: M 64
+name: Avenue Raymond Poincaré
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 2
+highway: secondary
+old_ref: D 64
+surface: asphalt
+maxweight: 16
+cycleway:both: separate
+maxweightrating: 16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5173824349743301,43.61879548809948 1.5179470261303996,43.61848332821951 1.5185551855777484,43.61814359237514</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

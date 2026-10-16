@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Pech</name>
+      <description>name: Chemin du Pech
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5588821756493851,43.5271873757894 1.558998597310207,43.527112082989326 1.5592363813659134,43.52698611714304 1.5595863650006063,43.52675261719243 1.5597219207769801,43.526662213063666 1.5597542601272083,43.52664058900127 1.5601659580219203,43.52634338762319 1.5602650421977589,43.526289913364884 1.5603184021256356,43.52626249232001 1.5605251044725112,43.526179186978965 1.5606871605497665,43.526114574782206 1.5608349334140041,43.526055694252314 1.5615390329336971,43.5257752293465 1.5616019150035854,43.5257500877469 1.5617220197570723,43.5257022144648 1.56189072336743,43.52563499640459 1.5619763328140064,43.52559988926779 1.5622317238492816,43.52549547961032 1.5623170638012729,43.525461219134364 1.5626685745719489,43.52530978238684 1.5631748650660786,43.52509601167292 1.5634446291458997,43.524989386569935 1.5637186153075562,43.52487872293143</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: designated
+footway: sidewalk
+highway: footway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5637186153075562,43.52487872293143 1.5636798080872822,43.524818212827824 1.5636683096516457,43.524767407742395 1.5635346403373684,43.524576171806416 1.5629537896746568,43.52377637434528 1.5627072919606944,43.52344027256557 1.5622975703596078,43.52287690706874 1.5621922878083088,43.522753407581796 1.5621266209610398,43.52267218177929 1.5617484302264255,43.52223367780356 1.5616196118146828,43.52206399440865 1.56158071476288,43.521995404401856 1.5615563704186806,43.52193678040262</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5615563704186806,43.52193678040262 1.5616259898532,43.521934630854894</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Bourdette</name>
+      <description>ref: D 94
+name: Avenue de la Bourdette
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5616259898532,43.521934630854894 1.5616102693357279,43.52187822148429 1.5616123354608813,43.52176540258485 1.5616290441251657,43.521673101977306 1.5616760260145255,43.52153057966091 1.5617336080242374,43.52140271314627 1.5618121207800695,43.52123302741423 1.5618959335960776,43.521084706711676 1.56197103275383,43.52097872590727 1.5620027432833596,43.52093547370005 1.5620649067010204,43.52085079308407 1.5621748604917969,43.52069087667359 1.5621867182535472,43.52067179089853</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Bourdette</name>
+      <description>ref: D 94
+name: Avenue de la Bourdette
+oneway: yes
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5621867182535472,43.52067179089853 1.5623246096496595,43.52054118671263 1.5623891086870592,43.52048158420964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>highway: tertiary
+surface: asphalt
+junction: roundabout
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5623891086870592,43.52048158420964 1.5624194717436626,43.52047148760495 1.5624499246317942,43.52046139099856</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Cousse</name>
+      <description>ref: D 54a
+name: Avenue de Cousse
+oneway: yes
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5624499246317942,43.52046139099856 1.5625535902155818,43.52046328004118</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5625535902155818,43.52046328004118 1.5625745209617017,43.52041572826083 1.5625884448486054,43.520390519288114</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

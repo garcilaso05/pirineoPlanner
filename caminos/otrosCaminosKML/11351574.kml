@@ -1,0 +1,520 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Carrer de la Verge</name>
+      <description>name: Carrer de la Verge
+source: PNOA
+highway: residential
+name:ca: Carrer de la Verge
+source:date: 2008
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0737050408846742,42.259822279109656 3.073910395758624,42.25972461320013 3.073948663989727,42.25962701362412 3.074004090042757,42.2595621244491 3.0741845615833365,42.259447105562906 3.0743103257231135,42.25935090174379 3.074328741186438,42.25929678287571</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Paireria Vella</name>
+      <description>name: Carrer de la Paireria Vella
+source: PNOA
+highway: residential
+name:ca: Carrer de la Paireria Vella
+surface: paving_stones
+source:date: 2008
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.074328741186438,42.25929678287571 3.074415518442884,42.259315398707805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Prat de la Riba</name>
+      <description>lit: yes
+name: Carrer de Prat de la Riba
+source: PNOA
+bicycle: yes
+highway: pedestrian
+name:ca: carrer de Prat de la Riba
+surface: paving_stones
+source:date: 2008
+name:etymology:wikidata: Q727170</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.074415518442884,42.259315398707805 3.0744663630879656,42.259126314786215 3.0744851378774034,42.25893290873975 3.074521878972524,42.25884062678698 3.0745324790928765,42.25879727815737</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Prat de la Riba</name>
+      <description>lit: yes
+name: Carrer de Prat de la Riba
+source: PNOA
+bicycle: yes
+highway: pedestrian
+name:ca: carrer de Prat de la Riba
+surface: paving_stones
+source:date: 2008
+name:etymology:wikidata: Q727170</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0745324790928765,42.25879727815737 3.0745408334250186,42.25874588472812</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Prat de la Riba</name>
+      <description>lit: yes
+name: Carrer de Prat de la Riba
+source: PNOA
+bicycle: yes
+highway: pedestrian
+name:ca: carrer de Prat de la Riba
+surface: paving_stones
+source:date: 2008
+name:etymology:wikidata: Q727170</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0745408334250186,42.25874588472812 3.0745413724141892,42.25874202855709</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Mossèn Modest Prats</name>
+      <description>lit: yes
+name: Carrer del Mossèn Modest Prats
+source: PNOA
+bicycle: yes
+highway: pedestrian
+name:ca: Carrer Alfons XIII
+name:2019: Carrer del Mossèn Modest Prats
+source:date: 2008
+name:etymology:wikidata: Q11937156</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0745413724141892,42.25874202855709 3.074554218322752,42.25868538270728 3.0745927560484403,42.258615572611106</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Punyalet</name>
+      <description>lit: yes
+name: Carrer del Punyalet
+source: PNOA
+bicycle: yes
+highway: pedestrian
+name:ca: Carrer del Punyalet
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0745927560484403,42.258615572611106 3.0749900808986066,42.25869262965569 3.075140818203282,42.25871942341186</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Call</name>
+      <description>name: Carrer del Call
+oneway: yes
+source: PNOA
+highway: residential
+name:ca: Carrer del Call
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.075140818203282,42.25871942341186 3.075157796362152,42.258726869813536 3.0751866322827723,42.25873770698583</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Comas i Solà</name>
+      <description>name: Carrer de Comas i Solà
+oneway: yes
+source: PNOA
+highway: residential
+name:ca: Carrer de Comas i Solà
+surface: sett
+source:date: 2008
+cycleway:both: no
+name:etymology:wikidata: Q11833</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0751866322827723,42.25873770698583 3.0753576715128683,42.25866450617234</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Lli</name>
+      <description>lit: yes
+name: Carrer del Lli
+oneway: yes
+source: GPS;survey
+highway: residential
+name:ca: Carrer del Lli
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0753576715128683,42.25866450617234 3.0753983651952392,42.25863272595618 3.0754766084564857,42.258517372945 3.0756595054483324,42.25824271890304 3.0756860955807426,42.25818700341282 3.0757385571933353,42.25806633067276</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Ramon Bordas</name>
+      <description>lit: yes
+name: Carrer de Ramon Bordas
+oneway: no
+highway: residential
+name:ca: Carrer de Ramon Bordas
+surface: asphalt
+sidewalk: no
+source:name: survey
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0757385571933353,42.25806633067276 3.0758598297566913,42.25818487585136 3.0759131896845684,42.2582308178657</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer dels Jueus</name>
+      <description>lit: yes
+name: Carrer dels Jueus
+oneway: yes
+source: PNOA
+highway: residential
+name:ca: Carrer dels Jueus
+surface: concrete
+sidewalk: no
+source:date: 2008
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0759131896845684,42.2582308178657 3.0759777785534963,42.25822456815805 3.076354801478241,42.258259207487356 3.0764938606842227,42.25829218464307 3.076590878734908,42.25832403151699</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer dels Jueus</name>
+      <description>name: Carrer dels Jueus
+oneway: yes
+source: PNOA
+highway: residential
+name:ca: Carrer dels Jueus
+surface: concrete
+sidewalk: no
+source:date: 2008
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.076590878734908,42.25832403151699 3.076579200636214,42.25859130527385</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Francesc</name>
+      <description>lit: yes
+name: Carrer de Sant Francesc
+width: 4
+oneway: no
+highway: residential
+name:ca: Carrer de Sant Francesc
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+smoothness: good
+maxspeed:type: sign
+check_date:smoothness: 2025-12-02
+sidewalk:both:surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.076579200636214,42.25859130527385 3.0769107688075827,42.2585677027862 3.0771491816839878,42.258533794971584</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Monturiol</name>
+      <description>lit: yes
+name: Carrer de Monturiol
+oneway: no
+source: GPS
+highway: residential
+name:ca: Carrer de Monturiol
+surface: asphalt
+maxspeed: 30
+smoothness: good
+name:etymology:wikidata: Q713959</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0771491816839878,42.258533794971584 3.077153673260409,42.25844988967347</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Marín</name>
+      <description>lit: yes
+name: Carrer de Marín
+oneway: yes
+highway: residential
+name:ca: Carrer de Marín
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+smoothness: good
+sidewalk:both:surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.077153673260409,42.25844988967347 3.0776741571360273,42.25846857224159 3.078051539386886,42.25859170418906</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Castelló a Palau</name>
+      <description>lit: yes
+name: Carretera de Castelló a Palau
+highway: residential
+name:ca: Carretera de Castelló a Palau
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.078051539386886,42.25859170418906 3.0782504263907904,42.2586557300473</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Castelló d'Empúries a Palau</name>
+      <description>ref: GIV-6103
+name: Carretera de Castelló d'Empúries a Palau
+highway: unclassified
+name:ca: Carretera de Castelló d'Empúries a Palau
+surface: asphalt
+maxspeed: 30
+cycleway:left: track
+cycleway:right: no
+cycleway:left:oneway: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0782504263907904,42.2586557300473 3.078331723924003,42.258690103196706 3.0785485772335894,42.25875000684171 3.078579389447835,42.258758583496544 3.0788529264518494,42.25882978963237 3.0790595389671966,42.25887367012422 3.0793399929988987,42.25893197794262 3.080467738006582,42.25911368257715 3.080862098416311,42.25915410563723 3.0810624227246692,42.25916786808764 3.0811630340364906,42.25917398473129 3.0815943152043968,42.2592187292913 3.082891482474665,42.25942749249489</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí Vell de Roses</name>
+      <description>name: Camí Vell de Roses
+width: 6
+highway: unclassified
+name:ca: Camí Vell de Roses
+surface: asphalt
+tracktype: grade1
+brp_access: 1
+source:name: Institut Cartogràfic i Geològic de Catalunya</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.082891482474665,42.25942749249489 3.083186668877027,42.25951711419317 3.0834415209231314,42.259636919855005 3.0838263591908484,42.259901794605696 3.0843139647270683,42.26015942146474 3.084778932718129,42.26035129461703 3.08539320070941,42.26060280313507 3.0856615274847763,42.26065432801826 3.0860319028764187,42.260714628699056</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Castelló d'Empúries a Mas d'en Bec</name>
+      <description>name: Camí de Castelló d'Empúries a Mas d'en Bec
+width: 4
+highway: track
+name:ca: Camí de Castelló d'Empúries a Mas d'en Bec
+surface: gravel
+tracktype: grade2
+brp_access: 2
+source:name: Institut Cartogràfic i Geològic de Catalunya</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0860319028764187,42.260714628699056 3.0863282570886494,42.26144268672239 3.087019690362837,42.26279227437394 3.0872801119637026,42.26317108447429 3.0878720119044094,42.26392869784707 3.0882602637702057,42.26434060807168 3.088691185611998,42.265008327708884 3.0889611293548755,42.26536817806142 3.089515120390592,42.26592220930129 3.090442990247559,42.26691830985751 3.091588162571755,42.26814759218317 3.0917201250869923,42.268262129868205 3.0918675386251158,42.268351273679855 3.0922204867002465,42.26847731124764 3.0940242139592304,42.26903789617413 3.09488291353932,42.26938741998122 3.0954013312897852,42.269598409641034 3.096072282975494,42.26988152288591 3.09625464097817,42.269976580581556 3.096481555418939,42.270067716181714 3.0973951420628887,42.270354815726705 3.0978858018710747,42.27052551935119 3.098176676360073,42.270670896255666 3.0985316007288284,42.27078921831725 3.099951298203851,42.27140209645214 3.100587485088064,42.27163481575338 3.100907464992267,42.2717181717294 3.101153783043173,42.27176869044909 3.1012914947762287,42.27181129896936 3.101543741708009,42.271968704298374 3.101668338037917,42.27206422414801</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+bridge: yes
+highway: track
+surface: gravel
+tracktype: grade2
+brp_access: 2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.101668338037917,42.27206422414801 3.1018831252223498,42.27227680016231</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+highway: track
+surface: gravel
+tracktype: grade2
+brp_access: 2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1018831252223498,42.27227680016231 3.1019105238385154,42.272328714333305</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: gravel
+tracktype: grade2
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1019105238385154,42.272328714333305 3.1021397738990224,42.27220062384937 3.102237959759577,42.272121722108785 3.102621989543538,42.27189857655043 3.103461824502661,42.271551393194926 3.103717844358635,42.271429283641346 3.104196915899656,42.27111506814998 3.104260875947886,42.271037494505364 3.1043791840708037,42.27081640577081 3.104474225827864,42.270682595525585 3.1048382231809892,42.27041198287984 3.105151106394448,42.27004830583883 3.1053994007389787,42.26977097658825 3.1054847406909696,42.269644875132855 3.1056166133746785,42.26948779637248 3.105754325107734,42.26937917714464 3.10588808425354,42.26931330088774 3.1059851023042246,42.26922016995703 3.1061926131348567,42.26902619659895 3.106363293038839,42.26889823235364 3.1065164557947815,42.26879346766642 3.1066678219201553,42.26873922395284 3.107073231607879,42.26868677502364 3.107282628900607,42.26865187552186 3.1073970742678036,42.268603415038754 3.1074533088045895,42.26855302673288 3.1075347860008593,42.26846760583208 3.107610424147782,42.268430778419685 3.107691901344052,42.268446333683144</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 2.5
+noexit: yes
+highway: track
+surface: ground
+tracktype: grade4
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.107691901344052,42.268446333683144 3.1077908058568333,42.268494794287 3.107910641115735,42.268540595838566 3.1129958242760787,42.271620191886576 3.1133314348662258,42.271790027948796 3.1134872925680206,42.27188528218183 3.11360551085941,42.27195481169858 3.113959536912882,42.272164197447296 3.1140054408239,42.272194574941</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1140054408239,42.272194574941 3.1140474819791972,42.27220727100077 3.114105423315023,42.272205010969365 3.1141788156737356,42.27218566775617 3.114634710680426,42.27201629806201 3.114726159176349,42.27199768597995 3.1147867954580275,42.27202101755337 3.115087820909736,42.27210477184835 3.1154772405854025,42.27228477673426 3.115630762667458,42.2723670018379 3.1157611980467124,42.272421308900896 3.116141275243423,42.27259200692884 3.1162732377586604,42.27262770190193 3.11656797500338,42.272748679127815 3.1168022556294783,42.2728650696353 3.116881397206009,42.27291778097089 3.1169854221159103,42.27295659988342 3.117061419588947,42.27300000524874 3.1171824226577174,42.27303111351667 3.117291028975568,42.273086882360275 3.117502133067336,42.27317688346506 3.1176665247643296,42.27326382680318 3.1178760118885864,42.27333362068049 3.1180698683268995,42.27344542366383 3.1182267141755062,42.27351049796056 3.1183507715162433,42.27356639932013 3.118363168267164,42.27360049846043 3.1183678395066416,42.273656399740176 3.118327505150385,42.27375357877911</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+layer: 1
+bridge: yes
+bicycle: yes
+highway: path
+surface: wood
+motorcar: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.118327505150385,42.27375357877911 3.11823443968695,42.27388159963724</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.11823443968695,42.27388159963724 3.1181924883631815,42.27390306936109 3.118175510204312,42.27394188766676 3.1182000342115685,42.27400337209173</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 2.5
+highway: track
+surface: ground
+tracktype: grade4
+brp_access: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1182000342115685,42.27400337209173 3.1178688253663136,42.274556928624236 3.117330914174183,42.275363791043034 3.117111186255687,42.2757350147427 3.1169027771097717,42.27591680388575 3.1167550940770625,42.2761972300583 3.116255091789921,42.27703431370464 3.1161906825840497,42.27707598813587 3.116111091849877,42.27708363176858 3.1156640901644987,42.27686010497841 3.11560408270352,42.2768519960523</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Castelló d'Empúries a Palau</name>
+      <description>name: Carretera de Castelló d'Empúries a Palau
+highway: unclassified
+name:ca: Carretera de Castelló d'Empúries a Palau
+loc_name: Carretera dels Tres Ponts
+maxspeed: 40
+maxweight: 12</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.11560408270352,42.2768519960523 3.116027009539283,42.27798736848654</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Castelló d'Empúries a Palau</name>
+      <description>name: Carretera de Castelló d'Empúries a Palau
+layer: 1
+bridge: yes
+highway: unclassified
+name:ca: Carretera de Castelló d'Empúries a Palau
+maxspeed: 40
+maxweight: 12</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.116027009539283,42.27798736848654 3.1160889034623587,42.27815771911301</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Castelló d'Empúries a Palau</name>
+      <description>name: Carretera de Castelló d'Empúries a Palau
+highway: unclassified
+name:ca: Carretera de Castelló d'Empúries a Palau
+maxspeed: 40
+maxweight: 12</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1160889034623587,42.27815771911301 3.116532671212714,42.279303303482976</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>ref: GIV-6103
+layer: 1
+bridge: yes
+highway: unclassified
+maxspeed: 40
+maxweight: 12</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.116532671212714,42.279303303482976 3.1166307672417397,42.27955108088573</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Castelló d'Empúries a Palau</name>
+      <description>ref: GIV-6103
+name: Carretera de Castelló d'Empúries a Palau
+highway: unclassified
+name:ca: Carretera de Castelló d'Empúries a Palau
+maxspeed: 40
+maxweight: 12</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1166307672417397,42.27955108088573 3.1170684264481627,42.28068527482638</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>ref: GIV-6103
+layer: 1
+bridge: yes
+highway: unclassified
+maxspeed: 40
+maxweight: 12</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1170684264481627,42.28068527482638 3.1171416391438185,42.2808804086256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Castelló d'Empúries a Palau</name>
+      <description>ref: GIV-6103
+name: Carretera de Castelló d'Empúries a Palau
+highway: tertiary
+name:ca: Carretera de Castelló d'Empúries a Palau
+maxspeed: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1171416391438185,42.2808804086256 3.117700660745126,42.28225782603797 3.118360203826727,42.28389300904449 3.1185938556321267,42.284292228103816 3.119345116704235,42.28519087709951 3.1196644677877403,42.285576198337694 3.119927225008345,42.28584182804315 3.120535204792637,42.286282570182316</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Castelló d'Empúries a Palau</name>
+      <description>ref: GIV-6103
+name: Carretera de Castelló d'Empúries a Palau
+highway: tertiary
+name:ca: Carretera de Castelló d'Empúries a Palau
+maxspeed: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.120535204792637,42.286282570182316 3.1218521349991564,42.287237478753866 3.122118215986312,42.2874375099636</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

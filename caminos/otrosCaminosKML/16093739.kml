@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue de Latché</name>
+      <description>name: Rue de Latché
+lanes: 2
+highway: residential
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3807703296580984,43.66729869468744 1.3806901999347552,43.667285373651616 1.3806071956025023,43.66726289033568 1.3804988587792373,43.667207071893515 1.3803640216550912,43.667109080835736 1.3802326879605529,43.66701290908503 1.380183011125341,43.666974830227645 1.38011123573414,43.66692960343048 1.380070272557184,43.66690932933793 1.3800437722563024,43.66690023198649</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Latché</name>
+      <description>name: Rue de Latché
+lanes: 2
+highway: residential
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+cycleway:right: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3800437722563024,43.66690023198649 1.3799811596809994,43.66688788557875 1.3799144148553895,43.6668852863347 1.3798756076351153,43.66689002995501 1.37961626401259,43.66691953136613 1.3794410027006585,43.66692700418823 1.3793102079952904,43.66689990708105 1.379157674060047,43.66686169818973 1.379068201857749,43.666842983621834</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Latché</name>
+      <description>name: Rue de Latché
+lanes: 2
+highway: residential
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+cycleway:right: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.379068201857749,43.666842983621834 1.378950702218586,43.66682660837014 1.3788664402449355,43.6668253087468 1.3787307946370335,43.66682901267325 1.378580865816114,43.66684987162319</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Latché</name>
+      <description>name: Rue de Latché
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:left: no
+cycleway:right: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.378580865816114,43.66684987162319 1.3783473936737713,43.666892694179964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Latché</name>
+      <description>name: Rue de Latché
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3783473936737713,43.666892694179964 1.3782473213511204,43.66691751695306 1.3782103107614148,43.666943184469424</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

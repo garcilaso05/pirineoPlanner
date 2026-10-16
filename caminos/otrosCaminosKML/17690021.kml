@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de la Glacière</name>
+      <description>lit: yes
+name: Chemin de la Glacière
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4195229323627874,43.64516616849787 1.4196724120260646,43.645178779390925 1.4197249634701858,43.64519880080332 1.4197898218336993,43.64524768422374</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Glacière</name>
+      <description>lit: yes
+name: Chemin de la Glacière
+highway: residential
+surface: asphalt
+maxspeed: 30
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4197898218336993,43.64524768422374 1.4198775872369576,43.64529858274289 1.4205179962030066,43.645784294155916 1.4208115656378566,43.645972870293626 1.4209167583576272,43.64603007355517</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue du Crabinet</name>
+      <description>name: Rue du Crabinet
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+smoothness: good
+cycleway:both: no
+maxspeed:type: FR:zone30
+oneway:bicycle: no
+ref:FR:FANTOIR: 311500035</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3193658985805803,43.642772000996544 1.319416473731076,43.64276693043466 1.3195811349226552,43.64280320444488 1.3204673229504391,43.6430959960122 1.3210816807732486,43.64336837409756 1.321540180894263,43.64360038204644 1.3219860147697715,43.64384519529048 1.3223750751193237,43.64409397288899 1.3227544336638073,43.64434762486967 1.3229273593560005,43.64448218609556 1.323248956227715,43.644932996508594</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Crabinet</name>
+      <description>name: Rue du Crabinet
+highway: residential
+surface: asphalt
+maxspeed: 30
+smoothness: good
+cycleway:both: no
+maxspeed:type: FR:zone30
+ref:FR:FANTOIR: 311500035</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.323248956227715,43.644932996508594 1.3232933330027505,43.64501678771793 1.3232961177801315,43.64502211810898 1.323455389080006,43.645323869475185 1.3236016348082607,43.645576606204436 1.3236179841464315,43.6456215890705 1.3236323571909772,43.64566117656493</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

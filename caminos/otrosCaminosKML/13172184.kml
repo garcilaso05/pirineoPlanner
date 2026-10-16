@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Liaison Brantôme - Champagnac-de-Belair</name>
+    <Placemark>
+      <name>Route de Verneuil</name>
+      <description>name: Route de Verneuil
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6882774925936838,45.37914448785357 0.6882703060714108,45.37909741615911 0.6882323073348926,45.37900137968504 0.6882019442782893,45.37893298041483 0.6881590048077083,45.37887272084161 0.6880542612455801,45.37875680774376 0.6879973080565669,45.37868948086526 0.6879521227977757,45.37865199988786 0.6878728913897164,45.378601015622806 0.6878315688866469,45.378562903592666 0.6877431746626895,45.378445980267074 0.6876776874784771,45.37836552829712 0.6875682726768714,45.37827838764209 0.6874031623276502,45.378122783502654 0.6872408367558098,45.37797342584197</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Verneuil</name>
+      <description>name: Route de Verneuil
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6872408367558098,45.37797342584197 0.6870912672610039,45.37782640249536</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Verneuil</name>
+      <description>name: Route de Verneuil
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6870912672610039,45.37782640249536 0.6869533758648916,45.37770909904463</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

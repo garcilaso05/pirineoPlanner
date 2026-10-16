@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin des Fraysses</name>
+      <description>name: Chemin des Fraysses
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4263117704594637,43.459795585445306 1.4259719377874813,43.46014110502505 1.4258170682324993,43.460308680332105 1.425700197414035,43.460435306968115 1.4254176772571796,43.46075206800936 1.425371503851576,43.46081492446987 1.4253452730452796,43.46087667240219 1.4253493154640582,43.46093170429717 1.425425133274038,43.46112979262299 1.4254828051152781,43.461333683385206 1.4254922374257617,43.46136687180686</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

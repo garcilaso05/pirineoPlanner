@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2025-05-15</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5441266284554949,43.557036624366475 1.5441668729802231,43.55701930779061</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+oneway: no
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no
+traffic_sign: FR:B22a</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5441668729802231,43.55701930779061 1.5441813358562977,43.55701051930095 1.5444146283355835,43.55687153079418 1.5447632644973504,43.55665858806197 1.5451187278552763,43.55646758345467 1.5452480852561896,43.55640977416993 1.545529707097761,43.55630040510112 1.54576847930028,43.55619650430188 1.5459985378445429,43.55613960616923 1.5476402988577997,43.55560968276552 1.5476865620949318,43.55557980119647 1.5477153980155522,43.55554699004475 1.5477496238278774,43.555532602609496</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

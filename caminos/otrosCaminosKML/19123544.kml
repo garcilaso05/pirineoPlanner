@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>secondary</name>
+      <description>highway: secondary
+surface: asphalt
+junction: roundabout
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4035392983439772,43.68638937866104 1.4035875378747342,43.68641698664829 1.403624099306798,43.686452779572846 1.4036480843248842,43.68649870621609 1.4036530250589465,43.68654768593548 1.4036382028567589,43.686595626258715 1.4035967006906325,43.68664597005282</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>highway: secondary
+surface: asphalt
+junction: roundabout
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4035967006906325,43.68664597005282 1.4035593307748129,43.686671174413874 1.4035154031574193,43.68669001271806 1.4034668941320771,43.686701380657375 1.4034161393185243,43.686705018397504</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>highway: secondary
+surface: asphalt
+junction: roundabout
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4034161393185243,43.686705018397504 1.403374637152398,43.686702030253834 1.4033343926276693,43.68669371541853</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>oneway: yes
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4033343926276693,43.68669371541853 1.4032452797514847,43.6867519842011</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+segregated: yes
+footway:surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4032452797514847,43.6867519842011 1.4032840869717587,43.686774330296686 1.4033062753592764,43.686770432722476 1.4033431961174538,43.68676068878584 1.4033834406421821,43.68676608043097 1.4034712060454408,43.68682909118758 1.40356175622608,43.68690230050928 1.4036126907026896,43.68695569713656 1.4036656913044527,43.68702741224002 1.4037307293310228,43.68713167181628 1.403753456707711,43.687190329928136 1.4037562414850917,43.68723398243926 1.4037636076704219,43.687277115246424 1.4037972046620477,43.68739657477185 1.4038119370327073,43.6874313277702 1.4038098709075537,43.687463807189694 1.4038017860699967,43.68749290873462 1.4037816638076326,43.68752688217212 1.4037789688617799,43.68753980896259</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

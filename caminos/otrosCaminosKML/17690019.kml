@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Isabelle Eberhardt</name>
+      <description>foot: designated
+name: Rue Isabelle Eberhardt
+highway: cycleway
+name:oc: Carrièra Isabelle Eberhardt
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2024-08-22</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4157969002273165,43.639683169451025 1.4156696089515566,43.639825932434164 1.415424368878992,43.640105996535844 1.415455989576993,43.64012029875298</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Isabelle Eberhardt</name>
+      <description>foot: designated
+name: Rue Isabelle Eberhardt
+highway: cycleway
+name:oc: Carrièra Isabelle Eberhardt
+surface: asphalt
+cycleway: crossing
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2024-08-22</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.415455989576993,43.64012029875298 1.4154876102749938,43.64013772144926 1.4155186919838245,43.64015468907026</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Isabelle Eberhardt</name>
+      <description>foot: designated
+name: Rue Isabelle Eberhardt
+highway: cycleway
+name:oc: Carrièra Isabelle Eberhardt
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2024-08-22</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4155186919838245,43.64015468907026 1.415542407507325,43.640176402417346 1.414713711657725,43.64105949189592 1.4143631890338615,43.64144232899479 1.4141627748939747,43.64164652078506 1.4141291779023486,43.64173018656172 1.4141325016689,43.641816127510154</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Ginestous</name>
+      <description>foot: designated
+name: Chemin de Ginestous
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4141325016689,43.641816127510154 1.41416699697581,43.64188048562855 1.414228980730414,43.64193678267357 1.414301564605371,43.64197890791062 1.4146423854241659,43.64214279300404 1.415347383259143,43.64246139578769 1.4158543025739716,43.642690676933164</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+footway: sidewalk
+highway: footway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4158543025739716,43.642690676933164 1.4158129800709018,43.642717719959265</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4158129800709018,43.642717719959265 1.415788096737532,43.6427539939992</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Ginestous</name>
+      <description>name: Chemin de Ginestous
+highway: residential
+surface: asphalt
+maxspeed: 30
+maxspeed:type: FR:urban
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.415788096737532,43.6427539939992 1.4158683162924037,43.64280586973867</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

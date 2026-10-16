@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: fine_gravel
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4032295592340125,43.50228397891942 1.4031180783072537,43.50233037212627 1.402449192746698,43.502536208972124 1.401735481253465,43.50295641629605 1.401287581252803,43.503218482400385 1.4009202601331268,43.50361047174479 1.400167831251148,43.503905113655534 1.399776614944914,43.50434909368596 1.399122641418075,43.50477150370691 1.3982805606707416,43.50550138059942 1.3984848375663501,43.50578083210998</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

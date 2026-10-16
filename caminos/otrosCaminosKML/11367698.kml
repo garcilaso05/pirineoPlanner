@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Camí de Lladó a Sant Martí Sesserres</name>
+      <description>name: Camí de Lladó a Sant Martí Sesserres
+oneway: no
+source: PNOA
+highway: residential
+name:ca: Camí de Lladó a Sant Martí Sesserres
+maxspeed: 30
+source:name: Institut Cartogràfic i Geològic de Catalunya</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8101123870654825,42.24735479097576 2.810653262698051,42.247165870686864 2.810793220219317,42.24707051260707</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Besalú</name>
+      <description>name: Carrer de Besalú
+oneway: no
+source: PNOA
+highway: living_street
+name:ca: Carrer de Besalú
+maxspeed: 20
+name:etymology:wikidata: Q12586</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.810793220219317,42.24707051260707 2.8110593910380017,42.24705488557188 2.8111411377288564,42.2470385270543 2.8113624826148635,42.2470338721908 2.8116804862254416,42.24705827697134 2.8118525136023504,42.24707629793401 2.8119492621584503,42.24711513275858 2.8120208578865946,42.24714066797269 2.8120972146857444,42.24713627910849 2.8121726731696106,42.24711107638248 2.812275260775057,42.24704291592528 2.8123315851433714,42.24701977460209 2.812394018055618,42.2470385270543 2.8124960666718937,42.24709199146189 2.812564608128072,42.247107817981814 2.812614734120926,42.24706412879741 2.812671866972996,42.24702549343562 2.8127496610766007,42.246971829477324 2.8128259280442225,42.246977016330305 2.812871831955241,42.24696458118206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Besalú</name>
+      <description>name: Carrer de Besalú
+oneway: yes
+source: PNOA
+highway: living_street
+name:ca: Carrer de Besalú
+maxspeed: 20
+name:etymology:wikidata: Q12586</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.812871831955241,42.24696458118206 2.812955195613607,42.2469764843454 2.813099015890595,42.247003083584985 2.8132291817752635,42.247023232501505 2.8133523408007166,42.247055284560055 2.813445585927208,42.24713421767217</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Gran</name>
+      <description>name: Carrer Gran
+oneway: no
+source: PNOA
+highway: living_street
+name:ca: Carrer Gran
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.813445585927208,42.24713421767217 2.813585363785417,42.24733889802007 2.8135915621608776,42.247348074706274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Gran</name>
+      <description>name: Carrer Gran
+oneway: no
+source: PNOA
+highway: living_street
+name:ca: Carrer Gran
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8135915621608776,42.247348074706274 2.813668098623084,42.24743292574155</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,615 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Autour de la Costière</name>
+    <Placemark>
+      <name>Rue de Beaucaire</name>
+      <description>ref: D 38
+name: Rue de Beaucaire
+highway: tertiary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.515277571053817,43.75504379886221 4.515217922918951,43.75498968425562</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Beaucaire</name>
+      <description>ref: D 38
+name: Rue de Beaucaire
+highway: living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.515217922918951,43.75498968425562 4.515172019007933,43.75495250476733 4.514825359139791,43.75467589643554 4.5147844857943635,43.754643323660204 4.514741815818368,43.754613605853685 4.5146862101022815,43.7545722085353</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la République</name>
+      <description>ref: D 38
+name: Rue de la République
+highway: living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.5146862101022815,43.7545722085353 4.514409618826301,43.7543495190209</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'Arles</name>
+      <description>ref: D 13
+name: Rue d'Arles
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: living_street
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.514409618826301,43.7543495190209 4.514533676167038,43.7542649720564 4.514759512629465,43.75409672129509 4.51480047580642,43.75406609480404</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'Arles</name>
+      <description>ref: D 13
+name: Rue d'Arles
+lanes: 1
+oneway: no
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+bicycle: yes
+highway: tertiary
+cycleway: lane
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.51480047580642,43.75406609480404 4.515028558057059,43.75387961028085 4.515340812449819,43.75363582987989 4.515454988322431,43.75353123175635 4.515487956493358,43.753496906401764 4.515731399935354,43.75324397529918 4.516011494640942,43.75291479989543 4.516186576289817,43.75269398596949 4.516213795242926,43.75266381297776 4.51664238146498,43.752188829683895 4.516681458179838,43.752146522245916 4.516971703848138,43.7518309026237 4.517562885136616,43.751132172999334 4.51765487262171,43.75106059947264 4.517683528879274,43.75104230051553</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'Arles</name>
+      <description>ref: D 13
+name: Rue d'Arles
+oneway: yes
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+bicycle: yes
+highway: tertiary
+surface: asphalt
+cycleway: lane</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.517683528879274,43.75104230051553 4.517766533211526,43.75092997594353 4.517804531948045,43.7508763118477</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>bicycle: yes
+highway: tertiary
+surface: asphalt
+junction: roundabout
+cycleway:right: lane</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.517804531948045,43.7508763118477 4.517811628638789,43.750909600464205 4.517832739047967,43.75093970945031 4.517865617387365,43.75096358898024 4.517907119553491,43.750979032801595</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>bicycle: yes
+highway: tertiary
+surface: asphalt
+junction: roundabout
+cycleway:right: lane</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.517907119553491,43.750979032801595 4.517935416484941,43.75098221241138 4.5179549099266065,43.75098441867113 4.518002520636665,43.75097838390162 4.518045010949603,43.750961707169814 4.518077799457474,43.750936010717915 4.518097562393725,43.75090421458793 4.518102233633202,43.750870406847525 4.51809217250202,43.750837312879675 4.518069534956861,43.75080921543771 4.518036117628291,43.750787217662165 4.517995244282863,43.75077339604685</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>bicycle: yes
+highway: tertiary
+surface: asphalt
+junction: roundabout
+cycleway:right: lane</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.517995244282863,43.75077339604685 4.517952394643811,43.75076911329215 4.517909724667815,43.75077391516861 4.517870558121428,43.75078728255237</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'Arles</name>
+      <description>ref: D 13
+name: Rue d'Arles
+oneway: yes
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary
+surface: asphalt
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.517870558121428,43.75078728255237 4.517910982309213,43.750735694816996 4.5179672168459994,43.75068572929507</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'Arles</name>
+      <description>ref: D 13
+name: Rue d'Arles
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary
+surface: asphalt
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.5179672168459994,43.75068572929507 4.51797458303133,43.75066632708764 4.518040519373183,43.750578530398165 4.518236082610536,43.75031812452989 4.518360229782801,43.75015291254435 4.518500366967124,43.74996628604514 4.518616159807247,43.74981210460403 4.51873707304449,43.74963242042847 4.518786480385116,43.74955902814525 4.51892032936245,43.74936578083646 4.519033966245891,43.749201474709075 4.519197908785243,43.74893613104151 4.519528039652156,43.748142623810786 4.519672668412899,43.747756768358 4.519810200482898,43.74739972330659 4.519940186704511,43.747062079507515 4.519928508605817,43.74699458945573 4.519881167390344,43.746926515278346 4.519450784537723,43.7466045084444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Jean Monnet</name>
+      <description>ref: D 13
+name: Rue Jean Monnet
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: tertiary
+surface: asphalt
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.519450784537723,43.7466045084444 4.519387183815606,43.74652261122645 4.519361132672367,43.74642410079524 4.519363468292106,43.746348692832555 4.519430392780773,43.74618671465004 4.519499832552235,43.74609281123216 4.519535316005958,43.74604478869475 4.519590023406762,43.746001892855126 4.519682190554912,43.74597450699287</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Jean Monnet</name>
+      <description>name: Rue Jean Monnet
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.519682190554912,43.74597450699287 4.519712463779987,43.745899422941335</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.519712463779987,43.745899422941335 4.519775435681403,43.74590909237072 4.5198222379077055,43.745901499597444 4.519866435019685,43.74588112240629 4.519901828641879,43.74583757749367 4.5199142253927995,43.74579163141142 4.519910721963192,43.74575198017369 4.51991251859376,43.74570207538706 4.519951415645562,43.74565483128543 4.520004326415798,43.74561738641466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: marked
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.520004326415798,43.74561738641466 4.520033701325588,43.745593180272564 4.520094786764909,43.74554282108231 4.520123712517057,43.74551900428557</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.520123712517057,43.74551900428557 4.5201671011452795,43.7454905149713</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.5201671011452795,43.7454905149713 4.520380091699144,43.745341708378184</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.520380091699144,43.745341708378184 4.520398327499412,43.74533151968821 4.520574307463571,43.745369483906416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: marked
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.520574307463571,43.745369483906416 4.520615001145941,43.74533619220867 4.520653808366215,43.7453082868727</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.520653808366215,43.7453082868727 4.520732770279689,43.74533567303974 4.520760079064327,43.7453557259361 4.520785501386867,43.74537370215141 4.5208172119163965,43.74538648667669 4.520841196934483,43.74538291739326 4.520859522566279,43.745373118086725 4.521055624792802,43.745047598489464 4.521101708366877,43.74504240677499</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.521101708366877,43.74504240677499 4.521107098258582,43.74503371065227 4.521168812518601,43.74491358721585 4.521273106923087,43.744724478302906</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quai Paul Riquet "Pont d'Arles" Port de Plaisance</name>
+      <description>lit: yes
+name: Quai Paul Riquet "Pont d'Arles" Port de Plaisance
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.521273106923087,43.744724478302906 4.520728907523967,43.7445066194221</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quai Paul Riquet "Pont d'Arles" Port de Plaisance</name>
+      <description>lit: yes
+name: Quai Paul Riquet "Pont d'Arles" Port de Plaisance
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.520728907523967,43.7445066194221 4.520534691759542,43.744445097020865 4.520499567631932,43.74443399961897 4.520183091157336,43.74437968072741 4.519925633996908,43.74437968072741 4.5187715683514,43.74414767295951 4.517279556496005,43.743847781306805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quai Paul Riquet "Pont d'Arles" Port de Plaisance</name>
+      <description>name: Quai Paul Riquet "Pont d'Arles" Port de Plaisance
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.517279556496005,43.743847781306805 4.517098635797784,43.7438564776018 4.517029914678549,43.74384278418149 4.516989939648405,43.7438129312164 4.516972422500365,43.74378762108216</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.516972422500365,43.74378762108216 4.516671936037827,43.74364692249983 4.516431996025439,43.74358520452104 4.515488764977113,43.74338252768257 4.513838200474072,43.743024223466136 4.5123177120241715,43.74271867997694 4.5108582191820625,43.742425011496096 4.509206486869152,43.74207630669769 4.508394230189252,43.74188971991613 4.506932940716573,43.74161389491298 4.5057945955885375,43.74136422351442 4.505140083072528,43.74122910068564 4.5047443751898735,43.74114440538531 4.504302583733144,43.74104990995098 4.502440555812221,43.740665176999975 4.501163331141259,43.74039096889218 4.500523461164381,43.74027122554938 4.499708599370156,43.74009917114542 4.498648497503367,43.73987649268222 4.49780318282101,43.739692624938705 4.496999999125479,43.739525631260534 4.493203359408676,43.7387453693562 4.491419484917472,43.73835731150883 4.489439418368216,43.73795250588605 4.487062386294906,43.737453131510904 4.484545217037275,43.73693012747294 4.481878657947895,43.73636661763753 4.481078977681972,43.73621142757739 4.4808220595107136,43.73613717506006 4.480691444468403,43.736121987033805 4.48062595728419,43.73613211238507 4.4804111700997575,43.73616248842858 4.480231776537519,43.73620500188241</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.480231776537519,43.73620500188241 4.479654519135943,43.73758878209759 4.478942783936335,43.73943067895366 4.478717755957664,43.740012786797664 4.478704281228402,43.74004776890392 4.4786926031297085,43.740069381215385</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: D 38
+highway: secondary
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.4786926031297085,43.740069381215385 4.478881698497015,43.74010507720822</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: osm-gpx
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.478881698497015,43.74010507720822 4.478768870097331,43.74049377274177 4.478414844043859,43.74145112511493 4.478232396209654,43.742001477355664 4.476890133512122,43.74173778917161</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: osm-gpx
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.476890133512122,43.74173778917161 4.476794822260477,43.74185032569348 4.47667139374044,43.741881282934884 4.4766015946428634,43.741865771866244 4.476521195424934,43.741827091526936 4.476381687061312,43.741827091526936 4.476263738264507,43.74185032569348 4.476193939166929,43.74192781611669 4.476124229900882,43.74204801044406 4.476145699636173,43.74211771265942 4.476150999696349,43.74225341757776 4.476156389588054,43.7423153965271 4.476370997109431,43.74235407655091 4.4764513963273584,43.74237737541226 4.476521195424934,43.74242390820848 4.47656952478722,43.74250139788929 4.4766338441615625,43.742629314052486 4.476644623944972,43.74275327110868 4.476692773644201,43.74290059146474 4.476751792958368,43.743001379147046 4.476784042477068,43.74315252790313 4.476853841574644,43.74330750527826 4.47686992141823,43.7434624822522 4.4769019912738734,43.743819096503884 4.476896691213696,43.74391988263985 4.476794822260477,43.74408647467673 4.476789432368772,43.744175578836504 4.476521195424934,43.744384872499346 4.476435316483773,43.74441199950037</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: osm-gpx
+highway: path
+surface: pebblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.476435316483773,43.74441199950037 4.476553355112107,43.744423680980276 4.476767872801954,43.744392725053544 4.4769664004797445,43.7443422999562 4.4771595382658305,43.74428408714622 4.4772454172069915,43.74418732525991 4.477545813838001,43.74389658437881 4.477690622261801,43.74381520263818 4.477862290312596,43.74376477705438 4.477974939049226,43.74376867092337 4.478092887846031,43.74380747980377 4.478398674368744,43.74396641423713 4.478516712997077,43.743997370384335 4.478623971842001,43.743997370384335 4.478801029784502,43.74396641423713 4.479021027197582,43.74393922213656 4.479155055837974,43.74394311599419 4.47935888357594,43.74400898704759 4.479509171722973,43.74403611421895 4.479680839773768,43.744016709856 4.479884667511735,43.743954732667994 4.480222613721621,43.74383460706645 4.480474680990344,43.74383460706645 4.480640959149436,43.74385011762498 4.480683988451545,43.7439353931763 4.48070006829513,43.74400898704759 4.480603499402087,43.7449701121044 4.480587419558502,43.74513287233498 4.480624969137378,43.74518712564683 4.480705368355307,43.74521418738807 4.481123803614649,43.745225868711444 4.481928514446164,43.74527622816834 4.482239601029054,43.74531497117528 4.482625876601226,43.745411925927</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: osm-gpx
+highway: path
+surface: pebblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.482625876601226,43.745411925927 4.482535595915172,43.74550492186996</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: osm-gpx;survey;GPS
+highway: track
+surface: unpaved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.482535595915172,43.74550492186996 4.4825053226900975,43.74586918162863 4.481925819500311,43.753834384127636 4.481940731534028,43.75400549064208</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Générac</name>
+      <description>name: Chemin de Générac
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.481940731534028,43.75400549064208 4.481782987370137,43.75403631182419 4.480122900725084,43.75436048481183 4.4798746962120815,43.75440402352409</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.4798746962120815,43.75440402352409 4.479882870881167,43.75449350164252</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.479882870881167,43.75449350164252 4.47995850902809,43.754499795602314 4.48070689549129,43.75434672890808 4.481931478886601,43.75412059956537</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: osm-gpx
+highway: track
+tracktype: grade2
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.481931478886601,43.75412059956537 4.481852067815485,43.75504230649362</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: osm-gpx
+highway: track
+tracktype: grade2
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.481852067815485,43.75504230649362 4.482462742545629,43.755126982130875 4.483047455964063,43.755185119510536 4.4832351140269155,43.75525097819269 4.48339609212583,43.75536718776935 4.483503440802282,43.75549118333343 4.483712568600425,43.75563847234048 4.483911096278216,43.75579731047571 4.483975505484087,43.7559057977179 4.484297282018859,43.75610719934937 4.484420710538897,43.75620017867539 4.484694337374439,43.7563359165528 4.485295130636459,43.75657611733849 4.485885233946597,43.756793088802276 4.486400238098982,43.756855117580926 4.4869804599409955,43.75698501445928 4.487365837197882,43.7571651307431 4.488308439425509,43.75732351064412 4.488878600136339,43.757560203791 4.4892326261898114,43.75771131578462 4.48986962155778,43.75777477102927 4.490676937503618,43.757865217345504 4.491829026855502,43.75799420367762 4.493470518374173,43.75818022120316 4.4953587771013925,43.758242183661736 4.496742811459636,43.758265411456904 4.497890768561212,43.75828870412513 4.498309203820554,43.758218890975414 4.498571691546575,43.758149986095354 4.499017255927498,43.75803300333479 4.499918535652055,43.75769970178061 4.500261781922117,43.75764552469304 4.5004763894434925,43.75765318085929 4.500787565857912,43.75767647376584 4.5011415919113835,43.75760678966742 4.501742385173403,43.75736652813599 4.502117880962164,43.75724247157466 4.502706187641735,43.7570796793893 4.503860792276414,43.75685051084329</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.503860792276414,43.75685051084329 4.50410082212033,43.75685628548619 4.5044852112304055,43.75690332609565 4.504609088908085,43.75691837908288 4.504828996489638,43.75691831419932 4.505353432952506,43.75683500365347 4.505932756479235,43.75679620321948 4.506439675794064,43.75685239246856 4.5064827949277015,43.75684992689061 4.50659203006625,43.75684227062159</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Coste Canet</name>
+      <description>name: Chemin du Coste Canet
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.50659203006625,43.75684227062159 4.506417667069603,43.75660499067973</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Coste Canet</name>
+      <description>name: Chemin du Coste Canet
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.506417667069603,43.75660499067973 4.506344544205476,43.756493000968256 4.506289836804672,43.75641027378723 4.506253904193308,43.75635590087968 4.5061746727852485,43.75623618947116 4.506147543663668,43.75619998402239 4.506061395227921,43.756066581678006 4.506019443904153,43.75600137273899 4.505948476996708,43.755894118478786 4.505873826996597,43.75578108928025 4.505791990474213,43.755678376568525 4.505502283795085,43.75548852304407 4.505270338788726,43.75531028338731 4.505223267067837,43.75526090565278 4.505202605816303,43.75519881033615 4.505204582109927,43.7551668867</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Coste Canet</name>
+      <description>name: Chemin du Coste Canet
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.505204582109927,43.7551668867 4.505209073686349,43.75514748594532 4.505224704372292,43.75507981035387 4.505294144143754,43.754857512043145 4.505327920798438,43.75474941221591 4.505391611352081,43.75453068141599 4.505423232050083,43.75433102641032 4.505437784757684,43.7540960075423 4.505447306899697,43.75392509594708 4.5053989775374115,43.753530777545734 4.505329268271363,43.75322178375583 4.505125440533397,43.75273363260862 4.504897807440401,43.7522495005742 4.50482773884824,43.75205347173262 4.5047903689324205,43.752015187309276 4.50475308884813,43.751976902861436</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+surface: asphalt
+junction: roundabout</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.50475308884813,43.751976902861436 4.504776984034687,43.75195471084825 4.504789021459494,43.751927911710254 4.504789919774779,43.75191298724563</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+surface: asphalt
+junction: roundabout</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.504789919774779,43.75191298724563 4.50478129594805,43.751885604087825 4.504760275370402,43.75186178981481 4.504741500580964,43.75185010978643</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Tour</name>
+      <description>lit: yes
+name: Rue de la Tour
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.504741500580964,43.75185010978643 4.504754795647169,43.75182759328085 4.504793423204386,43.751762120166056 4.5048578324102575,43.75169632253354 4.504929517969931,43.75167828332777 4.504981171098768,43.75166530547853 4.505496175251153,43.75166530547853 4.505942997273475,43.75169048250349 4.506182757622805,43.75170397946096 4.506595892821972,43.75174661165761 4.506853260150873,43.75178541536575 4.506986570139036,43.75183349818659 4.507089427239068,43.75187061472362 4.507550712137463,43.75207209482461 4.50778678939413,43.75221160560822 4.508087186025139,43.7525176846391</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.508087186025139,43.7525176846391 4.508217621404393,43.75270099388797 4.508324880249316,43.75285017151363 4.508375904557455,43.752914086128534 4.508442918877651,43.75297027902292 4.508496638131641,43.75299552038671 4.508601202030712,43.75302459011896 4.508700376038078,43.753040098296246 4.508861264305465,43.75305171320463 4.509008857506645,43.75305936995865 4.509097431393659,43.75305560646951 4.509183220503293,43.75303043001884 4.509277094450483,43.75298578721427 4.509494576580769,43.75289319222133</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.509494576580769,43.75289319222133 4.509900884583776,43.753229829813435</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.509900884583776,43.753229829813435 4.510174601250848,43.75344921424127 4.510199933741859,43.75345849312717 4.510343664187318,43.75351137626063 4.510633370866447,43.753509494530306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Chanzy</name>
+      <description>lit: yes
+name: Rue Chanzy
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.510633370866447,43.753509494530306 4.511313305704997,43.753680991296086 4.511418678087825,43.753683586778735 4.5116216973420356,43.75368871285665 4.511889934285874,43.75373387423293</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Chanzy</name>
+      <description>name: Rue Chanzy
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+surface: asphalt
+sidewalk: left</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.511889934285874,43.75373387423293 4.511980304803456,43.753739389628564 4.512094840002181,43.75374639742462 4.512443655827005,43.753724206067595</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Florian</name>
+      <description>lit: no
+name: Rue Florian
+highway: residential
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.512443655827005,43.753724206067595 4.512453627126658,43.753767420807904</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.512453627126658,43.753767420807904 4.5126367936130904,43.75377352018315 4.5127102758033315,43.75376099699713</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: parking_aisle</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.5127102758033315,43.75376099699713 4.5127913936734885,43.7537633329284</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>living_street</name>
+      <description>highway: living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.5127913936734885,43.7537633329284 4.512983004323591,43.753765474198644</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>living_street</name>
+      <description>highway: living_street
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.512983004323591,43.753765474198644 4.513013367380193,43.75379921541673 4.513064571351388,43.75386072820382</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la République</name>
+      <description>ref: D 38
+name: Rue de la République
+highway: living_street
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.513064571351388,43.75386072820382 4.513164464010982,43.75385670521757 4.513232556309519,43.75386598404028 4.51330657748893,43.753890576157886 4.513400002278479,43.75392172183322 4.513498637296674,43.75395617671767 4.513514986634846,43.753962016526636 4.513782774421042,43.75406207183159 4.51382589355468,43.75408328976387 4.514409618826301,43.7543495190209</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la République</name>
+      <description>ref: D 38
+name: Rue de la République
+highway: living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.514409618826301,43.7543495190209 4.5146862101022815,43.7545722085353</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Beaucaire</name>
+      <description>ref: D 38
+name: Rue de Beaucaire
+highway: living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.5146862101022815,43.7545722085353 4.514741815818368,43.754613605853685 4.5147844857943635,43.754643323660204 4.514825359139791,43.75467589643554 4.515172019007933,43.75495250476733 4.515217922918951,43.75498968425562</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Beaucaire</name>
+      <description>ref: D 38
+name: Rue de Beaucaire
+highway: tertiary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.515217922918951,43.75498968425562 4.515277571053817,43.75504379886221</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

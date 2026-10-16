@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: concrete
+tracktype: grade1
+brp_access: 3
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.111150325356383,42.296508689664584 3.1108589118782146,42.296597195508674</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3
+brp_access: 3
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1108589118782146,42.296597195508674 3.1098308798670686,42.296865901678615 3.108306618492975,42.29732351016539 3.107506758563995,42.297580319628 3.1060882288988414,42.29780350713053 3.104910986719003,42.297971013515905 3.102675259639886,42.298140977889425</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Castelló d'Empúries a Pau</name>
+      <description>name: Carretera de Castelló d'Empúries a Pau
+width: 4.5
+highway: unclassified
+name:ca: Carretera de Castelló d'Empúries a Pau
+surface: asphalt
+maxspeed: 30
+maxweight: 10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.102675259639886,42.298140977889425 3.102566563490508,42.29809008164743 3.1024192397839117,42.29803347115761 3.101596382983659,42.297733275244944</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+width: 3
+bicycle: yes
+highway: track
+surface: compacted
+mtb:scale: 0
+tracktype: grade2
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.101596382983659,42.297733275244944 3.101244243392284,42.29965110249799 3.100416535689496,42.300837622553054</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+width: 0.5
+bicycle: yes
+highway: path
+surface: dirt
+mtb:scale: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.100416535689496,42.300837622553054 3.0995334917652064,42.30126530379932 3.0992231238345433,42.301244574248656 3.0989954907415473,42.30149977314561 3.0987263554824254,42.30169989194236 3.0983539139656293,42.30218271246336 3.0978779865281028,42.30245179343682 3.097436464565958,42.30276219850417 3.096836389956166,42.303072602041205</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+width: 3
+bicycle: yes
+highway: track
+surface: grass
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.096836389956166,42.303072602041205 3.0964570314116826,42.30336227519446</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0964570314116826,42.30336227519446 3.0961845723860093,42.30342379734854 3.0954793948879753,42.30384541515828 3.0948076347185105,42.30424802896262 3.09448469037387,42.30438688362146 3.0941388389894837,42.30450520880917 3.0935704749092214,42.30477527641409 3.0926353286984534,42.30505869666948 3.091346425928798,42.30539752371103 3.0911761951824572,42.305435326065925 3.0904331986109623,42.305600221134114 3.089904270571673,42.30567808440862 3.0895709057697363,42.305727180741236</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0895709057697363,42.305727180741236 3.089493111666131,42.30576272407047 3.089097134288891,42.305867693037754 3.088746881159613,42.305960769804756 3.088650671592684,42.30599299120881 3.087902285129484,42.306018369705136 3.0876070088955943,42.30597937185448 3.087529214791989,42.305981099187385 3.0874468392804353,42.305981099187385 3.087245257330679,42.305967612702254 3.0868996754408777,42.30590662452165 3.086808137113426,42.30590316985168 3.086174106185895,42.305935391285225 3.086002438135099,42.305923632124795 3.085874338375584,42.305920177455775 3.0854989324183504,42.30593373038699 3.085249380432422,42.305918516557135 3.0846793993846484,42.30587951864462 3.084635920924897,42.30591001275545 3.084507821165382,42.30601670880908 3.0843910401784465,42.3061249991394 3.0843360632830574,42.30619781265553 3.0842856677956187,42.306290888934456 3.0842765049797207,42.30637758727176</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Pau a Pedret</name>
+      <description>lit: yes
+ref: GIV-6101
+name: Carretera de Pau a Pedret
+lanes: 2
+width: 5
+highway: tertiary
+name:ca: Carretera de Pau a Pedret
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0842765049797207,42.30637758727176 3.08409666225984,42.30635619504944</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

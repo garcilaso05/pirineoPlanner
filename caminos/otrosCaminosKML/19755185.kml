@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin des Marnières</name>
+      <description>name: Chemin des Marnières
+horse: unknown
+access: yes
+highway: track
+surface: gravel
+mtb:scale: 0
+tracktype: grade3
+motor_vehicle: unknown</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2280686860771563,43.19833319084201 0.2279710392057725,43.19835918883995 0.22785228192521192,43.19835827203417 0.22756032945787308,43.198323826321136 0.22720908818178234,43.19830961582169 0.22706158481212993,43.1983117768656 0.22691372211636382,43.198323826321136 0.22677223745911498,43.1983197006926 0.22664018511234943,43.19831112200382 0.22651001922768052,43.1983360067466 0.2264009637521884,43.198375298425056 0.2263311646546123,43.19839789112872</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

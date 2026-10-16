@@ -1,0 +1,177 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Route de Montlaur</name>
+      <description>lit: no
+ref: D 95
+name: Route de Montlaur
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5527997726921403,43.47761696820365 1.5532022179394256,43.47787438574818 1.553363375701397,43.47801277411414 1.5535191435716633,43.47811276814834 1.554238065293544,43.47857388582343 1.554683809337524,43.47880450852569</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: no
+ref: D 95
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: tertiary
+surface: asphalt
+maxweight: 5.5
+cycleway:both: no
+lane_markings: no
+maxweightrating: 5.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.554683809337524,43.47880450852569 1.555254868363639,43.47912312883239</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: no
+ref: D 95
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.555254868363639,43.47912312883239 1.5557784065112237,43.47936952390769 1.5563355416504348,43.47950080383646 1.5567202002550946,43.479582674392404 1.5569165719762033,43.47961859050097</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 95
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: tertiary
+surface: asphalt
+maxweight: 5.5
+cycleway:both: no
+lane_markings: no
+maxweightrating: 5.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5569165719762033,43.47961859050097 1.5572686217360496,43.479778615734276</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 95
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5572686217360496,43.479778615734276 1.5573145256470682,43.479797714440544 1.5576890332890176,43.479953371930584 1.558094083650627,43.48015100682588 1.5582565888855242,43.48026077474046 1.5584494571770247,43.480456583518105 1.5586632562146454,43.48080687366973 1.559047016504021,43.48158859872224</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Donneville</name>
+      <description>lit: yes
+ref: D 95
+name: Route de Donneville
+highway: tertiary
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.559047016504021,43.48158859872224 1.559081242316346,43.48172202480939 1.5590754930985276,43.48189951298743 1.558837888705878,43.48220097445258 1.5582988995354066,43.48270670934605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Donneville</name>
+      <description>lit: yes
+ref: D 95
+name: Route de Donneville
+highway: tertiary
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5582988995354066,43.48270670934605 1.5582487735425523,43.48279450694305 1.5582317953836826,43.48290009853882 1.5583078826882477,43.483036520000105 1.5587513809440172,43.48348651961668 1.5595180930390136,43.48425758590638 1.560149968009863,43.48491067070381 1.5603999691534334,43.485130189038294 1.5615377752922992,43.4858225008408 1.562198665846826,43.486218383349986 1.5623087993006592,43.48627801969015 1.562344103091325,43.48629776810456 1.5629940341993855,43.48668849860687 1.563993769279082,43.487278402371686 1.5647981207844825,43.48774290435353 1.565399542867201,43.488044988403495 1.5656384947327764,43.48815878278009</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Donneville</name>
+      <description>lit: yes
+ref: D 95
+name: Route de Donneville
+highway: tertiary
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5656384947327764,43.48815878278009 1.5656687679578516,43.48817318629128</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Donneville</name>
+      <description>lit: yes
+ref: D 95
+name: Route de Donneville
+highway: tertiary
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5656687679578516,43.48817318629128 1.5657886930482812,43.48821620128163</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Donneville</name>
+      <description>lit: yes
+ref: D 95
+name: Route de Donneville
+highway: tertiary
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5657886930482812,43.48821620128163 1.5661202612196499,43.48834648437611 1.5664579379349501,43.488417915108045 1.5667922908836995,43.4885334033025 1.5671544916062565,43.488605420377446 1.567641558153306,43.48864341668193 1.5680001656147269,43.48861767304772 1.568986066639048,43.48845330457258 1.5691351869762116,43.4884570846615 1.569191691007583,43.48843472999434</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>lit: yes
+name: Rue de l'Église
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+sidewalk: separate
+cycleway:both: no
+lane_markings: no
+maxspeed:type: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.569191691007583,43.48843472999434 1.5692391220545843,43.48841811063001 1.5692826005143357,43.48841361362475 1.5696460588782906,43.48838891267689 1.5700061934756941,43.48834850477206</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Verdale</name>
+      <description>ref: M 77f
+name: Chemin de Verdale
+lanes: 2
+highway: tertiary
+old_ref: D 77f
+surface: asphalt
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.496392400045594,43.66590100950008 1.4963991374102246,43.66590887234194 1.4964519583489306,43.6659711252188 1.496506935244319,43.66603077875004 1.4965319982407457,43.66605911090752 1.4965554442696614,43.666079775179085 1.4966189551602485,43.66613728419928</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Rouquette</name>
+      <description>name: Rue de la Rouquette
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4966189551602485,43.66613728419928 1.4965556239327182,43.66619667763801 1.496531818577689,43.66621909637149 1.4963320332585008,43.66632768090124</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

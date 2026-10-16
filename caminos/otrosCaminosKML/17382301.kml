@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Frédéric Mistral</name>
+      <description>lit: yes
+name: Rue Frédéric Mistral
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+zone:maxspeed: FR:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.49631002453404,43.60504350390526 1.4961948605146156,43.605251787278256 1.4961915367480645,43.605324120373375 1.4962519035351574,43.60540777166808</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>lit: yes
+highway: service
+service: driveway
+maxspeed: 30
+zone:maxspeed: FR:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4962519035351574,43.60540777166808 1.4966748303709208,43.60553767162066 1.4967093256778312,43.60556590221922 1.4967244173746044,43.605602588968054 1.4967610686381962,43.60563862522084 1.4968210760991754,43.60566048113259</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: fine_gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4968210760991754,43.60566048113259 1.4968470374108866,43.60566828681343</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+ramp: no
+highway: steps
+incline: down
+surface: concrete
+handrail: no
+step_count: 13
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4968470374108866,43.60566828681343 1.4969063262196385,43.6056857845443</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4969063262196385,43.6056857845443 1.4970021764604537,43.60571609658649 1.4969931933076126,43.60573138269639 1.4970106206241245,43.60573717190296</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+ramp: no
+highway: steps
+incline: down
+surface: concrete
+handrail: no
+step_count: 10
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4970106206241245,43.60573717190296 1.4970568838612568,43.605751092015346</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4970568838612568,43.605751092015346 1.4971501289877485,43.60577867204157 1.497160459613516,43.605762019951776 1.4971751919841754,43.60576676839973</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+ramp: no
+highway: steps
+incline: down
+surface: concrete
+handrail: no
+step_count: 11
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4971751919841754,43.60576676839973 1.4972208264006086,43.60578257487446</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4972208264006086,43.60578257487446 1.4972825406606278,43.60579012035064</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Arthur Rimbaud</name>
+      <description>lit: yes
+name: Rue Arthur Rimbaud
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+zone:maxspeed: FR:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4972825406606278,43.60579012035064 1.4972666404800987,43.60590167620274 1.4972654726702292,43.60597439879843 1.4972781389157355,43.60602201318734 1.4972952967376623,43.60605837442344 1.4973472193610842,43.60610767996429 1.4974142336812797,43.60614911480048</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Ancien Chemin de Fer de Toulouse à Cadours</name>
+      <description>foot: designated
+name: Ancien Chemin de Fer de Toulouse à Cadours
+bicycle: designated
+highway: path
+railway: abandoned
+surface: asphalt
+segregated: no
+description: Pas de designated, il n'y a pas de panneaux, voir mapillary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3273586588210335,43.65668843049135 1.3263824596017808,43.65852657506367</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ancien Chemin de Fer de Toulouse à Cadours</name>
+      <description>foot: designated
+name: Ancien Chemin de Fer de Toulouse à Cadours
+bicycle: designated
+highway: path
+railway: abandoned
+surface: asphalt
+segregated: no
+description: Pas de designated, il n'y a pas de panneaux, voir mapillary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3263824596017808,43.65852657506367 1.3261994727784059,43.65893217722532 1.3258061903470182,43.65971789770061 1.325798913993217,43.659764884629006</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

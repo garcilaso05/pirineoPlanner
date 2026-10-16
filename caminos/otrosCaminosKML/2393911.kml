@@ -1,0 +1,237 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Boucle de Saint-Ignace</name>
+    <Placemark>
+      <name>Chemin de l'Orfevre</name>
+      <description>name: Chemin de l'Orfevre
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5411151162970125,43.47257269283885 1.539897988918559,43.47325999850411</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Donneville</name>
+      <description>name: Chemin de Donneville
+highway: track
+surface: grass
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.539897988918559,43.47325999850411 1.5394229597963165,43.47355700496433 1.538024013404357,43.47428302185417 1.5372758964357423,43.474671222511645 1.5357510960724778,43.4754731048403 1.5349932772987946,43.47588958923597 1.5346970129180921,43.47605699051331 1.5345830167085373,43.47612217780115 1.5344529406553966,43.47610177418761 1.533357175671828,43.47605796832315 1.5331010659843254,43.47603560906758 1.5329079281982396,43.476004384320746 1.5327162277166084,43.4759547767044 1.5322688667051172,43.475814623560346</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Donneville</name>
+      <description>name: Chemin de Donneville
+layer: 1
+bridge: yes
+highway: track
+surface: grass
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5322688667051172,43.475814623560346 1.532176430062381,43.47579421984296</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Donneville</name>
+      <description>name: Chemin de Donneville
+highway: track
+surface: grass
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.532176430062381,43.47579421984296 1.532107439448561,43.47578541951545 1.532044916704786,43.4757869188306 1.5319785312052898,43.47579330721647 1.531892023443429,43.47581116861827 1.5316569343335749,43.47590647279704 1.5315327871613096,43.47597081281085 1.531154955752809,43.47626500290299 1.5305960239830296,43.47661401362101 1.5304680140550426,43.476667988202806 1.5302766728995252,43.47671387959675 1.5299426792768895,43.47677130897672 1.5297751434764013,43.47681309354236 1.52964228264588,43.47687150062471 1.529362098108763,43.47702527525122 1.5290979035837033,43.47721307662757 1.5289959447989558,43.47731339791501 1.528855088962406,43.47742036799318 1.5284983679630821,43.47764128244251 1.5283427797558726,43.477731825192386 1.5282622907064156,43.47775620457053 1.5281724591780037,43.47776780758663</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Croix de Talou</name>
+      <description>name: Rue de la Croix de Talou
+oneway: yes
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5281724591780037,43.47776780758663 1.5281791965426346,43.477828169308545 1.5281551216930203,43.4779245132711 1.5281135296953654,43.478019879301954 1.5280625053872274,43.47809477705661 1.5279888435339295,43.47816882731286 1.5278613725951131,43.478252524852394 1.5276105629677867,43.47839058642826</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Croix de Talou</name>
+      <description>name: Rue de la Croix de Talou
+highway: residential
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5276105629677867,43.47839058642826 1.5272162025580585,43.47861560395801 1.527050643051195,43.478721724333056</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>name: Rue de l'Église
+oneway: yes
+highway: residential
+surface: asphalt
+smoothness: good
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.527050643051195,43.478721724333056 1.5267711771663057,43.47847630438676 1.526635621389932,43.47835258367468 1.5265833394403963,43.47828361806768</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>name: Rue de l'Église
+oneway: yes
+highway: residential
+surface: asphalt
+smoothness: good
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5265833394403963,43.47828361806768 1.526494406227268,43.478048691155905</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>name: Rue de l'Église
+oneway: yes
+highway: residential
+surface: asphalt
+smoothness: good
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.526494406227268,43.478048691155905 1.52649431639574,43.47800847188992 1.5264974604992343,43.47795130442689</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Croix de Talou</name>
+      <description>name: Rue de la Croix de Talou
+oneway: yes
+highway: residential
+surface: asphalt
+smoothness: good
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5264974604992343,43.47795130442689 1.52651354034282,43.477882729474 1.526558456107026,43.47780431144294 1.5266188228941189,43.47771970068515 1.5267233867931904,43.477605299972936 1.5267924672385393,43.47754109207089 1.526858942569564,43.477491029415674</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Ignace</name>
+      <description>name: Chemin de Saint-Ignace
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.526858942569564,43.477491029415674 1.5265494729541849,43.47723022056309 1.5264945858903252,43.47718061395308 1.526424966455806,43.47711777450953</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Ignace</name>
+      <description>name: Chemin de Saint-Ignace
+highway: track
+surface: grass
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.526424966455806,43.47711777450953 1.526297585348518,43.47695519996126 1.5261126222315173,43.47669047759766 1.5259650290303366,43.47641121738826 1.5259388880555687,43.476300790609514</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Ignace</name>
+      <description>name: Chemin de Saint-Ignace
+highway: path
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5259388880555687,43.476300790609514 1.5259800308955815,43.476236972444084 1.5259679934707744,43.47616898223045 1.5260020396200424,43.476094016901435 1.5260631250593626,43.47603978105759 1.5261429852881208,43.47596898756317 1.5262530289104252,43.475732030834386 1.5277310270473872,43.47459899325825 1.5278729608622783,43.474463986904205 1.5282499837870231,43.47404599332481 1.5286470391426037,43.47369501207874 1.529097993415232,43.47334200789647 1.5292940058102271,43.4732060208783 1.5295979957023729,43.47302602992015 1.529658003163352,43.472974007804865 1.5296759694690343,43.47289102005205 1.529637970732516,43.472827002713196 1.5287170179032368,43.47169097702815 1.5285749942568174,43.4714440291037 1.5285529855323565,43.471303017996256 1.5285790366755962,43.471238998975274 1.52865799858907,43.47112171751754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Ignace</name>
+      <description>name: Chemin de Saint-Ignace
+source: gps
+highway: path
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.52865799858907,43.47112171751754 1.5291005086980276,43.47099328786697 1.5293770101424795,43.4709260088751 1.52964228264588,43.47087261590092 1.5302145094818642,43.4707962097557 1.5303059579777876,43.4707819976805 1.5304540901681387,43.470750705026056 1.5306659129121343,43.470677427996854 1.5314152875221465,43.4702867243299 1.5319316391474587,43.470000523979046 1.5320925274148445,43.46990221156402 1.5321287295207944,43.469848687297365 1.5321287295207944,43.46976497811782 1.5321153446230609,43.46967553173242 1.5321327719395728,43.469640392044795 1.532174274105699,43.469617117695 1.5322493732634517,43.469588823375325 1.5324399059352134,43.469416579788714 1.5325217424575968,43.46934551775718 1.5326183113506395,43.469343627114846 1.532780457259423,43.46937857139142 1.533072858884404,43.46946332421711</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Patras</name>
+      <description>name: Chemin de Patras
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.533072858884404,43.46946332421711 1.53331971592448,43.46939812974636 1.5336013377660516,43.469309530347886 1.5340303731457472,43.46912548570771 1.534510971822751,43.46896497589701 1.5354000344594443,43.46869200392815 1.5358852145443969,43.468534687542814 1.5360621826553684,43.4684850737947</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Patras</name>
+      <description>name: Chemin de Patras
+oneway: yes
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5360621826553684,43.4684850737947 1.5363020328362282,43.4686880270167 1.5364910383720072,43.46874898456513 1.5367200189379295,43.468783994380665 1.537658039757607,43.468869986746526 1.537980984102248,43.46891601445236 1.538320996437287,43.46898401282616 1.5394700315172043,43.46931898356436 1.5403340311574705,43.4694819698228 1.5412389939746927,43.46961803041477 1.5416659632292344,43.469723971008584 1.5420519693068206,43.46990097287873</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Ignace</name>
+      <description>name: Chemin de Saint-Ignace
+highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5420519693068206,43.46990097287873 1.5418676350105196,43.470132802168415 1.541622933927125,43.47054013111755 1.5414278198474143,43.470887284305114 1.541096700833688,43.47150980809768 1.5409120072112732,43.471974431321684</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Château d'Eau</name>
+      <description>name: Chemin du Château d'Eau
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5409120072112732,43.471974431321684 1.5408234333242588,43.47225899253995 1.5408405013146569,43.47232770425757 1.5408856865734482,43.4723838991716 1.5411151162970125,43.47257269283885</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Château d'Eau</name>
+      <description>name: Chemin du Château d'Eau
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5411151162970125,43.47257269283885 1.541938422254908,43.47311208144112</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

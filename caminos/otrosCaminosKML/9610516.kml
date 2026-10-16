@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Itinerari Curt - Camós</name>
+    <Placemark>
+      <name>Carrer de Santa Magdalena</name>
+      <description>lit: yes
+name: Carrer de Santa Magdalena
+highway: residential
+name:ca: Carrer de Santa Magdalena</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7653358617285453,42.097008289373996 2.7652053365177625,42.09739602595703 2.7651888075165343,42.097436685836136 2.765149820633204,42.09791680371594 2.765129159381669,42.098588082804056 2.7651252966259476,42.09882810451267</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: PNOA
+highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7651252966259476,42.09882810451267 2.7650141750253017,42.09887589545256 2.764918863773657,42.09889442526336 2.764443115999187,42.0989434159241 2.764411764795771,42.09894661531286 2.7643393605838713,42.09898700758223 2.7640410300780154,42.09936793341155 2.7639017912089767,42.09950390638174 2.7637170975865617,42.09969000224874 2.7635077002938337,42.099970211470904 2.763446974180627,42.099993673271584 2.763236139583444,42.10004692886078 2.7628515708103123,42.100239088518535 2.7623126714713693,42.100609275825754 2.7621592392208414,42.1007235175652 2.762162023998222,42.10078890320561 2.7622281400031334,42.10110589929951 2.762178463167922,42.101155021554916 2.7620958181617823,42.10115288870337 2.761919389039982,42.101101833548036 2.7618311744790813,42.101101833548036 2.7616657946352747,42.10119181323282 2.7613212008922865,42.10147201581849 2.7612248116623004,42.10169083158179 2.7611199782686433,42.10198742804511 2.7610649115417276,42.10209366922731 2.7609987057052874,42.10213672551519</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lanes: 1
+width: 3
+oneway: no
+source: IGCG:2018
+highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7609987057052874,42.10213672551519 2.761078655765574,42.10226142862365 2.7611035390989445,42.102474109842454 2.761100664490035,42.10265413183965 2.76107155907483,42.10272591388554 2.7610401180398854,42.102803427739865 2.76082775630672,42.103322828103764</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+maxspeed: 20
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.76082775630672,42.103322828103764 2.760983344513929,42.10334002362883 2.7610241280278283,42.10333362529447 2.7610950949352735,42.10332249485711 2.7613950424086413,42.10302150576232 2.7616009362717615,42.10282728839133 2.7617507752611523,42.10270078684622</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: paved
+maxspeed: 20
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7617507752611523,42.10270078684622 2.762062490664742,42.10255888886964 2.7622537419887307,42.102473909891785 2.762485956489676,42.10234507487911 2.7627477255634685,42.102262228429005 2.762903493433735,42.10216398559566 2.7630916904857576,42.10204621396591 2.763285816418656,42.10202881813789 2.7634072686450692,42.102042814781505 2.763574534950972,42.10207540695396 2.764097803603972,42.102132526528656</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Nord</name>
+      <description>lit: yes
+name: Carrer Nord
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Carrer Nord
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.764097803603972,42.102132526528656 2.7642327305596464,42.101265729782064 2.764346097948502,42.10093460429839</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passatge Ramió</name>
+      <description>lit: yes
+name: Passatge Ramió
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Passatge Ramió
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.764346097948502,42.10093460429839 2.7652486353144567,42.101022717971546 2.766065024244665,42.10110130033471</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.766065024244665,42.10110130033471 2.7660440036670164,42.10122407258502 2.7661033823072967,42.101231404253674 2.7661506336912414,42.101236869678864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: concrete
+maxspeed: 20
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7661506336912414,42.101236869678864 2.76661569151383,42.09855062307194 2.7666663564958545,42.098257409920265 2.7666682429579508,42.09817662442634 2.7666561157016156,42.098103370824305 2.766211629299033,42.0972655808902 2.76619087821597,42.0971783285215 2.76618917141693,42.09713720188591 2.766200400357982,42.09691290461143</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.766200400357982,42.09691290461143 2.76614560312565,42.09690997174434 2.766094309322927,42.09690937183969 2.7660818227404778,42.0969844265328 2.7660496630533062,42.09699309181137 2.766037984954613,42.097033618636935</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary_link</name>
+      <description>lit: yes
+source: PNOA
+highway: tertiary_link</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.766037984954613,42.097033618636935 2.766057658059335,42.09705328213672 2.7660710429570683,42.097106073604294</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Roser</name>
+      <description>lit: yes
+name: Carrer del Roser
+highway: residential
+name:ca: Carrer del Roser</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7660710429570683,42.097106073604294 2.7660307086008116,42.097100674478945</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Roser</name>
+      <description>lit: yes
+name: Carrer del Roser
+layer: 1
+bridge: yes
+highway: residential
+name:ca: Carrer del Roser</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7660307086008116,42.097100674478945 2.7659166225597285,42.09708547693847</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,251 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Camí Vell de Garriguella a Mollet de Peralada</name>
+      <description>name: Camí Vell de Garriguella a Mollet de Peralada
+lanes: 1
+width: 3
+highway: unclassified
+name:ca: Camí Vell de Garriguella a Mollet de Peralada
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.006996507212072,42.35960979333799 3.006603134949156,42.359664290683796 3.006226112024411,42.359700732853334 3.0058654384378367,42.359722903488944 3.005157835488536,42.35981981695398 3.004745329110068,42.35987829685611 3.0046278294709055,42.35991268115455 3.00431359878452,42.36003979668908 3.0041032133449797,42.360175076542056 3.0038847430678817,42.3603104224823 3.0036251299507715,42.36042140726332 3.003455707688186,42.36048798476218 3.003392915449826,42.360524426454006 3.0033009279647325,42.360633884159036</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: no
+ref: GIP-6031
+lanes: 2
+width: 5
+oneway: no
+highway: tertiary
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0033009279647325,42.360633884159036 3.0031971725494166,42.36062432570119</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: no
+ref: GIP-6031
+lanes: 2
+layer: 1
+width: 5
+bridge: yes
+oneway: no
+highway: tertiary
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0031971725494166,42.36062432570119 3.002774605039767,42.360601226088704</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: no
+ref: GIP-6031
+lanes: 2
+width: 5
+oneway: no
+highway: tertiary
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.002774605039767,42.360601226088704 3.002358774894748,42.36057248431766 3.0021468623192242,42.360554097542675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: no
+ref: GIP-6031
+lanes: 2
+width: 5
+oneway: no
+highway: tertiary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0021468623192242,42.360554097542675 3.0020075336186576,42.360532325470025 3.001810712739906,42.360498273402264 3.0017119878901815,42.360477430607034</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: yes
+ref: GIV-6031
+lanes: 1
+oneway: yes
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0017119878901815,42.360477430607034 3.0015478656877734,42.36037089328143</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: yes
+ref: GIV-6031
+lanes: 1
+oneway: yes
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0015478656877734,42.36037089328143 3.0014017996225757,42.36027869354356</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Garriguella</name>
+      <description>lit: yes
+ref: GIV-6031
+name: Carrer de Garriguella
+oneway: no
+highway: living_street
+name:ca: Carrer de Garriguella
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0014017996225757,42.36027869354356 3.0012818745321455,42.36019937112661 3.001195815927927,42.360146002682626 3.0010598109939113,42.36005931205386 3.0008822140622406,42.35998211348361 3.000816906541085,42.35995416797606 3.000712073147428,42.35992668710856 3.0005993345792716,42.35994799473877 3.000541033917332,42.359953504187146</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Unió</name>
+      <description>lit: yes
+ref: GIV-6031
+name: Carrer Unió
+oneway: no
+highway: living_street
+name:ca: Carrer Unió
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.000541033917332,42.359953504187146 2.999922004855045,42.35976531974307</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Placeta</name>
+      <description>lit: yes
+name: Carrer de la Placeta
+highway: living_street
+name:ca: Carrer de la Placeta
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.999922004855045,42.35976531974307 2.999873765324288,42.35982200746208 2.999808996792303,42.35984431081292</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Placeta</name>
+      <description>lit: yes
+name: Carrer de la Placeta
+narrow: yes
+highway: living_street
+name:ca: Carrer de la Placeta
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.999808996792303,42.35984431081292 2.9996668833143554,42.35975290685163 2.9994451791022345,42.35967192429119 2.999187721941806,42.359621807982236</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Placeta</name>
+      <description>lit: no
+name: Carrer de la Placeta
+lanes: 1
+width: 3
+oneway: no
+highway: residential
+name:ca: Carrer de la Placeta
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.999187721941806,42.359621807982236 2.998937181809065,42.359492501082606 2.9985112007013353,42.359338699870406 2.998228231386838,42.35924258221907 2.9980972570184132,42.35919578455245 2.9980608752494065,42.35918662415406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Placeta</name>
+      <description>lit: no
+name: Carrer de la Placeta
+lanes: 1
+width: 3
+oneway: no
+highway: residential
+name:ca: Carrer de la Placeta
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9980608752494065,42.35918662415406 2.9978971123731113,42.35906110000966</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Mollet de Peralada al Priorat</name>
+      <description>lit: no
+name: Carretera de Mollet de Peralada al Priorat
+lanes: 1
+layer: 1
+width: 3
+bridge: yes
+oneway: no
+highway: unclassified
+name:ca: Carretera de Mollet de Peralada al Priorat
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9978971123731113,42.35906110000966 2.997768293961369,42.358952900783905</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Mollet de Peralada al Priorat</name>
+      <description>lit: no
+name: Carretera de Mollet de Peralada al Priorat
+lanes: 1
+width: 3
+oneway: no
+highway: unclassified
+name:ca: Carretera de Mollet de Peralada al Priorat
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.997768293961369,42.358952900783905 2.9972991038884733,42.35859398336789 2.997126807016979,42.358481203087024 2.9969704103260137,42.35838687639885 2.9965128983518117,42.35815461043151 2.9957266928151505,42.357744906838185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9957266928151505,42.357744906838185 2.9950916737408066,42.35821229531462 2.995026096725066,42.35820671933283 2.994958094258058,42.35818063169719 2.994679706351509,42.358039107744595 2.9944428206110865,42.35791617016874 2.994383621633863,42.35790973120701 2.99435325857726,42.35791152349539 2.994325590466509,42.3579263928489 2.99234004419402,42.359368570657516 2.9921912831829696,42.3595416881841 2.9915411724118526,42.36041782282968 2.9915146721109704,42.36044390953653 2.9914769428690375,42.36045227321124 2.991438494974877,42.36044669742822 2.990977389739539,42.360284667612746 2.990122463083642,42.35997368336744 2.989893213023135,42.35989090885966 2.989705465128754,42.35988898386981</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.989705465128754,42.35988898386981 2.9896222811334443,42.3598778322033 2.989570717836136,42.35992901037078 2.989435790880461,42.3599402284071 2.9892431022520176,42.35995416797606 2.9891636911809014,42.3599728204421 2.9888978796883308,42.359997911651014 2.9884013808307976,42.36006309564428 2.988334725836716,42.36007331797518</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.988334725836716,42.36007331797518 2.988204919278161,42.360079889472736 2.9878331964135922,42.36006960076414 2.987436320721068,42.36005851550848 2.9872573763164714,42.360109693528784 2.986949972826246,42.36023441903532 2.9866325082048375,42.360375871665156 2.986055520297848,42.36063853063107 2.9852742554952494,42.36092521729135 2.984692237022668,42.361150503367035 2.9845989918961764,42.36117473119684</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9845989918961764,42.36117473119684 2.9846605264931387,42.3613801031652 2.9847049930997027,42.36158686838283 2.9847152338939416,42.36169406741723 2.9846287261320805,42.36184832750243 2.984534582690305,42.36194789276078 2.9844454698141205,42.362015597046344 2.9841198305236274,42.36207009230555 2.9833743186693367,42.36212458751748 2.982885724986304,42.36214157992469 2.9825880233011466,42.362177290515504 2.982086763372608,42.362243069636136 2.9811314050679467,42.362458593679094 2.981015881722409,42.36245912468907</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

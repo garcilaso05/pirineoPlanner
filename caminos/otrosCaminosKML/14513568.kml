@@ -1,0 +1,274 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Elizaberri</name>
+    <Placemark>
+      <name>Chemin de Pagadoi</name>
+      <description>name: Chemin de Pagadoi
+highway: unclassified
+name:eu: Pagadoiko bidea
+maxspeed: 30
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4001327969550676,43.44135381676229 -1.4002431999034857,43.441401496034025 -1.400362586004745,43.441433717025376 -1.4004631074850382,43.441430781915535 -1.4005797986404451,43.44141232333263 -1.40069379485,43.441381080700666</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Pagadoi</name>
+      <description>name: Chemin de Pagadoi
+highway: unclassified
+name:eu: Pagadoiko bidea
+maxspeed: 30
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.40069379485,43.441381080700666 -1.4008386032738003,43.441339206417055</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Egurralde</name>
+      <description>name: Chemin d'Egurralde
+highway: residential
+name:eu: Egurraldeko Bidea
+surface: paving_stones
+maxspeed: 30
+sidewalk:both: yes
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4008386032738003,43.441339206417055 -1.4008068927442705,43.441312268583786 -1.4007608990017237,43.44123797749961</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Egurralde</name>
+      <description>name: Chemin d'Egurralde
+highway: residential
+name:eu: Egurraldeko Bidea
+maxspeed: 30
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4007608990017237,43.44123797749961 -1.4007032271604833,43.44113276968877 -1.4006790624793406,43.44105782613352 -1.4006951423229264,43.44063418784196</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Egurralde</name>
+      <description>name: Chemin d'Egurralde
+highway: residential
+name:eu: Egurraldeko Bidea</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4006951423229264,43.44063418784196 -1.4007038559811824,43.440586768867846 -1.4007863213242644,43.44014147223166 -1.4007971011076736,43.44010351065597 -1.4008668103737214,43.43964392584133 -1.4008466881113573,43.439526126503324 -1.4007971011076736,43.439398477681586 -1.4007676363663546,43.439279699460954 -1.4007810212640883,43.439145331725456 -1.4007756313723834,43.43905088276968 -1.4007287393145522,43.43894769320333 -1.4006080057403665,43.43879767013177 -1.400414867954281,43.43868769646129 -1.4001104289044926,43.438506493856494 -1.4000045175324953,43.43841152208015</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Urgazia</name>
+      <description>name: Chemin d'Urgazia
+highway: track
+name:eu: Urgaziko bidea
+tracktype: grade3
+motorcycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4000045175324953,43.43841152208015 -1.4001325274604821,43.43827819606569</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Urgazia</name>
+      <description>name: Chemin d'Urgazia
+layer: 1
+bridge: yes
+highway: track
+name:eu: Urgaziko bidea
+tracktype: grade3
+motorcycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4001325274604821,43.43827819606569 -1.400172143164512,43.43819587819382</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Urgazia</name>
+      <description>name: Chemin d'Urgazia
+highway: track
+name:eu: Urgaziko bidea
+tracktype: grade3
+motorcycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.400172143164512,43.43819587819382 -1.4002767070635833,43.4378638007606 -1.4003571961130403,43.43759121020327 -1.4005797986404451,43.43735162433236 -1.4008077910595547,43.43726982703315 -1.4010411733703692,43.437277589301544 -1.4012960254164737,43.437369105718496 -1.4015668674746358,43.43745090288349 -1.401827019580917,43.43749962889334 -1.4020227624813264,43.43752102396961</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Urgazia</name>
+      <description>name: Chemin d'Urgazia
+highway: track
+name:eu: Urgaziko bidea
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4020227624813264,43.43752102396961 -1.4022642296296979,43.437460687225965 -1.4026799699431882,43.437297092811846 -1.4029294320975885,43.43720746793332 -1.403345172411079,43.43715287105361 -1.4037742976223027,43.43720551105676 -1.4039835152519744,43.4372132733334 -1.4040880791510457,43.437174396710994 -1.4041551833027694,43.437082814770214 -1.4042275875146693,43.43690747801824 -1.40432146146186,43.43683552979183 -1.4056063218127361,43.436444020355154 -1.4062781718137292,43.43625407017902 -1.4068361154366957,43.436102213977456 -1.4069239706714827,43.43604572441692</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Urgazia</name>
+      <description>name: Chemin d'Urgazia
+highway: unclassified
+name:eu: Urgaziko Bidea
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4069239706714827,43.43604572441692 -1.4069916138123768,43.435996997236295 -1.4070844097812265,43.43573307396711 -1.4071807091796842,43.43556940965127 -1.4072198757260717,43.43552570487666 -1.4075295250045077,43.43538748016529 -1.407651516220091,43.435334773349354 -1.4081465777731694,43.43507860974239 -1.4083125864376747,43.434988068335464 -1.408761923742791,43.434672607447325 -1.409141372118803,43.43444181636801 -1.4094178735632552,43.434239204819306 -1.4104345868018215,43.43339098175375</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Elizaberri</name>
+      <description>name: Chemin Elizaberri
+highway: unclassified
+name:eu: Elizabberiko bidea
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4104345868018215,43.43339098175375 -1.4106114650812647,43.43321472103525 -1.4107778330718839,43.433187388183555 -1.4110299901721362,43.433234225855045 -1.411174529101351,43.433187388183555 -1.411512475311237,43.432941979067124 -1.4117219624354935,43.43290831840895 -1.4125052035317172,43.432910601593726 -1.413057487768394,43.43286800387511</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.413057487768394,43.43286800387511 -1.413567102029075,43.434252773160566 -1.413068177720275,43.435271499017105 -1.413159356721613,43.43535532118528 -1.4131378869863227,43.436003781210246 -1.4129930785625227,43.43666162737907 -1.4128187155658751,43.43718600751694 -1.4124271399335273,43.43774110580888 -1.4124109702584131,43.43795538151935 -1.4125156239890129,43.43816182908888 -1.41245130461467,43.438311788508955 -1.4118852761541465,43.438600030474035 -1.4111933038907891,43.43919992680737 -1.4110270257316986,43.43929528870804 -1.4104583921568508,43.4393712128498 -1.4103142125537498,43.43940389151035</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4103142125537498,43.43940389151035 -1.410253216945958,43.43939358566721 -1.4091172972691888,43.43942972133734 -1.4071459443781884,43.439416023703195</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Kurutze Beherea</name>
+      <description>name: Kurutze Beherea
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4071459443781884,43.439416023703195 -1.4062298424514434,43.43958228668145 -1.405927469526809,43.4396060291801 -1.4057463691655303,43.439562718681046 -1.405629408515538,43.439464226316296 -1.4050632003919576,43.43931459588715 -1.404901503640816,43.43921682061605 -1.404551070848481,43.43914670149514 -1.4040507092352261,43.439179315049856 -1.4038247829412702,43.439151071712494 -1.4032829191618892,43.43891038315246 -1.4034611449142584,43.43865116898204 -1.4035470238554206,43.438464226216205 -1.4035039945533112,43.43819157313564 -1.4031708094144313,43.437963078471405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Kurutzebeherea</name>
+      <description>name: Chemin de Kurutzebeherea
+highway: service
+name:eu: Kurutzebehereko Bidea
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4031708094144313,43.437963078471405 -1.4028516379939837,43.437980690137636 -1.4022856993649884,43.437959295223905 -1.4020985802913062,43.43794227060727 -1.4020550120000261,43.437922180248904 -1.4020254574271789,43.4378638007606 -1.4020363270421168,43.43760869152018 -1.4020227624813264,43.43752102396961</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Urgazia</name>
+      <description>name: Chemin d'Urgazia
+highway: track
+name:eu: Urgaziko bidea
+tracktype: grade3
+motorcycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4020227624813264,43.43752102396961 -1.401827019580917,43.43749962889334 -1.4015668674746358,43.43745090288349 -1.4012960254164737,43.437369105718496 -1.4010411733703692,43.437277589301544 -1.4008077910595547,43.43726982703315 -1.4005797986404451,43.43735162433236 -1.4003571961130403,43.43759121020327 -1.4002767070635833,43.4378638007606 -1.400172143164512,43.43819587819382</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Urgazia</name>
+      <description>name: Chemin d'Urgazia
+layer: 1
+bridge: yes
+highway: track
+name:eu: Urgaziko bidea
+tracktype: grade3
+motorcycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.400172143164512,43.43819587819382 -1.4001325274604821,43.43827819606569</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Urgazia</name>
+      <description>name: Chemin d'Urgazia
+highway: track
+name:eu: Urgaziko bidea
+tracktype: grade3
+motorcycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4001325274604821,43.43827819606569 -1.4000045175324953,43.43841152208015</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Egurralde</name>
+      <description>name: Chemin d'Egurralde
+highway: residential
+name:eu: Egurraldeko Bidea</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4000045175324953,43.43841152208015 -1.4001104289044926,43.438506493856494 -1.400414867954281,43.43868769646129 -1.4006080057403665,43.43879767013177 -1.4007287393145522,43.43894769320333 -1.4007756313723834,43.43905088276968 -1.4007810212640883,43.439145331725456 -1.4007676363663546,43.439279699460954 -1.4007971011076736,43.439398477681586 -1.4008466881113573,43.439526126503324 -1.4008668103737214,43.43964392584133 -1.4007971011076736,43.44010351065597 -1.4007863213242644,43.44014147223166 -1.4007038559811824,43.440586768867846 -1.4006951423229264,43.44063418784196</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Egurralde</name>
+      <description>name: Chemin d'Egurralde
+highway: residential
+name:eu: Egurraldeko Bidea
+maxspeed: 30
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4006951423229264,43.44063418784196 -1.4006790624793406,43.44105782613352 -1.4007032271604833,43.44113276968877 -1.4007608990017237,43.44123797749961</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Egurralde</name>
+      <description>name: Chemin d'Egurralde
+highway: residential
+name:eu: Egurraldeko Bidea
+surface: paving_stones
+maxspeed: 30
+sidewalk:both: yes
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4007608990017237,43.44123797749961 -1.4008068927442705,43.441312268583786 -1.4008386032738003,43.441339206417055</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Pagadoi</name>
+      <description>name: Chemin de Pagadoi
+highway: unclassified
+name:eu: Pagadoiko bidea
+maxspeed: 30
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.4008386032738003,43.441339206417055 -1.40069379485,43.441381080700666</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Pagadoi</name>
+      <description>name: Chemin de Pagadoi
+highway: unclassified
+name:eu: Pagadoiko bidea
+maxspeed: 30
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.40069379485,43.441381080700666 -1.4005797986404451,43.44141232333263 -1.4004631074850382,43.441430781915535 -1.400362586004745,43.441433717025376 -1.4002431999034857,43.441401496034025 -1.4001327969550676,43.44135381676229</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

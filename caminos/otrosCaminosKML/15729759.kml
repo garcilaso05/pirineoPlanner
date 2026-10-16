@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue du Général de Gaulle</name>
+      <description>name: Avenue du Général de Gaulle
+highway: cycleway
+surface: asphalt
+board_type: nature
+smoothness: excellent
+name:etymology:wikidata: Q2042</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3421398080005216,43.54214611238279 1.3422916232835376,43.542190716816 1.3429529629957064,43.542245088598726 1.3435054268954398,43.54229060458032 1.3436428691339104,43.54229653012047 1.3437696214204993,43.54229379525586 1.3438729276781731,43.54228650228297 1.3439718321909548,43.542272372145476 1.3441028963909079,43.542244176976425 1.344185990554689,43.542220930603115 1.344258394766589,43.54219709817747 1.3443070834549882,43.542174698293415</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue d'Estienne d'Orves</name>
+      <description>name: Rue d'Estienne d'Orves
+highway: residential
+maxspeed: 30
+zone:maxspeed: FR:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5188234225215864,43.60568402826672 1.5188330344951266,43.605725593489275 1.5188314175276152,43.605772232366775 1.5188049172267337,43.60583259616011 1.5187601811255842,43.6058755923165 1.5177882039881672,43.60653978470996</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'Estienne d'Orves</name>
+      <description>name: Rue d'Estienne d'Orves
+highway: residential
+maxspeed: 30
+zone:maxspeed: FR:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5177882039881672,43.60653978470996 1.5182290072980849,43.60687600857958</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'Estienne d'Orves</name>
+      <description>name: Rue d'Estienne d'Orves
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5182290072980849,43.60687600857958 1.5179873604866563,43.60704402224087</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5179873604866563,43.60704402224087 1.5172059160210007,43.6076371724087</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

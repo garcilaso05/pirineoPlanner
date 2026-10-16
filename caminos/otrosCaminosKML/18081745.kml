@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de la Bartolle</name>
+      <description>name: Chemin de la Bartolle
+highway: track
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.413732661535938,43.70162757480273 1.4146489431257399,43.70251787836888 1.4150145574463766,43.70281310632091 1.4151925137041608,43.70293221019091 1.415356096917399,43.70301169922877 1.4156243338612369,43.703118268925415 1.4160045907210048,43.70330211906583 1.4161955725504087,43.70343440509502 1.4163785593737837,43.70359357655763 1.4173324803739904,43.70461691363237 1.417432283202056,43.70465730644956</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

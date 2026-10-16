@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin Toulousain</name>
+      <description>name: Chemin Toulousain
+highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6110942362560368,43.518190132737786 1.609491911283753,43.519272389787474 1.608646776264453,43.51977331957709 1.6083860851690017,43.51984510397348 1.608324640403568,43.51987187653503</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Toulousain</name>
+      <description>name: Chemin Toulousain
+highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.608324640403568,43.51987187653503 1.6081878269857963,43.51991591118461 1.6080275675391096,43.52000267758947 1.6072921168160008,43.52082981832852 1.6065606186801424,43.5213448702325 1.6059926139259937,43.521654733032214 1.605578131253901,43.52185340395003</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Bergue</name>
+      <description>name: Chemin de Bergue
+access: destination
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.605578131253901,43.52185340395003 1.6046292408192855,43.522324088569185 1.6044795814929511,43.52242667987185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Toulousain</name>
+      <description>name: Chemin Toulousain
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6044795814929511,43.52242667987185 1.6030262870263026,43.523810896321265 1.6015593381673352,43.524922297984595 1.6014745372045145,43.52498652065131 1.6011123364819577,43.52526093174203 1.5997900163837335,43.526252005883876</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

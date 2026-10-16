@@ -1,0 +1,234 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Canal</name>
+      <description>name: Chemin du Canal
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.497486907387765,43.531828969366124 1.4963620369889905,43.53157927144337 1.4959409966153239,43.53146627530392 1.495764657325051,43.53141313122508 1.4956319761575863,43.53137301262474 1.4955205850623556,43.5313061265223 1.495425363642239,43.53124887925401</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Canal</name>
+      <description>name: Chemin du Canal
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.495425363642239,43.53124887925401 1.4953513424628275,43.531212277445334 1.4950241760363512,43.53105069517399</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Crouzette</name>
+      <description>lit: yes
+name: Chemin de la Crouzette
+highway: residential
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4950241760363512,43.53105069517399 1.4943191782013743,43.531227126580355 1.4935989090065673,43.53125552228451</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Crouzette</name>
+      <description>lit: yes
+foot: designated
+name: Chemin de la Crouzette
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4935989090065673,43.53125552228451 1.4935514779595658,43.53125942994917 1.4928063254313884,43.53136760703207</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Crouzette</name>
+      <description>lit: yes
+name: Chemin de la Crouzette
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4928063254313884,43.53136760703207 1.4920801273557063,43.53157197717448</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: Bing Map
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4920801273557063,43.53157197717448 1.4919988298224933,43.531600502971024 1.4919918229632771,43.5316055177786 1.4919192390883205,43.531657228887056 1.491822490532221,43.53168132598794 1.4917420913142923,43.531677027586866 1.491686485598205,43.531675985550194 1.4914985580407671,43.53174612760337 1.4914087265123552,43.531782794215225 1.4908037111685009,43.531949584685165 1.4907122626725775,43.53197478882773</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Crouzette</name>
+      <description>name: Chemin de la Crouzette
+source: Bing Map
+highway: track
+surface: fine_gravel
+tracktype: grade3
+check_date:surface: 2023-02-05</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4907122626725775,43.53197478882773 1.4906354567157853,43.53199797402451 1.4895184016599825,43.53231748596904 1.4892019251853874,43.53241231022367 1.4891097580372366,43.53244578523399</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée de la Petite Métairie</name>
+      <description>lit: yes
+name: Allée de la Petite Métairie
+highway: residential
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4891097580372366,43.53244578523399 1.4890916120684976,43.53242937336355 1.4890635846316327,43.53239440043425 1.4887745966047319,43.53185502021139 1.4886589834276656,43.5316391234914</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Campferran</name>
+      <description>lit: yes
+name: Allée Campferran
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4886589834276656,43.5316391234914 1.488541573620031,43.53142381214665</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.488541573620031,43.53142381214665 1.488505371514081,43.531429413116946 1.4884636896848977,43.53143592587247 1.4883970346908164,43.531434688448975 1.4883360390830245,43.53141697375195 1.4882816910083352,43.53139359294902 1.4882420753043055,43.53136708601106 1.488211891910759,43.53133510833821 1.4882041663993157,43.531287174361 1.4882009324642929,43.531257997138816 1.4881810796965138,43.531227582474784 1.488137241910649,43.53119970777994 1.4881181077950971,43.53119358576579 1.4880765157974425,43.531193976532684 1.487897840887431,43.53109921549038 1.4877200642927038,43.53100419378714 1.4875578285523918,43.53092447704056</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4875578285523918,43.53092447704056 1.487520817962686,43.53090943244666</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.487520817962686,43.53090943244666 1.4874926108627649,43.53089718835883 1.4874439221743654,43.530876217096214 1.487398018263347,43.53085628787716 1.4873645111032492,43.53084182941999</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Narbonne</name>
+      <description>ref: D 813
+name: Route de Narbonne
+oneway: yes
+highway: primary
+old_ref: N 113
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4873645111032492,43.53084182941999 1.4873069290935372,43.530907999628006 1.487094926686485,43.531178476111194</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Moulin Armand</name>
+      <description>name: Chemin du Moulin Armand
+oneway: yes
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.487094926686485,43.531178476111194 1.487019737697204,43.531188180157045 1.4869211925105361,43.53118362120952 1.4868819361326202,43.531178410983365 1.486761741547605,43.53116238953512</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Moulin Armand</name>
+      <description>lit: yes
+name: Chemin du Moulin Armand
+highway: residential
+surface: asphalt
+sidewalk: left
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.486761741547605,43.53116238953512 1.4867034408856656,43.53114890806927 1.4866686760841705,43.531140897341764 1.4863254298141082,43.531079807368506 1.4856674138684904,43.53106717254755 1.485346894975117,43.531061115647915 1.484823177164475,43.53104470340066</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Moulin Armand</name>
+      <description>lit: yes
+name: Chemin du Moulin Armand
+highway: residential
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.484823177164475,43.53104470340066 1.4843512921457274,43.53102998447671 1.4834243206040443,43.531054928491734 1.4831667736120873,43.53111712566442 1.4827151006872317,43.531196516517326 1.4825832280035232,43.53122289327469 1.4820146842602038,43.53131850078248 1.481959976859401,43.53133628063609 1.481895028664359,43.53136011735467</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Vert</name>
+      <description>lit: yes
+name: Chemin Vert
+highway: residential
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.481895028664359,43.53136011735467 1.481853795992818,43.531309969056 1.4818340330565674,43.5312861974453 1.4817045858241258,43.53117658740411 1.4815276177131542,43.53103408753994 1.4813564886515296,43.530874198123335 1.4811788018883307,43.530737103194376 1.48100120495666,43.53063550295096 1.4808441794449962,43.5305581954716 1.4807275781211173,43.530480431993055 1.4802759950277906,43.53019139064701 1.4797103258933806,43.52982940315903</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Mairie Vieille</name>
+      <description>lit: yes
+name: Place de la Mairie Vieille
+oneway: no
+highway: residential
+surface: concrete
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4797103258933806,43.52982940315903 1.4796466353397366,43.529819177860176 1.4795957008631269,43.52979149790239 1.4795056896716583,43.529731709150184 1.4794376872046502,43.52968351338087</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

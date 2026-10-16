@@ -1,0 +1,378 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Boucle Pas de ma Mignone</name>
+    <Placemark>
+      <name>secondary</name>
+      <description>highway: secondary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0489947372904798,45.33526872848377 1.0490575295288398,45.335319878101465 1.049126699805717,45.33536989101633 1.0493254969780927,45.335513425310765 1.0493693347639577,45.33555099802024</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Marcel Bergegere</name>
+      <description>name: Rue Marcel Bergegere
+oneway: yes
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0493693347639577,45.33555099802024 1.0494008656304303,45.335537610772 1.0496207732119829,45.335414094313386 1.0496983876525308,45.335389593061564 1.0498729303122352,45.33532360381256 1.0502775315162027,45.33508572613988 1.0503491272443468,45.335077706354895 1.050772413406224,45.33483300764513 1.0509511781477638,45.33470241703647 1.0509967227326686,45.3346616231966 1.051071372732779,45.334594496427094 1.0511253614813545,45.334501478674234</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Marcel Bergegere</name>
+      <description>name: Rue Marcel Bergegere
+oneway: yes
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0511253614813545,45.334501478674234 1.0511907588340383,45.33443327818809 1.0514782197249568,45.334279069008275 1.0515955397010628,45.334187187417726 1.0516267112414217,45.334156370740914</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Léon Barreau</name>
+      <description>ref: D 705
+name: Rue Léon Barreau
+lanes: 2
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0516267112414217,45.334156370740914 1.051688874659083,45.334192176181446</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+bicycle: designated
+highway: cycleway
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.051688874659083,45.334192176181446 1.0516789033594292,45.334135026393454 1.051672794815497,45.33410029444992</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: designated
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+bicycle: designated
+highway: footway
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.051672794815497,45.33410029444992 1.0517437617229424,45.33412069157569 1.052036522674037,45.334247620893045 1.0521888769462238,45.33432649374343 1.0523963877768552,45.334497121423404 1.0527080133489164,45.33480042316943 1.0529015104611157,45.335044490540454 1.0531062365143666,45.33537159600127 1.0531843001125565,45.3355734784866 1.0532542788731893,45.33577460248652 1.0533222813401972,45.33582733032436 1.0535139818218284,45.33593739558095 1.0536313916294628,45.335998269216745</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: designated
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+bicycle: designated
+highway: footway
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0536313916294628,45.335998269216745 1.0536843922312258,45.33594869888549 1.0539298119668472,45.33563290012576 1.0542534749637156,45.335250920828244 1.0544635010771426,45.33497540663583 1.0546891578765136,45.33486881265787</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+bicycle: yes
+highway: footway
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0546891578765136,45.33486881265787 1.0549643118480394,45.33460371610099 1.0555803764698883,45.33422090892601 1.056168144160288,45.33344139387144 1.0561911410315612,45.33338531687247</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0561911410315612,45.33338531687247 1.056242075508171,45.33326122736997 1.0561977885646638,45.333051695470694 1.0560667243647108,45.332884031502886 1.0558603813439487,45.33272489236244 1.0555922342316388,45.33252388383282 1.05538966413507,45.33228498398336 1.0553053123298912,45.33218368963775 1.0548172576360288,45.33195647136313 1.0544068173827148,45.331810907203405 1.0534305283319336,45.3314892753929 1.0530293407260458,45.33139240026621 1.0525582641910536,45.33135469849349 1.0520576330832139,45.33137560182451 1.0516187162353932,45.33134888850284 1.0514847774265308,45.33134080503658 1.0510442436111986,45.33129697747291 1.0508597296518405,45.33128851508639 1.050410212683667,45.3310162023915 1.050409763526025,45.330749193218104 1.0504751608787088,45.330585816833036 1.0506521289896804,45.33048338269372 1.050678000469863,45.33046841542111 1.0509787564269861,45.330428628981004 1.0511099104584678,45.33029291280283 1.0512112404225165,45.330133576921305 1.0512292067281988,45.33000322809036 1.0511694687618047,45.32993369596047 1.0509698631056734,45.329852417150015 1.0504037448136214,45.32966800791677 1.0502653144283385,45.329707479121645 1.049949466774442,45.32988557285601 1.0496318224899772,45.330170900586545 1.0489933898175539,45.33079017933431 1.048937424775353,45.330900001770644 1.0489285314540404,45.331000603735056 1.0489314958944778,45.33125832835403 1.0488741833793511,45.331479171084936 1.0488118402986333,45.33154952229164</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+width: 2
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+bicycle: designated
+highway: cycleway
+railway: abandoned
+surface: dirt
+segregated: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0488118402986333,45.33154952229164 1.0486773625006005,45.331173199156034 1.0486216669529849,45.33084221713403 1.0484639227890937,45.3298666898944 1.0483635809718574,45.32927967294817</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+layer: 1
+width: 3
+bridge: yes
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+bicycle: designated
+highway: cycleway
+railway: abandoned
+segregated: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0483635809718574,45.32927967294817 1.0482227251353076,45.328560213650036</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+width: 2
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+bicycle: designated
+highway: cycleway
+railway: abandoned
+surface: ground
+segregated: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0482227251353076,45.328560213650036 1.0481575074456804,45.32803198121973 1.0480368637030233,45.32733277933088 1.0479844919219592,45.326946575689426 1.047912716530758,45.32656832724856 1.0479095724272636,45.326359212691756 1.0478971756763427,45.32619310785761 1.047923586145696,45.32601860252052 1.047948289816009,45.32578396999486 1.048147805640612,45.32525009053511 1.0481557108151123,45.32522899546673 1.0483131854844183,45.32495772734549 1.0485368659901642,45.32461192966151 1.0487868671337346,45.3242951834467 1.0488749020315784,45.324190211528766 1.0489800049198204,45.32406477551616 1.0491284066047568,45.32392847564681 1.0496060408413233,45.32361109400363 1.0503140929482662,45.32327198317469 1.0519591777280741,45.32263563170981 1.0526261768265328,45.32236131938981 1.053000594636954,45.32216400065746 1.0532908403052532,45.32195278547821 1.0539537969849333,45.32137819283148 1.0546745153373824,45.32070360592166 1.0550801046881624,45.32041147192586 1.05548470589213,45.32016418326901 1.0560780431372907,45.31987419409749 1.0565837048107216,45.31971558688941 1.057088827494982,45.319586919544975 1.057611736821868,45.31949008722708 1.0592578097484886,45.31927140854614 1.059401180867834,45.31925226938399 1.059934959809658,45.31914071889109 1.0602970707006865,45.3190234200895 1.0607159551176715,45.318843397223766 1.061178856983578,45.31858921659663 1.0614153833978868,45.31841279284188</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+layer: 1
+bridge: yes
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+bicycle: designated
+highway: cycleway
+railway: abandoned
+segregated: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0614153833978868,45.31841279284188 1.0616279247941096,45.31824540137446</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+width: 2
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+bicycle: designated
+highway: cycleway
+railway: abandoned
+surface: ground
+segregated: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0616279247941096,45.31824540137446 1.061891221003885,45.31803278191457</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.061891221003885,45.31803278191457 1.061891041340828,45.31811647802415 1.0618373220868378,45.31821078602063 1.0616768829770942,45.31845637770886</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Pont</name>
+      <description>name: Route du Pont
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0616768829770942,45.31845637770886 1.0611714907982486,45.31886139953608 1.061107710413076,45.31888161265185 1.060919333697996,45.31912221134187 1.0607630268385593,45.31926029140983 1.0601039329146007,45.31947991761332 1.0594271421795451,45.31982852587878 1.058863898496402,45.320379321303285 1.0583763827917105,45.320856083478176 1.0583251788205157,45.32089751889902</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Carrière</name>
+      <description>name: Chemin de la Carrière
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0583251788205157,45.32089751889902 1.0597773953088232,45.32150041347677 1.0598707302668433,45.321583409671625 1.0599016323126171,45.32174036941856 1.0598930983174177,45.322128187612826 1.0599119629383844,45.322350392346095 1.0599346004835442,45.322402816871865 1.0599453802669536,45.32251480307584 1.0599384632392659,45.32258939726034 1.0601127364043852,45.32271988947561 1.0604805066817038,45.32294398673161 1.0609355033731103,45.32317282019075 1.0614287682956203,45.323338618075965 1.0616909865270547,45.323440307205495 1.0618257338196726,45.32356302868831 1.0620551635432367,45.32382659791213 1.062217039957435,45.32416223161649 1.062319268236768,45.32444297751408 1.0623496312933711,45.324624182620084 1.0623628365280477,45.324745701509045</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Sarconat</name>
+      <description>name: Route de Sarconat
+highway: unclassified
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0623628365280477,45.324745701509045 1.062580318658333,45.32477538643711 1.0634471929075082,45.32455382281158 1.0637520811149386,45.32455767555021 1.0640640660131133,45.32459891878507 1.0641508432695592,45.324627403758235 1.065346231418137,45.32517240506485 1.0660067626465501,45.32543969316238 1.0662927862330138,45.325531399468595 1.0679538610248793,45.32580847540235</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Château d'Eau</name>
+      <description>name: Rue du Château d'Eau
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0679538610248793,45.32580847540235 1.0673237826845976,45.32636192847017 1.0672864127687782,45.32654950633848 1.0673126435750746,45.326877102964275 1.0673018637916654,45.32712840435493 1.0672274832861401,45.32724871789575 1.0671431314809612,45.32732368478645</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Château d'Eau</name>
+      <description>name: Rue du Château d'Eau
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0671431314809612,45.32732368478645 1.0669202594589713,45.32736738911166 1.0668038377981492,45.3274222089401 1.066727660662056,45.327527490650795 1.0667022383395155,45.32769731778491 1.0666748397233499,45.32786127090549 1.0666793312997704,45.32799781393572</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Château d'Eau</name>
+      <description>name: Rue du Château d'Eau
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0666793312997704,45.32799781393572 1.0666285764862178,45.328161008318965 1.0665956981468188,45.32821677471289 1.066493020709844,45.3282597204828</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Roches Enchantées</name>
+      <description>name: Chemin des Roches Enchantées
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.066493020709844,45.3282597204828 1.066606657593285,45.32857922335753 1.0667043942961973,45.32898871995933 1.0664931105413724,45.329495913142104 1.066586355667864,45.32996179932933 1.06662561204578,45.3300637923374 1.0661142909860593,45.330331309967654 1.0655456574112117,45.3303841060268</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Roches Enchantées</name>
+      <description>name: Chemin des Roches Enchantées
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0655456574112117,45.3303841060268 1.064944774317664,45.33018049990088 1.0643118213684735,45.33018049990088 1.0632213564450808,45.33009688476619 1.0627990584300162,45.33005229839769 1.062627390379221,45.33005981366622 1.0623719095124173,45.33002558445186 1.062048066852492,45.32995422089415</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.062048066852492,45.32995422089415 1.0617906096920635,45.330127703651954 1.0613507046974302,45.33024838974194 1.0612641969355696,45.33035151899133</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>bridleway</name>
+      <description>foot: yes
+bicycle: yes
+highway: bridleway
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0612641969355696,45.33035151899133 1.0611006137223313,45.33048161440855 1.0608774722057561,45.33067789372493 1.0606422932643735,45.33088478199776 1.0603710020485695,45.33114351758065 1.0600168861635697,45.33151118910457 1.0594778071615696,45.33197686926105 1.0591884598085546,45.33227450091111 1.058936033213717,45.33260099086491</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>bridleway</name>
+      <description>layer: 1
+bridge: yes
+highway: bridleway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.058936033213717,45.33260099086491 1.05860608200986,45.332646269883966</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>bridleway</name>
+      <description>foot: yes
+bicycle: yes
+highway: bridleway
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.05860608200986,45.332646269883966 1.0586033870640075,45.33269527475083 1.0586571063179977,45.33295362316109 1.0586757912759075,45.333006416775774 1.058764814320564,45.33318140578546 1.0587968841762068,45.33328699254095 1.0586276415766789,45.33336087789272 1.0584612735860597,45.333357088902666 1.0583190702765837,45.33325529127499 1.0582018401320061,45.333231420588916</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>bridleway</name>
+      <description>layer: 1
+bridge: yes
+highway: bridleway
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0582018401320061,45.333231420588916 1.0581092238262133,45.33328661364145</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>bridleway</name>
+      <description>highway: bridleway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0581092238262133,45.33328661364145 1.0580730217202632,45.33337502345334 1.0579838190125501,45.33359049021683 1.057968278158135,45.333762509400835</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: designated
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Bing
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.057968278158135,45.333762509400835 1.0578311952457784,45.33377381313949 1.0574212939816345,45.3337049171331 1.0568275075788316,45.33352721430625 1.0565173193112252,45.33348540922474 1.0564020654602726,45.33344688789875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0564020654602726,45.33344688789875 1.0562543824275634,45.33340363031293</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0562543824275634,45.33340363031293 1.0561911410315612,45.33338531687247</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

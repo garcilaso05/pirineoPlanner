@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: yes
+horse: no
+bicycle: yes
+highway: path
+surface: asphalt
+segregated: no
+agricultural: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5093952442886382,43.57771472739355 1.509440070221316,43.57769260102058</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+horse: no
+bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: yes
+agricultural: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.509440070221316,43.57769260102058 1.5094815723874422,43.577672231734745</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+horse: no
+bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5094815723874422,43.577672231734745 1.5095255000048358,43.57765062596716</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: designated
+horse: no
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5095255000048358,43.57765062596716 1.5095933228087868,43.577599605087634 1.5096514438076694,43.577523984775965 1.509694742604364,43.577466195695806 1.5098035285852707,43.577380813529906 1.5101104829178544,43.577150827733846 1.5104303729905293,43.576914203060795 1.5105892849642901,43.57678938252036 1.5107019337009189,43.57670920568638 1.510760863183557,43.57667328226509 1.5108507845434975,43.57663826992445 1.5109467246158415,43.576627597013584 1.5110458986232078,43.57663202236711 1.5111518998267341,43.5766547999168 1.5113698311146617,43.576692220158336 1.512070517036275,43.57683122801713 1.5123495337635224,43.576887976451516 1.5125029660140499,43.57691179515918 1.5126660102381175,43.57692246801967 1.5128074948953665,43.57694426928369 1.5129391879160186,43.57696978000649</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5129391879160186,43.57696978000649 1.513099357531177,43.57700837146204</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+highway: path
+surface: ground
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.513099357531177,43.57700837146204 1.5132944716108878,43.577078005223115 1.51346856511295,43.57714978648319 1.5136231651733472,43.57723230554136 1.5138426235972575,43.5773586219563 1.5143383139710345,43.57766279548178 1.5145293856319668,43.57776919728294 1.5147124622868704,43.57785757245864 1.514907576366581,43.57793820330476 1.515125597486037,43.57799898548542 1.5152878332263489,43.57802911624388 1.5154359654167002,43.578038292130614 1.5157277382209822,43.57803731597252 1.5159778291960813,43.57804167614522 1.5162037554900372,43.57804610139482 1.5163908745637191,43.578060223145 1.5167334920130824,43.57810577715531 1.516977564275778,43.57813402062439 1.5172660133135085,43.578141309259415 1.5178969001375457,43.57813590786033 1.5185392853972193,43.57813688401683 1.5190951628950327,43.57815386913736 1.5195505189125529,43.57814228541583 1.5201151100686219,43.578101026524415 1.5204632072412183,43.578096080661716 1.520767556459478,43.578096080661716 1.521071995509266,43.5781044105355 1.5213181338971147,43.578109681783154 1.5216044269781637,43.57809269665016 1.5218324193972732,43.578093672807356 1.5219853126586305,43.57808352077173 1.5223795832368303,43.57806158976582 1.5227302855237508,43.57806106914837 1.5228750939475508,43.57807519089505 1.523188336487123,43.57814807727687 1.5233123039963319,43.5782184906441 1.523385426860459,43.57831031423679 1.523493943346781,43.578503397124805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: yes
+horse: no
+bicycle: yes
+highway: path
+surface: ground
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.523493943346781,43.578503397124805 1.5235993157296077,43.5787400806292 1.5236456687982685,43.57883951735872</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+horse: no
+bicycle: yes
+highway: path
+surface: dirt
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5236456687982685,43.57883951735872 1.5236627367886666,43.57885767365483</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+horse: no
+layer: 1
+bridge: yes
+bicycle: yes
+highway: path
+surface: wood
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5236627367886666,43.57885767365483 1.5238109588105464,43.57891552647579</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+horse: no
+bicycle: yes
+highway: path
+surface: ground
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5238109588105464,43.57891552647579 1.5238440168130023,43.57893719686572</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

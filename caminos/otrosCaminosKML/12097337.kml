@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin des Cabanes</name>
+      <description>foot: yes
+name: Chemin des Cabanes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4416521209033162,43.46022782693455 1.4417989056207412,43.46029303129586 1.4420174657293674,43.460360713348514 1.4426800630829342,43.46059062310802 1.443352811399211,43.46070277389296 1.443823169281976,43.46076862978019</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Cabanes</name>
+      <description>foot: yes
+name: Chemin des Cabanes
+highway: track
+surface: fine_gravel
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.443823169281976,43.46076862978019 1.4439398604373832,43.46086363166145 1.443924139919911,43.46100362386642</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Cabanes</name>
+      <description>name: Chemin des Cabanes
+highway: track
+surface: gravel
+tracktype: grade1
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.443924139919911,43.46100362386642 1.4438478729522892,43.46115359186797 1.4437705280063264,43.46133968207967 1.4436833015922386,43.461610796366465 1.4435637358279223,43.461984994680144 1.4433368213871538,43.46240861384772</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Cabanes</name>
+      <description>name: Chemin des Cabanes
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4433368213871538,43.46240861384772 1.4429974378728132,43.462890520238304 1.4429205420844928,43.462983301936916 1.442661917114195,43.46322017824896 1.4423413982208209,43.46347211504208 1.4421116990026717,43.46364528837797</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

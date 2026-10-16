@@ -1,0 +1,387 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>La Bastide (Circuit patrimoine)</name>
+    <Placemark>
+      <name>Chemin de las Bignes</name>
+      <description>name: Chemin de las Bignes
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39225323156651076,43.15886148791658 -0.3922994948036429,43.15893750093146 -0.393230418932576,43.159530726841034 -0.39419080780282817,43.160166998312015 -0.39455543397665227,43.1607933031405 -0.3948584357219858,43.16097631818553 -0.3950231867450933,43.16106943089277 -0.3951493102109837,43.161211229281996 -0.3953345428225692,43.16135289629047 -0.39539005870712773,43.16140761033392</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin dous Marrous</name>
+      <description>name: Chemin dous Marrous
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39539005870712773,43.16140761033392 -0.3954357829550894,43.16140498930302 -0.3955185177927568,43.161305586622966 -0.39555705551844556,43.161201203805945 -0.395610595109379,43.16098418133308 -0.39559945599985596,43.16070549766114 -0.3957280947485419,43.16049312582705 -0.3957747173117877,43.160436969374786 -0.3958166686355561,43.160404009379356 -0.3959242868065936,43.16039699800626</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Église</name>
+      <description>name: Place de l'Église
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3959242868065936,43.16039699800626 -0.3960179810907272,43.16039149375019 -0.39614760798622567,43.16038408921444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Église</name>
+      <description>lit: yes
+name: Place de l'Église
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015
+highway: residential
+surface: asphalt
+destination:forward: Bosdarros</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39614760798622567,43.16038408921444 -0.396186055880386,43.1602821948483 -0.39631523361824245,43.16003102942459 -0.3963313134618282,43.159998331319294 -0.39634317122357854,43.15997408621991</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Nay</name>
+      <description>lit: yes
+ref: D 936
+name: Route de Nay
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: secondary
+surface: asphalt
+smoothness: excellent
+cycleway:both: no
+destination:forward: Nay</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39634317122357854,43.15997408621991 -0.3962113883713982,43.15992612021115</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>oneway: yes
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: residential
+surface: asphalt
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3962113883713982,43.15992612021115 -0.3962361818732399,43.15989558445373 -0.39637236647031243,43.15972776857021</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39637236647031243,43.15972776857021 -0.3962588194183997,43.15966020960528 -0.3961595555795045,43.15960411791519 -0.396127395892333,43.1595682742498 -0.3961273060608046,43.159527909146256 -0.39619890178894895,43.15945753226231</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Lavoir</name>
+      <description>name: Chemin du Lavoir
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39619890178894895,43.15945753226231 -0.39625477699962114,43.15940347175172 -0.39629061977945756,43.159268811726484 -0.3962969079864464,43.15924522161852 -0.39630580130775916,43.15921022960826 -0.3963218811513449,43.15917399254281 -0.39638287675913664,43.15910453264661 -0.39652966147656177,43.159009713208015 -0.39673941809540364,43.15889543167112 -0.39676412176571696,43.15882092576046</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Bielle</name>
+      <description>name: Place de la Bielle
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: residential
+surface: fine_gravel
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39676412176571696,43.15882092576046 -0.3966991735706751,43.15879799076528 -0.39663269823965025,43.15871817691494 -0.3965081019097429,43.15858587441613 -0.3964244687567913,43.158497082831076 -0.3963973396352109,43.158464973665225 -0.39634020678314097,43.15839728224604</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Bielle</name>
+      <description>name: Place de la Bielle
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: residential
+surface: fine_gravel
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39634020678314097,43.15839728224604 -0.3963459560009593,43.158358620123984 -0.396376408889091,43.15832028562288 -0.39642967898543924,43.15829649856138 -0.39676933199436487,43.15814519166417 -0.39682709366713365,43.15812192876887 -0.3969076725481192,43.15811871783333</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Bielle</name>
+      <description>name: Place de la Bielle
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: residential
+surface: fine_gravel
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3969076725481192,43.15811871783333 -0.39695860702472885,43.1581421117884 -0.3970101703220373,43.15820777208502 -0.3972221727290895,43.15845003306803 -0.3972943972779327,43.15854033188493</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Menard</name>
+      <description>name: Chemin de Menard
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3972943972779327,43.15854033188493 -0.39733841472685455,43.15853908683684 -0.3978721936686784,43.15832932863556 -0.39795942008276636,43.15832002350655 -0.39809776063652075,43.15834367950077 -0.39824571316381524,43.158369104769676</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Menard</name>
+      <description>lit: no
+name: Chemin de Menard
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: footway
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39824571316381524,43.158369104769676 -0.3983167699027891,43.158385618082974 -0.3985172738742046,43.15849020229696 -0.3986165377130998,43.158470609152694 -0.3987679936700024,43.15840409726163 -0.3989155868711832,43.15831897504122</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Garenne</name>
+      <description>name: Chemin de la Garenne
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3989155868711832,43.15831897504122 -0.3989658925270939,43.15830357570461 -0.3991343266428663,43.15817409006543 -0.3994042703857442,43.15806681860692 -0.39961079306956326,43.157964592729016</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Garenne</name>
+      <description>name: Chemin de la Garenne
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39961079306956326,43.157964592729016 -0.4001719706275528,43.15751872863109</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Garenne</name>
+      <description>name: Chemin de la Garenne
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4001719706275528,43.15751872863109 -0.39961079306956326,43.157964592729016</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>noname: yes
+highway: residential
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39961079306956326,43.157964592729016 -0.39951898524752627,43.15790011170268 -0.39937067339411814,43.15784172486099 -0.399255509374694,43.15778156866271 -0.39899661490981075,43.15765339251328</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Laruns</name>
+      <description>ref: D 2934A
+name: Route de Laruns
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39899661490981075,43.15765339251328 -0.39856937616068355,43.158101090449506 -0.3983756993854274,43.15825206981015</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Moutes</name>
+      <description>lit: yes
+name: Chemin de Moutes
+highway: residential
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3983756993854274,43.15825206981015 -0.39831039186427186,43.158180905105915 -0.3979472029949023,43.1577851727939 -0.39769576454687733,43.15745601644452 -0.39736302856563943,43.15687830115293</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39736302856563943,43.15687830115293 -0.3971460854245245,43.156840031253786 -0.3969224947503072,43.156905889541385</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>horse: no
+highway: footway
+surface: unpaved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3969224947503072,43.156905889541385 -0.3967869389739336,43.15686250826938</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>horse: no
+access: yes
+highway: steps
+incline: up
+surface: dirt
+handrail: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3967869389739336,43.15686250826938 -0.3966142827763258,43.15675038523184</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Pic</name>
+      <description>name: Chemin du Pic
+horse: no
+highway: path
+name:oc: Camin deu Pic
+surface: unpaved
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3966142827763258,43.15675038523184 -0.3965796976378872,43.15683000506049 -0.3965052273008337,43.156918799068045 -0.39636491045345423,43.15699612510973 -0.3962342055796148,43.15704219303551</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Couloumat</name>
+      <description>name: Chemin de Couloumat
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3962342055796148,43.15704219303551 -0.39616081322090224,43.1569577242233 -0.39607583259502455,43.15689887776688 -0.3959885163494081,43.1568771216016 -0.39586436917714285,43.15690700356156 -0.395780017371964,43.15690857629588</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.395780017371964,43.15690857629588 -0.3957791190566799,43.15697436897908 -0.3958798202000297,43.157131904159726 -0.3959176392734911,43.157264799578655 -0.3960037877092382,43.15736283270047</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: unpaved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3960037877092382,43.15736283270047 -0.39588898301592773,43.1575457924911 -0.3957777715837537,43.15762449386577 -0.395612122245362,43.1576786214801</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.395612122245362,43.1576786214801 -0.39554133500097344,43.15767822830148 -0.39543811857482813,43.157630326020225 -0.3953817942065138,43.157656669003075 -0.39535628205244483,43.15771250036202 -0.3952757930029877,43.15775837115866 -0.3951228997416305,43.157834713193864 -0.39506154480772526,43.15785266830245</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: unpaved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39506154480772526,43.15785266830245 -0.39461607025833034,43.15794722741865</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Saint-Esteben</name>
+      <description>name: Rue Saint-Esteben
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39461607025833034,43.15794722741865 -0.3937376975735183,43.15755850529287 -0.393331389570511,43.15738793072709</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.393331389570511,43.15738793072709 -0.3929294833123959,43.157594022487935</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>oneway: yes
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3929294833123959,43.157594022487935 -0.39276033054439624,43.157714597313465</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Nay</name>
+      <description>ref: D 936
+name: Route de Nay
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: secondary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39276033054439624,43.157714597313465 -0.3927438913746969,43.15785928679006 -0.3927378726622932,43.15793012422137 -0.3927349082218557,43.15797802626761 -0.3927263742266565,43.158079269182934</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Nay</name>
+      <description>ref: D 936
+name: Route de Nay
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: secondary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3927263742266565,43.158079269182934 -0.39274155575495817,43.15819191401585 -0.39278000364911847,43.15828077157349 -0.3928315669464269,43.158357702717396</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Peyre</name>
+      <description>name: Chemin Peyre
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3928315669464269,43.158357702717396 -0.39280246153122145,43.15837329862744 -0.3927343692326852,43.15840999487065 -0.3925005377642289,43.15861523131033 -0.39225323156651076,43.15886148791658</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Pont des Camisards</name>
+      <description>name: Pont des Camisards
+layer: 1
+bridge: yes
+oneway: no
+highway: unclassified
+ref:mhs: PA00103073
+surface: asphalt
+heritage: 2
+historic: bridge
+wikidata: Q3397366
+wikipedia: fr:Pont des Camisards de Mialet
+start_date: C17
+lane_markings: no
+source:heritage: data.gouv.fr, Ministère de la Culture - 2016
+maxweight:signed: no
+heritage:operator: mhs
+mhs:inscription_date: 1974-02-04</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.938130123269389,44.11177689066238 3.938663812379684,44.11176218522327 3.938916957626749,44.11175231709762 3.9393203011893183,44.111735289739656</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont des Camisards</name>
+      <description>name: Pont des Camisards
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.9393203011893183,44.111735289739656 3.9393656661111662,44.11174167499947</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Paussanel</name>
+      <description>name: Chemin de Paussanel
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.9393656661111662,44.11174167499947 3.9393744696009505,44.111769086460505 3.939373122128025,44.111822103414944 3.939328206363819,44.111903370187086 3.939277182055681,44.11202720505358 3.939275475256641,44.11206061462416 3.939283919420312,44.112081576217676 3.939305568818659,44.11208538155232 3.939336920022075,44.11209047683052</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

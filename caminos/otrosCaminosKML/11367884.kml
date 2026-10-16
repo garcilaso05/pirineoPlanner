@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9158472401098448,42.24267257966877 2.9158216381242474,42.24303867569261 2.9158107685093095,42.24325068455312 2.9157838190507857,42.243450788874874 2.9157230929375793,42.24369990423573 2.9157230929375793,42.2437862897118 2.9157394422757505,42.24381801090772</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9157394422757505,42.24381801090772 2.9156087374019113,42.24377212489588 2.914764500697895,42.24341208479834 2.914129032465909,42.243182386920815 2.9134705673626495,42.24302537523847</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9134705673626495,42.24302537523847 2.913351001598333,42.24301819299206 2.9131524739205434,42.24298640489168 2.9128627672414145,42.24294670299487 2.912551680658524,42.242910991217094 2.9122781436545093,42.2428792030627 2.9120366765061383,42.2428593853349 2.9118436285515807,42.24285539518762 2.9116112343875793,42.2428561932171</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9116112343875793,42.2428561932171 2.911485380416274,42.242904473981724 2.9113021240983135,42.24296858226773</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9113021240983135,42.24296858226773 2.9113465907048774,42.24320207154297 2.9113795588758045,42.243430372809975 2.9113677909455826,42.24358153133587</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>tunnel: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9113677909455826,42.24358153133587 2.9112741864929776,42.24376301419101</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9112741864929776,42.24376301419101 2.9112147180211685,42.24394469602803 2.911184444796094,42.24419367643661 2.9111293780691776,42.24431477472567 2.9110155615226794,42.24438539866175 2.9108215254213095,42.24438340363639 2.910465792568798,42.24436252236719 2.9101267683805716,42.24442662917168 2.909881618139535,42.24450370355266 2.909727826562894,42.24465618951819</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.909727826562894,42.24465618951819 2.909920066033696,42.24510998769915 2.910052387875046,42.24556517910757 2.9103303266239533,42.245934716305946 2.9104172835434556,42.24606532062137 2.910516816876936,42.24632240551542 2.9105770040009724,42.24650361449181 2.910568470005773,42.24671348376038 2.910534513688033,42.246820612576045</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Allée des Tricheries</name>
+      <description>name: Allée des Tricheries
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+maxweight: 3.5
+lane_markings: no
+maxweightrating: 3.5
+parking:lane:left: no_stopping
+parking:lane:right: marked</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3625554601365921,43.68655541615279 1.362593818199224,43.68649149567047 1.3626532866710328,43.68642159880493 1.3627051194629265,43.6863283162441 1.3627487775857348,43.68622399031134 1.362851095696596,43.68604742832558 1.3629420052033487,43.685944401113645 1.363211140462471,43.685674424805946 1.363441468501319,43.68545479207701 1.3635263592956686,43.68537690379099 1.3638031302347058,43.685121995966014 1.3639144314984082,43.685026827501886 1.3640345362518949,43.68492412334493 1.3640836740979363,43.68487527222311 1.3643139123052563,43.68464667183052 1.3644006895617022,43.684562805994936 1.3644799209697613,43.68447250879843 1.3646249988881467,43.68429522707265 1.3647359408257353,43.68417452708563 1.3648034043035728,43.68410098962249 1.364895930777837,43.6840002977202 1.3649993268670393,43.68386036817668 1.3651453929322372,43.68366281620879 1.3651608439551242,43.683637805472614 1.3653530834259255,43.683325722578644 1.3654001551468133,43.68324919575938 1.365434919948309,43.683200603127354 1.365496005387629,43.683119398774785 1.3656034438956095,43.68299798182178 1.3656535698884635,43.68295341673618</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée des Tricheries</name>
+      <description>name: Allée des Tricheries
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 2
+highway: unclassified
+surface: asphalt
+maxweight: 3.5
+maxweightrating: 3.5
+parking:lane:left: no_stopping
+parking:lane:right: marked</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3656535698884635,43.68295341673618 1.3656718056887314,43.68289878223475 1.3657017195876924,43.682808677425136 1.3657620863747852,43.68269037811489 1.3658076309596903,43.68262612869379 1.3658519179031972,43.6825635033071 1.36589359973238,43.682504320957314 1.3660701186857098,43.682267526009895 1.3661373126689618,43.68217722535854 1.366201272717191,43.68206821475087 1.366263615797909,43.68192197911328</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée des Tricheries</name>
+      <description>name: Allée des Tricheries
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 2
+highway: unclassified
+surface: asphalt
+maxweight: 3.5
+maxweightrating: 3.5
+parking:lane:both: no_stopping</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.366263615797909,43.68192197911328 1.3662767312010573,43.681875204422724 1.3662848160386143,43.681814072445796 1.3663518303588096,43.68161748821678 1.3663564117667588,43.681562007950994 1.3663615321638782,43.681535112347</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

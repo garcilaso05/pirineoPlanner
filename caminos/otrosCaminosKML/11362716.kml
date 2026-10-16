@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Plaça Major</name>
+      <description>ref: GIV-5125
+name: Plaça Major
+highway: tertiary
+name:ca: Plaça Major
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9166031724214316,42.18652071045924 2.916545141254077,42.18670269016715 2.9166769241062576,42.18677910285105</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Figueres</name>
+      <description>ref: GIV-5125
+name: Carrer de Figueres
+narrow: yes
+highway: tertiary
+name:ca: Carrer de Figueres
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9166769241062576,42.18677910285105 2.916829817367615,42.1868656993437 2.9170403824702125,42.187105519756855 2.917073620135725,42.18713800160797</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Figueres</name>
+      <description>name: Carrer de Figueres
+highway: residential
+name:ca: Carrer de Figueres
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.917073620135725,42.18713800160797 2.9173344908942327,42.18740837243417 2.9173920729039446,42.18754602016046 2.9175392169474836,42.18773791443539 2.9177609211596045,42.187973405122065 2.918433938970467,42.18857969974692 2.918791558285075,42.18890657327043</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.918791558285075,42.18890657327043 2.91916687441078,42.18919870132386 2.9193562392726724,42.18937821064738 2.9197729677329756,42.1897733689749</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9197729677329756,42.1897733689749 2.9201222327154412,42.19003600779032 2.9202815040153154,42.190138706858 2.920425324292303,42.19018057182216 2.9208413341003787,42.19034803140154 2.921303607145587,42.190591632382315 2.9214114948112093,42.19071722629168 2.9213754723683167,42.19091510108614 2.921416615208329,42.19105207560627 2.921491894029138,42.19110259237332 2.9215810069053223,42.19116242706889 2.9218685576277696,42.19115477302313 2.922238394030242,42.19117760204386 2.922659614066965,42.191265190863255 2.922978066835185,42.191409818640544 2.9232551971003367,42.191588789233094 2.923419768460387,42.19169521293389 2.9240618842254755,42.192136679693014 2.9248065875960108,42.19286732602874</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

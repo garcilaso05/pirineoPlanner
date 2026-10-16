@@ -1,0 +1,262 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Itinerari Curt - Fontcoberta</name>
+    <Placemark>
+      <name>Carrer de la pedrera</name>
+      <description>lit: yes
+name: Carrer de la pedrera
+lanes: 2
+highway: residential
+name:ca: Carrer de la pedrera
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7775471105432237,42.14980421567 2.7773586439966156,42.14981207452235 2.776985483827592,42.149862224633495 2.776291984428252,42.14997171557471 2.7759490974843035,42.15007208210445 2.7756084563285657,42.15018037388174 2.775395735269286,42.150268086089554 2.775146542609471,42.150429923784934 2.7745373950153103,42.15077610854411 2.7742909871328756,42.15091530118987 2.774197023354157,42.15095719212238 2.7740460165548964,42.15099628586109 2.773489420404856,42.151075871847404 2.7732473244357854,42.151102977679315 2.772888088153666,42.15115039620747 2.772669078887398,42.151206672364026 2.7723198139049323,42.151324019644335 2.772106913182596,42.151416725173924 2.7719178178152886,42.15149797559828 2.7717122832782817,42.15160719731585</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7717122832782817,42.15160719731585 2.771499292724418,42.151380828436835</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.771499292724418,42.151380828436835 2.7714606651672007,42.15139541356995 2.771147692122213,42.15143617200629 2.7709074826152396,42.151455885227534 2.7708083086078723,42.151441100312184 2.770766357284104,42.15139208363118 2.770715782133608,42.15129897847224</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Mossèn Agusti Piferrer</name>
+      <description>name: Carrer Mossèn Agusti Piferrer
+highway: residential
+name:ca: Carrer Mossèn Agusti Piferrer
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.770715782133608,42.15129897847224 2.7706474203404867,42.151083330947266 2.770599001146673,42.15090690968018 2.769879181109508,42.15092948683466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>lit: yes
+ref: GIP-5121
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.769879181109508,42.15092948683466 2.7698319297255636,42.149881671943454 2.769828336464427,42.149640311755654 2.7698242042141197,42.149466816902034 2.7698060582453805,42.1492833314243 2.769776503672533,42.148502496532714</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>lit: yes
+ref: GIP-5121
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.769776503672533,42.148502496532714 2.7697730002429246,42.14839400207916 2.7697665323728793,42.14819632723763</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Fontcoberta</name>
+      <description>ref: GIV-5136
+name: Carrer de Fontcoberta
+oneway: no
+highway: tertiary
+name:ca: Carrer de Fontcoberta
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7697665323728793,42.14819632723763 2.7699800619159145,42.148198924721015 2.7709816834577077,42.148210913104506 2.7711801213039697,42.14822070361601 2.7722712150480615,42.148232425586976</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Fontcoberta</name>
+      <description>ref: GIV-5136
+name: Carrer de Fontcoberta
+highway: tertiary
+name:ca: Carrer de Fontcoberta
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7722712150480615,42.148232425586976 2.7730660444114505,42.14823122674913</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Fontcoberta</name>
+      <description>ref: GIV-5136
+name: Carrer de Fontcoberta
+oneway: no
+highway: tertiary
+name:ca: Carrer de Fontcoberta
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7730660444114505,42.14823122674913 2.7737314265423976,42.148235822294055 2.7743002397803025,42.14824048444075 2.7748675258822235,42.14824621222049 2.7755129654138635,42.148246278822576 2.776407956931432,42.14827052197761</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Fontcoberta</name>
+      <description>ref: GIV-5136
+name: Carrer de Fontcoberta
+oneway: yes
+highway: tertiary
+name:ca: Carrer de Fontcoberta
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.776407956931432,42.14827052197761 2.776568935030346,42.14826392837317 2.7766813142723894,42.14824681163927</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-5136
+noname: yes
+source: PNOA
+highway: tertiary
+surface: asphalt
+junction: roundabout
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7766813142723894,42.14824681163927 2.776723175764629,42.14822882907338 2.7767595575336363,42.14822150284137</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-5136
+source: PNOA
+highway: tertiary
+surface: asphalt
+junction: roundabout
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7767595575336363,42.14822150284137 2.776814714092081,42.14821817273563 2.776867624862316,42.148229628298644 2.776901671011584,42.148249209314336 2.7769358968239093,42.14827951325526 2.7769545817818186,42.14830069270426</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de la Farrès</name>
+      <description>name: Carretera de la Farrès
+highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7769545817818186,42.14830069270426 2.777571005729781,42.1481596294481 2.778460427692588,42.14798659675277 2.7791744985119347,42.14784573260422</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de la Farrès</name>
+      <description>name: Carretera de la Farrès
+highway: unclassified
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7791744985119347,42.14784573260422 2.7795729013404418,42.14778532410027 2.779781669812471,42.14798280041812 2.7798332331097795,42.148082570681076 2.7798377246862,42.14812859282547</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Farrès</name>
+      <description>name: Camí de la Farrès
+source: GPS
+highway: unclassified
+name:ca: Camí de la Farrès
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7798377246862,42.14812859282547 2.7798574876224507,42.14833972148166 2.779916417105089,42.14854378964604 2.780002385877779,42.1486883819322 2.7800994937599923,42.14931230285089 2.780087995324356,42.149497986070095</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Farrès</name>
+      <description>name: Camí de la Farrès
+source: GPS
+highway: unclassified
+name:ca: Camí de la Farrès
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.780087995324356,42.149497986070095 2.7795303211959745,42.15049092916272 2.7789723775730075,42.15100048161015 2.778822179257503,42.15107560545096 2.778750224203245,42.15110470925541</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-5136
+highway: tertiary
+maxspeed: 70</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.778750224203245,42.15110470925541 2.778506062109021,42.15081027404005 2.778266571254275,42.15051250747005</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-5136
+highway: tertiary
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.778266571254275,42.15051250747005 2.7779517117471912,42.149998289077494</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-5136
+lanes: 1
+oneway: yes
+highway: tertiary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7779517117471912,42.149998289077494 2.7778922432753825,42.149956597311245 2.7778134610249654,42.14992049994512</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-5136
+highway: tertiary
+surface: asphalt
+junction: roundabout
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7778134610249654,42.14992049994512 2.7777856132511576,42.149915171918856 2.7777597417709745,42.14990598107251 2.777736565236644,42.14989319380579 2.7777173412895646,42.14987740951986</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la pedrera</name>
+      <description>lit: yes
+name: Carrer de la pedrera
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Carrer de la pedrera
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7777173412895646,42.14987740951986 2.7776399065120736,42.149827792224144 2.7775471105432237,42.14980421567</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

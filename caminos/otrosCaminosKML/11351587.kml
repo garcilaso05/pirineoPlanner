@@ -1,0 +1,192 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: yes
+highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.086353589579662,42.18695182978829 3.086506482841019,42.186901376265425</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.086506482841019,42.186901376265425 3.0864868995678254,42.18688040942021 3.086443241445017,42.18683348359856 3.0864156631657944,42.18680379717426 3.0865125015534227,42.186702290797484 3.0865656818182425,42.18660311391784 3.086577270085408,42.18649441854152 3.0865632563669756,42.186412813684235 3.0865172626244286,42.186274031935454 3.0865123218903654,42.186249071156944</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0865123218903654,42.186249071156944 3.0865716106991177,42.18623123251453</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-6303
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 70
+sidewalk: no
+smoothness: excellent
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0865716106991177,42.18623123251453 3.086285676944182,42.185715973137135 3.086108259675569,42.18533350299071 3.086043221648999,42.18514592802869 3.0860275011315266,42.184904302967155</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer la Pujada</name>
+      <description>name: Carrer la Pujada
+highway: residential
+name:ca: Carrer la Pujada
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.086191443670878,42.18364637333481 3.0855108800116295,42.183667474382226</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer la Pujada</name>
+      <description>name: Carrer la Pujada
+highway: residential
+name:ca: Carrer la Pujada</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0855108800116295,42.183667474382226 3.0832776682153082,42.18373390602493</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 5
+access: yes
+highway: track
+surface: gravel
+tracktype: grade2
+brp_access: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0832776682153082,42.18373390602493 3.083123786807139,42.18359718190673 3.083011497396624,42.18341332943748 3.082880972185841,42.183144272832706 3.082773893003974,42.18281390809758 3.0826202810903895,42.18238801927707 3.082430017913213,42.18200000397338 3.0822157697179504,42.18162376864134 3.082037543965581,42.18130138403777</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+access: yes
+highway: track
+surface: unpaved
+tracktype: grade2
+brp_access: 3
+check_date:surface: 2025-09-04</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.082037543965581,42.18130138403777 3.081610035721869,42.180776831551746 3.081184863097895,42.18021359846029 3.0804901958886854,42.17931631604494 3.079924975911917,42.1788440710427 3.079317894442909,42.178432068681 3.0790429201344405,42.17826258042187</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Riu</name>
+      <description>name: Camí del Riu
+width: 5
+access: yes
+highway: track
+name:ca: Camí del Riu
+surface: gravel
+tracktype: grade2
+brp_access: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0790429201344405,42.17826258042187 3.0785899895681874,42.178119187408 3.078124662251014,42.17800981173824 3.0773710655591655,42.17795808623388 3.0759120218746987,42.178013805983916</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Riu</name>
+      <description>name: Camí del Riu
+width: 5
+access: yes
+highway: track
+name:ca: Camí del Riu
+surface: gravel
+tracktype: grade2
+brp_access: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0759120218746987,42.178013805983916 3.075871957013027,42.17784791143428 3.0755554805384318,42.17744542228717 3.0751416266870377,42.176917109786544 3.074953070308901,42.17662059778762 3.0749592686843616,42.17609607304471 3.075310509960452,42.17464670048615 3.0753920769882503,42.17436023060841</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Riu</name>
+      <description>lit: yes
+name: Camí del Riu
+width: 5
+highway: residential
+name:ca: Camí del Riu
+surface: asphalt
+maxspeed: 30
+sidewalk:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0753920769882503,42.17436023060841 3.0754980781917762,42.17398767801997 3.0755386820426187,42.17385652513901</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda dels Fluvianets</name>
+      <description>lit: yes
+ref: GIV-6303
+name: Ronda dels Fluvianets
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+smoothness: excellent
+cycleway:both: no
+check_date:cycleway: 2025-12-03
+sidewalk:both:surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0755386820426187,42.17385652513901 3.0755833283122396,42.17385492733574 3.075631208516883,42.173837817523165 3.0757056788539363,42.173802998707416 3.0757987443173707,42.173730032255065 3.075968975063712,42.173598412811984 3.076064735472999,42.17353629792657 3.076132827771535,42.173521984198345</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Mar</name>
+      <description>lit: yes
+name: Carrer de la Mar
+width: 3
+oneway: yes
+highway: residential
+name:ca: Carrer de la Mar
+surface: asphalt
+maxspeed: 30
+sidewalk:left: no
+sidewalk:right: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.076132827771535,42.173521984198345 3.0763691745227866,42.17330042058737</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Mar</name>
+      <description>name: Carrer de la Mar
+width: 5
+highway: residential
+name:ca: Carrer de la Mar
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0763691745227866,42.17330042058737 3.076473738421859,42.173103289570655 3.0766553777723074,42.17261468694506 3.076822823741267,42.17221882217805</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>La Chapelle de Saint-Nicolas - variante</name>
+    <Placemark>
+      <name>path</name>
+      <description>source: GPS
+highway: path
+mtb:scale: 2
+sac_scale: mountain_hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5720126704943032,42.76573611447948 1.5723897832505767,42.76648937439249</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Siguer</name>
+      <description>name: Chemin de Siguer
+highway: service
+service: alley</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5723897832505767,42.76648937439249 1.5726081636961462,42.76661329011265 1.5727254836722522,42.76666097023058 1.5729550930588732,42.766730281097274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Passière</name>
+      <description>ref: D 124
+name: Rue de la Passière
+source: CNES/Spot Image
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5729550930588732,42.766730281097274 1.5729266164643667,42.76677611459641 1.5728857431189391,42.76692278156573 1.5728842159829564,42.767061930212925 1.5728751429985866,42.76732050845656 1.57282968824521,42.7674893981778 1.572751175489378,42.76762017033991</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Passière</name>
+      <description>ref: D 124
+name: Rue de la Passière
+source: CNES/Spot Image
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.572751175489378,42.76762017033991 1.5726650270536309,42.76769310718988 1.5726117569572826,42.76773320263682 1.5723862798209687,42.76790268474919 1.5719260729009144,42.76811661403749 1.5715767180869202,42.768314913430046 1.5714450250662682,42.768374000854905 1.5713839396269482,42.76836767006209 1.5713377662213444,42.76834867767973</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

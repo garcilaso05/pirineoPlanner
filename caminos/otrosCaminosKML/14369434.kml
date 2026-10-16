@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Chemin des meulières de Domme</name>
+    <Placemark>
+      <name>Rue du Vieux Moulin</name>
+      <description>name: Rue du Vieux Moulin
+highway: residential
+surface: asphalt
+sidewalk: no
+smoothness: good
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2085337351195384,44.802293630460504 1.2086338074421896,44.802336973161296 1.208756876636114,44.80239229879675 1.2090046319914742,44.80247828288757 1.2094366318116072,44.802609330299134</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Vieux Moulin</name>
+      <description>name: Rue du Vieux Moulin
+oneway: yes
+highway: residential
+surface: asphalt
+sidewalk: no
+smoothness: good
+parking:both: no
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2094366318116072,44.802609330299134 1.2098068275401928,44.80273362110023 1.2098978268784741,44.80275178665642 1.210026914784802,44.80276619161973 1.2101104581062252,44.802773394100036</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2101104581062252,44.802773394100036 1.2101109072638674,44.80281711887265 1.2100991393336453,44.80283668665375</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2100991393336453,44.80283668665375 1.210050630308303,44.802835284402555</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.210050630308303,44.802835284402555 1.209980022726971,44.80300827095161</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

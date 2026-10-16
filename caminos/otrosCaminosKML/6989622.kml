@@ -1,0 +1,643 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tour panoramique Osse-Athas asp109</name>
+    <Placemark>
+      <name>Rue d'en Haut</name>
+      <description>ref: D 442
+name: Rue d'en Haut
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6170799876148081,42.99508129595485 -0.6172685439929448,42.995143714609185 -0.6175247435119756,42.99523727676809 -0.6176319125253712,42.9952638867662 -0.6177324340056641,42.99529470178665 -0.6178016941140697,42.99531598976616 -0.6179259311178634,42.99536191658574 -0.6179656366534215,42.995381824767264 -0.6180445087353672,42.995421312593365 -0.6181022704081361,42.995455215598525 -0.6181593134286777,42.995512771820266</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Jardins</name>
+      <description>name: Chemin des Jardins
+highway: path
+name:oc: Camin deths Casaus
+surface: grass
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6181593134286777,42.995512771820266 -0.6182555229956069,42.99543957816824 -0.6183705971835026,42.995434518998756 -0.6184627643316534,42.99541592490477 -0.6186739582549498,42.99543589877229 -0.6189781278101526,42.99550311341695 -0.6190908663783098,42.995526503833226 -0.6193723983883528,42.99559936886509 -0.6194842386412256,42.995621576585314 -0.6196333589783894,42.99563649123314 -0.6198738379799481,42.99561927696969 -0.6199234249836316,42.99563833092514 -0.6200546688466415,42.99573130100232 -0.6201915720959413,42.995818883285594</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Cap de la Bielle</name>
+      <description>ref: D 442
+name: Chemin du Cap de la Bielle
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6201915720959413,42.995818883285594 -0.6204504665608246,42.99586113035884 -0.6205198165007585,42.99586927753604 -0.6205505388834754,42.99586947464516 -0.6205869206524823,42.99586526965062 -0.6207074745636111,42.99584779263902 -0.6207639785949823,42.99584049959886 -0.620809074022245,42.995825190782035</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 442
+layer: 1
+bridge: yes
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.620809074022245,42.995825190782035 -0.6208827358755429,42.99576461250811</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Col de Houratate</name>
+      <description>ref: D 442
+name: Route du Col de Houratate
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6208827358755429,42.99576461250811 -0.6209182193292656,42.99574963218822 -0.6209640334087556,42.99574759539006 -0.6210408393655479,42.995762707116754 -0.6211656153585121,42.99579759548028 -0.6212788929158396,42.995841682254074 -0.621646214035516,42.99601921168479 -0.6217213131932685,42.996074204968416 -0.6217932682475265,42.996154822273745 -0.6218577672849263,42.996199894331525</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Mouly</name>
+      <description>name: Chemin de Mouly
+highway: path
+name:oc: Camin de Molin
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6218577672849263,42.996199894331525 -0.6218654029648413,42.9963109974698</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Mouly</name>
+      <description>name: Chemin de Mouly
+layer: 1
+bridge: yes
+highway: path
+name:oc: Camin de Molin
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6218654029648413,42.9963109974698 -0.6218441128926075,42.99638648967089</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Mouly</name>
+      <description>name: Chemin de Mouly
+highway: path
+name:oc: Camin de Molin
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6218441128926075,42.99638648967089 -0.6218045870201063,42.99644581898579 -0.6217576949622753,42.996430378914894 -0.6217747629526735,42.99645711980118 -0.6216524124109765,42.99642807932953 -0.6210848568144699,42.996317830536206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Assuc</name>
+      <description>name: Chemin d'Assuc
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: unclassified
+old_name: Chemin de Bourraque
+ref:FR:FANTOIR: 644330010</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6210848568144699,42.996317830536206 -0.6212371212551281,42.9964424024598</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Château d'Eau</name>
+      <description>name: Chemin du Château d'Eau
+highway: path
+name:oc: Camin dera Tor d'Aiga
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6212371212551281,42.9964424024598 -0.6208196741425978,42.9963196702078 -0.6207395444192543,42.99631277143904 -0.6206666910497122,42.99632492641206 -0.620438788462131,42.99638662107587 -0.6203592875594864,42.996416712806344 -0.619932857294115,42.996653503987915 -0.6197960438763436,42.99677347608625 -0.6196806103623341,42.99691710064509 -0.6195684107833475,42.99709022495303 -0.6193671881597048,42.99731801243599 -0.6191821352111762,42.99758318307156 -0.6189375239593105,42.997767803180295 -0.6187251622261446,42.9978310075171</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Proudequi</name>
+      <description>name: Chemin de Proudequi
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010
+highway: path
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6187251622261446,42.9978310075171 -0.6186320967627098,42.997975812218314 -0.6185385821416329,42.998075611629986 -0.6184988766060748,42.99819433264132 -0.6185057936337626,42.99827100513715 -0.6184674355711306,42.99834268430764 -0.6181861730556728,42.99864819037525 -0.6180112710698549,42.998803505135605 -0.6178881120444021,42.99890790218832 -0.6176037952569782,42.99908226917977 -0.6175092026575604,42.9991917903189 -0.6174867447754574,42.999321875161534 -0.6172849831626442,42.99971547868227 -0.6169097568684675,43.00013949808148 -0.6164586229327826,43.00061922644874 -0.616239972992628,43.00076487865052 -0.6160631845447132,43.000943707809924 -0.6157583861688115,43.00108278949654 -0.6157107754587531,43.00116050954613 -0.6156851734731558,43.001268121760184 -0.6156962227511504,43.00134387065985 -0.6157246095141286,43.00142132759077 -0.6157964747368581,43.00155088213737 -0.6158636687201103,43.001749023856725 -0.6160391995266272,43.0021966141882 -0.6162134726917465,43.002403885576705 -0.6162470696833724,43.002498684904225 -0.6162319779865993,43.00259598052763 -0.6163513640878587,43.00277276779201 -0.6164264632456111,43.00286697529033 -0.616616367096674,43.003012030904884 -0.6168492104183178,43.00341099777389 -0.6168454374941245,43.00344338538725</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Piste Proudequi - Coustey</name>
+      <description>name: Piste Proudequi - Coustey
+source: Bing ; memory
+highway: path
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6168454374941245,43.00344338538725 -0.6166736796118009,43.00361392921161 -0.6165751344251329,43.003793472718506 -0.6165339017535919,43.00382362651618 -0.6164890758209143,43.00380792552098 -0.6159447865902663,43.00320891970332 -0.6157114941109805,43.00298089127737 -0.6154326570467896,43.00260819995356 -0.6151866983219978,43.00240979822096 -0.6149390327981661,43.00207593001802 -0.6148421045790096,43.001998999484236</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Coustey</name>
+      <description>name: Chemin de Coustey
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6148421045790096,43.001998999484236 -0.6146511227496058,43.00142198456177</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6146511227496058,43.00142198456177 -0.6145924627615528,43.00138880751716 -0.6145248196206585,43.001372974505394</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Raccord Coustey - Iperre</name>
+      <description>name: Raccord Coustey - Iperre
+source: Bing
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6145248196206585,43.001372974505394 -0.6144818801500777,43.00117831353351 -0.6145538352043357,43.00096900138523 -0.6145374858661646,43.00092518108062</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Roi et de la Reine</name>
+      <description>name: Sentier du Roi et de la Reine
+source: survey
+highway: path
+name:oc: Sendèr deth Rei e dera Reina
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6145374858661646,43.00092518108062 -0.6145393723282614,43.000790369392796 -0.614527334903454,43.00071409422786 -0.614402828405075,43.00068919473492 -0.6143163206432145,43.00069681568897 -0.6141098877909237,43.00079667637893 -0.6139579826763791,43.000795822307936 -0.6138143420624484,43.00074562919125 -0.6138058978987777,43.000709495377684 -0.6139411841805661,43.00060319614472 -0.6140489820146604,43.000445323705954 -0.6141960362266708,43.00025788661336 -0.6141574086694538,43.00025906918357 -0.6140576058413879,43.00030013063473 -0.6138767749746947,43.000392830865955 -0.6138004181755445,43.0003821220583</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Iperre</name>
+      <description>name: Chemin d'Iperre
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6138004181755445,43.0003821220583 -0.6139190856245768,43.0003407978689</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Areille-Secout à Noucarrou</name>
+      <description>name: Chemin d'Areille-Secout à Noucarrou
+source: Bing
+highway: path
+name:oc: Camin d'Arelha-Secout a Nocaròu
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6139190856245768,43.0003407978689 -0.6133549436261497,43.00028791074973 -0.6131626143238197,43.00032890648334 -0.6129090199191128,43.00052021954521 -0.6128391309900083,43.0005729093704 -0.6126051198584952,43.00077703274288 -0.6119265324928713,43.00109382666933 -0.6116609006633571,43.00126641363127</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Areille-Secout à Noucarrou</name>
+      <description>name: Chemin d'Areille-Secout à Noucarrou
+width: 3
+source: Bing
+highway: track
+surface: ground
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6116609006633571,43.00126641363127 -0.611403533334457,43.001527296923314 -0.6111165216011806,43.00163129516684 -0.6110253425998425,43.00168431252329 -0.6109609333939712,43.001766630583354 -0.611006477978876,43.0019137910863 -0.6111405964507951,43.002064827325235 -0.6113444241887619,43.00224312713117 -0.6113350817098069,43.002285172699025 -0.611147333815426,43.00231171394892</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Areille-Secout à Noucarrou</name>
+      <description>name: Chemin d'Areille-Secout à Noucarrou
+source: Bing
+highway: path
+name:oc: Camin d'Arelha-Secout a Nocaròu
+surface: dirt
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.611147333815426,43.00231171394892 -0.6109220363421688,43.00219891355768 -0.6107436309267426,43.002166131110435 -0.6105679204571689,43.002094522096705 -0.6104379342355568,43.00212001228731 -0.6102957309260807,43.00215279475916 -0.610185687303776,43.002209687744944 -0.6098799906125901,43.00233332797811 -0.6095848940417569,43.00263139057785 -0.6094240057743712,43.002721722246164 -0.6091610688907093,43.0028452957533 -0.6089989229819257,43.00295559853033 -0.6088601332705292,43.00313882289612 -0.6088224938601247,43.00316569225341 -0.6087092163027971,43.00315347293835 -0.608648759684176,43.00317600640456 -0.608494608781421,43.0032980680108 -0.6079876894665924,43.003952321969905 -0.6078442285157185,43.004132784206675 -0.6076872928355829,43.0042191063269 -0.60762692604849,43.00428972745376 -0.607529009682521,43.00435542145238 -0.6074257034248473,43.00447413032971 -0.6071883685267828,43.00458883166125 -0.6070985369983708,43.004617211339095 -0.6070018782737997,43.00463192672245 -0.6065955702707924,43.00462509458062 -0.6064106071537922,43.0046838903917 -0.6061972572738139,43.004796226365926 -0.6060216366357685,43.00479681760736</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Engoust</name>
+      <description>name: Chemin de l'Engoust
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6060216366357685,43.00479681760736 -0.6062047132906719,43.00457260531178 -0.6062475629297244,43.00444312283104 -0.606247023940554,43.00434169141247 -0.6062248355530362,43.004258785556075 -0.6061859385012338,43.00419210604206 -0.6062060607635982,43.00409987140288 -0.6067425346512744,43.003474130610904 -0.6069678321245315,43.00325451214792 -0.6074398968063363,43.002643412909364 -0.6074556173238084,43.00262501808423 -0.6076692366983719,43.00237471652343 -0.6078865391656004,43.002125596477136 -0.6080715022826008,43.00186570117501 -0.6083156643768244,43.00159371654198</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Engoust</name>
+      <description>name: Chemin de l'Engoust
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6083156643768244,43.00159371654198 -0.6083639039075815,43.00137041231638 -0.6087862917541746,43.000406233297454 -0.6088639061947225,43.000154280235826 -0.6088936404306269,42.99998057327299 -0.6088574383246769,42.99982953191031 -0.6088466585412674,42.999776512953325 -0.6088587857976031,42.999671591784654 -0.6089311900095031,42.99930282234827 -0.6089258001177984,42.999144880868705 -0.6088667808036318,42.99888398746064 -0.6088883403704506,42.99879082505356 -0.6089513122718673,42.998728015903914 -0.6092400308041833,42.99849221821998 -0.6094461941618889,42.99814840793863 -0.6096916138975103,42.99787758946593 -0.6097242227423239,42.99779559470023 -0.6097155090840678,42.99775150932825 -0.6097103886869483,42.99772562311893 -0.6096607118517365,42.99766971149764 -0.6093053383253388,42.99746432947676 -0.6092765024047188,42.99743397545384</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Bedous</name>
+      <description>ref: D 237
+name: Route de Bedous
+source: survey
+highway: tertiary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6092765024047188,42.99743397545384 -0.6088523179275575,42.99763167054173 -0.6081814560733769,42.99795301404162</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Bedous</name>
+      <description>ref: D 237
+name: Route de Bedous
+source: survey
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6081814560733769,42.99795301404162 -0.607302903725508,42.99837382628599 -0.6072251994534318,42.99842257593349 -0.6071479443389973,42.998495174730394 -0.6069140230390128,42.99879982594109 -0.606837756071391,42.99886151812008 -0.6067324735200922,42.9989138808688 -0.6066572845308114,42.99893457629669 -0.6065196626292844,42.99896578367479 -0.6062004912088366,42.99904403199944 -0.6057576217737657,42.999186402960895</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Pont d'Osse</name>
+      <description>foot: yes
+name: Sentier du Pont d'Osse
+bicycle: yes
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6057576217737657,42.999186402960895 -0.6060975442772765,42.99890737659002 -0.6061885436155579,42.99874917129412 -0.6062773869971573,42.99861159542744 -0.6063550912692336,42.9984809834791 -0.606451570330748,42.998371001170455</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Pont d'Osse</name>
+      <description>name: Sentier du Pont d'Osse
+highway: path
+name:oc: Sendèr deth Pont d'Òussa
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.606451570330748,42.998371001170455 -0.6069292045673144,42.99813237698998 -0.607298501980616,42.99792693081468 -0.6075433827270669,42.997862215455704 -0.6078335385638375,42.99773501836875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Pont d'Osse</name>
+      <description>name: Sentier du Pont d'Osse
+highway: path
+name:oc: Sendèr deth Pont d'Òussa
+surface: unhewn_cobblestone
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6078335385638375,42.99773501836875 -0.6079035173244703,42.99770407316986</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Pont d'Osse</name>
+      <description>name: Sentier du Pont d'Osse
+highway: path
+name:oc: Sendèr deth Pont d'Òussa
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6079035173244703,42.99770407316986 -0.6082791029447608,42.99741846992985</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Pont d'Osse</name>
+      <description>ford: yes
+name: Sentier du Pont d'Osse
+source: survey ; Bing
+highway: path
+name:oc: Sendèr deth Pont d'Òussa
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6082791029447608,42.99741846992985 -0.6083322832095807,42.99737977180418</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Pont d'Osse</name>
+      <description>name: Sentier du Pont d'Osse
+highway: path
+name:oc: Sendèr deth Pont d'Òussa
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6083322832095807,42.99737977180418 -0.6085611739439742,42.99722359932443 -0.6087411064953834,42.99686880971697 -0.6088923827892291,42.996378802479725 -0.608971704028817,42.99622302167195 -0.6090577626330356,42.99614470405214 -0.6091007021036164,42.99612400768461 -0.6091768792397098,42.996035768807616</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Pont d'Osse</name>
+      <description>name: Sentier du Pont d'Osse
+note: Pont formé de 2 madriers non solidarisés côté rive droite du Larricq, petit affluent du Gave d'Aspe
+layer: 1
+bridge: yes
+highway: path
+name:oc: Sendèr deth Pont d'Òussa
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6091768792397098,42.996035768807616 -0.6091357363996971,42.99599890949237</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Pont d'Osse</name>
+      <description>name: Sentier du Pont d'Osse
+highway: path
+name:oc: Sendèr deth Pont d'Òussa
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6091357363996971,42.99599890949237 -0.6091342990952425,42.995983600715014 -0.6093463015022946,42.99554647766482 -0.6093049789992253,42.995394899774055</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Pont d'Osse</name>
+      <description>name: Sentier du Pont d'Osse
+note: Pont formé de 3 madriers recouverts d'un platelage bois, l'ensemble est déversé d'environ 10° vers l'amont
+layer: 1
+bridge: yes
+highway: path
+name:oc: Sendèr deth Pont d'Òussa
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6093049789992253,42.995394899774055 -0.6092434444022631,42.995316975320605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6092434444022631,42.995316975320605 -0.6092041880243471,42.995125317538715 -0.6093178249077882,42.9947996884798 -0.6092298798414729,42.99449869688899 -0.6091137276752362,42.99423003058923 -0.6089955992153745,42.993864710870014 -0.6090156316462103,42.993442225105504 -0.6088640858577794,42.99321462037318 -0.6089564326689869,42.992820712385374 -0.609114536158992,42.992763022229575 -0.610048514559891,42.99142752598053</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Saillet d'Athas à Osse</name>
+      <description>name: Sentier du Saillet d'Athas à Osse
+highway: path
+name:oc: Sendèr deth Salhet d'Atàs a Òussa
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.610048514559891,42.99142752598053 -0.6096061841139905,42.99124571226657 -0.6095664785784325,42.99121581512804</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Saillet d'Athas à Osse</name>
+      <description>name: Sentier du Saillet d'Athas à Osse
+note: Pont formé de 2 anciens poteaux électriques en béton
+layer: 1
+bridge: yes
+source: survey ; Bing
+highway: path
+name:oc: Sendèr deth Salhet d'Atàs a Òussa
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6095664785784325,42.99121581512804 -0.6095642327902222,42.99117238211625</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Saillet d'Athas à Osse</name>
+      <description>name: Sentier du Saillet d'Athas à Osse
+highway: path
+name:oc: Sendèr deth Salhet d'Atàs a Òussa
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6095642327902222,42.99117238211625 -0.6096315166050027,42.991055027410475 -0.6097473094451257,42.9909320215657 -0.6099393692528704,42.99079567665842 -0.6100940591447959,42.990660579912216 -0.610189819554083,42.99056530235914 -0.6102396760523516,42.99049827944021 -0.6103889760525723,42.990329276226014 -0.610522375872264,42.99023590372214 -0.6106749098075076,42.99019128725396 -0.6106373602286314,42.990012492510814 -0.6107597107703284,42.989871874449626 -0.6107133577016678,42.989828900454604 -0.6108950868836451,42.989716997081906 -0.6110082746094443,42.98956599620086 -0.611011239049882,42.98951467684394</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Saillet d'Athas à Osse</name>
+      <description>ford: yes
+name: Sentier du Saillet d'Athas à Osse
+source: survey ; Bing
+highway: path
+name:oc: Sendèr deth Salhet d'Atàs a Òussa
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.611011239049882,42.98951467684394 -0.6110372003615929,42.98946500019131</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Saillet d'Athas à Osse</name>
+      <description>name: Sentier du Saillet d'Athas à Osse
+highway: path
+name:oc: Sendèr deth Salhet d'Atàs a Òussa
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6110372003615929,42.98946500019131 -0.6111322421186527,42.98931491863182 -0.611197908965922,42.98925117985514</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Saillet d'Athas à Osse</name>
+      <description>ford: yes
+name: Sentier du Saillet d'Athas à Osse
+source: survey ; Bing
+highway: path
+name:oc: Sendèr deth Salhet d'Atàs a Òussa
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.611197908965922,42.98925117985514 -0.6112338415772868,42.98920078017772</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Saillet d'Athas à Osse</name>
+      <description>name: Sentier du Saillet d'Athas à Osse
+highway: path
+name:oc: Sendèr deth Salhet d'Atàs a Òussa
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6112338415772868,42.98920078017772 -0.6112762420586972,42.9890857872779 -0.6114579712406746,42.98890061540195 -0.6114403642611057,42.98881512599776 -0.6114851901937833,42.98868278474861 -0.6117400422398881,42.98834371649429 -0.611826819496334,42.98820657731058 -0.6118531401341587,42.98811911560142 -0.6118049006034014,42.98798940131226 -0.6119112611330412,42.98778569544247 -0.6122029441057948,42.987515028437514 -0.6127304348406298,42.987220769535405 -0.6130665844199473,42.98709861027861 -0.6133729099318321,42.987171222453526 -0.6134966079464554,42.98725579417264 -0.6137095086687917,42.98713126933984</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Saillet d'Athas à Osse</name>
+      <description>name: Sentier du Saillet d'Athas à Osse
+highway: path
+name:oc: Sendèr deth Salhet d'Atàs a Òussa
+surface: unhewn_cobblestone
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6137095086687917,42.98713126933984 -0.6138276371286534,42.987085204944634 -0.6139448672732309,42.98707482238003</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Saillet d'Athas à Osse</name>
+      <description>name: Sentier du Saillet d'Athas à Osse
+layer: 1
+bridge: yes
+highway: track
+name:oc: Sendèr deth Salhet d'Atàs a Òussa
+surface: rock
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6139448672732309,42.98707482238003 -0.6139767574658173,42.987026720855326</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Port</name>
+      <description>name: Chemin du Port
+highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6139767574658173,42.987026720855326 -0.614007659511591,42.987013972630734 -0.614149413663425,42.987016601130854</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Port</name>
+      <description>name: Chemin du Port
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.614149413663425,42.987016601130854 -0.6146537278639297,42.98712160961931 -0.6148156042781281,42.98717667657722 -0.6149266360472453,42.98718239354974 -0.615058957888596,42.987163928383715</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Port</name>
+      <description>name: Chemin du Port
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.615058957888596,42.987163928383715 -0.615234488695113,42.987113592707246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Port</name>
+      <description>name: Chemin du Port
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.615234488695113,42.987113592707246 -0.6155454854464752,42.986961731167234 -0.616486201212005,42.98642650003081 -0.6171715259422599,42.986036688491154</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Port</name>
+      <description>name: Chemin du Port
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6171715259422599,42.986036688491154 -0.6174538664360586,42.98588837283101</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route d'Arroudiste</name>
+      <description>ref: D 237
+name: Route d'Arroudiste
+highway: tertiary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6174538664360586,42.98588837283101 -0.6174554834035701,42.98591091262874 -0.6174939312977303,42.986041091298816 -0.6175950815987222,42.98617501535721 -0.6177095269659191,42.98631071338179 -0.6177934296134558,42.98640363185635 -0.6178155281694452,42.986463299374165 -0.6178306198662183,42.98666608964605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route d'Arroudiste</name>
+      <description>ref: D 237
+name: Route d'Arroudiste
+layer: 1
+bridge: yes
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6178306198662183,42.98666608964605 -0.6178297215509343,42.98683773144027</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route d'Arroudiste</name>
+      <description>ref: D 237
+name: Route d'Arroudiste
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6178297215509343,42.98683773144027 -0.6178227146917181,42.98767681109263</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Lagunse</name>
+      <description>name: Chemin de Lagunse
+source: Direction Générale des Impôts - Cadastre ; mise à jour : 2010
+highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6178227146917181,42.98767681109263 -0.6179111987472039,42.98771709241049 -0.6179783028989276,42.98778477547895 -0.6180587021168563,42.98790943041097 -0.6181552710098992,42.988111493087445</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Lagunse</name>
+      <description>name: Chemin de Lagunse
+source: Direction Générale des Impôts - Cadastre ; mise à jour : 2010
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6181552710098992,42.988111493087445 -0.6182449228752545,42.988395168250925 -0.6183402341268995,42.9886089915649 -0.6184433607215164,42.988934719135706 -0.6185096563894843,42.989171999117836 -0.6185808927915151,42.98918612680873</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier de Lagunse</name>
+      <description>name: Sentier de Lagunse
+source: survey
+highway: path
+name:oc: Sendèr de Laguntze
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6185808927915151,42.98918612680873 -0.6185607705291507,42.98940500703746 -0.6185847555472367,42.98953938373558 -0.6184986969430182,42.98995269701944 -0.6184412047648344,42.99004482147754 -0.6184491099393348,42.99021862223683 -0.6185148666181322,42.990333810144115 -0.6185243887601439,42.990375272481195 -0.6185578959202416,42.990343075106175 -0.6186773718530294,42.990339921076696 -0.6187171672201159,42.990383814639074 -0.618831432924256,42.99029451617605 -0.6188605383394614,42.99043171641015 -0.6189432731771288,42.990382171916494 -0.6190234927320007,42.990302598382236 -0.6189844160171415,42.99048467772127 -0.6190183723348811,42.990583372251244 -0.6191074852110658,42.99049979074212 -0.6191752181834885,42.99075763144719 -0.6193104146337485,42.991139922326425 -0.6195385867159148,42.991465110822865 -0.6197489721554557,42.99189851758893 -0.6202384641537724,42.99243501521203 -0.6204916992323657,42.99266551391602 -0.6207923653579605,42.99285737648813 -0.6208928868382534,42.99294943088629 -0.6211933733007913,42.9930954297989 -0.6214482253468961,42.993167903477726 -0.6218774403896484,42.99319241178315 -0.6223977446022104,42.993521991691544 -0.6225827975507391,42.99369499415376 -0.6226221437601835,42.993770620979134 -0.6226182810044618,42.99385728618414</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Piste de la Soupène</name>
+      <description>name: Piste de la Soupène
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6226182810044618,42.99385728618414 -0.6223990920751367,42.99404737100107 -0.6223044096441904,42.99421741526822 -0.6222716211363202,42.994359600298864 -0.6222921925563264,42.994598370539094 -0.6223960378031705,42.99480310509713 -0.622701195505186,42.99520659312633 -0.6231262782976315,42.99595068354562 -0.6231818840137183,42.99611093283294 -0.6231835009812298,42.996321706987 -0.6231878128945935,42.99655698738173 -0.6231478378644503,42.9968364186378 -0.6231594261316152,42.99694607518374 -0.6231417293205184,42.996989504115184 -0.6230944779365736,42.997104613630675 -0.623183770475815,42.99749540619898</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Col de Houratate</name>
+      <description>ref: D 442
+name: Route du Col de Houratate
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.623183770475815,42.99749540619898 -0.622968084976098,42.997285818698174 -0.622834864819463,42.99704889854964 -0.6226887987542651,42.99669607899815 -0.6225948349755464,42.99657827492397 -0.6224449061546268,42.996443519401005 -0.6222388326284497,42.99633051112858 -0.6219208290178715,42.996226503912794 -0.6218577672849263,42.996199894331525</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

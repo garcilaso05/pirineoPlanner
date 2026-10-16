@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+oneway: no
+highway: cycleway
+surface: asphalt
+segregated: yes
+description: vu que la piste décrit et la partie cyclable et la partie piétonne elle doit être axée entre les 2
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3586070051367731,43.658198568876294 1.3586208391921488,43.65806780783604 1.3586317088070865,43.65795881842138 1.3587017773992478,43.65726198339132 1.3587124673511286,43.65717437475894 1.358739506641181,43.65708969062558 1.3587661866051193,43.65701430019917 1.3588029277002396,43.65692929088067 1.3588817997821854,43.656810485607004 1.3589740567618644,43.656702468792034 1.3603869270407274,43.65527269000755 1.360458343105815,43.655200481993745</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>oneway: no
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.360458343105815,43.655200481993745 1.3604800823356908,43.65517838411438 1.3605249980998968,43.65514432736673 1.3605690155488186,43.655123204374235 1.36062381278115,43.65511280535981 1.3607900011087122,43.65512261942972 1.3608069792675819,43.655022788815955</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

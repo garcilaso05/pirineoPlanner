@@ -1,0 +1,277 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>L'épanchoir court - Canal du Midi</name>
+    <Placemark>
+      <name>Avenue du Port</name>
+      <description>name: Avenue du Port
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.659806363558132,43.24844650240075 2.659838972402946,43.24852907796584 2.65987212023693,43.24864777196552 2.6598425656640825,43.24868892876145 2.6597748326916606,43.248728188000335 2.6596099020054957,43.24880199530095</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passage des Pépinières</name>
+      <description>name: Passage des Pépinières
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6596099020054957,43.24880199530095 2.6596283174688202,43.24914420351365</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Pépinières</name>
+      <description>name: Rue des Pépinières
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6596283174688202,43.24914420351365 2.6596418820296104,43.24914119366012 2.6597016199960044,43.2498687232761</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la République</name>
+      <description>ref: D 11
+name: Avenue de la République
+highway: secondary
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6597016199960044,43.2498687232761 2.6604296147022546,43.24971129652333</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6604296147022546,43.24971129652333 2.660460606579557,43.249799890016135 2.660768099901311,43.24981592058268 2.6608788621758426,43.24979249632484 2.6609241372661625,43.249802114666444 2.6609488409364754,43.249814808257796 2.66097066999788,43.249841307756974 2.660979383656136,43.24987317257159 2.660992588890813,43.24994220204095 2.661001302549068,43.24998152590274 2.66104648780786,43.250080195314375 2.6610843967128495,43.25022976946247 2.6611160174108504,43.25030036885622</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Pech Saint-Jean</name>
+      <description>name: Chemin du Pech Saint-Jean
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6611160174108504,43.25030036885622 2.661080444125599,43.25031240804032 2.6604617743894265,43.25055842562886 2.659961233113115,43.250668478919906</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Cimetière</name>
+      <description>name: Chemin du Cimetière
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.659961233113115,43.250668478919906 2.6606091879275504,43.25068660301596 2.6610473861231436,43.25068549070697 2.661283822705924,43.25067482562564 2.6617556178931436,43.25052760805453 2.6620114580860608,43.25048108722807 2.662700465908981,43.250371818761764 2.663201366511405,43.250227871979966 2.663666244670937,43.250157403363204 2.6644664639260314,43.250115069809574 2.6652280556239076,43.250091514805625 2.6657233866715706,43.250169311714565 2.666017315432535,43.250280478025125 2.666134455745584,43.2504133015439 2.6661844919069093,43.25058518652471</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6661844919069093,43.25058518652471 2.666147301654147,43.250652775727644</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.666147301654147,43.250652775727644 2.6657162899808267,43.250861169845365</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6657162899808267,43.250861169845365 2.6655729188614807,43.250863132737905 2.6652212284277486,43.251038418786536 2.6650280906416626,43.251355882193614 2.665020095635634,43.25158737033714 2.6651958061052077,43.25185497424548 2.6659036785490935,43.25237781262069</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6659036785490935,43.25237781262069 2.66618278510787,43.25256611446762 2.6665690606800414,43.252978308973205 2.667202732281459,43.25350781124982 2.667657998467451,43.25367569646696 2.6681355428724887,43.253820289365656 2.668819430298289,43.25410947413309 2.669385009601171,43.25440997621593 2.6695046651970156,43.254498497448125</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6695046651970156,43.254498497448125 2.6695546115268125,43.25442908058734</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+source: Bing
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6695546115268125,43.25442908058734 2.6696995996136694,43.25427722683941</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: Bing
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6696995996136694,43.25427722683941 2.6697463120084435,43.25420008943941</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>source: Bing
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6697463120084435,43.25420008943941 2.669763379998842,43.254088276020305 2.6697614037052166,43.25402553218027 2.669757900275609,43.253911821072926 2.6695994374594902,43.253583379282865 2.6695937780732,43.25355439519124 2.6695661997939775,43.25341300758486 2.6696051866773085,43.253311595633576 2.6699698128511327,43.25305498992901 2.670040600095521,43.25299119818498 2.670043384872902,43.25296967254551 2.6700495832483626,43.252922499308994 2.6700370068343844,43.252875587746296 2.6700031403481734,43.252812973512164 2.6699395396260575,43.25273321714787 2.6699250767499834,43.25261760621945 2.669960560203706,43.25237401778945 2.66993882097383,43.25206938366784 2.669878005029096,43.25184437479765 2.6698320112865486,43.2516584261595 2.6698539301794812,43.251550730101705 2.6698953425140792,43.251418105350886 2.6700564104445217,43.2512576728539 2.6705262293381162,43.250904484326014 2.670991736318347,43.25055129374999 2.6711222615291295,43.25050477294162 2.6713315689903294,43.25051792439738</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6713315689903294,43.25051792439738 2.671268327594327,43.25023349899691 2.6712120032260134,43.25018272496469 2.671067104970685,43.25014948627118 2.670694304127775,43.250151514617166 2.6703858226592083,43.250112387156804 2.6701015058717843,43.250096814682315 2.6698225789760652,43.25012017339255 2.6686799219346655,43.250432799750364 2.6684894790944322,43.25041127320664 2.668411684990827,43.2503546760265 2.668288256470789,43.25022767568866 2.6681596177221034,43.2502160290705 2.6679960345088656,43.250251099779135 2.6678458361933606,43.25025502560347 2.6677475605012777,43.25022322641906</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: pebblestone
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6677475605012777,43.25022322641906 2.667817539261911,43.25019862456953</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track
+surface: unhewn_cobblestone
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.667817539261911,43.25019862456953 2.6684760941966985,43.24997838522918</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: gravel
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6684760941966985,43.24997838522918 2.668533316880297,43.249958298000756 2.66865872169396,43.249892605520174 2.6687941876388055,43.24973890839385 2.668859764654546,43.249553018758625 2.6688539256051995,43.24942091310807 2.6688491645341936,43.249314587153464</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: gravel
+tracktype: grade2
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6688491645341936,43.249314587153464 2.6688894090589215,43.24908289407657 2.6689079143537744,43.24901006859246 2.6688821327051206,43.248833729795436 2.668761938120105,43.24854072490659 2.6686411147143914,43.24838211693794 2.668117396903749,43.247942213220114 2.6676801868549687,43.24774807353188 2.6675706822218346,43.24767027353034</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track
+surface: cobblestone
+tracktype: grade2
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6675706822218346,43.24767027353034 2.667413297384057,43.247553802358276</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: gravel
+tracktype: grade2
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.667413297384057,43.247553802358276 2.6665212703069257,43.24724390943615 2.6659441925684075,43.24715367638226 2.665493507790365,43.24719431071821 2.6646606796904573,43.24739152754501 2.6628564134423036,43.24775880455878 2.661258130888798,43.24808420242167 2.6604326689742206,43.248252168022155 2.6601708999004283,43.24822501350575</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: gravel
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6601708999004283,43.24822501350575 2.659976863799059,43.24816592785351 2.659803219454638,43.24807340601936 2.6596711671078728,43.24793429584014 2.6596166393701264,43.24778929636879</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6596166393701264,43.24778929636879 2.6596450261331053,43.247708879094404 2.6596708976132875,43.247621002325744 2.659688504592856,43.24752671296387</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 72
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.659688504592856,43.24752671296387 2.6596317310668995,43.24754902572681</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 72
+layer: 1
+bridge: yes
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6596317310668995,43.24754902572681 2.658815791294334,43.247700569085225</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.658815791294334,43.247700569085225 2.658796387684197,43.24763801496398 2.658928799357076,43.24762532091897 2.6590984911142463,43.24758750050118</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Port la Fabrique</name>
+      <description>name: Port la Fabrique
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6590984911142463,43.24758750050118 2.659135681367009,43.24768689355584 2.6592273993575177,43.24790949676729 2.659251294544075,43.247939792203205 2.659336544664538,43.24804160569595 2.6594736275768946,43.24819641945972 2.65955762005596,43.24828521145351 2.659683833353379,43.24837419961516 2.659806363558132,43.24844650240075</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>D’un Saint-Feliu à l’autre</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7375818720365017,42.68062921692421 2.7375791770906495,42.68060412206355 2.73664241391237,42.6804137970272 2.7364660746220975,42.68038328685265 2.7359175633096138,42.68034280471481 2.7356017156557173,42.68032900247908 2.735429418784223,42.68030192631395 2.7351383646321685,42.680300407406776 2.7348989636089507,42.680307803823965 2.7345168202870864,42.6803665128542 2.7341982776873373,42.68043598623564 2.7337637625844087,42.68048828933849 2.7335901182399884,42.68052969593034 2.7332981657726494,42.680518469265415</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7332981657726494,42.680518469265415 2.733299333582519,42.68050862942214</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.733299333582519,42.68050862942214 2.733301220044616,42.68048961012334</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps
+incline: up
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.733301220044616,42.68048961012334 2.73330831673536,42.68042172174541</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Chapelle Saint-Anne</name>
+      <description>name: Rue de la Chapelle Saint-Anne
+highway: residential
+surface: asphalt
+smoothness: intermediate
+ref:FR:FANTOIR: 661740065Z</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.73330831673536,42.68042172174541 2.732945217697519,42.68043829761107 2.7315418695606675,42.68050479914716</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7315418695606675,42.68050479914716 2.73114463454203,42.68055730030958 2.73095284422887,42.68055829089712 2.730712724553425,42.680544488709245 2.73030911149627,42.68060161257692 2.7299482582466394,42.68064209454614 2.7296183968743106,42.68063608498957 2.7293474649846203,42.680614490204576</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7293474649846203,42.680614490204576 2.729187924190161,42.68061052785789 2.7289947864040753,42.680559215445484 2.7288285082449844,42.68049621404719 2.728695737245992,42.680440014632765 2.7285742850195787,42.680442392047325 2.728352401144401,42.680447278954766 2.728170043141725,42.68043902404333 2.72795139320157,42.68041577820686 2.7277596028884106,42.68037879617635 2.727549666606512,42.680340889572236 2.727421656678525,42.68031969092117 2.727304965523118,42.68032068151251 2.7272110915759273,42.68031183222939 2.7270958377249745,42.680299020578445 2.726861107941234,42.68026349134708 2.7266571903717396,42.68023879257575 2.7265740962079583,42.68023000932049 2.7264868697938702,42.68026540649204 2.7263205916347797,42.68026837826858 2.726189168108713,42.680271416084466 2.726080561790863,42.68026448193931 2.7260054626331103,42.680293077028146 2.7258982037881863,42.68034729539372 2.725820409684582,42.680395570171484 2.7257453105268294,42.68050209153883 2.7257232119708403,42.68057902719275</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 0.5
+bridge: yes
+highway: path
+surface: metal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7257232119708403,42.68057902719275 2.725736507037045,42.68061501851745</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.725736507037045,42.68061501851745 2.725743873222375,42.68066078360296 2.7257164746062092,42.68066309497002</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

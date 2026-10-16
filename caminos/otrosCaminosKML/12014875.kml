@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Allée Michel Sicard</name>
+      <description>lit: yes
+foot: designated
+name: Allée Michel Sicard
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes
+smoothness: good
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.456224860936888,43.57256732829284 1.4562017742340865,43.57256531071614 1.4557596234512427,43.57262290925044</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Michel Sicard</name>
+      <description>lit: yes
+foot: designated
+name: Allée Michel Sicard
+path: crossing
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes
+smoothness: good
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4557596234512427,43.57262290925044 1.4557002448109622,43.57263260662538 1.4556432017904206,43.57264210874964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Michel Sicard</name>
+      <description>lit: yes
+foot: designated
+name: Allée Michel Sicard
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes
+smoothness: good
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4556432017904206,43.57264210874964 1.4554196111162034,43.57267367401467 1.455117956843796,43.57270777749891 1.4546282851824226,43.572745590690744 1.454039619176739,43.57283110959467 1.453931012858889,43.572852001180586 1.4538445050970283,43.57288363141839 1.4537048170703477,43.572983988976496 1.453570159609258,43.57307302200088</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>lit: yes
+bicycle: yes
+highway: service
+service: parking_aisle
+surface: asphalt
+maxspeed: 30
+smoothness: excellent
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.453570159609258,43.57307302200088 1.4535318015466263,43.57310413146229 1.4534773636404086,43.573148127242206 1.4533807049158374,43.5732178305496 1.4528992079235492,43.57347061012115 1.4528430632182918,43.573500027242325</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

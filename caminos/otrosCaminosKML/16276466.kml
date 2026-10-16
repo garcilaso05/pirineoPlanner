@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: designated
+footway: sidewalk
+highway: footway
+surface: asphalt
+segregated: no
+traffic_sign: FR:C113</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4347512628907098,43.681191185372306 1.4347256609051122,43.6811594821443 1.4347216184863338,43.68112647958588 1.434709581061527,43.68109737495235 1.4346861350326112,43.6810639175995 1.4344883260070482,43.68090052851124 1.4343180054291789,43.6807822254384 1.4340832756454387,43.68064592649635 1.433873429195068,43.68054496892975 1.433801024983168,43.68051352522566</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+bicycle: designated
+footway: sidewalk
+highway: footway
+surface: asphalt
+segregated: no
+traffic_sign: FR:C113</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.433801024983168,43.68051352522566 1.4331331275694252,43.68023520874624 1.4328400971237454,43.68013191168517</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: designated
+footway: sidewalk
+highway: footway
+surface: asphalt
+segregated: no
+traffic_sign: FR:C113</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4328400971237454,43.68013191168517 1.4325263155950028,43.680052327350175 1.4319985553655825,43.67993980466536</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

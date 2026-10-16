@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Camí de Garrigàs a Santa Eulàlia</name>
+      <description>name: Camí de Garrigàs a Santa Eulàlia
+width: 4
+highway: track
+name:ca: Camí de Garrigàs a Santa Eulàlia
+surface: compacted
+tracktype: grade2
+brp_access: 3
+source:name: Institut Cartogràfic i Geològic de Catalunya</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.964291407088785,42.17489761853916 2.9633735983630003,42.17687789891719 2.9632513376528316,42.17731627372158 2.963021728266211,42.17759540737795 2.9624239892761577,42.17850076921282 2.9622461228499017,42.17902620598631 2.9621182925849716,42.17932011049995 2.9611853921624136,42.17924848180213 2.960578759851048,42.17952900488208 2.959824534338501,42.179662475915336 2.959420112797591,42.179926488111924 2.959165979403713,42.180903709747476 2.9588917237474712,42.18181588059272 2.958882920257687,42.18189269858317 2.9589156189340287,42.18195899895742 2.9592733280801653,42.18207828620271 2.95979803403762,42.18225708351608 2.95957740780384,42.18296667620799 2.959374658044214,42.18331248326876 2.9590348253722314,42.18374768492404 2.9583312648417093,42.18479107834372 2.9579019599674288,42.1855483015983 2.9577291241067645,42.185959725093184 2.957639562072937,42.18640089910001 2.9575740748887247,42.18691968064843 2.9572222946234636,42.18749197282978</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Sant Miquel de Fluvià</name>
+      <description>name: Camí de Sant Miquel de Fluvià
+width: 5
+highway: unclassified
+name:ca: Camí de Sant Miquel de Fluvià
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9572222946234636,42.18749197282978 2.9569955598457516,42.18752818188402</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Garrigàs a Santa Eulàlia</name>
+      <description>name: Camí de Garrigàs a Santa Eulàlia
+highway: unclassified
+name:ca: Camí de Garrigàs a Santa Eulàlia
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9569955598457516,42.18752818188402 2.9568014339128537,42.18774037717464 2.9560361591223123,42.18836937094967 2.9557921766911455,42.18862249757789 2.955680695764386,42.188885873327514 2.9553831737422858,42.18985829740865 2.9553043016603397,42.19040953075412 2.955232975426781,42.19063402950628</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Gran</name>
+      <description>name: Carrer Gran
+highway: unclassified
+name:ca: Carrer Gran
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.955232975426781,42.19063402950628 2.9550950840306687,42.19097247334596 2.955049359782707,42.191077833172386 2.9550323816238375,42.191117101793026 2.9549418314431977,42.19133401056477 2.9548998801194295,42.191437306533174 2.954876973079685,42.191525028105765</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Església</name>
+      <description>hgv: no
+ref: GIV-6227R
+name: Carrer de l'Església
+goods: no
+highway: tertiary
+name:ca: Carrer de l'Església
+maxspeed: 20
+maxweight: 3.5
+agricultural: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.954876973079685,42.191525028105765 2.954650328133501,42.19258759423835</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

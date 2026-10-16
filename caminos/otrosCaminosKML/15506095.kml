@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Léonce de Lavergne</name>
+      <description>name: Rue Léonce de Lavergne
+highway: residential
+surface: asphalt
+maxspeed: 30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3940015256463665,43.570414926017335 1.394090189364909,43.57042527460213 1.3942820695095968,43.57042612071275 1.394394628414697,43.57042703190881 1.3953870871405922,43.57043529775804 1.395863014578119,43.570439333054104 1.3962451578999833,43.57044271749576 1.3964258989351483,43.57044408428944</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5178935763709944,43.56991318023525 1.518133516383383,43.5701860200738 1.5181610946626052,43.57021739136915 1.5182656585616765,43.57037170926664</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5182656585616765,43.57037170926664 1.5182953029660524,43.57041531653 1.5183475849155883,43.57043757574778 1.518513863074679,43.57047942565836 1.518603065782392,43.57052257724644 1.5187821000185169,43.57066107866568 1.5189322983340219,43.570795219069325 1.5190481810056733,43.57097498366386 1.5190848322692654,43.57103460134719</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5190848322692654,43.57103460134719 1.519138192197142,43.57109122507476</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: no
+highway: steps
+incline: up
+surface: concrete
+handrail: yes
+step_count: 12</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.519138192197142,43.57109122507476 1.5192148184908774,43.57117388260447</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

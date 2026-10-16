@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: asphalt
+sac_scale: hiking
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5799675075775714,44.12130737386743 3.580572972079068,44.12146369046418 3.5807082583608563,44.12152172869927 3.58078668128516,44.12155751891583</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: gravel
+sac_scale: hiking
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.58078668128516,44.12155751891583 3.5808889993960213,44.12165940806224 3.581066506496163,44.12172989203351 3.5811991876636275,44.12174478845216 3.5812845276156198,44.1217411771995 3.581374269312503,44.12172879576012 3.5815116217194447,44.12170358146669 3.5816311874837603,44.121674111038494</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: gravel
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5816311874837603,44.121674111038494 3.581873103789774,44.1216136869417 3.5819388604685716,44.121596017556996 3.5821754767144087,44.121525017530885</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue de la Sausse</name>
+      <description>name: Rue de la Sausse
+layer: 1
+bridge: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5151270347904917,43.648475787049435 1.5151503909878785,43.64864329446677</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Sausse</name>
+      <description>name: Rue de la Sausse
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5151503909878785,43.64864329446677 1.5151617097604586,43.64872610548928 1.51520177462213,43.64879578626121 1.515240941168518,43.64887638705328 1.51527022624678,43.648938982593805 1.515307236836486,43.649045323362515 1.5153572729978113,43.64911441876108 1.5154271619269157,43.64916810901591 1.5155255274505268,43.64920801917423 1.5165699986313728,43.64962642423773 1.516618058499073,43.64966639909125 1.516649858860131,43.64969369897594 1.5167083391851273,43.649756618662906</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de Ratalens</name>
+      <description>name: Boulevard de Ratalens
+highway: unclassified
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5167083391851273,43.649756618662906 1.5166396180658916,43.64981121833784 1.5166102431561013,43.64983182320227 1.5163607810017012,43.649954477248976 1.5159477356340632,43.650174629909635 1.5156158979681094,43.6503620872816 1.515597482504785,43.65037248711867 1.5154603995924283,43.65044697589905 1.51520177462213,43.65057976849566</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de Ratalens</name>
+      <description>name: Boulevard de Ratalens
+oneway: yes
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.51520177462213,43.65057976849566 1.5151140092188717,43.65068123146142 1.5150965819023599,43.650728095463975</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>service</name>
+      <description>oneway: yes
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.474011323899398,43.50788452813758 1.4740341411076145,43.507938996003034 1.4740206663783528,43.50796961786752</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Église</name>
+      <description>name: Chemin de l'Église
+highway: residential
+surface: asphalt
+smoothness: excellent
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4740206663783528,43.50796961786752 1.4740663007947858,43.50800121700927 1.4741166064506968,43.50805131953209 1.4742218890019954,43.50839082981004 1.4743431615653515,43.50892377435092 1.4743815196279833,43.50914046903741 1.474392928232092,43.509175520600316 1.474418260723104,43.5092140903263 1.4744743155968332,43.509259631237924 1.4745108770288966,43.50928028425805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Crêtes</name>
+      <description>ref: D 95
+name: Route des Crêtes
+lanes: 1
+oneway: yes
+highway: tertiary
+surface: asphalt
+sidewalk: right
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4745108770288966,43.50928028425805 1.4742880948384351,43.509447202098265 1.4740356682435973,43.50967262514667</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Crêtes</name>
+      <description>ref: D 95
+name: Route des Crêtes
+lanes: 1
+oneway: yes
+highway: tertiary
+surface: asphalt
+sidewalk: right
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4740356682435973,43.50967262514667 1.4736583758242672,43.50994098171845</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Crêtes</name>
+      <description>ref: D 95
+name: Route des Crêtes
+lanes: 1
+oneway: yes
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4736583758242672,43.50994098171845 1.473534408315059,43.51002971698661 1.473339473898405,43.51018112693736</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Crêtes</name>
+      <description>ref: D 95
+name: Route des Crêtes
+lanes: 2
+highway: tertiary
+surface: asphalt
+sidewalk: right
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.473339473898405,43.51018112693736 1.47305578593168,43.510363808661495 1.472808300070905,43.510519387382885 1.4725764448960736,43.51066030695902 1.4722830551242803,43.51082448469099 1.4720706933911143,43.51092989698348 1.47146397124822,43.51124398282769 1.4713070355680844,43.511323269537236 1.471076258371594,43.51144679242033 1.4709007275650774,43.51152366834863 1.470660607889632,43.51165109975647 1.4704673802720178,43.51173670536708</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Micas</name>
+      <description>name: Chemin de Micas
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4704673802720178,43.51173670536708 1.4705660152902142,43.511786804789104 1.4707920314156988,43.51186798009725 1.4708611118610475,43.51188941400871 1.4708878816565143,43.51190830711583</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Micas</name>
+      <description>name: Chemin de Micas
+highway: path
+surface: dirt
+smoothness: horrible</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4708878816565143,43.51190830711583 1.4709913675772448,43.51191377960094 1.4713368596355172,43.51203241513806 1.4716930416456706,43.51221600333495 1.4718093734749642,43.51228258486382 1.4719003728132454,43.5123350943152 1.4720789578917282,43.512436985973906 1.472285839901661,43.51261360211801 1.4723519559065723,43.51266598098575 1.4725442852089021,43.512814973859726 1.4729240030794994,43.51310201375098 1.4735689934534975,43.51350696829808 1.4741529882197033,43.513853027688256 1.474404965656899,43.51398312517995</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de l'Étang</name>
+      <description>name: Chemin de l'Étang
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.474404965656899,43.51398312517995 1.473319890625211,43.51436181998773 1.47306369110618,43.51445797538721</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

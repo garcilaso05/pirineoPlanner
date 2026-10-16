@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Trail Sierra de la Carrodilla 2017</name>
+    <Placemark>
+      <name>Pista a Buñero</name>
+      <description>name: Pista a Buñero
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.3138943571426342,42.06274100168697 0.3139611917997727,42.062566668627916 0.314132859850568,42.06243921978799 0.3141837943271775,42.06222420347816 0.31421074378570113,42.06215250898222 0.314256288370606,42.06203299574485</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

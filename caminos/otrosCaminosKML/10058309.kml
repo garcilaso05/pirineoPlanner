@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Domus del Pi</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3965858817611516,41.97715808610364 2.3968813376580993,41.97703420575592 2.396905322676185,41.976919875000156 2.3967564718336067,41.97685930365794 2.3963435162974966,41.976673582347644 2.3960818370552324,41.976297129400194 2.3958447716517535,41.97611361028584 2.3958818720729878,41.9760400822827</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera del Club Nàutic</name>
+      <description>name: Carretera del Club Nàutic
+highway: service
+name:ca: Carretera del Club Nàutic
+service: driveway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3958818720729878,41.9760400822827 2.3957505383784494,41.97590892040236 2.395588212806609,41.97585322326963</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+tracktype: grade4
+trailblazed: yes
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.395588212806609,41.97585322326963 2.3953606695451417,41.97581923063112 2.394762032239804,41.975729607516854 2.394381236390866,41.975861170465414 2.394027120505866,41.975912994171544 2.3936998642478615,41.97619622066586 2.3933082886155135,41.97681429250193 2.3933243684590995,41.9769059843336 2.3935208300117368,41.97694952622054 2.3936394974607684,41.97694358262117 2.3937198966786974,41.976981781924344 2.393710733862799,41.97706419083254 2.3936618655113433,41.97712489554355 2.393495767015309,41.97722586958813 2.3933178107575253,41.97732490680571 2.392421112440917,41.97781802036924</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.392421112440917,41.97781802036924 2.392479592765913,41.977874917842406 2.393063857026705,41.977954988261374 2.3932288775443977,41.977949912908365 2.3932793628633653,41.97800440615112</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3932793628633653,41.97800440615112 2.39361964469299,41.97811292503118 2.3940276594950367,41.97818190955233 2.3945067310360577,41.97825997616621 2.394958763287027,41.97841083344914</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.394958763287027,41.97841083344914 2.395085874899729,41.97839627530284</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.395085874899729,41.97839627530284 2.3952390376556716,41.978201476300306 2.3955800381375236,41.978276470981704 2.3958968739382325,41.97822291290124 2.3958489039020603,41.97813730001573 2.3956759782098676,41.978048014067916 2.3958056949368944,41.97785167803556 2.3957623961401997,41.977551830341845 2.395930470929859,41.97729839449756 2.3959469100995583,41.977173178787226</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3959469100995583,41.977173178787226 2.3965858817611516,41.97715808610364</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

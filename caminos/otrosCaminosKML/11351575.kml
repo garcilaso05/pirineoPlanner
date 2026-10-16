@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Carrer de la Muralla</name>
+      <description>lit: yes
+name: Carrer de la Muralla
+oneway: no
+source: PNOA
+highway: residential
+name:ca: Carrer de la Muralla
+surface: asphalt
+source:date: 2008
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0737050408846742,42.259822279109656 3.0736804270458884,42.25974808228546 3.0734262936520116,42.259445975318464 3.0733956611008235,42.259414727376175</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont</name>
+      <description>name: Carrer del Pont
+oneway: no
+highway: residential
+name:ca: Carrer del Pont
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+maxspeed:type: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0733956611008235,42.259414727376175 3.0729827055647134,42.259173120422986 3.0723954768634845,42.25888570401133 3.071639903878012,42.2587516689842 3.0715514198225256,42.258733584871436 3.0715111752977973,42.258722880669886</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont</name>
+      <description>name: Carrer del Pont
+oneway: no
+bicycle: yes
+highway: residential
+name:ca: Carrer del Pont
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0715111752977973,42.258722880669886 3.0714737155504492,42.25871370563855 3.0713826263806396,42.25868618053651 3.0713354648282234,42.25867248446676 3.0704896111566966,42.258386395494924 3.070178344910749,42.25817297480311</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont</name>
+      <description>name: Carrer del Pont
+oneway: no
+bicycle: yes
+highway: residential
+name:ca: Carrer del Pont
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.070178344910749,42.25817297480311 3.069975684982652,42.258035480965525 3.0697652097115826,42.25789266789997 3.0697284686164616,42.257862017567675</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

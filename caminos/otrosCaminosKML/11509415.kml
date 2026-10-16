@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.80287133705478,42.41990477663394 2.8027797088958,42.41990431242527 2.8025199161156333,42.41996419531565 2.8022919236965236,42.42000982033661 2.8021708307962236,42.42003502018859 2.8020608770054474,42.42012408168962 2.8019084329017327,42.420285028697855 2.8018037791711325,42.420376079294584 2.8017014610602713,42.4204825148209 2.8016044430095866,42.42055420120127</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GI-505
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8016044430095866,42.42055420120127 2.80128464276844,42.421027488410665 2.801126539278435,42.421501899382754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Coll de Manrella</name>
+      <description>name: Coll de Manrella
+highway: unclassified
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.801126539278435,42.421501899382754 2.801223018339949,42.421584924249494 2.8013021599164807,42.42165190109863 2.8013757319382497,42.42174798954238 2.801335307750464,42.421974914185256</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

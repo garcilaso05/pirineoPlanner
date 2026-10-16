@@ -1,0 +1,827 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Circuit du Louts</name>
+    <Placemark>
+      <name>Place François Dupaya</name>
+      <description>name: Place François Dupaya
+oneway: yes
+highway: living_street
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8363367397439224,43.71133447540876 -0.8363370990700361,43.71135629288099 -0.8363381770483771,43.7114188232708 -0.8363511127884682,43.71144680933274 -0.8363849792746796,43.71148979485952 -0.8364159711519816,43.71152057299721</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Chalosse</name>
+      <description>name: Avenue de la Chalosse
+oneway: yes
+highway: living_street
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8364159711519816,43.71152057299721 -0.8365046348705244,43.71156037676786 -0.837040120611388,43.71165693164494 -0.8375653655580128,43.71175517461171 -0.8377786256064627,43.711775628348576 -0.8380342861363231,43.71179867937701 -0.8383178842715195,43.71187802679299</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Gare</name>
+      <description>name: Avenue de la Gare
+highway: living_street
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8383178842715195,43.71187802679299 -0.8381533129114689,43.71207081070722 -0.8378071022009692,43.71232060423355</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Gare</name>
+      <description>name: Avenue de la Gare
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8378071022009692,43.71232060423355 -0.8376969687471362,43.712400080822135 -0.8378121327665604,43.712576305496384 -0.8379441851133259,43.712706688046396 -0.8380656373397388,43.71281181201735 -0.8382613802401485,43.71295862165217 -0.8383265979297755,43.71300452799668</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: yes
+horse: yes
+width: 2
+bicycle: yes
+highway: footway
+incline: down
+surface: gravel
+handrail:right: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8383265979297755,43.71300452799668 -0.8383722323462087,43.71311107992808 -0.838413734512335,43.7132358123262</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.838413734512335,43.7132358123262 -0.8384646689889447,43.71342300783262</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8384646689889447,43.71342300783262 -0.8395670815056161,43.71444552780537</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8395670815056161,43.71444552780537 -0.8402861828905538,43.715024632057805 -0.8406203561762462,43.71528661986588 -0.841065112073414,43.7156000297985</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.841065112073414,43.7156000297985 -0.8413097233252796,43.71581202046435 -0.8413914700161346,43.71584390015964 -0.8414672878261144,43.7158440300158</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: parking_aisle
+surface: fine_gravel
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8414672878261144,43.7158440300158 -0.8415458904134747,43.715914282156 -0.8416422796434607,43.71600972624409</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+railway: abandoned
+surface: fine_gravel
+smoothness: intermediate
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8416422796434607,43.71600972624409 -0.8424693585255495,43.71670471044873</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: asphalt
+segregated: no
+smoothness: good
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8424693585255495,43.71670471044873 -0.8425573934233932,43.71676846887251 -0.8427774806680025,43.716930072149886</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8427774806680025,43.716930072149886 -0.8428807869256763,43.7170055820895 -0.8434196862646196,43.71738040345097 -0.8438566268188153,43.71765160046935 -0.8443565392744278,43.717923705221864 -0.8448244717059257,43.71816522880595 -0.8450003618385562,43.71824989168133 -0.8461331374118309,43.718795003465104 -0.8463024698428876,43.71888252214129 -0.8466818283873713,43.71907839990216 -0.8473096609394424,43.719352186206486 -0.8479492614217354,43.719586497466324 -0.8485346934923962,43.71975218334582</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: asphalt
+segregated: no
+smoothness: good
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8485346934923962,43.71975218334582 -0.8486916291725318,43.71979087794447 -0.848803289762348,43.719813731118506</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: asphalt
+segregated: no
+smoothness: good
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.848803289762348,43.719813731118506 -0.8489460320609945,43.719840869251364 -0.8491675566100583,43.719876382531055</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8491675566100583,43.719876382531055 -0.849257118643885,43.71989073066916 -0.8497411309189686,43.71994948658349 -0.8504586153363949,43.720021681617 -0.8511854422327759,43.72007842477474</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: grass
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8511854422327759,43.72007842477474 -0.8512338614265901,43.720173732383266 -0.8514377789960852,43.72023190371015 -0.8516683765295187,43.7203559071314 -0.8518239647367282,43.72054197670502 -0.8519259235214758,43.72107122656872 -0.8518185748450234,43.72195182773243 -0.8517179635332021,43.72241562485194 -0.851884331523821,43.722481909113434 -0.8519514356755448,43.72252306894116 -0.8519158623902936,43.72261720408753 -0.8516355880216483,43.72283040341702 -0.851035423580328,43.72320447421953 -0.8505821336879613,43.72334307847953 -0.8503649210522612,43.72342637072132 -0.849997420269528,43.7236570954692 -0.8492952970434601,43.72397111081289 -0.8489929241188255,43.724177099310126 -0.8484597739977006,43.724547785934156 -0.8482312425894205,43.724808498655136 -0.8480956868130469,43.72506817155214 -0.8480555321198467,43.72515736893253 -0.8478490094360276,43.72542288291046 -0.8472642061860659,43.72575246916233 -0.8464301204447608,43.726341720977175 -0.8455770802509611,43.7266905823253 -0.8443191693586084,43.72686501223744 -0.8424389056374179,43.727173168343704 -0.8423585064194892,43.72694057457242 -0.8422136081641606,43.72683209974731 -0.841561880425532,43.726936809441135 -0.8406042763326605,43.72676432722546 -0.8402717200144795,43.72657139583344 -0.8399872235639989,43.72632659538337</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>fixme: Route qui traverse la carrière?
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8399872235639989,43.72632659538337 -0.83986666965287,43.726142101781655</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: unclassified
+surface: asphalt
+maxspeed: 50
+maxweight: 3
+smoothness: intermediate
+maxweightrating: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.83986666965287,43.726142101781655 -0.8394568582202547,43.72594501368916 -0.8392729730815955,43.725921383847975 -0.838996381805615,43.72594267667232 -0.8389479626118009,43.725939495732575</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Abbé Bordes</name>
+      <description>ref: D 7
+name: Avenue Abbé Bordes
+highway: secondary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8389479626118009,43.725939495732575 -0.8385089559324518,43.72662930128285 -0.8384737419733143,43.726684285441415</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Montfort</name>
+      <description>ref: D 7
+name: Route de Montfort
+highway: secondary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8384737419733143,43.726684285441415 -0.8380535100834032,43.727340910542026 -0.8376551970864247,43.72797182213527 -0.8372930861953959,43.72855709234586 -0.8370169440770576,43.72900967315291 -0.8369109428735316,43.72921707242314 -0.8368465336676603,43.72939058619042 -0.8367741294557602,43.72972099448082 -0.8366533958815745,43.73030352127855 -0.8365574558092305,43.730750181904355</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Montfort</name>
+      <description>ref: D 7
+name: Route de Montfort
+highway: secondary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8365574558092305,43.730750181904355 -0.8364414833060507,43.73135100367436 -0.836389201356515,43.731626226845655</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Fleury</name>
+      <description>name: Route de Fleury
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.836389201356515,43.731626226845655 -0.8363418601410417,43.73162427951634 -0.8345428939530641,43.73116068351527 -0.8341670388381884,43.73105007424997 -0.8339749790304438,43.73090850188173 -0.8337732174176306,43.73068390679162 -0.8336452973211719,43.73059082291492</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Fleury</name>
+      <description>name: Route de Fleury
+layer: 1
+bridge: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8336452973211719,43.73059082291492 -0.833623288596711,43.730574789624484</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Tuilerie</name>
+      <description>name: Route de la Tuilerie
+layer: 1
+bridge: yes
+highway: unclassified
+ref:FR:FANTOIR: 402050220T</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.833623288596711,43.730574789624484 -0.8336016391983637,43.730564273860814</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Tuilerie</name>
+      <description>name: Route de la Tuilerie
+highway: unclassified
+ref:FR:FANTOIR: 402050220T</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8336016391983637,43.730564273860814 -0.8334445238551711,43.73048858627276 -0.832962757368298,43.73051792658412 -0.8327495871513763,43.730532596734406 -0.8321965842624722,43.73052467745018 -0.831634777883784,43.73047229330605 -0.8312670076064655,43.73042347929159 -0.8308617775817991,43.730347012577276 -0.8300938078454053,43.730195182368725 -0.8297938603720378,43.73012059782859</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>fixme: Tracé approximatif
+highway: path
+surface: grass
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8297938603720378,43.73012059782859 -0.8296353975559191,43.73031559498554 -0.8295858105522358,43.73049527222993 -0.8297816432841738,43.73090038791193 -0.8300135882905335,43.73114848015565 -0.8300002033928001,43.73129771149433 -0.8296045853416739,43.73135678077751 -0.829456992140493,43.731401374802154 -0.8288321240288595,43.73126668386949 -0.8281669215609689,43.73113692590861 -0.8274105400917403,43.731177625409345 -0.8271020586231738,43.73109233168706</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>fixme: Tracé approximatif
+highway: track
+surface: grass
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8271020586231738,43.73109233168706 -0.8268713712582118,43.73093920513352 -0.8264717107883071,43.7308015921274 -0.8262357233631689,43.73054772126611 -0.8256966443611687,43.72996617053512 -0.825637625047002,43.72985568888958</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: grass
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.825637625047002,43.72985568888958 -0.8253425284761688,43.729964288064615 -0.8227219631293353,43.72893508713649 -0.8225933243806494,43.728576501719154 -0.8224940605417541,43.72819577824846</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Tuilerie</name>
+      <description>name: Route de la Tuilerie
+highway: unclassified
+ref:FR:FANTOIR: 402050220T</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8224940605417541,43.72819577824846 -0.8222071386400064,43.72824777489584 -0.8217693896020549,43.72824920301786 -0.820678655184077,43.728263094748385 -0.8197911196833669,43.72828620434904 -0.8195315065662564,43.728287502640946 -0.8194859619813515,43.728306198041295</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Poyanne</name>
+      <description>ref: D 339
+name: Route de Poyanne
+source: Bing
+highway: tertiary
+ref:FR:FANTOIR: 402050190K</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8194859619813515,43.728306198041295 -0.8192456626428496,43.72787172321911 -0.8188009965772104,43.72714382639388 -0.8184908981411324,43.726573278410584 -0.8183813036764698,43.726205785246044 -0.8182380223886527,43.72552772490283</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8182380223886527,43.72552772490283 -0.8179155272016538,43.72557608848453 -0.8168760865863991,43.72571851738286 -0.8158662903755204,43.72584549564114 -0.8157066597495323,43.72610717646866</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>fixme: Tracé approximatif
+highway: track
+surface: ground
+tracktype: grade3
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8157066597495323,43.72610717646866 -0.8147236333341202,43.726123730290546 -0.8144769559571012,43.72607711990977 -0.8143682598077225,43.725923980534276</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8143682598077225,43.725923980534276 -0.8138760728635537,43.72574078403963 -0.813648080444444,43.72558770872183 -0.8141926391696772,43.72529979882643 -0.8141992867027799,43.72521852164496 -0.814074600541344,43.72507401417938</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.814074600541344,43.72507401417938 -0.8142975623948625,43.72488153177119 -0.814843288929965,43.72437568635246 -0.815159675573032,43.72410802540196 -0.8154498314098027,43.72372409247206 -0.8157956827941887,43.72316182169654 -0.8160137937451728,43.722734580669744 -0.8161072185347212,43.722357325803245 -0.8161725260558768,43.72173752160759 -0.8161436901352564,43.72122132700389 -0.8160768554781179,43.72083101315211 -0.8160110987993205,43.720575022496995 -0.8159247707005166,43.72033681971048 -0.8157206734679646,43.719950070896154 -0.8154297989789666,43.71952313158564</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: asphalt
+segregated: no
+smoothness: good
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8154297989789666,43.71952313158564 -0.815342213238765,43.71940899492249 -0.8153107722038208,43.71935419885906</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: asphalt
+segregated: no
+smoothness: good
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8153107722038208,43.71935419885906 -0.8152842719029393,43.71932310012304 -0.8151488059580941,43.719161827922065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8151488059580941,43.719161827922065 -0.8150262757533402,43.719035679517035 -0.8145352566190405,43.71859652777397 -0.8138478657636322,43.71813049361925 -0.8131825734642133,43.71764400411279 -0.8126727795404756,43.71724730415404 -0.8123094110080491,43.71693617527837 -0.8119428983721285,43.716523368654606 -0.8114805354953921,43.71592032045995 -0.8113059928356876,43.71551140254438 -0.8110868937378908,43.715000478477315 -0.8109846654585581,43.714603890876354</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: asphalt
+segregated: no
+smoothness: good
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8109846654585581,43.714603890876354 -0.810964363533137,43.714525131434975 -0.8109586143153187,43.714486303576656 -0.8109469362166251,43.714417023706744</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: asphalt
+segregated: no
+smoothness: good
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8109469362166251,43.714417023706744 -0.8109417259879771,43.71438248113625 -0.8109184596221184,43.714246583198545</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8109184596221184,43.714246583198545 -0.8108707590805317,43.713945632774696 -0.8109106442791466,43.71322522858776 -0.8110186217762977,43.71268298805217 -0.8112540702122656,43.712159897574296 -0.8115327276133995,43.71166790525595 -0.8118961859773541,43.71119097338456 -0.8123256705146916,43.710755010828834 -0.8127714145586717,43.7104089137805 -0.8132697998783013,43.71011593100232 -0.8135435165453726,43.70997249099494 -0.8138414877251149,43.709857816663344 -0.8143797582433594,43.709617688161984 -0.814943361252616,43.709446584654216 -0.8156257215424331,43.709268792332466 -0.816208368835713,43.70919359732038 -0.8165075078253248,43.70916489591784 -0.8168494066224607,43.70915327249524 -0.8174003433862113,43.70915112962938 -0.8176998417019367,43.70917788297951</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8176998417019367,43.70917788297951 -0.8177726950714788,43.70918437650929 -0.818086117274108,43.709212428549876 -0.8191060644476975,43.70939613013002 -0.8196163075290773,43.70953716892506 -0.8199671894790543,43.70966022045719 -0.8204645866518714,43.70986956981841 -0.8208840100580268,43.710065412107234 -0.8213507746796553,43.710347810885786 -0.8217260908053605,43.710588390998375</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8217260908053605,43.710588390998375 -0.8217516029594294,43.71060481924075 -0.8218022679414537,43.71063540303175</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8218022679414537,43.71063540303175 -0.821946896702197,43.7107228037582 -0.8223451198676471,43.710942603684536 -0.8229469911080072,43.71123882907516 -0.8232570895440853,43.711358825265656 -0.8235960239007836,43.71146518532455 -0.8241716643348473,43.71165667191447 -0.8248018325066573,43.711752901973846 -0.8252289814242562,43.711798809241934 -0.8258216000171897,43.71182900282908 -0.8263756808844346,43.711821081072195 -0.8266795809450523,43.71180322464917 -0.8269838403317836,43.71177627767345</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+layer: -1
+width: 3
+tunnel: yes
+bicycle: designated
+highway: path
+railway: abandoned
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8269838403317836,43.71177627767345 -0.827361402245699,43.71172608484057</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.827361402245699,43.71172608484057 -0.8279072186123301,43.71164037382569 -0.8283406557369177,43.711569792011545 -0.8290088226452458,43.711461224422195 -0.8302980847410141,43.71125908818911 -0.8307713172326882,43.71118532420282 -0.8313360880518142,43.71108909323212 -0.8319301439492024,43.71100721237222 -0.8325247388357612,43.71097136916917 -0.8328902633248694,43.71098071957202</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8328902633248694,43.71098071957202 -0.8330222258401065,43.71099240757356</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8330222258401065,43.71099240757356 -0.8331652376333385,43.711018510768746 -0.8332857017129388,43.711047211283656 -0.8335634607987886,43.71104078288898 -0.8338944899809867,43.71104227635447</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8338944899809867,43.71104227635447 -0.8345859232551733,43.71118740206283 -0.8352328000912679,43.71135863046683 -0.8358567698876173,43.7115990117239 -0.8363701570724916,43.7118114061382 -0.8367634395038792,43.71204308466545 -0.8370963551481738,43.712286709774 -0.8374039383014564,43.712541696933236 -0.8374606219958843,43.71259169428822 -0.8375745283739107,43.71269207846203 -0.8379507428148999,43.71299478832257</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte de Chalosse</name>
+      <description>foot: designated
+name: Voie Verte de Chalosse
+horse: designated
+width: 3
+bicycle: designated
+highway: path
+railway: abandoned
+surface: fine_gravel
+segregated: no
+smoothness: bad
+traffic_sign: FR:C115
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8379507428148999,43.71299478832257 -0.8384646689889447,43.71342300783262</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8384646689889447,43.71342300783262 -0.838413734512335,43.7132358123262</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: yes
+horse: yes
+width: 2
+bicycle: yes
+highway: footway
+incline: down
+surface: gravel
+handrail:right: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.838413734512335,43.7132358123262 -0.8383722323462087,43.71311107992808 -0.8383265979297755,43.71300452799668</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Gare</name>
+      <description>name: Avenue de la Gare
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8383265979297755,43.71300452799668 -0.8382613802401485,43.71295862165217 -0.8380656373397388,43.71281181201735 -0.8379441851133259,43.712706688046396 -0.8378121327665604,43.712576305496384 -0.8376969687471362,43.712400080822135 -0.8378071022009692,43.71232060423355</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Gare</name>
+      <description>name: Avenue de la Gare
+highway: living_street
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8378071022009692,43.71232060423355 -0.8381533129114689,43.71207081070722 -0.8383178842715195,43.71187802679299</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Chalosse</name>
+      <description>name: Avenue de la Chalosse
+oneway: yes
+highway: living_street
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8383178842715195,43.71187802679299 -0.8380342861363231,43.71179867937701 -0.8377786256064627,43.711775628348576 -0.8375653655580128,43.71175517461171 -0.837040120611388,43.71165693164494 -0.8365046348705244,43.71156037676786 -0.8364159711519816,43.71152057299721</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place François Dupaya</name>
+      <description>name: Place François Dupaya
+oneway: yes
+highway: living_street
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8364159711519816,43.71152057299721 -0.8363849792746796,43.71148979485952 -0.8363511127884682,43.71144680933274 -0.8363381770483771,43.7114188232708 -0.8363370990700361,43.71135629288099 -0.8363367397439224,43.71133447540876</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

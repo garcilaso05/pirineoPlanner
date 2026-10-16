@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4280225220865408,43.6021022861554 1.4280879194392249,43.60206488170834</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: no
+highway: steps
+incline: up
+surface: asphalt
+handrail: yes
+step_count: 26
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4280879194392249,43.60206488170834 1.4280850448303157,43.601952473073545</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4280850448303157,43.601952473073545 1.428096004276782,43.60186907717986 1.4281321165512035,43.601794528178594</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

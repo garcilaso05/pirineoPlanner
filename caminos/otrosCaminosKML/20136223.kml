@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue du Bazech</name>
+      <description>name: Rue du Bazech
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2664312331593828,42.89302822545116 1.266443719741832,42.892992094164775 1.2665067814747772,42.8928777770045 1.26657110084912,42.892732395807755 1.2666010147480815,42.89268889326443 1.2666408999466963,42.89265381479186 1.266727138213972,42.89261162845978 1.2668093340624687,42.892583986853694 1.2672112403205837,42.89248250256511</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2672112403205837,42.89248250256511 1.2672534611389374,42.892469603123466 1.267300712522882,42.89244939838037 1.2674241410429201,42.89239437826465 1.267614044893983,42.89232863047825 1.2677910130049546,42.89226959561933 1.2679659149907727,42.89224511291878 1.2681342592750164,42.89223820247736 1.2683146409840678,42.89224109828148 1.2684916090950393,42.89228440369963 1.2687136726332735,42.89232073284153 1.2689028578321093,42.8923544294178 1.269060242669887,42.89239832707841 1.26921789700225,42.89247401262677 1.2693841751613406,42.892552593871756 1.2695505431519594,42.89263117501662 1.2697758406252164,42.89272160244131 1.2699989821417919,42.892814925510606 1.2701975098195821,42.89287389403448 1.270296234669307,42.89288672757852 1.2704174174011347,42.892858230525825 1.2704711366551251,42.89281097672352 1.2704734722748636,42.89277721458353</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2704734722748636,42.89277721458353 1.270598068604771,42.89276378869817</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.270598068604771,42.89276378869817 1.2707390142728494,42.89276971188324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2707390142728494,42.89276971188324 1.2708327983885115,42.89272752563045</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>route: hiking
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2708327983885115,42.89272752563045 1.270854627449916,42.89271896991263 1.270883283707479,42.892704096123445</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

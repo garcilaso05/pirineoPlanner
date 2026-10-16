@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4841098249973559,43.610543387094424 1.4843954892577058,43.610558216683245</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+layer: -1
+tunnel: yes
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4843954892577058,43.610558216683245 1.4848736624834427,43.61059080274059</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4848736624834427,43.61059080274059 1.4852089137474762,43.61062579533342</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passerelle des Argoulets</name>
+      <description>foot: designated
+name: Passerelle des Argoulets
+layer: 1
+bridge: yes
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4852089137474762,43.61062579533342 1.4856353440128478,43.61069519508087</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4856353440128478,43.61069519508087 1.4857338891995155,43.6107184800766</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

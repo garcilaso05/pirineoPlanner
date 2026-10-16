@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Liaison Pont-St-Mamet - Beauregard-et-Bassac - St-Martin-des-Combres</name>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: parking_aisle</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5939728032244584,44.987655775594234 0.5939888830680442,44.9876388755034</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: parking_aisle</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5939888830680442,44.9876388755034 0.5939976865578287,44.987549927574705</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: parking_aisle</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5939976865578287,44.987549927574705 0.5940090951619369,44.98743531161165</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: parking_aisle</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5940090951619369,44.98743531161165 0.5938588968464321,44.98742857696367</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard du Pont Saint-Mamet</name>
+      <description>ref: D 6021
+name: Boulevard du Pont Saint-Mamet
+lanes: 2
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5938588968464321,44.98742857696367 0.593826377833147,44.98765120113405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard du Pont Saint-Mamet</name>
+      <description>ref: D 6021
+name: Boulevard du Pont Saint-Mamet
+lanes: 2
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.593826377833147,44.98765120113405 0.5937510091808094,44.98816773162363 0.5936965712745917,44.98850179031527 0.5936486012384198,44.98863717946641 0.5935934446799749,44.98874740925239</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5935934446799749,44.98874740925239 0.5937149867379162,44.98877873099152</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1
+highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5937149867379162,44.98877873099152 0.5937203766296208,44.988840484958494 0.5937660110460542,44.98887657160799 0.593843805149659,44.98888228956093 0.5940435904688471,44.98887657160799 0.594302395102202,44.98887282317185 0.5945437724190449,44.98885566930849 0.5947369102051305,44.988782670032556 0.59485629630639,44.98875522380555 0.595176815199764,44.988753317817064 0.5955912080403283,44.9887580192552 0.5960109907725972,44.98875611326682 0.5964508059357022,44.988719073546676 0.5968142642996569,44.988662211494045 0.5970114445045211,44.988645121100724 0.5973735553955498,44.98863749713181 0.5978697847584974,44.98861468875205 0.5982371957097022,44.988606175315496 0.598803224170226,44.98861951726774 0.5992188746521881,44.988657382981955 0.5995165763373453,44.988674473371624 0.6000128057002929,44.98875039530128 0.6002622678546928,44.9887580192552 0.6005010400572119,44.98875420727837 0.6007344223680261,44.988763673687025 0.6009998745344834,44.98877320362704 0.6011580678560169,44.988809226786 0.6013378207443691,44.988907893276526 0.601445079589293,44.98899887214368 0.6015201787470454,44.98914690309237 0.6015658131634788,44.9893366108651 0.6016233053416623,44.98945560674637</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6016233053416623,44.98945560674637 0.6017277794092054,44.98959563148194 0.6017968598545542,44.98961863006732 0.6018758217680283,44.98961602525563 0.6021304941510763,44.989523014340996 0.6025519836823852,44.9893143745545 0.6030614182800095,44.98903038434333</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6030614182800095,44.98903038434333 0.603092320325783,44.98901278579849</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.603092320325783,44.98901278579849 0.60318412814782,44.988966406936015</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.60318412814782,44.988966406936015 0.6031161256808122,44.988332918743765 0.6030285399406106,44.98800927860799 0.6029228082316697,44.98778297085495 0.6027700946333693,44.98753798312805 0.6023952276653063,44.98702119282411</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Georges Chaverou</name>
+      <description>ref: D 38
+name: Route Georges Chaverou
+oneway: no
+highway: secondary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6023952276653063,44.98702119282411 0.6024872151504003,44.98701661831328 0.6026545712878316,44.98699762138245</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: D 38
+layer: -1
+oneway: no
+tunnel: yes
+highway: secondary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6026545712878316,44.98699762138245 0.6028288444529509,44.98696871299737</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Georges Chaverou</name>
+      <description>ref: D 38
+name: Route Georges Chaverou
+oneway: no
+highway: secondary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6028288444529509,44.98696871299737 0.6031085798324256,44.98692131592127</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

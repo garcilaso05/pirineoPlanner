@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue des Liserons</name>
+      <description>name: Rue des Liserons
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3682609300006203,43.52641542473422 1.367996106654862,43.52660698050334 1.3680000592421122,43.526649381919135 1.3683710634544535,43.526943325169526 1.3685209024438445,43.527009173992894 1.3686148662225637,43.52708987289798</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3686148662225637,43.52708987289798 1.3690553102063674,43.52743552872992</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+oneway: no
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3692234748275547,43.653102122086416 1.3692853687506303,43.653092827654554 1.3693400761514332,43.65308457315793 1.3694219126738165,43.653091982706144</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+oneway: no
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes
+smoothness: good
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2023-04-08</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3694219126738165,43.653091982706144 1.3699688070187885,43.65325577248567 1.370647124889827,43.65345907917795</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+path: crossing
+oneway: no
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes
+smoothness: good
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2023-08-02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.370647124889827,43.65345907917795 1.3707601329525694,43.65349287689894 1.3708097199562526,43.65350347118065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+oneway: no
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3708097199562526,43.65350347118065 1.3708958683919996,43.65352277486704 1.370912487224756,43.653526479614236 1.3710734653236705,43.653579125996906 1.3715058244699168,43.65371340656149</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+path: crossing
+oneway: no
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes
+smoothness: good
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2025-06-20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3715058244699168,43.65371340656149 1.3716334750717905,43.65375311871352 1.3716899791031614,43.65377047246075</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+oneway: no
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes
+smoothness: good
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2025-06-20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3716899791031614,43.65377047246075 1.3717462136399474,43.65378782620296 1.372390485361718,43.65398580149889 1.372463787888902,43.65400828978735</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+path: crossing
+oneway: no
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes
+smoothness: good
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2025-06-20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.372463787888902,43.65400828978735 1.3725209207409719,43.654025903440925 1.3725714958914679,43.654040722304146 1.372618387949299,43.65405450124385</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+oneway: no
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes
+smoothness: good
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2025-06-20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.372618387949299,43.65405450124385 1.3727073211624268,43.654080174259875 1.3728212275404534,43.65411312669728 1.373076708407257,43.65418702588463 1.373256640958666,43.65423902174032 1.3735226321142937,43.6543159105294 1.3735947668316084,43.65433677382713</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: Toulouse - Orthophotoplan 2017
+footway: sidewalk
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3735947668316084,43.65433677382713 1.3736389639435873,43.654370506059514 1.3736466894550305,43.654396178940445 1.3736530674935479,43.65444213012018 1.3737133444491123,43.65446572314505</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+source: Toulouse - Orthophotoplan 2011
+bicycle: designated
+highway: path
+surface: concrete
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3737133444491123,43.65446572314505 1.3737761366874723,43.65448879620449 1.373806409912547,43.65450043022265 1.3738356051592808,43.65451167427157 1.3738717174337027,43.654525323114264 1.373906482235198,43.65454020684871 1.3739496013688357,43.654558015329606 1.3740017036553147,43.65457757865473</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

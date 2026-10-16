@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Pourville</name>
+      <description>name: Chemin de Pourville
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.510257986287507,43.42344201580968 1.510078323230683,43.42317510179339 1.5099521997647924,43.423020276770934 1.5098341611364592,43.42289070103692 1.5097108224479496,43.42277378251322 1.5094802249145163,43.422595598770776 1.5092454951307757,43.42240860640681 1.5088712569834115,43.422135815742976 1.508590982614766,43.42195077932877 1.5082946284025351,43.42176371972728 1.5081182891122624,43.421639621967856 1.5080733733480565,43.42158742514762</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Château</name>
+      <description>name: Rue du Château
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5080733733480565,43.42158742514762 1.507996926717378,43.42162011341156 1.506604807521578,43.42201308890376 1.505574889048335,43.42230917268844 1.5049607108885823,43.42249140246894</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Fontaine</name>
+      <description>ref: D 91
+name: Rue de la Fontaine
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5049607108885823,43.42249140246894 1.505019730202749,43.422563432993535 1.5051067769537803,43.422731895353245 1.5052020882054253,43.42298621912754 1.5052489802632563,43.42314978698326 1.5052931773752352,43.42333879962711 1.50537097147884,43.42360962755424 1.5054066345956194,43.42371088596214 1.5054434655222684,43.42379511560411 1.5054924237052527,43.423871581141945 1.5055882739460684,43.42400108953309</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

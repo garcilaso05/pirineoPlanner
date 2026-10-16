@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Portugalete accesible - Portugalete irisgarria</name>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: designated
+horse: no
+width: 2
+footway: sidewalk
+highway: footway
+incline: 0%
+surface: paving_stones
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.0227669710139606,43.32269948409656 -3.0239840983924138,43.323272819102485 -3.024005927453818,43.323283079351384 -3.0240184140362674,43.32326706813419 -3.0242879086215035,43.32292142086974 -3.0243091088622083,43.32289429966444 -3.023870731003558,43.322706672874 -3.0236245926157093,43.32260217410729 -3.0230916221576414,43.322375988231194 -3.023049042013174,43.32236161059719 -3.023023080701463,43.32239271856464 -3.0227669710139606,43.32269948409656</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: yes
+horse: no
+width: 2
+bicycle: no
+footway: sidewalk
+highway: footway
+incline: 0%
+surface: paving_stones
+smoothness: excellent
+wheelchair: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.021968278894849,43.32239186897752 -3.0219998097613225,43.322406900132755 -3.0226374339499906,43.32271170501771 -3.0227313078971805,43.322756602177506</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: yes
+horse: no
+width: 2
+narrow: yes
+source: hirilagunkoiak;Volcado datos Ciudades Amigables-Santa María
+bicycle: no
+footway: sidewalk
+highway: footway
+surface: paving_stones
+smoothness: excellent
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.0227313078971805,43.322756602177506 -3.0232427187884303,43.32299611848825 -3.023583539607225,43.32315740752098 -3.023809016743539,43.32326380053833</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>width: 2
+footway: sidewalk
+highway: footway
+incline: -5%
+surface: paved
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-3.023809016743539,43.32326380053833 -3.02394699797118,43.32332222512585 -3.0239913747462155,43.323340915753846 -3.024317103868237,43.32349083268083</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

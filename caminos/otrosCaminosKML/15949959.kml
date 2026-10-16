@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Piste Cyclable de la Vallée de l'Hers</name>
+      <description>lit: yes
+name: Piste Cyclable de la Vallée de l'Hers
+width: 2.5
+highway: cycleway
+name:oc: Pista Ciclabla de la Val d'Èrs
+surface: asphalt
+cycleway: crossing
+surface:colour: green</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4839937626626476,43.60674448536278 1.4839898100753974,43.60677369108709 1.4839847795098065,43.60680127064449 1.4839784014712891,43.60684797373404 1.4839649267420274,43.60694417678057 1.4839743590525105,43.60700649077458</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Marie le Pech de Calages</name>
+      <description>lit: yes
+foot: designated
+name: Allée Marie le Pech de Calages
+width: 3
+bicycle: designated
+highway: path
+incline: 0%
+surface: asphalt
+segregated: no
+smoothness: excellent
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4839743590525105,43.60700649077458 1.4839130939501337,43.6070918959663 1.4839132736131906,43.607094107523345 1.4839174956950258,43.60715147788658 1.4839166872112701,43.607549621496254 1.4839261195217535,43.60806107052951 1.483984420183693,43.60859638642902 1.4840108306530457,43.608842382976135 1.4841138674161343,43.6095244945272 1.4841247370310724,43.60968827299654 1.484130126922777,43.60992138661745 1.4841098249973559,43.610543387094424</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

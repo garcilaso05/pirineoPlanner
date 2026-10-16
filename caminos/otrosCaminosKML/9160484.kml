@@ -1,0 +1,446 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Paseando por los tres ríos</name>
+    <Placemark>
+      <name>Camino de las Torres</name>
+      <description>lit: yes
+name: Camino de las Torres
+footway: sidewalk
+highway: footway
+name:es: Camino de las Torres
+name:zh: 塔道
+surface: paving_stones
+name:etymology:wikidata: Q61786050</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8666606298007746,41.64894530495782 -0.8667651038683177,41.64892120712435</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>construction</name>
+      <description>highway: construction
+surface: dirt
+construction: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8667651038683177,41.64892120712435 -0.866790885516972,41.64898363324819 -0.8667898973701594,41.649009207804035 -0.8667777701138237,41.64902860686981 -0.8667599834711982,41.649046596309674 -0.8667361781161691,41.649057000647595 -0.8666706011004284,41.64908411904305 -0.8666484127129106,41.64917191812629</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>construction</name>
+      <description>highway: construction
+surface: concrete
+construction: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8666484127129106,41.64917191812629 -0.8671882103671379,41.64891368913547 -0.8673944635563718,41.6488675071845 -0.8675664011017523,41.64887650192754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>construction</name>
+      <description>highway: construction
+construction: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8675664011017523,41.64887650192754 -0.8662108433380159,41.64960842815295</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>construction</name>
+      <description>lit: yes
+highway: construction
+surface: compacted
+construction: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8662108433380159,41.64960842815295 -0.8657828859366614,41.64988672440548</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8657828859366614,41.64988672440548 -0.8657209021820572,41.64993438235034 -0.8656859577175049,41.649964990814645</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>construction</name>
+      <description>highway: construction
+construction: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8656859577175049,41.649964990814645 -0.8656988036260678,41.65055702009213 -0.8657141648174262,41.65098808379154 -0.8656578404491119,41.651286980673795 -0.8655628885235805,41.65151882113605 -0.8652127252258307,41.65199041991829 -0.8651476871992606,41.65202431636727 -0.8650318045276091,41.6520180069306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8650318045276091,41.6520180069306 -0.8649284982699353,41.652065797541965</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: -1
+covered: yes
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8649284982699353,41.652065797541965 -0.8648261801590741,41.652300185813544</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8648261801590741,41.652300185813544 -0.8648798994130645,41.6523607963876 -0.8649732343710845,41.652446308883455 -0.8649647003758854,41.65250329477724 -0.8647824322047375,41.65278359214993</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: -1
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8647824322047375,41.65278359214993 -0.8646777784741376,41.65294038631686</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8646777784741376,41.65294038631686 -0.8645811197495663,41.652972067283685 -0.8644857186663928,41.65297052350813 -0.8641676252242861,41.65289326756194 -0.8639707145140071,41.652797888894156 -0.8636802891826513,41.65269331451339 -0.8633305750425436,41.65258880708393 -0.8633049730569461,41.652579879980294 -0.8631821733576069,41.652536922471825 -0.8629999950179875,41.652473224488574 -0.8628639002524434,41.65244677873202</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8628639002524434,41.65244677873202 -0.8624327089160662,41.65233173285256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8624327089160662,41.65233173285256 -0.8618914739573841,41.65212318650174 -0.8618436835842689,41.65207962459426 -0.8611767743173385,41.651884703155886 -0.860702823173437,41.65172387910082 -0.8605558587929552,41.65168729761321 -0.8602737877937418,41.65157580785034 -0.8601479338224365,41.65156191356776 -0.8599427586115436,41.651490495565554 -0.8597818703441577,41.651481769676394 -0.85966068761233,41.65145216876667 -0.8593878692605429,41.65134242377861 -0.8591921263601333,41.65129362579421 -0.8592129672747247,41.65124308258844 -0.8589962037966669,41.651201332393875 -0.85904749759939,41.65108279391264</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.85904749759939,41.65108279391264 -0.8590568400783449,41.65097137022631</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8590568400783449,41.65097137022631 -0.8589263148675624,41.650896394059 -0.8586977834592824,41.650847729982495 -0.8585695938682385,41.65079362891085</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8585695938682385,41.65079362891085 -0.858071208548609,41.65068032527858 -0.8579695192584467,41.6506783787097</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Azud Manuel Lorenzo Pardo</name>
+      <description>lit: yes
+name: Azud Manuel Lorenzo Pardo
+highway: footway
+surface: concrete
+wikidata: Q5715178
+name:etymology:wikidata: Q10874211</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8579695192584467,41.6506783787097 -0.8578522891138689,41.6509161952934</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Azud Manuel Lorenzo Pardo</name>
+      <description>lit: yes
+name: Azud Manuel Lorenzo Pardo
+bridge: yes
+highway: footway
+surface: concrete
+alt_name: Azud del Ebro
+wikidata: Q5715178
+name:etymology:wikidata: Q10874211</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8578522891138689,41.6509161952934 -0.8571369606531247,41.65239851855439 -0.8569820910981425,41.65272788180181</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8569820910981425,41.65272788180181 -0.8569419364049422,41.652717209573 -0.8569107648645833,41.65270888657571 -0.8568062009655117,41.652681098496345</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8568062009655117,41.652681098496345 -0.8565561998219413,41.65261760201879 -0.856306198678371,41.652554172599764</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.856306198678371,41.652554172599764 -0.856226158786556,41.652532022629195 -0.8561218643820696,41.65250302629258 -0.8546583291211821,41.652096673479896 -0.8546091912751408,41.65201129476324 -0.8545789180500659,41.651978069524525 -0.8541679388075812,41.6518595324726 -0.8538643980730772,41.65178616826495 -0.8533786789989537,41.65183328782969 -0.853271869311672,41.65184590673863 -0.8528626866997556,41.65189436869566 -0.8526314603456232,41.65195538238197 -0.8524844061336129,41.65197290115252 -0.852059413172696,41.651951892051635 -0.8515337190684292,41.651881884039845</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo Fluvial del Gállego</name>
+      <description>lit: no
+foot: yes
+name: Paseo Fluvial del Gállego
+bicycle: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8515337190684292,41.651881884039845 -0.851511440849383,41.65187007059988 -0.8510945327260231,41.65176992476027 -0.850945771714973,41.65165762967588 -0.8507188572742044,41.65161467155239</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8507188572742044,41.65161467155239 -0.8505570706915344,41.651561309468455 -0.8502753590184345,41.65145498790152 -0.8501251607029298,41.651364909769995 -0.8499776573332773,41.651254627653536 -0.8497282850104059,41.6510282231795 -0.8495109825431773,41.65083779579409 -0.8494721753229033,41.65081457126656 -0.849419803541839,41.65081168498076 -0.849328624540501,41.65084376973189 -0.849234660761782,41.65086779972333 -0.8491067406653234,41.650827928727054 -0.8490482603403272,41.65078517141911 -0.8489333658154884,41.65070811422105 -0.8489146808575787,41.65065488563232 -0.8488673396421055,41.65061931038457 -0.8487412161762152,41.65059528030044 -0.8487385212303629,41.65069549508924 -0.8487530739379656,41.6507551003284 -0.8488116440944902,41.65080960416998 -0.8488780295939866,41.650878069521404 -0.8488920433124189,41.65092002129393 -0.8488860246000152,41.65103822446123 -0.8489235741788915,41.65111427442525 -0.8490120582343772,41.651254627653536 -0.8490389178613724,41.651386925897214 -0.8489905884990867,41.651479084787184 -0.8489584288119152,41.65155453013136 -0.8489397438540056,41.651637425937 -0.8489074943353058,41.65179368591861 -0.848942438799858,41.65195410706899 -0.8489651661765462,41.65203720372538 -0.8490120582343772,41.65220863219155 -0.8490630825425153,41.65256531470329 -0.8491140170191248,41.65274566884591 -0.8492293607016057,41.65293609059134 -0.8494385783312772,41.653314918783906 -0.8497202001728487,41.65374368195255 -0.8498463236387391,41.65386201417798 -0.850009637357392,41.65394537685177</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo Fluvial del Gállego</name>
+      <description>lit: no
+foot: yes
+name: Paseo Fluvial del Gállego
+bicycle: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.850009637357392,41.65394537685177 -0.8500268850108471,41.653978668195386 -0.8501755561903689,41.654342321308015</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo Fluvial del Gállego</name>
+      <description>lit: no
+foot: yes
+name: Paseo Fluvial del Gállego
+bicycle: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8503242273698907,41.654705905248655 -0.8504948174423449,41.655123114788374 -0.8505480875386932,41.65540017908983 -0.8505143108840104,41.655741876663306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo Fluvial del Gállego</name>
+      <description>name: Paseo Fluvial del Gállego
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8505143108840104,41.655741876663306 -0.8503652803783748,41.65594718965459 -0.8501133029411794,41.656213578761616 -0.8500503310397626,41.65628828027107 -0.849979992953016,41.65641331953101 -0.8497918857325213,41.65674789735534 -0.849650490906801,41.65699931617745 -0.8494016575730999,41.65746859289086 -0.8490403551658271,41.658150219280614 -0.849006129353502,41.65842948535477 -0.8489032722534704,41.6587366699262 -0.8487864014350064,41.65894647003894 -0.8488077813387686,41.6593633165394 -0.8488058050451435,41.65945412173859 -0.8488084101594673,41.65964351694527</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8488084101594673,41.65964351694527 -0.8484931913262699,41.6598584147299 -0.848220193311426,41.66009290887094 -0.8479329120835645,41.66033981806394 -0.8478001410845716,41.660455319429914 -0.847533521108245,41.660812895849176 -0.8474718966797543,41.66100732048257 -0.8474026365713486,41.66119999961433 -0.8473727226723876,41.66156179993733</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo Fluvial del Gállego</name>
+      <description>name: Paseo Fluvial del Gállego
+bicycle: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8473727226723876,41.66156179993733 -0.8470287577500981,41.66211312039372 -0.8468842188208833,41.66219452616707 -0.8467759718291469,41.66236673292969 -0.8464348815157667,41.66292079801713 -0.8462202739943906,41.66323507482302 -0.8461080744154041,41.663362516549974 -0.8460171649086512,41.663446001146426 -0.8457860283860472,41.663658201860166 -0.8453330079882657,41.66399341313768 -0.8449561647265775,41.664255608209885 -0.8448010256770102,41.664306006986756 -0.8445024256765689,41.664502971202445 -0.8443153066028868,41.66462262583043 -0.8441848712236325,41.664771271062506 -0.8440311694785196,41.665058091637455 -0.8438930085878222,41.66530612262528 -0.8437825158078754,41.66552818202532 -0.8436506431241667,41.665716821186 -0.8435821016679884,41.66581030171788</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Paseo Fluvial del Gállego</name>
+      <description>name: Paseo Fluvial del Gállego
+bicycle: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8435821016679884,41.66581030171788 -0.843433520319995,41.66601900507173 -0.8433135952295651,41.66621858121526 -0.8431401305482016,41.66660061949811 -0.8430050239294701,41.666844282639595 -0.8429071973950294,41.667129416331804 -0.8428311100904645,41.66731791658958 -0.8426115618350256,41.66777913258618 -0.8424663940851119,41.66813197099421 -0.8424211189947923,41.66825732278165 -0.8424518413775092,41.66840139650998</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8424518413775092,41.66840139650998 -0.842545355998586,41.668429781747726</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.842545355998586,41.668429781747726 -0.8426378824728503,41.66839508867767 -0.8427940096692302,41.668272689766646 -0.8429055804275181,41.66823987554535</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8429055804275181,41.66823987554535 -0.8427416378881663,41.66846293139489 -0.8427048967930456,41.668516480788846 -0.8426986085860568,41.66869967574716 -0.8426975306077159,41.668785770487055</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8426975306077159,41.668785770487055 -0.842717832533137,41.669178194624045 -0.8428338948678452,41.669764209320576</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8428338948678452,41.669764209320576 -0.8429930763361911,41.67023131282873 -0.8430547905962102,41.67032337765129 -0.8434867005848149,41.67067412194609 -0.8436732806693266,41.67073968078825 -0.8437493679738914,41.67080758813676</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenida de Cataluña</name>
+      <description>name: Avenida de Cataluña
+highway: living_street
+name:es: Avenida de Cataluña
+name:zh: 加泰罗尼亚大道
+name:etymology:wikidata: Q5705</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8437493679738914,41.67080758813676 -0.8437852107537278,41.6708073868305 -0.8438428825949683,41.67079980429412 -0.8439364870475735,41.67076840050565</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenida de Cataluña</name>
+      <description>name: Avenida de Cataluña
+highway: footway
+name:es: Avenida de Cataluña
+name:zh: 加泰罗尼亚大道
+name:etymology:wikidata: Q5705</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8439364870475735,41.67076840050565 -0.8439546330163128,41.670805373767834 -0.8439717908382394,41.67084060235541</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8439717908382394,41.67084060235541 -0.8439923622582458,41.67087978994256 -0.8440239829562468,41.67093998041952</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenida de Cataluña</name>
+      <description>name: Avenida de Cataluña
+lanes: 2
+oneway: yes
+highway: primary
+name:es: Avenida de Cataluña
+name:zh: 加泰罗尼亚大道
+old_ref: N-IIa
+maxspeed: 50
+cycleway:lanes: none|shared_lane
+maxspeed:lanes: 50|30
+name:etymology:wikidata: Q5705</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8440239829562468,41.67093998041952 -0.8441666354233649,41.6708554990095</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenida de Cataluña</name>
+      <description>name: Avenida de Cataluña
+lanes: 4
+highway: primary
+name:es: Avenida de Cataluña
+name:zh: 加泰罗尼亚大道
+old_ref: N-2A
+lanes:forward: 2
+lanes:backward: 2
+name:etymology:wikidata: Q5705</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8441666354233649,41.6708554990095 -0.844299226759301,41.670805507972005 -0.8446173202014077,41.67067667183065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenida de Cataluña</name>
+      <description>name: Avenida de Cataluña
+lanes: 4
+highway: primary
+name:es: Avenida de Cataluña
+name:zh: 加泰罗尼亚大道
+old_ref: N-2A
+lanes:forward: 2
+lanes:backward: 2
+name:etymology:wikidata: Q5705</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8446173202014077,41.67067667183065 -0.8448166563629539,41.67059460575827 -0.8448678603341486,41.67057346852725</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenida de Cataluña</name>
+      <description>name: Avenida de Cataluña
+lanes: 4
+highway: primary
+name:es: Avenida de Cataluña
+name:zh: 加泰罗尼亚大道
+old_ref: N-2A
+lanes:forward: 2
+lanes:backward: 2
+name:etymology:wikidata: Q5705</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8448678603341486,41.67057346852725 -0.8459901256185992,41.67010180450997</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

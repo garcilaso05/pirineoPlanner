@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+width: 3
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: no
+smoothness: excellent
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.373669686326304,43.57075812058874 1.3734348667110354,43.57095682499095 1.3731851350620499,43.571228293325895 1.3725742806688486,43.57188967905001 1.3721779439654953,43.572340317947486 1.3720173251926946,43.57255418150147</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+width: 2.8
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: no
+smoothness: intermediate
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3720173251926946,43.57255418150147 1.3703497825307838,43.5747844089984 1.370015339750506,43.57523190238396</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: no
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.370015339750506,43.57523190238396 1.3694891066570685,43.57593958074379 1.3683873229610959,43.57736773286728 1.3681454066550827,43.57766871754416 1.3679610723587814,43.57796781347538 1.3676824149576474,43.578445674061385 1.3673736639944956,43.57898248990781 1.3673114107453062,43.57914882440796 1.3673097039462663,43.579186893859216 1.3673196752459198,43.57922092857902 1.3673686334289044,43.57931151420224 1.3673707893855862,43.5793413840007 1.367356057014927,43.57937619954231 1.367408877953633,43.579433205880974 1.3674659209741746,43.57956140487008 1.367527006413495,43.57963747815133</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: designated
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: uncontrolled
+segregated: no
+tactile_paving: yes
+crossing:island: yes
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.367527006413495,43.57963747815133 1.3675149689886876,43.57964483167983 1.36748936700309,43.57966051486595 1.3674645735012485,43.579676978953195 1.367435468086043,43.57972298726802 1.3674195679055143,43.57975988500004 1.367412561046298,43.57977608875882</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+width: 2
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.367412561046298,43.57977608875882 1.3673663876406943,43.579782921667835 1.3673194057513347,43.57979528597742 1.3672737713349015,43.579812791232435 1.367209092634445,43.579835372353145 1.3671407308413235,43.57984682559845 1.3670715605644463,43.57985020951141 1.3670039174235518,43.5798453939429 1.3669395082176807,43.57983010125656 1.3668824651971392,43.57981012314557 1.3668510241621947,43.57980843118798 1.3668100609852392,43.57982567613809 1.366755533247493,43.57986530696695 1.3664614248234723,43.580089881171155 1.3656990246418401,43.58066377475975 1.3654878307185436,43.58082561449603 1.3654273740999223,43.5808871095773 1.36540599419616,43.58089700084377 1.3653775176016536,43.580900384697706 1.3653388900444363,43.58089120924715 1.3653177796352598,43.5808925758037 1.365296669226083,43.58090188140228 1.3652681926315762,43.580943528818835</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2024-11-28</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3652681926315762,43.580943528818835 1.365252382282576,43.58097489451041 1.3652365719335753,43.58100632525966</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

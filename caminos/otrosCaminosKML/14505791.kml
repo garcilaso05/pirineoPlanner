@@ -1,0 +1,222 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Chemin du moulin</name>
+    <Placemark>
+      <name>track</name>
+      <description>ref: R 4
+highway: track
+surface: grass
+tracktype: grade5
+name:cadastre: Chemin Rural du Moulin</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9864802580163751,43.63665451195797 0.9866062916507371,43.63665171636364 0.9867602628904351,43.636679477259705 0.9872474192690132,43.636757493760754 0.9875048764294416,43.636766205597084 0.9878360852746967,43.63675547833575 0.9882599104257443,43.63670021665611 0.9888901684290824,43.636583776880066 0.9896100782977759,43.636400502425985</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: R 3
+highway: track
+surface: grass
+tracktype: grade5
+name:cadastre: Chemin Rural de Caubet</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9896100782977759,43.636400502425985 0.9905143224627706,43.63807771263921 0.9906822175893727,43.63846427441407 0.9912273153037764,43.639647868715734 0.9921155694567136,43.64077559668666 0.9921506037527943,43.64090412005613</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Monferran</name>
+      <description>ref: D 39
+name: Route de Monferran
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9921506037527943,43.64090412005613 0.9924516292045029,43.64094241047571 0.9933037710830187,43.64105078068207 0.9934534304093527,43.641069828334615 0.9940467676545137,43.641157005397694 0.9942358630218211,43.641175532945134 0.9943944156694681,43.64118521927468</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Monferran</name>
+      <description>ref: D 39
+name: Route de Monferran
+highway: tertiary
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9943944156694681,43.64118521927468 0.9945527886540584,43.6411856743371 0.9948383630828798,43.6411633762743 0.995153941242191,43.641129571615195</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.995153941242191,43.641129571615195 0.9951795432277886,43.64125282851125</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9951795432277886,43.64125282851125 0.9954361919044615,43.641244897431676 0.9954360122414045,43.64119393046905 0.9957022728916177,43.64118840471157 0.9958409727714856,43.641180928685955 0.9960978011112155,43.64118287895359</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9960978011112155,43.64118287895359 0.9963185171765236,43.64117072228424 0.996452276322329,43.64120309672444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.996452276322329,43.64120309672444 0.9964730274053921,43.64115947573768</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9964730274053921,43.64115947573768 0.9964892869120348,43.64111559468327</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: fine_gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9964892869120348,43.64111559468327 0.9966075950349534,43.641127426318874 0.9966577210278071,43.64112710127397 0.9968095363108235,43.64112612613926 0.9969332343254467,43.64111559468327 0.9970969972017416,43.64109453176578 0.997218988417325,43.64109583194608 0.9974353925692695,43.64109843230661 0.9975791230147285,43.64111689486313 0.9976936582134538,43.641143223499036 0.9977622895011605,43.641161230979186 0.9978506837251178,43.64118450417658</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9978506837251178,43.64118450417658 0.997940964411172,43.641192500273036 0.998011841487089,43.641192500273036 0.9980915220527902,43.641189574872016 0.9981754247003272,43.64117650807905 0.9982451339663748,43.641150179457725 0.9983328993696333,43.64110122769405 0.9985063640509967,43.640995587961925</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9985063640509967,43.640995587961925 0.9987495379984079,43.6408487321734 0.9991076064706579,43.640629325446085</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'a Comminge</name>
+      <description>name: Chemin d'a Comminge
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9991076064706579,43.640629325446085 0.9988761106219404,43.64042818565642 0.9987551075531695,43.640331906158735 0.9983986560484307,43.64010502138456 0.9981814434127307,43.63998267227682 0.998115686733933,43.63996622468914 0.9979615358311783,43.639956473152814 0.997879699308795,43.63993612494193 0.9978179850487761,43.63988561194133 0.9977615708489332,43.63981871628059 0.9971137058660263,43.638120685741086 0.9969443734349697,43.63772729542692 0.9967933666357092,43.637388383477756 0.9967491695237305,43.63727096983796</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: R
+highway: track
+surface: grass
+tracktype: grade3
+name:cadastre: Chemin Rural d'En Mercé</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9967491695237305,43.63727096983796 0.9965165058651436,43.636803003339594 0.996275667537471,43.636493472509805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: R
+highway: track
+surface: grass
+tracktype: grade3
+name:cadastre: Chemin Rural d'En Mercé</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.996275667537471,43.636493472509805 0.9962381179585951,43.63639738174935 0.9962233855879354,43.63628191659985 0.9962421603773735,43.636053781257495 0.9962394654315211,43.63595970524569 0.9962140431089805,43.63588487342691 0.9958666645886115,43.635381202800865 0.9953537265613793,43.6347090069119 0.9952274234324322,43.63457136804106</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Pyrénées</name>
+      <description>ref: C 3
+name: Chemin des Pyrénées
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9952274234324322,43.63457136804106 0.9951705600749474,43.63458430623837 0.9951009406404281,43.6346231208136 0.9941197108555841,43.63512991853622 0.9938831844412758,43.63522978221455 0.9935948252350734,43.63532678505571 0.9926762080255327,43.635592826896854 0.9917103394320474,43.63580132953999</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Médecine</name>
+      <description>name: Chemin de la Médecine
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9917103394320474,43.63580132953999 0.9914075173497706,43.635879802283775</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Médecine</name>
+      <description>name: Chemin de la Médecine
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9914075173497706,43.635879802283775 0.9903433730642027,43.636227889756064 0.9902253344358694,43.636260071816864 0.9899131698746378,43.63632742653886 0.9896100782977759,43.636400502425985</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: R 4
+highway: track
+surface: grass
+tracktype: grade5
+name:cadastre: Chemin Rural du Moulin</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9896100782977759,43.636400502425985 0.9888901684290824,43.636583776880066 0.9882599104257443,43.63670021665611 0.9878360852746967,43.63675547833575 0.9875048764294416,43.636766205597084 0.9872474192690132,43.636757493760754 0.9867602628904351,43.636679477259705 0.9866062916507371,43.63665171636364 0.9864802580163751,43.63665451195797</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: R 4
+highway: track
+surface: grass
+tracktype: grade5
+name:cadastre: Chemin Rural du Moulin</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9864802580163751,43.63665451195797 0.9863754246227184,43.63671458469771 0.9862754421315958,43.636764385213475 0.9860242731781561,43.63688992653939 0.9858699426123442,43.63695780066331 0.9854786364745818,43.63714659954733 0.9842087779889503,43.63777449459909 0.9841717673992447,43.637788992409 0.9840609152931843,43.63783268085537 0.9837233284094122,43.63799651224633</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

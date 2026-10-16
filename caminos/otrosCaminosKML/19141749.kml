@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+segregated: yes
+footway:surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4035631036990062,43.68892192013093 1.403624099306798,43.688958685918806 1.4036656913044527,43.68897083291445 1.4037502227726883,43.68901877130103 1.4037757349267574,43.68905228917457</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4037757349267574,43.68905228917457 1.4038608053841635,43.68904410457927 1.4039507267441038,43.689035270411665</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Usines</name>
+      <description>name: Rue des Usines
+oneway: yes
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4039507267441038,43.689035270411665 1.4039626743373828,43.688983889308076 1.4039755202459454,43.68895342438517 1.403995462845253,43.68891230645829</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>highway: secondary
+surface: asphalt
+junction: roundabout
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.403995462845253,43.68891230645829 1.404025825901856,43.68888827226997 1.404035976864567,43.68887528081281</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: M 14c
+oneway: yes
+highway: secondary
+old_ref: D 14c
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.404035976864567,43.68887528081281 1.404105596299086,43.68885202609747 1.4041216761426716,43.688848713274155 1.4041820429297645,43.68883650129645 1.404338259957673,43.688831174794764</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: M 14c
+highway: secondary
+old_ref: D 14c
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.404338259957673,43.688831174794764 1.404594279813647,43.68888671329526 1.4048575760234225,43.68895810130398</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Fenouillet</name>
+      <description>ref: M 14c
+name: Rue de Fenouillet
+oneway: yes
+highway: secondary
+old_ref: D 14c
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4048575760234225,43.68895810130398 1.4050658055062815,43.689019810615214 1.4051838441346147,43.689030528541736 1.4052750231359528,43.689030528541736 1.4053783293936266,43.68901877130103 1.4054775034009934,43.688975185045976 1.4055793723542125,43.68889671671561 1.4056328221136174,43.68883637138178 1.4056559088164193,43.68881032348481 1.4057452911871895,43.68867781031755 1.4057631676613433,43.68865130764897 1.405828924340141,43.68853691732008 1.4058377278299254,43.68851807959594 1.4058865961813813,43.68841369251387 1.405906808275274,43.68835302190479 1.4059227982873312,43.688305082986126 1.4059509155557244,43.68819647326171 1.405954957974503,43.68810442766546 1.405956305447429,43.68805103206078 1.4059746310792252,43.68800211852717 1.406013617962556,43.687943786000695</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

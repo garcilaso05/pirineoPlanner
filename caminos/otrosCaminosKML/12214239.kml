@@ -1,0 +1,259 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>La Seu-Anserall</name>
+    <Placemark>
+      <name>Camí de la Seu</name>
+      <description>name: Camí de la Seu
+layer: 1
+highway: footway
+name:ca: Camí de la Seu
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.451047420796865,42.35685592316708 1.450694113395621,42.35687656801713 1.4499795934186324,42.356910024608595 1.4489276662209285,42.356978398142914 1.448827683729806,42.35697660582791</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Seu</name>
+      <description>name: Camí de la Seu
+layer: 1
+bridge: yes
+highway: footway
+name:ca: Camí de la Seu
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.448827683729806,42.35697660582791 1.4484407793369358,42.35690942716962</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Seu</name>
+      <description>name: Camí de la Seu
+layer: 1
+highway: footway
+name:ca: Camí de la Seu
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4484407793369358,42.35690942716962 1.44838113120207,42.35689927070614 1.448310613452267,42.35689176952617</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Seu</name>
+      <description>name: Camí de la Seu
+highway: unclassified
+name:ca: Camí de la Seu</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.448310613452267,42.35689176952617 1.4482936352933968,42.35678170786233</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Seu</name>
+      <description>name: Camí de la Seu
+lanes: 1
+highway: unclassified
+name:ca: Camí de la Seu
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4482936352933968,42.35678170786233 1.4482699197698963,42.356706895029035 1.4481402928743976,42.35660771976046 1.4478804102627019,42.35659012841469 1.4476613111649053,42.35666918985835 1.4475556692874927,42.35671891022831 1.4472862645337854,42.356845700312775 1.4470083257848787,42.356929474563316 1.4467744943164225,42.35694713219616 1.4464171444963998,42.356902988104736 1.4462080166982567,42.35686561496249 1.445899086072048,42.35683541107462 1.4456530375157273,42.35683660595398 1.4454500182615166,42.35679332475392 1.4453033233756196,42.35672362337216 1.4450838649517095,42.3565641064904</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'entrada a Castellciutat</name>
+      <description>name: Camí d'entrada a Castellciutat
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4450838649517095,42.3565641064904 1.4451561793320808,42.35669587556248 1.4453556053251557,42.35684530201972 1.4455091274072116,42.3569130118034 1.4458016188637208,42.35696273198045 1.446022784086671,42.357020816249616</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Escola de Castellciutat</name>
+      <description>name: Carrer de l'Escola de Castellciutat
+lanes: 1
+oneway: no
+highway: living_street
+name:ca: Carrer de l'Escola de Castellciutat
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.446022784086671,42.357020816249616 1.4462884159161853,42.35705460467407 1.4464069037021607,42.35709483212624 1.4464625992497762,42.3571523852185 1.4464902673605269,42.357214186692545 1.4464980827034988,42.35726769039005 1.446495297926118,42.35733553248195 1.4464799367347596,42.35741359726418 1.4464530771077646,42.35748967050459</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'entrada a Castellciutat</name>
+      <description>name: Camí d'entrada a Castellciutat
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+maxweight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4464530771077646,42.35748967050459 1.4464440939549235,42.35752810537898</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'entrada a Castellciutat</name>
+      <description>name: Camí d'entrada a Castellciutat
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+maxweight: 3.5
+destination:forward: Castellciutat</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4464440939549235,42.35752810537898 1.4464385244001616,42.35764141842111 1.4465568325230802,42.35789851280818 1.4467237395028694,42.35819291213772 1.446798838660622,42.35836702861181 1.446814110020452,42.358587013432896 1.4468555223550499,42.35873291724372 1.4468057556883096,42.35877540054626 1.4467205953993751,42.358804475039854</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: N-260
+highway: primary
+surface: asphalt
+junction: roundabout
+lane_markings: no
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4467205953993751,42.358804475039854 1.446733171813353,42.35881443205513 1.4467440414282906,42.3588253847701 1.4467529347496033,42.35883739956432 1.4467596721142342,42.35885001177679 1.446764163690655,42.358863221407134</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: N-260
+highway: primary
+surface: asphalt
+junction: roundabout
+lane_markings: no
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.446764163690655,42.358863221407134 1.4467666789734503,42.35888008193629 1.446765511163581,42.358897075220945 1.4467608399241036,42.358913670221064 1.44675257542349,42.35892960141705 1.4467410769878533,42.35894427138978 1.4467267039433074,42.35895748100031</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: N-260
+highway: primary
+surface: asphalt
+junction: roundabout
+lane_markings: no
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4467267039433074,42.35895748100031 1.446709635952909,42.35896889834988 1.4466903221743002,42.35897812515994 1.4466693015966519,42.35898502867161 1.446647113209134,42.35898940974594</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>noname: yes
+oneway: no
+source: PNOA
+highway: service
+surface: asphalt
+source:date: 2008
+destination:backward: Torre de Solsona
+destination:symbol:backward: castle</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.446647113209134,42.35898940974594 1.4466925679625104,42.35901071769397 1.4467688349301324,42.35906322416437 1.4468855260855396,42.35911559783134</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+source: survey
+highway: track
+surface: compacted
+tracktype: grade3
+source:date: 2024
+trailblazed: yes
+surface:note: Tierra con piedritas</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4468855260855396,42.35911559783134 1.4470582721146759,42.35934440851082 1.4471886176624014,42.359570629564566 1.4472852763869726,42.35993140001182 1.4472267960619765,42.360084071334455 1.4468150981672645,42.36040813158213</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+source: survey
+highway: track
+surface: compacted
+tracktype: grade3
+source:date: 2024
+trailblazed: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4468150981672645,42.36040813158213 1.4470152428125664,42.360696213233936 1.4472487149549091,42.36213733182332 1.447911402140004,42.36316330633902 1.4479239785539817,42.36332652348712 1.447542464052816,42.36416921902337 1.4473425889020997,42.36458200030696 1.4470956420304952,42.36493909143075 1.4470924080954723,42.365056506265766 1.4471366950389792,42.365141796158134 1.4483121405882498,42.36600690125416 1.4490286368588634,42.366455710482754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Rec d'Aravell i Bellestar</name>
+      <description>name: Camí del Rec d'Aravell i Bellestar
+source: PNOA
+highway: track
+name:ca: Camí del Rec d'Aravell i Bellestar
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4490286368588634,42.366455710482754 1.4492368663417223,42.366772768840654 1.4492368663417223,42.36754692344963 1.4490663661007963,42.36795729320433 1.449079122177831,42.36836301437778 1.4492639954633026,42.36836301437778 1.4495875686286428,42.36826047263063 1.4499265928168692,42.36824912333959 1.4506508145989265,42.368317484535304 1.451282599738248,42.368271888289726 1.4516677973320784,42.36841989344948 1.4519451970918142,42.368670373136126 1.4519451970918142,42.368818377356995 1.4518526706175499,42.36923962333608 1.452145521400173,42.36992269021915 1.4528081187537394,42.370617231274736 1.4528081187537394,42.37085622064459 1.4525616210397774,42.3710839266934 1.4519298359004558,42.37151650618187 1.4511285386670214,42.372541132946125 1.4504966636961716,42.37385031337521 1.4498804194112658,42.37422593368443 1.4496650034061338,42.374624911665514 1.4497445043087784,42.37508971914428 1.4496917732016006,42.375592217020426 1.449807027052553,42.37621018036961 1.45065117392504,42.37691540237643 1.451435313336548,42.377321331128776 1.4516533344560039,42.37754430215676</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Rec d'Aravell i Bellestar</name>
+      <description>name: Camí del Rec d'Aravell i Bellestar
+source: PNOA
+highway: track
+name:ca: Camí del Rec d'Aravell i Bellestar
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4516533344560039,42.37754430215676 1.4520910834939553,42.377751213253674 1.4523710883680154,42.37799953221398 1.452647320317882,42.378267625339184 1.45296873752654,42.37847168060175 1.4532331117146564,42.37861468478895 1.4534086425211734,42.37867878772029 1.4535615357825307,42.3788055998482 1.4539020871067403,42.37900673357712 1.4546039408382228,42.37942147446826 1.454761595170586,42.37957980522836</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>noname: yes
+source: PNOA
+highway: residential
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.454761595170586,42.37957980522836 1.4558789197209738,42.3791756827572</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified
+source:date: 2019</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4558789197209738,42.3791756827572 1.455854575376774,42.37913619938779</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+highway: residential
+name:ca: Carrer Major</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.455854575376774,42.37913619938779 1.4563604167132616,42.37894342728652 1.4564054223089962,42.378927700242166 1.4564902232718169,42.37890347925897 1.4567086935489149,42.37884130096621 1.456781726581514,42.37882378220451</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

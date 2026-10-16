@@ -1,0 +1,443 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Calle Tulipán</name>
+      <description>name: Calle Tulipán
+lanes: 1
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+name:etymology:wikidata: Q2475848</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.933588621897287,41.63823450720494 -0.9329979795979784,41.63816831104477</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle Tulipán</name>
+      <description>name: Calle Tulipán
+lanes: 1
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+name:etymology:wikidata: Q2475848</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9329979795979784,41.63816831104477 -0.9327949603437674,41.63814548476687</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle de la Osa Mayor</name>
+      <description>name: Calle de la Osa Mayor
+lanes: 1
+oneway: yes
+highway: living_street
+surface: concrete
+was:highway: residential
+was:surface: asphalt
+was:maxspeed: 30
+name:etymology:wikidata: Q8918</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9327949603437674,41.63814548476687 -0.9328746409094688,41.63775079028914 -0.9328839833884236,41.63770419751735 -0.9329669877206763,41.63729271608633 -0.9330522378411392,41.63687069144917 -0.933139374423699,41.63643852622621 -0.9332224685874799,41.63602649960777 -0.9333061017404314,41.635612523331275</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle de la Estrella de la Mañana</name>
+      <description>name: Calle de la Estrella de la Mañana
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9333061017404314,41.635612523331275 -0.9339244121504909,41.63568751728471 -0.9341878880233231,41.63572518207531</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle Centauro</name>
+      <description>name: Calle Centauro
+lanes: 2
+highway: residential
+surface: asphalt
+maxspeed: 30
+name:etymology:wikidata: Q8844</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9341878880233231,41.63572518207531 -0.9342289410318074,41.63575217180477</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9342289410318074,41.63575217180477 -0.9343981836313354,41.6356595875862</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: CHE-101
+bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9343981836313354,41.6356595875862 -0.9346999277352713,41.63581038095895 -0.9351463005999502,41.63601266911016 -0.9354304377243172,41.636151108229065 -0.9356798100471887,41.63627262825812 -0.9365021278582719,41.636705331694465 -0.937226798797971,41.63709090191324 -0.9375009646226844,41.6372469286281 -0.9379618003634376,41.637480967992154 -0.938160328041228,41.63760120991668 -0.9382408170906852,41.637659417400904 -0.9383937103520422,41.63777563080212 -0.9385202829755748,41.63789352240344 -0.9390440007862164,41.63844457550234 -0.9393602077662265,41.638694387373775 -0.9393698197397666,41.638701168064124 -0.9400475986216347,41.63917608315584 -0.9402146852644809,41.639279471049505 -0.9404810357462223,41.639444287121435 -0.9405228074069341,41.63946852276896 -0.9408366787672053,41.639652471707976 -0.9415046660124768,41.640061319841614 -0.9418264425472483,41.64027198638949 -0.9421572920663894,41.640462176470415 -0.9426661876748432,41.640774884532604 -0.9430466241976679,41.640923383407284 -0.9436344817195956,41.64102670136461 -0.9440262370150002,41.641060133650605 -0.9444434146329452,41.64108329456146 -0.9449045198682837,41.64110041349022 -0.9458711969455248,41.64113800798448 -0.9463511668018298,41.64115559682962 -0.947022837139766,41.64117546819087 -0.9473341932172418,41.64115740942026 -0.9480429639764122,41.6410745672627 -0.9489870933400217,41.640945067436746 -0.9502509331132496,41.640767029926174 -0.9513537049560348,41.64060060603162 -0.9522875935254054,41.64047882562833 -0.9530816144050386,41.64037228437011 -0.9538111362472722,41.640280780930844 -0.9543566831193179,41.64023721101572 -0.9544626843228439,41.640248288115586</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: CHE-101
+layer: -1
+tunnel: yes
+bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9544626843228439,41.640248288115586 -0.9546409999067417,41.64029528185138 -0.954800720364258,41.64040860374761</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: CHE-101
+bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.954800720364258,41.64040860374761 -0.9548336885351852,41.64044257342413 -0.9552046927475265,41.64108208616632 -0.9556012091139369,41.64170830034586 -0.9557445802332825,41.64197018335196 -0.955897114168526,41.64219802942865 -0.9561369643493859,41.64241050154678 -0.9563177952160792,41.642531674115595 -0.956512280475091,41.64263592933457 -0.9576146031602342,41.643036904210014 -0.9582002148939517,41.643198689783446 -0.9587447736191849,41.64337081307615 -0.9590404091791885,41.64346110377713 -0.9599239022611202,41.64377936909774 -0.9611610620704096,41.64420947120017 -0.9623241108687591,41.64462943389779 -0.9627060745275666,41.64480182188535 -0.9632992321096708,41.6452973005231 -0.9638880777784111,41.64581727712303 -0.9647489333151829,41.646569107802215</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: CHE-101
+layer: -1
+bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9647489333151829,41.646569107802215 -0.9650814896333639,41.646866078503365 -0.965236089693761,41.64698858523149</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: CHE-101
+layer: -1
+tunnel: yes
+bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.965236089693761,41.64698858523149 -0.9655687358434704,41.64725199068983</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: CHE-101
+bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9655687358434704,41.64725199068983 -0.9657422903563624,41.647389533020295 -0.9659208754348453,41.64751103185761</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: CHE-101
+layer: -1
+tunnel: yes
+bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9659208754348453,41.64751103185761 -0.9661712359045294,41.647681331223474</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: CHE-101
+layer: -1
+bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9661712359045294,41.647681331223474 -0.9662441791055998,41.6477308703317</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: CHE-101
+bicycle: yes
+highway: track
+surface: compacted
+tracktype: grade3
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9662441791055998,41.6477308703317 -0.9673309609363275,41.64839729517407 -0.9681532787474106,41.64883240082461 -0.9691598410232666,41.64933086906737</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9691598410232666,41.64933086906737 -0.9691757412037955,41.6493128125824</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+bicycle: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9691757412037955,41.6493128125824 -0.9693192021546694,41.64914902862147</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9693192021546694,41.64914902862147 -0.9694802700851121,41.6489816195032 -0.9695279706266987,41.64893181285719</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9695279706266987,41.64893181285719 -0.9708920623856343,41.649548486231595 -0.9715109117848643,41.649742609250644 -0.9725771221955857,41.650020502181015 -0.9733528174434228,41.650261207503995 -0.9743007197312259,41.650621324078365 -0.9747444874815808,41.65081752467514 -0.9762911169062494,41.65147270817486 -0.9767098216601775,41.651626082306734 -0.9770552238869215,41.65175542642208</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9770552238869215,41.65175542642208 -0.9775785823714496,41.651755694909845 -0.9780060007836336,41.65179073255478 -0.9784415040333748,41.65183483163251 -0.9789039567416393,41.651957933007864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9789039567416393,41.651957933007864 -0.9802054359252718,41.65251510810109</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9802054359252718,41.65251510810109 -0.9801883679348735,41.652555783506415 -0.9801889967555724,41.652598472518044 -0.9802073223873685,41.652639013628686 -0.9802412787051084,41.65267331246229 -0.9802878114368255,41.65269808010183 -0.9803400933863614,41.65271069884134 -0.9803949804502211,41.65271110156703 -0.9804476217258704,41.652699422521046 -0.9804931663107752,41.652676467148616 -0.9805276616176853,41.65264451755233</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9805276616176853,41.65264451755233 -0.9805486821953338,41.65260370796092 -0.9805512873096578,41.65256001213619 -0.9805354769606575,41.65251799431057 -0.9805025986212585,41.65248181600105 -0.9804561557210695,41.65245516888439 -0.9804009093310961,41.652440872064105 -0.9803424290061,41.65244040221548 -0.9802866436269562,41.65245369221765 -0.9802393922430116,41.65247953388066 -0.9802054359252718,41.65251510810109</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9802054359252718,41.65251510810109 -0.9789039567416393,41.651957933007864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9789039567416393,41.651957933007864 -0.9785024996411664,41.65172689958969 -0.9782169252123447,41.65154963021399 -0.9778126833344911,41.65126670969621 -0.9773955955480744,41.6509453265899 -0.9772054222024261,41.65078718510772 -0.9769976418772094,41.650633607609144 -0.9766697567985058,41.65045640234813 -0.974610009683548,41.64962460507849 -0.9724599818825365,41.64893939796884 -0.9722651372974109,41.64887697180214 -0.9720628366954271,41.648823808825384 -0.9718214593785843,41.648767088176825 -0.971633172495033,41.64873661339353 -0.9714032936138267,41.648714529235406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9714032936138267,41.648714529235406 -0.9713902680422069,41.64864022169335 -0.971361072795473,41.64856853195093 -0.9713165163573808,41.64850140665164 -0.9712576767062708,41.64844072532088 -0.9711862606411834,41.648388031862304 -0.9711044241188002,41.648344870181965 -0.9710139637696893,41.64831238143304 -0.9709176643712316,41.64829137113834 -0.9708181310377513,41.64828257769029 -0.9707179688835719,41.64828620247055 -0.9706199626860743,41.648301976974864 -0.9705268073911112,41.64832969981777 -0.9704409284499496,41.648368498352696 -0.9703648411453847,41.6484172985529 -0.9703005217710416,41.64847469076307 -0.9702496771259603,41.648539332454334 -0.9702138343461242,41.64860927697349 -0.9701938917468167,41.648682711924366 -0.9701902984856802,41.64875762354303 -0.9702034138888284,41.64883193094968 -0.9702326091355621,41.64890362039898</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9702326091355621,41.64890362039898 -0.9700072218307765,41.648906104020796 -0.9697347628051031,41.64889227628732 -0.9695276113005852,41.648850390319254 -0.969405260758888,41.64887636767765</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.969405260758888,41.64887636767765 -0.9690188953551881,41.64868707505867 -0.9687469753186851,41.648534029555826 -0.9678311428865255,41.648063815111435 -0.9670823072656834,41.64764152538127 -0.9668847677347054,41.64753009574278 -0.9667265744131721,41.647533384933666 -0.9666043137030033,41.647518214378394 -0.9664660629807773,41.64750109715466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: -1
+bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9664660629807773,41.64750109715466 -0.9664144996834689,41.6474655872917</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: -1
+tunnel: yes
+bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9664144996834689,41.6474655872917 -0.9661723138828703,41.64729891219135</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9661723138828703,41.64729891219135 -0.9660522989609119,41.64721621218288 -0.9659834880101482,41.64716888786081 -0.9658237675526319,41.647044233416274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: -1
+tunnel: yes
+bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9658237675526319,41.647044233416274 -0.9654769280214334,41.64677330886987</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: -1
+bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9654769280214334,41.64677330886987 -0.9654153035929427,41.64672517869624 -0.965365177600089,41.64668611066276</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.965365177600089,41.64668611066276 -0.965079513339739,41.64643257063262 -0.9646512864437993,41.6460326909349 -0.9645086339766809,41.645945693109425 -0.9641852404743979,41.645667312704134 -0.9636175950463628,41.64517727434465 -0.963225570256373,41.644842972064964 -0.9629994642993601,41.64464332967556 -0.9627632073796368,41.644512091654896 -0.9620928845146267,41.64426418196882 -0.9612719141764698,41.64396370851178 -0.960531612550827,41.64369867848181 -0.9592222281926945,41.64324212343461 -0.9585116608029559,41.64301367687028 -0.9577326417885673,41.64274709891215 -0.9572068578527722,41.64258880304269 -0.9565307857699439,41.642329406426065 -0.9562337129054854,41.64210391043393 -0.9560971689822995,41.641922116722554 -0.9558097979229094,41.64145447219711 -0.9556347162740346,41.641138880713555 -0.9554242410029654,41.64079831407941 -0.9553033277657231,41.640616181016995 -0.9550814438905454,41.64028219074271 -0.9550110159722706,41.64020653079587</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: -1
+tunnel: yes
+bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9550110159722706,41.64020653079587 -0.9547638894376093,41.640086830805025</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9547638894376093,41.640086830805025 -0.9545544023133525,41.64003137801378 -0.9545001440701917,41.64000600129678 -0.9542316376317684,41.64000553135748 -0.9537116029137916,41.639987270856395 -0.9535920371494754,41.640020032339955 -0.9533712312526387,41.640042186612426 -0.9524680650659848,41.64018612206387 -0.9515065982173918,41.64031461640702 -0.9506502342570406,41.64044458743601 -0.9495851018246602,41.640566569304816 -0.9489580777563447,41.640636522479284 -0.9484092071177476,41.64076071938699 -0.9476964837713273,41.64084268921494</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle de Maurice Ravel</name>
+      <description>name: Calle de Maurice Ravel
+lanes: 2
+highway: residential
+name:etymology:wikidata: Q1178</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9476964837713273,41.64084268921494 -0.9476377339517459,41.64072352747325 -0.947577367164653,41.64061362994206 -0.9475189766711853,41.64052038137064 -0.9474400147577111,41.640404374320234</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle Franz Schubert</name>
+      <description>name: Calle Franz Schubert
+lanes: 1
+oneway: yes
+highway: residential
+name:etymology:wikidata: Q7312</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9474400147577111,41.640404374320234 -0.9474324689093245,41.640370203222155 -0.9474298637950006,41.64033771045198 -0.9474346248660065,41.640307768752564 -0.9474472012799842,41.64027910258336 -0.9474753185483771,41.640240903382555</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle Franz Schubert</name>
+      <description>name: Calle Franz Schubert
+lanes: 2
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 50
+name:etymology:wikidata: Q7312</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9474753185483771,41.640240903382555 -0.9481197699332045,41.6395774152335 -0.9481742078394221,41.63952142492637 -0.9483403063354557,41.639350298374424</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Calle Johann Sebastian Bach</name>
+      <description>name: Calle Johann Sebastian Bach
+lanes: 1
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+name:etymology:wikidata: Q1339</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9483403063354557,41.639350298374424 -0.9484428939409021,41.639405214673246 -0.9485389238447745,41.63945368598859</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

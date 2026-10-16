@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin Toulousain</name>
+      <description>lit: no
+ref: C 1
+foot: yes
+name: Chemin Toulousain
+bicycle: yes
+highway: track
+surface: dirt
+maxspeed: 30
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5812749298942745,43.53876688875866 1.5819230643717668,43.538301216452716 1.582858659740177,43.537685307045415 1.5836569027016458,43.53726840222459 1.5839544247237463,43.53717150172219 1.584267936757904,43.53707427545675 1.5847733289367496,43.5369177883788 1.585201555832689,43.53668159175799 1.5853665763503821,43.53652979244879 1.5855421071568991,43.53637108980231</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Toulousain</name>
+      <description>lit: no
+ref: C 1
+foot: yes
+name: Chemin Toulousain
+bicycle: yes
+highway: track
+surface: dirt
+maxspeed: 30
+tracktype: grade3
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5855421071568991,43.53637108980231 1.5858808618505407,43.53595827862322 1.5862061418149203,43.53566932865325 1.5866338297216893,43.53532072433368 1.5868850885066577,43.53496768958485 1.5872542960884308,43.534554282680716 1.5876760551143252,43.534215375473934 1.5881031142003954,43.53390968006062</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

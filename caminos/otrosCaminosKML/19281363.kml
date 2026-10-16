@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>steps</name>
+      <description>source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: steps
+incline: down
+surface: stone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0887017857323507,42.5242252030896 3.0886074626275177,42.52426188069543 3.0885542823626975,42.5242745920628</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0885542823626975,42.5242745920628 3.0884090247812557,42.52430941589981 3.088309671110832,42.524287568247686 3.088250741628194,42.524250096196255 3.0881964833850333,42.524193490846265 3.088173037356117,42.524168994947914 3.0881015314595017,42.52403102327618 3.088101172133388,42.523873520693044 3.088142225141872,42.52378619563453 3.0881291995702522,42.52369522914354 3.08815480155585,42.523655307126425 3.088182918824243,42.52358512905771 3.088192979955425,42.52347886871871 3.088198010521016,42.523418224107786 3.0881775289325377,42.523387769368306 3.088123630015491,42.52338220806646 3.08804673422717,42.523404982918535</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin René Pous</name>
+      <description>name: Chemin René Pous
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.08804673422717,42.523404982918535 3.088031373035812,42.52341968063843 3.088003165935891,42.523446825067005 3.087921509076564,42.52351250129416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse du Musée</name>
+      <description>name: Impasse du Musée
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: residential
+surface: asphalt
+ref:FR:FANTOIR: 660530178</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.087921509076564,42.52351250129416 3.087592725682576,42.52363710055957 3.087569279653661,42.52364802450031 3.0875325385585404,42.52366609865264</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

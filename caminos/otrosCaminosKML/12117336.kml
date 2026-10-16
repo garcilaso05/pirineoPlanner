@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Troy</name>
+      <description>name: Chemin de Troy
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5701817242822107,43.51459530275171 1.5700828197694294,43.51446931076974 1.569689986495684,43.5139525715128 1.5695324219948492,43.5136487278063 1.5695096047866328,43.513565209606924 1.569501789443661,43.51353661013455 1.5694761874580636,43.51340201653588 1.5694794213930863,43.51335250477837 1.5694761874580636,43.513267813520024 1.569544728914242,43.51317641197481 1.569610216098454,43.5131026000771 1.5696000651357436,43.512979992647644 1.5694177071330673,43.51281946904786 1.5690899118858923,43.51260532833748 1.5687646319215123,43.51239450942097 1.5687059719334593,43.51231111978227 1.5687790947975868,43.51153871777738 1.5688665008747318,43.511157790173186 1.5688744958807601,43.51102762144123 1.5688777298157832,43.51098390605335</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Fourquevaux</name>
+      <description>ref: D 79
+name: Route de Fourquevaux
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5688777298157832,43.51098390605335 1.568836766638827,43.51098768473195 1.568609492871945,43.51100279944394 1.5685015153747939,43.511009184105646 1.5683627256633974,43.51100091010515 1.5682260020771543,43.510967292894655</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Fourquevaux</name>
+      <description>ref: D 79
+name: Route de Fourquevaux
+lanes: 2
+oneway: yes
+source: Images mondiales Esri
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5682260020771543,43.510967292894655 1.5680944887195594,43.5109459238054 1.5679892061682605,43.51089341314535 1.5679210240381958,43.510858297430325 1.5678906609815926,43.51084279178343 1.567716297984945,43.51077959645863 1.5676037390798447,43.51075190776455 1.567502409115796,43.5107427216303</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Masse</name>
+      <description>lit: yes
+name: Chemin de la Masse
+highway: residential
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.567502409115796,43.5107427216303 1.5675121109208645,43.51070441348089 1.5676538650726985,43.510231618553355 1.5676456005720847,43.50982208146666 1.5682570837859846,43.509601805915516 1.5682907706091391,43.50958968780508</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Masse</name>
+      <description>name: Chemin de la Masse
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5682907706091391,43.50958968780508 1.5683358660364022,43.509557177378504 1.5683122403444298,43.50948297014683 1.5682195342071088,43.50928132668159 1.5682044425103354,43.50924849033139 1.5679653109817029,43.50880037660814 1.5679501294534013,43.50877177487779 1.5683253557475778,43.50864603134667 1.5689036012959656,43.50845220336979 1.5691933079750942,43.50836027331171</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Mairie</name>
+      <description>ref: D 16a
+name: Rue de la Mairie
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5691933079750942,43.50836027331171 1.5692436136310048,43.508211725508765 1.5692210659173735,43.508134715056514 1.5690940441361991,43.5076992979355 1.569085330477943,43.50766802440176 1.5690342163382767,43.507484422370574 1.5689196811395514,43.50712627301125 1.5688663212116747,43.50694840288351</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

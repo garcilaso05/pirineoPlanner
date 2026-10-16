@@ -1,0 +1,408 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Chemin de L’Isla de Baish</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path
+surface: asphalt
+smoothness: good
+source:geometry: Ortho HR IGN 2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.073906277760512,43.615207372671456 1.0743373792653608,43.61518721119179 1.0744079868466927,43.61519462541413 1.0747021851022418,43.61517667519006 1.0748481613359113,43.61517511430075 1.0751403832978352,43.61517192748496 1.0751822447900754,43.61517817104226 1.075220962178821,43.61519091830308 1.075255008328089,43.6152095839301 1.075282496775783,43.61523319236296 1.0753021698805052,43.6152605729305 1.0753952353439402,43.615471227283855</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path
+surface: asphalt
+smoothness: good
+source:geometry: Ortho HR IGN 2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0753952353439402,43.615471227283855 1.075430359471549,43.61555109234129 1.0754599140443966,43.61559908936875 1.0754969246341026,43.615650923513925 1.0757607598330483,43.615965699546386 1.0761167621801448,43.61646328945476</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path
+surface: ground
+sac_scale: strolling
+source:geometry: Ortho HR IGN 2022
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0761167621801448,43.61646328945476 1.0761277216266112,43.616554469383686 1.0761250266807587,43.61664968137304</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0761250266807587,43.61664968137304 1.076159342324612,43.616665484987834 1.0762812437086673,43.61669117398243</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Pont Tourné</name>
+      <description>name: Chemin du Pont Tourné
+highway: path
+name:oc: Camin deu Pont Tourné
+surface: grass
+source:name:oc: Escota é Minja</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0762812437086673,43.61669117398243 1.07630540838981,43.61669221454907 1.076327866271913,43.61668798724698 1.0763479885342773,43.61667959767736 1.0764188656101943,43.616633292434784</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Pont Tourné</name>
+      <description>name: Chemin du Pont Tourné
+layer: 1
+bridge: yes
+highway: path
+name:oc: Camin deu Pont Tourné
+surface: unpaved
+bridge:name: Pont Tourné
+source:name:oc: Escota é Minja</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0764188656101943,43.616633292434784 1.0765558586910224,43.61646810209354</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Pont Tourné</name>
+      <description>name: Chemin du Pont Tourné
+highway: steps
+name:oc: Camin deu Pont Tourné
+surface: unpaved
+handrail: no
+source:name:oc: Escota é Minja</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0765558586910224,43.61646810209354 1.076577957247012,43.61647350005281 1.076616584804229,43.61646231391981 1.076643893588866,43.616450412392304</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: unpaved
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.076643893588866,43.616450412392304 1.0777292381151393,43.61744577517343</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: grass
+trail_visibility: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0777292381151393,43.61744577517343 1.0783379365516588,43.617920070635805 1.0787107373945684,43.61828029336108 1.0789239974430185,43.618543679256014</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0789239974430185,43.618543679256014 1.0790904552651657,43.618736307913395</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path
+surface: wood
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0790904552651657,43.618736307913395 1.0791525288512984,43.61882559843553</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0791525288512984,43.61882559843553 1.0793040746397293,43.61924928763448 1.079488498767559,43.62008137461663</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.079488498767559,43.62008137461663 1.0798305772277519,43.620724730264236 1.0800337761450196,43.62082377247609 1.0802313156759975,43.62089719236894 1.0805150036427225,43.620983098081915 1.080661429034034,43.6210868871066 1.0809604781921174,43.62124211509423 1.0812210794560404,43.62144520498144 1.0816713150764412,43.62177887438894 1.082375863753776,43.62221307754743 1.0830281304815752,43.62267628048508 1.0834953442608457,43.62297989984817 1.0836464408916349,43.623034588887236 1.0837881950434687,43.62304460328377 1.0839207863794047,43.62301898203217 1.0840627201942956,43.62296760943896 1.0842990669455475,43.622898679055055 1.0844157581009548,43.62288697388767 1.0846501285585812,43.62289510247637 1.0848529681497356,43.62288990017973 1.0850031664652404,43.62289289150035 1.0851909143596215,43.62293652574732 1.085469931086869,43.62302093288928</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.085469931086869,43.62302093288928 1.085578537404719,43.62307152509475 1.085747510509662,43.623176285940154 1.0858716576819272,43.62327929083919 1.0859164836146047,43.62335010660491 1.0859713706784644,43.62349193297027 1.0859594230851857,43.623638375982196 1.0859674180912142,43.62369091850343 1.0860291323512334,43.62382188443938 1.08611474179781,43.62404837550133 1.0863182102096631,43.62456631697094 1.0863861228451424,43.62464220331239 1.0865187141810786,43.62470801041354 1.0868563010648506,43.62485419035677 1.0870736933636076,43.6250507003787 1.0876163656267441,43.625530593099676 1.0877305414993559,43.62558417437982 1.0879109232084068,43.6255975046666 1.0882161707419507,43.62559529378998 1.0884259273607928,43.625628782059614 1.0886186159892364,43.62565999441065 1.0887930688174123,43.625669293087086 1.088950004497548,43.6256014062134 1.0891189776024908,43.62555666846163 1.089235668757898,43.62551010995205 1.0892798658698766,43.625494568765546 1.089359097277936,43.625494568765546 1.0895199855453217,43.625486830683734 1.0896461090112122,43.62551297109055 1.0897975649681149,43.62556551197334 1.0898794014904982,43.62562949734284 1.0900934700227036,43.62567898191625 1.0908945875930816,43.625879976000014 1.091244661059303,43.62597419784155 1.0919729252601384,43.626133184672035 1.0926837621444623,43.626279881349994 1.0928477945153425,43.62627760547342 1.0929265767657599,43.62631180863805 1.0930621325421335,43.62638483167917 1.093260660219924,43.626435030904425 1.0939911702089697,43.626588684490095 1.094086481460615,43.62658569335337 1.0941710129288507,43.626567291356764 1.0943212112443554,43.626528016405224</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0943212112443554,43.626528016405224 1.0943795119062947,43.626528991776844</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0943795119062947,43.626528991776844 1.0944152648546028,43.626529576999815 1.0945251288138507,43.626420725429995 1.094818698248701,43.62615756911804 1.095058817924146,43.62605769036447 1.095131222136046,43.626038182776036 1.095301542713915,43.62601399335759 1.0953699045070366,43.626006190317305 1.0954436561918626,43.62598388662157 1.0954717734602557,43.62595670601326 1.0954865956624436,43.625921722341396 1.0954785108248866,43.625873213350076 1.095454435975272,43.625838294655146 1.0953927217152533,43.625784908678256 1.095345829657422,43.625735424192044 1.0952733356139936,43.62564308772251 1.095195631341917,43.62553052807382 1.0949890188265698,43.625183028903145 1.0947703688864152,43.6247470914741 1.0942106286328803,43.62367381617792</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Coustère</name>
+      <description>ref: R 14
+name: Chemin de la Coustère
+highway: track
+name:oc: Camin de la Costèra
+tracktype: grade3
+source:name:oc: Escota é Minja</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0942106286328803,43.62367381617792 1.09416086196614,43.62370587490578 1.0941075020382633,43.62372889475256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Coustère</name>
+      <description>ref: R 14
+name: Chemin de la Coustère
+layer: 1
+bridge: yes
+highway: track
+name:oc: Camin de la Costèra
+tracktype: grade3
+source:name:oc: Escota é Minja</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0941075020382633,43.62372889475256 1.094065371051438,43.6237400145059</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Coustère</name>
+      <description>ref: R 14
+name: Chemin de la Coustère
+highway: track
+name:oc: Camin de la Costèra
+tracktype: grade3
+source:name:oc: Escota é Minja</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.094065371051438,43.6237400145059 1.0940121907866185,43.623746907451384 1.0939591901848553,43.62374638722911 1.0937458403048768,43.62374229047855 1.0925468588951626,43.623677327682415 1.092294881457967,43.6236407820145 1.0921579782086672,43.62362101353006 1.0899397682775906,43.62352002508547 1.0882768070236288,43.623485105023626 1.0876760137616095,43.62344621822696 1.0868752555173453,43.62332578604832 1.086143128560788,43.62319872073433 1.0858980681512802,43.62314617778292</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Coustère</name>
+      <description>ref: R 14
+name: Chemin de la Coustère
+highway: track
+name:oc: Camin de la Costèra
+surface: fine_gravel
+tracktype: grade3
+source:name:oc: Escota é Minja</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0858980681512802,43.62314617778292 1.085525357139899,43.62296656898092 1.0850701807854357,43.62278897553578 1.0849615744675856,43.622686099854505 1.0847631366213237,43.62232778937533 1.0845458341540952,43.621858015740486 1.0842589122523472,43.62146568951411 1.0838445194117832,43.62096768578665 1.0836165269926734,43.620714325294884 1.0833858396277116,43.62052892144536 1.0815531866165793,43.61916331441146 1.0814230207319104,43.61904807628278 1.081358970852153,43.61893101700947</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: fine_gravel
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.081358970852153,43.61893101700947 1.0811463396244017,43.61905048249879 1.0809242760861673,43.61911961239316</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: fine_gravel
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0809242760861673,43.61911961239316 1.0808357021991533,43.619289412765326 1.0800257811389908,43.61996321181316 1.0797452372757603,43.62002603257303</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0797452372757603,43.62002603257303 1.079488498767559,43.62008137461663</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.079488498767559,43.62008137461663 1.0793040746397293,43.61924928763448 1.0791525288512984,43.61882559843553</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path
+surface: wood
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0791525288512984,43.61882559843553 1.0790904552651657,43.618736307913395</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0790904552651657,43.618736307913395 1.0789239974430185,43.618543679256014</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: grass
+trail_visibility: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0789239974430185,43.618543679256014 1.0787107373945684,43.61828029336108 1.0783379365516588,43.617920070635805 1.0777292381151393,43.61744577517343</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: unpaved
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0777292381151393,43.61744577517343 1.076643893588866,43.616450412392304</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Pont Tourné</name>
+      <description>name: Chemin du Pont Tourné
+highway: steps
+name:oc: Camin deu Pont Tourné
+surface: unpaved
+handrail: no
+source:name:oc: Escota é Minja</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.076643893588866,43.616450412392304 1.076616584804229,43.61646231391981 1.076577957247012,43.61647350005281 1.0765558586910224,43.61646810209354</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Pont Tourné</name>
+      <description>name: Chemin du Pont Tourné
+layer: 1
+bridge: yes
+highway: path
+name:oc: Camin deu Pont Tourné
+surface: unpaved
+bridge:name: Pont Tourné
+source:name:oc: Escota é Minja</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0765558586910224,43.61646810209354 1.0764188656101943,43.616633292434784</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Pont Tourné</name>
+      <description>name: Chemin du Pont Tourné
+highway: path
+name:oc: Camin deu Pont Tourné
+surface: grass
+source:name:oc: Escota é Minja</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0764188656101943,43.616633292434784 1.0763479885342773,43.61667959767736 1.076327866271913,43.61668798724698 1.07630540838981,43.61669221454907 1.0762812437086673,43.61669117398243</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0762812437086673,43.61669117398243 1.076159342324612,43.616665484987834 1.0761250266807587,43.61664968137304</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path
+surface: ground
+sac_scale: strolling
+source:geometry: Ortho HR IGN 2022
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0761250266807587,43.61664968137304 1.0761277216266112,43.616554469383686 1.0761167621801448,43.61646328945476</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path
+surface: asphalt
+smoothness: good
+source:geometry: Ortho HR IGN 2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0761167621801448,43.61646328945476 1.0757607598330483,43.615965699546386 1.0754969246341026,43.615650923513925 1.0754599140443966,43.61559908936875 1.075430359471549,43.61555109234129 1.0753952353439402,43.615471227283855</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path
+surface: asphalt
+smoothness: good
+source:geometry: Ortho HR IGN 2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0753952353439402,43.615471227283855 1.0753021698805052,43.6152605729305 1.075282496775783,43.61523319236296 1.075255008328089,43.6152095839301 1.075220962178821,43.61519091830308 1.0751822447900754,43.61517817104226 1.0751403832978352,43.61517192748496 1.0748481613359113,43.61517511430075 1.0747021851022418,43.61517667519006 1.0744079868466927,43.61519462541413 1.0743373792653608,43.61518721119179 1.073906277760512,43.615207372671456</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

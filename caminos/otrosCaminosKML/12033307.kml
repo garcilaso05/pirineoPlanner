@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue de Ninaret</name>
+      <description>name: Rue de Ninaret
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no
+source:maxspeed: Passage à 30 km/h sur la commune le 01/01/2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5469067345967877,43.554361219489394 1.5469029616725947,43.5544062706034</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Ninaret</name>
+      <description>name: Rue de Ninaret
+highway: residential
+surface: asphalt
+maxspeed: 30
+zone:maxspeed: FR:30
+source:maxspeed: Passage à 30 km/h sur la commune le 01/01/2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5469029616725947,43.5544062706034 1.5469164364018564,43.554444095284396 1.5469447333333062,43.55448289648153 1.547019293501888,43.55456818090421 1.5470650177498495,43.55459558907855 1.547116131889516,43.554652293361656</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Ninaret</name>
+      <description>name: Rue de Ninaret
+highway: residential
+surface: asphalt
+maxspeed: 30
+zone:maxspeed: FR:30
+source:maxspeed: Passage à 30 km/h sur la commune le 01/01/2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.547116131889516,43.554652293361656 1.547135804994238,43.55470841166966 1.5471534119738068,43.55475541559508 1.5474306320704863,43.555063218787836 1.5474911785206358,43.55515032524351 1.547657366848198,43.55540532899417 1.5476789264150168,43.55543820532464</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Ninaret</name>
+      <description>name: Rue de Ninaret
+lanes: 2
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+source:maxspeed: Passage à 30 km/h sur la commune le 01/01/2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5476789264150168,43.55543820532464 1.547694197774847,43.55545949355283 1.5477166556569502,43.55549087251767</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Bordeneuve</name>
+      <description>foot: yes
+name: Chemin de Bordeneuve
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5477166556569502,43.55549087251767 1.5477496238278774,43.555532602609496</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

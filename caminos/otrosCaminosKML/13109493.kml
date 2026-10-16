@@ -1,0 +1,852 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Chemin des meulières de Domme</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2084349204382854,44.802228998784436 1.2083608094273455,44.80217622256921 1.2082761881275814,44.80213058512679 1.2082004601491303,44.80212191655823 1.2081251813283211,44.802123127608326 1.2080310378865453,44.80213109504254 1.2079557590657362,44.802164813211995 1.20791425689961,44.80219559934949</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2088396114737814,44.80274420174067 1.209005709969815,44.80281431436928 1.2092982912578527,44.80290412214818 1.2095137970945131,44.802948994115916 1.2098123072634261,44.80298232937618 1.2098881250734057,44.80299029669174 1.209980022726971,44.80300827095161</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: pebblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.209980022726971,44.80300827095161 1.210086473088139,44.803028985960474 1.210149175494971,44.80305671219148 1.21023011370207,44.80308341859447 1.210298385663663,44.80310120161013 1.2103797730284043,44.8031047072219 1.2104925115965612,44.803107511711154 1.210589439815718,44.80310610946655 1.2106408234499695,44.803080805319304</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2106408234499695,44.803080805319304 1.2107080174332217,44.803078000828755 1.2107699113562973,44.803083291117645</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Esplanade du Jubilé</name>
+      <description>name: Esplanade du Jubilé
+highway: service
+service: parking_aisle
+surface: compacted
+sidewalk: no
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2107699113562973,44.803083291117645 1.2107391889735806,44.803240469840766</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Esplanade du Jubilé</name>
+      <description>name: Esplanade du Jubilé
+highway: service
+service: parking_aisle
+surface: compacted
+sidewalk: no
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2107391889735806,44.803240469840766 1.2107968608148212,44.80329649572979</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Promenade de l'Esplanade</name>
+      <description>lit: yes
+name: Promenade de l'Esplanade
+highway: footway
+surface: compacted
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2107968608148212,44.80329649572979 1.2108377341602483,44.80331752932596 1.210995927481782,44.80335366885056 1.2111461257972866,44.80336412190107 1.211606332717341,44.80338987209059 1.2126012168945033,44.803478276737955 1.2135990655121036,44.80355157536952</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Promenade de la Barre</name>
+      <description>lit: no
+name: Promenade de la Barre
+highway: footway
+surface: compacted
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2135990655121036,44.80355157536952 1.213716295656681,44.803584910281586 1.2139047622032895,44.803687719363275 1.2140429230939869,44.80374482835864 1.2141447920472062,44.803777207094285</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: fine_gravel
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2141447920472062,44.803777207094285 1.214245762685141,44.80348229223061</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Esplanade de la Barre</name>
+      <description>name: Esplanade de la Barre
+oneway: yes
+highway: residential
+surface: asphalt
+sidewalk: no
+smoothness: good
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.214245762685141,44.80348229223061 1.2144291986661584,44.80353066933453 1.2146860270058881,44.80361046915906</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Esplanade de la Barre</name>
+      <description>name: Esplanade de la Barre
+oneway: yes
+highway: residential
+surface: asphalt
+sidewalk: no
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2146860270058881,44.80361046915906 1.214767594033686,44.80363430710439</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Repos</name>
+      <description>name: Rue du Repos
+highway: service
+service: parking_aisle
+surface: asphalt
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.214767594033686,44.80363430710439 1.2148336202070689,44.80365132509679</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Repos</name>
+      <description>name: Rue du Repos
+highway: service
+service: parking_aisle
+surface: sett
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2148336202070689,44.80365132509679 1.215039514070189,44.803690715037426</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Repos</name>
+      <description>name: Rue du Repos
+highway: service
+service: parking_aisle
+surface: sett
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.215039514070189,44.803690715037426 1.2152867304363788,44.80374699543994 1.215450942470316,44.80377841810964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Repos</name>
+      <description>name: Rue du Repos
+highway: service
+service: parking_aisle
+surface: sett
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.215450942470316,44.80377841810964 1.2155573029999556,44.80379747566366 1.2156677957799022,44.803803212049914</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Repos</name>
+      <description>name: Rue du Repos
+highway: service
+service: parking_aisle
+surface: sett
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2156677957799022,44.803803212049914 1.2158817744805794,44.80381621452334</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Repos</name>
+      <description>name: Rue du Repos
+highway: service
+service: parking_aisle
+surface: sett
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2158817744805794,44.80381621452334 1.215973672134145,44.803819783829255 1.2160272117250785,44.80381729806266</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Résistance</name>
+      <description>name: Rue de la Résistance
+oneway: yes
+highway: residential
+surface: asphalt
+sidewalk: no
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2160272117250785,44.80381729806266 1.2160744631090232,44.803643230396915 1.216131595961093,44.80339879542091</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Grel</name>
+      <description>name: Rue du Grel
+oneway: yes
+highway: residential
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.216131595961093,44.80339879542091 1.2162261885605108,44.803381331187424 1.2167709269488012,44.803310199437256 1.2168878875987934,44.803276609413636 1.2169327135314707,44.803246588711836 1.216945379776977,44.80322262312976</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Paillole</name>
+      <description>name: Rue de la Paillole
+oneway: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.216945379776977,44.80322262312976 1.216934689825096,44.803171122589916 1.2167973374181542,44.8030300057761 1.2166731004143603,44.80291368293968</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Paillole</name>
+      <description>name: Rue de la Paillole
+oneway: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2166731004143603,44.80291368293968 1.216577968825772,44.802849689345 1.2164868796559625,44.80279812473351 1.216338927128668,44.802720108472265</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Paillole</name>
+      <description>name: Rue de la Paillole
+oneway: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.216338927128668,44.802720108472265 1.2162693076941489,44.80266121377379</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Paillole</name>
+      <description>name: Rue de la Paillole
+oneway: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2162693076941489,44.80266121377379 1.2162086714124707,44.80256241841947 1.216193310221112,44.802489118531135 1.2161936695472257,44.802331619064724 1.2162154087771015,44.801923877655476</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place Porte des Tours</name>
+      <description>name: Place Porte des Tours
+oneway: yes
+highway: residential
+surface: asphalt
+sidewalk: no
+smoothness: good
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2162154087771015,44.801923877655476 1.2162219664786755,44.801869380187675 1.2162578092585121,44.80170461267662</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Justice</name>
+      <description>ref: D 46E
+name: Route de la Justice
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+sidewalk: no
+smoothness: good
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2162578092585121,44.80170461267662 1.2164057617858064,44.80172991742747</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 46 E
+access: yes
+tunnel: yes
+highway: tertiary
+surface: asphalt
+sidewalk: no
+maxheight: default
+smoothness: good
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2164057617858064,44.80172991742747 1.2164958628088036,44.80174272914848</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Justice</name>
+      <description>ref: D 46 E
+name: Route de la Justice
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+sidewalk: right
+smoothness: good
+maxspeed:type: FR:urban
+sidewalk:right:surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2164958628088036,44.80174272914848 1.2166292626284954,44.80177058347738 1.2166961871171622,44.80182661079385</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-James</name>
+      <description>name: Route de Saint-James
+oneway: no
+highway: service
+surface: asphalt
+smoothness: good
+oneway:conditional: no @ destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2166961871171622,44.80182661079385 1.2167717354325567,44.80186071157986 1.216824556371263,44.8019176949044 1.2169205862751353,44.802079593528305 1.2169687359743642,44.802118474626226 1.2170669218349184,44.80216047893044 1.2172202642539176,44.80217960075835 1.2175929752652987,44.802200379804155 1.2177762315832592,44.80218049311016</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-James</name>
+      <description>name: Route de Saint-James
+oneway: no
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2177762315832592,44.80218049311016 1.217983113593192,44.80222020275192</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-James</name>
+      <description>name: Route de Saint-James
+oneway: no
+highway: service
+surface: asphalt
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.217983113593192,44.80222020275192 1.2181096862167244,44.802209685754754 1.2183450448211635,44.80214817721781 1.2184358644963882,44.8021437154561 1.2185059330885495,44.80216392085994</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-James</name>
+      <description>name: Route de Saint-James
+oneway: no
+highway: service
+surface: asphalt
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2185059330885495,44.80216392085994 1.2185317147372037,44.802173927950065 1.218583727192154,44.80218457243257 1.2186398718974116,44.80218049311016 1.2190246203336002,44.80211261059347</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-James</name>
+      <description>name: Route de Saint-James
+oneway: no
+highway: service
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2190246203336002,44.80211261059347 1.2197411166042136,44.80197423199516 1.2202271051729225,44.80187906863015</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-James</name>
+      <description>ref: C 5
+name: Route de Saint-James
+highway: tertiary
+surface: asphalt
+sidewalk: right
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2202271051729225,44.80187906863015 1.2204733333922995,44.801912595727764 1.2206676389882547,44.8019255986273 1.2207456127549163,44.80192923178988</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Plaine de Bord</name>
+      <description>ref: D 46 E3
+name: Route de la Plaine de Bord
+highway: tertiary
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2207456127549163,44.80192923178988 1.2207661841749227,44.801890605523354 1.2207901691930085,44.80187231221649 1.2208640107093631,44.80185612231638 1.2213975201566019,44.80180697893034 1.2215104383878157,44.80178709210074</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Côte</name>
+      <description>name: Chemin de la Côte
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2215104383878157,44.80178709210074 1.2215660441039025,44.80180991096233 1.2217662785807328,44.801808317466694 1.221937766968471,44.801773069332164</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Côte</name>
+      <description>name: Chemin de la Côte
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.221937766968471,44.801773069332164 1.2220466427809062,44.80174642606248 1.2221874087859281,44.80169983218087 1.2225320923604446,44.80156457585727 1.2227734696772876,44.801470431659745 1.2229933772588402,44.80139241360308</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Côte</name>
+      <description>name: Chemin de la Côte
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2229933772588402,44.80139241360308 1.223329616669686,44.801279401966255 1.2235897687759671,44.80116709125396 1.2238767805092432,44.80103578560366 1.2240658758765506,44.80094820584359 1.2243554927241507,44.80087311916035 1.2245338981395766,44.80082741694621 1.2246532842408362,44.80077980246704 1.2247114052397188,44.80072351916989</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Côte</name>
+      <description>name: Chemin de la Côte
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2247114052397188,44.80072351916989 1.2247713228691697,44.80066557854957 1.224822257345779,44.80060470577797 1.2248838817742698,44.8005380962318 1.2249617657094027,44.80038588197542 1.2250529447107408,44.80025081379609 1.22515481366396,44.80010229580115 1.2252486876111506,44.79999189505249 1.2253291766606076,44.79993102157011 1.2255250093925458,44.79979212780288 1.2257963006083497,44.79962518712343 1.2261504164933497,44.79939692571815 1.2264789303927524,44.79921417570981 1.2267242602968453,44.79909899255053 1.226976058070984,44.799036524553934 1.2272085420665144,44.79899808757955 1.2274012306949578,44.79895939560767 1.2277391769048436,44.79885849039256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Côte</name>
+      <description>name: Chemin de la Côte
+highway: track
+surface: cobblestone
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2277391769048436,44.79885849039256 1.2282204942340749,44.79869881374403 1.2283452702270388,44.79866158766744 1.2284860362320607,44.798589430204004 1.2286939063888058,44.79852211715325 1.2289207309980459,44.79846462052686 1.22910039405487,44.798418788917786 1.229215737737351,44.798400813228064 1.2293832735378392,44.79835886993029 1.2295805435742317,44.79830660012442 1.2298474330451434,44.798232274928694 1.230025658797513,44.7981675749591 1.2301559145137102,44.79813716913552 1.2302885956811749,44.7981172172971 1.230417324261389,44.798110524186804 1.2305218881604607,44.79809720170783 1.230572103984843,44.798076612416104</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Côte</name>
+      <description>name: Chemin de la Côte
+highway: track
+surface: cobblestone
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.230572103984843,44.798076612416104 1.2305931245624913,44.79804289185741 1.2305916872580365,44.79798781702733 1.2305957296768153,44.79793828788176 1.2306038145143725,44.79789360324934 1.2306332792556913,44.79784031311466 1.2306774763676702,44.79778797909478 1.2307941675230771,44.797709892314266 1.2309296334679223,44.797628108250436 1.2309912578964133,44.79758998906026 1.2312957867777297,44.79749857939462 1.2316323855146893,44.79740347239214 1.2321384065142336,44.797255712006276 1.2326372409915052,44.79712152892943 1.233034296347086,44.79699971209872 1.2335742736643702,44.796837225512405 1.23393009634841,44.796754229048936 1.2342774748687793,44.79666001325679 1.2348621882872126,44.79648872880761 1.2353445835947847,44.79634243223426 1.235806317650822,44.79619358544891 1.23597726704939,44.79611179923596 1.2360617985176257,44.79606609325041</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route les Places</name>
+      <description>name: Route les Places
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2360617985176257,44.79606609325041 1.2360195776992722,44.7960667307121 1.235982028120396,44.7960585712019 1.235922559648587,44.796016498709086 1.2357313083245982,44.79581863008913 1.235413574208605,44.795431114160735 1.2351377914163804,44.79509937448988 1.2348964140995375,44.79482589819264</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route les Places</name>
+      <description>name: Route les Places
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2348964140995375,44.79482589819264 1.234797779081341,44.794742006369425 1.2346888134373775,44.794704586497105 1.2345590967103506,44.79469387688694 1.2344254273960735,44.79470241907615 1.2341568311261217,44.7947367153157 1.233860117587777,44.79477477264316 1.23359466542132,44.794809706315284 1.2334432992959456,44.79481569858538 1.2333030722800946,44.794806518937314 1.2330711272737351,44.79476081191791 1.2329241628932528,44.79471790975936 1.2328116938196814,44.79467303138999 1.2327216826282126,44.79459251797793 1.2326149627724592,44.79442218361165 1.2324927918938189,44.79422029338794 1.2323071101245913,44.79403427581522 1.2320954670436526,44.793889630482234 1.2318708882226228,44.793729111349805 1.2317234746844987,44.793584274005205 1.2315751628310907,44.79338340083627 1.231492338161895,44.79328752206038 1.2314052914108637,44.79326119361865</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Plaine de Bord</name>
+      <description>ref: D 46 E3
+name: Route de la Plaine de Bord
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2314052914108637,44.79326119361865 1.2313989133723466,44.79356840052412 1.2314183169824833,44.79376761558272 1.231449398691314,44.79390531262929 1.2315244080175383,44.7940280284703 1.2316504416519,44.794176625848465 1.2317389257073856,44.794304122221455 1.2318098926148313,44.79444449540232 1.2318221097026951,44.79455732918298 1.2318168096425188,44.79469986916906 1.2317777329276596,44.794804287772635 1.2317174559720954,44.794894171767254 1.2315968122294383,44.79498360939031 1.2314493088597855,44.79506641715864 1.2313513026622882,44.79516732900513 1.2312977630713546,44.79524127566628</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Paillé</name>
+      <description>name: Chemin du Paillé
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2312977630713546,44.79524127566628 1.2308415087385502,44.795278312708355 1.230672625465136,44.79528679106404 1.230503472697136,44.795277292755706 1.2303467166800575,44.79526039978736 1.2299282814207144,44.795215394345654 1.229635789964205,44.79519933007185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Paillé</name>
+      <description>name: Chemin du Paillé
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.229635789964205,44.79519933007185 1.2294333096991645,44.79520398361194 1.2287734971229787,44.7952192829192 1.228340509156033,44.79519556899122 1.2281780039211359,44.79520589602557 1.2272901989258407,44.79536959839732 1.2269603375535119,44.79542480322015 1.2264561131845355,44.795464772498875 1.226218778286471,44.795496390919844 1.2257238065649216,44.79562847413624 1.2254962633034538,44.79572071546955 1.225423409933912,44.79575029386173 1.2251471779840453,44.79583208058705 1.2244014864666974,44.7960052793725 1.2240689301485166,44.79609477901963 1.223505596633845,44.796319419972626 1.2232405037935015,44.79641529371128</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Justice</name>
+      <description>name: Route de la Justice
+highway: residential
+railway: abandoned
+surface: asphalt
+sidewalk: no
+abandoned:railway: rail
+destination:backward: Cénac;Saint-Martial
+destination:colour:backward: white;white</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2232405037935015,44.79641529371128 1.2231596554179307,44.79648879255332 1.223091293624809,44.796533478273616 1.2229977790037323,44.79657892890656 1.222316496692256,44.79683588686072 1.2220283171491106,44.79695171198961 1.221828441998394,44.79703203087479 1.2216884844771279,44.79711687554398 1.2213815301445445,44.79734151251799 1.2210337922980616,44.79760802874704</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Justice</name>
+      <description>name: Route de la Justice
+highway: residential
+surface: asphalt
+sidewalk: no
+destination:backward: Cénac;Saint-Martial
+destination:colour:backward: white;white</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2210337922980616,44.79760802874704 1.2205594818280465,44.79797162603718</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Justice</name>
+      <description>name: Route de la Justice
+highway: residential
+surface: asphalt
+sidewalk: no
+destination:backward: Cénac;Saint-Martial
+destination:colour:backward: white;white</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2205594818280465,44.79797162603718 1.2205302865813128,44.797997378633546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Justice</name>
+      <description>name: Route de la Justice
+highway: residential
+surface: asphalt
+sidewalk: no
+destination:backward: Cénac;Saint-Martial
+destination:colour:backward: white;white</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2205302865813128,44.797997378633546 1.220460128157623,44.79807138541208 1.2204469229229464,44.79815839584423</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Justice</name>
+      <description>name: Route de la Justice
+highway: residential
+surface: asphalt
+sidewalk: no
+destination:backward: Cénac;Saint-Martial
+destination:colour:backward: white;white</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2204469229229464,44.79815839584423 1.220470818109504,44.79823667324912 1.2205301967497844,44.798386215944 1.220643743801697,44.79866222510046 1.2207857674481164,44.79894447974997</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Justice</name>
+      <description>name: Route de la Justice
+highway: residential
+surface: asphalt
+destination:backward: Cénac;Saint-Martial
+destination:colour:backward: white;white</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2207857674481164,44.79894447974997 1.2208134355588671,44.79902250111682</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Justice</name>
+      <description>name: Route de la Justice
+highway: residential
+surface: asphalt
+sidewalk: no
+destination:backward: Cénac;Saint-Martial
+destination:colour:backward: white;white</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2208134355588671,44.79902250111682 1.2208607767743402,44.79916898212353 1.2209150350175013,44.79935307086833 1.2210347804448745,44.79982960811812</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2210347804448745,44.79982960811812 1.220792235318162,44.79988047422128 1.2205565173876092,44.799874992412825 1.220332118229636,44.79985427627149 1.2201804826096767,44.799835727350946 1.2192037444012538,44.79972207524362 1.2188541200926741,44.79967592592246 1.2186897283956803,44.79966419735981 1.2185277621499537,44.79965571964728 1.2180997149170707,44.79965489099863 1.2177908741223902,44.799631688831326 1.2176038448802367,44.79960192120192 1.2175254219559328,44.79959089378927 1.2172852124489595,44.79958037631281 1.2170660235196344,44.799578209075</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier des Vieilles Fontaines</name>
+      <description>name: Sentier des Vieilles Fontaines
+highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2170660235196344,44.799578209075 1.2168708196083953,44.79956291092343 1.2165488634105668,44.79952109595511 1.2164421435548134,44.799504522941 1.2163879751431808,44.79947539267002 1.2163469221346965,44.7994484296271 1.2163074860937237,44.79938207371606 1.2162673314005237,44.7992735838681 1.2161881898239928,44.79910810777295 1.2160982684640524,44.79894250371726 1.2159869672003498,44.79870168219072 1.2159239952989331,44.7986494126954 1.215811256730776,44.79863028969748 1.2155994339867808,44.79865699814949 1.2153299394015449,44.79870257459632 1.215243162145099,44.798705124326546 1.2151368016154593,44.79867688605798 1.2149758235165449,44.79862461654021 1.2148390999303018,44.79857419553368 1.2147737924091464,44.79854047526578 1.2147116289914854,44.798533208513604</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier des Vieilles Fontaines</name>
+      <description>name: Sentier des Vieilles Fontaines
+highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2147116289914854,44.798533208513604 1.214662041987802,44.79854468233242 1.2146042803150332,44.798628377397335 1.2144567769453807,44.79881692988626 1.214314663467433,44.79892720539713 1.214217196259106,44.798961180410906</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.214217196259106,44.798961180410906 1.2143347857297973,44.79905551993148 1.2144609091956877,44.79916592247184 1.2146138024570448,44.799287670986786 1.2147227681010087,44.799364672009176 1.214788075622164,44.79939998535758 1.2148648815789562,44.79943128291004 1.2149655827223063,44.79945410270337 1.2150696974637356,44.7995047141681 1.215162673095642,44.799566416750196 1.2152347179814282,44.799622701176105 1.215323202036914,44.79972927810396 1.2153876112427853,44.799832030314526 1.2154520204486567,44.7999062259657 1.2154882225546066,44.79994517227018 1.2155343959602105,44.79997927416823</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier Croix de Carguemé</name>
+      <description>name: Sentier Croix de Carguemé
+highway: track
+surface: grass
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2155343959602105,44.79997927416823 1.215608866297264,44.80004709545323 1.215619556249145,44.8000908860338 1.2155873965619735,44.80011561781717 1.2155016074523401,44.800109881064245 1.2154318981862926,44.80010229580115 1.2153781789323022,44.800098471298384 1.215361110941904,44.80010280573484 1.2153434141308068,44.800117211359556</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>tunnel: yes
+highway: track
+maxheight: below_default</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2153434141308068,44.800117211359556 1.2153356886193631,44.80012339430356</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier Croix de Carguemé</name>
+      <description>name: Sentier Croix de Carguemé
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2153356886193631,44.80012339430356 1.2153107154544645,44.80014978335614</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Promenade des Remparts</name>
+      <description>name: Promenade des Remparts
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2153107154544645,44.80014978335614 1.2152551097383777,44.80011147460679</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Promenade des Remparts</name>
+      <description>name: Promenade des Remparts
+oneway: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2152551097383777,44.80011147460679 1.2150927841665375,44.8000214075135 1.2149556114226523,44.79995976915985 1.2148150250806875,44.79995517974514 1.214616677065954,44.7999737286273 1.2144953146710695,44.79998902666995 1.21434538585015,44.80003657805993</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Promenade des Remparts</name>
+      <description>name: Promenade des Remparts
+highway: footway
+surface: compacted
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.21434538585015,44.80003657805993 1.2141017627450965,44.80010299695997 1.2139338676184948,44.80017107306608 1.2138547260419639,44.80021792314863 1.2137706437313702,44.800293903065565 1.213712792227073,44.80038428844047 1.213685573273964,44.80050112630696 1.2136187386168258,44.800932971796065 1.2136113724314959,44.801004616402984</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Porte del Bos</name>
+      <description>name: Rue de la Porte del Bos
+highway: residential
+surface: asphalt
+sidewalk: no
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2136113724314959,44.801004616402984 1.2136105639477401,44.80110328694373</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Porte Del Bos</name>
+      <description>name: Place de la Porte Del Bos
+oneway: yes
+highway: residential
+surface: asphalt
+sidewalk: no
+smoothness: good
+cycleway:both: no
+oneway:conditional: no@ (weight&gt;3.5)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2136105639477401,44.80110328694373 1.2136796443930888,44.80122362908026</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Esquirol</name>
+      <description>name: Rue de l'Esquirol
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2136796443930888,44.80122362908026 1.2134068260413018,44.801315797729075 1.212914728928661,44.80146361145802 1.2126304121412372,44.80155068051483 1.212364780311723,44.80164801158164 1.2122745894571976,44.80169180094715 1.2117297612373792,44.80206620822623 1.2116145073864266,44.80211050719026</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Couleuvre</name>
+      <description>name: Rue de la Couleuvre
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2116145073864266,44.80211050719026 1.2110263803699135,44.80217156959141</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Couleuvre</name>
+      <description>name: Rue de la Couleuvre
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2110263803699135,44.80217156959141 1.2107565264585638,44.80220567017351</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Couleuvre</name>
+      <description>name: Rue de la Couleuvre
+highway: residential
+sidewalk: no
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2107565264585638,44.80220567017351 1.2105023930646868,44.80223906960263 1.2103005416203452,44.802255769309944 1.2101104581062252,44.80226137837085 1.2097859866256013,44.80227100300818 1.2096048862643227,44.80227992651157 1.2095108326540756,44.80228387834834</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Couleuvre</name>
+      <description>name: Rue de la Couleuvre
+highway: residential
+surface: pebblestone
+sidewalk: no
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2095108326540756,44.80228387834834 1.2094150722447883,44.802278779204066 1.2092242700784415,44.80223817725172 1.2090482901142825,44.802194898216115</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Couleuvre</name>
+      <description>name: Rue de la Couleuvre
+highway: residential
+surface: asphalt
+smoothness: good
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2090482901142825,44.802194898216115 1.2088956663475103,44.80216251859239 1.2088354792234746,44.8021442891112 1.2087113320512093,44.80210598168615</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Couleuvre</name>
+      <description>name: Rue de la Couleuvre
+highway: residential
+surface: asphalt
+sidewalk: no
+smoothness: intermediate
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2087113320512093,44.80210598168615 1.2086732434831626,44.80209737685339 1.2086026359018305,44.802088580800806 1.2085523302459198,44.80210171113968 1.2084468680315643,44.80217838970943 1.2084349204382854,44.802228998784436</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Vieux Moulin</name>
+      <description>name: Rue du Vieux Moulin
+highway: residential
+surface: asphalt
+smoothness: good
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2084349204382854,44.802228998784436 1.2085337351195384,44.802293630460504</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Esplanade François Augiéras</name>
+      <description>name: Esplanade François Augiéras
+highway: service
+service: parking_aisle</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2085337351195384,44.802293630460504 1.2084529765754963,44.80232397035447 1.208317061473009,44.80245291472584</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

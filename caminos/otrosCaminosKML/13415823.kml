@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de la Riverotte</name>
+      <description>name: Chemin de la Riverotte
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.424778615764057,43.45666182374534 1.4243079883867067,43.4562999821273 1.4241094607089164,43.456164674063885 1.4238792225015966,43.4560186714332</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4238792225015966,43.4560186714332 1.4239785761720203,43.45588258023133 1.4239774981936792,43.45578039751284 1.4238584714185334,43.45513182340509 1.4238413135966068,43.45499573020734 1.4237875943426164,43.45490508818554 1.4236365875433559,43.454803816758755 1.4234500972903725,43.45472908577099 1.4227757320065841,43.454287675461345</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4227757320065841,43.454287675461345 1.4225657957246853,43.454150276144844 1.4225143222589054,43.45409302090326 1.4224788388051826,43.45401659354868 1.4222397971080785,43.45288882236314 1.4222317122705213,43.452716922467864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4222317122705213,43.452716922467864 1.4222386292982092,43.45266631754975 1.4222581227398743,43.45261727769181 1.4224627589615966,43.452171287052 1.4228438243051205,43.45142883152873 1.422903292776929,43.451374899621804 1.4229821648588745,43.4513490748948 1.4230392977109447,43.451334401749556</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

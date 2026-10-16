@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Impasse Georges Carpentier</name>
+      <description>name: Impasse Georges Carpentier
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4211496016792708,43.682335998499525 1.4214202640743763,43.68218878904666 1.4216744872997817,43.68208211718741 1.4218351060725825,43.68202098542132 1.422225244400476,43.681901710085185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.422225244400476,43.681901710085185 1.422283365399358,43.681869097724324 1.4223231607664448,43.68185552006288 1.4223604408507355,43.681849803151884 1.422435540008488,43.681868902829684</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+layer: 1
+bridge: yes
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.422435540008488,43.681868902829684 1.4224722811036088,43.68188917186886</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4224722811036088,43.68188917186886 1.422563729599532,43.68193997436645</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: compacted
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.422563729599532,43.68193997436645 1.4226402660617388,43.68189950128043 1.422765491212345,43.68184519064375 1.4229394050513506,43.68180432770408 1.423045675749462,43.68176957144572 1.4232818428376572,43.68167647654612 1.4234603380846116,43.6816026761602 1.4237745687709966,43.68157162280166 1.4240471176281986,43.68158760423923 1.4241603053539973,43.681603520707384 1.4242158212385563,43.68159968776238 1.4242892135972687,43.68158071792926 1.4244780394699907,43.68149028631357 1.4245967967505513,43.681443901078495 1.4246769264738945,43.68144701941474 1.4247477137182833,43.68145832338232 1.4249887317090124,43.68152842092674 1.4250479306862358,43.68155882465549 1.4251417148018979,43.681573506792496 1.4256099167279812,43.68169882453241 1.4258002697366858,43.68173468523718 1.4262002895327046,43.68175203089648 1.4264401397135644,43.68176378956154 1.4264846961516569,43.68177931619309</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

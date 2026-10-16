@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+layer: 1
+bridge: yes
+source: Toulouse - Orthophotoplan 2015
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.429434044892478,43.58523806876738 1.429421827804614,43.58519343112601 1.4292350680570456,43.58490400141792 1.4292278815347728,43.584892874483636</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

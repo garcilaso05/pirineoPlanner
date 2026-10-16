@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Allée Marc Saint-Saëns</name>
+      <description>name: Allée Marc Saint-Saëns
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.393786828293462,43.570474283913526 1.3937830553692687,43.57054359980379 1.3937700297976487,43.57057451531599 1.3937280784738806,43.5706133712109 1.3936846898456574,43.57063159507257 1.393216398088046,43.57082789174733 1.3931591754044477,43.57086062949257 1.393110666379105,43.57088301871566 1.3930302671611767,43.570915886600744</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: Toulouse - Orthophotoplan 2011
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3930302671611767,43.570915886600744 1.3930130195077213,43.57089108924752</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

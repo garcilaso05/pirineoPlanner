@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Émile Dewoitine</name>
+      <description>lit: yes
+name: Rue Émile Dewoitine
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+zone:maxspeed: FR:30
+name:etymology:wikidata: Q2095121</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5109540009696427,43.619535820801815 1.5111475879133702,43.61949621609447 1.5115020631244842,43.61932908264147</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Alberto Santos Dumont</name>
+      <description>name: Rue Alberto Santos Dumont
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+zone:maxspeed: FR:30
+name:etymology:wikidata: Q313211</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5115020631244842,43.61932908264147 1.5117869189010784,43.61959200871627 1.5118593231129784,43.61960950239649 1.5119398121624354,43.61961242884808 1.5120068264826305,43.61959200871627 1.5124567926084465,43.619342869543104 1.5125412342451534,43.619279787938986 1.5126110333427294,43.619204610188234 1.5127887201059285,43.61902687556463 1.5128919365320737,43.61896867110058 1.5130314448956976,43.618916189485255 1.513072138578068,43.61890617440105 1.513161520948838,43.61889589918304 1.5133277991079286,43.61889778514091</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

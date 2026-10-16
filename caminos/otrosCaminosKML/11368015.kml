@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Camí de Bassegoda a Lliurona</name>
+      <description>name: Camí de Bassegoda a Lliurona
+source: survey
+highway: track
+name:ca: Camí de Bassegoda a Lliurona
+surface: concrete
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6912404814746282,42.294002500708416 2.6914195157107534,42.29381558074472 2.691707695253899,42.293653578564204 2.6919786271435893,42.29338917788397 2.692105379430178,42.29330398999434 2.69231289026081,42.29332532020217 2.69246281908173,42.29338917788397 2.6925954104176655,42.293406321766696 2.692710664268618,42.293363594949504 2.6927970821989504,42.29322292184886</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Boulevard Victor Hugo</name>
+      <description>foot: designated
+name: Boulevard Victor Hugo
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.312191144237846,43.61660630270533 1.312253307655507,43.61662327697033 1.313662494841705,43.617008025691874 1.314935227936246,43.61735518190831 1.3150018829303274,43.617375212591746 1.3150211068774076,43.61738347199499 1.3150465291999482,43.61739849500113 1.3150917144587393,43.617414168349846 1.3151708560352704,43.61743621508657</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+layer: 1
+bridge: yes
+bicycle: designated
+highway: cycleway
+surface: paved
+segregated: yes
+cycleway:width: 2.5
+footway:surface: concrete
+cycleway:surface: asphalt
+check_date:surface: 2025-12-06</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3151708560352704,43.61743621508657 1.3153147661437865,43.61747491066688</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+bicycle: designated
+highway: cycleway
+surface: paved
+segregated: yes
+cycleway:width: 2.5
+footway:surface: concrete
+cycleway:surface: asphalt
+check_date:surface: 2025-12-06
+source:cycleway:width: ARCore</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3153147661437865,43.61747491066688 1.315415916444778,43.61750137973016</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: designated
+highway: path
+surface: concrete
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.315415916444778,43.61750137973016 1.3154025315470448,43.6173936824368 1.3153726176480836,43.61723519277203</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: designated
+highway: path
+surface: concrete
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3153726176480836,43.61723519277203 1.3153019202352232,43.61743127245603 1.3152387686707498,43.61758319312481 1.3152229583217494,43.61765739738729 1.315237241534767,43.617713391954176</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

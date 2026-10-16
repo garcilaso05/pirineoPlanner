@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Impasse de la Glacière</name>
+      <description>name: Impasse de la Glacière
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+maxspeed:type: FR:urban
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4219238596226536,43.6468127777105 1.4220251895867022,43.646800687183216 1.4223151657604158,43.64679490193004 1.422696141272411,43.64676909579397</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse de la Glacière</name>
+      <description>name: Impasse de la Glacière
+layer: 1
+bridge: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+maxspeed:type: FR:urban
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.422696141272411,43.64676909579397 1.422870324606002,43.646754080127835</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

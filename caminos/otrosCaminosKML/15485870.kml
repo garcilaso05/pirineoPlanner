@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4080299764492903,43.570885687198086 1.408030964596103,43.570855227440404</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.408030964596103,43.570855227440404 1.408080641431315,43.57077699525714 1.4081422658598055,43.570703709442554 1.4081784679657554,43.57069401175703 1.4082308397468197,43.5706914734364 1.4082877929358328,43.5706828171114 1.4083696294582162,43.57066329156171 1.4084205639348257,43.57063660663357 1.408457484693003,43.5705957981962 1.4084941359565952,43.5705650128655</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4084941359565952,43.5705650128655 1.4085660011793246,43.57055720263111 1.4086259188087753,43.57055069410168</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4086259188087753,43.57055069410168 1.4086594259688732,43.57071269119017</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4086594259688732,43.57071269119017 1.4087356031049667,43.570704425379 1.408805312371014,43.57069681041811</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.408805312371014,43.57069681041811 1.408725272479199,43.570431978401395 1.4087207809027784,43.5704172690933 1.4087887833697863,43.57034613066314</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

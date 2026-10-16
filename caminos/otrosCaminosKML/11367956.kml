@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avinguda de Vilallonga</name>
+      <description>name: Avinguda de Vilallonga
+highway: tertiary
+name:ca: Avinguda de Vilallonga
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+maxweight: 5.5
+parking:right: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9686556922336234,42.26639732676606 2.9688057108860715,42.26640171428998 2.9688886253867954,42.2664043069176 2.9689771094422817,42.26640709897799 2.969021486217317,42.26640849500814 2.9691239839912345,42.26641161945648 2.9692147138349307,42.26641228423269 2.9696723156406613,42.26641587402416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Progrès</name>
+      <description>name: Carrer del Progrès
+oneway: yes
+highway: residential
+name:ca: Carrer del Progrès
+maxspeed: 30
+source_ref: 08 PL 026 OT
+start_date: 1877
+source:name: also surveyed
+name:1936-1939: carrer Stalin
+parking:lane:right: parallel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9696723156406613,42.26641587402416 2.9701427633549553,42.26410028311434</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig del Cementiri</name>
+      <description>name: Passeig del Cementiri
+oneway: yes
+source: Ajuntament de Figueres
+highway: residential
+name:ca: Passeig del Cementiri
+maxspeed: 30
+source_ref: 08 PL 026 OT
+start_date: 1909
+parking:lane:right: parallel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9701427633549553,42.26410028311434 2.970793323283714,42.264112714884256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig del Cementiri</name>
+      <description>name: Passeig del Cementiri
+source: Ajuntament de Figueres
+highway: residential
+name:ca: Passeig del Cementiri
+maxspeed: 30
+source_ref: 08 PL 026 OT
+start_date: 1909</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.970793323283714,42.264112714884256 2.9716706179901853,42.26416310673934</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera del Far</name>
+      <description>ref: GIV-6211
+name: Carretera del Far
+source: PNOA
+highway: tertiary
+name:ca: Carretera del Far</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9716706179901853,42.26416310673934 2.971827194344207,42.264146819138865 2.9719816147415474,42.264099418873556 2.9720483595671574,42.26407588492774 2.972454667570165,42.26388947449296 2.9725660586653952,42.26381740982624 2.972618699941045,42.26377087355856 2.97274679970056,42.26367181767442</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera del Far</name>
+      <description>ref: GIV-6211
+name: Carretera del Far
+source: PNOA
+highway: tertiary
+name:ca: Carretera del Far</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.97274679970056,42.26367181767442 2.973579088811297,42.26296206774003 2.9744974365262524,42.26232690258484 2.9754379726287254,42.26172962610117</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera del Far</name>
+      <description>ref: GIV-6211
+name: Carretera del Far
+oneway: yes
+source: PNOA
+highway: tertiary
+name:ca: Carretera del Far
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9754379726287254,42.26172962610117 2.975521695613206,42.261636218036195 2.9755271753364383,42.2616162732357</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9755271753364383,42.2616162732357 2.9754912427250737,42.26159240594949 2.9755048971173927,42.261536427487904 2.975489086768392,42.261359915505075 2.975461777983755,42.26126577557885 2.9753987162508095,42.26117708712996 2.9753177780437103,42.26110787814126 2.975367185384337,42.26106632611828 2.975400782375963,42.2610362756782</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.975400782375963,42.2610362756782 2.97551127515591,42.261088930422176 2.975641261377522,42.26112157368203 2.975744567635196,42.261122570930034 2.975815534542641,42.261116587441805 2.9758759911612622,42.26110967318803 2.9759994196813,42.26112157368203 2.976088622389013,42.26112961814878 2.9762454682376207,42.26107397169257 2.976282209332741,42.26111831600513</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera El Far - Figueres</name>
+      <description>ref: GIV-6211
+name: Carretera El Far - Figueres
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.976282209332741,42.26111831600513 2.9765367918842607,42.2609509110756 2.976750141764239,42.26082519087799 2.976936721848751,42.26070970891028 2.977098238936835,42.2606228812236 2.9772423287084075,42.260552807337206 2.9773972880949184,42.26048439546976 2.977510296157661,42.26043858806514 2.9776319280471304,42.2603943097585 2.9777567938716234,42.260351892973134 2.977858842487899,42.260320711963814 2.9779448112605897,42.260296179346504 2.9780809060261335,42.260259413644675 2.978455862825725,42.26017291775892 2.978812583825049,42.26010271040392 2.979149002898952,42.26003290187685 2.9799627867148355,42.25984641300409</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

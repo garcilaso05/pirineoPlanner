@@ -1,0 +1,197 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Kakuetako arroilaren bidea</name>
+    <Placemark>
+      <name>Impasse Kakuetta</name>
+      <description>name: Impasse Kakuetta
+highway: track
+surface: asphalt
+tracktype: grade1
+source:name: Commune de Sainte-Engrâce - 2023-11-23</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.840255909665479,42.99879069365373 -0.840159969593135,42.99873373180199 -0.8400790313860358,42.9986711196941 -0.8399932422764024,42.998568890344096 -0.8398161843339025,42.99842783195787 -0.8397291375828713,42.998362197321235 -0.839705961048541,42.998339530688696</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.839705961048541,42.998339530688696 -0.839661674105034,42.998247812867014 -0.8395130029255122,42.998106819444345 -0.8393626249469506,42.99790229299569 -0.8393928981720253,42.99759849145043</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+layer: 1
+bridge: yes
+highway: footway
+surface: metal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8393928981720253,42.99759849145043 -0.839557020374434,42.99753850623592</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.839557020374434,42.99753850623592 -0.8397291375828713,42.99753850623592 -0.839865142516887,42.99744652441319 -0.8401252946231681,42.99750250193885 -0.8406214341545872,42.99737261034871 -0.8406938383664873,42.997238316478715 -0.8407568102679039,42.997155926649995 -0.8409336885473472,42.997074325131805 -0.8410616984753343,42.99712228738992 -0.8413058605695579,42.99712228738992 -0.8415219952269172,42.99721440110121 -0.8418410768158363,42.997338511296995</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8406214341545872,42.99737261034871 -0.8408837422175502,42.99733752577498 -0.8410676273562094,42.99741242540248 -0.8413431406538489,42.99751978137602 -0.8415320563580991,42.99747398757182 -0.8414332416768461,42.99729521401524 -0.8417285179107361,42.99740690648568 -0.8418410768158363,42.997338511296995 -0.8421180274179303,42.99711637423684</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: no
+bicycle: no
+highway: path
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8421180274179303,42.99711637423684 -0.8422386711605877,42.99693628560192 -0.8423103567202603,42.99669811576488 -0.8423864440248252,42.9965699964362 -0.8423983916181041,42.996381890496814 -0.8425705088265414,42.99610981588568 -0.8429666658668381,42.99580561125969 -0.8433149427024912,42.99559752917193 -0.8438191670714675,42.99530541148097 -0.8442953640035793,42.994941215122964 -0.8447035584686832,42.99472110622894 -0.8451706824164253,42.994516502806704</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: -1
+tunnel: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8451706824164253,42.994516502806704 -0.8452936617788214,42.994367484856554 -0.8454290378921381,42.99415473285355</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8454290378921381,42.99415473285355 -0.8454269717669846,42.99388218844561 -0.8455886685181262,42.993566014392385 -0.8459640744753596,42.99309339291276 -0.8459638049807744,42.99285277704992 -0.8464657835615405,42.99259198834009 -0.846647333080461,42.99231700584883 -0.8468412793503025,42.992091893818234 -0.846991208171222,42.991980783052036 -0.8473277170766531,42.99180981269302 -0.8474912104583628,42.99157109732617 -0.8477208198449839,42.99103919173593</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8477208198449839,42.99103919173593 -0.8478952726731599,42.99104431697545</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8478952726731599,42.99104431697545 -0.8479266238765756,42.99090731523386 -0.8479789956576398,42.990818017531424 -0.8481343143702641,42.990783192049385 -0.8484182718315743,42.99070026789765 -0.8486334183421209,42.99059848524784 -0.8489915766458993,42.990429482309175 -0.8491242578133638,42.99022611307136 -0.8491851635896271,42.99013510594086 -0.8493075141313241,42.99002287457922 -0.8492724798352436,42.98994540327969</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8492724798352436,42.98994540327969 -0.8492045671997641,42.989894281367846</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8492045671997641,42.989894281367846 -0.8492947580542897,42.98975997115517 -0.8494112695466399,42.98958156941593 -0.8495397286322691,42.989239220613385 -0.8496710623268073,42.989109114426405 -0.849755593795043,42.988954497978405 -0.8498065282716525,42.98883529914228 -0.8498553966231087,42.98863120181117 -0.849958613049254,42.98857291632532 -0.8500087390421078,42.98851469649507 -0.8500622786330414,42.98844707994132 -0.8500745855524338,42.988400490843986 -0.850052397164916,42.98835600446562 -0.8499516960215663,42.98827077714861 -0.8500288613044721,42.988176875827506 -0.8500773703298146,42.988139880376096</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8500773703298146,42.988139880376096 -0.8501053977666791,42.98808428859019</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8501053977666791,42.98808428859019 -0.8501371981277368,42.98804302184189 -0.8502183159978929,42.98796712512261 -0.8502902710521509,42.98790272783276 -0.8504500813411958,42.9878115201272</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8504500813411958,42.9878115201272 -0.8505135024002546,42.98788551140302</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8505135024002546,42.98788551140302 -0.8506481598613441,42.98782768519151 -0.8508521672623676,42.9878037004401 -0.8511210330269046,42.987775772978026 -0.851202240728589,42.98773371748179 -0.8514710166615977,42.987585997323215 -0.8516476254464556,42.987486180876296 -0.8518155205730574,42.98742651435136</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8518155205730574,42.98742651435136 -0.8518139934370744,42.98740791783451</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8518139934370744,42.98740791783451 -0.8519279896466292,42.98737979305627 -0.8519633832688235,42.98738031875319 -0.8520143177454331,42.987406800729076 -0.8520867219573331,42.98749301492391</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>lit: no
+highway: track
+surface: rock
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8410676273562094,42.99741242540248 -0.8407730697745466,42.997527599826995 -0.8402993881252304,42.997610777571474 -0.8399151786782124,42.997598031542104 -0.8396080446825721,42.99764921274713 -0.8394532649591182,42.99774631894706 -0.8395483067161781,42.99791129401338 -0.8397377614095988,42.998105899635306 -0.8397480022038378,42.99822370078085 -0.839705961048541,42.998339530688696</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8499516960215663,42.98827077714861 -0.8499731657568568,42.988113004448046 -0.849977567501749,42.988096708036075 -0.8499923897039369,42.988075614689976 -0.8500222137713697,42.988058069751716 -0.8500535649747855,42.988033296553226 -0.8500771906667578,42.98801529162285 -0.8501371981277368,42.98804302184189</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

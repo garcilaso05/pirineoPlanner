@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Roussimort</name>
+      <description>name: Chemin du Roussimort
+highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3521906085568929,43.52616922159426 1.352248010903548,43.52619872694419 1.3523724275703983,43.52621728990529 1.3525193021193522,43.52622360782408 1.352579040085746,43.52620250467007 1.3533447640339296,43.52593141967092</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

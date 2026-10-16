@@ -1,0 +1,641 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>La Soulacaise</name>
+    <Placemark>
+      <name>Rue de la Plage</name>
+      <description>lit: yes
+ref: D 1E6
+name: Rue de la Plage
+oneway: yes
+highway: pedestrian
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.123504510384961,45.5142147123382 -1.1230323558716278,45.514031470840926 -1.1229966029233198,45.51401737047427</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Maréchal Gallieni</name>
+      <description>lit: yes
+name: Rue du Maréchal Gallieni
+highway: residential
+surface: sett
+maxspeed: 30
+sidewalk: both
+maxspeed:type: FR:zone30
+ref:FR:FANTOIR: 335140244
+name:etymology:wikidata: Q17577</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1229966029233198,45.51401737047427 -1.1229411768702897,45.513997101191</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Maréchal Gallieni</name>
+      <description>lit: yes
+name: Rue du Maréchal Gallieni
+highway: residential
+surface: sett
+maxspeed: 30
+sidewalk: both
+maxspeed:type: FR:zone30
+ref:FR:FANTOIR: 335140244
+name:etymology:wikidata: Q17577</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1229411768702897,45.513997101191 -1.1228761388437196,45.51407030977905 -1.1226226342705408,45.51431190373871 -1.1225512182054533,45.51438800750962</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Maréchal Gallieni</name>
+      <description>lit: yes
+name: Rue du Maréchal Gallieni
+highway: residential
+surface: sett
+maxspeed: 30
+sidewalk: both
+maxspeed:type: FR:zone30
+ref:FR:FANTOIR: 335140244
+name:etymology:wikidata: Q17577</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1225512182054533,45.51438800750962 -1.1223326580968271,45.5145993853508</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Maréchal Gallieni</name>
+      <description>name: Rue du Maréchal Gallieni
+highway: residential
+surface: asphalt
+maxspeed: 30
+lane_markings: no
+maxspeed:type: FR:zone30
+ref:FR:FANTOIR: 335140244
+name:etymology:wikidata: Q17577</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1223326580968271,45.5145993853508 -1.1222739082772457,45.51465547147614 -1.1222047380003686,45.51472597247474 -1.1221630561711853,45.51476562924762 -1.1220883163395468,45.514836822526945 -1.1219938135716574,45.51492847351253</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Bénédictins</name>
+      <description>name: Rue des Bénédictins
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed:type: FR:urban
+ref:FR:FANTOIR: 335140026</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1219938135716574,45.51492847351253 -1.1214886010558682,45.51466950873559 -1.1207094922099514,45.51427042116019 -1.1204488909460286,45.514142825844615 -1.12038771567518,45.514100776609645 -1.120357442450105,45.514055516993785 -1.1203395659759512,45.513996975294816 -1.1202194612224643,45.51351630157979 -1.1202097594173956,45.51347739931065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue E. J. Laporte</name>
+      <description>ref: D 1E6
+name: Rue E. J. Laporte
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1202097594173956,45.51347739931065 -1.1206242420894887,45.51342571842284 -1.1208915807180426,45.51339109660787</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue E. J. Laporte</name>
+      <description>ref: D 1E6
+name: Rue E. J. Laporte
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1208915807180426,45.51339109660787 -1.1209776393222612,45.5133778773638 -1.1210442044848146,45.513362706703695 -1.1210814845691055,45.51335219425218</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Aristide Briand</name>
+      <description>name: Rue Aristide Briand
+highway: residential
+ref:FR:FANTOIR: 335140018
+name:etymology:wikidata: Q179888</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1230946091208174,45.5095208099702 -1.1231376384229266,45.509426191377244 -1.1233404780140808,45.50898041794213 -1.1236161709747772,45.50837700342473 -1.1244509753683094,45.50654858961192 -1.1244641806029858,45.50652132947244</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place Georges Clemenceau</name>
+      <description>name: Place Georges Clemenceau
+highway: residential
+surface: asphalt
+junction: roundabout
+ref:FR:FANTOIR: 335140129
+name:etymology:wikidata: Q171730</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1244641806029858,45.50652132947244 -1.124535506836545,45.50653719449748 -1.1246092585213712,45.5065458824855 -1.1246840881845384,45.50654720457051 -1.1247584686900634,45.50654122370948 -1.124830783070435,45.506527813987184</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Maréchal Leclerc</name>
+      <description>name: Rue du Maréchal Leclerc
+highway: residential
+ref:FR:FANTOIR: 335140247
+name:etymology:wikidata: Q312391</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.124830783070435,45.506527813987184 -1.1248438984735831,45.5065553259492 -1.1250202377638558,45.50688357976302 -1.125595069714164,45.508109572574554</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la République</name>
+      <description>name: Place de la République
+highway: residential
+junction: roundabout
+ref:FR:FANTOIR: 335140348</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.125595069714164,45.508109572574554 -1.1255417097862874,45.50813758740069 -1.1254952668860982,45.50817762654373 -1.125463825851154,45.50822698293242 -1.125453135899273,45.50826878473798 -1.1254558308451255,45.508314174916386 -1.1254711022049555,45.50835478052348 -1.1254985008211211,45.50839267906367 -1.1255382063566792,45.508426674410224 -1.1255919256106697,45.50845569634726 -1.1256445668863189,45.50847300877545 -1.1257219118322817,45.50848389986391</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Cours Chanzy</name>
+      <description>name: Cours Chanzy
+highway: residential
+ref:FR:FANTOIR: 335140046
+name:etymology:wikidata: Q239760</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1257219118322817,45.50848389986391 -1.1257521850573566,45.50852179831717 -1.125808329762614,45.50857140622073 -1.1266221135784977,45.50897890705313 -1.1276471811492066,45.509514703518896 -1.1276785323526224,45.50952767185798</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Cours Roger Duveau</name>
+      <description>name: Cours Roger Duveau
+highway: residential
+ref:FR:FANTOIR: 335140353</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1276785323526224,45.50952767185798 -1.1277151836162145,45.50954838342245 -1.1282156350609975,45.5098103934979 -1.1286412568426132,45.51003702304553 -1.128693718455206,45.51006151157258 -1.1287412393337357,45.51008467808707 -1.1294406676139512,45.51042682373291 -1.129723906423034,45.51058968055257 -1.12975525762645,45.510605922142304</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Révérend Père Brottier</name>
+      <description>name: Rue du Révérend Père Brottier
+highway: residential
+ref:FR:FANTOIR: 33514X003</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.12975525762645,45.510605922142304 -1.1296884229693114,45.51069921676461</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1296884229693114,45.51069921676461 -1.129965283739877,45.510804723856936 -1.1301798912612533,45.51089109347742</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1301798912612533,45.51089109347742 -1.1302804127415462,45.510909475332895 -1.130428005942727,45.51094800166804 -1.130572814366527,45.510983317452094 -1.1309577424657722,45.511154293376705 -1.1311294105165675,45.5112088091551 -1.1312410711063836,45.511230716173564 -1.1314122899995367,45.51121737051965</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard du Front de Mer</name>
+      <description>name: Boulevard du Front de Mer
+oneway: yes
+highway: residential
+surface: asphalt
+ref:FR:FANTOIR: 335140107</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1314122899995367,45.51121737051965 -1.1307362179167084,45.51219178378966 -1.1307044175556507,45.51223767440502 -1.1306700120802688,45.51260542747728</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard du Front de Mer</name>
+      <description>name: Boulevard du Front de Mer
+lanes: 2
+oneway: no
+highway: residential
+surface: asphalt
+ref:FR:FANTOIR: 335140107</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1306700120802688,45.51260542747728 -1.1306630052210527,45.51266107494271 -1.1306297675555403,45.512795472157755</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard du Front de Mer</name>
+      <description>name: Boulevard du Front de Mer
+lanes: 2
+oneway: no
+highway: residential
+surface: asphalt
+ref:FR:FANTOIR: 335140107</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1306297675555403,45.512795472157755 -1.1305995841619938,45.51288240526735 -1.1305748804916804,45.51291381698067</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+surface: asphalt
+junction: roundabout
+lane_markings: no
+sidewalk:both: yes
+cycleway:right: lane
+oneway:bicycle: no
+cycleway:right:lane: exclusive
+cycleway:right:oneway: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1305748804916804,45.51291381698067 -1.130604165569943,45.512929113660356 -1.13061449619571,45.51295907751471 -1.130612969059727,45.512973618791214</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Charcot</name>
+      <description>name: Boulevard Charcot
+source: adresse.data.gouv.fr - 2025-11
+highway: residential
+surface: asphalt
+junction: roundabout
+lane_markings: no
+sidewalk:both: yes
+cycleway:right: lane
+oneway:bicycle: no
+ref:FR:FANTOIR: 335140048
+cycleway:right:lane: exclusive
+cycleway:right:oneway: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.130612969059727,45.512973618791214 -1.1305897026938685,45.51299760244685 -1.1305513446312365,45.513006918929754 -1.1305013983014396,45.51300150529798</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Charcot</name>
+      <description>lit: yes
+name: Boulevard Charcot
+oneway: yes
+highway: living_street
+surface: asphalt
+cycleway:right: lane
+ref:FR:FANTOIR: 335140048
+cycleway:right:oneway: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1305013983014396,45.51300150529798 -1.130478401430166,45.5130237263646 -1.1304203702628122,45.513075596468944 -1.1294701323552705,45.51387731083678 -1.1287947789246693,45.51446480360092 -1.128541543846076,45.51469670198158 -1.1284426393332945,45.51477620438235 -1.1283740978771162,45.51483631894969 -1.1281070287431474,45.51506519434824 -1.1275539360227151,45.51554541420926 -1.1274846759143096,45.515629510488914</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Félix Mesnard</name>
+      <description>lit: yes
+name: Boulevard Félix Mesnard
+oneway: yes
+highway: living_street
+surface: paving_stones
+maxspeed: 30
+cycleway:right: lane
+ref:FR:FANTOIR: 335140105
+cycleway:right:oneway: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1274846759143096,45.515629510488914 -1.1274462280201492,45.51570007321343 -1.1271268769366447,45.515966901485086</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Félix Mesnard</name>
+      <description>lit: yes
+name: Boulevard Félix Mesnard
+oneway: yes
+highway: living_street
+surface: paving_stones
+maxspeed: 20
+cycleway:both: no
+ref:FR:FANTOIR: 335140105</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1271268769366447,45.515966901485086 -1.1270003043131123,45.516079196845574 -1.1268200124355894,45.51621100512743 -1.1267568608711158,45.51623360260034</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Félix Mesnard</name>
+      <description>lit: yes
+name: Boulevard Félix Mesnard
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:right:oneway: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1267568608711158,45.51623360260034 -1.1266647835544936,45.516264131205325 -1.1265930979948207,45.51630441634943 -1.1264183756720596,45.51645410058534 -1.126130375791971,45.516701475258074 -1.1261124993178169,45.51671670796319 -1.1256985556348946,45.517067184932145 -1.1256627128550583,45.51710218215328 -1.1253500093046562,45.51737819364716 -1.1250888690515628,45.517577097327894 -1.1249534929382459,45.51767529002499 -1.1246213857777068,45.517889487986956 -1.1244290564753767,45.51799630341586 -1.124094793358156,45.51817027931975 -1.1237053736824902,45.51834098163748 -1.1231794100836383,45.51855001573935 -1.1231047600835278,45.51857959894307 -1.1228823372191798,45.518671621490114 -1.122784870010853,45.518711779025026</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Félix Mesnard</name>
+      <description>name: Boulevard Félix Mesnard
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.122784870010853,45.518711779025026 -1.1226390734402403,45.5187693716779 -1.1218818834872561,45.51906878958017 -1.121864456170744,45.519075524419 -1.1213457689256934,45.5192754921172</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue le Corduan</name>
+      <description>lit: yes
+name: Avenue le Corduan
+oneway: no
+highway: residential
+surface: asphalt
+maxspeed: 30
+ref:FR:FANTOIR: 335140054</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1213457689256934,45.5192754921172 -1.1208413648936604,45.5194747038011</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Brigade Carnot</name>
+      <description>lit: yes
+name: Avenue de la Brigade Carnot
+highway: residential
+surface: concrete
+sidewalk: right</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1208413648936604,45.5194747038011 -1.1208622956397805,45.51949862174417 -1.1209425151946524,45.51960870709311 -1.1209737765665395,45.51970060207366 -1.1209499712115105,45.51975139601562 -1.1209469169395443,45.519757816064505 -1.1203420812587468,45.520316986923156</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Brigade Carnot</name>
+      <description>name: Avenue de la Brigade Carnot
+oneway: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1203420812587468,45.520316986923156 -1.1197014027981127,45.52092367220741</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Sirènes</name>
+      <description>name: Rue des Sirènes
+highway: residential
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1197014027981127,45.52092367220741 -1.1185888393187307,45.52035821328045</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1185888393187307,45.52035821328045 -1.1183812386565706,45.520572086325565 -1.1179984665140072,45.52094179902468 -1.1175822770428747,45.52135342726152 -1.1171562061036167,45.521769898820935 -1.1167479218069845,45.522158422403244 -1.1163586817943754,45.522558901622325 -1.1163274204224882,45.522579482514125 -1.1158033432857328,45.52309072959059 -1.1154329678940904,45.52346602717732 -1.1150952911787897,45.523789713827995 -1.1148483443071853,45.52402100734808 -1.1147651603118758,45.5240583918441</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1147651603118758,45.5240583918441 -1.1145967261961034,45.5242251742257</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1145967261961034,45.5242251742257 -1.1144464380490704,45.524283894093685</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1144464380490704,45.524283894093685 -1.1139734750519814,45.524746098503 -1.1137577895522641,45.5249361021826 -1.1136039081440945,45.52505737945242 -1.1134717659658007,45.52519608961591 -1.1134461639802031,45.52522201906406 -1.113140557120546,45.525744192809825 -1.1127276914159643,45.52636019677731 -1.1124704139185926,45.52696121580595 -1.1124570290208593,45.52704032327734 -1.1124527171074954,45.52710401194834 -1.1124543340750068,45.52716939974798 -1.1124560408740467,45.527347312076984 -1.1124422068186712,45.52741301425927 -1.1124175929798863,45.527493379755256 -1.1123682754707882,45.52758979302573 -1.112314196890684,45.527671416925166 -1.1122397265536308,45.527761914217216 -1.1122091838339705,45.52779589786369 -1.1122081058556297,45.52781219742018 -1.112217807660698,45.527826420195346 -1.1122605674682222,45.527845992238476 -1.1122913796824676,45.527865690139954 -1.1123068307053543,45.52788708721362 -1.1122935356391495,45.52791062398524 -1.1122056804043625,45.52799388366253 -1.1120993198747229,45.52807468885507 -1.1120252986953112,45.52811779749675 -1.1119186686710862,45.52816612948202 -1.1118257828707085,45.528197595595934 -1.1117284054939098,45.5282223908813 -1.1116030006802469,45.52825228366003 -1.1113761760710066,45.528303887998575 -1.1111158443016687,45.528352723280236 -1.1104005158409243,45.52844882041814 -1.1099246782349264,45.52850841692348 -1.1097463626510284,45.52854082682332 -1.1096127831682798,45.52857260738658 -1.1094430015795815,45.52863063046763 -1.109289389665997,45.528699792391706 -1.109160122096612,45.52876939475173 -1.1090543005561428,45.52883408836899 -1.1089364415908665,45.52892288464273 -1.1088159775112658,45.52904251710455</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+bicycle: no
+highway: track
+surface: sand
+tracktype: grade3
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1088159775112658,45.52904251710455 -1.1090119899062607,45.529123887171224 -1.1093652074759766,45.52927057954624 -1.109646200496849,45.52945779898866</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+bicycle: no
+highway: track
+surface: sand
+tracktype: grade3
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.109646200496849,45.52945779898866 -1.109704141832675,45.529496375556 -1.1098942253467945,45.52961512576933 -1.110014060605696,45.529626705003 -1.1103199369599388,45.52953577019616 -1.1106092843129538,45.52947611184857 -1.1108798568765306,45.529300282975 -1.1110544893677634,45.52926617437539 -1.111192021437762,45.529357424272646 -1.1114376208364403,45.52943602492755</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+bicycle: no
+highway: track
+surface: sand
+tracktype: grade3
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1114376208364403,45.52943602492755 -1.111192021437762,45.529357424272646 -1.1110544893677634,45.52926617437539 -1.1108798568765306,45.529300282975 -1.1106092843129538,45.52947611184857 -1.1103199369599388,45.52953577019616 -1.110014060605696,45.529626705003 -1.1098942253467945,45.52961512576933 -1.109704141832675,45.529496375556 -1.109646200496849,45.52945779898866</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.109646200496849,45.52945779898866 -1.1099645634335413,45.52935308203951 -1.1100746070558458,45.52924792437816 -1.1101925558526509,45.52909946987047 -1.1102140255879411,45.52895667879372 -1.1102811297396649,45.528834528889476 -1.1104044684281746,45.528766877488856 -1.1107638843733507,45.52866920760229 -1.1109328574782935,45.528674808521764 -1.1110992254689125,45.52861659669106 -1.1112413389468603,45.528550770050984 -1.1114343869014174,45.528483181240965 -1.1115765902108936,45.528466189627906 -1.1116329145792079,45.52844372293165 -1.1116893287790506,45.52833472471487 -1.1117284054939098,45.5282223908813 -1.1117362208368817,45.52816096903766 -1.111740173424132,45.52812988049697 -1.1115605103673079,45.527934475409545 -1.1115659002590126,45.5278291892308 -1.1115417355778696,45.527714588808664 -1.1114317817870936,45.52760942808407 -1.1113379078399033,45.52750791727595 -1.1112815834715888,45.527265498907504 -1.1113969271540698,45.52704189661494 -1.1114854112095556,45.52692540657984 -1.1115417355778696,45.52682206945863 -1.1117000187309316,45.526703690951884 -1.111775117888684,45.52655711775065 -1.1119493910538032,45.526476310378065 -1.1120191901513794,45.52634849100263 -1.1120969842549842,45.52625648101148 -1.1121560035691507,45.526083599998636 -1.1122767371433364,45.52596138092052 -1.112410765783727,45.52577918463396 -1.112534194303765,45.525666405151576 -1.1125744388284935,45.525551800323164 -1.1125475792014983,45.52540711218054 -1.1125905186720793,45.52525858460049 -1.1127353270958793,45.52516468475857</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1127353270958793,45.52516468475857 -1.112800185459393,45.52501842222612 -1.113065817288907,45.524754406063856 -1.1133474391304783,45.52450920663035 -1.1134506555566237,45.52430428554476 -1.1136126218023503,45.524228698678236 -1.113856963559631,45.523997091327495 -1.1139857819713737,45.52382420337104 -1.1140471369052793,45.523720419992365</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Prince Noir</name>
+      <description>name: Rue du Prince Noir
+highway: residential
+surface: asphalt
+lane_markings: no
+ref:FR:FANTOIR: 335140338</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1140471369052793,45.523720419992365 -1.1140380639209095,45.523643510657976 -1.1158319995432964,45.52191188993094 -1.1167815187986105,45.520948281878056</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Prince Noir</name>
+      <description>name: Rue du Prince Noir
+highway: residential
+surface: asphalt
+ref:FR:FANTOIR: 335140338</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1167815187986105,45.520948281878056 -1.1174142022532159,45.520344177440066 -1.1174465416034443,45.52030439871643 -1.1174504941906944,45.5202818028783 -1.1174475297502566,45.520254486449055 -1.1174291142869321,45.520221505304825 -1.1174065665733008,45.52019469237561</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de l'Europe</name>
+      <description>name: Avenue de l'Europe
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1174065665733008,45.52019469237561 -1.1175793126024371,45.52011129527233 -1.1176852239744346,45.52005301163846 -1.1177758639866024,45.51998692321168 -1.1178664141672419,45.51990151167274 -1.11794061500971,45.51983410129513</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de l'Europe</name>
+      <description>name: Avenue de l'Europe
+source: adresse.data.gouv.fr - 2026-01
+highway: tertiary
+surface: asphalt
+junction: roundabout
+ref:FR:FANTOIR: 335140087</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.11794061500971,45.51983410129513 -1.1179169893177374,45.51981742177747 -1.1179029755993053,45.519796084575965 -1.1179001908219246,45.51977267029244 -1.1179089044801804,45.51975007424076 -1.1179281284272609,45.51973081408927 -1.1179555270434265,45.51971740750935</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Paul Pléneau</name>
+      <description>name: Rue Paul Pléneau
+highway: residential
+ref:FR:FANTOIR: 335140310</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1179555270434265,45.51971740750935 -1.1179357641071757,45.51969449672687 -1.1179266012912779,45.51966957179907 -1.1179291165740735,45.51963501676726 -1.11794061500971,45.51958919512587 -1.1181351901002503,45.518585012038244</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Louis de Foix</name>
+      <description>name: Rue Louis de Foix
+highway: residential
+ref:FR:FANTOIR: 335140236
+name:etymology:wikidata: Q3263443</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1181351901002503,45.518585012038244 -1.118216936791105,45.51817531479376 -1.118900734385377,45.51677952709197</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.118900734385377,45.51677952709197 -1.1189866133265387,45.51625399696921 -1.119004579632221,45.516177392156514 -1.1190515615215806,45.51612508429105 -1.119103933302645,45.51610708181347 -1.1191737324002209,45.51610878134831 -1.1192470349274048,45.51612993111095 -1.1195869574309159,45.51630126907358 -1.1196694227739978,45.51633167175088 -1.1197580864925405,45.51633891048115 -1.1198524095973732,45.516318893816056 -1.1200663882980504,45.51621528542941 -1.1202286240383623,45.51610550817005</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Général Desorthes</name>
+      <description>name: Rue du Général Desorthes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1202286240383623,45.51610550817005 -1.119448077887991,45.51569572992608 -1.1192886269250597,45.51559558243912 -1.1192208041211087,45.515516710659895 -1.1191869376348975,45.51544092314778 -1.119171576443539,45.51530690993011 -1.1191791222919256,45.51512681933087 -1.1192002327011024,45.515039323165865 -1.1192307754207624,45.514982482059146 -1.1192868302944916,45.51491827608883 -1.1193630972621131,45.51485998707586 -1.1194533779481672,45.514820770999684 -1.1195611757822614,45.514785331729165 -1.1196873890796804,45.514752788009936 -1.1197284420881646,45.51474227581808</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Barriquand</name>
+      <description>name: Rue Barriquand
+oneway: yes
+highway: residential
+ref:FR:FANTOIR: 335140024</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1197284420881646,45.51474227581808 -1.1198051582134283,45.514849223115455 -1.119891396480704,45.51495610726256 -1.1200329709694812,45.51508986952815 -1.1201855049047247,45.51521123096976 -1.120389242811163,45.515333599295296 -1.1211636804176024,45.51572657355366</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Maréchal Gallieni</name>
+      <description>name: Rue du Maréchal Gallieni
+highway: residential
+surface: asphalt
+maxspeed:type: FR:urban
+name:etymology:wikidata: Q17577</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1211636804176024,45.51572657355366 -1.1211891027401428,45.51570259106102 -1.1214990215131642,45.51541058293574 -1.1219938135716574,45.51492847351253</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Périer de Larsan</name>
+      <description>name: Rue Périer de Larsan
+highway: residential
+surface: asphalt
+lane_markings: no
+ref:FR:FANTOIR: 335140315</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1213383129088352,45.51320539741862 -1.121449704004066,45.51309888764102 -1.1217921417903725,45.51232227922742 -1.1221844360749476,45.51150637876065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Périer de Larsan</name>
+      <description>name: Rue Périer de Larsan
+highway: residential
+surface: asphalt
+lane_markings: no
+ref:FR:FANTOIR: 335140315
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1221844360749476,45.51150637876065 -1.1222299806598524,45.51141151170161 -1.122277681201439,45.51130770542661 -1.1222923237405702,45.51127578920775</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Périer de Larsan</name>
+      <description>name: Rue Périer de Larsan
+highway: residential
+surface: asphalt
+lane_markings: no
+ref:FR:FANTOIR: 335140315</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1222923237405702,45.51127578920775 -1.122500104065787,45.51082329459555 -1.122887816942413,45.50996399806872 -1.12293210388592,45.50985867825857 -1.122966509361302,45.509783701513335 -1.1230946091208174,45.5095208099702</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

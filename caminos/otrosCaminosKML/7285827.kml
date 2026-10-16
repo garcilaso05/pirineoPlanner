@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Coulenne</name>
+      <description>name: Rue Coulenne
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.1607169586611247,44.827610673123445 -0.16082772093565662,44.827496120068716</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Picoterie</name>
+      <description>name: Rue de la Picoterie
+highway: residential
+ref:FR:FANTOIR: 330780600</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.16082772093565662,44.827496120068716 -0.1615376595046963,44.827808114144524 -0.16165587779608642,44.82788762553605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Picot</name>
+      <description>name: Rue Picot
+highway: residential
+surface: asphalt
+ref:FR:FANTOIR: 330780610</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.16165587779608642,44.82788762553605 -0.1615888634758911,44.82797803138402 -0.16120213874607764,44.828540532237554</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Port</name>
+      <description>ref: D 18E5
+name: Avenue du Port
+highway: tertiary
+surface: asphalt
+smoothness: good
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.1607425606467221,44.828461786271134 -0.16120213874607764,44.828540532237554 -0.1616730356180131,44.8286917802564 -0.16189509915624747,44.82878562518398</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Mairie</name>
+      <description>name: Rue de la Mairie
+highway: residential
+surface: asphalt
+maxspeed: 30
+name:etymology:wikidata: Q119304017</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.15887666997007746,44.82752198690742 -0.15909936232901067,44.82742342527018 -0.15928612207657913,44.82732951441314 -0.15948914133079012,44.82722827655396 -0.15956666593980964,44.827182276662406 -0.15972979999540576,44.82707600530442</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Despagne</name>
+      <description>name: Rue Despagne
+highway: service
+service: alley
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.15972979999540576,44.82707600530442 -0.16004268320886458,44.82726299943948 -0.16016476425597642,44.82731912941752 -0.16026321961111592,44.82736430094926 -0.1607169586611247,44.827610673123445</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.16189509915624747,44.82878562518398 -0.16231039031209593,44.82844751514597 -0.16247981257468083,44.82825581026936 -0.1625276927793244,44.828217392764756</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

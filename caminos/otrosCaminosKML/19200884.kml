@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de la Briqueterie</name>
+      <description>foot: designated
+name: Chemin de la Briqueterie
+bicycle: designated
+highway: path
+surface: gravel
+segregated: no
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5747879257330624,43.61401211043425 1.5747625034105217,43.61394798262348 1.5745988303657552,43.61365088655915 1.574550590834998,43.613623700374895 1.5745204074414514,43.61356887269795 1.5742314194145501,43.61323138545758 1.5739752198955193,43.61291301793982</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Briqueterie</name>
+      <description>foot: yes
+name: Chemin de la Briqueterie
+bicycle: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+maxspeed:type: FR:zone30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5739752198955193,43.61291301793982 1.5739121581625741,43.612838222466436 1.5736197565375931,43.61246827618323 1.573300674948674,43.612081807364845 1.5730874149002239,43.61182158015922 1.5729379352369464,43.611625872428704</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+width: 3
+access: yes
+bicycle: designated
+highway: track
+surface: compacted
+maxspeed: 20
+tracktype: grade2
+smoothness: bad
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0437747925853227,42.27782771835926 3.043902083861082,42.27775879351236 3.044363099264893,42.27709240532848 3.04495041779765,42.27608729304432 3.045100616113155,42.27584920630221 3.045272194332422,42.27565857673802 3.045508271589088,42.275468079533326 3.0517524611290034,42.270736571674576 3.0554217197385176,42.26832308802895 3.0559581936261937,42.26806901774842 3.0562799701609658,42.267894385384096 3.056666335564665,42.26767202257553 3.057138310414942,42.26752909838314 3.0578249826181225,42.2670527928631 3.0584473354469606,42.26646520039729 3.0592625565672993,42.26581418223383 3.060292564872071,42.26511549193034 3.0608719782303275,42.264639101694755 3.0610308902040884,42.26444139137728 3.0615484096392698,42.26436580391318 3.0635453645158672,42.26411550704614 3.0643056985723462,42.26392158446094 3.0648551082001134,42.26386959688556 3.0653726276352944,42.26377027523489 3.066517979622547,42.26359928739479 3.067431656098025,42.26340542970256 3.0681856121159865,42.26316902356202 3.0684795408769507,42.263074420968934 3.0692827245724814,42.26280510529033 3.069788476077441,42.2627077764086 3.0700518621187447,42.26262460796234</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: yes
+ref: GIV-6043
+lanes: 1
+bicycle: yes
+highway: tertiary
+surface: asphalt
+junction: roundabout
+maxspeed: 30
+smoothness: good
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0700518621187447,42.26262460796234 3.0700515027926314,42.262571821537456 3.070075397979189,42.26250401019631 3.0701176187975423,42.26244716828063 3.0701472632019184,42.26241851461715 3.0702174216256077,42.26238939556762</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: yes
+ref: GIV-6043
+lanes: 1
+bicycle: yes
+highway: tertiary
+surface: asphalt
+junction: roundabout
+maxspeed: 30
+smoothness: good
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0700518621187447,42.26262460796234 3.070076386126001,42.262663433213895 3.070109713623042,42.2626938152862</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: yes
+ref: GIV-6043
+lanes: 1
+bicycle: yes
+highway: tertiary
+surface: asphalt
+junction: roundabout
+maxspeed: 30
+smoothness: good
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.070109713623042,42.2626938152862 3.0701928976183517,42.26269527788011 3.0702874902177695,42.262670014889444 3.0703343822756004,42.26261058033989 3.070379926860505,42.26254037569911 3.0703803760181474,42.2625012844448</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: yes
+ref: GIV-6043
+lanes: 1
+bicycle: yes
+highway: tertiary
+surface: asphalt
+junction: roundabout
+maxspeed: 30
+smoothness: good
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0703803760181474,42.2625012844448 3.070360702913425,42.26245142311585 3.07033042968835,42.2624121988427 3.0702775189181155,42.26239298558814 3.0702174216256077,42.26238939556762</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Llàtzer</name>
+      <description>ref: GIV-6043
+name: Carrer de Sant Llàtzer
+oneway: yes
+highway: tertiary
+name:ca: Carrer de Sant Llàtzer
+surface: asphalt
+maxspeed: 30
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0703803760181474,42.2625012844448 3.0705085656091913,42.26238327923586 3.0708409422643155,42.262077328927525 3.071139991422399,42.26180282335646</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Llàtzer</name>
+      <description>lit: yes
+ref: GIV-6043
+name: Carrer de Sant Llàtzer
+oneway: yes
+highway: tertiary
+name:ca: Carrer de Sant Llàtzer
+surface: asphalt
+maxspeed: 30
+smoothness: good
+lane_markings: no
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.071139991422399,42.26180282335646 3.071224702553691,42.26175322740531 3.072302591063106,42.26090669961216</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer dels Panissars</name>
+      <description>lit: yes
+name: Carrer dels Panissars
+oneway: yes
+highway: tertiary
+name:ca: Carrer dels Panissars
+surface: asphalt
+maxspeed: 30
+smoothness: excellent
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.072302591063106,42.26090669961216 3.072432217958605,42.260815617251396 3.0731497023760315,42.26025050477338 3.073455578730274,42.26001249117862 3.0737050408846742,42.259822279109656</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin del Rosiers</name>
+      <description>foot: yes
+name: Chemin del Rosiers
+highway: track
+surface: grass
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4329849055475457,43.46218157990231 1.433945114754741,43.461895406376826 1.4345566878001694,43.461695886097594 1.434944310845267,43.46156841446337 1.4351212789562386,43.46150608041038 1.4352809095822268,43.46142718470722 1.4354377554308342,43.46131920827222 1.435665837681472,43.461130314250376 1.4359193422546503,43.460943375747135 1.4361090664426563,43.46084407054504 1.4363508929171416,43.460749199040734 1.436634221557753,43.46067682274146 1.43716611403748,43.46054302416548 1.4376178767938639,43.46044769575966</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Camp Grand</name>
+      <description>name: Chemin du Camp Grand
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4376178767938639,43.46044769575966 1.4377499291406293,43.460639721704005 1.43784775567507,43.46078382226677 1.4379497144598172,43.46092009804862 1.4381079077813508,43.46110697142038</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4381079077813508,43.46110697142038 1.4383263780584488,43.461072804803784 1.4383987822703488,43.46106106817531 1.4384994834136986,43.46101790344432</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4384994834136986,43.46101790344432 1.438544309346376,43.46099892920993 1.4386530953272831,43.46097467347894 1.4388261108510045,43.46090692690989 1.4389991263747257,43.46085261223332 1.4393771374462834,43.460766412850504 1.440008832754076,43.460618008784 1.4414278115768715,43.46026368934197 1.44156139105962,43.460234999417736 1.4416521209033162,43.46022782693455</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

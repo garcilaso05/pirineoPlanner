@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Halage</name>
+      <description>lit: no
+ref: M 501
+foot: designated
+name: Chemin de Halage
+bicycle: designated
+highway: path
+old_ref: D 501
+surface: asphalt
+segregated: no
+smoothness: excellent
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.399587699240664,43.685631290846324 1.39998897667808,43.68492971003984 1.4002232573041784,43.68461107271402 1.4003951050180303,43.68428139011122 1.4006450163300723,43.68383081013013 1.400678343827113,43.68377377280355 1.4008760630211479,43.683434795864564 1.4010275189780506,43.68317780095626 1.4012414976787277,43.68281848696758 1.4016018119391882,43.68221600918013 1.4020638154898106,43.68144357625179 1.402469943829761,43.68076468460049 1.4026339762006415,43.68049020230227 1.402928713445361,43.67999749530611 1.4031550888969593,43.67961899691471 1.4032849852870428,43.67940181078294 1.4035478323391763,43.678946386518135 1.4039537810160698,43.678242908406375 1.4040900554446707,43.67800668136131 1.4041464696445134,43.677911176763914 1.4045164857100423,43.67728532552794 1.4045957171181016,43.67716831472619 1.4046936334840707,43.67700679916358 1.4048645828826387,43.67668227241268 1.4049176733159299,43.67659488703168</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Halage</name>
+      <description>lit: no
+ref: M 501
+foot: designated
+name: Chemin de Halage
+bicycle: designated
+highway: service
+old_ref: D 501
+surface: asphalt
+segregated: no
+smoothness: excellent
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4049176733159299,43.67659488703168 1.4050281660958766,43.67645273121062 1.4051785440744384,43.67619200304562</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Halage</name>
+      <description>lit: no
+ref: M 501
+foot: designated
+name: Chemin de Halage
+bicycle: designated
+highway: path
+old_ref: D 501
+surface: asphalt
+segregated: no
+smoothness: excellent
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4051785440744384,43.67619200304562 1.4052381023777756,43.676084280986124 1.4100130074389843,43.668037130312236 1.4100367229624853,43.667998207365926</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Halage</name>
+      <description>lit: no
+ref: M 501
+foot: designated
+name: Chemin de Halage
+layer: 1
+bridge: yes
+bicycle: designated
+highway: path
+old_ref: D 501
+surface: asphalt
+segregated: no
+smoothness: excellent
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4100367229624853,43.667998207365926 1.4100786742862534,43.66791971159776</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Halage</name>
+      <description>lit: no
+ref: M 501
+foot: designated
+name: Chemin de Halage
+bicycle: designated
+highway: path
+old_ref: D 501
+surface: asphalt
+segregated: no
+smoothness: excellent
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4100786742862534,43.66791971159776 1.410108588185215,43.66786337392604 1.4102871732636977,43.66751572968382</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

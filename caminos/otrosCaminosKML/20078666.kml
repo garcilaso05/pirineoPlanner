@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: rock</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5821754767144087,44.121525017530885 3.582599481528513,44.1215265007294 3.582945422744428,44.121501092888884</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: rock
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.582945422744428,44.121501092888884 3.583183296631663,44.121514893087884 3.5833516409159065,44.121510121056815 3.5833572104706684,44.12150992759609 3.5835117206995366,44.12146136893359 3.5837069246107753,44.12129860361708 3.5838761672103043,44.121246111062</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+highway: path
+surface: rock</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5838761672103043,44.121246111062 3.5842095320122405,44.12136618610087 3.584327390977517,44.12151437719265 3.5844404888717882,44.12170448428045 3.5845439747925187,44.121698422530656 3.584717708968467,44.12162619737876 3.5850427194382615,44.12154217104183 3.5856607603537354,44.12125991132056 3.585960438332518,44.121057421222126 3.5861250096925685,44.12090722986964 3.586230112580811,44.12073678898438 3.5863151830382174,44.120572409473375 3.5863368324365643,44.120345089074384 3.586359739476309,44.12022559235506 3.58639818737047,44.120109900211965 3.586445438754414,44.120033610341494</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.586445438754414,44.120033610341494 3.5865362584296387,44.1199698311603 3.58693555957343,44.1197383811571 3.587030062341319,44.11970168699419</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>ref: D 269
+foot: yes
+horse: yes
+access: no
+bicycle: yes
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.587030062341319,44.11970168699419 3.5870582694412403,44.11960991924274 3.5870521608973083,44.119567098542554 3.587024133460444,44.119528985513725</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

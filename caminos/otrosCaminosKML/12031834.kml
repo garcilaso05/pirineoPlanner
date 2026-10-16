@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Pont de Donneville</name>
+      <description>ref: D 95
+name: Pont de Donneville
+layer: 1
+bridge: yes
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+maxweightrating: 5.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5525237204053302,43.47745172237997 1.552770757108463,43.477599172521266</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Montlaur</name>
+      <description>ref: D 95
+name: Route de Montlaur
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.552770757108463,43.477599172521266 1.5527997726921403,43.47761696820365</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

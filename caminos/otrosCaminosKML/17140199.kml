@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sablas - Les Alliberts</name>
+    <Placemark>
+      <name>Place du Sablas</name>
+      <description>lit: yes
+name: Place du Sablas
+hazard: flooding
+bicycle: yes
+highway: living_street
+surface: asphalt
+ref:FR:FANTOIR: 072680125
+access:conditional: no @ rain</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566149704582676,44.30137867719252 4.566135601032715,44.301466111884345 4.566159765713858,44.301517929735844 4.566239536111088,44.301676211773206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Le Valla</name>
+      <description>lit: yes
+name: Le Valla
+hazard: flooding
+oneway: yes
+highway: living_street
+alt_name: rue du valla
+access:conditional: no @ rain</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566239536111088,44.301676211773206 4.566235583523838,44.30192347034884 4.566272234787429,44.30197040178617 4.566334757531204,44.3020505708807 4.566390273415763,44.302137168809296 4.566423331418218,44.30219361490334 4.566494657651777,44.302234695796436 4.566613684426923,44.302257004187986 4.5667116906244205,44.30226741905377 4.566843114150488,44.30230882134144 4.566957110360043,44.30236777454849 4.567017477147135,44.30245970800297 4.567123388519133,44.302603393917956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Le Valla</name>
+      <description>lit: yes
+name: Le Valla
+hazard: flooding
+highway: living_street
+alt_name: rue du valla
+access:conditional: no @ rain</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.567123388519133,44.302603393917956 4.567124376665946,44.302661382496346</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Le Valla</name>
+      <description>name: Le Valla
+hazard: flooding
+highway: residential
+alt_name: Rue du Valla
+access:conditional: no @ rain</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.567124376665946,44.302661382496346 4.567227323597505,44.30270259163975 4.567486757051559,44.30287122095326 4.5675193658963735,44.302923487584586 4.567457831299411,44.30314148972339 4.567300805787746,44.30354206895384 4.567041192670636,44.30376810475189 4.566999331178396,44.30383342096376</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Le Valla</name>
+      <description>name: Le Valla
+highway: residential
+maxheight: below_default</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566999331178396,44.30383342096376 4.567233342309909,44.30401959748385 4.567227323597505,44.30413042880591 4.567254093392973,44.30421818083534 4.567244661082489,44.30428452513974 4.5672052250415165,44.30430850421581 4.567148182020975,44.30431609008771</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Joyeuse</name>
+      <description>name: Chemin de la Joyeuse
+highway: residential
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.567148182020975,44.30431609008771 4.567158243152156,44.304411106264475 4.567125993633457,44.304661181935124 4.567180162045089,44.30494757834186 4.5672008232966235,44.30520408033484 4.567253734066859,44.30543332402474 4.5672467272076425,44.30567748107001 4.567250769626422,44.305892515857295</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.567250769626422,44.305892515857295 4.567303141407485,44.305912572873524 4.567472294175484,44.30596380823323 4.567653125042178,44.30604892183105 4.567686632202276,44.30611507121121 4.567666509939912,44.30618809901176</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.567666509939912,44.30618809901176 4.567666240445326,44.3062411983942</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

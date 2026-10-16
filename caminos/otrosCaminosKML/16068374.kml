@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Route de Quint</name>
+      <description>lit: no
+ref: M 57
+name: Route de Quint
+lanes: 2
+source: Toulouse - Orthophotoplan 2011
+highway: tertiary
+old_ref: D 57
+surface: asphalt
+maxspeed: 70
+smoothness: excellent
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5413013370554105,43.57052628711004 1.541388024480328,43.570517891102625 1.5414644711110066,43.57050467877851 1.5415480144324296,43.570490425085715 1.54180196816325,43.57043419130584 1.5422504969846111,43.57033532646603 1.5434144440982447,43.570083379850175 1.5442476315242655,43.569904523798385 1.544942298733475,43.569756778405974 1.5453682798412045,43.56966787065155 1.5455244070375846,43.56964456976888 1.5455921400100072,43.569638191313395 1.545644421959543,43.56963728010542</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>lit: no
+highway: track
+surface: fine_gravel
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.545644421959543,43.56963728010542 1.5457470095649894,43.56960760075217 1.5459502084822576,43.56955950194472</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

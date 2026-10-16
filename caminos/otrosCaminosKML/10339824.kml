@@ -1,0 +1,235 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Folgueroles-Font Trobada</name>
+    <Placemark>
+      <name>Carrer de Josep Maria Casacuberta</name>
+      <description>name: Carrer de Josep Maria Casacuberta
+highway: residential
+name:ca: Carrer de Josep Maria Casacuberta
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3211336861021015,41.94006917285375 2.320808226474665,41.94006021888302 2.319605741635342,41.94007478578999</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Fossar Vell</name>
+      <description>name: Carrer del Fossar Vell
+highway: residential
+name:ca: Carrer del Fossar Vell
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.319605741635342,41.94007478578999 2.319635116545133,41.939603898814234</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>noname: yes
+highway: pedestrian</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.319635116545133,41.939603898814234 2.319690812092748,41.93956246968159 2.319761060347967,41.939135681227356</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Nou</name>
+      <description>name: Carrer Nou
+oneway: yes
+highway: residential
+name:ca: Carrer Nou
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.319761060347967,41.939135681227356 2.319501986220027,41.939073202953416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Nou</name>
+      <description>name: Carrer Nou
+oneway: yes
+highway: living_street
+name:ca: Carrer Nou
+surface: paved
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.319501986220027,41.939073202953416 2.319315226472458,41.93902208432014 2.3192627648598654,41.9389489144404 2.319182635136522,41.93883692092764 2.318920506736616,41.93872846878839</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>plaça de Jacint Verdaguer</name>
+      <description>name: plaça de Jacint Verdaguer
+oneway: no
+highway: living_street
+name:ca: plaça de Jacint Verdaguer
+surface: paved
+maxspeed: 30
+motor_vehicle: no
+name:etymology:wikidata: Q379290</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.318920506736616,41.93872846878839 2.3190097992758574,41.93857110260217</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>avinguda de l'Atlàntida</name>
+      <description>name: avinguda de l'Atlàntida
+oneway: no
+highway: residential
+name:ca: avinguda de l'Atlàntida
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3190097992758574,41.93857110260217 2.318967308962919,41.93844921871591 2.3189108049315474,41.93827180507699</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Font Sala</name>
+      <description>name: Carrer de la Font Sala
+oneway: no
+highway: residential
+name:ca: Carrer de la Font Sala</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3189108049315474,41.93827180507699 2.3190131230424083,41.93821253344243 2.3188652603466426,41.9377151707577</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Esbart de Vic</name>
+      <description>name: Carrer de l'Esbart de Vic
+oneway: no
+highway: residential
+name:ca: Carrer de l'Esbart de Vic</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3188652603466426,41.9377151707577 2.318643556134522,41.93692397988307</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: C4A
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.318643556134522,41.93692397988307 2.3187782135956114,41.93686497429192 2.3189864430784706,41.936769215385134 2.319058757458842,41.93675451407478</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: C4A
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.319058757458842,41.93675451407478 2.3193481048118567,41.93669597609629 2.3198667920569074,41.936646726636695 2.3203269091454337,41.936645323327255 2.3210084609514947,41.936646726636695 2.321353144526012,41.93654669064308 2.321606828762247,41.93654528733143 2.321831677077862,41.93656099105526 2.3218680588468694,41.93656359720479 2.322316767331287,41.93649737424379 2.3226186910982793,41.93647719326724</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3226186910982793,41.93647719326724 2.322801138932484,41.93647699279392 2.3229890664899218,41.93649303065666 2.3230918337584248,41.93652002771649 2.323168639715217,41.93654829442778 2.3232212809908668,41.9366125794314</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3232212809908668,41.9366125794314 2.3234099272005317,41.9368222737225 2.3235064960935747,41.93703978571467 2.323632619559465,41.937271196276185 2.323798807887027,41.9374967255419 2.323876601990632,41.937596492752256 2.324018805300108,41.93770020237279 2.324160918778056,41.93776007589136 2.3242628775628034,41.93779201732135 2.3245311145066414,41.93785382862056 2.3248663657706747,41.937829905984294 2.3249763195614506,41.93776208058408 2.325126158550842,41.937596492752256 2.3253249557232176,41.93747079806986 2.3254699438100745,41.93755058515375 2.325670986770661,41.93765449531855</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: C4A
+highway: track
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.325670986770661,41.93765449531855 2.325340496577633,41.93782750035557 2.3251875134847477,41.937823023212985 2.3249958130031163,41.93784881689583 2.32474275758758,41.937926131058866 2.324589774494694,41.93794129985945 2.3241124097527135,41.93788737375462</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera al Pantà de Sau</name>
+      <description>ref: N-141d
+name: Carretera al Pantà de Sau
+highway: tertiary
+name:ca: Carretera al Pantà de Sau
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3241124097527135,41.93788737375462 2.323913702411866,41.93781199741272</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary_link</name>
+      <description>lanes: 2
+oneway: no
+highway: tertiary_link
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.323913702411866,41.93781199741272 2.322019155477658,41.93834637900568 2.3211425794234137,41.93860057120418 2.3205393607101277,41.938716507635434</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>camí de Tavèrnoles</name>
+      <description>name: camí de Tavèrnoles
+oneway: yes
+highway: residential
+name:ca: camí de Tavèrnoles
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3205393607101277,41.938716507635434 2.3205409776776396,41.938758070961775 2.3205532845970316,41.938829303223336 2.320738068050975,41.939162476703615</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>camí de Tavèrnoles</name>
+      <description>name: camí de Tavèrnoles
+oneway: no
+highway: residential
+name:ca: camí de Tavèrnoles
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.320738068050975,41.939162476703615 2.3208385895312684,41.93926331045229 2.3211394353199193,41.9397394788037</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>camí de Tavèrnoles</name>
+      <description>name: camí de Tavèrnoles
+oneway: no
+highway: residential
+name:ca: camí de Tavèrnoles
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3211394353199193,41.9397394788037 2.3211402438036752,41.93993479633991</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>camí de Tavèrnoles</name>
+      <description>name: camí de Tavèrnoles
+oneway: no
+highway: residential
+name:ca: camí de Tavèrnoles
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3211402438036752,41.93993479633991 2.321140603129789,41.94002199744156 2.3211336861021015,41.94006917285375</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

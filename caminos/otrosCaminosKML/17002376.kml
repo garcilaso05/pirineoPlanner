@@ -1,0 +1,284 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.040474741557581,43.0236076986124 3.040445186984734,43.02361682721044 3.0403548164671514,43.02364460703644 3.0403144821108943,43.023652028122584 3.040283310570535,43.02366470307294</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.040283310570535,43.02366470307294 3.0401507192345996,43.02375907554852</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0401507192345996,43.02375907554852 3.0401435327123263,43.023764329405104</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Le Canalet</name>
+      <description>name: Le Canalet
+highway: pedestrian
+ref:FR:FANTOIR: 112660059X</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0401435327123263,43.023764329405104 3.03995551532336,43.02362983053482 3.039706232832017,43.02344909721385</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.039706232832017,43.02344909721385 3.0392730652020146,43.02315881947289 3.039210272963655,43.02310792221626</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.039210272963655,43.02310792221626 3.039163470737352,43.022958973615054</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.039163470737352,43.022958973615054 3.0391239448648504,43.02277062010457 3.0391260109900045,43.022631915894756</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Charles Palauqui</name>
+      <description>ref: D 703
+name: Avenue Charles Palauqui
+oneway: yes
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0391260109900045,43.022631915894756 3.039041299858712,43.022584695971524</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Charles Palauqui</name>
+      <description>hgv: no
+ref: D 703
+name: Avenue Charles Palauqui
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.039041299858712,43.022584695971524 3.0390112961282223,43.022577800152156 3.0389538039500383,43.0225645995815 3.0388830167056495,43.02254831230632 3.03878968174763,43.02252407840905</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.03878968174763,43.02252407840905 3.0388945151412865,43.02278342658541</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0388945151412865,43.02278342658541 3.038926674828458,43.02296179759983</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.038926674828458,43.02296179759983 3.0388591215190925,43.02296481860666</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Canal des Carrières</name>
+      <description>name: Canal des Carrières
+highway: residential
+ref:FR:FANTOIR: 112660057V</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0388591215190925,43.02296481860666 3.038815822722398,43.02292777842573 3.037875825609095,43.0224637234851 3.0376345381237804,43.02241210323105</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue des Mouettes</name>
+      <description>name: Avenue des Mouettes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0376345381237804,43.02241210323105 3.0373077310234176,43.02227681330073 3.0372232893867106,43.02224968960406 3.036979666281658,43.02217002598986 3.036861807316381,43.022131474805555 3.0366883426350175,43.02207460027139</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Goëlands</name>
+      <description>name: Rue des Goëlands
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0366883426350175,43.02207460027139 3.036718975186206,43.0220256066928</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Goëlands</name>
+      <description>name: Rue des Goëlands
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: residential
+surface: asphalt
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.036718975186206,43.0220256066928 3.036804225306669,43.021893271295134</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Goëlands</name>
+      <description>name: Rue des Goëlands
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.036804225306669,43.021893271295134 3.036819766161084,43.02186581905284</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Charles Palauqui</name>
+      <description>ref: D 703
+name: Avenue Charles Palauqui
+highway: tertiary
+cycleway: lane</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.036819766161084,43.02186581905284 3.035812395401473,43.02152752498295 3.0355031952806786,43.021424676911366 3.0349598043653145,43.021241178710795</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Charles Palauqui</name>
+      <description>ref: D 703
+name: Avenue Charles Palauqui
+highway: tertiary
+cycleway: lane</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0349598043653145,43.021241178710795 3.034886861164244,43.02121641889013</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.034886861164244,43.02121641889013 3.0348068212724293,43.02112598306774 3.0346806978065386,43.02106792543253 3.0344479443164234,43.02101472777741 3.034322808997346,43.020908529357676 3.034315263148959,43.02087917206267</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: concrete
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.034315263148959,43.02087917206267 3.0342471708504224,43.02088849809527 3.0341520392618344,43.02089178190922 3.034003188419256,43.02087989450186</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.034003188419256,43.02087989450186 3.034103709899549,43.020785320571264 3.0341278745806917,43.02075727674579 3.0342919069515717,43.020257674176506 3.0344607902249865,43.01966841770244</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Garrigue</name>
+      <description>name: Chemin de la Garrigue
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0344607902249865,43.01966841770244 3.034385691067234,43.01965370592142 3.0343557771682725,43.01963301747338 3.0341256287924816,43.019274219565844 3.034056189021019,43.019171302041585 3.0339492895022087,43.01900507050053 3.0338804785514455,43.01889052744623 3.033850564652484,43.01881828114384 3.0338220880579776,43.018697695307935 3.033805469225221,43.01861191896464 3.0337798672396237,43.01847162906678 3.0337675603202316,43.01837816796911 3.033732166698037,43.01828648006395</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Garrigue</name>
+      <description>name: Chemin de la Garrigue
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.033732166698037,43.01828648006395 3.0336146670588744,43.01811729056148 3.033476595999705,43.017924521674296 3.033336997804553,43.01778442724473 3.033209257371151,43.017674479493856 3.033155358454104,43.01763428349278 3.0329597053852226,43.017573595362876 3.0327608183813184,43.01750482854579 3.032441197803229,43.01739172765335 3.032381100510721,43.01737110412321 3.032325943952276,43.01736138347602 3.031855406406454,43.01741491269647</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.031855406406454,43.01741491269647 3.0317839903413675,43.01732880616075 3.031724881195672,43.01729432410457 3.031588157609429,43.01723278179618 3.0315553691015587,43.017144770276815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0315553691015587,43.017144770276815 3.0316925418454432,43.01706391779225 3.031807526201811,43.01693052081205</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ford: yes
+highway: track
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.031807526201811,43.01693052081205 3.031854777585756,43.016861293510665 3.0319696721105944,43.016739718620784</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0319696721105944,43.016739718620784 3.0320833089940353,43.01664237971859</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Rebeillou</name>
+      <description>lit: yes
+name: Chemin du Rebeillou
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+lane_markings: no
+source:maxspeed: Passage à 30 km/h sur la commune le 30/11/2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5265960056859025,43.58704820785576 1.5266536775271426,43.587460083514465 1.5266771235560586,43.58758839554518 1.5267374903431512,43.587953614853404 1.5267535701867367,43.58803371164751 1.5268313642903415,43.58847082614874 1.5268998159149914,43.588797195966016 1.5269379943145664,43.58894001473732 1.526960092870556,43.58898861858812</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

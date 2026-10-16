@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>unclassified</name>
+      <description>ref: D 133
+source: survey
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.8832301236695947,43.99819668232355 3.8834450006855556,43.99833497186791 3.883478777340239,43.998363211328694</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Puit Neuf</name>
+      <description>ref: D 133
+name: Rue du Puit Neuf
+source: survey
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.883478777340239,43.998363211328694 3.883829659290216,43.998665314559055 3.8841684139838573,43.999007028615765 3.884543370783449,43.99925969413571</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

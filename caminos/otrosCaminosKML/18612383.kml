@@ -1,0 +1,286 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Boucle de Grattelouve</name>
+    <Placemark>
+      <name>Route des Canons</name>
+      <description>name: Route des Canons
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.98494701348944,45.226297628675646 0.9849598593980028,45.226545769564446 0.9850110633691974,45.22669679205857 0.9851056559686154,45.22689627779628 0.9851798568110836,45.22714182207711 0.9852515423707564,45.22747688929429 0.9853282584960203,45.22783238990927 0.9854023695069601,45.227991001052054 0.9854971417694346,45.22809330405534 0.9856838116854747,45.22822123000076 0.985806611384814,45.228272412951696 0.9860075645138714,45.22830600766947 0.9862977203506421,45.22831328335902 0.986499661626512,45.22831068941764 0.9866341394245448,45.228319799845394</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de L'Auvézère</name>
+      <description>ref: D 5
+name: Route de L'Auvézère
+lanes: 2
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: secondary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9866341394245448,45.228319799845394 0.986627671554499,45.22836699689919</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de L'Auvézère</name>
+      <description>ref: D 5
+name: Route de L'Auvézère
+lanes: 2
+layer: 1
+bridge: yes
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: secondary
+surface: asphalt
+maxweight:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.986627671554499,45.22836699689919 0.9865694607240881,45.22877437037667</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Séchoirs</name>
+      <description>name: Chemin des Séchoirs
+highway: unclassified
+old_name: Rue des Amarres</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9865694607240881,45.22877437037667 0.986609795080345,45.22877690103056 0.9868274568736873,45.22879050329324 0.9874228602440018,45.22879050329324 0.9881050408707622,45.2286980078428</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Séchoirs</name>
+      <description>name: Chemin des Séchoirs
+highway: unclassified
+surface: compacted
+old_name: Rue des Amarres</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9881050408707622,45.2286980078428 0.9884260089217779,45.22865448051993 0.9887962046503636,45.22861291442612 0.98911941848959,45.22865068453088 0.9894586223408733,45.22875969258194 0.9895571675275413,45.228811697510004 0.9896934419561423,45.22890760915034 0.9899977911744019,45.22914188340669 0.9902177885874827,45.2294365753884 0.9904121840149662,45.22987101868135 0.9905154902726399,45.230314125909246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Séchoirs</name>
+      <description>name: Chemin des Séchoirs
+highway: track
+old_name: Rue des Amarres</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9905154902726399,45.230314125909246 0.9906065794424497,45.230564273723935 0.9906512257120703,45.23076912333998 0.9906682038709401,45.2311578800778 0.9905640891295108,45.23151228219451 0.9904600642196096,45.23174547024332 0.9904111060366253,45.23177937922336 0.9903507392495323,45.23181132703121</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9903507392495323,45.23181132703121 0.9901531098870261,45.232273777446174 0.9898420233041355,45.23253821388571 0.9896274157827595,45.23277240991553 0.9892803067569755,45.233645101101295 0.9890982182488848,45.23407286987843 0.9889782033269262,45.23419572154077 0.9883738168037707,45.23460931596787 0.9882647613282786,45.23468389928618 0.9880287739031404,45.2348955028244 0.9876318083790878,45.2352128117656 0.986870126849683,45.235613177716104 0.9860187934549228,45.235851219841095 0.9855825715529544,45.23604390481712</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse des Côteaux</name>
+      <description>name: Impasse des Côteaux
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9855825715529544,45.23604390481712 0.9851087102405814,45.23584951186236 0.9845622650532515,45.23540587846013</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse des Côteaux</name>
+      <description>name: Impasse des Côteaux
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9845622650532515,45.23540587846013 0.9842983400227772,45.235322313303584 0.9841661978444832,45.23524861645115 0.9841331398420275,45.23517510928081</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse du Safran</name>
+      <description>name: Impasse du Safran
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9841331398420275,45.23517510928081 0.9838240295527619,45.23505826937461 0.9832654571090966,45.23508281399855 0.9829073886368466,45.23523172625777 0.9819650559038051,45.2356849763361</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9819650559038051,45.2356849763361 0.9813839357465082,45.23596457890809 0.9801179400165985,45.236493416210024 0.9793025392332034,45.23644812363859 0.9788947939257414,45.23648588853655 0.9783584098695935,45.236720131555685 0.9765023108295459,45.237332018094875 0.9750147007190441,45.237826874063074 0.9746606746655725,45.23800822950459 0.9743174283955104,45.23805352083251 0.97341237574676,45.238283898788055 0.9730691294766979,45.23853318920281 0.9727687328456883,45.2389335950145 0.9728421252044009,45.23904599910875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Coteaux</name>
+      <description>name: Route des Coteaux
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9728421252044009,45.23904599910875 0.9727035151560613,45.2391689032747 0.9724076101014723,45.239813908581624 0.9721072134704627,45.24028989338645 0.9715235780303703,45.240640696379245 0.971458090846158,45.24101768383799 0.9706213101590007,45.24155412761929 0.9695886967399051,45.24254610199249</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Coteaux</name>
+      <description>name: Route des Coteaux
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9695886967399051,45.24254610199249 0.969355314429091,45.242770326408355 0.9691674767031815,45.24334179422514 0.9689958984839149,45.24419541159344 0.9696289412646338,45.24513971402672 0.970605230315415,45.246076411113314 0.9706320001108816,45.24610917309513 0.9720160344691247,45.24715160142302 0.9724340205708254,45.24778190646817 0.9726055089585639,45.24819508578159</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9726055089585639,45.24819508578159 0.9734745391644211,45.247098221866565 0.9743937851946606,45.24640137371871 0.975445173403194,45.2459292981976 0.9761210658229655,45.24537031624163 0.9763142934405797,45.2451285823547 0.9773515780991524,45.2444453718093 0.9777432435630286,45.24447180984475 0.9784459057782668,45.24460779476086 0.9803824938677717,45.243614528139645 0.9807740695001194,45.24365981499869 0.9809584936279493,45.24374962961236</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9809584936279493,45.24374962961236 0.9810936900782092,45.24379131113482 0.9813901341219686,45.243795422360726 0.9818993890565358,45.243856205219714 0.9826446314162416,45.24387638182553 0.9832718351476138,45.243872397104575 0.9834127808156922,45.243910789563145 0.9834818612610409,45.2439615156383 0.9836343951962844,45.24416410323991 0.9837062604190139,45.24421071789333 0.9838262753409723,45.24422437971124</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse du Lac</name>
+      <description>name: Impasse du Lac
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9838262753409723,45.24422437971124 0.9839119746190773,45.244260178718505 0.9839765634880057,45.24431337119471</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Pivoines</name>
+      <description>name: Rue des Pivoines
+highway: residential
+old_name: Rue des Cailloux</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9839765634880057,45.24431337119471 0.9840080943544781,45.24431020874211 0.9842591734763896,45.24421261536824 0.9843278047640963,45.24413848730146 0.984555797183206,45.2438307156416 0.9849000316000805,45.24386531315551 0.9850858930323647,45.24387948105276</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse du Cru de la Veuve</name>
+      <description>name: Impasse du Cru de la Veuve
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9850858930323647,45.24387948105276 0.9851512903850486,45.243790994886666 0.9854088373770057,45.24352661081021 0.985476929675542,45.2434706978479</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.985476929675542,45.2434706978479 0.9857971790743307,45.2432359134055 0.9856362908069448,45.24301681411744 0.9853358941759353,45.24288841546991 0.984756480817678,45.24280530407241 0.9840054892401543,45.24264667102188 0.9832651876145113,45.24237469147549 0.9813624660112178,45.242204671972104 0.9805900046984034,45.24209138860536 0.9806972635433273,45.24182699661939 0.9818666903801939,45.24104893067282 0.9830682769042323,45.24023302843479 0.9832828844256085,45.239862930456674 0.9834437726929944,45.23925847196929 0.9835725911047372,45.23907718377305 0.9836155305753179,45.23848037084796 0.9840338760031324,45.23814789873504 0.9841626944148751,45.23774748738666</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9841626944148751,45.23774748738666 0.9836906297330703,45.23722618933217 0.9839840195048638,45.23683722107447 0.9842630362321113,45.23620249304492 0.9845622650532515,45.23540587846013</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse des Côteaux</name>
+      <description>name: Impasse des Côteaux
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9845622650532515,45.23540587846013 0.9851087102405814,45.23584951186236 0.9855825715529544,45.23604390481712</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9855825715529544,45.23604390481712 0.9860187934549228,45.235851219841095 0.986870126849683,45.235613177716104 0.9876318083790878,45.2352128117656 0.9880287739031404,45.2348955028244 0.9882647613282786,45.23468389928618 0.9883738168037707,45.23460931596787 0.9889782033269262,45.23419572154077 0.9890982182488848,45.23407286987843 0.9892803067569755,45.233645101101295 0.9896274157827595,45.23277240991553 0.9898420233041355,45.23253821388571 0.9901531098870261,45.232273777446174 0.9903507392495323,45.23181132703121</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Séchoirs</name>
+      <description>name: Chemin des Séchoirs
+highway: track
+old_name: Rue des Amarres</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9903507392495323,45.23181132703121 0.9904111060366253,45.23177937922336 0.9904600642196096,45.23174547024332 0.9905640891295108,45.23151228219451 0.9906682038709401,45.2311578800778 0.9906512257120703,45.23076912333998 0.9906065794424497,45.230564273723935 0.9905154902726399,45.230314125909246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Séchoirs</name>
+      <description>name: Chemin des Séchoirs
+highway: unclassified
+surface: compacted
+old_name: Rue des Amarres</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9905154902726399,45.230314125909246 0.9904121840149662,45.22987101868135 0.9902177885874827,45.2294365753884 0.9899977911744019,45.22914188340669 0.9896934419561423,45.22890760915034 0.9895571675275413,45.228811697510004 0.9894586223408733,45.22875969258194 0.98911941848959,45.22865068453088 0.9887962046503636,45.22861291442612 0.9884260089217779,45.22865448051993 0.9881050408707622,45.2286980078428</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Séchoirs</name>
+      <description>name: Chemin des Séchoirs
+highway: unclassified
+old_name: Rue des Amarres</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9881050408707622,45.2286980078428 0.9874228602440018,45.22879050329324 0.9868274568736873,45.22879050329324 0.986609795080345,45.22877690103056 0.9865694607240881,45.22877437037667</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de L'Auvézère</name>
+      <description>ref: D 5
+name: Route de L'Auvézère
+lanes: 2
+layer: 1
+bridge: yes
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: secondary
+surface: asphalt
+maxweight:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9865694607240881,45.22877437037667 0.986627671554499,45.22836699689919</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de L'Auvézère</name>
+      <description>ref: D 5
+name: Route de L'Auvézère
+lanes: 2
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: secondary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.986627671554499,45.22836699689919 0.9866341394245448,45.228319799845394</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Canons</name>
+      <description>name: Route des Canons
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.9866341394245448,45.228319799845394 0.986499661626512,45.22831068941764 0.9862977203506421,45.22831328335902 0.9860075645138714,45.22830600766947 0.985806611384814,45.228272412951696 0.9856838116854747,45.22822123000076 0.9854971417694346,45.22809330405534 0.9854023695069601,45.227991001052054 0.9853282584960203,45.22783238990927 0.9852515423707564,45.22747688929429 0.9851798568110836,45.22714182207711 0.9851056559686154,45.22689627779628 0.9850110633691974,45.22669679205857 0.9849598593980028,45.226545769564446 0.98494701348944,45.226297628675646</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

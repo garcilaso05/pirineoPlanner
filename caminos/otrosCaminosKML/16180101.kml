@@ -1,0 +1,364 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>L' Aiguille du Pressoir</name>
+    <Placemark>
+      <name>Chemin du Cingle Haut</name>
+      <description>name: Chemin du Cingle Haut
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.035294703429332,44.59619468258229 2.033691480141764,44.59618272083115 2.0332833755081885,44.59618201719867 2.033010287661816,44.596217006913385 2.032905184773574,44.59623741224003 2.032817419370316,44.59627291365332 2.032508668407164,44.59675752176764 2.0325484637742504,44.596895816003055 2.0328460756278792,44.59729349005322 2.032871408118891,44.59740971500962 2.032746182968285,44.597763505672205 2.03258637267924,44.59798220108291 2.03244893044077,44.598116014891446 2.0318411303195347,44.59836509197253 2.031821097888699,44.598373279387985 2.0312715085978743,44.59848899047218 2.0309491930739325,44.598464812055724 2.0306736797762928,44.59841300112943 2.0293887295938884,44.59779017900855 2.0290577004116908,44.597698901137754 2.0289982319398816,44.597873205286454 2.0289914945752505,44.598185224398094 2.0290985737571177,44.59954067788723 2.029131092770403,44.599862410351435 2.0291903815791548,44.59998451471094 2.029295125141283,44.60008672654426 2.029495000292,44.600298889081145 2.0296946957796593,44.600480796892 2.029716075683422,44.60057462886291 2.029721196080541,44.60067901435392 2.029673226044369,44.600904990390234 2.029559768823985,44.60110218302618 2.0294475692449985,44.60120202633393 2.0293262068501137,44.60127718053633 2.029130463949704,44.60139429297625 2.0290454833238263,44.60146919108686 2.0288997765847423,44.601703223074985 2.028845698004638,44.60179020930743 2.028753710519544,44.60187841065573 2.028472358172558,44.60203498530824 2.0277950284483315,44.60253048245927 2.027461304320281,44.602820730408894 2.027184713044301,44.602998089228905 2.026808498603312,44.60319489100741 2.0264350689397035,44.60325021540423</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0264350689397035,44.60325021540423 2.0259632737524838,44.60339789610834 2.0256697941491617,44.60341247867808 2.024890864966302,44.60300928206812 2.024777587408974,44.60302482412128 2.024623885663862,44.603312383334085</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: unhewn_cobblestone
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.024623885663862,44.603312383334085 2.02452273536287,44.60329690531661 2.024237699923219,44.60334301956312 2.023917899682072,44.60337167305707 2.023443319717472,44.60339968695044 2.0231009717626938,44.60334078100831 2.022656395528583,44.60318267486182 2.0225553350591197,44.60319930416932 2.0226144442048146,44.60327848519128 2.0229705363834394,44.6035217838759 2.0233279760349907,44.603700227847014 2.0235707906562883,44.60379411857662 2.023834805518291,44.60385257635205 2.0241410411986474,44.603888776651765</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0241410411986474,44.603888776651765 2.024297976878783,44.60388647415987 2.0244772806094935,44.603883915835446 2.0247394090093995,44.60389370142578 2.02495716063427,44.60397710273008 2.025041332776392,44.60412561303839 2.0250220189977837,44.60447181582736 2.025072324653694,44.60456129225181 2.0255514860262434,44.604830488183126 2.025867693006253,44.6048927823359 2.026309214968398,44.604907876186275 2.026707527965377,44.60496211168405 2.027132610757822,44.605102816748825 2.027475857027884,44.605220880826565 2.027905341565222,44.6053031290076</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Croix du Cingle</name>
+      <description>name: Chemin de la Croix du Cingle
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.027905341565222,44.6053031290076 2.0279516946338823,44.605384097942995 2.02789977201046,44.60560449148773 2.027954299748206,44.60563263221677 2.0282043008917765,44.6056555924833 2.028368243431129,44.60570630969728 2.0284417256213696,44.60577148093247</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Cingle Bas</name>
+      <description>name: Chemin du Cingle Bas
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+smoothness: good
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0284417256213696,44.60577148093247 2.0292289193048436,44.60574090994018 2.0296225610623444,44.6057366248835 2.0297883002322648,44.60574302049037</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0297883002322648,44.60574302049037 2.0298150700277318,44.60577710906318 2.0298253108219706,44.60585276899478 2.0298349227955104,44.60596309289424</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: asphalt
+maxspeed: 30
+smoothness: good
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0298349227955104,44.60596309289424 2.0299774854311003,44.60599967561349 2.030707725925561,44.60599852440939 2.0308404070930255,44.60604668309478 2.030888017803084,44.606086591457206 2.030920626647897,44.60613558149282 2.030938413290523,44.60617958295173</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Jean Jaurès</name>
+      <description>name: Avenue Jean Jaurès
+lanes: 2
+highway: unclassified
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.030938413290523,44.60617958295173 2.0310012953604115,44.60623797437118 2.031186797466582,44.606582309872294 2.0311914687060595,44.6067331798546 2.0312291081164644,44.60677769250025</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>oneway: yes
+bicycle: yes
+highway: service
+service: parking_aisle
+surface: asphalt
+smoothness: good
+cycleway:left: lane
+cycleway:left:oneway: -1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0312291081164644,44.60677769250025 2.031191109379946,44.60679182653721 2.0311282273100573,44.606816001488376 2.0310126141329916,44.60678977998003</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: asphalt
+cycleway:left: lane
+cycleway:left:oneway: -1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0310126141329916,44.60678977998003 2.0308730159378388,44.60682597844942</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0308730159378388,44.60682597844942 2.030887388982385,44.60687547950001</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.030887388982385,44.60687547950001 2.030915326587721,44.60696111493883</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>layer: 1
+bicycle: yes
+highway: pedestrian
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.030915326587721,44.60696111493883 2.0309182011966302,44.60697141164851 2.0309201774902554,44.60697902225885</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passerelle piétonne</name>
+      <description>name: Passerelle piétonne
+layer: 1
+bridge: yes
+bicycle: yes
+highway: pedestrian
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0309201774902554,44.60697902225885 2.031021507454304,44.60735987127548</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.031021507454304,44.60735987127548 2.0312797730984884,44.60732578363149 2.0312911817025965,44.60736402830386</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quai Albert Bessières</name>
+      <description>ref: D 840
+name: Quai Albert Bessières
+highway: primary
+old_ref: N 140
+surface: asphalt
+cycleway: shared_lane
+maxspeed: 30
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0312911817025965,44.60736402830386 2.031575408658492,44.60732661503767 2.0321806036654033,44.60724392204075 2.032286335374344,44.607230107885954 2.0323937738823252,44.60721571813786 2.0332681041483585,44.6070904312472 2.0333618882640208,44.60707898337593 2.033408061669624,44.607078088011605 2.0337037870611567,44.60709420456741 2.0337831981322725,44.60709062311095 2.033798469492103,44.60708947192847 2.0338646753285423,44.60708480324373</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont Gambetta</name>
+      <description>ref: D 840
+name: Pont Gambetta
+highway: primary
+old_ref: N 140
+surface: asphalt
+cycleway:both: shared_lane
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0338646753285423,44.60708480324373 2.033876173764179,44.60703472677973</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont Gambetta</name>
+      <description>ref: D 840
+name: Pont Gambetta
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: primary
+old_ref: N 140
+surface: asphalt
+maxspeed: 30
+cycleway:both: shared_lane
+lane_markings: no
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.033876173764179,44.60703472677973 2.033880036519901,44.60701797066081 2.0339645679881366,44.60664952668687</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont Gambetta</name>
+      <description>ref: D 840
+name: Pont Gambetta
+highway: primary
+old_ref: N 140
+surface: asphalt
+maxspeed: 30
+cycleway:both: shared_lane
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0339645679881366,44.60664952668687 2.033975168108489,44.60660341506508</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Émile Bouyssou</name>
+      <description>ref: D 840
+name: Avenue Émile Bouyssou
+highway: primary
+old_ref: N 140
+surface: asphalt
+maxspeed: 30
+cycleway:left: shared_lane
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.033975168108489,44.60660341506508 2.0339890021638642,44.60654329722303</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Émile Bouyssou</name>
+      <description>ref: D 840
+name: Avenue Émile Bouyssou
+highway: primary
+old_ref: N 140
+surface: asphalt
+maxspeed: 30
+cycleway:left: shared_lane
+lane_markings: no
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0339890021638642,44.60654329722303 2.0340026565561833,44.60648381887126</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Émile Bouyssou</name>
+      <description>ref: D 840
+name: Avenue Émile Bouyssou
+lanes: 2
+highway: primary
+old_ref: N 140
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0340026565561833,44.60648381887126 2.034035175569468,44.60633857631762 2.0340675149196965,44.60627711513646 2.034088894823458,44.60625588191413 2.0341101848956917,44.606234712639555</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Émile Bouyssou</name>
+      <description>ref: D 822
+name: Avenue Émile Bouyssou
+highway: primary
+incline: -7%
+surface: asphalt
+maxspeed: 30
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0341101848956917,44.606234712639555 2.0340773963878216,44.60616359405337 2.0340682335719236,44.60610398740148 2.0340780252085207,44.606048729678136</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Émile Bouyssou</name>
+      <description>lit: yes
+ref: D 822
+name: Avenue Émile Bouyssou
+highway: primary
+incline: -7%
+surface: asphalt
+maxspeed: 30
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0340780252085207,44.606048729678136 2.034087277855947,44.60599603013377 2.034099674606868,44.60592580663746 2.0341478243060966,44.605671901302216 2.034240260948833,44.605184169703506 2.0342541848357363,44.60511010782016 2.0342717918153053,44.604973687886336</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Toulouse</name>
+      <description>ref: D 822
+name: Avenue de Toulouse
+width: 7
+highway: primary
+incline: 7%
+surface: asphalt
+maxspeed: 30
+maxheight: 4.2
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0342717918153053,44.604973687886336 2.034321109324403,44.60471242331195 2.0343574910934104,44.604642326178485 2.034501401201926,44.60454248878307 2.03482587268255,44.60442141732318 2.034983886341027,44.60435829121628</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Côte Romaine</name>
+      <description>name: Côte Romaine
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.034983886341027,44.60435829121628 2.034902319313229,44.604274378797776 2.034943192658656,44.60409529701146 2.0353541719011408,44.60282482380284 2.0354085199758303,44.602657122333554 2.0354686172683376,44.60232063062554 2.0353933384475287,44.601639582329774 2.035363604211624,44.60137491283455 2.0353196765942307,44.601211300687574 2.035194990432795,44.600668780490544 2.0350922231642916,44.60005416972825 2.0351595968106,44.59968811217</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Côte Romaine</name>
+      <description>name: Chemin de la Côte Romaine
+highway: residential
+surface: asphalt
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0351595968106,44.59968811217 2.035223107701188,44.599240371325536 2.035223107701188,44.598990210617046</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de l'Aiguille du Cingle</name>
+      <description>name: Route de l'Aiguille du Cingle
+highway: unclassified
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.035223107701188,44.598990210617046 2.0351206997587985,44.59870301379396 2.0350626685914444,44.59834551892777 2.0350647347165975,44.59799102819832 2.0351137827311105,44.59768821899494 2.0351844801439705,44.597478989322695 2.0353165324907363,44.59732432135215 2.035587464380427,44.597100314322454 2.035635793742712,44.59700666863774 2.0355633895308123,44.596743193391404 2.0354561306858883,44.59648342699356 2.035294703429332,44.59619468258229</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

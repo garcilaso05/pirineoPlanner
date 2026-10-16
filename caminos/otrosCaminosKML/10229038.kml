@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Avenc de les Roies</name>
+    <Placemark>
+      <name>Retorno ferrata Avenc</name>
+      <description>name: Retorno ferrata Avenc
+highway: path
+name:ca: Retorn avenc
+sac_scale: alpine_hiking
+trail_visibility: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5668643428955836,41.87979707042242 0.5668125999352184,41.87978690408501 0.5667334583586875,41.87978449626801 0.5666944714753567,41.87978449626801 0.5666316792369968,41.879788910599096 0.5665629581177616,41.87978737227163 0.5665277441586241,41.87976991559651 0.5664845351934579,41.87972898268442 0.5664413262282918,41.8796938686458 0.5664159039057511,41.879652601265285</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

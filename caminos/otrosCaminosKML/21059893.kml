@@ -1,0 +1,333 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Chemin du Fauvisme</name>
+    <Placemark>
+      <name>Jetée du Phare</name>
+      <description>lit: no
+name: Jetée du Phare
+highway: footway
+surface: rock</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0887276572125333,42.52765327449153 3.0886495037828148,42.52769352496088 3.087580598426241,42.528242001222665</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: sett</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.087580598426241,42.528242001222665 3.087535682662035,42.52825299055902 3.0874793582937206,42.52823710236125</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: no
+ramp: no
+highway: steps
+incline: up
+surface: sett
+handrail: yes
+step_count: 13
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0874793582937206,42.52823710236125 3.087398869244263,42.528258882431345</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: no
+ramp: no
+highway: steps
+incline: down
+surface: sett
+handrail: yes
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.087398869244263,42.528258882431345 3.087331226103369,42.52820009608495</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: sett</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.087331226103369,42.52820009608495 3.0866969256812524,42.52782241897032</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: no
+foot: yes
+ramp: no
+highway: steps
+incline: down
+surface: metal
+handrail: yes
+step_count: 12
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0866969256812524,42.52782241897032 3.086618592588477,42.52777587945881</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Église</name>
+      <description>name: Place de l'Église
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2008
+highway: pedestrian
+surface: paving_stones
+alt_name: Rue du Boramar</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.086618592588477,42.52777587945881 3.0863576319984407,42.527898881392595 3.0863112789297795,42.52789199646837 3.0862086913243334,42.527788192903344 3.0861933301329745,42.52775707828074 3.0861685366311336,42.52769729844106 3.0861328735143534,42.527667905010524 3.0859945329605996,42.52766049044929</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard du Boramar</name>
+      <description>lit: yes
+name: Boulevard du Boramar
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2008
+highway: pedestrian
+name:ca: Al Boramar
+surface: sett
+alt_name: Rue du Boramar
+smoothness: intermediate
+ref:FR:FANTOIR: 660530033R</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0859945329605996,42.52766049044929 3.0858984132251988,42.527627191114306 3.085773098243064,42.52758382913062</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard du Boramar</name>
+      <description>lit: yes
+name: Boulevard du Boramar
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2008
+highway: pedestrian
+name:ca: Al Boramar
+surface: sett
+alt_name: Rue du Boramar
+ref:FR:FANTOIR: 660530033R</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.085773098243064,42.52758382913062 3.0856190371718375,42.527530470678855 3.085430660456758,42.5274483144624 3.0851656574479422,42.5272867159808 3.085113016172293,42.52724262554002 3.0849962351853577,42.52700052477236 3.08494404306735,42.52690267792843 3.0848710998662794,42.52667328672259 3.0848340892765735,42.52651519497701</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Camille Pelletan</name>
+      <description>lit: yes
+name: Avenue Camille Pelletan
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008
+highway: pedestrian
+surface: unhewn_cobblestone
+alt_name: Boulevard Camille Pelletan</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0848340892765735,42.52651519497701 3.0845629777238264,42.526510229777514</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Camille Pelletan</name>
+      <description>lit: yes
+name: Boulevard Camille Pelletan
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008
+highway: pedestrian
+surface: paving_stones
+alt_name: Avenue Camille Pelletan
+ref:FR:FANTOIR: 660530050</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0845629777238264,42.526510229777514 3.08430992230829,42.526507581670955 3.0840311750756277,42.5264922226507 3.0838967871091234,42.52647289146468 3.0837977927648135,42.52646342447754 3.0835261422228957,42.52640887341891 3.083061892884063,42.526322081527184 3.0830018854230836,42.52631089324252</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Pasteur</name>
+      <description>lit: yes
+name: Rue Pasteur
+oneway: yes
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008
+highway: residential
+name:ca: Carrer Nou
+surface: paving_stones
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0830018854230836,42.52631089324252 3.0831185765784905,42.52646759524828 3.0832529645449953,42.52664329698754 3.083367859069834,42.52678642667513 3.083377740537959,42.52679867411236 3.0834303818136086,42.52685620393398 3.083523537108572,42.52696411358312 3.08355075606168,42.52699251431255 3.0837032899969246,42.52715080345612 3.083817735364121,42.5272781759429 3.084008088372826,42.527458112308544</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Saint-Vincent</name>
+      <description>lit: yes
+name: Rue Saint-Vincent
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008
+highway: residential
+surface: sett
+cycleway:both: no
+lane_markings: no
+ref:FR:FANTOIR: 660530248</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.084008088372826,42.527458112308544 3.083818633679405,42.52753848106968</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Fraternité</name>
+      <description>name: Rue de la Fraternité
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008
+highway: residential
+surface: paving_stones
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.083818633679405,42.52753848106968 3.083858069720378,42.52760037950963 3.083870735965884,42.527681807310465</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Égalité</name>
+      <description>name: Rue de l'Égalité
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008
+highway: residential
+surface: paving_stones
+cycleway:both: no
+lane_markings: no
+ref:FR:FANTOIR: 660530110</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.083870735965884,42.527681807310465 3.0839435893354263,42.52767889444788 3.0840005425244392,42.52767670980086 3.0841074420432495,42.52769398837074</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Butte</name>
+      <description>name: Rue de la Butte
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008
+highway: footway
+name:ca: Carrer de la trencada
+surface: paving_stones
+old_name: Carrer de la trencada
+ref:FR:FANTOIR: 660530035</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0841074420432495,42.52769398837074 3.084143194991557,42.527961110481044</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Saint-Sébastien</name>
+      <description>name: Rue Saint-Sébastien
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008
+highway: footway
+surface: sett
+ref:FR:FANTOIR: 660530246</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.084143194991557,42.527961110481044 3.08433875822891,42.52797646914016 3.0844653308524426,42.52798116941869 3.084601425617987,42.52802598754981 3.084642568458,42.52808497266303 3.084663229709534,42.52809960308092 3.0848357062440854,42.52821221084329 3.084955541502987,42.528289533398556 3.0849618297099757,42.52829357164581 3.085015189637852,42.5283221041723 3.085069178386428,42.52836712066088 3.08511202802548,42.528331901881394</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Mirador</name>
+      <description>name: Rue du Mirador
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008
+highway: pedestrian
+surface: sett
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.08511202802548,42.528331901881394 3.0851608963769364,42.52827940467888</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Mirador</name>
+      <description>name: Rue du Mirador
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008
+highway: pedestrian
+surface: unhewn_cobblestone
+cycleway:both: no
+lane_markings: no
+ref:FR:FANTOIR: 660530176</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0851608963769364,42.52827940467888 3.085254141503428,42.52822399459505 3.085276599385531,42.52821267424931 3.0854193416841778,42.52814130968325 3.0856467951141164,42.528030224417265 3.085714707749596,42.52800361158881 3.085900479350352,42.527930988961934</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: unhewn_cobblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0848710998662794,42.52667328672259 3.0852758807333043,42.52661992749306 3.085450513224537,42.52659761723097 3.085847029590947,42.5265418746422 3.085953120626001,42.52651287788396 3.0860381910834076,42.52647772426174 3.0861303582315585,42.52640761556627 3.0861891080511397,42.52631122425689 3.0863121772450643,42.52605111262554</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la République</name>
+      <description>lit: yes
+name: Rue de la République
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008
+highway: residential
+surface: asphalt
+lane_markings: no
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.083010060092169,42.52616299584735 3.083002424412254,42.52630102901354</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Paix</name>
+      <description>name: Rue de la Paix
+highway: footway
+surface: sett
+ref:FR:FANTOIR: 660530193</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0858869147895613,42.52791582889517 3.0861255073290237,42.52783512961323</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Paix</name>
+      <description>name: Rue de la Paix
+ramp: no
+highway: steps
+incline: down
+surface: paving_stones
+handrail: yes
+step_count: 5
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0861255073290237,42.52783512961323 3.086177879110088,42.527817387673444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Paix</name>
+      <description>name: Rue de la Paix
+ramp: no
+highway: steps
+incline: down
+surface: sett
+handrail: yes
+step_count: 12
+ref:FR:FANTOIR: 660530193
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.086177879110088,42.527817387673444 3.086132334525183,42.52771060492194 3.0861328735143534,42.527667905010524</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tour du lac</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.14545260569030896,43.28820382197774 -0.1439916755437454,43.28939919790727</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.1439916755437454,43.28939919790727 -0.14386070117532077,43.289505780802706</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.14386070117532077,43.289505780802706 -0.1422953867927425,43.29076867581346 -0.14128109900544317,43.29159757944523 -0.14099839918553075,43.291829829978845 -0.14093866121913678,43.291927973870756 -0.14093605610481286,43.29201107893454 -0.14095294443215428,43.29215479615687</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+horse: yes
+bicycle: yes
+highway: track
+incline: down
+surface: gravel
+mtb:scale: 1
+tracktype: grade1
+smoothness: very_bad
+horse_scale: common
+motor_vehicle: no
+mtb:scale:uphill: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.14095294443215428,43.29215479615687 -0.14085242295186132,43.292141719080625 -0.14046722535803086,43.292090979998164 -0.14034442565869173,43.292079014460946 -0.1402969047801618,43.292085029922575</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

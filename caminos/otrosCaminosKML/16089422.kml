@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lanes: 2
+width: 3
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.347893517395307,43.66024722964328 1.3479028598742617,43.66024722964328 1.3479370856865869,43.66024982917477 1.3479722098141957,43.660260422264386 1.3480694075279376,43.66030357446292 1.3482277805125278,43.66034627171317</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway
+surface: asphalt
+cycleway: crossing</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3482277805125278,43.66034627171317 1.348252484182841,43.660358619466344 1.3482825777448593,43.66037363173123</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3482825777448593,43.66037363173123 1.3483213849651332,43.66039286822103</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway
+surface: asphalt
+cycleway: crossing</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3483213849651332,43.66039286822103 1.3483372851456619,43.66040079677247 1.348359293870123,43.66041177976411</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+lanes: 2
+width: 2.7
+oneway: no
+highway: cycleway
+surface: asphalt
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.348359293870123,43.66041177976411 1.3484242420651649,43.66047468822196 1.3484626001277968,43.660512576238624 1.3484979039184628,43.66053239757573 1.3485890829198006,43.66054598006196 1.3517354322024293,43.6609156304693 1.35271513485129,43.66103637724353 1.3532479256463013,43.66111189259465 1.3536465081378652,43.66118487334714 1.3540582060325772,43.66128768312581 1.354394894601065,43.66137840513573 1.3545793187288948,43.66143078468648 1.35526688924736,43.66164400667887 1.3558409127139124,43.661881012985035</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

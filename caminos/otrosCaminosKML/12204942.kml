@@ -1,0 +1,229 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Camí del vi</name>
+    <Placemark>
+      <name>Carrer de Sant Julià</name>
+      <description>foot: yes
+name: Carrer de Sant Julià
+access: yes
+oneway: no
+bicycle: yes
+highway: pedestrian
+name:ca: Carrer de Sant Julià
+surface: paving_stones
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.696378043542134,41.34600107085296 1.6962308096670666,41.345777305934476 1.6960470143599358,41.34553937783587</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Oriol</name>
+      <description>name: Carrer d'Oriol
+highway: residential
+name:ca: Carrer d'Oriol
+surface: asphalt
+check_date: 2024-01-01</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6960470143599358,41.34553937783587 1.6952255050326086,41.34587981437112 1.6950490759108074,41.34595291897341 1.694267631445152,41.34630387387327 1.694018438785337,41.34641157429623</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Eugeni d'Ors</name>
+      <description>foot: yes
+name: Carrer d'Eugeni d'Ors
+oneway: no
+highway: residential
+name:ca: Carrer d'Eugeni d'Ors
+surface: asphalt
+maxspeed: 50
+name:etymology:wikidata: Q930679</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.694018438785337,41.34641157429623 1.6938394943807407,41.34618416906138</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>noname: yes
+highway: residential
+surface: asphalt
+junction: roundabout</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6938394943807407,41.34618416906138 1.693797273562387,41.346188215424824 1.6937554120701468,41.34618261795534 1.6936998063540598,41.34615658634396 1.6936654008786782,41.34611477388938 1.6936595618293313,41.346065812819745</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Catalunya</name>
+      <description>name: Avinguda de Catalunya
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Avinguda de Catalunya
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6936595618293313,41.346065812819745 1.693481785234604,41.346115111086704 1.692788106172207,41.3464367965361 1.6924604905880887,41.34660391048821</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6924604905880887,41.34660391048821 1.6922238743422515,41.34656432380789 1.6914737810800118,41.34607707521781 1.6911414044248876,41.34617816695516 1.691109693895358,41.34589121168076</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Assumpta Trens</name>
+      <description>name: Carrer d'Assumpta Trens
+oneway: yes
+highway: residential
+name:ca: Carrer d'Assumpta Trens</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.691109693895358,41.34589121168076 1.6908082192860077,41.34589950676284</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del Pla del Diable</name>
+      <description>name: Avinguda del Pla del Diable
+oneway: yes
+highway: tertiary
+name:ca: Avinguda del Pla del Diable
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6908082192860077,41.34589950676284 1.690818999069417,41.345780610485285</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.690818999069417,41.345780610485285 1.6907253946168117,41.34577218050841</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del Pla del Diable</name>
+      <description>name: Avinguda del Pla del Diable
+oneway: yes
+highway: tertiary
+name:ca: Avinguda del Pla del Diable
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6907253946168117,41.34577218050841 1.690707607974186,41.345920075864264</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Camí de la Bleda</name>
+      <description>name: Carrer del Camí de la Bleda
+oneway: yes
+highway: residential
+name:ca: Carrer del Camí de la Bleda
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.689367770727922,41.34566387206848 1.688746316214368,41.34562482433641 1.688420317597761,41.345600815701964 1.6880749153710173,41.345596769302034 1.687585513204229,41.34562907305452 1.6873788108573529,41.34563311945244 1.6871626761999936,41.34562307089712 1.686962531554692,41.345601220341955 1.6862463047786633,41.34545831483274 1.6850390588683353,41.34521620426416 1.6844499437050093,41.345092383580884 1.6842906724051354,41.34504578216253 1.6842183580247636,41.34502919177978 1.6841387672905908,41.34501098281823</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del Foix</name>
+      <description>name: Avinguda del Foix
+highway: residential
+name:ca: Avinguda del Foix
+check_date: 2024-01-01</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6841387672905908,41.34501098281823 1.6841200823326812,41.344998978388944 1.68410543979355,41.34498346704447 1.684097175292936,41.344966606883226 1.6840970854614072,41.34494529563318 1.6841002295649017,41.34493099820834 1.6841080449078736,41.34491838679799 1.6857575314325741,41.343466102491035 1.6858164609152122,41.3434141045281</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Sant Julià</name>
+      <description>name: Camí de Sant Julià
+highway: track
+name:ca: Camí de Sant Julià
+surface: ground
+tourism: attraction
+mtb:scale: 0
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6858164609152122,41.3434141045281 1.6853813169915848,41.34325932435376 1.6847006635008073,41.34291948110295</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Sant Julià</name>
+      <description>name: Camí de Sant Julià
+highway: track
+name:ca: Camí de Sant Julià
+surface: ground
+tourism: attraction
+mtb:scale: 0
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6847006635008073,41.34291948110295 1.6844273061598498,41.342844417252365 1.6839450905153346,41.34274460175547 1.6838092652443757,41.34272497585261 1.6836774823921952,41.34271351054579 1.683515875472582,41.34271472451956 1.6834254151234713,41.34273131549198 1.6833320801654512,41.342755932170924 1.6827542837747056,41.3429258207234 1.682251496710184,41.34307669001911 1.6821782840145283,41.343090583195504 1.6821078560962532,41.3430944274234 1.6816558238452843,41.34307176670832 1.6813806698737583,41.34307466674074 1.6811376755894043,41.34309382044007 1.6805531418340276,41.34314258141678 1.680180340991118,41.34314393026762 1.6799255787765417,41.34315930716525 1.6798081689689075,41.34317920270723 1.6796167379818614,41.34322641244354 1.6795566406893538,41.34323538228957 1.6795018434570226,41.34323072876059 1.6794361766097534,41.34320982159725 1.679384792975502,41.34320159361501 1.6793361042871024,41.34320550527883</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track
+surface: ground
+tourism: attraction
+mtb:scale: 0
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6793361042871024,41.34320550527883 1.6792289352737069,41.34327827567155</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tourism: attraction
+mtb:scale: 0
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6792289352737069,41.34327827567155 1.679194709461382,41.34329108972673 1.6791534767898408,41.34329210136256 1.6791088305202202,41.34327800590195 1.6789764188473408,41.34321157510154 1.6789237775716916,41.3432005145353 1.6788578412298372,41.3431935005167 1.6787203091598386,41.343201526172535 1.678590861927397,41.34319039816208 1.6782209356933964,41.343072171364014 1.6778587349708394,41.34294207442829 1.677741774320847,41.34291961598851</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Bleda</name>
+      <description>name: Camí de la Bleda
+highway: track
+name:ca: Camí de la Bleda
+surface: ground
+tourism: attraction
+mtb:scale: 0
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.677741774320847,41.34291961598851 1.67761942377915,41.34293870229068 1.6773909822023985,41.34298597964405 1.6759561031990742,41.343315234097524 1.6750552726321593,41.34355060752252 1.6738924034968665,41.34383089637101 1.6733891672747025,41.34402141926189 1.6728950040369086,41.34418098596917 1.6718726314120522,41.344438476982454 1.6716274811710161,41.344500185651825 1.671136192542131,41.34460391003756 1.6706490361635529,41.34472577586354 1.6703493581847708,41.344777503015685 1.6701176826729962,41.344808188595 1.6698656154042724,41.344826802258055 1.6694672125757652,41.34488520596334 1.668869383754184,41.34504301709902 1.6676230611289964,41.34542783188033 1.6673358697326635,41.34548670712735 1.6670284662424377,41.345533375670215 1.6667742430170318,41.34557100721655 1.6664061134135997,41.345645326084664 1.66580819476049,41.345822827793036 1.6656689558914513,41.345861470768 1.6655460663605837,41.34589350463039 1.6652615699101032,41.34591461325108 1.6648321752042938,41.34591049943097 1.6646629326047657,41.34593349635645 1.6643863413287854,41.34592567335632 1.6638011787527098,41.34586450555564 1.6634619749014263,41.34585162456714 1.6628858853097204,41.34591441093207 1.6626161212298993,41.345918120113915 1.6625397644307491,41.34586470787481</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Torre de les Aigües</name>
+      <description>name: Torre de les Aigües
+name:ca: Torre de les Aigües
+building: house</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.662578122493381,41.34608752834003 1.6624065442741143,41.34608550515521 1.6624065442741143,41.34604119739204 1.662360909857681,41.34604119739204 1.662130222492719,41.34604220898514 1.662130222492719,41.345949479552075 1.6623769897012668,41.345951570180745 1.6623775286904372,41.345972611343015 1.6623786965003065,41.34600059877587 1.6624325055858256,41.346002824282074 1.6624722111213834,41.34600188012793 1.6624734687627813,41.34604018579892 1.6625808174392336,41.34604322057824 1.662578122493381,41.34608752834003</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

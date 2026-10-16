@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Plaça de Catalunya</name>
+      <description>name: Plaça de Catalunya
+highway: residential
+name:ca: Plaça de Catalunya
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.075774579636228,42.13227481575558 3.0759553206713934,42.1321944733255</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Albons</name>
+      <description>name: Carrer d'Albons
+source: Institut Cartogràfic i Geològic de Catalunya, cartografía 1:1.000
+highway: residential
+name:ca: Carrer d'Albons
+surface: asphalt
+maxspeed: 30
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0759553206713934,42.1321944733255 3.076110280057904,42.13211852765112 3.076779435113045,42.13188622658891 3.077006798711455,42.131774306071286</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: gravel
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.077006798711455,42.131774306071286 3.0774580224786683,42.13156698611378 3.0778150129725774,42.13150003334759 3.0779570366189963,42.13145699700479 3.078050012250903,42.13138997750252 3.0780950178466373,42.131328021040716 3.0784270351756478,42.13051798469188 3.0786270001578933,42.12953898541176 3.0786720057536274,42.1294020109136 3.0787680356575002,42.12915497639089 3.0788670300018097,42.128963970343044 3.07910400557376,42.128574028409155 3.079169043600331,42.128478024909754 3.0792269849361564,42.128424993073935 3.0793070248279717,42.12839701143413</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

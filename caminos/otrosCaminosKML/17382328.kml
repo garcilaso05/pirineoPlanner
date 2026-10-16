@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4921253126144975,43.608314289203115 1.492055423685393,43.60841959611571 1.4921233363208726,43.608519309038435 1.491958585297765,43.60853108204711</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.491958585297765,43.60853108204711 1.4919819414951523,43.60855560372074</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Antoine Parmentier</name>
+      <description>lit: yes
+name: Avenue Antoine Parmentier
+highway: residential
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4919819414951523,43.60855560372074 1.4919326239860538,43.60857017362289 1.4917183757907913,43.6086830252008 1.4916930432997793,43.608696424278975 1.4916591768135679,43.608714181305174 1.4911822612292287,43.608965510959955 1.490945465320335,43.60908922408446 1.490832726752178,43.60914958454916 1.490736157859135,43.609200383557095 1.4906896251274175,43.60922497000135</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

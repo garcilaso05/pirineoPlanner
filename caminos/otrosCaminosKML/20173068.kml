@@ -1,0 +1,239 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.751566477927463,43.781989192225346 3.751537642006843,43.78183379616994 3.7515304554845708,43.78169857014197 3.751417986410998,43.78144050484936 3.7508429747976333,43.78099798416373</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.7508429747976333,43.78099798416373 3.7507941064461776,43.78076410777227 3.7507344583113116,43.78071079472305 3.75060671787791,43.780685305620665 3.750487062282065,43.78067557695277 3.7503483624021974,43.78069860146423 3.7501494753982927,43.780788299687686 3.749929477985212,43.78113152548663 3.749521014025523,43.78148467242378 3.7489894808719093,43.781854225974904 3.7486965402577583,43.78193600998139 3.7485156195595364,43.78193562084285 3.7483760213643844,43.781973107844365 3.7481365305096386,43.78195040810577 3.7475682562609047,43.78174299695228 3.7471671584865445,43.78152877510871 3.7470240568617847,43.781427728026586 3.7463699036718885,43.78131442278337 3.7461834134189056,43.78127648136886 3.745831094164474,43.7812801782257 3.7456148696755864,43.781285496510556 3.7454193064382335,43.78128400479656 3.745235331468046,43.78131390392658 3.744854535619107,43.781397115526396 3.7446421738859414,43.78142610660218 3.7444738296016973,43.78141300549137 3.7441163899501464,43.78136987557662 3.74382371883058,43.781282123939725 3.743700559805127,43.781254624508904 3.7435906060143513,43.781236723929204 3.7434752623318706,43.78122608735033 3.7433751900092194,43.78120818676209</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.7433751900092194,43.78120818676209 3.7433921681680893,43.781181984442114 3.74341363790338,43.78114378351444 3.743427112632642,43.78107399703685 3.743399624184948,43.78094570904304 3.7432915568562684,43.780688483651836 3.743099317385466,43.780516804869 3.743005533269804,43.78043988327483 3.742942202042274,43.78032482498888 3.7429304341120515,43.78015930670551 3.743005533269804,43.77952790732181 3.74311719385962,43.779132201032404 3.743122673582854,43.77903841417177 3.7431019224997906,43.7789684306578 3.7430561084203,43.77890207920607 3.743004814617577,43.77884681870328 3.7429211814646255,43.77878610992301 3.742834763534293,43.77874018913803 3.742735409863869,43.778710094141154 3.742661388684458,43.77870360814847 3.742622311969599,43.778700105712126 3.7424652864579353,43.77871962854913 3.7423526377213063,43.77875932280271 3.742242504267473,43.77885317496089 3.742157613473124,43.778963631044014 3.7418565880214154,43.77945468142508 3.741619432786408,43.77979519081264 3.741446327431158,43.78001648844539 3.7412874154573976,43.78015178313628 3.741097331943277,43.78027112239857 3.740063371051256,43.78087378203427 3.7393472341067557,43.781291268794824 3.738972816296335,43.78157942829936 3.738137472913632,43.78228052631255 3.738058241505573,43.78235673212293 3.737996437414025,43.782467506012786 3.737911995777319,43.782645016203396 3.7378839683404537,43.7827269936948 3.737866091866299,43.782798918474036</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Liquière</name>
+      <description>name: Chemin de la Liquière
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.737866091866299,43.782798918474036 3.7378387830816626,43.782878106972184 3.7378271948144977,43.78296741279389 3.7377208342848576,43.783304270299055 3.7377101443329765,43.78335557053424 3.7376564250789865,43.78350557969254 3.7376027058249957,43.7836140815426 3.737500836871777,43.783741909829374 3.7373934881953246,43.7838364027099 3.7371369293501795,43.7840432877676 3.737085006726758,43.78413401863758 3.73703056882054,43.78462379433685 3.7369584341032254,43.78485681253717 3.7369781970394755,43.78490610099085</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+oneway: no
+bicycle: yes
+highway: path
+surface: concrete
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.7369781970394755,43.78490610099085 3.736911631876923,43.78493898155512 3.736880011178922,43.78495701073259 3.736837970023625,43.78496200442467 3.736754157207616,43.78495428690037</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+layer: -1
+oneway: no
+tunnel: yes
+bicycle: yes
+highway: path
+surface: concrete
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.736754157207616,43.78495428690037 3.7365037967379324,43.78492970755165</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>oneway: no
+bicycle: yes
+highway: footway
+surface: concrete
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.7365037967379324,43.78492970755165 3.736403365089168,43.78491972016168 3.736292602814636,43.784904609367196</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>foot: yes
+oneway: no
+bicycle: yes
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.736292602814636,43.784904609367196 3.7362301699023894,43.78493483095235 3.7361398892163353,43.785007790724784 3.7360489797095826,43.78509877954288 3.7359357021522555,43.78520792703005 3.735847577422883,43.78528361028651 3.735777957988364,43.785340032189126 3.7356671058823037,43.785432122996255 3.7355502350638394,43.78551098374368 3.735512236327321,43.78553368213032</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: yes
+oneway: no
+bicycle: yes
+highway: footway
+surface: paved
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.735512236327321,43.78553368213032 3.7354712731503654,43.785582970025914 3.7354226742934946,43.78562920981733 3.7352784048588648,43.78561137539991</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Littoral</name>
+      <description>ref: D 32E14
+name: Route du Littoral
+highway: secondary
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.7352784048588648,43.78561137539991 3.7351584797684354,43.78580067936275 3.73505921592954,43.78592240687692 3.7349428841002466,43.786052694602255 3.734537564244052,43.786416512978704</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Littoral</name>
+      <description>ref: D 32E14
+name: Route du Littoral
+highway: secondary
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.734537564244052,43.786416512978704 3.7342212674325133,43.78670043244792 3.7340548096103654,43.78683422043753 3.7338958078050766,43.786961976987655 3.733570976998339,43.78722287187612</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Littoral</name>
+      <description>ref: D 32E14
+name: Route du Littoral
+layer: 1
+bridge: yes
+highway: secondary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.733570976998339,43.78722287187612 3.733273904133881,43.78746152193272</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Littoral</name>
+      <description>ref: D 32E14
+name: Route du Littoral
+highway: secondary
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.733273904133881,43.78746152193272 3.7332314138209415,43.78750082128002 3.732444399800525,43.788180579168845 3.732428140293882,43.78819439214254 3.732401819656058,43.78822337992203 3.732345225793158,43.78827668627179 3.732322139090356,43.78831948695616 3.732309742339435,43.788370588339184</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Littoral</name>
+      <description>name: Route du Littoral
+highway: secondary
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.732309742339435,43.788370588339184 3.73226931815165,43.78840080817203 3.7322533281395924,43.788431806182125 3.732239583915746,43.78847707102993</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Littoral</name>
+      <description>name: Route du Littoral
+highway: secondary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.732239583915746,43.78847707102993 3.7322276363224667,43.78851111691721 3.732226468512597,43.788524411020326 3.7322252108711997,43.78859898764145 3.7322249413766144,43.78864263113397 3.7322247617135575,43.7887587109961 3.7322457822912063,43.788865322693226 3.7323279781397023,43.7891959215035</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Littoral</name>
+      <description>name: Route du Littoral
+highway: secondary
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.7323279781397023,43.7891959215035 3.732333008705294,43.78925577668302 3.7325136599089306,43.79001521243942 3.732541417851209,43.79015599654076 3.732595406599785,43.79033491054204 3.732608971160576,43.79040812311232 3.732601425312189,43.790483929478974 3.7326042999210975,43.790630289317775</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Littoral</name>
+      <description>name: Route du Littoral
+highway: secondary
+surface: asphalt
+parking:lane: right
+cycleway:both: no
+lane_markings: no
+parking:lane:right: parallel
+parking:condition:right: disc
+parking:condition:right:maxstay: 20 minutes
+parking:condition:right:time_interval: Mo-Sa 00:00+; Su 00:00-06:00,14:00+</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.7326042999210975,43.790630289317775 3.7326042999210975,43.790685668622764</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Littoral</name>
+      <description>name: Route du Littoral
+highway: secondary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.7326042999210975,43.790685668622764 3.7326022337959444,43.790850703835105</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Fontaine</name>
+      <description>name: Place de la Fontaine
+highway: secondary
+surface: sett
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.7326022337959444,43.790850703835105 3.732609689812803,43.79092462908695 3.7326115762748993,43.791037397343246 3.732599269355507,43.79110820973356</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Mairie</name>
+      <description>lit: yes
+name: Place de la Mairie
+oneway: no
+highway: residential
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.732599269355507,43.79110820973356 3.7325249786815102,43.791107172189975</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

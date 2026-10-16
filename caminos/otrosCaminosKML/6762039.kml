@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Monflanquin - Bastide - 7,9km</name>
+    <Placemark>
+      <name>Rue de l'Union</name>
+      <description>name: Rue de l'Union
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7683859258649115,44.532279412632334 0.7683436152150295,44.53234312930819 0.7683128030007842,44.532398008841454</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: D 676
+highway: secondary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7689638120871857,44.530189531062334 0.7689719867562711,44.53017582667341</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7689719867562711,44.53017582667341 0.7687775913287875,44.530131383446</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Arcades</name>
+      <description>name: Rue des Arcades
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7694763009567758,44.53256520859427 0.7693579928338572,44.53257737554336 0.7691263173220828,44.5326099061106 0.7688685906670688,44.5326756715916 0.7685769076943152,44.532750274019094 0.7685134866352564,44.53272049709598 0.7684507842284249,44.53270051773258</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place des Arcades</name>
+      <description>lit: yes
+name: Place des Arcades
+highway: residential
+surface: unhewn_cobblestone
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.7684507842284249,44.53270051773258 0.7683128030007842,44.532398008841454</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

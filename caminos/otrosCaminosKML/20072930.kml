@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue Charles Flahault</name>
+      <description>ref: D 986A
+name: Avenue Charles Flahault
+lanes: 2
+oneway: no
+source: GPS
+highway: secondary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5470175724506525,44.09232497583408 3.5469966417045327,44.09229407134165 3.5469271121015415,44.09223232682719 3.5468574926670224,44.092180324605124 3.546773590019486,44.09213109665302 3.5456712673343427,44.091643331243525 3.545241333639363,44.09145448236516 3.544721209089858,44.0912287274825</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Charles Flahault</name>
+      <description>ref: D 986A
+name: Avenue Charles Flahault
+lanes: 2
+oneway: no
+source: GPS
+highway: secondary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.544721209089858,44.0912287274825 3.544455128102702,44.09110962353041</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

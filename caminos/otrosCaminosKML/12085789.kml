@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+highway: track
+surface: dirt
+tracktype: grade5
+check_date:surface: 2024-08-12</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.470560715230038,43.46409817081873 1.470616320946125,43.46410892885446 1.4707201661929692,43.46416832621727 1.4708402709464559,43.46424232833845 1.4711313250985105,43.46437709672644 1.4719775380961513,43.46472702369243 1.4722111000700222,43.464870984114384 1.4735855224547252,43.465955370623384 1.4748729879199252,43.46690947383443</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4748729879199252,43.46690947383443 1.4754989340098998,43.46731167396267 1.4762743597631516,43.46793247428906</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Mélic</name>
+      <description>foot: yes
+name: Chemin de Mélic
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4762743597631516,43.46793247428906 1.4773701247467208,43.46904523085564</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: survey
+highway: track
+surface: dirt
+tracktype: grade3
+check_date:surface: 2024-08-12</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4773701247467208,43.46904523085564 1.4780518562158391,43.468377827117266 1.4784462166255676,43.46799408455968 1.4787564048931738,43.46774542642664 1.479068030465235,43.46754070973394</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: survey
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.479068030465235,43.46754070973394 1.479264492017872,43.46759012866782 1.479443077096355,43.46776707159055 1.479648970959475,43.46793358262252 1.4798300713207535,43.46800979679853 1.480279318794342,43.468105113280345 1.4805477354012369,43.46820577566702 1.4805684864842998,43.46826640772318 1.4804185576633804,43.468522104822114 1.480477127819905,43.468852710049035 1.4806192412978525,43.46899007595644 1.4806852674712354,43.469017392632665 1.4809396703596982,43.46902958408084 1.4811708967138304,43.469000311562105 1.4814334742713786,43.469009569242175 1.481895028664359,43.4692015027967</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Ruisseau de Menjot</name>
+      <description>name: Chemin du Ruisseau de Menjot
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.481895028664359,43.4692015027967 1.4823242437071114,43.468649626989375 1.482753279086807,43.46809187851108 1.4829049147067663,43.46793130075948 1.4830643656696976,43.46778330545841 1.4831530293882402,43.467681077655584 1.483237381193419,43.4675673099039 1.4833548808325818,43.46728031431471 1.4834146187989756,43.46705251630048</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Ruisseau de Menjot</name>
+      <description>name: Chemin du Ruisseau de Menjot
+layer: 1
+bridge: yes
+highway: unclassified
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4834146187989756,43.46705251630048 1.4834300698218625,43.46698432016243</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Ruisseau de Menjot</name>
+      <description>name: Chemin du Ruisseau de Menjot
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4834300698218625,43.46698432016243 1.483473817776199,43.46688808915227</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

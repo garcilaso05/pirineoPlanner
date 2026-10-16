@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>foot: designated
+bicycle: designated
+highway: track
+surface: compacted
+tracktype: grade2
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3078598272639352,43.6326235849338 1.307795687552649,43.632653688344156</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont Saint-Jean</name>
+      <description>foot: designated
+name: Pont Saint-Jean
+layer: 1
+bridge: yes
+bicycle: designated
+highway: track
+surface: compacted
+tracktype: grade2
+bridge:name: Pont Saint-Jean</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.307795687552649,43.632653688344156 1.3077510412830284,43.63268067086977</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont Saint-Jean</name>
+      <description>foot: designated
+name: Pont Saint-Jean
+layer: 1
+bridge: yes
+bicycle: designated
+highway: track
+surface: compacted
+tracktype: grade2
+bridge:name: Pont Saint-Jean</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3077510412830284,43.63268067086977 1.3076810625223956,43.63272280259641</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Jean</name>
+      <description>foot: designated
+name: Chemin de Saint-Jean
+bicycle: designated
+highway: path
+surface: compacted
+tracktype: grade2
+motor_vehicle: no
+destination:foot: PIBRAC par rive droite;COLOMIERS;Passerelle du Bassac</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3076810625223956,43.63272280259641 1.307342936649453,43.632890614010726</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

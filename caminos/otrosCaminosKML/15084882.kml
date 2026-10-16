@@ -1,0 +1,273 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Senda a Villaverde</name>
+    <Placemark>
+      <name>Eliza kantoia</name>
+      <description>name: Eliza kantoia
+highway: residential
+name:es: Cantón de la Iglesia
+name:eu: Eliza kantoia
+maxspeed: 20
+official_name: Eliza kantoia / Cantón de la Iglesia</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5834438151901553,42.62565907643417 -2.583495288655935,42.62576370867168 -2.583591318559807,42.625898018399155 -2.5836538413035823,42.62598077208303</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eliza kantoia</name>
+      <description>name: Eliza kantoia
+horse: no
+bicycle: no
+highway: living_street
+name:es: Cantón de la Iglesia
+name:eu: Eliza kantoia
+official_name: Eliza kantoia / Cantón de la Iglesia</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5836538413035823,42.62598077208303 -2.5837449304733915,42.62612757367489</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Kristoren Atea kalea</name>
+      <description>name: Kristoren Atea kalea
+highway: residential
+name:es: Calle Portal de Cristo
+name:eu: Kristoren Atea kalea
+maxspeed: 20
+official_name: Kristoren Atea kalea / Calle Portal de Cristo</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5837449304733915,42.62612757367489 -2.5839033932895106,42.6260976317304 -2.584076229150175,42.62608170234568 -2.584257778669096,42.6260744316708</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Kristoren Atea kalea</name>
+      <description>name: Kristoren Atea kalea
+tunnel: yes
+highway: residential
+name:es: Calle Portal de Cristo
+name:eu: Kristoren Atea kalea
+maxspeed: 20
+official_name: Kristoren Atea kalea / Calle Portal de Cristo</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.584257778669096,42.6260744316708 -2.584489903338512,42.6260585683772</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Kristoren Atea kalea</name>
+      <description>name: Kristoren Atea kalea
+highway: residential
+name:es: Calle Portal de Cristo
+name:eu: Kristoren Atea kalea
+official_name: Kristoren Atea kalea / Calle Portal de Cristo</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.584489903338512,42.6260585683772 -2.584739994313611,42.626022413272125</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>San Pelaio kalea</name>
+      <description>name: San Pelaio kalea
+highway: residential
+name:es: Calle San Pelayo
+name:eu: San Pelaio kalea
+official_name: San Pelaio kalea / Calle San Pelayo</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.584739994313611,42.626022413272125 -2.585011914350114,42.62601719160074 -2.585199213086853,42.62597859087711 -2.585475804362833,42.62586543245351 -2.585567702016399,42.62573812898109</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.585567702016399,42.62573812898109 -2.586049199008687,42.62596960166407 -2.5864346660971025,42.62597257603618 -2.586588906831386,42.62600840068462 -2.58667011453307,42.62610100267852 -2.586666072114291,42.62626221310156 -2.586597081500471,42.626477225779496</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.586597081500471,42.626477225779496 -2.5864062793341245,42.626534002750645 -2.5862763829440403,42.62665337302401 -2.5856676845075213,42.62760601363078 -2.5853795049643757,42.628203182904144 -2.5853219229546633,42.62875137066135 -2.585396572954774,42.62901178128767 -2.585620612786633,42.62935817860749 -2.585588093773348,42.62954211671744 -2.5854985317395216,42.629976414711685 -2.5851659754213405,42.63031659396442 -2.584758319945407,42.630752274488565 -2.5846413592954147,42.630933829170836 -2.5845754229535602,42.631216503535704 -2.5846215065276357,42.63134022686595</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5846215065276357,42.63134022686595 -2.584694629391763,42.63144022315987 -2.584760925059731,42.63183009481653 -2.5847920067685615,42.632074696892595 -2.5849997870937784,42.632344214089656 -2.586067434808955,42.63306651177893 -2.5863530990693047,42.63332260854404 -2.586371334869572,42.63346972326727 -2.5862440435938123,42.633578572077184 -2.5859715845681386,42.63368219966832 -2.5857199664570576,42.63395990490042 -2.5857118816195,42.634389876334886 -2.5853912728945976,42.63453916944126 -2.585334499368641,42.63470042409849 -2.5848636923282347,42.635061725536964 -2.5846689375746372,42.6353094870999 -2.5844496588137837,42.63564692764197 -2.5845471260221102,42.635882725195614</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5845471260221102,42.635882725195614 -2.584855607490677,42.635978286393716 -2.5852776360111567,42.63607682133434 -2.5856186364930083,42.63632761881935 -2.5857199664570576,42.63656651983148 -2.585553598466438,42.63676649546454 -2.585553598466438,42.63772492891182 -2.5856428910056795,42.63811000313152 -2.5856186364930083,42.63833402839596 -2.5857565278891204,42.6384533760394 -2.586040575181959,42.63859069823849 -2.586312495218462,42.63873998126705 -2.5865722879986297,42.63895501692569 -2.5866818824632922,42.63914897131535 -2.5867711750025335,42.63937292675631 -2.5867143116450486,42.63951619437603 -2.586807736434597,42.639832730060014</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.586807736434597,42.639832730060014 -2.5870674393832367,42.639910310794065 -2.5872702789743904,42.640214883626406 -2.5874246095402023,42.640653732855334 -2.587294713150119,42.64084180070857 -2.5873272321634038,42.64097317032645</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5873272321634038,42.64097317032645 -2.5861790055672422,42.64110691858606 -2.5850936610409687,42.64115528992141 -2.582824786127868,42.64099768645682 -2.5827090831192736,42.64087510570836 -2.5826257194609075,42.640272110640076 -2.5822921749959136,42.639723627858935 -2.581991239375734,42.639580492882246 -2.5815234866072925,42.6393965183566 -2.5810649864862785,42.63923302904363 -2.5801525676521977,42.63902182717724 -2.579552672705463,42.63912683345136 -2.578573598877301,42.639387002418054 -2.578082310248416,42.63937497532699 -2.577695944844716,42.63950747144921 -2.5774109992365934,42.63950747144921 -2.5770507748076614,42.639442379873294 -2.576733130523197,42.639425594826434 -2.5764809734229446,42.63931959781176 -2.5762845118703077,42.63913648159603 -2.576222258621118,42.638869108484954 -2.5758881751669542,42.63866669451293 -2.5754526719172133,42.638416170790826 -2.5753773930964035,42.63828611745588 -2.5751678161406186,42.63825717262179 -2.574205001819099,42.63814390435165 -2.5738284280519967,42.638129497987464 -2.5729213092780925,42.63830528183634 -2.572524972574739,42.63815117361673 -2.572044823055377,42.63807881134933</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: A-3132
+source: GeoEuskadi
+highway: tertiary
+surface: asphalt
+ref:colour: yellow
+ref:colour_tx: black</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.572044823055377,42.63807881134933 -2.572040421310485,42.63868202592399 -2.5720355704079507,42.639047401408845</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5720355704079507,42.639047401408845 -2.5717686809370384,42.63912207546165 -2.571160072332048,42.639321117720364 -2.5703824007905856,42.63937081210262 -2.569621707407993,42.63922159667059 -2.5683199587297754,42.63915320063773 -2.5680579201613982,42.63928378082459 -2.567593042001866,42.63963197128897 -2.5672549161289235,42.6396693079758 -2.5666125308692496,42.639538728598 -2.5655559324320683,42.63959470066242 -2.564482355836017,42.639694221115434 -2.5639752568581313,42.64006732227329 -2.5634342913940347,42.64020411225421 -2.5628559560141184,42.64017840633388</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5628559560141184,42.64017840633388 -2.562728305412245,42.64014470446852 -2.560546926407818,42.64008338024315 -2.5603098610043387,42.64007670594343 -2.5600876178030476,42.64000857517951 -2.5599908692469477,42.639941699905144 -2.5599816165995213,42.63988381176375 -2.5590308397028094,42.63860583141706 -2.558895733084077,42.63851311585911</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.558895733084077,42.63851311585911 -2.558353869304697,42.63742662196612 -2.5580240079323677,42.63660617136301</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5580240079323677,42.63660617136301 -2.558904267079277,42.63649646873071 -2.5594635581751692,42.63643289398421 -2.559969309680129,42.63637110349785 -2.560258657033144,42.63632028325509 -2.56049590209968,42.63626622474583 -2.5630163951238623,42.63559841985057 -2.5646314761731808,42.63517288462105</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5646314761731808,42.63517288462105 -2.564842670096477,42.635129597367566 -2.5649432814082984,42.635133694788266 -2.5650924017454626,42.63515087751732</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5650924017454626,42.63515087751732 -2.565567341036177,42.63457108996601 -2.5656197128172407,42.633838698152374 -2.565731014080943,42.63317370905633 -2.5656916678714987,42.63263401977841 -2.565580366607796,42.6321039750556 -2.565351116547289,42.6317088839206 -2.5651677703978,42.63116918194053 -2.5648927062578024,42.630552411714106 -2.5641261738258634,42.629712571275505 -2.5634406694325516,42.62911521820115 -2.563183032609066,42.628809401347034 -2.56300067460639,42.628549981290334 -2.5628814681681873,42.62834072600586 -2.562718693438705,42.62805460164356 -2.5625873597441666,42.62783992488977 -2.5625147758692104,42.627770524918766 -2.5624085051710987,42.62769643210241 -2.5622344116690363,42.62763873085608 -2.5620362433173596,42.62761731594692 -2.5613183995738193,42.62762167824383 -2.561252822558079,42.62759847875222 -2.5612309036651464,42.627566290269485 -2.5612406054702146,42.62751797446641 -2.561401763232186,42.62737269635386 -2.561651494881171,42.627176391905195 -2.561943177853925,42.626975988879984 -2.5622933411516744,42.62682396768515 -2.563355598975146,42.62642329091377 -2.563761637483568,42.626358912716306 -2.5644820863414317,42.6261362323802 -2.5647121448856947,42.62604409311828 -2.564899263959377,42.62593318211852 -2.5650096669077955,42.62583053308511 -2.565123303791236,42.625669189349196</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.565123303791236,42.625669189349196 -2.5651543855000667,42.62562179743909</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5651543855000667,42.62562179743909 -2.5653359350189877,42.625387282965164 -2.5654163342369163,42.62531450926926 -2.5655094895318795,42.625282121311855 -2.5658863327935673,42.6251390192167 -2.565966462516911,42.625074573592975</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Santikurutze kalea</name>
+      <description>name: Santikurutze kalea
+highway: residential
+name:es: Calle Santa Cruz
+name:eu: Santikurutze kalea
+official_name: Santikurutze kalea / Calle Santa Cruz</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.565966462516911,42.625074573592975 -2.5661513358023824,42.62474910564943</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>San Andres kalea</name>
+      <description>name: San Andres kalea
+highway: residential
+name:es: Calle San Andrés
+name:eu: San Andres kalea
+official_name: San Andres kalea / Calle San Andrés</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5661513358023824,42.62474910564943 -2.566204695730259,42.62472226967076 -2.5662619184138578,42.62465650164455</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>San Andres kalea</name>
+      <description>name: San Andres kalea
+highway: residential
+name:es: Calle San Andrés
+name:eu: San Andres kalea
+official_name: San Andres kalea / Calle San Andrés</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.5662619184138578,42.62465650164455 -2.5664971871867683,42.62456812781552 -2.5666472058392165,42.62450288841622 -2.5668840017481105,42.624399906530265 -2.567067797055241,42.62434438349154</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

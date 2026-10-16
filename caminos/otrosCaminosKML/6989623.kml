@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Belvédère du Casteth asp108</name>
+    <Placemark>
+      <name>Place de l’Église</name>
+      <description>ref: D 237
+name: Place de l’Église
+oneway: yes
+highway: tertiary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6170799876148081,42.99508129595485 -0.6170109970009878,42.99516841923801</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Temple</name>
+      <description>name: Rue du Temple
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6170109970009878,42.99516841923801 -0.6169699439925034,42.99532893337974 -0.6168396882763061,42.99564858063666 -0.6168121998286121,42.995715992158296 -0.6167927063869467,42.995906005523054 -0.6168257643894023,42.9959701316159</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Casteth</name>
+      <description>name: Rue du Casteth
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6168257643894023,42.9959701316159 -0.6167669247382924,42.99603662294478 -0.6166184332218275,42.996203967897806</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6166184332218275,42.996203967897806 -0.6162470696833724,42.99642380867078 -0.61579863069354,42.996631230938405 -0.6154580793693303,42.99686191100986</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6154580793693303,42.99686191100986 -0.6152322429069026,42.99706992311446 -0.6150958786467733,42.997243901112235</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6150958786467733,42.997243901112235 -0.6150400034361012,42.997392517878815 -0.615053927323005,42.997534892666906</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Castet</name>
+      <description>name: Chemin de Castet
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.615053927323005,42.997534892666906 -0.6151312722689677,42.99772936807883</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Casteth</name>
+      <description>name: Sentier du Casteth
+highway: path
+name:oc: Sendèr deth Castèth
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6151312722689677,42.99772936807883 -0.6151815779248783,42.997592184135996 -0.6152723077685744,42.997553880327146 -0.6154364299709831,42.99788061170681 -0.6156375627630974,42.99787272759986 -0.6157635963974595,42.99779027292079 -0.6160800728720547,42.997686399577944 -0.6161405294906759,42.99762523182839 -0.6164082274453435,42.99759349815988 -0.6163573828002623,42.997566692066904 -0.6163784932094393,42.997531081993905 -0.616251112102151,42.99749067570528 -0.6164508974213393,42.99745118920894 -0.6163999629447297,42.99743647210564 -0.6163879255199224,42.9974099944511 -0.6163979866511046,42.99738693325882 -0.6164737146295558,42.997323202853366 -0.6165247389376938,42.99730651467442 -0.6165913041002472,42.99731157368978 -0.6166351418861121,42.997285490190556 -0.616713834305001,42.99724672627958 -0.6168355560259993,42.99724468953103 -0.6169683270249922,42.99721867170502 -0.6170224954366245,42.997219394422565 -0.6169986002500669,42.997210590408336 -0.6170213276267551,42.99720809374736 -0.6170789096364673,42.997190485714405 -0.6171472714295887,42.99713753018193 -0.6172330605392221,42.99706788636006 -0.6173255870134863,42.996990423940936 -0.6173866724528065,42.99686191100986 -0.6174933024770314,42.9968211757711 -0.6175355232953852,42.99672820734282 -0.6177253373149195,42.996662505188525 -0.6177783379166827,42.9965874732424 -0.6178546947158328,42.99669147984722 -0.6178841594571519,42.99675468529114 -0.6178802068699019,42.996895878922174 -0.617844723416179,42.99703188178724 -0.617864755847015,42.99709712363451 -0.6179560246798815,42.99702150090283 -0.617988184367053,42.99711078959173 -0.6180491799748447,42.99707399662306 -0.618081968482715,42.9969609895101 -0.6181349690844782,42.9969297811138 -0.6182244412867763,42.99702472029122 -0.6182705248608518,42.997140683862554 -0.618345624018604,42.997030370645945 -0.61836565644944,42.99713378518596 -0.6185051648130637,42.99691999152938 -0.6185493619250425,42.99669147984722 -0.6185520568708948,42.99654627790553 -0.61858286908514,42.99645698839637 -0.6185454093377922,42.99627900031219 -0.6186017337061065,42.9961809062529</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Contour du Casteth</name>
+      <description>name: Contour du Casteth
+highway: path
+name:oc: Contorn deth Castèth
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6186017337061065,42.9961809062529 -0.6186374866544145,42.996201011277144</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passage du Casteth</name>
+      <description>name: Passage du Casteth
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6186374866544145,42.996201011277144 -0.6186668615642053,42.99617748971218 -0.6186762938746885,42.996149631757675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passage du Casteth</name>
+      <description>name: Passage du Casteth
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6186762938746885,42.996149631757675 -0.6187996325631983,42.996059816049495</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Proudequi</name>
+      <description>name: Chemin de Proudequi
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6187996325631983,42.996059816049495 -0.6188340380385798,42.995983272200434</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'en Haut</name>
+      <description>ref: D 442
+name: Rue d'en Haut
+highway: tertiary
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6188340380385798,42.995983272200434 -0.6186353306977327,42.99580081493279 -0.6184969003124497,42.9956883968075 -0.6183942228754751,42.99563498005754 -0.6182637874962208,42.99558070911765 -0.6181593134286777,42.995512771820266</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'en Haut</name>
+      <description>ref: D 442
+name: Rue d'en Haut
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6181593134286777,42.995512771820266 -0.6181022704081361,42.995455215598525 -0.6180445087353672,42.995421312593365 -0.6179656366534215,42.995381824767264 -0.6179259311178634,42.99536191658574 -0.6178016941140697,42.99531598976616 -0.6177324340056641,42.99529470178665 -0.6176319125253712,42.9952638867662 -0.6175247435119756,42.99523727676809 -0.6172685439929448,42.995143714609185 -0.6170799876148081,42.99508129595485</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

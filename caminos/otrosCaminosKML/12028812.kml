@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de la Croix Blanche</name>
+      <description>ref: D 95a
+name: Chemin de la Croix Blanche
+oneway: no
+highway: unclassified
+surface: asphalt
+maxspeed: 70
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4742900711320601,43.48975162085203 1.4744063131298253,43.48975892017696 1.47452426192663,43.48977879779837 1.4745960373178313,43.489802194727986</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4745960373178313,43.489802194727986 1.474761506993166,43.48973057011541 1.4749635381005646,43.489663507503074 1.4752397700504312,43.48961202109322 1.4754395553696193,43.48958041232619 1.4756160743229487,43.489569984688075 1.4758372395458992,43.48956138188528 1.4759639918324885,43.48955258356296 1.4760993679458052,43.48952729652578</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4760993679458052,43.48952729652578 1.4765150184277673,43.4894170240646 1.4766197619898955,43.48938267793186 1.4766485080789875,43.4893931056023 1.476726032688007,43.48948597696285 1.4774690292595023,43.49040797001509 1.4776175207759672,43.49055382441605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Rouzaud</name>
+      <description>lit: no
+ref: D 95a
+name: Chemin de Rouzaud
+lanes: 2
+highway: residential
+surface: asphalt
+sidewalk: no
+smoothness: good
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4776175207759672,43.49055382441605 1.4778200908725363,43.49049490918658 1.478000382750059,43.490446812419016 1.4789667005011864,43.49026583006564 1.4790673118130078,43.490233700264554 1.4791852606098126,43.490171004741406</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

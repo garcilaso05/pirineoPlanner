@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue des Coquelicots</name>
+      <description>name: Rue des Coquelicots
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.414951136387318,43.67902941562179 1.415213713944866,43.679137132394125 1.415231410755963,43.679249721552 1.4153121693000053,43.67933391965317 1.415611218458089,43.679492700318725 1.4159182626222009,43.67965576840451 1.4165059404810718,43.6799678703894</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Coquelicots</name>
+      <description>name: Rue des Coquelicots
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4166471556437354,43.68003589073559 1.4167891792901548,43.68006850409294 1.4172520811560614,43.68032206909328 1.4173764079913838,43.680344612483665 1.4176629705670176,43.68030907578085 1.4177678937922031,43.68032700655126 1.4185932658752518,43.680773195155815</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

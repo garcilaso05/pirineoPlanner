@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Lantarèse</name>
+      <description>name: Chemin de Lantarèse
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6219070776679265,43.459069394529365 1.6219210913863589,43.45898866988601 1.6221102765851945,43.458533010508106 1.6221330039618826,43.45850047259347 1.622179716356657,43.45848201921927</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.622179716356657,43.45848201921927 1.6221752247802363,43.4584387874407 1.6222965871751212,43.458181678351316 1.622487030015354,43.457825388422286 1.6229308875972377,43.456922982190996 1.623129415275028,43.45661252629422 1.6232407165387304,43.456428508204986 1.623397562387338,43.455951506192164 1.6235854001132473,43.45563602418807 1.6237362272494507,43.45537949006774 1.6239823656372996,43.45495360450764 1.624086300715672,43.45473019434654 1.6240942957217008,43.45464548607491</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Montesserre</name>
+      <description>name: Chemin de Montesserre
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6240942957217008,43.45464548607491 1.6241481946387482,43.454606425022845 1.6243437578761009,43.45440988038134 1.6246566410895598,43.454065893116095 1.6251840419928663,43.45327422589129 1.6252918398269607,43.453156192245956 1.6256780255676035,43.45276987499148 1.6259441065547597,43.452439703511786 1.625961174545158,43.45219052490885 1.6258299306821482,43.45186328487005</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de San Matéo</name>
+      <description>hgv: no
+psv: yes
+ref: D 38e
+name: Avenue de San Matéo
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 80
+old_name: Avenue de la Gare
+maxweight: 3.5
+cycleway:both: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6258299306821482,43.45186328487005 1.6262243809234052,43.45174981341886</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de San Matéo</name>
+      <description>hgv: no
+psv: yes
+ref: D 38e
+name: Avenue de San Matéo
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 2
+layer: 1
+bridge: yes
+highway: secondary
+surface: asphalt
+maxspeed: 80
+old_name: Avenue de la Gare
+maxweight: 3.5
+cycleway:both: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6262243809234052,43.45174981341886 1.6263125056527772,43.45172327150271</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de San Matéo</name>
+      <description>hgv: no
+psv: yes
+ref: D 38e
+name: Avenue de San Matéo
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 80
+old_name: Avenue de la Gare
+maxweight: 3.5
+cycleway:both: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6263125056527772,43.45172327150271 1.6263555349548866,43.45171042442855</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 11D
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6263555349548866,43.45171042442855 1.6263883234627567,43.451734096953956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Crêtes</name>
+      <description>ref: D 11d
+name: Route des Crêtes
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6263883234627567,43.451734096953956 1.6266694063151579,43.451963191741655 1.6270788584216596,43.452146114796186 1.6275708657027717,43.45246800585818 1.628384739350184,43.45326248774903 1.6287231347177118,43.45371668698098</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

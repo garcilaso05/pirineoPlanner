@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6002590267935723,43.443122425167594 1.600404104711958,43.44331483224229 1.6008055618124306,43.44383028451864 1.6008055618124306,43.44413069666283 1.6006039798626743,43.444600421910515 1.6003497566372684,43.44504972941551 1.600092119813783,43.44533989589425 1.5997502210166472,43.44561988663887 1.5991914689099247,43.44609390481947 1.5992856123517005,43.446173603163665 1.599164699114458,43.446384914140786 1.599075316743688,43.44676409809898 1.5989527865389341,43.44687647018452</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse de Ticaille</name>
+      <description>ref: D 16e
+name: Impasse de Ticaille
+noexit: yes
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5989527865389341,43.44687647018452 1.599002912531788,43.446936993194605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: survey
+bicycle: yes
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.599002912531788,43.446936993194605 1.5989957260095151,43.44702282098007 1.5990040803416574,43.44703071243447 1.599067681063773,43.447039777822965 1.5991249935788998,43.446973906983516</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+bicycle: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5991249935788998,43.446973906983516 1.5991771856969073,43.44697977666519 1.599395655974005,43.44700462497797</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: survey
+bicycle: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.599395655974005,43.44700462497797 1.5994220664433583,43.4470866699907 1.5994350920149778,43.447091887475835 1.599455124445814,43.44709201791295 1.5994650059139393,43.4470858873679 1.5994970757695823,43.44699360302421 1.5995039927972698,43.44697377654614</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5995039927972698,43.44697377654614 1.5993508300413277,43.44694299331731</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

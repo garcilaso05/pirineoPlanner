@@ -1,0 +1,375 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Boucle des Deux Églises</name>
+    <Placemark>
+      <name>Route Marquis</name>
+      <description>name: Route Marquis
+width: 3.4
+oneway: no
+highway: unclassified
+surface: asphalt
+sidewalk: no
+source:width: ARCore
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08821959146612808,44.536082311593596 -0.08817889778375748,44.536071682162174 -0.08810784104478361,44.53605330476714 -0.08797282425758045,44.53600572841785 -0.08784723978086054,44.53589936984364 -0.08780609694084787,44.535660270449256 -0.08787041631519082,44.535119571787135 -0.08781292413700718,44.535017693966466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Marquis</name>
+      <description>foot: yes
+name: Route Marquis
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+width: 3
+bridge: yes
+oneway: no
+highway: unclassified
+surface: asphalt
+sidewalk: no
+maxweight: 10
+source:width: ARCore
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban
+maxweightrating: 10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08781292413700718,44.535017693966466 -0.08777285927533544,44.5349416856963</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Marquis</name>
+      <description>name: Route Marquis
+width: 2.7
+oneway: no
+highway: unclassified
+surface: asphalt
+source:width: ARCore
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:rural</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08777285927533544,44.5349416856963 -0.08758870464209094,44.53460717128778 -0.0874921357490481,44.53443082046045 -0.08711053141635411,44.532906714679044 -0.08694380409962153,44.53262168883125 -0.08669263514618172,44.53234152838753 -0.08648494465249328,44.53188007718494 -0.08607953496477014,44.530586380589796 -0.08598727798509107,44.530357569662556 -0.08551925572206479,44.52972902340444 -0.08530752280959782,44.529520701889716 -0.08525290524032335,44.52924059056911</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Marquis</name>
+      <description>name: Route Marquis
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08525290524032335,44.52924059056911 -0.08519819783952047,44.52899121735459 -0.08498296149744544,44.528731596545924 -0.08479862720114412,44.52845487560876 -0.0843407559008284,44.52748823121959 -0.08404359320484166,44.52706798502926 -0.08371570812613803,44.526729774943924 -0.08330239326391464,44.52599538926797 -0.08304278014680411,44.525459083981005 -0.08293282635602789,44.52492751308508 -0.08279996552550659,44.523963692231035 -0.08265515710170651,44.523564491907855 -0.08262506353968853,44.5235397699625 -0.08239222021804475,44.523349295347785 -0.08078333754418668,44.52250547378572 -0.08054070258594599,44.52229988049463 -0.08031845938465483,44.521773276550185 -0.07956971359534121,44.52043509699641 -0.07944754271670094,44.52040467327775 -0.07875548062181527,44.52023250675583 -0.07776832195609633,44.519982390422314 -0.077277392653325,44.51976359379403 -0.07717902712971393,44.51970248943667</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Moustié</name>
+      <description>name: Route Moustié
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.07717902712971393,44.51970248943667 -0.0771051856133593,44.519754370498916 -0.07616545799464187,44.52163422720761 -0.0749601883779387,44.52286100115733 -0.0748203206882013,44.52314082292218 -0.07511092568261396,44.5243461739149 -0.07501399746345748,44.524539911585954 -0.07472348230057321,44.52481972528662 -0.07469123278187333,44.524991878252884 -0.0754336903641981,44.526046496201474 -0.07545533976254538,44.52617567229843 -0.0754336903641981,44.52630478406546 -0.07477729138609196,44.52739171959982 -0.0744934237563102,44.52821203125011 -0.07560589740416382,44.529102903898035 -0.07571351557520133,44.529232009176795 -0.07569195600838247,44.52943648932293 -0.07457283482742637,44.53117988876312 -0.07380872784675431,44.532535879832814 -0.07341050468130413,44.53375512418472</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route la Tour</name>
+      <description>ref: D 116
+name: Route la Tour
+highway: tertiary
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.07341050468130413,44.53375512418472 -0.07361136797883323,44.53385770860096 -0.07457337381659683,44.53420529041069</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Noyers</name>
+      <description>name: Route des Noyers
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.07457337381659683,44.53420529041069 -0.07453016485143069,44.53431229242564 -0.07396413639090697,44.53496800365112 -0.07364900738923785,44.53537602648004 -0.07516689072481461,44.53725582730964 -0.07529561930502894,44.53767760076603 -0.07583586611689842,44.539562001404995 -0.07590898898102574,44.540520377898794 -0.07591536701954299,44.54063959760201 -0.07579319614090274,44.54096050356012 -0.07569087803004153,44.54136912466818 -0.0757101918086501,44.54148309243816</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Noyers</name>
+      <description>name: Route des Noyers
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.0757101918086501,44.54148309243816 -0.07594761653824289,44.54301119940815 -0.07627720841598633,44.54425673026015 -0.07637368747750076,44.5445717901537 -0.07640189457742212,44.5456250292099 -0.07640378103951878,44.54565601595576</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route la Croix / Route de La Croix</name>
+      <description>ref: D 224E1
+name: Route la Croix / Route de La Croix
+highway: unclassified
+name:left: Route la Croix
+name:right: Route de La Croix
+ref:FR:FANTOIR: 333310015;333460011</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.07640378103951878,44.54565601595576 -0.07640261322964943,44.54571248349565 -0.07639973862074025,44.5466890047472 -0.07656934054638201,44.54725251529304</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Montphélix</name>
+      <description>name: Rue Montphélix
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.07656934054638201,44.54725251529304 -0.07711560607065507,44.5472436164527 -0.07767256154680918,44.5472461772702 -0.07804742851487227,44.54725962156025 -0.07854572400297337,44.54728830270199 -0.07894286919008259,44.547308725202775 -0.07933462448548713,44.547315575381695 -0.07944763254822935,44.54730520408246 -0.0795118620910439,44.54729931420801 -0.07991260053928963,44.54719041544355 -0.08007438712195955,44.54718087638863 -0.08027381311503409,44.5471849096805 -0.08061077117810732,44.54722620289068 -0.08087882845888858,44.547270120908415 -0.08158508393526334,44.54719131173051</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Saint-Martin</name>
+      <description>name: Route Saint-Martin
+highway: unclassified
+ref:FR:FANTOIR: 333310033</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08158508393526334,44.54719131173051 -0.0815667583034673,44.547451426426846 -0.08153998850800055,44.5477591067452 -0.08153998850800055,44.547875686815495 -0.08158292797858147,44.548084070708704 -0.08162847256348632,44.5482407902696 -0.08164464223860048,44.548365115699546 -0.08163916251536735,44.54882771664051 -0.08164733718445284,44.549825375460266 -0.08166072208218621,44.54996307715375 -0.08166718995223188,44.550011602359085</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-Martin / Route Saint-Martin</name>
+      <description>name: Route de Saint-Martin / Route Saint-Martin
+highway: unclassified
+name:left: Route de Saint-Martin
+name:right: Route Saint-Martin</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08166718995223188,44.550011602359085 -0.08173312629408624,44.55050018106398 -0.08175729097522907,44.550760088923916 -0.08173582123993862,44.550939783162256 -0.0816741069799196,44.551358384724395 -0.08163934217842417,44.551520280743844</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-Martin</name>
+      <description>name: Route de Saint-Martin
+highway: unclassified
+ref:FR:FANTOIR: 333460019</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08163934217842417,44.551520280743844 -0.08162847256348632,44.55157059708995 -0.08155067845988158,44.551870701823276 -0.08147647761741329,44.55210019639961 -0.08146461985566293,44.55213706908398</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Côte du Paradis</name>
+      <description>ref: D 224
+name: Côte du Paradis
+highway: tertiary
+ref:FR:FANTOIR: 333460028</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08146461985566293,44.55213706908398 -0.08229277671609272,44.55219218602175 -0.08287317822116233,44.552192314051744</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Côte du Paradis / Route Côte du Paradis</name>
+      <description>ref: D 224
+name: Côte du Paradis / Route Côte du Paradis
+highway: tertiary
+name:left: Côte du Paradis
+name:right: Route Côte du Paradis
+ref:FR:FANTOIR: 333460028;333310007</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08287317822116233,44.552192314051744 -0.08388369308426838,44.55222208101726 -0.08451457990830552,44.55230990948056 -0.0867135658923017,44.552611098648725</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Côte du Paradis / Côte du Paradis</name>
+      <description>ref: D 224
+name: Route Côte du Paradis / Côte du Paradis
+highway: tertiary
+name:left: Route Côte du Paradis
+name:right: Côte du Paradis
+ref:FR:FANTOIR: 333310007;333460028</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.0867135658923017,44.552611098648725 -0.08697416715622477,44.55263587226864 -0.0872644128245238,44.55264637064702</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Côte du Paradis / Côte du Paradis</name>
+      <description>ref: D 224
+name: Route Côte du Paradis / Côte du Paradis
+layer: 1
+bridge: yes
+highway: tertiary
+name:left: Route Côte du Paradis
+name:right: Côte du Paradis
+ref:FR:FANTOIR: 333310007;333460028</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.0872644128245238,44.55264637064702 -0.08754594483456685,44.552658981501466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Côte du Paradis / Côte du Paradis</name>
+      <description>ref: D 224
+name: Route Côte du Paradis / Côte du Paradis
+highway: tertiary
+name:left: Route Côte du Paradis
+name:right: Côte du Paradis
+ref:FR:FANTOIR: 333310007;333460028</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08754594483456685,44.552658981501466 -0.08772012816815762,44.55266301441374 -0.08791632022620932,44.55267741766956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Côte du Paradis / Côte du Paradis</name>
+      <description>ref: D 224
+name: Route Côte du Paradis / Côte du Paradis
+layer: 1
+bridge: yes
+highway: tertiary
+name:left: Route Côte du Paradis
+name:right: Côte du Paradis
+ref:FR:FANTOIR: 333310007;333460028</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08791632022620932,44.55267741766956 -0.08815536192331354,44.552684715317824</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Côte du Paradis / Côte du Paradis</name>
+      <description>ref: D 224
+name: Route Côte du Paradis / Côte du Paradis
+highway: tertiary
+surface: asphalt
+name:left: Route Côte du Paradis
+name:right: Côte du Paradis
+ref:FR:FANTOIR: 333310007;333460028</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08815536192331354,44.552684715317824 -0.08875372973406555,44.55270481585302 -0.08893671655744068,44.55268810808379 -0.08902969218934706,44.55266211821103</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Canal</name>
+      <description>ref: D 226E1
+name: Route du Canal
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08902969218934706,44.55266211821103 -0.08905520434341606,44.55269386938408 -0.0890855674000193,44.55276460530204 -0.0890968861725992,44.552878486748604 -0.08913479507758905,44.55324842387291</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Hournas</name>
+      <description>name: Chemin du Hournas
+highway: service
+ref:FR:FANTOIR: 330310012</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.08913479507758905,44.55324842387291 -0.08973127642624441,44.553259114182254 -0.09115528581463068,44.55368141183746 -0.09173559748817188,44.55379868419123 -0.09191669784945039,44.55381340723205 -0.09267397763396314,44.55378837806044 -0.09292909917465308,44.55371008981479</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin rural de Bédoura à Hournas</name>
+      <description>ref: Chemin rural nº 13
+name: Chemin rural de Bédoura à Hournas
+highway: track
+alt_name: Chemin rural de la Côte de l'Abbé</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.09292909917465308,44.55371008981479 -0.09291706174984588,44.553608372550094 -0.09291975669569824,44.55343207927377 -0.09297006235160893,44.55308230773577 -0.09313301674414821,44.552642209704594 -0.09321206848915073,44.55253037626367 -0.09345757805630059,44.55232021587318 -0.09381555669702223,44.55202100967037 -0.09410131078890063,44.55184042255497 -0.09429435874345792,44.55174203082805 -0.09441778726349595,44.55170182908566 -0.09472761620498878,44.55163486879702 -0.09518360104320785,44.55156041859596 -0.09523453551981742,44.5515268743642</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Haut Bédoura</name>
+      <description>name: Chemin Haut Bédoura
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.09523453551981742,44.5515268743642 -0.09521576073037934,44.55133700340544 -0.09518449935849196,44.5500993701409 -0.09518234340181007,44.55001057808076</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Castillon</name>
+      <description>ref: D 224
+name: Route de Castillon
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.09518234340181007,44.55001057808076 -0.09530101085084228,44.550005200619275 -0.09653098413785872,44.550074083302675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Gassion</name>
+      <description>name: Route Gassion
+highway: unclassified
+old_name: Route Chicot</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.09653098413785872,44.550074083302675 -0.09653412824135313,44.55005398185888 -0.09653547571427931,44.550044571307964 -0.09654409954100686,44.54998868412731 -0.09677254111775845,44.549333590183814 -0.0968810576040801,44.549081614238005 -0.09707329707488167,44.548863182987695 -0.09735743419924868,44.5485455855602 -0.09742139424747798,44.548454294384555 -0.09761363371827955,44.54812677170932 -0.09792283383907349,44.54742408979055 -0.09826257667952751,44.54665596987654 -0.09865864388829579,44.54600007016186</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Gassion / Route Chicot</name>
+      <description>name: Route Gassion / Route Chicot
+highway: unclassified
+name:left: Route Gassion
+name:right: Route Chicot
+ref:FR:FANTOIR: 333310014;331060028</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.09865864388829579,44.54600007016186 -0.09867759834079072,44.54596517826674 -0.09870337998944496,44.54591492109663 -0.09905911284195627,44.54522079151429 -0.09926518636813329,44.54468088588684 -0.09932097174727712,44.54425007179247 -0.09936831296275023,44.543912601726184 -0.09929033919608865,44.5437001693664 -0.09917885826932943,44.54355329735398 -0.0989727847431524,44.543376717521575 -0.09886202246862047,44.5433400953863 -0.0988224067645908,44.54332697031472 -0.09840046807563985,44.54321191773141 -0.09819098095138318,44.543124331639085 -0.09809504087903921,44.54307291956592</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Gassion / Route Chicot</name>
+      <description>name: Route Gassion / Route Chicot
+highway: unclassified
+name:left: Route Gassion
+name:right: Route Chicot
+ref:FR:FANTOIR: 333310014;331060028</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.09809504087903921,44.54307291956592 -0.09813663287669395,44.5430193305945 -0.09816205519923453,44.54296330861823 -0.09924614208410998,44.54190278643162 -0.09962657860693458,44.54114182873043 -0.09998419792154256,44.540495022871355 -0.10043461320500009,44.53995737844011</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.10043461320500009,44.53995737844011 -0.10042464190534636,44.539892517581855 -0.10034657830715639,44.53984059042606</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Peyran</name>
+      <description>ref: D 225
+name: Route Peyran
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.10034657830715639,44.53984059042606 -0.09938295550188138,44.53969601371137 -0.09882752716171027,44.53964267774679 -0.09853422722144525,44.53967571659735 -0.09759476909731306,44.5399091009671 -0.09678772264606009,44.540087804251286 -0.09563662144098932,44.54035992392789 -0.09557823094752153,44.54037317772437 -0.09494662547125711,44.54047222894838 -0.09435167125858476,44.54049022078158 -0.0933448394881436,44.54051487150489 -0.09231177691140614,44.5404660182431</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Mauriac</name>
+      <description>name: Route Mauriac
+width: 2.8
+oneway: no
+highway: unclassified
+surface: asphalt
+source:width: ARCore
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.09231177691140614,44.5404660182431 -0.092244582928154,44.540151192242526 -0.09216391421564007,44.539981709246895 -0.09200518190493615,44.53986063136838 -0.09192729796980299,44.539716823048046 -0.09186073280724973,44.53937061874705 -0.09181887131500975,44.53926970880192 -0.09173901108625154,44.53922789771376 -0.09159249586341164,44.539218421383325 -0.09120253719857536,44.53924121579717 -0.09108449857024205,44.53919357802325 -0.09104084044743385,44.539092795830086 -0.09102556908760381,44.538931121362964 -0.09101218418987043,44.538565831458484 -0.09098936698165379,44.538428871164776 -0.09094570885884559,44.53832610271039 -0.09084294159034231,44.53824427199831 -0.09072310633144076,44.53819490458821 -0.09019229183005455,44.53803508451438 -0.0900762294953463,44.53798181105894 -0.0899792114446614,44.537901900784405 -0.08976810735289331,44.53768118649964 -0.08960057155240503,44.53756708322542 -0.0894675310588269,44.537517587178904 -0.08918213629306214,44.53745291569639 -0.08904316691860885,44.53736922684953 -0.0889766017560556,44.53727407626237 -0.08894623869945237,44.53713711293021 -0.08880349640080576,44.53643513077634 -0.0887465432117926,44.53632858088911 -0.08867611529351761,44.53625628821639 -0.0884174004916912,44.5361428865091 -0.08821959146612808,44.536082311593596</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

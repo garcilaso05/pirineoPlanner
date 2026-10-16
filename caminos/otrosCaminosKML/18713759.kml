@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Montée de la Calade</name>
+      <description>ref: D 256
+name: Montée de la Calade
+source: SiiG
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.598056875327789,44.26397458892313 4.598073494160545,44.26416250008074 4.59808112984046,44.26435529977801 4.598147874666069,44.26459557479197 4.598201414257003,44.26476662941766</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

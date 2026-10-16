@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>service</name>
+      <description>bicycle: yes
+highway: service
+surface: asphalt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4344954226977924,43.49829852603103 1.4344788936965647,43.49824698181919 1.4344947040455653,43.498200324820864 1.4345440215546634,43.49811470001226 1.4346042985102279,43.49803200744484 1.4346565804597635,43.497979420386805 1.4347272778726237,43.49791647224967 1.4348631031435828,43.49779559339653</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+bicycle: yes
+highway: footway
+incline: down
+surface: gravel
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4348631031435828,43.49779559339653 1.4351440063329268,43.497221106008155 1.4352405752259698,43.49696422705228</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse Izard</name>
+      <description>name: Impasse Izard
+bicycle: yes
+highway: service
+surface: asphalt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4352405752259698,43.49696422705228 1.4353966125908213,43.49614431841693 1.435402721134753,43.49563732753567 1.435379993758065,43.49510407019435 1.4352835146965506,43.49473828799492 1.435205900256003,43.49462359367243</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

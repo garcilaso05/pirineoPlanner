@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4344661376195302,43.57435350799275 1.4344214015183812,43.57435630648377 1.4343187240814064,43.57433971077926 1.4340866892435182,43.57443830872131 1.434001618786112,43.5744720207199</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>foot: yes
+bicycle: dismount
+highway: service
+surface: concrete
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.434001618786112,43.5744720207199 1.4338012944777534,43.574557472091264</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4338012944777534,43.574557472091264 1.433436129314759,43.57473208407473 1.4334024424916045,43.57475232419363 1.4333109939956812,43.57479547272021 1.4330697065103664,43.5749447026047 1.4328350665581544,43.57511462767922 1.4326750766060528,43.57523047061869</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4326750766060528,43.57523047061869 1.4322720923695966,43.57546170026917 1.4321719302154174,43.5755191007935 1.4317875411053425,43.575746424554836 1.4315320602385393,43.575897279070766 1.431346198806255,43.57600029986253 1.4311447965195552,43.57611191094466 1.4309207566876956,43.576242524933754 1.4306189227522315,43.576418303452456 1.4304883975414489,43.57655158500834 1.430345565411274,43.57670738348437 1.4302164775049462,43.57697967191652 1.4301670701643194,43.57715850695683 1.4301352698032617,43.57731677682603 1.4299889342434786,43.57794939660174 1.4299727645683644,43.57822141910952 1.4299392574082668,43.57840207261265 1.4298722430880713,43.57861389726546 1.4297474670951074,43.57929980055173 1.4296563779252975,43.57968901790743 1.4296134384547166,43.579788583220434 1.4296241284065978,43.57988229159991 1.4296070604161994,43.58000678035347 1.4297999287077,43.580105694391285</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+bicycle: yes
+highway: path
+surface: concrete
+segregated: no
+smoothness: good
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4297999287077,43.580105694391285 1.4297977727510178,43.580177081592616</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: sand
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4297977727510178,43.580177081592616 1.429830920585002,43.58023773136353</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+bicycle: yes
+highway: footway
+surface: sand
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.429830920585002,43.58023773136353 1.4301291612593297,43.580295517783696</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: sand
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4301291612593297,43.580295517783696 1.430187012763627,43.58031432438821 1.4302208792498383,43.580342827120184 1.430245043930981,43.58039228388337</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.348136871005775,43.56329402730715 1.3481995734126067,43.56334187074544 1.3482656894175178,43.56340702889077</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: yes
+highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3482656894175178,43.56340702889077 1.3491215143886983,43.56454217532081 1.3493180657728636,43.56480299756087 1.3493416016333075,43.56486027806131</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

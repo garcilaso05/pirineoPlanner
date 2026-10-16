@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+horse: yes
+bicycle: yes
+highway: footway
+surface: gravel
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2885854846963383,43.622541930540976 1.2885312264531776,43.62252300707362 1.2883433887272684,43.62252352730648 1.2876554588826894,43.6225641704847 1.2872524746462335,43.62259818067511</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>horse: yes
+bicycle: yes
+highway: footway
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2872524746462335,43.62259818067511 1.2871291359577237,43.62257977745782</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>horse: yes
+bicycle: yes
+highway: footway
+surface: unpaved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2871291359577237,43.62257977745782 1.287059336860148,43.622574900279155 1.2869050961258643,43.62257346964001 1.2868326919139643,43.62257346964001 1.2867777150185762,43.62258120809683 1.2866697375214253,43.62262198129406 1.2865584362577225,43.62266672122986 1.286394763212956,43.62269630939585</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>horse: yes
+bicycle: yes
+highway: footway
+surface: unpaved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.286394763212956,43.62269630939585 1.286148085835937,43.62268460418907 1.2861107159201175,43.62267237874843 1.2860649018406274,43.62265742208896 1.2859341969667881,43.62258680059442</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: gravel
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2859341969667881,43.62258680059442 1.2858114870989774,43.62249959659027 1.2857659425140726,43.62246148950625</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

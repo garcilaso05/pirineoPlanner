@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Boucle du Bourg</name>
+    <Placemark>
+      <name>Rue de la Mairie</name>
+      <description>name: Rue de la Mairie
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.096283221656401,45.065818624748616 1.0959113191287753,45.065501513405266</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Écoles</name>
+      <description>name: Rue des Écoles
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential
+surface: gravel
+maxwidth: 2.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0959113191287753,45.065501513405266 1.09580980950167,45.06555468265681 1.0956688638335914,45.0656997875105 1.0955130959633252,45.06589971056 1.09540422015089,45.0660394849711 1.095341697407115,45.06611980910355 1.0950810063116638,45.06640240195526</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Écoles</name>
+      <description>name: Rue des Écoles
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0950810063116638,45.06640240195526 1.0944854232782923,45.06682660584517 1.0942499748423247,45.06700577806514 1.0941905962020444,45.067106530469054 1.0940764203294329,45.06710970277108 1.093954608776906,45.06720582343896 1.093725807874041,45.06738708817944</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Passadour</name>
+      <description>name: Chemin du Passadour
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.093725807874041,45.06738708817944 1.0934199315197983,45.06733150969218 1.0930924057672085,45.067274979463065 1.0928159043227563,45.06728532113654 1.0923646805555431,45.0673110166975 1.0918261405427134,45.067274979463065 1.09121483699187,45.06719269012951 1.0909527984234924,45.06728011857711 1.0904360874720667,45.06762957724843 1.090181415089019,45.06769638528058 1.0897592967370113,45.067660475179935 1.0893154391551276,45.067454911625475 1.0887114119580859,45.0670642119432 1.0881728719452564,45.06686378539593 1.087781655639022,45.06683180844588 1.0872379053975447,45.06685179404175 1.0867939579841328,45.06686600601679</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Château d'Auberoche</name>
+      <description>name: Chemin du Château d'Auberoche
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: track
+service: driveway
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0867939579841328,45.06686600601679 1.0871228312096488,45.06616308003492 1.0872527275997326,45.06571977350217 1.0873165079849052,45.06395863185546 1.0879431727271067,45.06241976954417 1.0883663690574557,45.06161640769868</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Château d'Auberoche</name>
+      <description>name: Chemin du Château d'Auberoche
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: service
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0883663690574557,45.06161640769868 1.0886391874092425,45.06116221550742 1.088877420622591,45.06088879742896 1.0892733081683026,45.06061880451817</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0892733081683026,45.06061880451817 1.0893597260986347,45.06059881674317 1.090560863465031,45.06015622850663 1.0909830716485671,45.06011847350922 1.0913311688211633,45.060161431714405 1.0915326609393916,45.06029328845576 1.0915926684003707,45.06047489238229 1.091699567919181,45.06085009112051 1.091804670807423,45.06110758275849 1.091934207871393,45.06122370108228 1.0921102776670804,45.06134622786658 1.0923344971619966,45.061412028004355 1.0928038668979492,45.06152992237233 1.0930119167177512,45.06158208008297 1.0933456408458015,45.061703273606426 1.0936684055273858,45.06197713195201 1.0938674721943467,45.062247118448354 1.0939555070921902,45.06233582348663</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Croix du Couderc</name>
+      <description>name: Chemin de la Croix du Couderc
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0939555070921902,45.06233582348663 1.0940270129888061,45.062608282879495 1.094144332964912,45.06275498148386 1.0942845599807633,45.06285142672801 1.0945460595599705,45.06296811256577 1.0946882628694468,45.063078072411315 1.0948114218948994,45.06323428736201 1.0949170637723118,45.06354106893314 1.0952976799581933,45.06411141813433 1.095485158357989,45.06441971777518 1.095534206372502,45.06454052458997</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Croix du Couderc</name>
+      <description>name: Chemin de la Croix du Couderc
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.095534206372502,45.06454052458997 1.0956534128107047,45.06475859801004 1.0957604919925716,45.06489799452034 1.0957914838698737,45.064992278904015</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Croix du Couderc</name>
+      <description>name: Chemin de la Croix du Couderc
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0957914838698737,45.064992278904015 1.0957597733403444,45.065037898277446 1.095719798310201,45.06514258793974 1.095731117082781,45.06524588155196 1.0957775599829698,45.065338071577735 1.0959113191287753,45.065501513405266</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Mairie</name>
+      <description>name: Rue de la Mairie
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.0959113191287753,45.065501513405266 1.096283221656401,45.065818624748616</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

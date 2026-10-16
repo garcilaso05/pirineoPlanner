@@ -1,0 +1,871 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Catalunya E32</name>
+    <Placemark>
+      <name>GR-192</name>
+      <description>name: GR-192
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5904081983455439,40.70819496966869 0.5903755895007303,40.70815288633546 0.5901560412452914,40.70785939179944 0.5901298104389952,40.707791295434525</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: TV-3405
+lanes: 2
+noname: yes
+oneway: no
+highway: tertiary
+surface: asphalt
+maxheight: default
+cycleway:both: no
+check_date:cycleway: 2025-12-10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5901298104389952,40.707791295434525 0.5904010118232709,40.70770242957356</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary_link</name>
+      <description>lanes: 1
+oneway: yes
+highway: tertiary_link
+surface: asphalt
+cycleway:right: no
+check_date:cycleway: 2025-12-10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5904010118232709,40.70770242957356 0.5905009044828649,40.707607366804815 0.5905613611014863,40.70750971622629 0.5905851664565154,40.70738067287814 0.5905982818596636,40.707305289656155</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>noname: yes
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5905982818596636,40.707305289656155 0.5905725002110093,40.7072679725463 0.5905291115827863,40.707205187142755</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>layer: 1
+bridge: yes
+noname: yes
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5905291115827863,40.707205187142755 0.5903804404032647,40.70700069154058</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>noname: yes
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5903804404032647,40.70700069154058 0.5903455857702407,40.70695411303391</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera vella de Sant Jaume d'Enveja</name>
+      <description>name: Carretera vella de Sant Jaume d'Enveja
+oneway: no
+highway: unclassified
+name:ca: Carretera vella de Sant Jaume d'Enveja
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5903455857702407,40.70695411303391 0.5904609294527217,40.7068975922876</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera vella de Sant Jaume d'Enveja</name>
+      <description>name: Carretera vella de Sant Jaume d'Enveja
+oneway: no
+highway: unclassified
+name:ca: Carretera vella de Sant Jaume d'Enveja
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5904609294527217,40.7068975922876 0.5907395868538555,40.706760920838974 0.5908824189840305,40.7066879884265 0.591007015313938,40.70661022100421 0.5912200956993311,40.7064619723478 0.5912613283708722,40.70643330318507</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: TV-3408
+lanes: 2
+noname: yes
+oneway: no
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5912613283708722,40.70643330318507 0.5911686222335509,40.70636370720902 0.5910943315595544,40.70630691356998</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: TV-3408
+lanes: 2
+noname: yes
+oneway: no
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5910943315595544,40.70630691356998 0.5909857252417041,40.70620980586871 0.5908487321608761,40.70608137288502 0.5907239561679118,40.70594190773148 0.5896185792108027,40.70436078284707 0.5895573141084258,40.704280697307674</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera vella de Sant Jaume d'Enveja</name>
+      <description>name: Carretera vella de Sant Jaume d'Enveja
+highway: unclassified
+name:ca: Carretera vella de Sant Jaume d'Enveja
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5895573141084258,40.704280697307674 0.5896318742770077,40.70404370892293 0.5896635848065371,40.70398670900458 0.5896826290905605,40.70395429325866</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera vella de Sant Jaume d'Enveja</name>
+      <description>name: Carretera vella de Sant Jaume d'Enveja
+highway: unclassified
+name:ca: Carretera vella de Sant Jaume d'Enveja
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5896826290905605,40.70395429325866 0.5897608723518073,40.703820680290626 0.5898157594156671,40.7037491747695 0.5898574412448502,40.70367371933633</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Vigos</name>
+      <description>name: Camí de Vigos
+highway: unclassified
+name:ca: Camí de Vigos</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5898574412448502,40.70367371933633 0.5898118068284169,40.70364171204192 0.5897634774661312,40.70357878701829 0.5897359890184372,40.70351232069501 0.5897187413649821,40.70344272166654 0.589859597201532,40.702618219618216 0.5904795245791029,40.701148568951254 0.5908846647722408,40.70026247242832 0.591003332221273,40.69998358556397 0.5910647769867068,40.69985350606554 0.5911443677208797,40.69972172369686 0.5916903637505676,40.69922898472687 0.592289899371189,40.69868802328866 0.5929554611651932,40.698128532552 0.5930349620678377,40.6980617202583 0.593943697809253,40.69739229960225 0.5950801564751926,40.6966591233662 0.5958048274148919,40.696185432060126 0.5961819401711652,40.69597790585036 0.5962554223614063,40.6959213757895 0.5963178552736526,40.69585149639496 0.5963665439620518,40.695701725398955 0.5969344588846722,40.693969492773924 0.5976794317497924,40.69157590948772 0.5984495574428682,40.6891336057843 0.5987692678524862,40.688152327031 0.5987849883699584,40.688122219541036 0.598862512978978,40.687974202203684 0.5990951766375648,40.68716442643218 0.5992956806089803,40.686113501548924 0.5995773922820802,40.68463313252568 0.599683303654078,40.684244506366255 0.5999481269998362,40.683610710481794 0.6000197227279807,40.68340873105577</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6000197227279807,40.68340873105577 0.5999712137026382,40.68340266825747</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+bridge: yes
+noname: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5999712137026382,40.68340266825747 0.5999063553391248,40.6833946980611</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5999063553391248,40.6833946980611 0.5998836279624365,40.68339190508609 0.59987042272776,40.68339020205248</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+bridge: yes
+noname: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.59987042272776,40.68339020205248 0.5998070016687013,40.68338229997598</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5998070016687013,40.68338229997598 0.5998005337986555,40.683381482519735 0.5997741233293025,40.683378212694656</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+bridge: yes
+noname: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5997741233293025,40.683378212694656 0.5996973173725102,40.68336867570395</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified
+mtb:scale: 0</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5996973173725102,40.68336867570395 0.599601107805581,40.68335682258502 0.5988559552774038,40.683260022034865 0.5974811735665874,40.683061788238675 0.5961719688715115,40.682873090915876 0.595865284033513,40.68282887980525 0.5936999848726714,40.68254671822037 0.5932402271102589,40.68250809291771</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5932402271102589,40.68250809291771 0.5932190268695537,40.68243881255685 0.5932514560513105,40.68220637880443 0.5933184703715059,40.681883681480194 0.5933867423330988,40.68153107649575 0.593450882044385,40.68120469722903 0.5935334372189957,40.68079030021139 0.5935841920325484,40.68054498522785 0.5936228195897655,40.6803624801043 0.5940884164015247,40.6781556204817 0.5945090974490778,40.675760106599505</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5945090974490778,40.675760106599505 0.5943227868591515,40.675696678337346</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5943227868591515,40.675696678337346 0.5942085211550115,40.675660910493725</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5942085211550115,40.675660910493725 0.5937941283144471,40.67555967035995 0.5937374446200192,40.675523629925294 0.5936910915513586,40.67547362293832 0.5937720297584577,40.67480547421544 0.5937801145960149,40.674702120745756 0.5937427446801955,40.67459379360162 0.5935805987714118,40.67419502556024 0.5934784603236075,40.67392679428878 0.5934283343307537,40.67379312110087 0.5930930830667204,40.67294917516931</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5930930830667204,40.67294917516931 0.5930549944986736,40.67294311141968</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5930549944986736,40.67294311141968 0.593006485473331,40.67293527623675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.593006485473331,40.67293527623675 0.592967857916114,40.672929076221784 0.5928571854731104,40.67291272453119</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5928571854731104,40.67291272453119 0.5927589097810277,40.67288240576094 0.5926783309000423,40.67284588695421 0.5925952367362611,40.67278027568962 0.5924441401054723,40.672598498764714 0.5923842224760215,40.67252641467452 0.5914992920896354,40.67140951011273 0.5913866433530068,40.67130983059826 0.5912310551457973,40.671271130650915 0.5910991824620886,40.671264521678786 0.5910574108013771,40.671272629592956 0.5909977626665115,40.6712641810101 0.5909548231959305,40.67124667063739 0.5908984988276164,40.67118160286973</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5908984988276164,40.67118160286973 0.5908797240381781,40.67110018290349 0.5908931089359115,40.67074827035779 0.5908756816193996,40.67072237933238</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5908756816193996,40.67072237933238 0.590846127046552,40.67067829643179</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.590846127046552,40.67067829643179 0.5908222318599945,40.67064273029909</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Inglès</name>
+      <description>name: Camí de l'Inglès
+highway: unclassified
+name:ca: Camí de l'Inglès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5908222318599945,40.67064273029909 0.5908445999105691,40.67063871037104 0.5909626385389024,40.67058849531695 0.5912108430519045,40.67045992552848 0.5914258997309229,40.67034852543184 0.59164158523064,40.67025879200765 0.592311279274951,40.67004089667545 0.594762512190728,40.66923287897003 0.596238174707951,40.668747205129684 0.5962779700750376,40.668734122957126</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Inglès</name>
+      <description>name: Camí de l'Inglès
+layer: 1
+bridge: yes
+highway: unclassified
+name:ca: Camí de l'Inglès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5962779700750376,40.668734122957126 0.5963487573194263,40.66871082033088</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Inglès</name>
+      <description>name: Camí de l'Inglès
+highway: unclassified
+name:ca: Camí de l'Inglès
+surface: compacted
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5963487573194263,40.66871082033088 0.5964783842149247,40.66866809882829 0.5981240079839032,40.668125185865975 0.5983846092478262,40.668023184782314 0.5988665553977565,40.667620016647454 0.5994716605731394,40.66725439003233 0.5997017191174024,40.66709338013615 0.6002514880712835,40.66670839933325 0.6019582871111107,40.665640321487935 0.6023890292898458,40.665370829287696 0.6028854383158503,40.665027131460434</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Vigos</name>
+      <description>name: Camí de Vigos
+highway: unclassified
+name:ca: Camí de Vigos
+surface: compacted
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6028854383158503,40.665027131460434 0.6029156217093966,40.66505057165403</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Vigos</name>
+      <description>name: Camí de Vigos
+layer: 1
+bridge: yes
+highway: unclassified
+name:ca: Camí de Vigos
+surface: asphalt
+smoothness: good
+lane_markings: no
+maxweight:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6029156217093966,40.66505057165403 0.6029610764627733,40.6650860726292</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Vigos</name>
+      <description>name: Camí de Vigos
+highway: unclassified
+name:ca: Camí de Vigos
+surface: asphalt
+smoothness: good
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6029610764627733,40.6650860726292 0.6029812885566659,40.665101812978754 0.6031149578709428,40.6652059990083 0.6035495628053998,40.6655920105769</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Vigos</name>
+      <description>name: Camí de Vigos
+layer: 1
+bridge: yes
+highway: unclassified
+name:ca: Camí de Vigos
+surface: asphalt
+smoothness: good
+lane_markings: no
+maxweight:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6035495628053998,40.6655920105769 0.6035921429498672,40.665629691727716</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Vigos</name>
+      <description>name: Camí de Vigos
+highway: unclassified
+name:ca: Camí de Vigos
+surface: asphalt
+smoothness: good
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6035921429498672,40.665629691727716 0.6036239433109251,40.665657901472265</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6036239433109251,40.665657901472265 0.6046552990886226,40.665128728286476</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6046552990886226,40.665128728286476 0.6050613375970446,40.66490843128388 0.6062277999934739,40.66434620386919 0.6079361261692838,40.66346479672891 0.6106060090252157,40.662106786850046 0.6133582673927009,40.660696891352444 0.6134646279223408,40.66064258013715 0.6136548910995172,40.660545405882495 0.6188502975452225,40.65791742236009 0.6195651768483247,40.657540293732694 0.6218242601248286,40.65639669640221</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6218242601248286,40.65639669640221 0.621981375468021,40.6563898133603</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.621981375468021,40.6563898133603 0.6222611108474958,40.65622536978152 0.6242813320899522,40.655199513472645 0.6250155251716631,40.65481132909357 0.6260228060997463,40.65428956647548 0.6268993821539902,40.653860826662076 0.6270635043563988,40.653795401174065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Través</name>
+      <description>name: Camí del Través
+highway: track
+name:ca: Camí del Través</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6270635043563988,40.653795401174065 0.6272513420823083,40.65365991568865 0.6322659176613202,40.65113252937068</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Través</name>
+      <description>name: Camí del Través
+highway: track
+name:ca: Camí del Través</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6322659176613202,40.65113252937068 0.6385225937836843,40.64801030769457</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Través</name>
+      <description>name: Camí del Través
+layer: 1
+bridge: yes
+highway: track
+name:ca: Camí del Través</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6385225937836843,40.64801030769457 0.6387134857815596,40.647914205561385</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Través</name>
+      <description>name: Camí del Través
+highway: track
+name:ca: Camí del Través</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6387134857815596,40.647914205561385 0.638842214361774,40.64784931950383 0.6391045224247368,40.647690171185886 0.6391786334356767,40.64761560649008 0.6392347781409341,40.64752652406146 0.63928706009047,40.647441803630734 0.6393261368053292,40.64733690827424 0.6393582066609722,40.64698487034635</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Través</name>
+      <description>name: Camí del Través
+layer: 1
+bridge: yes
+highway: track
+name:ca: Camí del Través</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6393582066609722,40.64698487034635 0.6393793170701491,40.646754903037944</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Través</name>
+      <description>name: Camí del Través
+highway: track
+name:ca: Camí del Través</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6393793170701491,40.646754903037944 0.6394118360834342,40.64639897696924 0.6395404748321202,40.64516167267068 0.6395198135805854,40.644803897764454</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6395198135805854,40.644803897764454 0.6392077388508822,40.64479346916631</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+layer: 1
+bridge: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6392077388508822,40.64479346916631 0.6389077913775146,40.64478358585284 0.63870441279719,40.64477220300034</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.63870441279719,40.64477220300034 0.6386359611725402,40.64479360548787 0.6385613111724299,40.644861084623344 0.6384262045536983,40.64478883423328 0.6382696281996763,40.64472196847242 0.6381859950467247,40.644698589296596 0.6381023618937731,40.644684479994105 0.6377972041917577,40.644665326781606 0.6375942747690752,40.644658987816825 0.637357209365596,40.6446724155157 0.6371498781980213,40.64469511309192 0.6368641241061428,40.644734305585224 0.6365781903512076,40.64479196962919 0.6364403887866237,40.64483559251351 0.6362183252483893,40.644880578583106 0.6358849604464526,40.64493019954591 0.6352818315646946,40.64499822382783 0.63467852301988,40.645085469298344 0.634326563091562,40.64515690144242 0.6339319331872483,40.64526207286653 0.6335234692275591,40.64538530657322 0.6331478836072687,40.64549872500485 0.6329567221148081,40.645552775908364 0.6327653809592906,40.64558958229932 0.6324991203090775,40.6456274792288 0.6323543118852776,40.64565433423415 0.6322459750620127,40.64569632071831 0.6321430281304526,40.645762231265984 0.6319397393816565,40.645900118374946 0.6318730843875747,40.64595566846439 0.6318271804765562,40.646016330472435 0.6314942648322615,40.646587913831894 0.631428687816521,40.646673725888334 0.6313296934722109,40.646726685299406 0.630976026744853,40.64687090917105 0.630622539680552,40.647103670574914</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Inglès</name>
+      <description>name: Camí de l'Inglès
+highway: unclassified
+name:ca: Camí de l'Inglès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.630622539680552,40.647103670574914 0.6305992733146933,40.64708158724379</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Inglès</name>
+      <description>name: Camí de l'Inglès
+layer: 1
+bridge: yes
+highway: unclassified
+name:ca: Camí de l'Inglès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6305992733146933,40.64708158724379 0.6305653169969536,40.647049075659645</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Inglès</name>
+      <description>name: Camí de l'Inglès
+highway: unclassified
+name:ca: Camí de l'Inglès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6305653169969536,40.647049075659645 0.6305556151918852,40.647039806106555</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6305556151918852,40.647039806106555 0.6304597649510696,40.64700579501469 0.6303471162144408,40.646965104366984 0.6302998648304963,40.6469663993796 0.6302023077906409,40.64696912572188 0.629349267596841,40.646973215235086 0.628576896115555,40.646900012910756 0.6283806142259748,40.64687840662277 0.627278740698474,40.64675749307132 0.6257873576637786,40.646570328821795 0.6256102997212787,40.64659881926219 0.6247681291424165,40.64684303227499 0.6246394005622022,40.646814473780125 0.6238237302842219,40.646316299883814</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6238237302842219,40.646316299883814 0.6238515780580294,40.64625979586463 0.6243065747494361,40.64569672967744 0.625996126135808,40.643606370508635 0.6263673100112063,40.643181788123705 0.6265102319729096,40.64298398047791 0.6265528121173768,40.642925087943574 0.6283179118191433,40.64079217527253 0.629992371508742,40.63881522862288 0.6301866771046972,40.638577871116375 0.6302497388376423,40.63850097855534 0.6309363212092949,40.637662516689424 0.632384495278824,40.635895986225094 0.6325392750022778,40.63574171764636 0.6334854704910409,40.63503322286147 0.6337951197694769,40.63481228111407 0.6338696799380588,40.63472031841253</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6338696799380588,40.63472031841253 0.6326502169398666,40.634384029708635 0.6305265097766796,40.63382747602212 0.629801120184753,40.63377341562384 0.6265589206613089,40.63349711381265 0.6262481035730035,40.63346991305439 0.6246832383480674,40.633333022854636 0.6221124396679741,40.63311071202688 0.6203132039854111,40.632950574145866 0.6202763730587623,40.63294771088523 0.6190614016369906,40.632852473312994 0.6172160823803521,40.63269628885431 0.616699012102813,40.63264427273568 0.6164483821385437,40.63267031488664 0.6144447797288434,40.632488087789994 0.61159568297373,40.632251866739345 0.6090618050518141,40.63204570950313 0.6080091592018828,40.63194563029786</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+maxspeed: 20
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6080091592018828,40.63194563029786 0.6079679265303417,40.631891568375934 0.6073112580576504,40.63082981880872 0.606876563291665,40.62991810783032 0.6067649925333773,40.629655902547725 0.6066005110048551,40.62926968306319 0.6062926583569872,40.62834376985028 0.6057947221949997,40.62668457979978 0.6055410379587646,40.62595396676967 0.6049441074524671,40.625227504773164 0.6048690082947147,40.62512577900882 0.6048521199673732,40.62509373399735 0.6048319977050088,40.62504409828965 0.6048187924703323,40.624994394364066</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Rabosa</name>
+      <description>name: Camí de la Rabosa
+highway: track
+name:ca: Camí de la Rabosa
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6048187924703323,40.624994394364066 0.6048125042633435,40.62494571311716 0.6048101686436048,40.62491619071904 0.6048203196063153,40.62488087291384 0.6048370282705999,40.62485053231339 0.6048549945762823,40.624830691598675 0.6048789795943684,40.624815691741716 0.6050696919291869,40.6247370787999</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: designated
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6050696919291869,40.6247370787999 0.6050508273082204,40.62471341989991</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+bicycle: designated
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6050508273082204,40.62471341989991 0.6050123794140602,40.624665488442815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: designated
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6050123794140602,40.624665488442815 0.6050039352503894,40.624654920335985</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí Sèquia del Mar</name>
+      <description>name: Camí Sèquia del Mar
+bicycle: designated
+highway: track
+name:ca: Camí Sèquia del Mar
+surface: asphalt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6050039352503894,40.624654920335985 0.6040812756220703,40.623501077556206 0.6040215376556762,40.62332407550585</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de la Ràpita a Poblenou del Delta</name>
+      <description>name: Carretera de la Ràpita a Poblenou del Delta
+lanes: 2
+highway: unclassified
+name:ca: Carretera de la Ràpita a Poblenou del Delta
+surface: asphalt
+name:2021: Carretera de Sant Carles de la Ràpita a Poblenou del Delta
+cycleway:both: no
+check_date:cycleway: 2026-02-02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6040215376556762,40.62332407550585 0.6039731184618622,40.623315211754466 0.6029708680993701,40.623150823044675 0.6028922655120097,40.62313786829712 0.6021569944519578,40.622981592934046 0.6003078124395979,40.622503423507226 0.5994792962530543,40.62232587334336</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de la Ràpita a Poblenou del Delta</name>
+      <description>name: Carretera de la Ràpita a Poblenou del Delta
+lanes: 2
+layer: 1
+bridge: yes
+highway: unclassified
+name:ca: Carretera de la Ràpita a Poblenou del Delta
+surface: asphalt
+name:2021: Carretera de Sant Carles de la Ràpita a Poblenou del Delta
+cycleway:both: no
+maxweight:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5994792962530543,40.62232587334336 0.5993297267582484,40.622293895172284</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary_link</name>
+      <description>lanes: 1
+oneway: yes
+highway: secondary_link
+surface: asphalt
+cycleway:right: no
+check_date:cycleway: 2026-02-02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5993297267582484,40.622293895172284 0.5991670418602943,40.62217130067739 0.5991094598505824,40.62193429310712 0.5990152265772783,40.621830721353064</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: TV-3408
+lanes: 2
+oneway: no
+highway: secondary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5990152265772783,40.621830721353064 0.5987823832556343,40.620790699307186 0.5987802272989525,40.62077678950773 0.5987806764565946,40.62071501359867 0.5988030445071691,40.620636395830466 0.5989049134603882,40.620422702313874 0.5989234187552412,40.62037313132066 0.5989252153858095,40.62032840147955 0.598913986444758,40.62029110386047 0.5989020388514791,40.620268125243825 0.5988796708009045,40.62024037361023 0.5988476009452615,40.62021528121415 0.5988075360835897,40.62019768925694 0.5987433963723036,40.620177301672804</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: TV-3408
+lanes: 2
+layer: 1
+bridge: yes
+oneway: no
+highway: secondary
+surface: asphalt
+cycleway:both: no
+maxweight:signed: no
+check_date:cycleway: 2026-02-02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5987433963723036,40.620177301672804 0.598640539272272,40.620146890749815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: TV-3408
+lanes: 2
+oneway: no
+highway: secondary
+surface: asphalt
+cycleway:both: no
+check_date:cycleway: 2026-02-02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.598640539272272,40.620146890749815 0.5982539942055154,40.62003547482846</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: TV-3408
+lanes: 2
+layer: 1
+bridge: yes
+noname: yes
+highway: secondary
+surface: asphalt
+cycleway:both: no
+maxweight:signed: no
+check_date:cycleway: 2026-02-02</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5982539942055154,40.62003547482846 0.5981366742294094,40.62000192728085</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda dels Alfacs</name>
+      <description>lit: yes
+name: Avinguda dels Alfacs
+oneway: no
+highway: residential
+name:ca: Avinguda dels Alfacs
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5981366742294094,40.62000192728085 0.5980571733267647,40.619977516656355 0.5978684372855712,40.61991642186991 0.5978078908354215,40.61988178328313 0.5977362052757488,40.61982757522249</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda dels Alfacs</name>
+      <description>lit: yes
+name: Avinguda dels Alfacs
+oneway: no
+highway: residential
+name:ca: Avinguda dels Alfacs
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5977362052757488,40.61982757522249 0.5976127767557107,40.61974022855677 0.5975118061177759,40.61966767823393 0.5964668857792879,40.61891810059616 0.5962849769342536,40.618785408181395</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda dels Alfacs</name>
+      <description>lit: yes
+name: Avinguda dels Alfacs
+oneway: no
+highway: residential
+name:ca: Avinguda dels Alfacs
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5962849769342536,40.618785408181395 0.5950989312646308,40.61792419663695</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda dels Alfacs</name>
+      <description>lit: yes
+name: Avinguda dels Alfacs
+oneway: no
+highway: residential
+name:ca: Avinguda dels Alfacs
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5950989312646308,40.61792419663695 0.5949997572572641,40.61785539469737</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda dels Alfacs</name>
+      <description>lit: yes
+name: Avinguda dels Alfacs
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Avinguda dels Alfacs
+surface: asphalt
+sidewalk: both
+smoothness: good
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5949997572572641,40.61785539469737 0.5942043889047045,40.61730027159957 0.5940918299996043,40.61721796761043 0.5931209308405279,40.61651486784213 0.5929863632109669,40.6164159927783</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

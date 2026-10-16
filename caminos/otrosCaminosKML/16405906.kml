@@ -1,0 +1,183 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway
+surface: asphalt
+description: foot est inutile : sidewalk est indiqué sur la voirie ; oneway=yes n'est pas justifié</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.378048164852631,43.654687094161076 1.378079965213689,43.65462742935806</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.378079965213689,43.65462742935806 1.3781034112426045,43.654585897940564</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3781034112426045,43.654585897940564 1.3781487761644524,43.654590577538336 1.378212556549625,43.654569519345486 1.3782708572115643,43.65453741208662 1.3783518852501917,43.65451167427157 1.3784330031203478,43.65447963197631 1.3784816019772186,43.654473392501 1.3785367585356638,43.654429911139474</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: designated
+bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3785367585356638,43.654429911139474 1.378566313108511,43.6544399203047 1.3785867048654608,43.65444778464765</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3785867048654608,43.65444778464765 1.378618595058047,43.654460198608376</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.378618595058047,43.654460198608376 1.3786402444563943,43.65446812794321</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3786402444563943,43.65446812794321 1.378687765334924,43.654485416489294 1.37872872851188,43.65449913033246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: designated
+bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.37872872851188,43.65449913033246 1.3787580135901423,43.654508879508164</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: designated
+bicycle: yes
+footway: sidewalk
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3787580135901423,43.654508879508164 1.3787134571520498,43.65456418980168 1.378726123397556,43.65460299146955 1.3787751714120688,43.65469547842603 1.3788182007141783,43.65473220019286 1.3788321246010824,43.654739219572285</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: designated
+bicycle: designated
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3788321246010824,43.654739219572285 1.3788149667791556,43.65477587631815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+oneway: no
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2025-02-10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3788149667791556,43.65477587631815 1.3788025700282347,43.65481201308827</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+oneway: no
+bicycle: yes
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3788025700282347,43.65481201308827 1.3787899936142571,43.654837295815604</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+oneway: no
+bicycle: yes
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3787899936142571,43.654837295815604 1.378834280557764,43.654846719965725</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+oneway: no
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.378834280557764,43.654846719965725 1.380130010523578,43.65512066961463 1.380639984110373,43.65523187396721 1.3807779653380134,43.655260926151634 1.3811175285154105,43.65533209419503 1.3830275264725056,43.65574668699198 1.3830686693125183,43.65575481113639</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Route de la Gleyzette</name>
+      <description>name: Route de la Gleyzette
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4339740405068897,43.498445013007235 1.4341436424325316,43.49840702286916 1.4344954226977924,43.49829852603103</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

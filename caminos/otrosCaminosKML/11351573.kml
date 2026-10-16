@@ -1,0 +1,222 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Carretera de Castelló d'Empúries a Palau</name>
+      <description>ref: GIV-6103
+name: Carretera de Castelló d'Empúries a Palau
+highway: tertiary
+name:ca: Carretera de Castelló d'Empúries a Palau
+maxspeed: 60</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.122118215986312,42.2874375099636 3.1223153961911763,42.287597667384624 3.1224785302467724,42.28776227689055</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí ral de Roses a Peralada</name>
+      <description>name: Camí ral de Roses a Peralada
+highway: track
+surface: gravel
+tracktype: grade2
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1224785302467724,42.28776227689055 3.1226770579245633,42.287366402596355 3.122775603111231,42.287261402785816 3.1233919372276655,42.28654420952622 3.123804713100718,42.2863350044686 3.1249471904790616,42.285845416728016 3.1259312948728146,42.28541450725309 3.1263102042596564,42.285360078471555 3.1268530561858494,42.28529727597291 3.1276957657538818,42.28513830894521 3.1287421233968242,42.28477431813235 3.1290700983070567,42.28464459148442 3.1299183774298505,42.28457348096468 3.131247524724234,42.284560920313126 3.1318469705133265,42.284619470207176 3.13244075691613,42.28464459148442 3.13281409674821,42.284560920313126 3.133803770696724,42.284268103567925 3.1348219212397455,42.28390397480906 3.135341327137023,42.28370247027303 3.135627979544186,42.28362258604045 3.136805401387081,42.28335189603668 3.1379300022912706,42.28326071318577 3.138167337189335,42.28319957009229 3.139253759693949,42.2825170230532 3.140697981176228,42.2814850803006</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: gravel
+brp_access: 2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.140697981176228,42.2814850803006 3.1418276126460083,42.28048050331983 3.1425776160767196,42.27995398294058 3.143321780458084,42.27942732523393 3.144064058377352,42.27880648292808 3.1445255229388045,42.27848519247288 3.144844963853837,42.27822591240679 3.1451795862971714,42.27783110810389</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified
+surface: asphalt
+brp_access: 3
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1451795862971714,42.27783110810389 3.145503159462512,42.27734530931395</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.145503159462512,42.27734530931395 3.1463454198729024,42.27613062978615 3.146823143940997,42.27566502412112 3.1466853423764127,42.27556060302078</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Escorial</name>
+      <description>name: Carrer de l'Escorial
+highway: residential
+name:ca: Carrer de l'Escorial
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1466853423764127,42.27556060302078 3.1474594206567392,42.274688204826425</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1474594206567392,42.274688204826425 3.147660373785796,42.274632969151384 3.1479037273962645,42.27451518605809 3.1483252169275735,42.273937367728294 3.1491476245701846,42.273497602752855 3.1497212887106234,42.27324189156864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Avet</name>
+      <description>name: Carrer Avet
+highway: residential
+name:ca: Carrer Avet
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1497212887106234,42.27324189156864 3.1499573659672904,42.27299083229501 3.150080435161214,42.27279607288981 3.1503300769786713,42.27240090221319 3.150562560974201,42.27211421081747 3.1507864211430037,42.27194969337156</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí Real</name>
+      <description>name: Camí Real
+highway: track
+surface: gravel
+tracktype: grade1
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1507864211430037,42.27194969337156 3.1512452805901323,42.27149708538239</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí Real</name>
+      <description>name: Camí Real
+highway: track
+surface: gravel
+tracktype: grade2
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1512452805901323,42.27149708538239 3.1517426777629494,42.2712036761465 3.152679710435814,42.270814411581455 3.1534798398593797,42.27068638449322 3.154741074518283,42.27042501166563 3.1551331891398013,42.270169022120925 3.1553372863723532,42.270066586127676 3.1558807671192457,42.26990937547033 3.156617116157639,42.269696326152506 3.1571666156169345,42.26960007149755 3.157273335472688,42.26951651329739</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>highway: tertiary
+surface: asphalt
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.157273335472688,42.26951651329739 3.157537260503162,42.26956151641498</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 2
+highway: track
+tracktype: grade2
+brp_access: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.157537260503162,42.26956151641498 3.157753305328993,42.26946811995341 3.1589778887243045,42.26907512208072 3.1595558647781075,42.26894011158979 3.160045985597123,42.268876096174715 3.161348093601454,42.26880157762939 3.1617448794624496,42.26872732489669</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+tracktype: grade2
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1617448794624496,42.26872732489669 3.1624508654442387,42.268529427974194 3.162929128501504,42.268133698741174 3.163174368574069,42.26799316872994</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: GI-610
+highway: secondary
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.163174368574069,42.26799316872994 3.1632183860229905,42.26790482212445</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Canigó</name>
+      <description>name: Carrer Canigó
+width: 4
+highway: residential
+name:ca: Carrer Canigó
+surface: unpaved
+name:etymology:wikidata: Q6650</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1632183860229905,42.26790482212445 3.1639744979976343,42.26750862363509 3.164656409129809,42.26715131162037 3.1661374615387374,42.26644452587094 3.1661732144870447,42.266324999055094</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1661732144870447,42.266324999055094 3.166254512020258,42.26630831314676 3.167068565330727,42.26607557418003</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.167068565330727,42.26607557418003 3.1672587386763755,42.266025915111896</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1672587386763755,42.266025915111896 3.168231075139906,42.26581198845147</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>highway: pedestrian
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.168231075139906,42.26581198845147 3.1687283824811945,42.26570303049798 3.1689291559471955,42.26566839525794 3.169224971170256,42.26559480361951 3.1702743830851645,42.26533360911618 3.170415328753243,42.26529850832162 3.170575408536873,42.265270720178734 3.1710965212331903,42.26517452524501</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1710965212331903,42.26517452524501 3.1712478873585646,42.26525961821391 3.1721600366980596,42.265027673124614</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

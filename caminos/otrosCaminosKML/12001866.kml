@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de la Source</name>
+      <description>lit: no
+name: Chemin de la Source
+highway: footway
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5089239880905894,43.499580796318575 1.5091650060813186,43.49933298494902 1.5093740440479333,43.49900300262455 1.5094479753958163,43.49893301798983 1.5095699666113997,43.49885997062627 1.5098411679956754,43.49873857235916 1.51011299820065,43.49861697835902 1.510288978164809,43.49852001576541 1.510534038574317,43.49834603007604 1.510614976781416,43.49831201483774 1.5107209779849422,43.49829402976145 1.5109419635448356,43.49829298714817 1.5111079722093406,43.498321984823356 1.5120109587329378,43.4986279909018 1.5124210396601383,43.49874502348093 1.512603038336701,43.49881298828775 1.5127940201661045,43.498925980424296 1.5131079813579045,43.499153006661494 1.513262042429131,43.49929297533987 1.513376308133271,43.49940779111778 1.513501892609991,43.49954182946537</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Al Rival</name>
+      <description>lit: no
+name: Chemin d'Al Rival
+highway: residential
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.513501892609991,43.49954182946537 1.5138712798548208,43.49990888579929</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Charme</name>
+      <description>lit: no
+name: Chemin du Charme
+highway: residential
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5138712798548208,43.49990888579929 1.5143219646328634,43.49982932344944 1.5144436863538617,43.49989428960209 1.5145062989291649,43.49992778265649</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: D 813
+lanes: 2
+highway: primary
+old_ref: N 113
+surface: asphalt
+maxspeed: 50
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5145062989291649,43.49992778265649 1.5146872196273866,43.49977119920949 1.5148031022990378,43.499675085573344</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Canal</name>
+      <description>lit: yes
+name: Chemin du Canal
+highway: residential
+surface: asphalt
+sidewalk: both
+cycleway:both: shared_lane
+lane_markings: no
+cycleway:both:lane: pictogram</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5148031022990378,43.499675085573344 1.5148544859332895,43.4997051903355 1.5149408140320937,43.49975960041948 1.5151867727568855,43.49991468518023 1.5152863060903659,43.49997750091114 1.5158147849720134,43.50035152683553 1.5160718828063284,43.500564603286094 1.5161918977282867,43.50066410386644 1.516395186477083,43.50082778750304 1.5165135844315298,43.500916927131236 1.5168085013393064,43.501153524438884 1.5169142330482472,43.50123758109446 1.5170353259485467,43.50133642896527 1.5170860807620994,43.50137780558034 1.5171329728199303,43.501416119649015 1.5173391361776358,43.50158423211193 1.517460857898634,43.501683470373216 1.517635939547509,43.50183020977516 1.5178273705345546,43.50199441152499 1.5179581652399226,43.50221666961073 1.5180176337117313,43.50233551968495 1.518194242496589,43.50267838519978 1.5182135562751977,43.50270842330585 1.5183290796207354,43.50283489594863 1.5187064618715942,43.50305513103628 1.5188175834722397,43.503120028559735</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Canal</name>
+      <description>name: Chemin du Canal
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5188175834722397,43.503120028559735 1.5195816006213831,43.50356818445296</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: yes
+horse: yes
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5195816006213831,43.50356818445296 1.519777163858736,43.503697913169546 1.5200560907544551,43.50386132795172 1.5203834368439884,43.504040314847074 1.520801782271803,43.504195909867704 1.5210984958101477,43.5042952741497</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+source: survey
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5210984958101477,43.5042952741497 1.5212799554975396,43.504374504830466</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

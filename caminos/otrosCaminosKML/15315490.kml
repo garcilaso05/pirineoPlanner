@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Gaston Ramon</name>
+      <description>name: Rue Gaston Ramon
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+name:etymology:wikidata: Q673325</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4037071036390505,43.598215677152226 1.4036187992466218,43.59821652287234 1.4035010301128734,43.59822439457444 1.4033993408227112,43.59820487795579 1.4032607307743716,43.5981728706875 1.4030086635056476,43.5981906958756</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6134192558743952,43.45399507388364 1.6141594676685094,43.45389640938191 1.614742025130261,43.45381972093363</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.614742025130261,43.45381972093363 1.6147668186321025,43.45392431977943</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Frères</name>
+      <description>name: Rue des Frères
+oneway: yes
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6147668186321025,43.45392431977943 1.6149215085240278,43.45452236868334</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Porte d'Engraille</name>
+      <description>name: Rue de Porte d'Engraille
+oneway: yes
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6149215085240278,43.45452236868334 1.6149540275373129,43.45462422747541 1.6149915771161896,43.45475549594738 1.615079162856391,43.4550072723831</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Père Colombier</name>
+      <description>name: Rue du Père Colombier
+highway: residential
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.615079162856391,43.4550072723831 1.6151451890297739,43.455183926086356 1.6153261097279954,43.45555346909678 1.6154963404743363,43.4557301864137</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Père Colombier</name>
+      <description>lit: no
+name: Rue du Père Colombier
+highway: residential
+surface: asphalt
+sidewalk: no
+maxheight: 1.8
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6154963404743363,43.4557301864137 1.6156165350593512,43.455836412183366 1.6158456054568016,43.45603249572598</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Père Colombier</name>
+      <description>name: Rue du Père Colombier
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6158456054568016,43.45603249572598 1.6159726272379762,43.45613402593035 1.6160523078036777,43.456180324168635 1.6160917438446505,43.456207124963605 1.6172108650256065,43.45695512970696 1.6172473366261417,43.45698049558479</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Côte Vieille</name>
+      <description>name: Chemin de la Côte Vieille
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6172473366261417,43.45698049558479 1.6172855150257168,43.45700038399055 1.6173251307297467,43.45701838136192 1.617829355098723,43.457356222328336 1.6182706075662823,43.45763850490781 1.618434909431748,43.45773338129317 1.618600468938611,43.45780986915731 1.618848583620085,43.45791550441162 1.6192201268215969,43.45805908981322</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Côte Vieille</name>
+      <description>name: Chemin de la Côte Vieille
+highway: track
+surface: mud
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6192201268215969,43.45805908981322 1.6197350411424538,43.458256013833164 1.620347602334695,43.45851762183723 1.6206231156323347,43.45866211869422 1.6207991854280221,43.458899729201015 1.6208284705062843,43.45906750356559 1.6208696133462972,43.45928907195088</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

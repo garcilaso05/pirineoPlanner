@@ -1,0 +1,174 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Andiran, ballade autour du village - 2.9km</name>
+    <Placemark>
+      <name>Rue des Puits</name>
+      <description>name: Rue des Puits
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.27787784313031666,44.09756921493877 0.2778634700857707,44.097660629838806 0.2778714650917994,44.097749077007 0.2780296584133328,44.09805802818503</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Gaité</name>
+      <description>name: Rue de la Gaité
+oneway: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2780296584133328,44.09805802818503 0.2785690967414466,44.09790997180815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Chemin de Ronde</name>
+      <description>name: Rue du Chemin de Ronde
+highway: track
+tracktype: grade2
+ref:FR:FANTOIR: 470090003L</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2785690967414466,44.09790997180815 0.27873402742761094,44.09816040943667 0.2787672650931234,44.09826111319179 0.2787902619643968,44.098375170793126 0.27878882465994226,44.09843742499063 0.2787740922892827,44.09849509876901 0.27873681220499175,44.09857548069737</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Chemin de Ronde</name>
+      <description>name: Rue du Chemin de Ronde
+highway: service
+ref:FR:FANTOIR: 470090003L</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.27873681220499175,44.09857548069737 0.2786866862121378,44.098684312235235 0.27860224457543065,44.09889049164749 0.2785566999905258,44.09900158050711</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Puits</name>
+      <description>name: Rue des Puits
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2785566999905258,44.09900158050711 0.27874804114604324,44.09921698392068 0.2793633871156651,44.09990428264769</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>ref: R
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2793633871156651,44.09990428264769 0.27886616960590493,44.1000440121982</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>ref: R
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.27886616960590493,44.1000440121982 0.27867761322776824,44.10004052864001 0.27845653783634644,44.10009542691276 0.27787281256472557,44.100312503602424 0.2776475150914684,44.100441588055446 0.2774154802535803,44.100593702206574 0.27728809914629216,44.10070640060644 0.2772545919861945,44.10077187782654 0.2771714079908851,44.10127750144467 0.27712846852030415,44.10139690746279 0.2769515004093326,44.101757123832684 0.27688439625760886,44.102038315566 0.2768897861493136,44.102149979083585 0.2769165559447803,44.10225403045579 0.27729070426061614,44.10312817086483 0.27749596930303744,44.10380452257319</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: R
+highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.27749596930303744,44.10380452257319 0.27741278530772795,44.10383148617189 0.2769407206259232,44.10411428068627 0.27633579511359707,44.10446390159627 0.2761644863889155,44.104518731256206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Lisse</name>
+      <description>ref: C 201
+name: Route de Lisse
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2761644863889155,44.104518731256206 0.2761467895778183,44.10435050079704 0.27609971785693044,44.10419568706807 0.2757860261597159,44.1033665236374 0.27572161695384456,44.10321912562215 0.27563448037128496,44.10308030667394 0.27508048933556845,44.10239659279488 0.2749789797084629,44.10225822347067</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: R
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2749789797084629,44.10225822347067 0.27480551502709943,44.10225770740732 0.2742987753753276,44.10225312734486</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: R
+highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2742987753753276,44.10225312734486 0.27404131821489897,44.102236677821814 0.2728235620157466,44.10206237710437 0.27277388518053475,44.10201328639505 0.27276050028280135,44.101959293018545 0.272891923808868,44.10093237734601 0.2729094409569084,44.100712206471265 0.2728878813900895,44.10050132419371 0.2728276044345251,44.10032308324835 0.27270687086033946,44.1000785252173 0.2726465040732466,44.1000167888306 0.2725580200177608,44.09995621356721 0.2724239015458418,44.099952278430806 0.2711700330722677,44.100135294251615 0.2710959220613279,44.10011510254452</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Vigne Blanche</name>
+      <description>name: Route de la Vigne Blanche
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2710959220613279,44.10011510254452 0.271040765502883,44.09943728938548 0.2710144448650582,44.09904119053782 0.2710116600876775,44.09893532718797 0.2710920593056062,44.09833659251141 0.2710999644801064,44.09820930980811 0.2710932271154755,44.09799428979895 0.27106546917319624,44.09770849841745 0.2710404960082977,44.097146007914226 0.2710209127351039,44.09706297898554 0.27097015792155116,44.0969984008493 0.270911677596555,44.09694453192045</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>ref: R
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.270911677596555,44.09694453192045 0.2715454390295013,44.09691046866826 0.2719210246497917,44.09691330727336 0.2722428011845633,44.0969633699227 0.27252190774333923,44.09702188381609 0.2727444204392156,44.09697917577613 0.272845031751037,44.09690698492546 0.2729724128583252,44.0968020209487 0.2731374333760179,44.096804924072885 0.27329005714278987,44.096846729045176 0.27343208078920916,44.096896598209575 0.2735929690565949,44.09690627527412 0.2737043601518258,44.09691117831955 0.2737547556392648,44.09693279042286 0.2738556364456715,44.09703859284448 0.2741599856639312,44.09761211609153 0.27423948656657576,44.09766637148977 0.2743324621984821,44.09769991820338 0.2746583709835607,44.09776630193246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Amandiers</name>
+      <description>ref: C 201
+name: Rue des Amandiers
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2746583709835607,44.09776630193246 0.2747682349428085,44.09770772426285 0.27511911689278556,44.097536313281736 0.27548967194748486,44.09735122499145 0.27574470365664644,44.09723748798193 0.2758332775436606,44.09720671508356</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Rempart</name>
+      <description>name: Rue du Rempart
+highway: residential
+ref:FR:FANTOIR: 470090005N</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2758332775436606,44.09720671508356 0.2761346623214827,44.097566827956435 0.2761682593131088,44.09758398842196 0.27622054126264456,44.09757837578905 0.276512403898455,44.09748089652781</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Pons d'Andiran</name>
+      <description>name: Rue Pons d'Andiran
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.276512403898455,44.09748089652781 0.2766522715881924,44.09759372988702 0.27669125847152315,44.09761101937073 0.27673294030070633,44.097611987065555 0.27685753663061363,44.09759960057048</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Clocher</name>
+      <description>name: Rue du Clocher
+highway: residential
+ref:FR:FANTOIR: 470090002K</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.27685753663061363,44.09759960057048 0.2769944398799135,44.09769882148419 0.2770761865707684,44.09773527125788 0.2771591010714926,44.09775727013697 0.27722243229902305,44.097767979265754 0.27726788705239946,44.09776997916308 0.27748438103587225,44.09769869245841 0.2776961139483393,44.09762901849205 0.27787784313031666,44.09756921493877</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

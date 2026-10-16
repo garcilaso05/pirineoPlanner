@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Route de Donneville</name>
+      <description>name: Route de Donneville
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5304134863172965,43.46358621650513 1.5307607750061372,43.46282212380009 1.5309994573771275,43.46232280789621 1.5312383194111752,43.46179127773808</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

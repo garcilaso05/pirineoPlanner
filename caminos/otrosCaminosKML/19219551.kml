@@ -1,0 +1,699 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Festival d'art urbà KROMATIC</name>
+    <Placemark>
+      <name>Carrer del Rector Juanico</name>
+      <description>name: Carrer del Rector Juanico
+footway: sidewalk
+highway: footway
+name:ca: Carrer del Rector Juanico</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9789412296998328,41.44514621732665 1.9789093395072463,41.445141503750946 1.9788589440198074,41.44515348969994 1.978839630241199,41.44517907767355 1.9782640796386637,41.44549717574507 1.977373669529044,41.44596341150613 1.9772071218753686,41.44607619911665 1.977074710202489,41.446200231593934 1.976961971634332,41.44632507186095 1.9769419392034966,41.44635342012976</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9769419392034966,41.44635342012976 1.976871511285221,41.4463171262632 1.9768398905872204,41.44630251444106 1.9768266853525436,41.44629638690175</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Rector Juanico</name>
+      <description>name: Carrer del Rector Juanico
+footway: sidewalk
+highway: footway
+name:ca: Carrer del Rector Juanico</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9768266853525436,41.44629638690175 1.9767453878193308,41.44639510081604 1.9767249960623814,41.44639691887444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Onze de Març</name>
+      <description>name: Carrer de l'Onze de Març
+footway: sidewalk
+highway: footway
+name:ca: Carrer de l'Onze de Març</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9767249960623814,41.44639691887444 1.976704604305432,41.44639866959729 1.9766189948588555,41.44632049304202</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9766189948588555,41.44632049304202 1.9765927640525591,41.446336384235735 1.9765396736192677,41.44636392447325</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9765396736192677,41.44636392447325 1.9764919730776807,41.44634069371133</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Rector Juanico</name>
+      <description>lit: yes
+name: Carrer del Rector Juanico
+lanes: 1
+oneway: yes
+highway: pedestrian
+name:ca: Carrer del Rector Juanico
+parking: no
+surface: paving_stones
+maxspeed: 10
+maxweight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9764919730776807,41.44634069371133 1.9761583387811588,41.44653946796185 1.9759996064704548,41.446700331907806 1.9759059121863212,41.44675507538656 1.9758533607422,41.44678578019575</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Església</name>
+      <description>lit: yes
+name: Carrer de l'Església
+lanes: 1
+oneway: yes
+highway: pedestrian
+name:ca: Carrer de l'Església
+parking: no
+surface: paving_stones
+maxspeed: 10
+maxweight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9758533607422,41.44678578019575 1.9757877837264597,41.44678652088176 1.9757269677817246,41.44678712689758 1.9756614805975123,41.44678180742521 1.9753300920892005,41.44675729744561 1.9753223665777573,41.44675527739194 1.9752300197665495,41.446731777429534 1.9750310429311173,41.44668100670808 1.9748078115830137,41.44667353250037 1.974787599489121,41.44666727032568</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Església</name>
+      <description>lit: yes
+name: Carrer de l'Església
+lanes: 1
+oneway: yes
+highway: pedestrian
+name:ca: Carrer de l'Església
+parking: no
+maxspeed: 10
+maxweight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.974787599489121,41.44666727032568 1.9746036245189331,41.44686052210477 1.9744006950962505,41.44716211493326</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+lanes: 1
+oneway: yes
+highway: pedestrian
+name:ca: Carrer Major
+parking: no
+maxspeed: 10
+maxweight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9744006950962505,41.44716211493326 1.9743837169373808,41.44720541113181 1.9743461673585043,41.447258066811806 1.974204323375142,41.44736741811299 1.9741285953966907,41.44741037750231</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>foot: yes
+name: Carrer Major
+lanes: 1
+access: residents
+oneway: yes
+highway: pedestrian
+name:ca: Carrer Major
+parking: no
+surface: paving_stones
+maxspeed: 10
+maxweight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9741285953966907,41.44741037750231 1.974102274758866,41.44742263236992 1.9738049323998226,41.44757393266001 1.97378472030593,41.44760557976108</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Font</name>
+      <description>lit: yes
+foot: yes
+name: Carrer de la Font
+lanes: 1
+access: residents
+highway: pedestrian
+name:ca: Carrer de la Font
+parking: no
+surface: paving_stones
+maxspeed: 10
+maxweight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.97378472030593,41.44760557976108 1.9737421401614623,41.44761911394214 1.973153204661194,41.44775452293156</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Font</name>
+      <description>lit: yes
+name: Carrer de la Font
+lanes: 1
+oneway: yes
+highway: pedestrian
+name:ca: Carrer de la Font
+parking: no
+surface: paving_stones
+maxspeed: 10
+maxweight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.973153204661194,41.44775452293156 1.973077117356629,41.44777452115219</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passatge del Montseny</name>
+      <description>name: Passatge del Montseny
+lanes: 1
+access: residents
+oneway: yes
+highway: pedestrian
+name:ca: Passatge del Montseny
+parking: no
+surface: paving_stones
+maxspeed: 10
+maxweight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.973077117356629,41.44777452115219 1.9729919570676944,41.4476677292359 1.9728711336619804,41.44757171062894 1.9728350213875585,41.44756410185527</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Font</name>
+      <description>lit: yes
+name: Carrer de la Font
+lanes: 1
+oneway: yes
+highway: pedestrian
+name:ca: Carrer de la Font
+parking: no
+surface: paving_stones
+maxspeed: 10
+maxweight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.973077117356629,41.44777452115219 1.972617629088802,41.4478656240793 1.9723982604964199,41.44789356767136</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Font</name>
+      <description>lit: yes
+name: Carrer de la Font
+lanes: 1
+oneway: yes
+highway: living_street
+name:ca: Carrer de la Font
+parking: no
+surface: asphalt
+maxspeed: 10
+maxweight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9723982604964199,41.44789356767136 1.9722806710257283,41.447883400245274 1.9722115007488512,41.44788757495022</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Josep Oriol</name>
+      <description>lit: yes
+name: Carrer de Sant Josep Oriol
+lanes: 1
+oneway: yes
+highway: living_street
+name:ca: Carrer de Sant Josep Oriol
+parking: no
+surface: asphalt
+maxspeed: 10
+sidewalk: separate
+maxweight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9722115007488512,41.44788757495022 1.9721031639255864,41.44790979514942 1.9720501633238234,41.447951003498694 1.9720295919038169,41.448002311897</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Riera de Canals</name>
+      <description>foot: yes
+name: Carrer de la Riera de Canals
+access: residents
+oneway: yes
+highway: pedestrian
+name:ca: Carrer de la Riera de Canals
+surface: paving_stones
+maxspeed: 20
+maxweight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9720295919038169,41.448002311897 1.9720719923852277,41.44802062669602</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9720719923852277,41.44802062669602 1.972062739737801,41.44803698880989 1.972054834563301,41.44805247558053 1.9718298964161576,41.448541990295226</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9718298964161576,41.448541990295226 1.9718408558626237,41.44856219027288 1.9719237703633476,41.44863161081479 1.9720039000866911,41.44871941321729 1.9720855569460178,41.44882270208775 1.9721348744551157,41.44891737218574 1.9721941632638675,41.44901029149324 1.9722965712062572,41.449137280998265 1.9724582679573988,41.44926629023028 1.9724904276445703,41.449269387526016</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9724904276445703,41.449269387526016 1.9724612323978368,41.449303390436874 1.972422964166733,41.4493478971903</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.972422964166733,41.4493478971903 1.9722569555022278,41.44953602373511 1.972240606164057,41.44955097149015 1.972187066573123,41.44957548041438 1.972128137090485,41.449605510567174 1.9720904976800802,41.4496069918748 1.9716254398574917,41.449583290948745 1.971612863443514,41.44958268495903 1.9715301286058466,41.44957756771245 1.9714482022519348,41.44958207896933 1.9714104730100022,41.44958409893499</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Via de l'Esport</name>
+      <description>name: Via de l'Esport
+footway: sidewalk
+highway: footway
+name:ca: Via de l'Esport
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9714104730100022,41.44958409893499 1.9711953264994555,41.449518921344485 1.9711373851636296,41.44949340241467 1.9710984881118272,41.449478723975545 1.971040906102115,41.449440209890156 1.9707262262580878,41.449210000221136 1.9705796212037199,41.449081125542605 1.970547641179605,41.44905250913463 1.970533717292701,41.44903682060444 1.9705153018293768,41.449020391409945</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9705153018293768,41.449020391409945 1.9704958982192398,41.44900490487035 1.9704769437667446,41.44898558035706</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Via de l'Esport</name>
+      <description>name: Via de l'Esport
+footway: sidewalk
+highway: footway
+name:ca: Via de l'Esport</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9704769437667446,41.44898558035706 1.97044667054167,41.44895487658892 1.9703177622983987,41.44882182675903 1.9702433817928737,41.44875328175031 1.9701985558601964,41.448674367367666 1.9701861591092753,41.44866090073988</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9701861591092753,41.44866090073988 1.9701355839587795,41.44868170667864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9701355839587795,41.44868170667864 1.9700950699394657,41.44869840529132 1.970034074331674,41.44872729118779</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.970034074331674,41.44872729118779 1.970017275835861,41.448735303823455 1.969999668856292,41.44874587511438</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Via de l'Esport</name>
+      <description>name: Via de l'Esport
+footway: sidewalk
+highway: footway
+name:ca: Via de l'Esport</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.969999668856292,41.44874587511438 1.969866897857299,41.44865362875972</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.969866897857299,41.44865362875972 1.9692967371464687,41.44882687673225</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9692967371464687,41.44882687673225 1.9691807646432888,41.448794691562874 1.9689091141013713,41.44856340227134</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda Constitució</name>
+      <description>name: Avinguda Constitució
+footway: sidewalk
+highway: footway
+name:ca: Avinguda Constitució</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9689091141013713,41.44856340227134 1.9686645926810338,41.44867389603574 1.9686518366039991,41.44867968668488 1.968533977638723,41.44873301449908 1.9684947212608066,41.448750723094356 1.9683278142810172,41.4488257320717 1.9680715249304581,41.448941006022224 1.9676144621138982,41.44914677490143</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.970987905500352,41.45102829095573 1.9716597555013453,41.45040682572062</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9716597555013453,41.45040682572062 1.9715754935276948,41.45036407030951</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9715754935276948,41.45036407030951 1.9715548322761598,41.450353633945035 1.9714777568247823,41.450308185241475 1.9714413750557758,41.450286571846824 1.9713878354648422,41.450254993385016 1.9713680725285914,41.450243277704445</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9713680725285914,41.450243277704445 1.971435985164071,41.450186584553606 1.9714834162110721,41.450140395085306 1.9715442321558072,41.45008767441293 1.9715725290872572,41.45004222552305 1.9715618391353762,41.44995556955144 1.971526804839295,41.449910928551205</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.971526804839295,41.449910928551205 1.9715826800499674,41.449833900870715 1.9715898665722404,41.44982332975707 1.9716519401583732,41.44976326963925 1.971663708088595,41.4497512172098</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.971663708088595,41.4497512172098 1.9717342258383985,41.44966307954318</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>oneway: yes
+highway: service
+service: parking_aisle</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9717342258383985,41.44966307954318 1.9719169431671886,41.44966651348049 1.972005966211845,41.44966887010402</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.972005966211845,41.44966887010402 1.972128137090485,41.449605510567174</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Via de l'Esport</name>
+      <description>name: Via de l'Esport
+footway: sidewalk
+highway: footway
+name:ca: Via de l'Esport</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9714104730100022,41.44958409893499 1.9715091080281983,41.44963749333793 1.971596963262985,41.449655605679006</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>oneway: yes
+highway: service
+service: parking_aisle</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.971596963262985,41.449655605679006 1.9717342258383985,41.44966307954318</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda Constitució</name>
+      <description>name: Avinguda Constitució
+footway: sidewalk
+highway: footway
+name:ca: Avinguda Constitució</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9635014357540284,41.450841717348546 1.9636769665605454,41.45073331453711 1.9639090013984335,41.450589630034585 1.9641561279330948,41.45045469828136 1.9643745083786643,41.450339696346 1.964552464636448,41.45025883127992 1.9648990346730615,41.45010538263844 1.9649903035059282,41.45006680159339 1.9651756259490418,41.44999152472388</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9651756259490418,41.44999152472388 1.965226829920237,41.44997051720982 1.9652613252271471,41.449952674283885 1.965297527333097,41.44992432758768</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda Constitució</name>
+      <description>name: Avinguda Constitució
+footway: sidewalk
+highway: footway
+name:ca: Avinguda Constitució</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.965297527333097,41.44992432758768 1.9653342684282176,41.44991618043518 1.9655507624116901,41.449817202550285 1.9657184778752352,41.449742329383305 1.9657306949630995,41.449712770618234</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9657306949630995,41.449712770618234 1.9657899837718513,41.44969337898371 1.9658292401497672,41.44967802726894</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Santiago Russinyol</name>
+      <description>name: Carrer Santiago Russinyol
+footway: sidewalk
+highway: footway
+name:ca: Carrer Santiago Russinyol
+name:etymology:wikidata: Q366930</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9658292401497672,41.44967802726894 1.9658387622917792,41.449688396410025</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda Constitució</name>
+      <description>name: Avinguda Constitució
+footway: sidewalk
+highway: footway
+name:ca: Avinguda Constitució</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9658387622917792,41.449688396410025 1.9658522370210407,41.44969001237991 1.9662900758905208,41.44948707317986 1.9662988793803051,41.44948283124554</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9662988793803051,41.44948283124554 1.9663294220999652,41.449469903444026 1.966354305433335,41.44945818762167</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda Constitució</name>
+      <description>name: Avinguda Constitució
+footway: sidewalk
+highway: footway
+name:ca: Avinguda Constitució</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.966354305433335,41.44945818762167 1.966364725890631,41.44945320502991 1.9667845984544285,41.44926097096117 1.9668032834123383,41.449248783773335</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9668032834123383,41.449248783773335 1.9668206208973216,41.449265414907536</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: paved
+crossing: uncontrolled
+crossing:markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9668206208973216,41.449265414907536 1.9668456838937487,41.44929759984341 1.9668918572993521,41.449356179079025 1.9669220406928987,41.44939556853529</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9669220406928987,41.44939556853529 1.966937761210371,41.44941428693519 1.9669496189721212,41.44942829206539 1.9669665971309909,41.44944842443476</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda Constitució</name>
+      <description>name: Avinguda Constitució
+footway: sidewalk
+highway: footway
+name:ca: Avinguda Constitució</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9669665971309909,41.44944842443476 1.967380271319328,41.44926467424984</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.967380271319328,41.44926467424984 1.9674450398513135,41.44923120997912 1.9674971421377923,41.44920811490898 1.9675714328117888,41.4491710146479</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda Constitució</name>
+      <description>name: Avinguda Constitució
+footway: sidewalk
+highway: footway
+name:ca: Avinguda Constitució</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9675714328117888,41.4491710146479 1.9676144621138982,41.44914677490143</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9757269677817246,41.44678712689758 1.9756455804169835,41.446829615325804</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9756455804169835,41.446829615325804 1.9756333633291192,41.44683392476864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9756333633291192,41.44683392476864 1.9755561980462135,41.44686530289063</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9755561980462135,41.44686530289063 1.975550628491452,41.446888129454805 1.9755070602001723,41.44693270520005 1.9754748106814721,41.44694549883729</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9754748106814721,41.44694549883729 1.9753574907053661,41.44704212438443</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

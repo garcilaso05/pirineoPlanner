@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Pont de la Bessède</name>
+      <description>ref: D 316
+name: Pont de la Bessède
+layer: 1
+bridge: yes
+oneway: no
+highway: tertiary
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5910677200488514,44.331402713591785 3.590681893634322,44.33113450269084 3.590632306630638,44.33109517698366 3.590588738339359,44.33105340945533</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quartier de la Bécède</name>
+      <description>name: Quartier de la Bécède
+oneway: no
+highway: tertiary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.590588738339359,44.33105340945533 3.5905477751624035,44.33100258154612 3.5905122917086802,44.330935432091586 3.5904859710708554,44.33086301340707 3.590472586173122,44.33078577527943 3.590478694717054,44.33069992645914 3.590505644175578,44.33061651932627 3.590543103922925,44.33053780293259 3.5906303303370137,44.330388080847335 3.5907990339473708,44.330167416785436 3.5912458559696923,44.32958278795097 3.5913497910480645,44.32945041349942 3.5915884734190553,44.32914293091408 3.5916600691471996,44.32903882986164</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,205 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Les falaises de la Dordogne et leurs villages</name>
+    <Placemark>
+      <name>Rue du Coustalou</name>
+      <description>name: Rue du Coustalou
+highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5652335342026955,44.88099168578776 1.5652152085708995,44.88096399703784</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Coustalou</name>
+      <description>name: Rue du Coustalou
+highway: residential
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5652152085708995,44.88096399703784 1.5651622978006647,44.88091492108283 1.565055038955741,44.880755217069165 1.5650315030952968,44.88066591247927</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Demoiselles</name>
+      <description>name: Rue des Demoiselles
+highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5650315030952968,44.88066591247927 1.5651743352254721,44.88067889761713 1.5655738160323198,44.88068940030003 1.5656330150095432,44.88069519268796 1.5658806805333751,44.880719698938115</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Demoiselles</name>
+      <description>name: Rue des Demoiselles
+highway: unclassified
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5658806805333751,44.880719698938115 1.5666387688016437,44.88055541138359 1.5669368298129143,44.88052078426845 1.567071487274004,44.88051429168205 1.5672103668169288,44.880493286250406 1.5673550854092004,44.88043911766254 1.5679083577926898,44.88014427669896 1.5680750851094225,44.88008921663657 1.5682031848689375,44.88007012064886 1.5684309976249904,44.880048605828456</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Fleuraguet</name>
+      <description>ref: D 114
+name: Route de Fleuraguet
+oneway: no
+highway: tertiary
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5684309976249904,44.880048605828456 1.568478877829634,44.88008151458895 1.5685793993099268,44.88010328401011 1.5687240280706702,44.88013262815836</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Combes</name>
+      <description>name: Chemin des Combes
+source: Bing
+highway: track
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5687240280706702,44.88013262815836 1.5687930186844905,44.880494813918425 1.5687197161573063,44.880856297221776 1.5687225009346872,44.881306381815996 1.568703007493022,44.88171890852901 1.5685994317407628,44.88209960676411 1.5684539046647352,44.88247438297059 1.5684035091772965,44.88269251331052 1.5680330439541255,44.88316441545282 1.568003309718221,44.88320222346884 1.5679276715712982,44.883354791927516 1.5679165324617754,44.88390408594782 1.5679920807771697,44.88425510944926 1.5679809416676465,44.884391890284505 1.5679189579130424,44.884713696308964 1.5678409841463807,44.885119579227975</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Granges</name>
+      <description>name: Chemin des Granges
+source: Bing
+highway: track
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5678409841463807,44.885119579227975 1.566052707910284,44.88497688087094 1.5653978360681609,44.884905531559674 1.5653166283664763,44.884846020692684 1.5651029191603845,44.883833880990494</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Pages</name>
+      <description>ref: D 15
+name: Route de Pages
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 70</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5651029191603845,44.883833880990494 1.5648216566449265,44.8842304137589</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Buis</name>
+      <description>name: Chemin des Buis
+highway: path
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5648216566449265,44.8842304137589 1.5647244589311848,44.88418751451903 1.564777459532948,44.883836426956 1.564772159472772,44.88318319216422 1.5647261657302245,44.88291229772754 1.5646853822163258,44.88278537917156</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5646853822163258,44.88278537917156 1.5644289132027096,44.882874680471595 1.5642095446103277,44.883200695872716 1.564039583358572,44.883298525592686 1.5639971828771617,44.88338127018369 1.5639086988216757,44.883428880094414 1.5637332578466874,44.88364757965943</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+sac_scale: hiking
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5637332578466874,44.88364757965943 1.5637617344411938,44.883808484978495 1.5635588050185114,44.88396066993537 1.5632805069434912,44.88412392938505 1.5629861290248852,44.88433651604417 1.5626091959316686,44.88470472191693 1.5608889221625797,44.885826701010494 1.5593698710171338,44.88643217110691 1.5586399000172582,44.886704512826114 1.5577891954431968,44.88706232931567 1.5575587775728201,44.88681862992408 1.5572583809418106,44.886275091912744 1.5573305156591255,44.88619050573464 1.5576409734213172,44.88634497565907 1.557928524143764,44.88632779113915 1.5582962045895539,44.88602190582578 1.5585197054322428,44.88593012718522 1.5587899186697063,44.88571932853267 1.5592345847353453,44.88543157948742 1.5594411972506927,44.885342409451326 1.5596868864808993,44.885178071449566 1.5597797722812774,44.885047529967956 1.5600516024862519,44.88497280740685 1.5602857932808218,44.884867597367084 1.5604348237864571,44.88476429657822 1.5607039590455796,44.88451829610926 1.5609903419581568,44.884615868995525 1.5612424092268808,44.88462006978144 1.5614283604906936,44.88455247528003 1.5615614009842715,44.884498628755985 1.5617533709604878,44.884292598505326 1.5621277887709089,44.884168228945285 1.5623618897339504,44.884078484111086 1.562494121743773,44.88397359068063</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+sac_scale: hiking
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.562494121743773,44.88397359068063 1.5631713616364706,44.8837905995598 1.5637332578466874,44.88364757965943</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5637332578466874,44.88364757965943 1.5639086988216757,44.883428880094414 1.5639971828771617,44.88338127018369 1.564039583358572,44.883298525592686 1.5642095446103277,44.883200695872716 1.5644289132027096,44.882874680471595 1.5646853822163258,44.88278537917156</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Pech Grand</name>
+      <description>name: Chemin du Pech Grand
+highway: residential
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5646853822163258,44.88278537917156 1.5646772973787686,44.882646685003095 1.5648758250565589,44.88251932030698 1.565020633480359,44.88244523096873 1.5650877376320826,44.882308381854244 1.5651021106766287,44.88222328063611 1.5651177413625723,44.88205320512441 1.5651613096538521,44.88193952413152</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Pages</name>
+      <description>ref: D 15
+name: Route de Pages
+highway: secondary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5651613096538521,44.88193952413152 1.5650465947920702,44.88190642547994</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Coustalou</name>
+      <description>name: Rue du Coustalou
+highway: residential
+maxspeed: 50
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5650465947920702,44.88190642547994 1.5650711187993267,44.881836599992916 1.565073813745179,44.88174163210245 1.5651142379329643,44.88161337428038</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Coustalou</name>
+      <description>name: Rue du Coustalou
+highway: service
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5651142379329643,44.88161337428038 1.5652426970185933,44.881543930347725 1.5652918348646347,44.88150211118377 1.5653225572473515,44.88146022833766 1.5653902902197743,44.88143559509933 1.565424066874457,44.8814170724248 1.5654499383546396,44.88136767859693 1.5654036751175076,44.88126838159814 1.5653445659718124,44.88112179090783</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Coustalou</name>
+      <description>name: Rue du Coustalou
+highway: steps
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5653445659718124,44.88112179090783 1.5653038722894417,44.88101269103744 1.565284468679305,44.88098341099033</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Docteur Gouygou</name>
+      <description>name: Rue du Docteur Gouygou
+highway: residential
+surface: asphalt
+maxspeed: 50
+ref:FR:FANTOIR: 462930122</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.565284468679305,44.88098341099033 1.5652335342026955,44.88099168578776</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

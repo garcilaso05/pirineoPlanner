@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.343299802526905,43.5256265941418 1.343251383333091,43.525703386872166 1.343178529963549,43.52576969298479 1.3428434583625721,43.525916699499135 1.3425870791804844,43.526052893517715</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3425870791804844,43.526052893517715 1.3425508770745345,43.526069632790026 1.3426989194333574,43.52626959183164 1.3427370978329325,43.52631922325655 1.3428653772555048,43.526485703171026 1.34324859855571,43.52700109758322 1.3436749389895533,43.52741911549609 1.3436956002410883,43.527439371510205</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse Boucher de Perthes</name>
+      <description>name: Impasse Boucher de Perthes
+highway: residential
+maxspeed: 30
+zone:maxspeed: FR:30
+source:maxspeed: https://www.villeneuve-tolosane.fr/ad_attachment/2024-P-011%20zone%2030%20sur%20la%20commune.pdf</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3436956002410883,43.527439371510205 1.3439219756926861,43.527643689831756 1.3439530574015166,43.52768582999241 1.3439701253919152,43.527718070126355 1.3439655439839657,43.527747314192546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>width: 2.9
+highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3439655439839657,43.527747314192546 1.3439191909153052,43.527779619425125 1.343662901564746,43.52790721189841</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

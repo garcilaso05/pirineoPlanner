@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue du Vigné</name>
+      <description>name: Rue du Vigné
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.981611374924252,42.894107810625144 2.9816776705922203,42.89406457229914 2.98203573906447,42.89404522363202 2.9823968618086862,42.89405706975547 2.982640574745268,42.89410590208476 2.982801912170295,42.89412577722658 2.9828873419538153,42.894099979028006 2.9834250734828887,42.894033180070856 2.9836520777551865,42.89397829299182 2.984127825529656,42.89393097423578</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

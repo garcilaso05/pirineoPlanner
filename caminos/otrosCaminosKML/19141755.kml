@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue de Salgareda</name>
+      <description>foot: designated
+name: Rue de Salgareda
+layer: -1
+tunnel: yes
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: no
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4130876711619405,43.68809150099667 1.4130529961919733,43.68796619661057</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,665 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta Literària Carlos Barral</name>
+    <Placemark>
+      <name>Bot Salvavidas</name>
+      <description>name: Bot Salvavidas
+name:ca: Bot Salvavidas
+name:es: Bote salvavidas
+tourism: attraction
+building: yes
+operator: Ajuntament de Calafell
+addr:city: Calafell
+start_date: 1920
+addr:street: Avinguda de Sant Joan de Déu
+artwork_type: sculpture
+addr:postcode: 43820
+opening_hours: 24/7
+operator:type: government</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5696689659180356,41.18659219631874 1.569708761285122,41.18659780748586 1.5697352615860036,41.18649160085549 1.5696953763873887,41.18648598967927 1.5696853152562065,41.18652628197015 1.5696816321635416,41.186541290166126 1.5696689659180356,41.18659219631874</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig Marítim de Sant Joan de Déu</name>
+      <description>lit: yes
+name: Passeig Marítim de Sant Joan de Déu
+highway: pedestrian
+name:ca: Passeig Marítim de Sant Joan de Déu
+surface: paving_stones
+smoothness: excellent
+oneway:motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.567419135288958,41.186434475002784 1.567429106588612,41.186435827094556 1.5677950802353622,41.1864874093745 1.5680620595378023,41.18652499748475 1.568535561524062,41.186591790692184</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig Marítim de Sant Joan de Déu</name>
+      <description>lit: yes
+name: Passeig Marítim de Sant Joan de Déu
+highway: pedestrian
+name:ca: Passeig Marítim de Sant Joan de Déu
+surface: paving_stones
+smoothness: excellent
+oneway:motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.568535561524062,41.186591790692184 1.5687180093582669,41.1866174803692 1.5691248563504443,41.18667967638762 1.5693056872171376,41.186709287079985 1.5696314163391594,41.18676729154812</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig Marítim de Sant Joan de Déu</name>
+      <description>lit: yes
+name: Passeig Marítim de Sant Joan de Déu
+bicycle: no
+highway: pedestrian
+name:ca: Passeig Marítim de Sant Joan de Déu
+surface: paving_stones
+smoothness: excellent
+oneway:motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5696314163391594,41.18676729154812 1.5698482696487457,41.18678608552561 1.5702731727781345,41.18682313263091 1.5704664902272767,41.186839898467305 1.5708491725383118,41.18687309210651</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig Marítim de Sant Joan de Déu</name>
+      <description>lit: yes
+name: Passeig Marítim de Sant Joan de Déu
+bicycle: no
+highway: pedestrian
+name:ca: Passeig Marítim de Sant Joan de Déu
+surface: paving_stones
+smoothness: excellent
+oneway:motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5708491725383118,41.18687309210651 1.571760962551693,41.18696462804274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.571760962551693,41.18696462804274 1.5717534167033065,41.1870051228511</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Carme</name>
+      <description>name: Carrer del Carme
+oneway: yes
+highway: living_street
+name:ca: Carrer del Carme
+motor_vehicle: permit</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5717534167033065,41.1870051228511 1.5716351984119163,41.18769373357138</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Vilamar</name>
+      <description>name: Carrer de Vilamar
+oneway: yes
+highway: living_street
+name:ca: Carrer de Vilamar
+surface: asphalt
+motor_vehicle: permit</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5716351984119163,41.18769373357138 1.5721061851153804,41.187748627418834 1.5723260028654042,41.18777418143557 1.5728147762114937,41.18783340181699 1.5734098202556943,41.18790600755398 1.573445034214832,41.1879103341503</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Vilamar</name>
+      <description>name: Carrer de Vilamar
+oneway: yes
+highway: residential
+name:ca: Carrer de Vilamar
+surface: asphalt
+maxspeed: 30
+maxwidth: 2
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.573445034214832,41.1879103341503 1.5734821346360661,41.18791472834938 1.5740425037102996,41.187981722948145 1.574064332771704,41.18798429186177 1.5741282928199334,41.18799429710335</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Antoni Artigas</name>
+      <description>name: Carrer d'Antoni Artigas
+oneway: no
+highway: living_street
+name:ca: Carrer d'Antoni Artigas
+old_name: Passatge de Sant Antoni
+description: Dedicada a Antoni Artigas, empresario y promotor turístico de Calafell
+old_name:end_date: 2019</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5741282928199334,41.18799429710335 1.5741397014240415,41.18796657987632 1.5743523326517928,41.18744569663511 1.5744120706181866,41.18728858580839</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5744120706181866,41.18728858580839 1.574428958945528,41.187244710987805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig Marítim de Sant Joan de Déu</name>
+      <description>lit: yes
+name: Passeig Marítim de Sant Joan de Déu
+bicycle: no
+highway: pedestrian
+name:ca: Passeig Marítim de Sant Joan de Déu
+surface: paving_stones
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.574428958945528,41.187244710987805 1.575171236864796,41.18731779060332 1.5752076186338027,41.187321576409126 1.575249120799929,41.187326105855064</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Àngel Guimerà</name>
+      <description>name: Carrer d'Àngel Guimerà
+footway: sidewalk
+highway: footway
+name:ca: Carrer d'Àngel Guimerà
+name:etymology:wikidata: Q175485</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.575249120799929,41.187326105855064 1.5751444670693293,41.18774883022853 1.5750709848790883,41.188045607743874 1.5750780815698329,41.18806088600324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Vilamar</name>
+      <description>name: Carrer de Vilamar
+footway: sidewalk
+highway: footway
+name:ca: Carrer de Vilamar
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5750780815698329,41.18806088600324 1.5750873342172593,41.188067578690955 1.5751034140608449,41.18806960677801</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5751034140608449,41.18806960677801 1.5750990123159527,41.188096715535565 1.575093173266606,41.188123013047765</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.575093173266606,41.188123013047765 1.5750795188742872,41.1881213229766 1.5750634390307017,41.18812842127518 1.5750583186335823,41.188152217470524 1.5748246668281827,41.18917902858186</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5748246668281827,41.18917902858186 1.5749982213410747,41.18919876829141</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+traffic_calming: table
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5749982213410747,41.18919876829141 1.5749904059981028,41.18924561627688 1.574978907562466,41.189310716668565</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Mossèn Jaume Soler</name>
+      <description>name: Avinguda de Mossèn Jaume Soler
+footway: sidewalk
+highway: footway
+name:ca: Avinguda de Mossèn Jaume Soler</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.574978907562466,41.189310716668565 1.5749013829534466,41.18930713378265</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5749013829534466,41.18930713378265 1.5748955439041,41.18934512588371 1.574884494626105,41.189344179461536</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+ramp: no
+highway: steps
+incline: down
+surface: paving_stones
+handrail: yes
+step_count: 14</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.574884494626105,41.189344179461536 1.5748312245297569,41.18934039377268</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+layer: -1
+tunnel: yes
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5748047242288752,41.18934127259333 1.574771127237249,41.18952541905923</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+ramp: no
+highway: steps
+incline: down
+surface: paving_stones
+handrail: yes
+step_count: 20
+ramp:bicycle: no
+ramp:stroller: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.574771127237249,41.18952541905923 1.5747579220025727,41.189601470587306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5747579220025727,41.189601470587306 1.5745991896918687,41.18982942183824</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pas sota la via de l'Estació</name>
+      <description>name: Pas sota la via de l'Estació
+footway: sidewalk
+highway: footway
+name:ca: Pas sota la via de l'Estació</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5745991896918687,41.18982942183824 1.574597303229772,41.18983401871177 1.5745779894511636,41.18983158507289</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5745779894511636,41.18983158507289 1.574547356899975,41.189868427651895 1.5745284922790084,41.189891073997515</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5745284922790084,41.189891073997515 1.5745126819300082,41.189909123467366</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5745126819300082,41.189909123467366 1.5745075615328885,41.18992142684846 1.5744901342163766,41.18996300144329 1.5744851036507854,41.18997760324594 1.5744734255520918,41.190012214913295 1.5744568067193359,41.19006102274124</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pescador</name>
+      <description>name: Carrer del Pescador
+footway: sidewalk
+highway: footway
+name:ca: Carrer del Pescador</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5744568067193359,41.19006102274124 1.5742489365625905,41.190025194283834 1.573584183252342,41.18996090581395 1.5735645999791483,41.18995901298737 1.573533158944204,41.18996847711966</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Tramuntana</name>
+      <description>name: Carrer de la Tramuntana
+footway: sidewalk
+highway: footway
+name:ca: Carrer de la Tramuntana</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.573533158944204,41.18996847711966 1.5734859973917878,41.189988013788444 1.5733304990161068,41.19018736859776 1.5733473873434483,41.190234891882504</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+informal: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5733473873434483,41.190234891882504 1.5733254684505156,41.1902680838006 1.5733074123133048,41.19029559725154</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Xaloc</name>
+      <description>name: Carrer del Xaloc
+footway: sidewalk
+highway: footway
+name:ca: Carrer del Xaloc</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5733074123133048,41.19029559725154 1.5732728271748662,41.19030201930844</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Tramuntana</name>
+      <description>name: Carrer de la Tramuntana
+footway: sidewalk
+highway: footway
+name:ca: Carrer de la Tramuntana</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5732728271748662,41.19030201930844 1.5732380623733708,41.190308373764125 1.5729391928783443,41.19069092438039 1.572945391253805,41.19071640964862</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.572945391253805,41.19071640964862 1.5728738853571886,41.190689099175124 1.5728004031669476,41.190660977487546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera del Sanatori</name>
+      <description>name: Carretera del Sanatori
+footway: sidewalk
+highway: footway
+name:ca: Carretera del Sanatori</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5728004031669476,41.190660977487546 1.5723504370411323,41.190506713592214 1.5721023223596586,41.19042160465301 1.5720868713367715,41.19041633181597 1.571760513394051,41.19033250717</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.571760513394051,41.19033250717 1.5717411097839142,41.19037921914321 1.5717217061737772,41.19043073071613</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera del Sanatori</name>
+      <description>name: Carretera del Sanatori
+footway: sidewalk
+highway: footway
+name:ca: Carretera del Sanatori</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5717217061737772,41.19043073071613 1.5716014217572334,41.19042667468823 1.5710546172437898,41.19046270572722 1.571010330300283,41.19047872702712</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Molí del Blanquet</name>
+      <description>name: Carrer del Molí del Blanquet
+footway: sidewalk
+highway: footway
+name:ca: Carrer del Molí del Blanquet</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.571010330300283,41.19047872702712 1.5709909266901458,41.19051056681401 1.5709777214554694,41.190561672681625</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5709777214554694,41.190561672681625 1.5709247208537063,41.19055457464683 1.5708925611665348,41.1905503158256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5708925611665348,41.1905503158256 1.5709247208537063,41.19055457464683 1.5709777214554694,41.190561672681625</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Museu Casa Barral</name>
+      <description>fee: no
+name: Museu Casa Barral
+museum: local
+name:ca: Museu Casa Barral
+name:es: Museo Casa Barral
+tourism: museum
+website: https://visit.calafell.cat/list/museu-casa-barral/
+building: yes
+wikidata: Q17593670
+addr:city: Calafell
+wikipedia: ca:Casa Carlos Barral
+addr:street: Avinguda de Sant Joan de Déu
+addr:postcode: 43820
+opening_hours: Mo-Su 10:00-14:00,17:30-20:30
+addr:housenumber: 18</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.568457497925872,41.1867384921333 1.5684968441353164,41.186745387768994 1.5684770811990658,41.18681278918939 1.568496484809203,41.186816169399215 1.5685504735577782,41.1866508093299 1.5684892084554014,41.18664107430054 1.568459474219497,41.18673247535255 1.568457497925872,41.1867384921333</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Segmento de ruta</name>
+      <description>barrier: wall</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.568457497925872,41.1867384921333 1.5683750325827897,41.18699146684173</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Segmento de ruta</name>
+      <description>landuse: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5684386333049054,41.187000525778956 1.568496484809203,41.186816169399215 1.5684770811990658,41.18681278918939 1.5684968441353164,41.186745387768994 1.568457497925872,41.1867384921333 1.5683750325827897,41.18699146684173 1.5684386333049054,41.187000525778956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Segmento de ruta</name>
+      <description>barrier: wall</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5684386333049054,41.187000525778956 1.568496484809203,41.186816169399215</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Segmento de ruta</name>
+      <description>building: yes
+addr:city: Calafell
+addr:street: Carrer de Jaume Jané
+addr:postcode: 43820
+addr:housenumber: 11</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5683550899834822,41.18705339208911 1.5684210263253366,41.18705859759305 1.5684386333049054,41.187000525778956 1.5683750325827897,41.18699146684173 1.5683550899834822,41.18705339208911</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Montserrat</name>
+      <description>name: Carrer de Montserrat
+oneway: yes
+highway: living_street
+name:ca: Carrer de Montserrat
+motor_vehicle: permit</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5723260028654042,41.18777418143557 1.5722668937197093,41.187939268255775 1.5720062924557863,41.188666808079056</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Molí del Blanquet</name>
+      <description>name: Carrer del Molí del Blanquet
+footway: sidewalk
+highway: footway
+name:ca: Carrer del Molí del Blanquet</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5708292299390045,41.190785091383106 1.5708925611665348,41.1905503158256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Molí del Blanquet</name>
+      <description>name: Carrer del Molí del Blanquet
+footway: sidewalk
+highway: footway
+name:ca: Carrer del Molí del Blanquet</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5708925611665348,41.1905503158256 1.5708292299390045,41.190785091383106</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Hostal</name>
+      <description>name: Carrer de l'Hostal
+highway: living_street
+name:ca: Carrer de l'Hostal
+motor_vehicle: designated</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5708292299390045,41.190785091383106 1.5700282022001548,41.19068808517218 1.569637255388506,41.19064110301836 1.569285475123245,41.190612305307404</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de la Unió</name>
+      <description>name: Passeig de la Unió
+footway: sidewalk
+highway: footway
+name:ca: Passeig de la Unió</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.569285475123245,41.190612305307404 1.5693025431136431,41.19075913294075</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de la Unió</name>
+      <description>name: Passeig de la Unió
+footway: sidewalk
+highway: footway
+name:ca: Passeig de la Unió
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5693025431136431,41.19075913294075 1.5693788999127933,41.19141681124092</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Segmento de ruta</name>
+      <description>barrier: fence</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.572014736619457,41.18874657872568 1.5720413267518667,41.18867620479587 1.5720864221791295,41.18855418257692</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Segmento de ruta</name>
+      <description>landuse: religious</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5726033127936119,41.188924304672746 1.5726161587021747,41.18892660314133 1.5727163208563544,41.18872798811756 1.5727351854773204,41.18869060407872 1.5726974562353877,41.18868316782976 1.5724417957055274,41.18862928880064 1.5720864221791295,41.18855418257692 1.5720413267518667,41.18867620479587 1.572014736619457,41.18874657872568 1.5719912007590129,41.188814383698876 1.5721598145378421,41.188846089090966 1.5722929448629488,41.18887116946489 1.5724573365599426,41.18890240161519 1.5724586840328687,41.188895979421 1.5726033127936119,41.188924304672746</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Segmento de ruta</name>
+      <description>landuse: forest</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5726033127936119,41.188924304672746 1.5726161587021747,41.18892660314133 1.5726734712173016,41.18881303165623 1.5727163208563544,41.18872798811756 1.5727351854773204,41.18869060407872 1.5726974562353877,41.18868316782976 1.5726033127936119,41.188924304672746</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Església de Sant Pere Pescador</name>
+      <description>name: Església de Sant Pere Pescador
+amenity: place_of_worship
+name:ca: Església de Sant Pere Pescador
+name:es: Iglesia de San Pedro Pescador
+website: https://baixpenedes.cat/recerca/node/805
+building: church
+religion: christian
+wikidata: Q17602334
+addr:city: Calafell
+wikipedia: ca:Església de Sant Pere Pescador (Calafell)
+addr:street: Carrer de Montserrat
+denomination: roman_catholic
+addr:postcode: 43820
+addr:housenumber: 44
+construction_date: C20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5719912007590129,41.188814383698876 1.572014736619457,41.18874657872568 1.5721882013008204,41.1887795685918 1.5722067964272017,41.18872873174198 1.5722265593634521,41.188674582341264 1.572347921758337,41.18869993318987 1.572370020314326,41.18864213324073 1.5726867662835067,41.188710817151204 1.5726033127936119,41.188924304672746 1.5724586840328687,41.188895979421 1.5724765605070228,41.18885142965657 1.5723092043695912,41.18881742579473 1.5722929448629488,41.18887116946489 1.5721598145378421,41.188846089090966 1.5719912007590129,41.188814383698876</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Segmento de ruta</name>
+      <description>barrier: wall</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5722929448629488,41.18887116946489 1.5724573365599426,41.18890240161519</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Segmento de ruta</name>
+      <description>landuse: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5724573365599426,41.18890240161519 1.5724586840328687,41.188895979421 1.5724765605070228,41.18885142965657 1.5723092043695912,41.18881742579473 1.5722929448629488,41.18887116946489 1.5724573365599426,41.18890240161519</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

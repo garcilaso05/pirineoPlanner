@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue de Kiev</name>
+      <description>name: Rue de Kiev
+highway: residential
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4080299764492903,43.570885687198086 1.4078795086392006,43.57088288854578 1.4076099242224365,43.570881196337346 1.4075600677241678,43.57088087091264</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Kiev</name>
+      <description>name: Rue de Kiev
+highway: residential
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:zone30
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4075600677241678,43.57088087091264 1.4074537970260563,43.57088022006322 1.4073398008165017,43.57087917870415</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Kiev</name>
+      <description>name: Rue de Kiev
+highway: residential
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4073398008165017,43.57087917870415 1.407267935593772,43.570878592939664 1.4068212932345079,43.57087481801282 1.4067597586375455,43.57087312580416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Kiev</name>
+      <description>name: Rue de Kiev
+highway: residential
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:zone30
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4067597586375455,43.57087312580416 1.4065403900451634,43.57087260512456</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Kiev</name>
+      <description>name: Rue de Kiev
+highway: residential
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4065403900451634,43.57087260512456 1.4064873894434005,43.57087221461485 1.4054546861927766,43.57086427425038 1.405402404243241,43.57086388374063</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Kiev</name>
+      <description>name: Rue de Kiev
+highway: residential
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:zone30
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.405402404243241,43.57086388374063 1.4052831978050384,43.57086297255119 1.405177196601512,43.570862386786544</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Kiev</name>
+      <description>name: Rue de Kiev
+highway: residential
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.405177196601512,43.570862386786544 1.4051314723535504,43.5708621264467 1.4045995798738233,43.57085913253841 1.404185366696316,43.57085412099593 1.404139822111411,43.57085477184563</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Kiev</name>
+      <description>name: Rue de Kiev
+highway: residential
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:zone30
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.404139822111411,43.57085477184563 1.4039819881159912,43.57085717998944</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Kiev</name>
+      <description>name: Rue de Kiev
+highway: residential
+surface: asphalt
+maxspeed: 30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4039819881159912,43.57085717998944 1.4037859757209963,43.5708562687999</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Kiev</name>
+      <description>name: Rue de Kiev
+highway: residential
+surface: asphalt
+maxspeed: 30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4037859757209963,43.5708562687999 1.4037521092347849,43.57085678947964 1.4029205387762755,43.5708521684468 1.4028682568267397,43.57085067149243 1.40281112397467,43.570848979283085 1.4027747422056631,43.570834204991826</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

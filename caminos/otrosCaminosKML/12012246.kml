@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Lotissement Clos du Rouanet</name>
+      <description>name: Lotissement Clos du Rouanet
+highway: residential
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4460667117040646,43.52614010702952 1.4462124184431489,43.526229079010946 1.446352016638301,43.526310169758204 1.4464640365542307,43.52636598878754 1.4466223197072925,43.5264081949738</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4466223197072925,43.5264081949738 1.4467267937748356,43.526436006750146 1.4469681710916786,43.52647489110916 1.4471292390221213,43.52645150839041 1.4473998115856979,43.526389827470446</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

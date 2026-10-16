@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Liaison St-Laurent-des-Hommes - Boucle de l'étang</name>
+    <Placemark>
+      <name>Rue de la Mairie</name>
+      <description>name: Rue de la Mairie
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2537811644545094,45.03719500264899 0.253768228714418,45.03739089922855 0.25376472528481,45.03744657029875 0.2537624794965997,45.037665508794014 0.253736608016417,45.03784178890469</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Mairie</name>
+      <description>name: Rue de la Mairie
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.253736608016417,45.03784178890469 0.25392552372066735,45.03806218588804 0.2541644755862431,45.038360088641014 0.2541822622288687,45.038382305916095 0.2542151405682675,45.03842299524606 0.25436515922071545,45.03860949292799 0.25462216722350206,45.03885191361478 0.25465890831862253,45.038886508784856 0.25485501054514587,45.03899740362019 0.255108874444438,45.03909991926136 0.2556851436992007,45.03929879273371 0.25617265940389233,45.039458309960274 0.25634576475914217,45.0395408296403 0.2565495924971089,45.039667592332336</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-Michel</name>
+      <description>name: Route de Saint-Michel
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2565495924971089,45.039667592332336 0.2568334601268907,45.03991838739681 0.2569268849164391,45.039991194566014 0.25705130158328965,45.04007758551581 0.2572598005607338,45.040148996011396 0.2573385828111511,45.04016987959726</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

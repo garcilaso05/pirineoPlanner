@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.380793664477192,43.7617621947629 4.380686495463797,43.76183187402181 4.380632776209807,43.76190551076683 4.379500898951816,43.763900675229365 4.379478441069713,43.76393992518793 4.379094770611865,43.76460762467007 4.378984816821089,43.764861415989195 4.378864083246904,43.76504150856253 4.378691427049296,43.76526279592088 4.378611476989009,43.76535277679673</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+bridge: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.378611476989009,43.76535277679673 4.378546708457025,43.765418494539055</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.378546708457025,43.765418494539055 4.378513201296927,43.76545398079241 4.378473226266783,43.765498225049555 4.378198880779013,43.765800797801916 4.378088926988236,43.765959673833756 4.37802990767407,43.766141774180966 4.37801122271616,43.76634320623136 4.378047694316696,43.76652640825438 4.378201575724865,43.76678972774304</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Alternate for circuit départemental Les Arrius</name>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 125
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3051940837844083,44.52203818032129 -0.30447821633449346,44.52175348557696 -0.3005937213829038,44.52027670133567 -0.2995335296845859,44.51988631472067</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2995335296845859,44.51988631472067 -0.2995613774583936,44.51985890109143 -0.30025829045581354,44.51917157057775 -0.3007429315515961,44.51860906929074 -0.301463829567102,44.51745362516597 -0.3021780800495054,44.51654797000675 -0.3025692963557395,44.51588942515464 -0.3029334733719215,44.5155011870261 -0.3037536352263226,44.51483961970891 -0.304080801652799,44.51448449178465 -0.30455340532377423,44.51358160900677 -0.3051199727734684,44.51285211818883</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

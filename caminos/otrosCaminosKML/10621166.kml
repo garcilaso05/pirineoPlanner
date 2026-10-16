@@ -1,0 +1,313 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Riera d'Osor</name>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>ref: GI-542
+name: Carrer Major
+highway: tertiary
+name:ca: Carrer Major
+maxspeed: 50
+parking:lane:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5577777797129913,41.94555197421956 2.557556434826984,41.94556152875338 2.5574576201457306,41.94556540401843 2.557363925861597,41.945567608910515 2.557330328869971,41.94556907883853 2.5570820345254406,41.94557863336979</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>ref: GI-542
+name: Carrer Major
+layer: 1
+bridge: yes
+highway: tertiary
+name:ca: Carrer Major
+maxspeed: 50
+parking:lane:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5570820345254406,41.94557863336979 2.5569015629848604,41.945583978561466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>ref: GI-542
+name: Carrer Major
+highway: tertiary
+name:ca: Carrer Major
+maxspeed: 50
+parking:lane:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5569015629848604,41.945583978561466 2.556854042106331,41.94558591619334 2.5567368119617533,41.945588521974045</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>ref: GI-542
+name: Carrer Major
+highway: tertiary
+name:ca: Carrer Major
+maxspeed: 50
+parking:lane:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5567368119617533,41.945588521974045 2.556647160096398,41.94559333264584 2.5565718812755893,41.94560188495034 2.5565238214078887,41.945610704513165 2.5562516318768003,41.945656606309065 2.556065321286874,41.945690615041926 2.5558172964369286,41.94573431189406 2.555742376942233,41.94574700669258 2.5556721286870148,41.94575308683203</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont</name>
+      <description>name: Carrer del Pont
+highway: pedestrian
+name:ca: Carrer del Pont</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5556721286870148,41.94575308683203 2.555669343909634,41.94584442248342 2.555666469300725,41.945902818434824</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Riera</name>
+      <description>name: Carrer de la Riera
+highway: residential
+name:ca: Carrer de la Riera
+check_date: 2023-01-01</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.555666469300725,41.945902818434824 2.5557261174355905,41.94590582508991 2.555740220985551,41.94591076936687 2.5557722908411944,41.94591477823978 2.5558516120807817,41.945917985337935</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Riera</name>
+      <description>name: Carrer de la Riera
+highway: steps
+name:ca: Carrer de la Riera</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5558516120807817,41.945917985337935 2.555844066232395,41.94603952087621</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Riera</name>
+      <description>name: Carrer de la Riera
+highway: pedestrian
+name:ca: Carrer de la Riera</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.555844066232395,41.94603952087621 2.556019058049742,41.9460713913446</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Riera</name>
+      <description>name: Carrer de la Riera
+highway: steps
+name:ca: Carrer de la Riera</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.556019058049742,41.9460713913446 2.5560768197225103,41.94609491000289 2.556144462863405,41.9461188295385</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.556144462863405,41.9461188295385 2.5562050991450826,41.94614809420952 2.556307956245115,41.94617167965379 2.5563724552825144,41.94619820491637 2.556570623634191,41.946228204507364 2.5566880334418256,41.94625192355038 2.5570487070283994,41.94629762444218 2.5572430126243546,41.94633203371775 2.557457530314202,41.946351276178326 2.5576874091954087,41.94633336999993 2.5578807266445507,41.94633991778216 2.5580423335641638,41.94633336999993 2.558296197463456,41.94631339257854 2.5584463059474327,41.946296221345115 2.55860881118233,41.94625900585447 2.5588243170189906,41.946222525298566 2.558934001315181,41.94616887345407 2.559079169065095,41.94611662466548 2.5592090654551782,41.94607299488977 2.5593600722544387,41.94600497781386 2.5594773922305447,41.94594417663351 2.5596197752030783,41.945900613554336 2.5597409579349057,41.94580540273321 2.5598448930132784,41.94574179514401 2.559927627850946,41.945639501713586 2.5600786346502065,41.94550420152901 2.5601796052881416,41.94546057133419 2.560241229716632,41.94532747567027 2.5602151785733924,41.945233800744234 2.560221017622739,41.94514507001689 2.5603527106433908,41.94504210747442 2.5606258883212916,41.944822417859726 2.5608471433757707,41.94470368626561 2.560983687298957,41.94452909629991 2.5611260702714898,41.94442038657726 2.5612895636531996,41.944304527332605 2.5614339229193575,41.944202899759546 2.5615878043275275,41.94410407831521 2.5617512977092365,41.94403980086353 2.5619724629321867,41.94395100165787 2.5622784291179586,41.943979732791384 2.5625669679872174,41.94397391974913 2.5628094232824012,41.943953874771815 2.5628844326086253,41.944002517239205 2.562618890610639,41.94408122708721 2.5624939349546185,41.94416421308661 2.5623610741240967,41.94422287784225 2.5621841060131256,41.9441799817506 2.5620110006578756,41.94417570550312 2.5618436445204447,41.94423009400437 2.561674312089388,41.94432310224297 2.5614530570349094,41.94455769354097 2.561331874303081,41.944698006921016 2.5611914676241736,41.944832507028316 2.5611048700307846,41.94492832064257 2.5610913953015224,41.945005626222205 2.5609855737610534,41.94513872255801 2.5607893817030014,41.94529607253636 2.5606855364561576,41.945433377614194 2.5606181628098486,41.94554068249594 2.5604854816423837,41.94566662853085 2.5603527106433908,41.94579257431696 2.560208441208761,41.94586546908534 2.5600584225563137,41.945937094294436 2.559850642231097,41.94606437583407 2.5596698113644036,41.94615738139683 2.5594524190656465,41.94627330408863 2.559308059799488,41.946329093896885 2.559115820328687,41.94638922656966 2.558769519786659,41.94645223218706 2.558590575382062,41.94647361265815 2.5584366939738925,41.94649078384379 2.558334735189145,41.946523723109145 2.5581847165366973,41.94653367838071 2.5580076585941973,41.94656227472264 2.5578421889188623,41.94659528076488 2.5579134253208933,41.946841422451996 2.557836978690214,41.94690061925237</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de França</name>
+      <description>foot: yes
+name: Carrer de França
+oneway: yes
+highway: residential
+name:ca: Carrer de França
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.557836978690214,41.94690061925237 2.5577696948754336,41.94682050979945 2.557722623154546,41.946617128884654</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de França</name>
+      <description>foot: yes
+name: Carrer de França
+oneway: yes
+highway: residential
+name:ca: Carrer de França
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.557722623154546,41.946617128884654 2.55754592453816,41.94657991358135 2.5573245796521524,41.94655980260948 2.557179501733767,41.946544969928475 2.5570402628647284,41.94652779875742 2.557016816835813,41.946524925759476 2.5568637439113995,41.946519513832776 2.55671947447677,41.94651530455612 2.5564989380745184,41.94646011623661 2.5564004827193787,41.94643592957305 2.556361406004519,41.946433724711 2.556302656184938,41.94643900301699</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.556302656184938,41.94643900301699 2.5562743592534884,41.9463784695068 2.5561888396384402,41.94635267927419 2.556013668158037,41.94634766821741 2.5558992227908406,41.94632408283826 2.555798162321377,41.946299094353364 2.5557242309734933,41.94627831515125 2.5556290095533774,41.94625112178005 2.555552832417284,41.94623127796132 2.555538459372738,41.94620321598489 2.555393291622824,41.946161724325684 2.5552441712856604,41.946142414993595 2.5551307140652755,41.946113818463346 2.5549556324164007,41.946072326745956 2.5548791857857225,41.94605148065553</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5548791857857225,41.94605148065553 2.554782616892679,41.946032973063126 2.5546035826565543,41.94599609149112 2.554572680610781,41.94599161492205</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps
+service: alley</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.554572680610781,41.94599161492205 2.5545600143652747,41.94607292807539</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: alley</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5545600143652747,41.94607292807539 2.554563966952525,41.946081680758674 2.5545748365674625,41.946090099368945 2.554578429828599,41.946097916648924 2.554578429828599,41.94610533304186</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps
+service: alley</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.554578429828599,41.94610533304186 2.5545760942088602,41.94615150173883</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de França</name>
+      <description>foot: yes
+name: Carrer de França
+oneway: yes
+highway: residential
+name:ca: Carrer de França
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5545760942088602,41.94615150173883 2.554627657506169,41.946161724325684 2.554882779046859,41.94623121114711 2.5553357994446406,41.946352077947395</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont</name>
+      <description>name: Carrer del Pont
+highway: pedestrian
+name:ca: Carrer del Pont</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5553357994446406,41.946352077947395 2.5554170071463247,41.94620862793845 2.5554320988430983,41.946191389862555</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>El Pont Vell</name>
+      <description>name: El Pont Vell
+layer: 1
+bridge: yes
+highway: pedestrian
+name:ca: El Pont Vell
+historic: yes
+wikidata: Q28445340
+wikipedia: ca:Pont Vell (Osor)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5554320988430983,41.946191389862555 2.555501358951503,41.946050211181856</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont</name>
+      <description>name: Carrer del Pont
+highway: pedestrian
+name:ca: Carrer del Pont</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.555501358951503,41.946050211181856 2.555516181153692,41.94600157027672 2.5555382797096806,41.94595373110854 2.5555598392765,41.9458909254422</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Riera</name>
+      <description>name: Carrer de la Riera
+highway: residential
+name:ca: Carrer de la Riera
+check_date: 2023-01-01</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5555598392765,41.9458909254422 2.555666469300725,41.945902818434824</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont</name>
+      <description>name: Carrer del Pont
+highway: pedestrian
+name:ca: Carrer del Pont</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.555666469300725,41.945902818434824 2.555669343909634,41.94584442248342 2.5556721286870148,41.94575308683203</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>ref: GI-542
+name: Carrer Major
+highway: tertiary
+name:ca: Carrer Major
+maxspeed: 50
+parking:lane:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5556721286870148,41.94575308683203 2.555742376942233,41.94574700669258 2.5558172964369286,41.94573431189406 2.556065321286874,41.945690615041926 2.5562516318768003,41.945656606309065 2.5565238214078887,41.945610704513165 2.5565718812755893,41.94560188495034 2.556647160096398,41.94559333264584 2.5567368119617533,41.945588521974045</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>ref: GI-542
+name: Carrer Major
+highway: tertiary
+name:ca: Carrer Major
+maxspeed: 50
+parking:lane:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5567368119617533,41.945588521974045 2.556854042106331,41.94558591619334 2.5569015629848604,41.945583978561466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>ref: GI-542
+name: Carrer Major
+layer: 1
+bridge: yes
+highway: tertiary
+name:ca: Carrer Major
+maxspeed: 50
+parking:lane:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5569015629848604,41.945583978561466 2.5570820345254406,41.94557863336979</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>ref: GI-542
+name: Carrer Major
+highway: tertiary
+name:ca: Carrer Major
+maxspeed: 50
+parking:lane:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5570820345254406,41.94557863336979 2.557330328869971,41.94556907883853 2.557363925861597,41.945567608910515 2.5574576201457306,41.94556540401843 2.557556434826984,41.94556152875338 2.5577777797129913,41.94555197421956</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

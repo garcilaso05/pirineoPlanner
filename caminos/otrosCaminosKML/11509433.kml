@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>unclassified</name>
+      <description>noname: yes
+highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7153800996210165,42.30600700917532 2.7154339985380633,42.30599412061855 2.715482777057991,42.30600069776899 2.7156494145431957,42.30602321952133 2.7157965585867343,42.30603072677032 2.715905793725283,42.30603610807215 2.7160339833163274,42.30604800008317 2.716118784279148,42.306059227733996</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont d'Albanyà</name>
+      <description>name: Pont d'Albanyà
+layer: 1
+bridge: yes
+highway: unclassified
+name:ca: Pont d'Albanyà
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.716118784279148,42.306059227733996 2.7164973343398757,42.30615256996061</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Bassegoda</name>
+      <description>name: Carretera de Bassegoda
+highway: unclassified
+name:ca: Carretera de Bassegoda
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7164973343398757,42.30615256996061 2.716555185844173,42.306154230853075 2.716603155880345,42.30614087727646 2.7166354053990447,42.30612553062522 2.716716074111559,42.30605590594402 2.716960775194953,42.30587991726054 2.717135856843828,42.3057291073895 2.7172875822953158,42.305616697329924 2.7174613164712644,42.30553112736278 2.7175907637037064,42.305488674517605 2.717699998842255,42.30546110340563</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Bassegoda</name>
+      <description>name: Carretera de Bassegoda
+oneway: no
+highway: residential
+name:ca: Carretera de Bassegoda
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.717699998842255,42.30546110340563 2.7178660075067604,42.30543339940866 2.7180990304914614,42.30541938131444 2.7182152724892266,42.30541061169939 2.718644128205865,42.305388488346914 2.7188419372314274,42.30540018117081 2.719481627545249,42.30546329580774</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Bassegoda</name>
+      <description>foot: yes
+name: Carretera de Bassegoda
+access: yes
+bicycle: yes
+highway: residential
+name:ca: Carretera de Bassegoda
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.719481627545249,42.30546329580774 2.7196576973409363,42.30547332770737 2.7197344134662007,42.30546887646733 2.7197952294109355,42.30544389636818</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Maçanet de Cabrenys</name>
+      <description>foot: yes
+name: Carrer de Maçanet de Cabrenys
+access: yes
+bicycle: yes
+highway: residential
+name:ca: Carrer de Maçanet de Cabrenys
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7197952294109355,42.30544389636818 2.719825682299067,42.305419979242686 2.719872304862313,42.30535088527353 2.719937612383468,42.305226582374665 2.720001213105584,42.30505118930458 2.7200377745376474,42.304977975840615</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Figueres</name>
+      <description>ref: GI-511
+name: Carrer de Figueres
+highway: tertiary
+name:ca: Carrer de Figueres
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7200377745376474,42.304977975840615 2.720285799387593,42.30510759417473 2.7205809857899546,42.30525149612338 2.7208267648516897,42.30537141416267 2.7209291727940794,42.3054231017568 2.7211592313383424,42.30553909972488 2.7215543104002977,42.30573840844927 2.721691483144183,42.30581182033708 2.721891178631843,42.305918715864976 2.722018919065245,42.30596588536898 2.7220785672001107,42.30597957116211 2.722151959558823,42.305986480493445</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

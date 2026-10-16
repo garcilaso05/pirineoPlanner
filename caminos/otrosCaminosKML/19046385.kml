@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Errege bidea: Lotura 1. Martiaberroa</name>
+    <Placemark>
+      <name>Isaba - Zuriza</name>
+      <description>ref: NA-2000
+name: Isaba - Zuriza
+highway: tertiary
+name:es: carretera Isaba - Zuriza
+name:eu: Izaba - Zuritza errepidea
+source:name: BON nº182 - 14 de septiembre de 2012</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.897175142360917,42.882809599022515 -0.8971816102309627,42.88281091549835</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Isaba - Zuriza</name>
+      <description>ref: NA-2000
+name: Isaba - Zuriza
+layer: 1
+bridge: yes
+highway: tertiary
+name:es: carretera Isaba - Zuriza
+name:eu: Izaba - Zuritza errepidea
+source:name: BON nº182 - 14 de septiembre de 2012</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8971816102309627,42.88281091549835 -0.897428107944925,42.88285422753743</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Isaba - Zuriza</name>
+      <description>ref: NA-2000
+name: Isaba - Zuriza
+highway: tertiary
+name:es: carretera Isaba - Zuriza
+name:eu: Izaba - Zuritza errepidea
+source:name: BON nº182 - 14 de septiembre de 2012</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.897428107944925,42.88285422753743 -0.8974840729871257,42.882868972054425 -0.8975485720245254,42.882875291132066</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Burgi-Izaba-Frantzia errepidea</name>
+      <description>ref: NA-137
+name: Burgi-Izaba-Frantzia errepidea
+highway: primary
+name:es: Carretera Burgui-Isaba-Francia
+name:eu: Burgi-Izaba-Frantzia errepidea
+surface: asphalt
+source:name: BON nº182 - 14 de septiembre de 2012
+official_name: Burgui-Isaba-Francia / Burgi-Izaba-Frantzia</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.8975485720245254,42.882875291132066 -0.897502039292808,42.883001475078125</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>access: no
+highway: track
+surface: unpaved
+maxspeed: 10
+motorcar: designated
+tracktype: grade5
+smoothness: horrible</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.897502039292808,42.883001475078125 -0.8982800701603839,42.88325983211763 -0.8990789419425514,42.88356972749096 -0.9006923161928302,42.88420103247251 -0.9020237991069522,42.884958510937096 -0.9030541667378371,42.88566161218607</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>access: no
+highway: track
+surface: unpaved
+maxspeed: 10
+motorcar: designated
+tracktype: grade5
+smoothness: horrible</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9030541667378371,42.88566161218607 -0.9032096651135182,42.885746125970066 -0.9032713793735374,42.88589942209429 -0.9033841179416943,42.88602717954355 -0.9034993717926467,42.886105769002214 -0.9037112843681705,42.88631408982152 -0.9038480977859421,42.88641038448382 -0.9039365818414278,42.88637701376005 -0.9039929960412705,42.8862551150259 -0.9040036859931514,42.88612933265624 -0.9039338868955754,42.885966229860934 -0.9039152019376658,42.88582873084174 -0.90393927678728,42.88560461139099 -0.9039929960412705,42.88550239158845 -0.9040386304577036,42.88547487843817 -0.9041137296154562,42.88546697992386 -0.9041672692063897,42.88552990472646 -0.9042262885205563,42.885653713695675 -0.9043524119864468,42.885748100589794 -0.9045320750432706,42.88583261425529 -0.9048083069931373,42.88592890966918 -0.9050577691475374,42.88600947386441 -0.9051758077758706,42.88609991099744 -0.9054011052491279,42.88625123163894 -0.9054976741421705,42.886320013626005 -0.9055889429750373,42.88636319156147</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.9055889429750373,42.88636319156147 -0.9058383152979088,42.88649878061359 -0.9059509640345373,42.886593100394954 -0.9060529228192851,42.88675429276492 -0.9062325858761089,42.8869056118012 -0.9063782027836645,42.88708898443774 -0.9065401690293914,42.88726432660692 -0.9066338633135251,42.88743460022589 -0.9067862175857117,42.887788704662015 -0.9069477346737964,42.888077318019455 -0.907090926130085,42.88825772536384 -0.9071070059736709,42.888468013448446 -0.9070963160217898,42.88868020952449 -0.9070161862984464,42.88885508644912</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

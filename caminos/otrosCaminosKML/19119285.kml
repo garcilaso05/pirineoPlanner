@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue du 19 Mars 1962</name>
+      <description>name: Rue du 19 Mars 1962
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4957889118377221,43.666092901536565 1.495821610514064,43.66596703134684</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.495821610514064,43.66596703134684 1.4962350152078159,43.66600082202771 1.4962596290466006,43.66598522633121 1.496392400045594,43.66590100950008</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

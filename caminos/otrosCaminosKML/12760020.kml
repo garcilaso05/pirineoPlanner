@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>L'Église - Hortoux</name>
+    <Placemark>
+      <name>Rue du Quartier Neuf</name>
+      <description>ref: D 227
+name: Rue du Quartier Neuf
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: tertiary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.910066401593479,42.93128430944162 2.909101880472919,42.93090572436092 2.9087350085108854,42.93076168251859 2.908510339858327,42.9306665752545 2.9084329949123644,42.93061546983823 2.908400386067551,42.930570678569815 2.908385923191476,42.93052180935138 2.908395086007374,42.93045807541338 2.908423921927995,42.93038769833606</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 227
+layer: 1
+bridge: yes
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: tertiary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.908423921927995,42.93038769833606 2.9084486255983077,42.93034198607923 2.9084601240339447,42.93032087292469</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 227
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: tertiary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9084601240339447,42.93032087292469 2.9085742999065562,42.9300906009468 2.908841818198167,42.92963090946793 2.9090107913031096,42.929417407293826 2.9090961312551014,42.92931387886287 2.909133501170921,42.929209297869676 2.909132513024108,42.92911649031127 2.909096939738857,42.92903387765404 2.908968300990171,42.92888180693162</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 227
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.908968300990171,42.92888180693162 2.9088483758997414,42.92874348276072 2.908787559955006,42.92865337126973 2.908752795153511,42.92855648482616 2.908720994792453,42.92821932144556</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

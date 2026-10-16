@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bernoako Galtzada: Intxusburu deribazioa</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground
+mtb:scale: 1
+sac_scale: hiking
+trail_visibility: good
+destination:forward: Lizarrusti
+destination:backward: Etxegarate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.1590287404954833,42.94002979250187 -2.1590847953692123,42.94006412062665 -2.1592483785824506,42.940052414869776 -2.159390581891927,42.940062213509115</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.159390581891927,42.940062213509115 -2.159588121422905,42.94004347114392 -2.1598701924221184,42.94008299451085 -2.1601539702203714,42.94012659513413 -2.1603971441677827,42.94020143293437</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

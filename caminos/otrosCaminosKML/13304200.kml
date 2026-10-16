@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Camí de Viladamant a Palau Borrell</name>
+      <description>name: Camí de Viladamant a Palau Borrell
+width: 3
+highway: track
+name:ca: Camí de Viladamant a Palau Borrell
+tracktype: grade2
+brp_access: 3
+source:name: Institut Cartogràfic i Geològic de Catalunya, cartografia 1:5.000</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0461209226128574,42.13159136889464 3.0463801764038547,42.13163307275489 3.047322329473839,42.131707220285264 3.0477661870557227,42.131707020426816 3.048569909740424,42.13168923302172 3.048956724301766,42.13170648747092 3.049827910464305,42.13185138468707 3.050682208299503,42.13204371441094 3.0511027096839993,42.13213871322083 3.051603789949481,42.13215596754759 3.052088161550679,42.13215576769055 3.0526734139582823,42.13223757578616 3.0532231829121637,42.13224716891096</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Viladamant a Palau Borrell</name>
+      <description>name: Camí de Viladamant a Palau Borrell
+width: 3
+highway: track
+name:ca: Camí de Viladamant a Palau Borrell
+tracktype: grade2
+brp_access: 2
+source:name: Institut Cartogràfic i Geològic de Catalunya, cartografia 1:5.000</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0532231829121637,42.13224716891096 3.0535825090258113,42.13239919309766 3.0542484301459294,42.13250158604493 3.054732262757956,42.132554014900506 3.055251578823705,42.132627695023174 3.055872314685032,42.13268178923588 3.0565532376703946,42.132678191838934</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Viladamant a Palau Borrell</name>
+      <description>name: Camí de Viladamant a Palau Borrell
+width: 3
+highway: track
+name:ca: Camí de Viladamant a Palau Borrell
+tracktype: grade2
+brp_access: 3
+source:name: Institut Cartogràfic i Geològic de Catalunya, cartografia 1:5.000</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0565532376703946,42.132678191838934 3.0567387397765646,42.132632225082176 3.0569627796084244,42.13262702883801 3.0578043213665875,42.13283061470093 3.0587690221502037,42.13300981768404 3.0593649645096885,42.133061380084136 3.0612462163776915,42.13308902657336 3.0625864129500697,42.132996027732716 3.063161783889548,42.13284780222092 3.0636785846725023,42.13269617882163 3.0640219207740924,42.13264788043062</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: compacted
+tracktype: grade2
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0640219207740924,42.13264788043062 3.0641086081990103,42.13263502305963</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Viladamant a Palau Borrell</name>
+      <description>name: Camí de Viladamant a Palau Borrell
+layer: -1
+width: 3
+tunnel: yes
+highway: track
+name:ca: Camí de Viladamant a Palau Borrell
+surface: compacted
+maxheight: 4
+tracktype: grade2
+brp_access: 3
+source:name: Institut Cartogràfic i Geològic de Catalunya, cartografia 1:5.000</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0641086081990103,42.13263502305963 3.0645058432176473,42.13260038142531</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Viladamant a Palau Borrell</name>
+      <description>name: Camí de Viladamant a Palau Borrell
+width: 5
+highway: track
+name:ca: Camí de Viladamant a Palau Borrell
+surface: compacted
+tracktype: grade2
+brp_access: 1
+source:name: Institut Cartogràfic i Geològic de Catalunya, cartografia 1:5.000</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0645058432176473,42.13260038142531 3.0651018754086614,42.1326212330267 3.065543038044692,42.13265241048816 3.066042142016549,42.132683721171205 3.066632514821272,42.132695912347856 3.067089397974776,42.132674994152595 3.0676042224641047,42.13267799198355</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Palau Borrell</name>
+      <description>name: Carrer de Palau Borrell
+lanes: 2
+width: 4
+oneway: no
+highway: unclassified
+name:ca: Carrer de Palau Borrell
+surface: asphalt
+maxspeed: 30
+brp_access: 1
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0676042224641047,42.13267799198355 3.068757659288914,42.132737615480856 3.069359889855388,42.1327566683408 3.070030033057341,42.13279490728014 3.070590042805461,42.13278098404532 3.071175834202235,42.13270457274515 3.071829538234489,42.13265540832018</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Creu</name>
+      <description>lit: yes
+name: Carrer de la Creu
+source: Institut Cartogràfic i Geològic de Catalunya, cartografía 1:1.000
+highway: residential
+name:ca: Carrer de la Creu
+surface: asphalt
+maxspeed: 30
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.071829538234489,42.13265540832018 3.074421357492231,42.13241098461661 3.074525741728246,42.13240092518532</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

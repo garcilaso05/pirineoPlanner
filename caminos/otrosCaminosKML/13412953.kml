@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4324218415274594,43.45842052966671 1.4324379213710452,43.45853790097473 1.4324604690846765,43.45860812803175 1.4324993661364789,43.45868148489836 1.4325514684229579,43.458756797855486 1.432679478350945,43.458921377532285 1.432746402839612,43.45902218562339 1.4327895219732494,43.45909821541792 1.4328200646929097,43.45916270373645 1.432851505727854,43.459264098274126 1.4328622855112634,43.45932050094978 1.4328690228758942,43.45937951178532 1.4328712686641045,43.45943330614325 1.4328640821418315,43.45950209764636 1.43285060741257,43.45955263163906 1.4328289580142226,43.45962037972559 1.4327877253426815,43.4597149921814 1.432557397303833,43.46017709789281 1.4325506599392022,43.46023721636691 1.4325625177009527,43.46027301356442 1.432575902598686,43.46030072540586</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Côte de Clermont</name>
+      <description>ref: D 68e
+name: Côte de Clermont
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 80
+shoulder: no
+cycleway:both: no
+sidewalk:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.432575902598686,43.46030072540586 1.4322955383985123,43.46036429958234</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Tcheline</name>
+      <description>foot: yes
+name: Chemin de la Tcheline
+highway: path
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4322955383985123,43.46036429958234 1.4323179962806154,43.460404008957106 1.4323309320207065,43.46044202299753 1.4323766562686684,43.46050272804511</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Tcheline</name>
+      <description>foot: yes
+name: Chemin de la Tcheline
+highway: track
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4323766562686684,43.46050272804511 1.4323962395418621,43.46054628436822 1.432416271972698,43.46061826959991 1.432471698025728,43.460691428416034 1.432589197664891,43.46081348998707 1.4327114583750598,43.460968218323075 1.4329620883393288,43.46136687180686 1.4329796054873694,43.46146317680937 1.4329593933934766,43.461794211859974 1.432958135752079,43.46197717037947 1.4329849055475457,43.46218157990231</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

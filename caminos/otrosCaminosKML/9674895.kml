@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Altres camins - Fontcoberta</name>
+    <Placemark>
+      <name>Carrer de Fontcoberta</name>
+      <description>ref: GIV-5136
+name: Carrer de Fontcoberta
+oneway: yes
+highway: tertiary
+name:ca: Carrer de Fontcoberta
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.776407956931432,42.14827052197761 2.77651270049356,42.148303223581344 2.7765954353312274,42.1483447832326 2.7766593055479283,42.14837908324473</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-5136
+noname: yes
+source: PNOA
+highway: tertiary
+surface: asphalt
+junction: roundabout
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7766593055479283,42.14837908324473 2.776713294296504,42.148469795031914</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>noname: yes
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.776713294296504,42.148469795031914 2.776636308676655,42.14865521431584 2.7766003760652898,42.14875231945689 2.7766035201687846,42.14877662901965 2.776606304946166,42.14880300321963</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Ramon Margalef</name>
+      <description>name: Carrer Ramon Margalef
+oneway: no
+highway: residential
+name:ca: Carrer Ramon Margalef
+surface: asphalt
+maxspeed: 30
+name:etymology:wikidata: Q1366988</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.776606304946166,42.14880300321963 2.776659844537099,42.14879727549027 2.7767029636707363,42.14879101494827 2.77674689128813,42.14878582002998 2.776759737196693,42.14878322257068</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>noname: yes
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.776759737196693,42.14878322257068 2.7767920765469216,42.148836570367365 2.776985483827592,42.149862224633495</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Parcours botanique de Bau</name>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.22700300040341,43.280395930854915 2.227040460150758,43.28034740550852</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.227040460150758,43.28034740550852 2.2270539348800193,43.28029279809803 2.2270319261555582,43.28002930847888</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Baux</name>
+      <description>name: Chemin du Baux
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.2270319261555582,43.28002930847888 2.227020876877564,43.27982317234465 2.2270638163481444,43.27960258236401 2.2270722605118154,43.27929677649048 2.2270578874672697,43.27910796871773 2.2270798961917304,43.27890608043726</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.2270798961917304,43.27890608043726 2.227018181931711,43.27886841024662 2.2269726373468064,43.27876102391547 2.2269163129784926,43.27865939258462 2.226862593724502,43.2784074717199 2.2266744865040073,43.27816738728756 2.2265392900537475,43.27800761387557 2.226470479102984,43.27780899198396</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

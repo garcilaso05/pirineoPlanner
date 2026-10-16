@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>unclassified</name>
+      <description>note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+oneway: yes
+highway: unclassified
+surface: asphalt
+maxweight: 3.5
+agricultural: designated
+cycleway:both: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5355444835571306,43.62344771387346 1.535702497215607,43.62347990277803 1.5358491022699754,43.62347268466154 1.5361149137625463,43.62340590078581 1.536336168817025,43.62332292480571 1.536814162379705,43.623087912278145 1.5385651585315108,43.622044000758024 1.539234672912765,43.62136060053607 1.5396724219507163,43.620863506370775 1.5407108744191587,43.61945296954516 1.5416464697875691,43.61821649527073 1.5418953929527988,43.61800520019458 1.542846888501738,43.61742197250536 1.5429649271300714,43.617375407695775</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Grand'Rue</name>
+      <description>ref: D 31
+name: Grand'Rue
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.573355562012534,43.458577481136665 1.5733161259715607,43.458613474935255 1.5729205079204345,43.45901501299633 1.572589209243651,43.45936347127662 1.5725557020835537,43.45941407059045</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Faubourg du Sers</name>
+      <description>lit: yes
+ref: D 31
+name: Route du Faubourg du Sers
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5725557020835537,43.45941407059045 1.5725187813253763,43.459488600172776</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Faubourg du Sers</name>
+      <description>lit: yes
+ref: D 31
+name: Route du Faubourg du Sers
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5725187813253763,43.459488600172776 1.572453114478107,43.459586929524896 1.5723376809640979,43.4597144705418 1.5721070834306645,43.460028431561355 1.5719019082197714,43.46033991318818 1.5718026443808761,43.460481471504764 1.5716749039474742,43.460667302969526 1.5712501804811425,43.461284976572315 1.5709249903482916,43.46173057398428 1.570905137580512,43.46175789394116</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Faubourg du Sers</name>
+      <description>ref: D 31
+name: Route du Faubourg du Sers
+oneway: yes
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.570905137580512,43.46175789394116 1.5709284039463713,43.4618030142248 1.5709319972075075,43.46183320306629 1.5709621806010539,43.46186880371096 1.5710073658598451,43.46190349149843</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Nationale 113</name>
+      <description>ref: D 813
+name: Route Nationale 113
+lanes: 2
+highway: primary
+old_ref: N 113
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5710073658598451,43.46190349149843 1.5709622704325823,43.46193452792299 1.5707278101434272,43.462100598604636</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Nationale 113</name>
+      <description>ref: D 813
+name: Route Nationale 113
+lanes: 2
+highway: primary
+old_ref: N 113
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5707278101434272,43.462100598604636 1.5706899012384372,43.46213111330925</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5706899012384372,43.46213111330925 1.570739757736706,43.462165931350825</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground
+informal: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.570739757736706,43.462165931350825 1.5707886260881623,43.46218131909315 1.570806322899259,43.46221202936379 1.5708141382422312,43.46224410886551 1.570819797628521,43.462340282066414 1.5708285112867768,43.462432086579206 1.5707782056308663,43.46256359890896</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse de l'Écluse</name>
+      <description>name: Impasse de l'Écluse
+highway: service
+surface: fine_gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5707782056308663,43.46256359890896 1.5707330203720753,43.46266277088314 1.5705998900469686,43.46282668791182 1.5705584777123707,43.462851594915456 1.570507363572704,43.46286352680101</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.570507363572704,43.46286352680101 1.570476102200817,43.46289801841319 1.570223855269036,43.46321268011403 1.5702229569537522,43.46323719575175 1.5702812576156915,43.46326210258627</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5702812576156915,43.46326210258627 1.5702987747637316,43.463269926720656 1.5702628421523668,43.463312307430954 1.570414387940798,43.463380181706626 1.5704541833078844,43.46333343257391 1.5704864328265842,43.46334777680258</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5704864328265842,43.46334777680258 1.5705812949205873,43.463241825033286 1.5706596280133625,43.463169190913085 1.5706923266897046,43.46313091778233 1.5707143354141655,43.46309799113426 1.5707321220567911,43.46307060658161 1.5707471239220356,43.463046677688546 1.5707674258474569,43.46303239858982 1.5707915905285996,43.463020988348674 1.5708217739221462,43.463011077737484 1.5708499810220675,43.46300540521587</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

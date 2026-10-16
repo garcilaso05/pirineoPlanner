@@ -1,0 +1,229 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Boucle locale Élie Samson</name>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+highway: path
+surface: sett</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2453207412771433,44.556114316679704 -0.24557226955669678,44.55616482108577 -0.24618608839033565,44.55624969911435</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24618608839033565,44.55624969911435 -0.2461798001833468,44.55610650737599</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Brêche</name>
+      <description>name: Rue de la Brêche
+oneway: yes
+highway: residential
+surface: sett
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2461798001833468,44.55610650737599 -0.2460355307487172,44.556106827429446</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Lafargue</name>
+      <description>lit: yes
+name: Rue Lafargue
+oneway: yes
+highway: residential
+surface: sett
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2460355307487172,44.556106827429446 -0.24603499175954674,44.556069189131506</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Laffargue</name>
+      <description>name: Rue Laffargue
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24603499175954674,44.556069189131506 -0.24603059001465455,44.55576430521867 -0.2460747871266332,44.555572591757574 -0.24629882695849264,44.55525938373259</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+highway: path
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24629882695849264,44.55525938373259 -0.24633008833038,44.55515318835431</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Horloge</name>
+      <description>lit: yes
+name: Place de l'Horloge
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24633008833038,44.55515318835431 -0.2462752012665203,44.5551408980991</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Maubec</name>
+      <description>lit: yes
+name: Rue Maubec
+oneway: yes
+highway: pedestrian
+surface: asphalt
+maxspeed: 20
+motor_vehicle:conditional: delivery</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.2462752012665203,44.5551408980991 -0.24611592996664589,44.55467060185216 -0.24608709404602566,44.554597371769255 -0.2459732774995277,44.55429561676662 -0.2458814696774907,44.5536026753538 -0.24584553706612594,44.55328888060213</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Saint-Louis Beaulieu</name>
+      <description>lit: yes
+name: Rue Saint-Louis Beaulieu
+width: 2.1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 20
+sidewalk: no
+parking:both: no
+source:width: ARCore
+ref:FR:FANTOIR: 332270845</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24584553706612594,44.55328888060213 -0.24571096943656479,44.55329150516746 -0.24564952467113105,44.553365569071794 -0.24562356335941998,44.55348079362756 -0.24555070998987794,44.55372442879817</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Saint-Louis Beaulieu</name>
+      <description>name: Rue Saint-Louis Beaulieu
+width: 3.5
+oneway: no
+highway: residential
+surface: asphalt
+maxspeed: 20
+sidewalk: no
+source:width: ARCore</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24555070998987794,44.55372442879817 -0.24550965698139363,44.55383222711358 -0.24547453285378454,44.55383613191818</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Saint-Louis Beaulieu</name>
+      <description>name: Rue Saint-Louis Beaulieu
+width: 3.5
+highway: residential
+surface: asphalt
+maxspeed: 20
+sidewalk: no
+source:width: ARCore</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24547453285378454,44.55383613191818 -0.24536071630728662,44.55384887054116 -0.24505735523583946,44.55381071867705 -0.24491101967605636,44.55392229360525 -0.24453363742519776,44.55441090349348</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Biran</name>
+      <description>lit: yes
+name: Rue Biran
+highway: residential
+surface: asphalt
+maxspeed: 20
+ref:FR:FANTOIR: 332270120</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24453363742519776,44.55441090349348 -0.24534418730605884,44.55462892984949 -0.24554846420166762,44.55467719511559 -0.24574124266163966,44.55474031117238 -0.24584868116962036,44.55480093068783</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Docteurs Thery</name>
+      <description>lit: yes
+name: Rue des Docteurs Thery
+width: 3
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+source:width: ARCore
+access:conditional: no @ Fr 00:00-14:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24584868116962036,44.55480093068783 -0.24571456269770126,44.55488369830866 -0.24564781787209122,44.55497747586517</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Cours des Carmes</name>
+      <description>lit: yes
+name: Cours des Carmes
+width: 7
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+source:width: ARCore
+access:conditional: no @ Fr 00:00-14:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24564781787209122,44.55497747586517 -0.24572695944862216,44.55499943195384</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Cours du Rocher</name>
+      <description>lit: yes
+name: Cours du Rocher
+highway: residential
+surface: asphalt
+maxspeed: 20
+ref:FR:FANTOIR: 332271350
+access:conditional: no @ Fr 00:00-14:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24572695944862216,44.55499943195384 -0.24539566077183889,44.55591159449715</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Cours du Rocher</name>
+      <description>lit: yes
+name: Cours du Rocher
+highway: pedestrian
+surface: sett
+maxspeed: 20
+access:conditional: no @ Fr 00:00-14:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24539566077183889,44.55591159449715 -0.24533026341915495,44.55609280908662</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: compacted
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.24533026341915495,44.55609280908662 -0.2453207412771433,44.556114316679704</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

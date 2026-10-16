@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de la Bécasse</name>
+      <description>name: Chemin de la Bécasse
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5889016266564493,43.50364207316851 1.589466756801689,43.504060709024635 1.589943043565329,43.50440890759369 1.5900900977773393,43.50453661464932 1.5903256360448355,43.50474707007499</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Bécasse</name>
+      <description>name: Chemin de la Bécasse
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5903256360448355,43.50474707007499 1.5905653065626388,43.50495140008971 1.5906494787047607,43.505024831019824 1.5908992103537458,43.50527470401258 1.5911749931459704,43.50559461812061 1.591255302532371,43.5056877251871 1.5913616630620107,43.50587810881862 1.5913914871294434,43.50593296942509 1.5914461046987178,43.5060336991024 1.5914776355651905,43.50608321686405 1.5916113947109958,43.50630057329517</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Fourquevaux</name>
+      <description>ref: D 79
+name: Route de Fourquevaux
+lanes: 2
+highway: tertiary
+surface: asphalt
+sidewalk: no
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5916113947109958,43.50630057329517 1.5920777101749823,43.50629412298069 1.5927353667944861,43.50629803226227 1.5934064083117234,43.50631751351171 1.5935957731736157,43.50631510278888</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: fine_gravel
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5935957731736157,43.50631510278888 1.5935498692625973,43.50638820628717 1.5934356933899858,43.50645342600013</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+horse: yes
+bicycle: yes
+highway: track
+surface: gravel
+tracktype: grade3
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5934356933899858,43.50645342600013 1.5927199157715992,43.50686318140582 1.5919717988029845,43.50724029204822</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5919717988029845,43.50724029204822 1.5912554821954277,43.50758547522546 1.5890714980766762,43.50863801763088 1.5876190120937834,43.50930842968736 1.587010133994207,43.50958812417775 1.5864608141979681,43.50981087551304 1.58617901269334,43.50992658339905 1.5849087050500665,43.51031872463546 1.5840333866372205,43.51066089330885 1.5837623649160013,43.510775426867866</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Serre</name>
+      <description>lit: yes
+name: Chemin de la Serre
+highway: residential
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5837623649160013,43.510775426867866 1.5835738983693932,43.51083393141199 1.583318686997175,43.51092931063626 1.5829978087776875,43.51101367942826</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Serre</name>
+      <description>name: Chemin de la Serre
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5829978087776875,43.51101367942826 1.582302333084722,43.51130483229198 1.5818893775486123,43.51144607577985 1.5815322073916462,43.511560412401806 1.581112783985491,43.511696703978146 1.5808517335639256,43.511796967995785 1.5805860119028834,43.51192270496247 1.5802044974017178,43.51213463304973 1.5800736128648214,43.51220238733811 1.5798730190618775,43.51227502766854 1.5797917215286648,43.51229620084257 1.5794530566665517,43.51238467205553 1.5783845106360914,43.51261047501999 1.5780578831987857,43.51264800018553 1.5773036576862391,43.512776601877945 1.5771096215848692,43.51282500659798 1.575133058465221,43.51336631595691</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Serre</name>
+      <description>name: Chemin de la Serre
+source: survey
+highway: track
+surface: dirt
+tracktype: grade3
+check_date:surface: 2022-09-18</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.575133058465221,43.51336631595691 1.5749392918584362,43.513407423738514 1.5747535202576806,43.51343237504079 1.5740381917969362,43.513508271236255 1.573890059606585,43.513503515511786 1.5736962929998004,43.51351126799394 1.5735038738659417,43.513511202847035 1.5733409194734027,43.513537391897074 1.5731681734442664,43.513588076145695 1.572617326512044,43.51385120358524 1.5721380753079663,43.51404038883427 1.5719799718179615,43.51406449297284 1.571892026751646,43.514053027221635 1.5717668016010398,43.51403667549314 1.5716601715768148,43.514052896928995 1.5701817242822107,43.51459530275171</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

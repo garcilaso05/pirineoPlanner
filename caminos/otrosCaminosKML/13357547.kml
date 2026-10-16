@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: yes
+width: 1
+bicycle: yes
+highway: path
+surface: earth</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5581352264906398,43.45995481551015 1.5578535148175396,43.46036149579955 1.5572603572354358,43.46077228119363 1.5568621340699855,43.46143526989145 1.5566232720359383,43.462164692506995 1.5565428728180093,43.462274688699885 1.5562610713133813,43.46251313263478 1.5560947931542908,43.462692176874455 1.555988432624651,43.46281860291366 1.5556943242006303,43.46290662501279</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Boutane</name>
+      <description>name: Chemin de la Boutane
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5556943242006303,43.46290662501279 1.5554684877382023,43.46296647996699 1.5552336681229337,43.46308332083974 1.5546501225143694,43.46377477685091 1.554478364632046,43.463911828296084 1.5542888201070968,43.46408467437119 1.5538713729945666,43.46463528786426 1.5534910263032702,43.465181984399145</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Boutane</name>
+      <description>name: Chemin de la Boutane
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5534910263032702,43.465181984399145 1.553347295857811,43.465424915584016</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Ruisseau de Fontbazi</name>
+      <description>name: Chemin du Ruisseau de Fontbazi
+lanes: 2
+highway: unclassified
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.553347295857811,43.465424915584016 1.5534021829216706,43.46550830478069 1.5534515902622974,43.465682515459946 1.5534155678194042,43.46592459705605 1.5531761667961863,43.466240612159694 1.5527789317775487,43.466593331832456 1.5524346075291457,43.466951200021754 1.5515772554219822,43.467898702706655 1.5506964572859028,43.46890180193504 1.5505559607754666,43.469147130377436 1.5504786158295039,43.46930118543832 1.5503381193190677,43.46971608251538</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,431 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Ronda de Sant Pere Pescador</name>
+      <description>name: Ronda de Sant Pere Pescador
+oneway: yes
+source: PNOA
+highway: residential
+name:ca: Ronda de Sant Pere Pescador
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.116941674161574,42.13915877090532 3.116946614895636,42.13929319306674 3.116858490166264,42.13948216962678</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda de Sant Pere Pescador</name>
+      <description>name: Ronda de Sant Pere Pescador
+oneway: yes
+source: PNOA
+highway: residential
+name:ca: Ronda de Sant Pere Pescador
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.116858490166264,42.13948216962678 3.1166467572537973,42.13974981329281</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí forestal</name>
+      <description>name: Camí forestal
+width: 3
+oneway: yes
+highway: residential
+name:ca: Camí forestal
+surface: asphalt
+motor_vehicle: permissive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1166467572537973,42.13974981329281 3.1167741383610856,42.14014628087533 3.1167894097209152,42.140213291111955 3.1168408831866956,42.14031087547483 3.116940686014761,42.14049472000932</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Camí Forestal</name>
+      <description>name: Carrer Camí Forestal
+width: 3
+oneway: yes
+bicycle: yes
+highway: residential
+name:ca: Carrer Camí Forestal
+surface: asphalt
+motor_vehicle: permissive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.116940686014761,42.14049472000932 3.1170059037043885,42.14063207017913 3.117019198770593,42.14066057929439 3.117117743957261,42.140760227876825 3.117303066400375,42.14090856808974 3.1173592111056325,42.14097417871518 3.1173487906483364,42.141047382774396 3.117254018385862,42.14121310739286 3.117102921755073,42.141418530714986 3.1169354757861134,42.14161582706554 3.1167232937160043,42.141829375359876 3.11633037061073,42.14222882730056 3.1162950668200646,42.14231148829292 3.1162856345095813,42.142393283270174 3.1166237603825233,42.14312943331051</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Camí Forestal</name>
+      <description>name: Carrer Camí Forestal
+width: 3
+oneway: yes
+bicycle: yes
+highway: residential
+name:ca: Carrer Camí Forestal
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1166237603825233,42.14312943331051 3.116569232644778,42.1434460844321 3.116461794136797,42.143685003782075 3.1163974747624543,42.143827875390805 3.1160582709111706,42.1447622277811</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Camí Forestal</name>
+      <description>name: Carrer Camí Forestal
+width: 3
+oneway: yes
+bicycle: yes
+highway: residential
+name:ca: Carrer Camí Forestal
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1160582709111706,42.1447622277811 3.11597005635027,42.14504709994355 3.1158449210311923,42.14529320661322 3.1156203422101623,42.145522994115034</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1156203422101623,42.145522994115034 3.115584499430326,42.145570616637876</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+width: 1.5
+bridge: yes
+bicycle: yes
+highway: path
+surface: metal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.115584499430326,42.145570616637876 3.115464215013782,42.14572926931568</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Ronda</name>
+      <description>name: Camí de Ronda
+highway: path
+name:ca: Camí de Ronda
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.114598418742948,42.14968486755496 3.1145529639895715,42.149677075287386 3.1145008617030925,42.149672812850014</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Ronda</name>
+      <description>name: Camí de Ronda
+highway: path
+name:ca: Camí de Ronda
+surface: sand</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1145008617030925,42.149672812850014 3.114453879813733,42.149930290192216 3.1144125573106636,42.1500196677521</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Ronda</name>
+      <description>name: Camí de Ronda
+highway: path
+name:ca: Camí de Ronda
+surface: sand</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1144125573106636,42.1500196677521 3.1143393446150074,42.1501635906664 3.1142631674789145,42.15037597793244 3.1141761207278833,42.150634984204665 3.114136325360797,42.150753198337675 3.1140535905231292,42.151024190917056 3.1140352648913336,42.15128479291025 3.1139642081523595,42.15174092706461 3.1139531588743647,42.15179766888459 3.1139669929297398,42.15186912887423 3.1139637589947173,42.15197468705242 3.1139022243977554,42.152126597282546 3.1138414982845486,42.152329987260934 3.1138898276468345,42.152366216448485 3.1137258851074825,42.15312302877962 3.1136463842048383,42.15360059374841 3.1135597866114493,42.15398738476763 3.1136106312565297,42.15412197523425</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Ronda</name>
+      <description>name: Camí de Ronda
+highway: path
+name:ca: Camí de Ronda
+surface: sand</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1130226839030737,42.156656830988396 3.1132267811356256,42.15681612181186 3.11316659401159,42.15692220448316 3.113136859775685,42.157072571204104 3.1131114374531443,42.15718371448963 3.1130695759609046,42.15731669993785 3.1131064068875536,42.15733467992193 3.1131110781270315,42.157380895116816 3.1130856558044906,42.15750189352912 3.113025109354341,42.157728973029 3.112999237874158,42.15774388965971 3.112944440641827,42.15800333192428 3.1128918891977055,42.158030967523764 3.1128479615803126,42.15810628279505 3.1127689098353097,42.15848558805085 3.112761902976094,42.15874109840311 3.112757141905088,42.158913502381566 3.1127801387763614,42.159237732461534 3.112644762663045,42.159922878628336 3.1125764907014517,42.16027267388363</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Ronda</name>
+      <description>name: Camí de Ronda
+highway: path
+name:ca: Camí de Ronda
+surface: sand</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1125764907014517,42.16027267388363 3.1127423197029005,42.16029338319373</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Ronda</name>
+      <description>name: Camí de Ronda
+highway: path
+name:ca: Camí de Ronda
+surface: sand</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1101203170516123,42.18213466798641 3.10992187920535,42.18214332162055 3.109796025234045,42.182178202410746</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Ronda</name>
+      <description>foot: yes
+name: Camí de Ronda
+width: 3
+bicycle: yes
+highway: track
+name:ca: Camí de Ronda
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.109796025234045,42.182178202410746 3.1095504258353666,42.18217407529535</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Ronda</name>
+      <description>foot: yes
+name: Camí de Ronda
+width: 3
+bicycle: yes
+highway: path
+name:ca: Camí de Ronda
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1095504258353666,42.18217407529535 3.109532818855798,42.182951499261904 3.109495987929149,42.18347610027184 3.1094455026101815,42.18391662596472 3.109314528241757,42.18453920108785</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Ronda</name>
+      <description>foot: yes
+name: Camí de Ronda
+width: 3
+bicycle: yes
+highway: path
+name:ca: Camí de Ronda
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.109314528241757,42.18453920108785 3.1094987727065297,42.18456942108643</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Ronda</name>
+      <description>foot: yes
+name: Camí de Ronda
+horse: yes
+width: 3
+bicycle: yes
+highway: path
+name:ca: Camí de Ronda
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1094987727065297,42.18456942108643 3.10948008774862,42.18485031994153 3.1094598756547276,42.18501872552876 3.109402203813487,42.185115907995524 3.109302311153893,42.18514472989016 3.1091920878685313,42.1851879959891 3.1091280379887736,42.18529076949615 3.1088350075430937,42.18730467051592 3.1086277662070474,42.18868739314499</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Ronda</name>
+      <description>foot: yes
+name: Camí de Ronda
+horse: yes
+bicycle: yes
+highway: path
+name:ca: Camí de Ronda</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1086277662070474,42.18868739314499 3.1086268678917635,42.188864374665805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Ronda</name>
+      <description>foot: yes
+name: Camí de Ronda
+horse: yes
+bicycle: yes
+highway: path
+name:ca: Camí de Ronda</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1086268678917635,42.188864374665805 3.10864402571369,42.18889272893637 3.108602613379092,42.18927750711116</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Ronda</name>
+      <description>foot: yes
+name: Camí de Ronda
+horse: yes
+bicycle: yes
+highway: path
+name:ca: Camí de Ronda</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.108602613379092,42.18927750711116 3.1091109699983757,42.18936842650384 3.10947613516137,42.18944663305104</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Ronda</name>
+      <description>foot: yes
+name: Camí de Ronda
+bicycle: no
+highway: path
+name:ca: Camí de Ronda
+surface: sand</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.10947613516137,42.18944663305104 3.1093530659674453,42.18983832991881 3.109313001105774,42.19005051745484 3.1093288114547746,42.190201670688666 3.1093808239097247,42.1904109950237 3.109441460191403,42.19068960497106 3.1094657147040743,42.19095157440816 3.109496886244433,42.191114572628365 3.109495179445393,42.191326489653264 3.109517727159025,42.19160769126684 3.109483142020586,42.191895414131814 3.109510810131337,42.192239508459195 3.1095038931036494,42.19251298557405 3.1094899692167455,42.19276849159756 3.1094311295656354,42.19316529260076 3.1093582761960934,42.19339131232023 3.109375613681077,42.1935415258033 3.109444873789483,42.19374571440498 3.1094328363646753,42.19388820677693</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+bicycle: yes
+highway: track
+surface: ground
+maxspeed: 20
+motorcar: no
+maxheight: 2
+tracktype: grade3
+brp_access: 2
+motorcycle: no
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1094328363646753,42.19388820677693 3.1091987354016335,42.19390737433913 3.108702506038686,42.19396048442898 3.1082033122353008,42.19401392724378 3.1070956894899817,42.19390171724672 3.1057472284169902,42.19381958951882 3.105643023844032,42.19381080437467 3.1039832066935644,42.19363350393173</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+bicycle: yes
+highway: track
+surface: ground
+maxspeed: 20
+motorcar: no
+tracktype: grade3
+brp_access: 3
+motorcycle: no
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1039832066935644,42.19363350393173 3.1014566051254495,42.193366820234196 3.099559093750804,42.19321407725525</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 5
+bicycle: yes
+highway: track
+surface: compacted
+maxspeed: 20
+tracktype: grade2
+brp_access: 1
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.099559093750804,42.19321407725525 3.0990042043998036,42.19222140528401 3.098566185867267,42.19150832241353 3.0981450556620715,42.190824716376284 3.097579117033076,42.19006163265433 3.0968925346614236,42.189584609132005 3.09608324242196,42.189043818379595 3.0955042782213456,42.18874589893761 3.095275836644594,42.188627090189435 3.094970319616465,42.18851287383782 3.0945241264148424,42.188407376616425 3.0942126805058385,42.18836690823493 3.0937222003607094,42.188412901080966 3.0931165561961556,42.1886053917609 3.092546844642967,42.188949171202346 3.092291633270749,42.18900920761391</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 5
+bicycle: yes
+highway: track
+surface: compacted
+maxspeed: 20
+tracktype: grade2
+brp_access: 3
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.092291633270749,42.18900920761391 3.091915328998231,42.18893359633682 3.0914718307424613,42.18878849697781 3.0910485445805844,42.188704033023264 3.0905783663608757,42.18866982142878</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: yes
+highway: track
+surface: dirt
+tracktype: grade2
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0905783663608757,42.18866982142878 3.09061771257032,42.18880793232412 3.090776444881024,42.18911989543831 3.0909572757477175,42.189238104229794 3.090986470994451,42.18930299916491</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+bicycle: yes
+highway: footway
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.090986470994451,42.18930299916491 3.0908793918125843,42.18943179045421</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: yes
+highway: path
+surface: gravel
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0908793918125843,42.18943179045421 3.090772043136132,42.189546005145495 3.0903943015591597,42.18972198588591 3.0901824788151644,42.189845584774176 3.0900248244828017,42.1899810307743 3.0899276267690596,42.18996039774142 3.089786321774868,42.18988412201948 3.089688944398069,42.18988591909252 3.089534613832257,42.189956470808596 3.089434631341135,42.189947285778324 3.0886312679825467,42.18952097910025 3.088153993072094,42.1891813959858 3.0879240243593595,42.18891609124833 3.0872726559468444,42.18818653075892 3.087055083985031,42.187902784632314</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: yes
+highway: track
+surface: gravel
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.087055083985031,42.187902784632314 3.0867148021554063,42.18754182683474 3.0863254723112687,42.18711470520005 3.0862871142486368,42.18707769717439</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0862871142486368,42.18707769717439 3.08632879607782,42.18704348469974</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.08632879607782,42.18704348469974 3.086289360036847,42.187028907783706 3.0862833413244437,42.18701160185164</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: no
+width: 2
+highway: steps
+incline: down
+surface: concrete
+handrail: yes
+step_count: 24
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0862833413244437,42.18701160185164 3.0863665253197534,42.186968603246065 3.086353589579662,42.18695182978829</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

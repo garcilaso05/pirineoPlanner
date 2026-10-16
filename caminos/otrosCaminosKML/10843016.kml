@@ -1,0 +1,293 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>La jurade</name>
+    <Placemark>
+      <name>Route de Pau</name>
+      <description>ref: D 2934 B
+name: Route de Pau
+highway: tertiary
+old_ref: D 934b
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43130551224998187,43.055426931514546 -0.4313206937782835,43.05538472541504 -0.43133210238239184,43.05535440001923 -0.431379892755507,43.05524182834304</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Lavillette</name>
+      <description>ref: D 2934 B
+name: Pont de Lavillette
+layer: 1
+bridge: yes
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: tertiary
+old_ref: D 934b
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.431379892755507,43.05524182834304 -0.4314012726592691,43.05512072330614</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Pau</name>
+      <description>ref: D 2934 B
+name: Route de Pau
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: tertiary
+old_ref: D 934b
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4314012726592691,43.05512072330614 -0.4314012726592691,43.055082127179084 -0.4314010929962122,43.05495327632729</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Mairie</name>
+      <description>name: Place de la Mairie
+oneway: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4314010929962122,43.05495327632729 -0.43145544107090145,43.05495209481033 -0.43178817705213934,43.0549492722975</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Mairie</name>
+      <description>name: Place de la Mairie
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43178817705213934,43.0549492722975 -0.43184710653477754,43.05493640688854 -0.4319022630932225,43.0549115950208 -0.4319233735023993,43.05488140067084</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>name: Rue de l'Église
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4319233735023993,43.05488140067084 -0.4319309193507859,43.05462579833884 -0.4319296617093882,43.05455050900505</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4319296617093882,43.05455050900505 -0.4318657914926873,43.05452287444871 -0.431790063514236,43.05449799677332</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Cordonniers</name>
+      <description>name: Rue des Cordonniers
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.431790063514236,43.05449799677332 -0.43176733613754775,43.054446009619625 -0.4317458664022573,43.05426773010631 -0.4317316730207682,43.05406083069885 -0.4317122694106312,43.053943267939005 -0.4317082269918527,43.05383791418552</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Laslies</name>
+      <description>name: Rue Laslies
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4317082269918527,43.05383791418552 -0.4318456692303229,43.05382747726177 -0.4319000173050122,43.053833516236736 -0.43195301790677526,43.05385110802998 -0.43199317259997544,43.053873229046424 -0.4320542580392955,43.05388648852425 -0.43225682813586447,43.05391392644454 -0.43277371875034687,43.05418200346951</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>name: Rue de l'Église
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43277371875034687,43.05418200346951 -0.432853129821463,43.054140387279496 -0.432932720555636,43.054123583257855 -0.43313789576652895,43.054082426513546 -0.43329968234919874,43.054066410165376 -0.4334293990762257,43.053964995076875 -0.4335215662243763,43.05394097050706 -0.43383651556298863,43.05393998589334</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43383651556298863,43.05393998589334 -0.43384019865565354,43.05386338289765 -0.43382852055696,43.053715493553035</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43382852055696,43.053715493553035 -0.43384019865565354,43.05386338289765 -0.43383651556298863,43.05393998589334</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>name: Rue de l'Église
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43383651556298863,43.05393998589334 -0.43399973945011316,43.053992432962026 -0.4342605203770931,43.054057089173945 -0.43432906183327136,43.054054529183105</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Boila</name>
+      <description>name: Rue du Boila
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43432906183327136,43.054054529183105 -0.434391135419404,43.05420057977235</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'Aspeigt</name>
+      <description>name: Rue d'Aspeigt
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.434391135419404,43.05420057977235 -0.4344232951065755,43.05423550058081 -0.43463808229100853,43.05429989397436 -0.43515793734592845,43.0544320282185 -0.4354050638805897,43.05452451545597 -0.43572333698575333,43.054610372894366 -0.43577813421808453,43.054619431240944 -0.4360594865650708,43.05466531371505 -0.436284784038328,43.05474270338971 -0.43638737164377445,43.05508980702263 -0.43638835979058693,43.05514192490982</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Moulin</name>
+      <description>name: Chemin du Moulin
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43638835979058693,43.05514192490982 -0.4363525170107506,43.05514960474587 -0.4362963723054932,43.05514500997228 -0.43593408175140774,43.05508389945075 -0.4356617125572627,43.05503742653219 -0.4355655928218619,43.0550210165949</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Moulin</name>
+      <description>name: Chemin du Moulin
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4355655928218619,43.0550210165949 -0.4352675318105911,43.054985899314346 -0.4350704414372552,43.05496968628271 -0.43483912525159446,43.05496082490733 -0.4346241584041047,43.05491001966378 -0.4345345963702779,43.05489288765355</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Poundet</name>
+      <description>name: Place du Poundet
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: service
+service: parking_aisle</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4345345963702779,43.05489288765355 -0.4344614735061506,43.05485658878083 -0.43414409871627113,43.05481169104958</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Boila</name>
+      <description>name: Rue du Boila
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43414409871627113,43.05481169104958 -0.4341300849978389,43.054889211819315</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Frechou</name>
+      <description>name: Pont de Frechou
+layer: 1
+bridge: yes
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4341300849978389,43.054889211819315 -0.4341114000399292,43.05496292538161</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Boila</name>
+      <description>name: Rue du Boila
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4341114000399292,43.05496292538161 -0.43410079991957656,43.054985768034754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée des Arrius</name>
+      <description>name: Allée des Arrius
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43410079991957656,43.054985768034754 -0.43448779414397526,43.055056593333376 -0.4348785612925673,43.05512111714405 -0.43530121863374555,43.055174679075705 -0.43557996586640785,43.05520251025701 -0.4358705708608205,43.05522889735593 -0.43620483397804133,43.05527661727962 -0.4363941090084053,43.055350921130874</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Marque Dessus</name>
+      <description>name: Rue Marque Dessus
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4363941090084053,43.055350921130874 -0.43619423385768874,43.05544491668653 -0.4359265359030211,43.05563730518535 -0.43588179980187197,43.055695395759805 -0.435880272665889,43.05574928538476</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Bénou</name>
+      <description>name: Rue du Bénou
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.435880272665889,43.05574928538476 -0.4357381591879413,43.0557752784147 -0.4355283127375709,43.05580291240667 -0.4353869179118506,43.055821816413015 -0.4353011288022171,43.05582280099651 -0.4352174956492656,43.0558220133297 -0.43513467098006975,43.055815908911654 -0.4349990253721677,43.05580192782285 -0.4349483603901434,43.05579142559442 -0.4349027259737101,43.05576608896093 -0.43479411965586007,43.055674785099015 -0.43467482338612895,43.055561098144906 -0.43463960942699154,43.05554527910053 -0.4345836443847908,43.05552289613034 -0.4345113300044192,43.05551981108688 -0.43424057777778563,43.055554402948204 -0.43417994149610756,43.055557225433176 -0.4340766352384338,43.05555236813336 -0.4338820601478935,43.05548902628309</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Bénou</name>
+      <description>name: Rue du Bénou
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4338820601478935,43.05548902628309 -0.43365667284310794,43.05549631224018 -0.43357124305958816,43.05549158621405 -0.4332452444429812,43.05547360105575 -0.43297377356412026,43.055476489183725 -0.43276060334719874,43.05547878655814 -0.43252614305804343,43.05546093267466 -0.4320256916132605,43.05538800738338 -0.43180353824349776,43.05538288751269 -0.43173948836374,43.05538991092494</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>ref: D 2294 A
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43173948836374,43.05538991092494 -0.4316241446812591,43.05543310161064</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>ref: D 2294 A
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4316241446812591,43.05543310161064 -0.4313602196507848,43.055431591906334 -0.43130551224998187,43.055426931514546</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

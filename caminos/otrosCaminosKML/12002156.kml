@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Impasse Paul Riquet</name>
+      <description>lit: no
+foot: yes
+name: Impasse Paul Riquet
+oneway: no
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5188652840138264,43.52367398074561 1.5189464917155109,43.52367808430925 1.5190225790200758,43.52369163258086 1.5190545590441906,43.523703226772405 1.5190966900310159,43.52371840343552 1.519244822221367,43.52381037523498 1.5194551178293794,43.523949830790905</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse Paul Riquet</name>
+      <description>lit: no
+name: Impasse Paul Riquet
+layer: -1
+tunnel: yes
+highway: cycleway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5194551178293794,43.523949830790905 1.5197912674086969,43.524192590814444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse Paul Riquet</name>
+      <description>lit: no
+name: Impasse Paul Riquet
+highway: residential
+old_ref: D 57w
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5197912674086969,43.524192590814444 1.52023853858866,43.52456171184383 1.5203591823313172,43.524677391447504 1.5204021218018982,43.52474838839171 1.5204269153037397,43.52481977606054 1.5204350001412967,43.52490692622056 1.5204162253518587,43.52501290012442 1.5203843351592725,43.52515398125887 1.5202855204780195,43.52554478600259 1.52027474069461,43.525633693728274 1.5202821068799397,43.52571009564719 1.520310313979861,43.52579607211543 1.5203431024877314,43.525866090739555 1.5203846944853863,43.52590790647446 1.5205791797443982,43.526004694808854 1.5206530212607527,43.52604423077964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de l'Hers</name>
+      <description>lit: no
+foot: yes
+name: Pont de l'Hers
+layer: 1
+bridge: yes
+oneway: no
+highway: cycleway
+old_ref: D 57w
+surface: asphalt
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5206530212607527,43.52604423077964 1.5210754091073457,43.52626379498275</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+highway: cycleway
+old_ref: D 57w
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5210754091073457,43.52626379498275 1.5211283198775805,43.52629147655947</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

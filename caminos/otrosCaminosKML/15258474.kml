@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Quai de la Daurade</name>
+      <description>lit: yes
+name: Quai de la Daurade
+width: 2.3
+highway: cycleway
+name:oc: Cai de la Daurada
+surface: paving_stones
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4388781233059549,43.60193907249313 1.438837160128999,43.60192580201249 1.4387969156042706,43.601904204949484 1.4385431415365069,43.60172602888396 1.4384382183113213,43.60166143261158 1.4383933025471154,43.60165460218598 1.4383698565182002,43.601654211875925</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quai Lucien Lombard</name>
+      <description>lit: yes
+name: Quai Lucien Lombard
+width: 3
+highway: cycleway
+name:oc: Cai Lucien Lombard
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4383698565182002,43.601654211875925 1.43834497318483,43.601656488684554 1.4383155084435109,43.601666701796525 1.4369699219794283,43.602401911199905 1.4369699219794283,43.60240360252246 1.436079062712167,43.60291522541007 1.4359947109069884,43.60297650277376</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

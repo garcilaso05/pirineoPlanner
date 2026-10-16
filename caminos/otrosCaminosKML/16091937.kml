@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+oneway: no
+bicycle: designated
+highway: cycleway
+incline: up
+surface: concrete
+embankment: yes
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4006981965948924,43.62926413165706 1.4006875964745396,43.62948631079025 1.400684362539517,43.62955003190019</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée de la Garonne</name>
+      <description>lit: no
+foot: designated
+name: Allée de la Garonne
+oneway: no
+bicycle: designated
+highway: cycleway
+surface: concrete
+embankment: yes
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.400684362539517,43.62955003190019 1.4007105933458133,43.629608681270234 1.4007461666310643,43.62975062291236 1.4008896275819382,43.63027222143172 1.4010389275821589,43.6308602009719 1.4010879755966716,43.63103900595045 1.4011651408795776,43.63130149069532 1.401280574393587,43.63164368793652 1.4014025656091706,43.63196839315045 1.401697123190833,43.63281142216572 1.4018731929865205,43.63324489546163</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée de la Garonne</name>
+      <description>foot: designated
+name: Allée de la Garonne
+bicycle: designated
+highway: cycleway
+surface: compacted
+embankment: yes
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4018731929865205,43.63324489546163 1.4020515085704184,43.63365190368982 1.4021045091721813,43.63376308277441 1.4022468921447142,43.63407678873161 1.4023422932278877,43.63434621695532</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

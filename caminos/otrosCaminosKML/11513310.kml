@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Camí del Santuari</name>
+      <description>name: Camí del Santuari
+highway: unclassified
+name:ca: Camí del Santuari</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.834021407678437,42.32518730601272 2.834296561649963,42.32509611731685</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Santuari</name>
+      <description>name: Camí del Santuari
+oneway: yes
+highway: unclassified
+name:ca: Camí del Santuari</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.834296561649963,42.32509611731685 2.834288476812406,42.325083033421755 2.834296292155378,42.32505201727377 2.8343783981723463,42.32496348501564 2.8345632714578186,42.32464687988929 2.834673584574708,42.324515110053134</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Santuari</name>
+      <description>name: Camí del Santuari
+highway: unclassified
+name:ca: Camí del Santuari</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.834673584574708,42.324515110053134 2.8349105601466587,42.32402508855335 2.83513900172341,42.32356169658952 2.8352087109894577,42.32338542476438 2.835306986681541,42.32291857435311 2.8353380683903713,42.32273081037835 2.8353743603278496,42.32256058029827 2.835390889329078,42.32246121832192 2.8354174794614875,42.32236922865179 2.8357803988362718,42.32149156737541 2.8358146246485965,42.32141007058456 2.835858821760575,42.32132817517006 2.8358926882467865,42.32127231619277 2.835924937765486,42.321216390746095 2.835971739991789,42.32116033240999 2.8360480069594107,42.32109258411725 2.8366312830733893,42.32068987878928 2.837187519897317,42.320267311067354</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Santuari</name>
+      <description>name: Camí del Santuari
+oneway: yes
+highway: unclassified
+name:ca: Camí del Santuari</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.837187519897317,42.320267311067354 2.837480999500638,42.320168808941226</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

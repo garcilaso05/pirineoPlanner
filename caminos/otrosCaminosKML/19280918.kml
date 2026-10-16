@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Saint-Elme</name>
+      <description>name: Chemin de Saint-Elme
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008
+highway: track
+surface: unhewn_cobblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.09034282809338,42.522945114674535 3.0904897924738615,42.52279270726236 3.0906399009578385,42.52259627196509 3.0908095028834803,42.52239970363617 3.0909243075767905,42.522219421664495</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: track
+incline: up
+surface: dirt
+sac_scale: demanding_mountain_hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0909243075767905,42.522219421664495 3.0909554791171496,42.522177711108505 3.0910088390450263,42.522106670684785 3.0913915213560608,42.521743787260206 3.0914825206943424,42.521681220939506 3.092058700117577,42.52123219816254 3.0922218341731726,42.521089519208516 3.092323343800278,42.52097060879651 3.0925024678679316,42.5208111122371 3.09258798748298,42.52071497712792</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: path
+incline: up
+surface: dirt
+sac_scale: demanding_mountain_hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.09258798748298,42.52071497712792 3.0927161770740237,42.520509928126046 3.092762979300326,42.52031249251321 3.0928389767733626,42.52009201538731 3.0928067272546627,42.5199043774848 3.0926609306840502,42.51957829404486 3.0925804416345932,42.51947487392634 3.092444526532106,42.5193215311052 3.092366462933916,42.51915190013667 3.092332326953119,42.518992531355984 3.092316157278005,42.51887302105641 3.0922381835113435,42.518771188831316 3.092110263414885,42.51861188529067 3.092090230984049,42.51850422605939 3.0920142335110126,42.5183831919666 3.0919441649188513,42.51828149136601 3.091810405773046,42.51814728074979 3.0915586978304352,42.51793348337111</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: path
+surface: rock</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0915586978304352,42.51793348337111 3.091620501921983,42.517902430052104 3.0917342286369527,42.51788607573931 3.0918025005985457,42.51778761871311 3.091912184894737,42.517769807707936</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>type: route
+route: hiking
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: path
+surface: rock</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.091912184894737,42.517769807707936 3.0921011904305153,42.517860716614244 3.0924497367607535,42.517913686054385 3.092566966905331,42.51794123014551 3.092630298132862,42.517936595323334</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

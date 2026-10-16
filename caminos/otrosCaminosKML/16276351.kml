@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4572160620213856,43.643048280965125 1.4572039347650503,43.643083774723095</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+width: 1.5
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4572039347650503,43.643083774723095 1.457229267256062,43.64315723243399</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse Jean-Sébastien Bach</name>
+      <description>lit: yes
+name: Impasse Jean-Sébastien Bach
+oneway: yes
+highway: living_street
+surface: asphalt
+maxspeed: 20
+sidewalk: no
+smoothness: excellent
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-de-rencontre/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4573372447532134,43.64323660566489 1.4573244886761787,43.64325682274461 1.457303198603945,43.64327268437154 1.4572756203247228,43.64328263038956 1.4572451674365912,43.64328510064214 1.4572153433691584,43.64328003012357 1.4571894718889757,43.6432680038919 1.4571724038985774,43.643252402290464 1.4571626122619805,43.643233680363394 1.4571610851259975,43.643213788309495 1.4571680021536855,43.643194481309706 1.4571827345243449,43.64317757955395 1.457203755101993,43.64316477322047 1.457229267256062,43.64315723243399 1.4572598998072506,43.64315567227115 1.4572893645485696,43.6431617829087 1.4573143377134683,43.643174784263124 1.4573317650299802,43.64319298615458 1.4573396702044805,43.64321450338344 1.4573372447532134,43.64323660566489</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse Jean-Sébastien Bach</name>
+      <description>lit: yes
+name: Impasse Jean-Sébastien Bach
+highway: living_street
+surface: asphalt
+maxspeed: 20
+sidewalk: right
+smoothness: good
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-de-rencontre/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.457177973453339,43.64400953033386 1.4571342254990023,43.64398411303653 1.4571094319971607,43.64393899893241 1.4571067370513082,43.643892909704604 1.4571459934292241,43.64333931616019 1.4571894718889757,43.6432680038919</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

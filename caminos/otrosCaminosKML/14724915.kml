@@ -1,0 +1,215 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Lamasquère : Balade de l'Houssat</name>
+    <Placemark>
+      <name>Rue de la Paix</name>
+      <description>ref: D 19
+name: Rue de la Paix
+highway: tertiary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.24405168414917,43.48316159989386 1.244291175003916,43.482806891152116</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>ref: C 4
+name: Rue de l'Église
+bicycle: yes
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.244291175003916,43.482806891152116 1.2442696154370974,43.482796331984545 1.2442305387222379,43.48277391004236 1.2441970315621405,43.48274907642809 1.2437492213930068,43.482362231276085 1.2437008920307213,43.482307414433286</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2437008920307213,43.482307414433286 1.2436319014169008,43.48235799454209</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2436319014169008,43.48235799454209 1.243483230237379,43.48221322842194</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.243483230237379,43.48221322842194 1.2432848822226454,43.482020293296664 1.2432046626677735,43.4819586321436 1.2431437568915105,43.4818862160579 1.2428918692858433,43.48158612183069</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2428918692858433,43.48158612183069 1.2429214238586908,43.48156083145847 1.2429938280705908,43.4815041236266</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>ref: C 4
+name: Rue de l'Église
+bicycle: yes
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2429938280705908,43.4815041236266 1.242957895459226,43.48146390666071</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>ref: C 4
+name: Rue de l'Église
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.24284057548312,43.48134996930889 1.2428277295745573,43.481334977536086 1.2427537083951457,43.48124900290623 1.2427150808379286,43.48120422304679</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>ref: C 4
+name: Rue de l'Église
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2427150808379286,43.48120422304679 1.2426281239184258,43.481088590476006 1.2425600316198895,43.48099792239226 1.2424551083947044,43.48085843276695 1.242241129694027,43.48044217816694 1.2420411647117822,43.47987358773955</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Prieuré</name>
+      <description>ref: C 24
+name: Chemin du Prieuré
+highway: unclassified
+created_by: Potlatch 0.10f</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2420411647117822,43.47987358773955 1.2412818188021157,43.47865132508787 1.2424498083345281,43.47739162102552</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2424498083345281,43.47739162102552 1.2431716944968463,43.47670996839976 1.2447166171224753,43.47516456947171 1.2455480977494562,43.47433928013923 1.2460497170041085,43.47384781694311 1.2461462858971515,43.47371789371912 1.2464312315052741,43.47380400944471 1.2467470791591706,43.47392421923039 1.246883892576942,43.47403171682429 1.2470367858382991,43.4741776759559 1.2471018238648692,43.47420740229233 1.2472284863199303,43.47420740229233 1.2473599996775253,43.474164116569504 1.2477206732640993,43.474111117592585 1.2480137037097792,43.474097884138445 1.248137761050516,43.47411450744244 1.2482397198352635,43.474146124302116 1.2482907441434015,43.474245407652916 1.2483095189328397,43.47444827634317 1.2483335937824538,43.474702317569786 1.2483858757319897,43.47505948586377 1.2485039143603232,43.47557720991137 1.2486701925194137,43.47583998152538 1.249072458103642,43.47646858186899 1.2499388831951757,43.47782719152736 1.2506242079254304,43.47891128041139 1.2506322927629874,43.478975486857436 1.2506322927629874,43.4790922967853 1.2506336402359137,43.479131211649744 1.2506332809097997,43.47915532972735</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2506332809097997,43.47915532972735 1.2506514268785394,43.479175993045644</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2506514268785394,43.479175993045644 1.2507005647245806,43.479219927017525</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Moundas</name>
+      <description>ref: D 19
+name: Route de Moundas
+source: B
+highway: tertiary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2507005647245806,43.479219927017525 1.2507825809100208,43.47916908354567</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Ruhoun</name>
+      <description>name: Chemin du Ruhoun
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2507825809100208,43.47916908354567 1.2508013556994588,43.4791903986987 1.2508814854228023,43.47926457797994 1.2512533879504277,43.47978207044951 1.2515503709833578,43.480219579204444 1.2516932929450608,43.48039980946714</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2516932929450608,43.48039980946714 1.2516774825960606,43.480422818933945</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2516774825960606,43.480422818933945 1.251642268636923,43.48044908752132</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.251642268636923,43.48044908752132 1.2517548275420232,43.48055487876378 1.2536944699034942,43.48355939003878 1.2537660656316385,43.48371060566107 1.2538172696028331,43.48403539207371 1.2538811398195342,43.48497949839097</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Lavizard</name>
+      <description>ref: C 2
+name: Chemin de Lavizard
+lanes: 1
+oneway: no
+highway: residential
+cycleway: lane</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2538811398195342,43.48497949839097 1.253480760697402,43.484978520725505 1.25317766912054,43.48497799930392 1.2529999823573414,43.4849654200068 1.252828314306546,43.48493419987463 1.2525139937886327,43.484834086774136 1.252014889816776,43.484614632541756 1.2517125168921412,43.48447977892181 1.2512068552187103,43.4843236768447 1.2507046969748874,43.484173831506894 1.2504846995618066,43.484116409162795 1.2499570291639148,43.48397379815611 1.2486595025675329,43.48368818405822 1.2484261202567184,43.48362307011207 1.2482625370434803,43.48353449156813 1.2480686806051673,43.48340269896878 1.2479415689924642,43.4832804874736 1.2477793332521523,43.48312803236051 1.247670187945132,43.4830494255978</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.247670187945132,43.4830494255978 1.2475420881856163,43.4830655901809 1.2470625674869533,43.48332761225544 1.2467254297608232,43.48353077635043 1.246598228316592,43.48359132785261 1.2465754111083756,43.48357301249613</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2465754111083756,43.48357301249613 1.24654459889413,43.483544920248185 1.2463017842728323,43.483312620973365 1.2462374648984893,43.483296912712945 1.246194166101795,43.483297173430984 1.2461671268117431,43.48330538604895 1.2461514961257996,43.48331020933199 1.2460701985925864,43.48334970809483 1.2459608736225094,43.483383796940366 1.2456573328880052,43.48327351326349 1.245410475847929,43.4832832250138 1.2448522627303773,43.48341977596869</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.2448522627303773,43.48341977596869 1.244631097507427,43.48334977327429 1.2442885698895922,43.48323851184169 1.24405168414917,43.48316159989386</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

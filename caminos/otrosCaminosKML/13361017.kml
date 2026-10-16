@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6489255268053327,43.45711430204437 1.6498245607416795,43.45690400667152 1.6503407327039346,43.45691998262475 1.650759078131749,43.457056723570034 1.6513675070736833,43.45719020382256 1.6516915293966652,43.45729570974431 1.652217043837875,43.45798970980706</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.652217043837875,43.45798970980706 1.652603229578518,43.45853177158984 1.6535334350552238,43.45919739307651 1.6547970053338663,43.45989319704586 1.6554183700158918,43.460286184841216</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade5
+created_by: Potlatch 0.8b</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6554183700158918,43.460286184841216 1.6554729875851664,43.46034767249648 1.655487540292769,43.460700817776406 1.655915587525652,43.46130049494534 1.6560474602093604,43.46140781938253</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Embiroubet</name>
+      <description>name: Chemin d'Embiroubet
+highway: unclassified
+surface: fine_gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6560474602093604,43.46140781938253 1.6560474602093604,43.461451114241285 1.656061923085435,43.4614895840446 1.656084380967538,43.46152701057551 1.6561372917377724,43.46160388485815 1.6563083309678688,43.461800471319535 1.6566443008841294,43.462185492039545 1.6571089993806047,43.462754509704546 1.6572195819920796,43.46288341327168 1.6573529818117716,43.46304987255494 1.6576266086473144,43.46333017252147 1.6578908930039022,43.46359658342739 1.6580208792255144,43.463756585888824 1.6581369415602227,43.46392982361024 1.6582308155074132,43.46408167516023 1.6582884873486534,43.464197014275 1.658311933377569,43.46425197794758 1.658342835423343,43.4644033722891 1.6583319658084053,43.464442818211594 1.6582757312716192,43.46451088681734 1.658167124953769,43.46457367417019 1.6580471100318106,43.46462870269996 1.6579323951700287,43.46467401643982</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Cabosses</name>
+      <description>name: Chemin des Cabosses
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6579323951700287,43.46467401643982 1.657968417612922,43.46475818906647 1.657936976577978,43.465534905845026 1.6578537027511397,43.46656992591423 1.657837802570611,43.467078399518186 1.6578317838582073,43.4671877999986</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6578317838582073,43.4671877999986 1.6578289092492982,43.46724152221209</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6578289092492982,43.46724152221209 1.6578157040146215,43.46732693000173</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

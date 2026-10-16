@@ -1,0 +1,194 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 3
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9214102371698116,42.21308739635209 2.9215587286862763,42.213128514242094 2.921771719240142,42.21312937918125 2.921915000527959,42.21314381700987 2.922037620564241,42.21319158823495 2.922161588073449,42.21331008466933 2.922356522490103,42.21343157488723 2.9226399409622426,42.21373989019621 2.9228188853668393,42.2140400869965 2.923552090301738,42.21483927418186</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Xòrrec</name>
+      <description>name: Camí del Xòrrec
+width: 3
+highway: track
+name:ca: Camí del Xòrrec
+surface: ground
+tracktype: grade4
+brp_access: 3
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.923552090301738,42.21483927418186 2.9240529909041633,42.21478698002491 2.9253161120251634,42.21470122017504 2.925655765034089,42.2146624984669 2.925957509138024,42.21458871425283</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Resclosa</name>
+      <description>name: Camí de la Resclosa
+bicycle: yes
+highway: path
+name:ca: Camí de la Resclosa</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.925957509138024,42.21458871425283 2.925924810461683,42.21467647022 2.9259334342884102,42.21506548250453 2.925935500413564,42.21560618364462 2.926011857212714,42.21606471480947</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Resclosa</name>
+      <description>name: Camí de la Resclosa
+layer: -1
+tunnel: yes
+bicycle: yes
+highway: path
+name:ca: Camí de la Resclosa</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.926011857212714,42.21606471480947 2.926072673157449,42.2162760159204</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Resclosa</name>
+      <description>name: Camí de la Resclosa
+bicycle: yes
+highway: path
+name:ca: Camí de la Resclosa</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.926072673157449,42.2162760159204 2.9262422750830903,42.216865872270034</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Borrassà a Creixell</name>
+      <description>name: Carretera de Borrassà a Creixell
+source: PNOA
+highway: unclassified
+name:ca: Carretera de Borrassà a Creixell
+maxspeed: 30
+source:date: 2008
+source:name: Institut Cartogràfic i Geològic de Catalunya</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9262422750830903,42.216865872270034 2.9262330224356643,42.21694111747851 2.9262261952395052,42.217485594723996 2.926195293193731,42.21810870405169 2.9260670137711586,42.21916357168292</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Dalmau de Creixell</name>
+      <description>name: Carrer de Dalmau de Creixell
+source: PNOA
+highway: residential
+name:ca: Carrer de Dalmau de Creixell
+maxspeed: 30
+source:date: 2008
+source:name: Institut Cartogràfic i Geològic de Catalunya
+name:etymology:wikidata: Q11916506</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9260670137711586,42.21916357168292 2.9260184149142883,42.21955701363735 2.925916815455654,42.22000959525479 2.9257959022184115,42.220515727079906 2.9256880145527884,42.220844830336866 2.92562683928194,42.22101087814535 2.925504219245658,42.22155092965668 2.9254504999916673,42.22188967357868</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Baix</name>
+      <description>ref: GIP-5128
+name: Carrer de Baix
+highway: tertiary
+name:ca: Carrer de Baix
+maxspeed: 20
+maxwidth: 2.4
+maxheight: 2.1
+source:name: Institut Cartogràfic i Geològic de Catalunya</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9254504999916673,42.22188967357868 2.925658729474527,42.22191867827622 2.9258138685240938,42.22196298359124</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pou Comú</name>
+      <description>name: Carrer del Pou Comú
+source: PNOA
+highway: living_street
+name:ca: Carrer del Pou Comú
+maxspeed: 20
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9258138685240938,42.22196298359124 2.925733918463808,42.22229128101541 2.9257148741797843,42.22236911419695 2.925728169245989,42.22245120481608 2.9257681442761325,42.22268982580715 2.9257929377779743,42.222833184234894 2.925809915936844,42.22298479123889</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pou Comú</name>
+      <description>name: Carrer del Pou Comú
+source: PNOA
+highway: living_street
+name:ca: Carrer del Pou Comú
+maxspeed: 20
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.925809915936844,42.22298479123889 2.9257703900643426,42.223140788412366</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pou Comú</name>
+      <description>name: Carrer del Pou Comú
+source: PNOA
+highway: living_street
+name:ca: Carrer del Pou Comú
+maxspeed: 20
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9257703900643426,42.223140788412366 2.9257553881990974,42.223174914821534 2.9257104724348917,42.22331501251851</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de Santa Maria</name>
+      <description>name: Plaça de Santa Maria
+source: PNOA
+highway: living_street
+name:ca: Plaça de Santa Maria
+maxspeed: 20
+source:date: 2008
+source:name: Institut Cartogràfic i Geològic de Catalunya</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9257104724348917,42.22331501251851 2.9256730126875437,42.22341699227052 2.925654956550333,42.22346582009086</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pou Comú</name>
+      <description>name: Carrer del Pou Comú
+narrow: yes
+source: PNOA
+highway: residential
+name:ca: Carrer del Pou Comú
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.925654956550333,42.22346582009086 2.9254611001120203,42.22372293053824 2.9251687883185675,42.22402953254643 2.9251687883185675,42.22417381924227</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Avinyonet de Puigventós a Borrassà</name>
+      <description>name: Camí d'Avinyonet de Puigventós a Borrassà
+source: PNOA
+cutting: yes
+highway: track
+name:ca: Camí d'Avinyonet de Puigventós a Borrassà
+surface: ground
+tracktype: grade3
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9251687883185675,42.22417381924227 2.925093509497758,42.22428098632577 2.9250487733966093,42.22440391892006 2.9249881371149313,42.22469588287216 2.9249707097984197,42.2250091322822 2.925025327367694,42.22564108112879 2.925048683565081,42.22578829104116 2.9248964191244227,42.225823280784574 2.9247708346477026,42.225896519709444 2.924658724900245,42.225961776118595 2.924550477908508,42.226076989104435 2.9244364816989536,42.22619852128136 2.9242723594965447,42.22634200478186 2.924222233503691,42.22638597439383 2.9240194837440647,42.22650437955065 2.923941599808932,42.22655340454214</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

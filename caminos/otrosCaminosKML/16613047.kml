@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Allée des Tricheries</name>
+      <description>name: Allée des Tricheries
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3625554601365921,43.68655541615279 1.362542344733444,43.686630574600265 1.3625300378140515,43.686713398190875 1.3624508962375206,43.68687280892105 1.3624355350461623,43.686903794576146 1.3623501950941708,43.68707132470669 1.362134329931397,43.68736506969989 1.362042791603945,43.687465496119025 1.3618908864894004,43.68762893228643 1.3617618884146012,43.68777391980145 1.361498682036354,43.688083770977315 1.36144460345625,43.688139505044134</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

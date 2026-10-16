@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Caussidou</name>
+      <description>name: Chemin de Caussidou
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.556131713912468,43.61806997401799 1.5561176103625074,43.61805937348741 1.5560876066320177,43.618032514465966 1.5560729640928868,43.617999217066796 1.5554411789535656,43.61726179201043 1.555142129795482,43.616908391877814</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Caussidou</name>
+      <description>name: Chemin de Caussidou
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.555142129795482,43.616908391877814 1.554462464451517,43.616251728074246 1.5543105593369726,43.61614819084701 1.5541184995292276,43.616042117032954</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

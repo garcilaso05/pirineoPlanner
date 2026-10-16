@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sur la trace de l'Ours - petit circuit asp60</name>
+    <Placemark>
+      <name>Route de Bieus</name>
+      <description>name: Route de Bieus
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5644653020978141,42.90884800919719 -0.564431705106188,42.908822217158146 -0.5643957724948233,42.90871450896009 -0.5640958250214557,42.90830051821473 -0.5633592064884778,42.907649128545565 -0.5626730732744673,42.90714689583128 -0.5622286767034133,42.906752831427546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Séberry</name>
+      <description>name: Route de Séberry
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5622286767034133,42.906752831427546 -0.5621561826599849,42.90660873311208</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Ancienne de Seberry</name>
+      <description>name: Voie Ancienne de Seberry
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015
+highway: path
+name:oc: Via Vielha de Severin
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5621561826599849,42.90660873311208 -0.5619898146693659,42.90629401858796 -0.561945976883501,42.906303691000566 -0.5618300942118495,42.90631869310691 -0.5613029628031282,42.906041285146415 -0.561157256064044,42.9060983986521 -0.5609755268820666,42.90613537764484 -0.560184919600513,42.905949495472846 -0.5598087949910521,42.905798091562104 -0.5594936659893831,42.90572860750465 -0.5593582000445378,42.9057261071299 -0.5591480840995823,42.905798091562104 -0.5590170198996292,42.90581000122697 -0.5589950111751683,42.905788024274536 -0.5589312307899957,42.905656688790735 -0.558839692462544,42.905683995540116 -0.5585416314512731,42.90555489701837 -0.5583856839179501,42.905530090594596 -0.5582742928227192,42.90558417779752</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Ancienne de Seberry</name>
+      <description>name: Voie Ancienne de Seberry
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015
+highway: path
+name:oc: Via Vielha de Severin
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5582742928227192,42.90558417779752 -0.5580959772388214,42.90561799872511 -0.5580799872267641,42.90557299188353 -0.5582539908972981,42.905339732214664 -0.557833759007387,42.90470930159603 -0.5575394709203094,42.90417960592413</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier de Passette à Bieus</name>
+      <description>name: Sentier de Passette à Bieus
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015
+highway: path
+name:oc: Sendèr de Passeta a Bièus
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5575394709203094,42.90417960592413 -0.5570939963709145,42.903440129994195 -0.5570211430013724,42.90388810686134 -0.556861871701498,42.904120187603986 -0.5566958630369928,42.90475799388901 -0.5567450008830341,42.90498388614508 -0.5566144756722515,42.905279196415876 -0.5565485393303972,42.9056489902592 -0.5564349922784845,42.90574459674072 -0.5562023286198975,42.90576532352204 -0.5560760254909503,42.90579901275173 -0.5560579693537395,42.90582197668876 -0.5559279831321274,42.9059119899755 -0.5559345408337014,42.9060327312758 -0.556165138367135,42.90620657201323 -0.5563520777777602,42.90646983254485 -0.5566259741078883,42.90675598974302</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier de Passette à Bieus</name>
+      <description>foot: yes
+name: Sentier de Passette à Bieus
+access: permissive
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015
+highway: path
+name:oc: Sendèr de Passeta a Bièus
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5566259741078883,42.90675598974302 -0.5568050981755417,42.906848699389634 -0.5574031964917084,42.907379622281404 -0.557710779644991,42.90753477276 -0.5579452399341462,42.90757359321732</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Haut de Lia</name>
+      <description>name: Sentier du Haut de Lia
+source: Bing
+highway: path
+name:oc: Sendèr deth Haut dera Lia
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5579452399341462,42.90757359321732 -0.5583593632801253,42.90788678787698 -0.5583978111742857,42.9081430009803 -0.5583770600912225,42.9082376166439 -0.5582878573835094,42.90819623053354 -0.5581940732678473,42.9082455122421 -0.5580103677922449,42.90816602984087 -0.557961319777732,42.908241696036434 -0.5577749193562771,42.908182215834856 -0.5577459936041285,42.908209982042294 -0.5577749193562771,42.90831242739611 -0.557717337346565,42.90839309394539 -0.5574844940249213,42.90840750337498 -0.5572974647827676,42.90842072846492 -0.5571797854805479,42.90846343035287 -0.5570091055765652,42.90846507526321 -0.5567528162260059,42.908631474167 -0.5567196683920219,42.90865298953221</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Arretortes de Busteigts</name>
+      <description>name: Chemin des Arretortes de Busteigts
+source: survey ; memory
+highway: path
+name:oc: Camin deras Arretòrtas deths Bustèths
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5567196683920219,42.90865298953221 -0.5569755984164676,42.90881379526551 -0.5572085315696398,42.90901578877957 -0.5580830414987301,42.90946161967814</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier de l'Observatoire</name>
+      <description>name: Sentier de l'Observatoire
+source: Bing ; survey
+highway: path
+name:oc: Sendèr der Observatòri
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5580830414987301,42.90946161967814 -0.5583421156266702,42.909567813280276 -0.5584343726063492,42.90967578316773</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier de l'Observatoire</name>
+      <description>name: Sentier de l'Observatoire
+source: Bing ; survey
+highway: path
+name:oc: Sendèr der Observatòri
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5584343726063492,42.90967578316773 -0.5588307093097028,42.909455171733576</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier Intermédiaire de Lia</name>
+      <description>name: Sentier Intermédiaire de Lia
+source: Bing ; survey
+highway: path
+name:oc: Sendèr Miejancèr dera Lia
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5588307093097028,42.909455171733576 -0.5590162114158734,42.909376019869384 -0.5594913303696444,42.90937569089218 -0.5596826715251617,42.90932502838185 -0.559749236687715,42.909252916477136 -0.5596958767598382,42.909048620887546 -0.5593195724873207,42.90881379526551 -0.5589352732087742,42.908437703949346</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier du Bas de Lia</name>
+      <description>name: Sentier du Bas de Lia
+source: Bing ; survey
+highway: path
+name:oc: Sendèr deth Bas dera Lia
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5589352732087742,42.908437703949346 -0.559281483919274,42.90835631369662 -0.5600389433668436,42.90825347363591 -0.5603587436079901,42.90823531376092 -0.5603587436079901,42.90812293296622 -0.5604297105154356,42.90815122557434 -0.5603958440292243,42.90801601310894 -0.5604530667128226,42.907906790170934 -0.5605417304313653,42.90787448383111 -0.561159681515311,42.908080625623334 -0.5611922903601246,42.908201691659386 -0.561319940961998,42.908292820013386 -0.5614548679176727,42.90834400974446 -0.5614660968587243,42.90820248121972 -0.5616178223102121,42.90831959922247 -0.5617926344645018,42.9083426938136 -0.5618273094344687,42.90811358982301 -0.5618129363899228,42.90792606869154 -0.5618662963177994,42.90785481051199 -0.5620190997476282,42.90794850546047 -0.5620214353673669,42.90782651776781 -0.5621261789294952,42.90778486819287 -0.5621209687008474,42.90769788431368 -0.5620261964383727,42.90754549773625 -0.5620756037789995,42.90754668208934 -0.5619228901806991,42.90726421323275 -0.5620171234540031,42.90727191156256 -0.5619598109388764,42.90715998959607 -0.5619637635261265,42.90709531031879 -0.5622540091944255,42.90718170286825 -0.5621923847659349,42.90697542647379 -0.5622514040801015,42.906997008215015 -0.5622216698441972,42.90694483039478 -0.5622286767034133,42.906752831427546</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

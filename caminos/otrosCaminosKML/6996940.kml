@@ -1,0 +1,335 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tour Urdos - Bérat asp66</name>
+    <Placemark>
+      <name>Rue de la Douane</name>
+      <description>name: Rue de la Douane
+highway: residential
+surface: asphalt
+maxspeed: 50
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5542747236832339,42.8711834955198 -0.5543642857170605,42.87113247244762 -0.5544300423958581,42.87113247244762 -0.5545110704344857,42.871177109408556 -0.5546166224803697,42.87115999199373 -0.5545926374622838,42.87105057209905 -0.5545829356572153,42.870942468739436</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Lashontaas</name>
+      <description>name: Chemin de Lashontaas
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5545829356572153,42.870942468739436 -0.5545215807233098,42.8709337124907 -0.5544536680878305,42.870948328183395 -0.5543583568361854,42.87096886915107 -0.554310296968485,42.87096860580537</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont Vieux de l'Arricq</name>
+      <description>name: Pont Vieux de l'Arricq
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: unclassified
+surface: asphalt
+lane_markings: no
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.554310296968485,42.87096860580537 -0.5542651117096937,42.87093660929493</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Lashontaas</name>
+      <description>name: Chemin de Lashontaas
+highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5542651117096937,42.87093660929493 -0.5542960137554674,42.87080849141409 -0.5542962832500526,42.870765105082754 -0.5542712202536257,42.87071678096916 -0.5537543296391434,42.87039602376838 -0.5533420927552609,42.8700788859563 -0.5532034827069213,42.87003951519457 -0.5530449300592742,42.869923970422704 -0.5529569849929589,42.869793085257456 -0.5528475701913532,42.8694503333537 -0.5525976588793111,42.86911831120642 -0.5525284886024339,42.868974585816616 -0.5524500656781303,42.868702474484955 -0.5521308942576826,42.86838848825178 -0.5521131076150569,42.86833891133213 -0.552111131321432,42.86830612338729 -0.5521217314417847,42.86828953189049 -0.552169342151843,42.868260694278305</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Lashontaas</name>
+      <description>name: Chemin de Lashontaas
+highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.552169342151843,42.868260694278305 -0.5522660907079425,42.868209405432474 -0.5523092098415803,42.86818800763439</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Lashontaas</name>
+      <description>name: Chemin de Lashontaas
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5523092098415803,42.86818800763439 -0.5523541256057862,42.868138825590364 -0.5523870937767135,42.868071471803844 -0.5522236003950037,42.86777822190995</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Passerelle de Lashontaas</name>
+      <description>name: Chemin de la Passerelle de Lashontaas
+source: Bing
+highway: path
+name:oc: Camin dera Pontiga deras Hondans
+surface: dirt
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5522236003950037,42.86777822190995 -0.5523681393242185,42.86774042983755 -0.552835981924188,42.86774082487675 -0.5528840417918883,42.86773838880163 -0.5529208727185373,42.86772838114061 -0.5529453068942652,42.867718373477985 -0.5529659681458001,42.86769552703156 -0.5530317248245976,42.8675113725134 -0.552981419168687,42.86726269391001 -0.5530616387235588,42.86704660541414 -0.5531538957032379,42.86692190317742 -0.5531692568945964,42.86690103165912 -0.5532321389644846,42.86688950952454</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passerelle de Lashontaas</name>
+      <description>name: Passerelle de Lashontaas
+layer: 1
+bridge: yes
+source: Bing
+highway: path
+name:oc: Viga de Lashontans
+surface: wood
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5532321389644846,42.86688950952454 -0.5534390209744174,42.86690880086866</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier Latéral de Cambas</name>
+      <description>name: Sentier Latéral de Cambas
+source: Bing
+name:oc: Sendèr Estremèr de Cambàs
+surface: dirt
+source:name:oc: Lo Congrès
+destroyed:highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5534390209744174,42.86690880086866 -0.5534694738625491,42.86691492405852 -0.5534730671236856,42.86688918032067 -0.5535042386640445,42.86666229259135 -0.553532266100909,42.86667328804029 -0.5535549934775973,42.86647609391305 -0.5535542748253699,42.86629990256734</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier Latéral de Cambas</name>
+      <description>name: Sentier Latéral de Cambas
+source: Bing
+highway: path
+name:oc: Sendèr Estremèr de Cambàs
+surface: dirt
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5535542748253699,42.86629990256734 -0.5535537358361995,42.86616611268939</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier Latéral de Cambas</name>
+      <description>name: Sentier Latéral de Cambas
+source: Bing
+highway: path
+name:oc: Sendèr Estremèr de Cambàs
+surface: dirt
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5535537358361995,42.86616611268939 -0.5536968374609597,42.86611850923276 -0.5536176958844289,42.86585053334932 -0.5537184868593071,42.865961806031834 -0.5538916820460853,42.86601158238582 -0.5539738778945822,42.86582900304972 -0.5540309209151238,42.86582900304972 -0.5541268609874679,42.86554311683068 -0.5541036844531375,42.865064112885825</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Cambas</name>
+      <description>name: Chemin de Cambas
+source: Bing
+highway: path
+name:oc: Camin de Cambàs
+surface: dirt
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5541036844531375,42.865064112885825 -0.5542346588215621,42.86524142708178</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Piste Privée de Cambas</name>
+      <description>name: Piste Privée de Cambas
+highway: track
+surface: gravel
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5542346588215621,42.86524142708178 -0.5541690818058214,42.86447178891625 -0.5542936781357287,42.864303888135616 -0.5544305813850287,42.86421058777896 -0.5544772937798027,42.86414790460907 -0.5544576206750805,42.864068694588006 -0.5543359887856109,42.86374770530766 -0.5543626687495492,42.863626222775444 -0.5544858277750019,42.86340729023709 -0.5546309056933872,42.86303250226703 -0.5547090591231056,42.86301577766299</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier de Cambas</name>
+      <description>name: Sentier de Cambas
+highway: path
+name:oc: Sendèr de Cambàs
+surface: grass
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5547090591231056,42.86301577766299 -0.5547478663433796,42.86286993102227 -0.5548980646588845,42.8626978117895 -0.5549786435398699,42.862427516463526 -0.555115367126113,42.86230227813057</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Piste EDF du Bérat</name>
+      <description>name: Piste EDF du Bérat
+source: Bing
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.555115367126113,42.86230227813057 -0.5551419572585228,42.863052980024094 -0.5552051986545249,42.8632112708816 -0.5551534556941595,42.86337568487419</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Piste Privée de Cambas</name>
+      <description>name: Piste Privée de Cambas
+highway: track
+surface: gravel
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5551534556941595,42.86337568487419 -0.5550446697132527,42.863394516404874 -0.5548912374627251,42.86372722778104 -0.55490453252893,42.86400607711789</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Bérat</name>
+      <description>name: Chemin du Bérat
+source: Bing
+highway: path
+name:oc: Camin deth Berat
+surface: grass
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.55490453252893,42.86400607711789 -0.5552819147797886,42.864856576276935 -0.5554420843949471,42.86552191563503 -0.5556823837334491,42.865898729589084 -0.5561963997390222,42.866549309301924 -0.5576647859024441,42.868330088874785 -0.5577291951083154,42.86961387483755</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Berat de Bas</name>
+      <description>name: Route du Berat de Bas
+highway: unclassified
+name:eu: Berat de Basko errepidea
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5577291951083154,42.86961387483755 -0.557788214422482,42.86967582824141 -0.5579007733275823,42.869714211668715 -0.5580081220040346,42.86972099295785 -0.5582910913185323,42.86970631113674 -0.5584842291046179,42.86974462870736 -0.5586611972155894,42.86983008602144 -0.5587805833168489,42.869922521996834 -0.5587993581062871,42.869990400463266 -0.5587564186357061,42.87005617205837 -0.5586482614754982,42.87013372846384 -0.5585781030518083,42.870184028151805 -0.5585518722455121,42.87030339099071 -0.5585139633405223,42.87058497576945 -0.5585042615354537,42.870656803712876 -0.5585150413188632,42.87075601962559 -0.5585713656871775,42.87085141685909 -0.5587523762169276,42.87114326959157 -0.558824870260356,42.871271715957995 -0.558867809730937,42.87134769077162 -0.5588892794662274,42.87137718530144 -0.5589548564819682,42.87146757804726 -0.5593157097315988,42.87171630554577 -0.5595543921025894,42.8718263826153 -0.5596080215250514,42.871871611593534 -0.5596241013686372,42.871916774703216 -0.5596066740521252,42.871965032041906 -0.5595623871086182,42.87200723249407 -0.5594872879508658,42.872026917250494 -0.5591963236303394,42.87203178906215 -0.5589495564217919,42.87202882647403 -0.558838165326561,42.872006179128995 -0.5587336014274895,42.87195120661449</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Bérat</name>
+      <description>name: Chemin du Bérat
+source: Bing
+highway: path
+name:oc: Camin deth Berat
+surface: dirt
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5587336014274895,42.87195120661449 -0.5587348590688873,42.87240507402804 -0.5589000592496368,42.872643725049734 -0.5589173967346204,42.8728672332387 -0.5590652594303864,42.87296888146689 -0.5591219431248143,42.87326632007445 -0.5588536163494479,42.87410141837406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Bérat</name>
+      <description>name: Chemin du Bérat
+source: Bing
+highway: track
+surface: fine_gravel
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5588536163494479,42.87410141837406 -0.55890553897287,42.87447390082984 -0.5589331172520924,42.87467758682106 -0.5592168052188173,42.87531582929502 -0.559024386084959,42.875484292607624</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Bérat</name>
+      <description>name: Chemin du Bérat
+source: Bing
+highway: path
+name:oc: Camin deth Berat
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.559024386084959,42.875484292607624 -0.5590258233894136,42.875613914905934 -0.5590031858442538,42.87567467732178 -0.559066696734841,42.87587638441409 -0.5592244408987325,42.87608592473247 -0.5593767951709191,42.87646227921355 -0.5593739205620099,42.87656181494578 -0.5596423371689048,42.87672750998521 -0.5597382772412487,42.876925329662164</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Piste</name>
+      <description>name: Piste
+highway: track
+surface: grass
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5597382772412487,42.876925329662164 -0.559563015929317,42.87693000359695 -0.5593223572647015,42.87704797096041 -0.5586929975766473,42.87760357314434</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont du Camping</name>
+      <description>name: Pont du Camping
+layer: 1
+bridge: yes
+highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5586929975766473,42.87760357314434 -0.5583809228469442,42.87771126986088</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Camping</name>
+      <description>name: Route du Camping
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5583809228469442,42.87771126986088 -0.5580807957105198,42.877596924380015</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Camping</name>
+      <description>name: Route du Camping
+highway: service
+destroyed:highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5580807957105198,42.877596924380015 -0.5575389319311389,42.87736178148173 -0.5570638129773682,42.87688602909795 -0.5569941037113205,42.87682349046008</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Camping</name>
+      <description>name: Route du Camping
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5569941037113205,42.87682349046008 -0.5565862685723302,42.87680657210189 -0.556525811953709,42.87682138389434 -0.5565073964903845,42.876837775607164 -0.5564833216407701,42.87688201346101 -0.5564507127959565,42.87726198372101</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Moulin</name>
+      <description>name: Route du Moulin
+oneway: yes
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5564507127959565,42.87726198372101 -0.5560490760324267,42.87637116964594 -0.5559746955269016,42.876074470143436 -0.5557724847564463,42.87527290695507 -0.5557341266938144,42.87511431786647 -0.5556954991365973,42.87496257491572 -0.5556510325300335,42.87477962706165 -0.5553808192925702,42.8738185329709</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Basse</name>
+      <description>name: Rue Basse
+highway: residential
+maxspeed: 30
+maxheight: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.5553808192925702,42.8738185329709 -0.5554074992565086,42.8735108928002 -0.5553963601469855,42.873202131917225 -0.5553960906524003,42.8731960751851 -0.555395821157815,42.8731858709068 -0.555391688907508,42.87306769865776 -0.5553813582817406,42.87269566855672 -0.5553314119519437,42.872195521211395 -0.5553320407726425,42.87218360505436 -0.555335634033779,42.8721179015615 -0.5553413832515974,42.87200966840073 -0.5553200931793637,42.87190782108644 -0.5552973658026755,42.87177470171894 -0.5552375380047531,42.87167140563209 -0.5549657077997786,42.87126368395317 -0.5548581794602694,42.871121214447946 -0.5547031302422304,42.871005210846356 -0.5545829356572153,42.870942468739436</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

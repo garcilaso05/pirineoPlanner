@@ -1,0 +1,184 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Camí del Clos</name>
+      <description>lit: yes
+name: Camí del Clos
+highway: residential
+name:ca: Camí del Clos
+surface: concrete
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.98055199170969,42.306115100215095 2.980461800855164,42.30614247173352 2.9800301603611445,42.306791279532895 2.979833968303093,42.307144779309404 2.9796507119851325,42.30724157452313 2.9796856564496847,42.30739052060799 2.9798162714919956,42.307794905458046 2.9798312733572403,42.30788007374488 2.979273599228859,42.30817377722616 2.9790970802755297,42.30826671771664 2.978719608193143,42.308446287124795</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Clos</name>
+      <description>name: Camí del Clos
+highway: residential
+name:ca: Camí del Clos
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.978719608193143,42.308446287124795 2.978432776122923,42.30876988279307 2.978279433703924,42.30903561398051</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.978279433703924,42.30903561398051 2.9783151866522326,42.309062784931214 2.978433225280565,42.30911440306197 2.9785930355696104,42.309256170014145 2.978754013668525,42.30936339185496 2.9788988220923245,42.30952203201302 2.9790340185425843,42.30967768233229 2.9791681370145033,42.30982848274401 2.979295787616377,42.30997430041972 2.9794149042230513,42.310114072489725 2.9795103053062246,42.31023212118732 2.97957336703917,42.31034638308106</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.97957336703917,42.31034638308106 2.9797739608421137,42.31084547925845 2.9799563188447897,42.311345368641014 2.980213326847577,42.311985221257515 2.9803425944169613,42.31230142509087 2.9804337734182997,42.31253937407092 2.9804874028407617,42.31278927931761 2.980525042251166,42.31317808526846 2.9805141726362283,42.31344393070207 2.9804444633701803,42.31376922779718 2.9803962238394237,42.31400318558331 2.980379605006667,42.31430981377829 2.980412303683009,42.31460607790294 2.9805141726362283,42.314875902894414 2.9806483809396758,42.31518930230631 2.9808838293756432,42.3154601876113 2.9809774338282486,42.31553558093531</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9809774338282486,42.31553558093531 2.981383292673614,42.315649368221564 2.9815758914705293,42.31573791358571 2.9816143393646892,42.31578753347648</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9816143393646892,42.31578753347648 2.981537982565539,42.31582918227027 2.9813364904473114,42.31594569246564 2.98119455663242,42.31603549949297 2.981039058256739,42.31615851897032 2.98102827847333,42.31624580154221 2.9810628636117684,42.31638602465957 2.9811410170414865,42.316519405714786 2.9811731767286584,42.31661459232088 2.9811194574746684,42.31668207973664 2.980966384550254,42.31671117369868 2.9806982374379443,42.31678663194847 2.980108134127806,42.31694531982118 2.9797487181826297,42.31706030019387 2.9796252896625917,42.317127720707546 2.9795769603003066,42.317207097475865 2.979390829373437,42.31775562474169 2.979099595558325,42.318607300493085 2.978906367940711,42.31919832560337 2.978764613788877,42.31957772652474 2.9787162844265915,42.3196729085048 2.9786329207682254,42.319686126367834 2.9785115583733406,42.31970020770629</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-6024
+lanes: 2
+width: 7
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 90
+overtaking: no
+lanes:forward: 1
+lanes:backward: 1
+change:lanes:forward: yes
+change:lanes:backward: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9785115583733406,42.31970020770629 2.978419840382832,42.31990757497664 2.9780297918864673,42.32051572437561</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-6024
+lanes: 2
+width: 7
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 90
+overtaking: no
+lanes:forward: 1
+lanes:backward: 1
+change:lanes:forward: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9780297918864673,42.32051572437561 2.97765007401587,42.321100421668575 2.9775082300325075,42.32134863242876</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-6024
+lanes: 2
+width: 7
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 90
+overtaking: no
+lanes:forward: 1
+lanes:backward: 1
+change:lanes:forward: no
+change:lanes:backward: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9775082300325075,42.32134863242876 2.9774610684800913,42.32149309502411 2.977413278106976,42.321814697459075</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-6024
+lanes: 2
+layer: 1
+width: 7
+bridge: yes
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 90
+overtaking: no
+lanes:forward: 1
+lanes:backward: 1
+change:lanes:forward: no
+change:lanes:backward: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.977413278106976,42.321814697459075 2.9773483299119343,42.32225199974366</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-6024
+lanes: 2
+width: 7
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 90
+overtaking: no
+lanes:forward: 1
+lanes:backward: 1
+change:lanes:forward: no
+change:lanes:backward: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9773483299119343,42.32225199974366 2.977332070405292,42.32240801709227</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.977332070405292,42.32240801709227 2.9767227431480734,42.32260660821943 2.976224178165387,42.322769797850405 2.975849490860381,42.32290827956181 2.975530319439933,42.323045698282485 2.97510002641884,42.32328632976112 2.9747919941079153,42.32350231947373 2.9743663723263,42.3237970127288 2.9739996800273216,42.32403060115041 2.9736058586067635,42.32429002475005 2.973312109508857,42.32448369512704 2.9729802718429035,42.32468799149037</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9729802718429035,42.32468799149037 2.9729152338163325,42.324757329897224 2.972672329363507,42.32491573200548 2.972465806679688,42.32505899092721 2.9722450906143796,42.32517641385207 2.9720799802651583,42.32526560996582 2.971911725812443,42.32534417948322 2.971549704752943,42.325502712944434 2.9713289886876346,42.32558367311259 2.971133694944867,42.32565526864618 2.9711194117318493,42.3257046150565 2.9711860667259313,42.32579739682952 2.9712018770749316,42.32588659206284 2.9711955888679427,42.3260109869909 2.9711495052938672,42.3260637866858 2.971190827796937,42.32622577188833</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.971190827796937,42.32622577188833 2.971206727977466,42.32630208211596 2.971216160287949,42.326412529217954 2.971273382971548,42.32657677160335 2.97132584458414,42.32673882189897 2.9714292406733422,42.32693759859725</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

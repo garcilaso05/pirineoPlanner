@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+level: 0
+footway: sidewalk
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.482844458088145,43.62821538564421 1.482790110013456,43.62825960123403 1.4827737606752847,43.62828138390234 1.482767023310654,43.628312919990236 1.4827706165717902,43.62832911067637</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+level: 0
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked
+tactile_paving: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4827706165717902,43.62832911067637 1.4827784319147623,43.62836051669364 1.4827896608558138,43.62840031062984</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4827896608558138,43.62840031062984 1.482790110013456,43.62846487818597 1.4827706165717902,43.62852951069535 1.4826589559819743,43.628837977167024 1.4826129622394275,43.62896542069403 1.482578556764046,43.62903759522468 1.4825528649469197,43.629075893206206 1.482520166270578,43.629102487206175 1.4824711182560648,43.629126220227995 1.4824056310718527,43.629146897209246 1.4823402337191687,43.62915287922765</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

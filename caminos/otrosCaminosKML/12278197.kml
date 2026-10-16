@@ -1,0 +1,1219 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Boucle andernosienne</name>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0988903122739726,44.74333860503065 -1.0987864670271283,44.74328762530046 -1.098641389108743,44.74321597286277 -1.098558744102604,44.74317507414748</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Piste Cyclable Lacanau-Arcachon</name>
+      <description>ref: D 802
+name: Piste Cyclable Lacanau-Arcachon
+highway: cycleway
+railway: abandoned
+surface: asphalt
+traffic_sign: FR:C113
+railway:historic: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.098558744102604,44.74317507414748 -1.0984011796017694,44.74305601469614 -1.09824954398181,44.742935296073895</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse du Chemin de Fer</name>
+      <description>name: Impasse du Chemin de Fer
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.09824954398181,44.742935296073895 -1.0982285234041618,44.74295041781787 -1.0982046282176041,44.742967517506706</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse du Chemin de Fer</name>
+      <description>name: Impasse du Chemin de Fer
+highway: residential
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0982046282176041,44.742967517506706 -1.097522267927787,44.74339941058246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Anciens Combattants de l'Afrique du Nord et d'Outre-Mer</name>
+      <description>name: Rue des Anciens Combattants de l'Afrique du Nord et d'Outre-Mer
+oneway: yes
+highway: residential
+ref:FR:FANTOIR: 330050034H</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.097522267927787,44.74339941058246 -1.097386442656828,44.74330529912941</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Anciens Combattants de l'Afrique du Nord et d'Outre-Mer</name>
+      <description>name: Rue des Anciens Combattants de l'Afrique du Nord et d'Outre-Mer
+day_on: friday
+oneway: yes
+day_off: friday
+highway: residential
+hour_on: 06:00
+surface: asphalt
+hour_off: 14:00
+lane_markings: no
+ref:FR:FANTOIR: 330050034H</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.097386442656828,44.74330529912941 -1.0970477777947152,44.743060608634494</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Bordeaux</name>
+      <description>ref: D 215
+name: Avenue de Bordeaux
+lanes: 1
+day_on: friday
+oneway: yes
+day_off: friday
+highway: secondary
+hour_on: 06:00
+surface: unhewn_cobblestone
+hour_off: 14:00
+maxspeed: 50
+source:maxspeed: FR:urban
+name:etymology:wikidata: Q1479</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0970477777947152,44.743060608634494 -1.0971869268322252,44.742903393647474</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Bordeaux</name>
+      <description>ref: D 215
+name: Avenue de Bordeaux
+day_on: friday
+oneway: no
+day_off: friday
+highway: secondary
+hour_on: 06:00
+surface: unhewn_cobblestone
+hour_off: 14:00
+maxspeed: 50
+lane_markings: no
+source:maxspeed: FR:urban
+name:etymology:wikidata: Q1479</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0971869268322252,44.742903393647474 -1.0972363341728515,44.7428709169593 -1.0973603016820601,44.74278937423155 -1.0975433783369637,44.742663678252214 -1.0975729329098112,44.74264351582604</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Bordeaux</name>
+      <description>ref: D 215
+name: Avenue de Bordeaux
+day_on: friday
+oneway: no
+day_off: friday
+highway: secondary
+hour_on: 06:00
+surface: unhewn_cobblestone
+hour_off: 14:00
+maxspeed: 30
+source:maxspeed: FR:zone30
+name:etymology:wikidata: Q1479</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0975729329098112,44.74264351582604 -1.0976083265320056,44.742618121367876 -1.0977942777958183,44.74249669997277 -1.0978347019836037,44.74247500616013 -1.0978716227417809,44.742454716057416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Bordeaux</name>
+      <description>ref: D 215
+name: Avenue de Bordeaux
+lanes: 2
+oneway: no
+highway: secondary
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:zone30
+name:etymology:wikidata: Q1479</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0978716227417809,44.742454716057416 -1.0979221080607486,44.74242121823076 -1.0982284335726331,44.74221327604972</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Bordeaux</name>
+      <description>ref: D 215
+name: Avenue de Bordeaux
+lanes: 2
+oneway: no
+highway: secondary
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:zone30
+traffic_calming: table
+name:etymology:wikidata: Q1479</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0982284335726331,44.74221327604972 -1.0983441365812279,44.74213460365182 -1.0983907591444737,44.742088918739015 -1.0984345070988104,44.74201968943784</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Général de Gaulle</name>
+      <description>name: Avenue du Général de Gaulle
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+oneway: yes
+highway: living_street
+surface: asphalt
+maxspeed: 20
+maxweight: 3.5
+maxspeed:type: FR:zone30
+maxweightrating: 3.5
+name:etymology:wikidata: Q2042</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0984345070988104,44.74201968943784 -1.0985088876043352,44.74196207273041 -1.0985287403721145,44.741946695504225 -1.0988073977732482,44.74175629830662 -1.0991845105295217,44.74148901378326 -1.0996050119140182,44.74120207554914 -1.100181101505724,44.7407849693323 -1.1002791077032212,44.74071171861064 -1.1006679883897168,44.74042107567755</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Général de Gaulle</name>
+      <description>lit: yes
+name: Avenue du Général de Gaulle
+highway: pedestrian
+surface: asphalt
+name:etymology:wikidata: Q2042</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1006679883897168,44.74042107567755 -1.1009313744310203,44.74019321825322</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Esplanade de la Jetée Louis David</name>
+      <description>lit: yes
+area: yes
+name: Esplanade de la Jetée Louis David
+highway: pedestrian
+surface: paving_stones
+ref:FR:FANTOIR: 330050478R</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1009313744310203,44.74019321825322 -1.1010292907969894,44.74012028582155 -1.1015159081863972,44.74044749202206 -1.1015777122779447,44.7404143120705 -1.101745337909961,44.74028580338609 -1.1017448887523191,44.74023118391833 -1.1015804970553253,44.740132919792664 -1.1015654951900806,44.74014383094734 -1.1015575900155803,44.740149190812026 -1.1014720704005319,44.74008838184176 -1.1014806942272597,44.74008149057982 -1.1014922824944247,44.74007281269323 -1.1014302987398206,44.74002718995926 -1.101381789714478,44.73999158505936 -1.1013296874279992,44.739953300196284 -1.1012209014470922,44.739873412367025 -1.1011686194975565,44.73983499980919 -1.1011202003037424,44.73979939479093 -1.1010922626984063,44.739778912324255 -1.1010652234083542,44.7397588765087 -1.1010456401351605,44.7397445834386 -1.1010441129991775,44.73972327144357 -1.101039890917342,44.73966361057738 -1.1010221042747166,44.73965308218284 -1.1010111448282505,44.73964650991134 -1.1010017125177671,44.73964089476617 -1.1009752122168857,44.73962519788016 -1.1009658697379308,44.7396197103499 -1.1009021791842866,44.73962730356023 -1.1008912197378202,44.739634769152616 -1.1008791823130133,44.73964300044566 -1.1006228929624537,44.73981872870141 -1.1005540820116904,44.7398746885313 -1.1006054656459419,44.73991450484251 -1.1009313744310203,44.74019321825322</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Jetée d'Andernos</name>
+      <description>lit: yes
+foot: yes
+name: Jetée d'Andernos
+layer: 1
+bridge: yes
+highway: footway
+surface: concrete
+man_made: pier</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1010017125177671,44.73964089476617 -1.101561901928944,44.73865989501064 -1.1020601075855165,44.73778722896985 -1.1021129285242228,44.73771180488994</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Pasteur</name>
+      <description>lit: yes
+name: Avenue Pasteur
+highway: pedestrian
+surface: paving_stones
+name:etymology:wikidata: Q529</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1006054656459419,44.73991450484251 -1.1002835992796418,44.74013547210974</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Pasteur</name>
+      <description>lit: yes
+name: Avenue Pasteur
+oneway: yes
+highway: living_street
+surface: asphalt
+name:etymology:wikidata: Q529</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1002835992796418,44.74013547210974 -1.099784944465427,44.74047397216206 -1.0991687900120497,44.74089459001244</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Vergniaud</name>
+      <description>name: Avenue Vergniaud
+oneway: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0991687900120497,44.74089459001244 -1.098821770817794,44.74066182128891 -1.0984442089038788,44.7403674772603 -1.0979896613701143,44.73999069174617</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Roger Maillard</name>
+      <description>name: Rue Roger Maillard
+oneway: yes
+highway: unclassified
+cycleway:left: track
+oneway:bicycle: no
+cycleway:left:oneway: no
+name:etymology:wikidata: Q36666140</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0979896613701143,44.73999069174617 -1.0979390862196186,44.74003637831697 -1.0977862827897895,44.740185816540794 -1.0976630339328084,44.740296331665405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Vergniaud</name>
+      <description>name: Avenue Vergniaud
+oneway: yes
+highway: residential
+cycleway:left: track
+oneway:bicycle: no
+cycleway:left:oneway: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0976630339328084,44.740296331665405 -1.0976353658220577,44.74028542053953 -1.0968546400086294,44.7400139816925</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Vergniaud</name>
+      <description>name: Avenue Vergniaud
+oneway: yes
+highway: residential
+cycleway:left: track
+oneway:bicycle: no
+cycleway:left:oneway: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0968546400086294,44.7400139816925 -1.0970918850751652,44.73958786990244 -1.0971135344735126,44.73952227469686 -1.0970950291786596,44.739469696384965 -1.0970457116695616,44.739415012337524 -1.0969872313445654,44.739390892636216 -1.096378532908046,44.739159713083964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Vergniaud</name>
+      <description>lit: yes
+name: Avenue Vergniaud
+oneway: yes
+highway: residential
+surface: asphalt
+cycleway:left: track
+oneway:bicycle: no
+cycleway:left:oneway: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.096378532908046,44.739159713083964 -1.0958105281538972,44.73894422968253 -1.095367389224241,44.73879032159117</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Camille Rongier</name>
+      <description>name: Avenue Camille Rongier
+oneway: yes
+highway: residential
+ref:FR:FANTOIR: 330050119A</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.095367389224241,44.73879032159117 -1.0950879233393516,44.73919321280034</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse Camille Rongier</name>
+      <description>name: Impasse Camille Rongier
+bicycle: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0950879233393516,44.73919321280034 -1.09490358904305,44.7390491957868 -1.094614421353092,44.73897919713539 -1.0942451239397903,44.73887212519653</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse Camille Rongier</name>
+      <description>name: Impasse Camille Rongier
+bicycle: yes
+highway: service
+service: alley</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0942451239397903,44.73887212519653 -1.0939969194267882,44.739065275683814</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>bicycle: yes
+highway: service
+service: alley</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0939969194267882,44.739065275683814 -1.0938728620860512,44.738887375621864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Camille Rongier</name>
+      <description>lit: yes
+name: Avenue Camille Rongier
+highway: residential
+surface: asphalt
+ref:FR:FANTOIR: 330050119A</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.095367389224241,44.73879032159117 -1.0955957409694643,44.73850649664023</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Albert Decrais</name>
+      <description>lit: yes
+name: Boulevard Albert Decrais
+oneway: yes
+highway: residential
+surface: asphalt
+ref:FR:FANTOIR: 330050020T
+name:etymology:wikidata: Q2831089</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0955957409694643,44.73850649664023 -1.09466373886219,44.738020519748204 -1.0939864989694925,44.7376670736421 -1.0938910080547906,44.737607793518535</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de Verdun</name>
+      <description>name: Boulevard de Verdun
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0938910080547906,44.737607793518535 -1.0939069082353194,44.737579780607994 -1.0941993098603005,44.73706482559793 -1.094384991629528,44.73674742725157 -1.094419486936438,44.73672139208674 -1.0947249141330386,44.73621051341678 -1.0947462042052722,44.73616278182911 -1.0947639010163694,44.73611249770751 -1.0947532110644884,44.73607982576749 -1.0947285073941753,44.73604957868157</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0947285073941753,44.73604957868157 -1.0944008019785283,44.73569152600452</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0944008019785283,44.73569152600452 -1.09441598350683,44.735624011991646 -1.093949578211315,44.73531151935708 -1.0938739400643924,44.73526078780211 -1.0937173637103703,44.73526870065136</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Promenade du Port de Plaisance</name>
+      <description>name: Promenade du Port de Plaisance
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0937173637103703,44.73526870065136 -1.0937467386201611,44.73551119066756 -1.093217091928644,44.736047217621454 -1.0931731643112506,44.73609163106044 -1.0931557369947387,44.7361064993449 -1.0930801886793442,44.73618639237875 -1.0930154201473592,44.73625499054257</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Promenade du Port de Plaisance</name>
+      <description>name: Promenade du Port de Plaisance
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0930154201473592,44.73625499054257 -1.0924495713498923,44.73682629841467 -1.0924196574509313,44.736856417471216</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Albert Decrais</name>
+      <description>name: Boulevard Albert Decrais
+oneway: yes
+highway: residential
+ref:FR:FANTOIR: 330050020T
+name:etymology:wikidata: Q2831089</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0924196574509313,44.736856417471216 -1.0928754626260933,44.737085628082525 -1.0929313378367655,44.7371135774212</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Albert Decrais</name>
+      <description>name: Boulevard Albert Decrais
+highway: residential
+ref:FR:FANTOIR: 330050020T
+name:etymology:wikidata: Q2831089</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0924196574509313,44.736856417471216 -1.0923060205674902,44.736782715091074 -1.0921223150918875,44.73666351485234</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Sophie Wallerstein</name>
+      <description>name: Avenue Sophie Wallerstein
+highway: residential
+name:etymology:wikidata: Q105423966</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0920338310364017,44.73650277281367 -1.0919818185814514,44.73642849567463 -1.0915070589537943,44.735750680467085 -1.090879226401723,44.73489098851906 -1.0904394112386182,44.73427288559398 -1.0900535848240887,44.733750179523625</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Maréchal De Lattre de Tassigny</name>
+      <description>lit: yes
+name: Avenue du Maréchal De Lattre de Tassigny
+highway: residential
+surface: asphalt
+sidewalk: no
+name:etymology:wikidata: Q81114</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0900535848240887,44.733750179523625 -1.089366104137152,44.734336380881984 -1.0887765398161846,44.734863420988574 -1.0887598311518998,44.73488218222603</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Maréchal Leclerc</name>
+      <description>name: Avenue du Maréchal Leclerc
+highway: residential
+ref:FR:FANTOIR: 330050519K
+name:etymology:wikidata: Q312391</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.088767287168758,44.7349560146558 -1.0894340167726315,44.73530022441096 -1.0902454649687767,44.73572068846019</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Plage du Betey</name>
+      <description>name: Avenue de la Plage du Betey
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0902454649687767,44.73572068846019 -1.0901392841021937,44.736165525758345 -1.0901117956545,44.73648088531611 -1.090170725137138,44.7367245188596 -1.090268012682408,44.73698589094879</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Plage du Betey</name>
+      <description>name: Avenue de la Plage du Betey
+oneway: yes
+highway: residential
+surface: asphalt
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.090268012682408,44.73698589094879 -1.0904272839822826,44.73741361718769 -1.0905134324180294,44.7377541113022 -1.0905528684590022,44.737935588230805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>ref: D 3
+name: Boulevard de la République
+lanes: 2
+oneway: no
+highway: secondary
+surface: asphalt
+maxspeed: 30
+maxspeed:type: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0905528684590022,44.737935588230805 -1.0906279676167547,44.73797432110206 -1.0907124092534621,44.738018414009616 -1.0909866649097038,44.738161604059236</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>lit: yes
+ref: D 3
+name: Boulevard de la République
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 30
+maxspeed:type: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0909866649097038,44.738161604059236 -1.091027987412773,44.738183171870205 -1.0911197952348102,44.73822879605921</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>lit: yes
+ref: D 3
+name: Boulevard de la République
+lanes: 2
+oneway: no
+highway: secondary
+surface: asphalt
+maxspeed: 30
+maxspeed:type: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0911197952348102,44.73822879605921 -1.0911832162938693,44.73826102011507 -1.0914831637672366,44.73841352579918 -1.0915598798925004,44.73845251358943</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Marne</name>
+      <description>name: Avenue de la Marne
+oneway: yes
+highway: residential
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0915598798925004,44.73845251358943 -1.09159949559653,44.73841352579918 -1.0922311010727945,44.73779227000044</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Glacière</name>
+      <description>name: Rue de la Glacière
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0922311010727945,44.73779227000044 -1.092698314852065,44.73804310857555 -1.0934230756232928,44.738414419136724</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de Verdun</name>
+      <description>name: Boulevard de Verdun
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0934230756232928,44.738414419136724 -1.0933673800756774,44.73851102713037</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Broustey</name>
+      <description>name: Rue du Broustey
+source: local
+highway: service
+service: alley
+source:name: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020
+ref:FR:FANTOIR: 330050104J</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0933673800756774,44.73851102713037 -1.0938728620860512,44.738887375621864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Roger Maillard</name>
+      <description>name: Rue Roger Maillard
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+fixme: Vérifier limites conditionnelles tonnage
+oneway: yes
+highway: living_street
+surface: asphalt
+maxspeed: 20
+maxweight: 3.5
+maxspeed:type: FR:zone20
+maxweightrating: 3.5
+maxweight:conditional: yes @ (07:00-11:00)
+name:etymology:wikidata: Q36666140
+maxweightrating:conditional: yes @ (07:00-11:00)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0976630339328084,44.740296331665405 -1.0972507072173976,44.74067209427044 -1.0967940935584797,44.74108830800536 -1.0967459438592508,44.741132207117765</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>ref: D 3
+name: Boulevard de la République
+highway: secondary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0967459438592508,44.741132207117765 -1.0968235582997987,44.74117202256298 -1.0970960173254722,44.74131226969807 -1.0972696616698925,44.74139968471027 -1.0975426596847364,44.74154388728824</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>ref: D 3
+name: Boulevard de la République
+highway: secondary
+maxspeed: 30
+traffic_calming: hump</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0975426596847364,44.74154388728824 -1.0975852398292039,44.74156628332007 -1.0977086683492416,44.74163538555164 -1.0978108067970462,44.74167481781298</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>ref: D 3
+name: Boulevard de la République
+highway: secondary
+surface: asphalt
+maxspeed: 30
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0978108067970462,44.74167481781298 -1.097836318951115,44.7416878980879 -1.0979193232833677,44.74173198816353 -1.0980221803833994,44.74178462822426 -1.0980483213581673,44.741798091310876</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>ref: D 3
+name: Boulevard de la République
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0980483213581673,44.741798091310876 -1.0982595152814638,44.74190069141305</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>ref: D 3
+name: Boulevard de la République
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 30
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0982595152814638,44.74190069141305 -1.098294639409073,44.741918620889834 -1.0983539282178247,44.74196468877264 -1.0984345070988104,44.74201968943784</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>lit: yes
+ref: D 3
+name: Boulevard de la République
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:zone30
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0984345070988104,44.74201968943784 -1.0985311658233814,44.74205229421582 -1.0986034802037532,44.74208547322738 -1.098649923103942,44.74210557204242</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>lit: yes
+ref: D 3
+name: Boulevard de la République
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.098649923103942,44.74210557204242 -1.0989416060766957,44.742251112777176 -1.0990001762332202,44.742281229007965 -1.099122257280332,44.74234388603109 -1.0992126277979146,44.742391484905504 -1.099625942660138,44.742619588887116</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>ref: D 3
+name: Boulevard de la République
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:zone30
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.099625942660138,44.742619588887116 -1.0997224217216524,44.74266769797559</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Louis Lamothe</name>
+      <description>name: Rue Louis Lamothe
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:left: no
+oneway:bicycle: no
+ref:FR:FANTOIR: 330050486
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0997224217216524,44.74266769797559 -1.0997723680514495,44.74263107381904 -1.0998225838758318,44.74259228026206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Louis Lamothe</name>
+      <description>name: Avenue Louis Lamothe
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:left: no
+zone:maxspeed: FR:30
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0998225838758318,44.74259228026206 -1.1015522001238753,44.74120271361661 -1.1015781614355864,44.741181721192916</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Louis Lamothe</name>
+      <description>lit: yes
+name: Avenue Louis Lamothe
+highway: residential
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1015781614355864,44.741181721192916 -1.1020548075253402,44.7407866283197</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+foot: yes
+highway: footway
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1020548075253402,44.7407866283197 -1.1020983758166203,44.7408198080576 -1.102159371424412,44.740771186973646 -1.1024034436871073,44.740921899439414</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée des Courlis</name>
+      <description>lit: yes
+name: Allée des Courlis
+highway: residential
+surface: asphalt
+sidewalk: left</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1024034436871073,44.740921899439414 -1.1021725766590884,44.74113048433345 -1.1019266179342966,44.7413686109218</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la Plage</name>
+      <description>lit: yes
+name: Boulevard de la Plage
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:left: track
+zone:maxspeed: FR:30
+cycleway:left:oneway: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1019266179342966,44.7413686109218 -1.1025167212444347,44.74169529960801</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Pierre Goubet</name>
+      <description>name: Rue Pierre Goubet
+highway: residential
+name:etymology:wikidata: Q27119021</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1025167212444347,44.74169529960801 -1.1027705851437268,44.7414821864947 -1.1030653223884463,44.741245272701455</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1030653223884463,44.741245272701455 -1.1033529629424215,44.741423612154065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Léopold Laval</name>
+      <description>name: Rue Léopold Laval
+highway: residential
+ref:FR:FANTOIR: 330050462Y</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1033529629424215,44.741423612154065 -1.102838497779206,44.74187440334452</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la Plage</name>
+      <description>lit: yes
+name: Boulevard de la Plage
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:left: track
+zone:maxspeed: FR:30
+cycleway:left:oneway: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.102838497779206,44.74187440334452 -1.1036497663122946,44.74230419900396 -1.10416252467647,44.742598022731016 -1.1045980279262109,44.74282338228456</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la Plage</name>
+      <description>name: Boulevard de la Plage
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+zone:maxspeed: FR:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1045980279262109,44.74282338228456 -1.1048668038592198,44.742950290208235 -1.105342461802161,44.74317488273376</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la Plage</name>
+      <description>name: Boulevard de la Plage
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.105342461802161,44.74317488273376 -1.1055341622837922,44.7432612740581 -1.1056949607196493,44.74340451492808 -1.105843811562228,44.743536972539204 -1.1059993099379093,44.74360568959075</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Commandant David Allègre</name>
+      <description>lit: yes
+name: Avenue du Commandant David Allègre
+highway: residential
+surface: asphalt
+maxspeed: 30
+maxspeed:type: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1061861595170062,44.74362572407321 -1.1062491314184228,44.74362310810615 -1.1064404725739403,44.743616217265526 -1.1065094631877608,44.743634529034644 -1.1066369341265772,44.74367300287215 -1.1067496726947343,44.74372538594971 -1.1068526196262944,44.74381860346486 -1.1070159333449472,44.74391692513006 -1.1071267854510076,44.74393421594422 -1.107192092972163,44.743944424540565 -1.107363042370731,44.743924326364805 -1.1073878358725728,44.74392139139251 -1.1076237334661825,44.74393332269195 -1.1078010609032678,44.74397052025677 -1.1079333827446185,44.74399827485643 -1.10854253033878,44.74420659343773</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Commandant David Allègre</name>
+      <description>name: Avenue du Commandant David Allègre
+oneway: yes
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.10854253033878,44.74420659343773 -1.1089155108447464,44.744280286354886 -1.1092010852735679,44.744337900751965 -1.1095690352139433,44.74427537349667 -1.109723994600454,44.74424902270454 -1.1121218675883542,44.74374388909609</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Commandant David Allègre</name>
+      <description>lit: no
+name: Avenue du Commandant David Allègre
+oneway: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1121218675883542,44.74374388909609 -1.1122539199351198,44.743857587610385 -1.1125888118730396,44.744132709016085 -1.11293780736092,44.744416889167596 -1.1130110200565757,44.7444831168513</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Commandant David Allègre</name>
+      <description>name: Avenue du Commandant David Allègre
+highway: residential
+ref:FR:FANTOIR: 330050219</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1130110200565757,44.7444831168513 -1.1130518035704746,44.744530713964416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1130518035704746,44.744530713964416 -1.1132031696958489,44.74449619649084 -1.1150122868465373,44.74474732499625</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1150122868465373,44.74474732499625 -1.1150056393134347,44.744854386054826 -1.1151558376289394,44.745250599570745 -1.1149412301075634,44.74542592796999 -1.1145014149444585,44.74562396930687 -1.1142974973749633,44.74563921795125 -1.1121746885270605,44.74511923052719</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Commandant David Allègre</name>
+      <description>name: Avenue du Commandant David Allègre
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1121746885270605,44.74511923052719 -1.111496640150607,44.744984990069376 -1.1109907988141192,44.74494881399914</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Commandant David Allègre</name>
+      <description>name: Avenue du Commandant David Allègre
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1109907988141192,44.74494881399914 -1.1105992231817714,44.744938414172296 -1.1102555277540676,44.74493560685674 -1.109957107416683,44.744891519224296</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue François Mauriac</name>
+      <description>name: Rue François Mauriac
+highway: residential
+surface: asphalt
+maxspeed: 30
+maxspeed:type: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.109957107416683,44.744891519224296 -1.1099297986320458,44.74492929039627 -1.109838080641537,44.74505491764713 -1.109708723240624,44.745137605622624 -1.109558704588176,44.74519273087392 -1.1094345574159108,44.74518028941554 -1.1092457315431887,44.74516153151941 -1.109150959280714,44.74527867256708 -1.1090647210134386,44.74534859978958 -1.1089003293164448,44.74537967143886 -1.1087426749840816,44.745421270417495 -1.1086468247432664,44.745459679263824 -1.1085972377395827,44.74550459588896 -1.1085596881607067,44.745603488903676 -1.1085498965241096,44.745661676198424</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue François Mauriac</name>
+      <description>name: Rue François Mauriac
+oneway: yes
+highway: residential
+surface: asphalt
+name:etymology:wikidata: Q81685</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1085498965241096,44.745661676198424 -1.1075541140316632,44.74531791093683 -1.1074540417090124,44.74529219864226</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la Plage</name>
+      <description>name: Boulevard de la Plage
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+maxspeed:type: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1074540417090124,44.74529219864226 -1.1074253854514489,44.74518692486035 -1.1073607067509923,44.74502059189417 -1.107273839663018,44.744894517950016 -1.1071919133091062,44.74479511330018 -1.1071250786519677,44.74472352653376</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Abbé Reulet</name>
+      <description>name: Rue de l'Abbé Reulet
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: right
+cycleway:left: track
+zone:maxspeed: FR:30
+oneway:bicycle: no
+cycleway:left:oneway: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1071250786519677,44.74472352653376 -1.1070636338865338,44.74475561936425 -1.1067573083746491,44.7450154238887 -1.1065877064490075,44.745152407778605 -1.1062800334641965,44.74539989671288 -1.1057773362312033,44.745835472111686 -1.1048630309350262,44.74665410508548 -1.104787482619632,44.74672167001992</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>ref: D 3
+name: Boulevard de la République
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+maxspeed:type: fr:zone:30;sign
+maxspeed:backward: 30
+destination:backward: Arès;Lège-Cap Ferret;Gendarmerie;Ctre Médico-Chirurgical;Rés. Les Quinconces</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.104787482619632,44.74672167001992 -1.1045895837625404,44.74652318583758</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>ref: D 3
+name: Boulevard de la République
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 30
+maxspeed:type: FR:zone30
+destination:backward: Arès;Lège-Cap Ferret;Gendarmerie;Ctre Médico-Chirurgical;Rés. Les Quinconces</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1045895837625404,44.74652318583758 -1.1041143749772413,44.74603491567663 -1.1040319994656875,44.74594852849721 -1.103684081956148,44.74558358271044 -1.1036524612581469,44.74555308538828 -1.1036169778044242,44.745517420089456 -1.1035016341219435,44.74540308681855 -1.103327989777523,44.74522999143067 -1.1033069691998747,44.745209128073945</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>ref: D 3
+name: Boulevard de la République
+lanes: 3
+highway: secondary
+surface: asphalt
+maxspeed: 50
+lanes:forward: 2
+maxspeed:type: FR:urban
+turn:lanes:forward: left|through
+destination:backward: Arès;Lège-Cap Ferret;Gendarmerie;Ctre Médico-Chirurgical;Rés. Les Quinconces</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1033069691998747,44.745209128073945 -1.1032226173946957,44.745124908942714 -1.1031328756978123,44.745035394080105 -1.1030755631826852,44.744977397562685 -1.102838228284621,44.74474247598056 -1.1028119076467964,44.7447126162434 -1.102710218356634,44.744610722964374</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>hgv: no
+lit: yes
+ref: D 3
+name: Boulevard de la République
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50
+maxweight: 3.5
+maxweightrating: 3.5
+source:maxspeed: FR:urban
+maxspeed:backward: 30
+destination:forward: Centre Ville;Hôtel de Ville;Centre Administratif;Police Municipale</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.102710218356634,44.744610722964374 -1.102617512219313,44.74451029697699 -1.102599276419045,44.74448936955741 -1.1023992216052718,44.74427652195707 -1.1022634861658414,44.74413711145837 -1.1022299790057437,44.744106613373106 -1.1019518605937801,44.74389612510322</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>hgv: no
+ref: D 3
+name: Boulevard de la République
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:urban
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1019518605937801,44.74389612510322 -1.1018871818933238,44.743847378998716 -1.1018139691976678,44.74379218866063 -1.1017668076452516,44.74375652227539</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>hgv: no
+ref: D 3
+name: Boulevard de la République
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50
+source:maxspeed: FR:urban
+maxspeed:backward: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1017668076452516,44.74375652227539 -1.101748571844984,44.743742676821164 -1.101572591880825,44.7436121976081</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>hgv: no
+ref: D 3
+name: Boulevard de la République
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50
+source:maxspeed: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.101572591880825,44.7436121976081 -1.1013095651656348,44.743475720502424 -1.1006834394126035,44.74315452907209 -1.1006021418793908,44.74310897257454 -1.1001125600495456,44.742858283586465 -1.0999614634187564,44.74278088816642</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>ref: D 3
+name: Boulevard de la République
+highway: secondary
+maxspeed: 30
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0999614634187564,44.74278088816642 -1.099846389230861,44.74272422929364</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la République</name>
+      <description>ref: D 3
+name: Boulevard de la République
+highway: secondary
+maxspeed: 30
+source:maxspeed: FR:zone30
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.099846389230861,44.74272422929364 -1.099809558304212,44.74270738475318 -1.0997224217216524,44.74266769797559</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Pierre Pons</name>
+      <description>name: Rue Pierre Pons
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+traffic_calming: table
+name:etymology:wikidata: Q18114936</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0997224217216524,44.74266769797559 -1.0996334885085246,44.7427454125724</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Pierre Pons</name>
+      <description>name: Rue Pierre Pons
+oneway: yes
+highway: residential
+surface: asphalt
+name:etymology:wikidata: Q18114936</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0996334885085246,44.7427454125724 -1.099586057461523,44.74278222807152 -1.0994616407946725,44.74287882876713 -1.0992632927799388,44.743032725975205 -1.0991992429001811,44.743082429836726</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Esplanade du Broustic</name>
+      <description>name: Esplanade du Broustic
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0991992429001811,44.743082429836726 -1.098997481287368,44.74296471009546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Max et Paulette Faye</name>
+      <description>name: Allée Max et Paulette Faye
+oneway: yes
+highway: service
+service: parking_aisle</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.098997481287368,44.74296471009546 -1.0989010022258534,44.74300841636884 -1.0987410122737518,44.74308632192164 -1.0986889998188014,44.743105271905094</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.0986889998188014,44.743105271905094 -1.0987051694939154,44.743154082439936 -1.098641389108743,44.74321597286277</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+highway: residential
+surface: asphalt
+junction: roundabout
+maxspeed: 30
+sidewalk: no
+maxspeed:type: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.1059993099379093,44.74360568959075 -1.1060161084337221,44.7435859103178 -1.1060410815986206,44.74357117156486 -1.1060715344867524,44.743563196047624 -1.106103963668509,44.743562813222766 -1.1061347758827544,44.743570023090435 -1.1061605575314086,44.74358399619425 -1.1061784340055627,44.74360332883917 -1.1061861595170062,44.74362572407321</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

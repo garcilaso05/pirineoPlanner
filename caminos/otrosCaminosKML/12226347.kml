@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+footway: sidewalk
+highway: footway
+surface: asphalt
+segregated: no
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.434254764033177,43.57748968878576 1.4342612319032226,43.57728358704419 1.4342983323244567,43.576747927466116 1.4343187240814064,43.57668890114654 1.4343628313618566,43.57654702949128 1.434393643576102,43.57622892339056 1.4344144844906936,43.575697289374226 1.4344778157182239,43.57536108651968 1.4345071906280145,43.575213875155086 1.434486798871065,43.57499162566247 1.4344630833475644,43.57485332944413</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+bicycle: designated
+footway: sidewalk
+highway: footway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4344630833475644,43.57485332944413 1.43445427985778,43.57459072845663</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: designated
+footway: sidewalk
+highway: footway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.43445427985778,43.57459072845663 1.4344493391237174,43.574478008177145 1.4344661376195302,43.57435350799275</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

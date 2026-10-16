@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>CSG 03C1 : Saint-Chély-d'Aubrac entrée Est - Saint-Chély-d'Aubrac cimetière</name>
+    <Placemark>
+      <name>Route de Bonnefon</name>
+      <description>ref: D 19
+name: Route de Bonnefon
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+lane_markings: no
+maxspeed:type: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9239392641891935,44.59137210620735 2.9239044095561697,44.59135061164986 2.923695191926498,44.59124620940036 2.9234569587131496,44.59115920738251 2.923401442828591,44.591146476929275 2.923136709314361,44.59112050423713 2.922891379410268,44.59110131258524 2.9228520332008237,44.591100289030294 2.9228205921658796,44.59109811397597 2.922637156184862,44.59107847451123 2.9224943240546875,44.59106177776236 2.9224668356069934,44.59105857915092 2.9224008992651385,44.59104943112122 2.922205515690843,44.591018020742574 2.92171916779602,44.59092993085283 2.9216545789270922,44.590918607741834</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Vingtieme Siecle</name>
+      <description>name: Rue du Vingtieme Siecle
+lanes: 2
+oneway: no
+highway: residential
+surface: asphalt
+motorhome: no
+motor_vehicle: designated</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9216545789270922,44.590918607741834 2.921658172188229,44.590887773044265 2.921693925136536,44.590634377741836 2.9217038964361906,44.59051679580488</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place De La Mairie Joseph Bonal</name>
+      <description>name: Place De La Mairie Joseph Bonal
+lanes: 2
+oneway: no
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9217038964361906,44.59051679580488 2.9215732813938793,44.59046862424624 2.9214281136439655,44.590414887002254 2.9211072354244783,44.590370105927626</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pont Des Pèlerins</name>
+      <description>name: Rue du Pont Des Pèlerins
+highway: residential
+surface: asphalt
+old_name: Rue du Pont Vieux
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9211072354244783,44.590370105927626 2.921087472488227,44.59032251000478 2.92108450804779,44.590301015059104</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pont Des Pèlerins</name>
+      <description>name: Rue du Pont Des Pèlerins
+highway: residential
+surface: asphalt
+old_name: Rue du Pont Vieux
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.92108450804779,44.590301015059104 2.9211019353643017,44.59015080610971</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pont Des Pèlerins</name>
+      <description>name: Rue du Pont Des Pèlerins
+narrow: yes
+highway: service
+incline: down
+service: alley
+surface: asphalt
+old_name: Rue du Pont Vieux</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9211019353643017,44.59015080610971 2.921194282175509,44.590102122461474 2.9213683756775715,44.58991947845053 2.921390114907447,44.58987130639683 2.921386791140896,44.58984738028893 2.92137978428168,44.58979658525711 2.9212824069048815,44.58971668215125 2.9212839340408645,44.58970177627546 2.921286718818245,44.58967477935767 2.9214720412613593,44.58958547192887</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pont Des Pèlerins</name>
+      <description>name: Rue du Pont Des Pèlerins
+lanes: 1
+oneway: no
+highway: unclassified
+incline: down
+surface: asphalt
+old_name: Rue du Pont Vieux</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9214720412613593,44.58958547192887 2.9215185739930765,44.58949302963919 2.921447607085631,44.589127097471746 2.9214158067245735,44.58904258728532 2.9214294611168916,44.58899140770315 2.9214575783852843,44.588970104188796</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont des Pèlerins</name>
+      <description>name: Pont des Pèlerins
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: unclassified
+ref:mhs: PA12000036
+ref:whc: 868-042
+surface: unhewn_cobblestone
+heritage: 3
+historic: bridge
+wikipedia: fr:Pont des Pèlerins (Saint-Chély-d'Aubrac)
+lane_markings: no
+source:heritage: data.gouv.fr, Ministère de la Culture - 2016
+maxweight:signed: no
+heritage:operator: mhs
+mhs:inscription_date: 2005-08-10
+whc:inscription_date: 1998
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9214575783852843,44.588970104188796 2.9215758865082035,44.588873118721416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pont Des Pèlerins</name>
+      <description>name: Rue du Pont Des Pèlerins
+highway: unclassified
+incline: up
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9215758865082035,44.588873118721416 2.921632121044989,44.58884292268533 2.9217173711654523,44.588832622762666 2.921899459673543,44.58888527390099 2.9219927048000347,44.58891227118551 2.9221048145474926,44.588956413637895 2.922168505101137,44.588955070172446 2.9222118038978313,44.588938692686405 2.922240010997753,44.588894806118994 2.9222174632841216,44.58884701706403 2.9219312600346012,44.58863749965917 2.9219090716470832,44.58860787927504 2.921915539517129,44.58858958244275 2.9219314396976577,44.5885797302999 2.921977882597847,44.58857582782727 2.922023696677337,44.588597899185416 2.922160330432052,44.58867710010594 2.922298760817334,44.5887278961161</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

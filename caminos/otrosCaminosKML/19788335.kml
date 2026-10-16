@@ -1,0 +1,565 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>PR 5 St-Antonin : Sentier de la Loutre</name>
+    <Placemark>
+      <name>Chemin de la Chaussée</name>
+      <description>name: Chemin de la Chaussée
+source: Bing
+highway: unclassified
+surface: compacted
+tracktype: grade3
+ref:FR:FANTOIR: 821550092J</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.749714794884503,44.15136581613582 1.7497419240060836,44.1514978828738 1.749759890311766,44.15156549525731 1.7498032789399889,44.15160648804695 1.750195573224564,44.15178637902462</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Chaussée</name>
+      <description>name: Chemin de la Chaussée
+source: Bing
+highway: unclassified
+surface: asphalt
+lane_markings: no
+ref:FR:FANTOIR: 821550092J</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.750195573224564,44.15178637902462 1.7502191090850079,44.15179849634773 1.7503957178698657,44.151886024597125 1.7507626796634288,44.15208789337841 1.7510614593269267,44.152247673447214 1.7513469439242197,44.15242491989118 1.7515302900737086,44.152562204952865 1.7515821228656026,44.152609191175266 1.75160997063941,44.15264992542834</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Fours à Chaux</name>
+      <description>name: Route des Fours à Chaux
+oneway: no
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+cycleway:both: no
+lane_markings: no
+ref:FR:FANTOIR: 821550418N</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.75160997063941,44.15264992542834 1.751494537125401,44.15266429842548 1.750624339109674,44.15277270809384 1.750055795366355,44.15284599085436 1.7499030817680548,44.15284031901687 1.7497296170866912,44.152809188353636 1.7496355634764438,44.15278321389535 1.7494776396494955,44.15273951490501 1.7489719779760649,44.15257767367219 1.7485535427167218,44.152444191381555 1.747353124002553,44.1520911160545</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Fours à Chaux</name>
+      <description>name: Route des Fours à Chaux
+highway: unclassified
+surface: asphalt
+maxspeed: 50
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.747353124002553,44.1520911160545 1.747271377311698,44.15206933076068 1.7460212817623175,44.15173062641551</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Fours à Chaux</name>
+      <description>lit: no
+name: Route des Fours à Chaux
+highway: unclassified
+surface: asphalt
+maxspeed: 50
+sidewalk: no
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7460212817623175,44.15173062641551 1.7453049651547605,44.15153159239404</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Fours à Chaux</name>
+      <description>lit: no
+name: Route des Fours à Chaux
+highway: unclassified
+surface: asphalt
+maxspeed: 80
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7453049651547605,44.15153159239404 1.7431551170168058,44.150934292937926 1.7410754273025406,44.15047002330641 1.739681241981587,44.150195572041305 1.7382652275992292,44.14993890932293 1.7378420312688807,44.14984647953222 1.736937337946244,44.14964892164903 1.7362512945637618,44.149440405515065 1.7355410865001368,44.14922460504338 1.7354279886058663,44.149194374866504</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des ondes</name>
+      <description>name: Chemin des ondes
+source: Bing
+highway: residential
+maxspeed: 80
+parking:both: no
+maxspeed:type: FR:rural</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7354279886058663,44.149194374866504 1.7353455232627841,44.149139908943724 1.7352968345743847,44.149114899722115 1.7352351203143657,44.149097625305124 1.7349142420948784,44.14906507461756 1.7348195596639322,44.149053279017444 1.7347465266313333,44.14903896959774 1.7342645804814032,44.14891012020731 1.7342104120697708,44.14889632640898 1.7340701850539195,44.148860617215135 1.7338844134531637,44.148824521257175 1.7337208302399256,44.14878790962011 1.7335262551493853,44.14876238459211 1.7333126357748216,44.148739824583416 1.7332523588192572,44.1487346035516 1.7331921716952212,44.14873228309287 1.7331032384820935,44.14873879326853 1.7328689578559948,44.14879087464791 1.7324503429335951,44.14889510172579 1.732312900695125,44.14893010187208</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier de la Loutre</name>
+      <description>name: Sentier de la Loutre
+source: strava heatmap
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.732312900695125,44.14893010187208 1.7322599899248903,44.14895279072194 1.7322095944374514,44.148981280685824 1.732174470309842,44.14900268037816 1.7321293748825795,44.14902420897648 1.7318899738593614,44.14912250562053 1.7314532129682225,44.14930311319159 1.7311459891410539,44.149437891714825 1.7296707757814729,44.15025010144546 1.7290108733737584,44.150646501627996 1.7273909414219057,44.15180120340894 1.7270045760182058,44.1521361045944 1.7266239598323245,44.15236317373586 1.7255885616358486,44.15298810887726 1.725218006581149,44.1531687046194 1.7250281925616147,44.15325178363138 1.724844936243654,44.153314431187574 1.7246253879882156,44.15337379161929 1.724304330105671,44.15344443109973 1.7238609216814298,44.15352158014373 1.7232459350379215,44.15365647793737 1.721506976310923,44.153916218162244 1.720701456995653,44.15392968852982 1.7204063604248196,44.15387960968363 1.7202521196905363,44.15381883182479 1.7201147672835944,44.15378260999581 1.719968970712982,44.15374941737499 1.7198671017597629,44.15370339883679 1.7197084592805871,44.15360079154679 1.7195798205319013,44.15352989444571 1.7194407613259195,44.15346389561325 1.719297120711989,44.15337372716717 1.7190324770292873,44.153155491887546 1.7189928613252576,44.15311688491267 1.7189015924923912,44.153043409131094 1.718830715416474,44.15297721639692 1.7187459144536532,44.15288318004806 1.7185536749828514,44.15262781807613 1.718455668785354,44.152487117153534 1.7183750000728404,44.15235879091653 1.7183440980270666,44.15230967753652</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>source: strava heatmap
+highway: service
+service: driveway
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7183440980270666,44.15230967753652 1.7183413132496859,44.15227532392752 1.7183349352111685,44.15212927252608 1.7183529015168508,44.15195821274638 1.718372125463931,44.151819895018626 1.718412459820188,44.15167061979124 1.718506693093492,44.15144747969291 1.718592841529239,44.15134409502861</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>source: strava heatmap
+highway: service
+service: driveway
+surface: asphalt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.718592841529239,44.15134409502861 1.718620060482348,44.15130851622444 1.7187451958014257,44.151183796877426</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: D 115
+lanes: 2
+highway: primary
+surface: asphalt
+maxspeed: 70
+maxspeed:type: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7187451958014257,44.151183796877426 1.7188131084369052,44.15122401647859</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Gorges de l'Aveyron</name>
+      <description>ref: D 115
+name: Route des Gorges de l'Aveyron
+lanes: 2
+layer: 1
+bridge: yes
+highway: primary
+railway: abandoned
+surface: asphalt
+maxspeed: 70
+sidewalk: both
+maxspeed:type: sign
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7188131084369052,44.15122401647859 1.71967549110966,44.151722827491426</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Gorges de l'Aveyron</name>
+      <description>ref: D 115
+name: Route des Gorges de l'Aveyron
+lanes: 2
+highway: primary
+railway: abandoned
+surface: asphalt
+maxspeed:type: FR:rural</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.71967549110966,44.151722827491426 1.720052064876763,44.151941003615235 1.7202287634931492,44.15203871531938 1.7205308669231985,44.15220558539522 1.720757511869382,44.152299880636924 1.7209344799803534,44.15237019913674 1.72123900886167,44.152474999971815 1.7214890100052405,44.15253700382228 1.7215461428573107,44.152551119034854 1.7217780878636701,44.152595269335485 1.722051714699213,44.15263381219868 1.72235112318341,44.15266172030966 1.7226364281176465,44.152673321829965 1.7228532814272328,44.15266848786346 1.7233633448455559,44.15263000947584 1.7236837739074014,44.15257032603102 1.723984170538411,44.15250007222273 1.724296694425756,44.15240191011016 1.7245166020073086,44.15232011896719 1.7247728015263393,44.152202684992375 1.7250544233679108,44.152051670487005 1.725395064523649,44.15185437780029</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Gorges de l'Aveyron</name>
+      <description>ref: D 115
+name: Route des Gorges de l'Aveyron
+lanes: 2
+highway: primary
+railway: abandoned
+surface: asphalt
+maxspeed:type: FR:rural</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.725395064523649,44.15185437780029 1.725739658266637,44.1516677193621</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Fontales</name>
+      <description>name: Chemin de Fontales
+highway: track
+surface: compacted
+tracktype: grade2
+check_date:surface: 2023-09-14</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.725739658266637,44.1516677193621 1.7258363169912085,44.15176111310886 1.7259180636820635,44.15178902163254 1.7259797779420825,44.15178992398643 1.7264638800486942,44.1515850248446 1.727365069941723,44.15104128778153 1.7281510059837994,44.15053899042697 1.7288268984035708,44.15007439540727 1.7300928941334806,44.14924297518594 1.7316230843884497,44.148091897453824 1.7320066650147687,44.147764708309715 1.7323004141126757,44.14757610318392 1.7324318376387424,44.14750487655277 1.7326102430541688,44.14743081365694 1.732812723319209,44.147382727514675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Fontales</name>
+      <description>name: Chemin de Fontales
+source: Bing
+highway: unclassified
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.732812723319209,44.147382727514675 1.7331200369779065,44.147360295896036 1.7336682787958047,44.14731162956767 1.734180588002338,44.14726148064693 1.7345521312038497,44.14725471247313 1.7349531391466808,44.14725671069595 1.7352951277753452,44.14727778871966 1.7358959210373641,44.147324005644386 1.7361024437211834,44.14734521256147 1.7373549647218312,44.14763102175848 1.7382884041335598,44.14781382547187 1.739294427420245,44.148039879915636 1.7396201565422669,44.148113104095025 1.7399967303093695,44.148189293241586 1.74077961207948,44.14834773025515 1.7410542270618352,44.14840413063537 1.7413540847036744,44.148469619466375 1.7416012112383357,44.14852311914644 1.7419306234530223,44.148582226567925 1.7424804822384319,44.14868091069149</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Fontales</name>
+      <description>name: Chemin de Fontales
+source: Bing
+highway: unclassified
+surface: compacted
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7424804822384319,44.14868091069149 1.742637956907738,44.14870450203821</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Fontales</name>
+      <description>name: Chemin de Fontales
+source: Bing
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.742637956907738,44.14870450203821 1.742940419663901,44.148742982985155 1.7436278105193093,44.148817817719696 1.7440087860313045,44.14885558956517 1.7442700161159264,44.148885175345356 1.7452348067310708,44.14901782774607 1.7455619731575471,44.14906307645596 1.7458075725562254,44.14909678736685 1.7458859056490006,44.14911000100736 1.7461411170212189,44.14916949458139 1.7464031555895965,44.14924542453785</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Fontales</name>
+      <description>name: Chemin de Fontales
+source: Bing
+highway: unclassified
+surface: asphalt
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7464031555895965,44.14924542453785 1.7474180721975947,44.14954031287365 1.7478683078179955,44.14965691421571 1.7481729265308406,44.14972730032064 1.7484610162424576,44.149783377102416 1.7487767740648255,44.14983197693685 1.749425178036903,44.14992350436787 1.7502819013233677,44.1500225085278 1.7504779137183628,44.15003237026119 1.7506945873648923,44.15003237026119 1.7509770176902195,44.150019994752356 1.7512439071611312,44.149992794406096 1.7514294092673022,44.14996997704434 1.7517600791233867,44.149920474941084 1.7519798968734106,44.14988760242768 1.7520302923608497,44.14987477569691</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Fontales</name>
+      <description>name: Chemin de Fontales
+highway: unclassified
+surface: asphalt
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7520302923608497,44.14987477569691 1.7520928151046242,44.14984609279639 1.7521220103513582,44.14981592739383</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Fontales</name>
+      <description>name: Chemin de Fontales
+highway: unclassified
+surface: asphalt
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7521220103513582,44.14981592739383 1.7521280290637617,44.14977512672867</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée de la Gare</name>
+      <description>name: Allée de la Gare
+oneway: yes
+highway: living_street
+service: parking_aisle
+surface: asphalt
+maxspeed:type: FR:urban
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7521280290637617,44.14977512672867 1.7522590034321865,44.149760881940026 1.752361141879991,44.1497481196378 1.7533695007864152,44.14962120548202 1.753710141942153,44.14957859990689 1.7543455203426108,44.14949912527985 1.7545119781647582,44.149476372183635 1.7546140267810342,44.14945722863696 1.7546636137847178,44.14943692486856 1.7546843648677808,44.14942487151702 1.7547261365284923,44.14938800242647</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: D 19
+lanes: 1
+oneway: yes
+source: Bing
+highway: primary
+surface: asphalt
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7547261365284923,44.14938800242647 1.7547917135442328,44.149415912072314 1.7548260291880864,44.149430608139184 1.7548688788271387,44.149452781145435</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: D 19
+highway: primary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7548688788271387,44.149452781145435 1.754878490800679,44.14946799285421 1.754891785866884,44.14949590246223</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>ref: D 19
+highway: primary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.754891785866884,44.14949590246223 1.7549074165528276,44.1495303221454</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary</name>
+      <description>lit: no
+ref: D 19
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+width: 5
+bridge: yes
+highway: primary
+surface: asphalt
+maxspeed: 30
+sidewalk: left
+smoothness: excellent
+cycleway:both: no
+lane_markings: no
+maxspeed:type: zone
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7549074165528276,44.1495303221454 1.7552314388758097,44.150227090816514</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard des Thermes</name>
+      <description>name: Boulevard des Thermes
+highway: primary
+surface: asphalt
+maxspeed: 30
+sidewalk: left
+cycleway:both: no
+lane_markings: no
+maxspeed:type: zone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7552314388758097,44.150227090816514 1.755251740801231,44.15029141742616 1.7552423084907474,44.15033718080318 1.7552349423054177,44.150365090000186</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard des Thermes</name>
+      <description>lit: yes
+name: Boulevard des Thermes
+width: 7
+highway: primary
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+lane_markings: no
+maxspeed:type: zone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7552349423054177,44.150365090000186 1.7552181438096044,44.15039248354099 1.7551920028348365,44.15042380884503 1.7551543634244322,44.1504501710736 1.7551216647480903,44.15046647826533 1.7551089086710556,44.15047292379442 1.7550993865290438,44.150477629030206 1.755033090861076,44.15050070401673 1.7549231370702996,44.1505295799648 1.7548345631832856,44.1505538151246 1.7545763873706295,44.15062832528761 1.7543944785255954,44.15068079173005 1.7543179420633885,44.15071018323024 1.7541188753964274,44.150787078028834 1.754025899764521,44.150830585100174 1.7538880981999372,44.15090322572411 1.753779042724445,44.15096961414871 1.7536847196196126,44.15103232858219 1.7535746759973079,44.15112327406056 1.7535166448299535,44.15117412869998 1.753278591279662,44.15137761127378 1.753218404155626,44.15142878796527 1.7531920835178016,44.15145650328344 1.7531873224467958,44.15146301315862</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de Condamines</name>
+      <description>name: Boulevard de Condamines
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: primary
+surface: asphalt
+maxspeed: 30
+sidewalk: right
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7531873224467958,44.15146301315862 1.7531783392939546,44.151481189241935 1.7531506711832034,44.15153932688927</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard de la Condamine</name>
+      <description>name: Boulevard de la Condamine
+highway: primary
+surface: asphalt
+maxspeed: 30
+sidewalk: right
+cycleway:both: no
+lane_markings: no
+maxspeed:type: zone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7531506711832034,44.15153932688927 1.7531342320135042,44.15158541156903 1.7531232725670378,44.151630593856495 1.7531054859244122,44.151776388676566 1.753107641881094,44.151834010402716 1.7531165352024072,44.15189311450855 1.7531615407981413,44.15220049357678 1.753185705479284,44.1523660096776 1.7531901970557047,44.15240120112517 1.7531972039149208,44.15245701755393</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vieille Route de Caussade</name>
+      <description>name: Vieille Route de Caussade
+highway: unclassified
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7531972039149208,44.15245701755393 1.7531534559605841,44.15246320505318 1.7530902145645821,44.152472099582205</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vieille Route de Caussade</name>
+      <description>name: Vieille Route de Caussade
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: unclassified
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7530902145645821,44.152472099582205 1.7529844828556413,44.1524849902016</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Vieille Route de Caussade</name>
+      <description>name: Vieille Route de Caussade
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: unclassified
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7529844828556413,44.1524849902016 1.7529488197388616,44.15248879293379</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Pradel</name>
+      <description>name: Place du Pradel
+oneway: no
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+cycleway:both: no
+lane_markings: no
+ref:FR:FANTOIR: 821550418N</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7529488197388616,44.15248879293379 1.7527087898949452,44.1525210194679 1.7518738956698843,44.15261711888812</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Pradel</name>
+      <description>name: Place du Pradel
+highway: unclassified
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7518738956698843,44.15261711888812 1.7519315675111249,44.15228718333701</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Roumégous</name>
+      <description>name: Chemin de Roumégous
+source: Bing
+highway: unclassified
+surface: asphalt
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7519315675111249,44.15228718333701 1.7519439642620458,44.15221628465783 1.7519419879684208,44.15214648160231 1.7519306691958407,44.15209002034465 1.7519050672102434,44.1520463852946 1.7518914128179248,44.152030916436004 1.7518690447673502,44.15200539281049</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: driveway
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7518690447673502,44.15200539281049 1.751890155176527,44.15196781634172 1.7519032705796753,44.151903878281544 1.7519170148035224,44.15183691082368 1.7519197097493744,44.15175228292657 1.7519250098095507,44.15166952407359 1.7519250098095507,44.15161177327876 1.7519063248516413,44.151554022427426 1.7518767702787936,44.15149240426928 1.7518150560187746,44.15141931319072 1.7516863274385601,44.151280800836766 1.751626319977581,44.151236198371606 1.7515628989185223,44.151201779683255 1.7514877997607698,44.15118070306081 1.7514153955488698,44.15115762834015 1.7513563762347033,44.15112868824478 1.751308136703946,44.15111141441718 1.7512330375461935,44.151109480779446 1.75091647124007,44.15115369661311 1.750806607280822,44.15118070306081 1.750784329061776,44.15118759969344 1.7507315081230699,44.15120377777245 1.7506590140796412,44.1512423215444 1.7505574146210074,44.151289631089604</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Roumégous</name>
+      <description>name: Chemin de Roumégous
+source: Bing
+highway: unclassified
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7505574146210074,44.151289631089604 1.7505061208182842,44.15126958576922 1.7504491676292708,44.15126191569307 1.7503815244883767,44.15126301141829 1.7502724690128846,44.15127287294441 1.7497591716595384,44.151355116719024 1.749714794884503,44.15136581613582 1.7494623682896657,44.15141828192265 1.7493269023448204,44.151449606682235</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Roumégous</name>
+      <description>foot: yes
+name: Chemin de Roumégous
+width: 3
+access: private
+source: Bing
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7493269023448204,44.151449606682235 1.7492159604072315,44.151474292643606 1.748955718469422,44.15154693247527 1.7488141439806448,44.151574905554305 1.7486846967482033,44.15159192142999 1.7486335826085369,44.15159050344054 1.7485731259899155,44.15158889208885 1.748432809142536,44.1515745188298 1.748304978877606,44.151544612127104 1.7481587331493513,44.151510709251845 1.7479001980105815,44.15152637160918 1.7476964601041434,44.15151103152261 1.7475111376610295,44.151487828022745 1.7474949679859155,44.151482284963095 1.7474875119690574,44.151473519193274 1.7474905662410234,44.15144586833731</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7474905662410234,44.15144586833731 1.7475141021014673,44.15127248621793 1.747519941150814,44.15123252446763</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

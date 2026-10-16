@@ -1,0 +1,815 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta dels recs</name>
+    <Placemark>
+      <name>Passatge de Llorenç Busquets i Malagelada</name>
+      <description>lit: yes
+foot: designated
+name: Passatge de Llorenç Busquets i Malagelada
+bicycle: designated
+highway: footway
+name:ca: Passatge de Llorenç Busquets i Malagelada
+surface: paving_stones
+maxspeed: 10
+lit:perceived: minimal
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7582709713450586,42.1208800291555 2.758336189034686,42.120895087730716 2.7583972744740057,42.12089328869758 2.759362065089151,42.12082898988719 2.7594416558233235,42.1208315218623 2.759495464908842,42.12082812368515 2.759495464908842,42.12078401399658 2.760313919964203,42.1207530972177 2.7605143341040903,42.120732708126816 2.7606457576301566,42.12069852640092 2.7608554244174703,42.12062789743521 2.760905280915739,42.12067287343663 2.7609505560060588,42.12071358501929 2.7610842253203356,42.120795074737075 2.76129613789586,42.12092200659079 2.7615112844064065,42.12103381302086 2.76171753759564,42.121049804389244 2.7619346603998114,42.12108138732996 2.762127888017426,42.121113170146806 2.762163910460319,42.1211161018943 2.7622022685229513,42.121103575335844 2.762214485610815,42.121094113784736 2.762240357090998,42.1210613981288 2.7624295422898335,42.1208143310819 2.7623701636495532,42.12079287591532 2.762487932783301,42.12063129562309 2.762673704384057,42.120466583247506 2.762806744877635,42.12030999948377</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Canat</name>
+      <description>lit: yes
+name: Carrer del Canat
+oneway: yes
+highway: living_street
+name:ca: Carrer del Canat
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.762806744877635,42.12030999948377 2.7627938091375435,42.12030740085633 2.762759044336048,42.120300471182674 2.7626947249617055,42.1202876113055 2.762219695839463,42.11996331499096</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Colom</name>
+      <description>lit: yes
+name: Carrer de Colom
+oneway: yes
+highway: living_street
+name:ca: Carrer de Colom
+surface: asphalt
+maxspeed: 20
+name:etymology:wikidata: Q7322</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.762219695839463,42.11996331499096 2.7633415119662716,42.119245819322 2.763402058416421,42.11921696740389</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+lanes: 1
+noname: yes
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.763402058416421,42.11921696740389 2.763461167562116,42.11921630107768</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Llibertat</name>
+      <description>lit: yes
+ref: C-150a
+name: Carrer Llibertat
+lanes: 1
+hazmat: no
+oneway: yes
+highway: secondary
+name:ca: Carrer Llibertat
+surface: asphalt
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.763461167562116,42.11921630107768 2.76345811329015,42.11913367657351 2.7634564064911102,42.119084168452055</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passatge de Lluís Vilà i Vendrell</name>
+      <description>lit: yes
+name: Passatge de Lluís Vilà i Vendrell
+tunnel: building_passage
+bicycle: yes
+highway: pedestrian
+name:ca: Passatge de Lluís Vilà i Vendrell
+surface: paving_stones
+description: Passatge de Lluís Vilà i Vendrell
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7634564064911102,42.119084168452055 2.763582619788529,42.11908476814689 2.76360858110024,42.11903432712785</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passatge de Lluís Vilà i Vendrell</name>
+      <description>lit: yes
+name: Passatge de Lluís Vilà i Vendrell
+tunnel: no
+bicycle: yes
+highway: pedestrian
+name:ca: Passatge de Lluís Vilà i Vendrell
+surface: paving_stones
+description: Passatge de Lluís Vilà i Vendrell
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.76360858110024,42.11903432712785 2.7637149416298796,42.118846222418796 2.76376470829662,42.11876979430982 2.7637770152160126,42.11875087050923 2.763902779355789,42.11853677796314 2.7641302327857282,42.118377790624606</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Abeurador</name>
+      <description>lit: yes
+name: Carrer Abeurador
+oneway: no
+bicycle: yes
+highway: pedestrian
+name:ca: Carrer Abeurador
+maxspeed: 10
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7641302327857282,42.118377790624606 2.7642169202106457,42.11833081398763 2.764311243315478,42.118275774649526 2.7643301079364453,42.118256517533254 2.764432156552721,42.1181413078815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer dels Turers</name>
+      <description>lit: yes
+name: Carrer dels Turers
+oneway: no
+bicycle: yes
+highway: pedestrian
+name:ca: Carrer dels Turers
+maxspeed: 10
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.764432156552721,42.1181413078815 2.764473838381904,42.11815236908328 2.764628438442301,42.118091332548104 2.764718000476128,42.11809079947766 2.7647577060116855,42.11807687301095</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>lit: yes
+oneway: yes
+bicycle: yes
+highway: pedestrian
+maxspeed: 10
+maxweight: 6
+motor_vehicle: no
+oneway:bicycle: no
+motor_vehicle:conditional: delivery @ (08:00-11:00)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7647577060116855,42.11807687301095 2.7649565930155897,42.11814430640024 2.7650261226185804,42.1181678947428</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>lit: yes
+oneway: yes
+bicycle: yes
+highway: pedestrian
+maxspeed: 10
+maxweight: 6
+motor_vehicle: no
+oneway:bicycle: no
+motor_vehicle:conditional: delivery @ (08:00-11:00)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7650261226185804,42.1181678947428 2.7650696909098604,42.11818268742772 2.765339275326624,42.118345206833304</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>lit: yes
+oneway: yes
+bicycle: yes
+highway: pedestrian
+maxspeed: 10
+maxweight: 6
+motor_vehicle: no
+oneway:bicycle: no
+motor_vehicle:conditional: delivery @ (08:00-11:00)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.765339275326624,42.118345206833304 2.7654026963856833,42.11838338783861 2.765413027011451,42.11838958475352</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça Major</name>
+      <description>lit: yes
+name: Plaça Major
+oneway: yes
+bicycle: yes
+highway: pedestrian
+name:ca: Plaça Major
+surface: paving_stones
+maxspeed: 10
+maxweight: 6
+motor_vehicle: no
+oneway:bicycle: no
+motor_vehicle:conditional: delivery @ (08:00-11:00)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.765413027011451,42.11838958475352 2.7655536133534158,42.1184792733683 2.7655795746651264,42.118498730317 2.765602302041815,42.11851672132591</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>lit: yes
+name: Carrer Major
+oneway: yes
+bicycle: yes
+highway: pedestrian
+name:ca: Carrer Major
+surface: paving_stones
+maxspeed: 10
+maxweight: 6
+motor_vehicle: no
+oneway:bicycle: no
+motor_vehicle:conditional: delivery @ (08:00-11:00)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.765602302041815,42.11851672132591 2.7657855583597755,42.11855450242797</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Especiatus</name>
+      <description>name: Carrer Especiatus
+highway: pedestrian
+name:ca: Carrer Especiatus
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7657855583597755,42.11855450242797 2.765788971957855,42.11854737266263</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passatge</name>
+      <description>lit: yes
+name: Passatge
+tunnel: building_passage
+highway: pedestrian
+name:ca: Passatge
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.765788971957855,42.11854737266263 2.765831013113152,42.11849166717878 2.7658615558328115,42.11844868863206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Placeta de Sant Pere</name>
+      <description>lit: yes
+name: Placeta de Sant Pere
+highway: pedestrian
+name:ca: Placeta de Sant Pere
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7658615558328115,42.11844868863206 2.7658779051709828,42.11840431075323 2.7662451364591307,42.118203010705415</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Hospital</name>
+      <description>lit: yes
+name: Carrer de l'Hospital
+oneway: yes
+bicycle: yes
+highway: pedestrian
+name:ca: Carrer de l'Hospital
+surface: concrete
+maxspeed: 10
+maxweight: 6
+motor_vehicle: no
+oneway:bicycle: no
+motor_vehicle:conditional: delivery @ (08:00-11:00)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7662451364591307,42.118203010705415 2.7662605874820176,42.118171226428885</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passatge Especiatus</name>
+      <description>lit: yes
+name: Passatge Especiatus
+highway: pedestrian
+name:ca: Passatge Especiatus
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7662605874820176,42.118171226428885 2.7664175231621533,42.11810259365999 2.7664251588420683,42.11809932860409</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passatge Especiatus</name>
+      <description>name: Passatge Especiatus
+highway: steps
+name:ca: Passatge Especiatus</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7664251588420683,42.11809932860409 2.7664483353763987,42.11808953343536</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passatge Especiatus</name>
+      <description>lit: yes
+name: Passatge Especiatus
+highway: pedestrian
+name:ca: Passatge Especiatus
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7664483353763987,42.11808953343536 2.766538705893981,42.11805088581609</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Sant Pere</name>
+      <description>lit: yes
+name: Carrer Sant Pere
+highway: pedestrian
+name:ca: Carrer Sant Pere
+surface: paving_stones
+name:etymology:wikidata: Q33923</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.766538705893981,42.11805088581609 2.766955075028171,42.11842943156833</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Pia Almoina</name>
+      <description>lit: yes
+name: Carrer de la Pia Almoina
+oneway: yes
+highway: living_street
+name:ca: Carrer de la Pia Almoina
+surface: asphalt
+maxspeed: 20
+parking:lane:left: parallel
+parking:condition:left: ticket
+parking:condition:right:default: free
+parking:condition:left:time_interval: Mo-Fr 09:30-13:00 16-20:30,Sa 09:30-13:00 16-20:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.766955075028171,42.11842943156833 2.766778825569426,42.1185798897167 2.7666755193117525,42.11876399723066</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>lit: yes
+name: Carrer Major
+oneway: yes
+bicycle: designated
+highway: pedestrian
+name:ca: Carrer Major
+surface: paving_stones
+maxspeed: 20
+maxweight: 6
+smoothness: good
+motor_vehicle: no
+oneway:bicycle: no
+motor_vehicle:conditional: delivery @ (08:00-11:00)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7666755193117525,42.11876399723066 2.766780262873881,42.118781388466545</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>lit: yes
+name: Carrer Major
+oneway: yes
+bicycle: designated
+highway: pedestrian
+name:ca: Carrer Major
+surface: paving_stones
+maxspeed: 10
+maxweight: 6
+smoothness: good
+motor_vehicle: no
+oneway:bicycle: no
+motor_vehicle:conditional: delivery @ (08:00-11:00)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7666755193117525,42.11876399723066 2.7657855583597755,42.11855450242797</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de la Font</name>
+      <description>lit: yes
+name: Plaça de la Font
+oneway: yes
+bicycle: designated
+highway: pedestrian
+name:ca: Plaça de la Font
+surface: paving_stones
+maxspeed: 20
+maxweight: 6
+motor_vehicle: no
+oneway:bicycle: no
+motor_vehicle:conditional: delivery @ (08:00-11:00)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.766780262873881,42.118781388466545 2.767021191033082,42.11878038897036</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Escrivanies</name>
+      <description>lit: yes
+name: Carrer Escrivanies
+oneway: yes
+bicycle: designated
+highway: pedestrian
+name:ca: Carrer Escrivanies
+surface: paving_stones
+maxspeed: 20
+maxweight: 6
+motor_vehicle: no
+oneway:bicycle: no
+motor_vehicle:conditional: delivery @ (08:00-11:00)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.767021191033082,42.11878038897036 2.767043109926014,42.11877599118696 2.76711461582263,42.11878072213576 2.7672108253895593,42.118799312762135 2.7672719108288795,42.11880830822456 2.7674495975920785,42.11887420827696 2.76753152394599,42.11890359341474 2.7676212656428736,42.11894330664052 2.767714061611723,42.118993814364856 2.767806498254459,42.1190493861417 2.7679107028274164,42.1191058240954</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça del Teatre</name>
+      <description>lit: yes
+name: Plaça del Teatre
+oneway: yes
+highway: pedestrian
+name:ca: Plaça del Teatre
+surface: paving_stones
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7679107028274164,42.1191058240954 2.767931723405065,42.11913327677725 2.7679671170272595,42.11915066791179</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça del Teatre</name>
+      <description>lit: yes
+name: Plaça del Teatre
+oneway: yes
+bicycle: designated
+highway: pedestrian
+name:ca: Plaça del Teatre
+surface: paving_stones
+maxspeed: 20
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7679671170272595,42.11915066791179 2.7682261013236715,42.119255614312 2.768182443200863,42.11932457899464</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Baix</name>
+      <description>lit: yes
+name: Carrer de Baix
+oneway: yes
+bicycle: designated
+highway: pedestrian
+name:ca: Carrer de Baix
+surface: paving_stones
+maxspeed: 20
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.768182443200863,42.11932457899464 2.768261584777394,42.11934530170104 2.768335965282919,42.11937128836509</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Puig</name>
+      <description>lit: yes
+name: Carrer del Puig
+oneway: yes
+bicycle: designated
+highway: pedestrian
+name:ca: Carrer del Puig
+maxspeed: 20
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.768335965282919,42.11937128836509 2.768509699458868,42.11945657785424 2.7685709645612446,42.11951727991292 2.7687211628767496,42.11966560324966 2.7688735171489363,42.11980639682358 2.768883129122476,42.11981672478284 2.768889776655579,42.11982378777338 2.7689110667278127,42.119846709171185 2.7691761595681563,42.1201306939412</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Mossèn Pere Dausà</name>
+      <description>lit: yes
+name: Carrer de Mossèn Pere Dausà
+oneway: yes
+highway: residential
+name:ca: Carrer de Mossèn Pere Dausà
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7691761595681563,42.1201306939412 2.769137082853297,42.12019699240793 2.7691129181721537,42.12027981542014</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+noname: yes
+oneway: yes
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7691129181721537,42.12027981542014 2.7691203741890122,42.120375031766244 2.769109235079489,42.1204715805953 2.7690868670289146,42.12054061058579 2.7690653074620957,42.12059231639813</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Roc</name>
+      <description>name: Carrer de Sant Roc
+oneway: yes
+highway: residential
+name:ca: carrer de Sant Roc
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7690653074620957,42.12059231639813 2.768977542058837,42.12062489903398</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+access: yes
+noname: yes
+oneway: no
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.768977542058837,42.12062489903398 2.7690240747905546,42.120671674077016 2.769090011132409,42.12073877154995 2.7693770228656853,42.120955388626626</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda Fortià</name>
+      <description>lit: yes
+name: Ronda Fortià
+access: yes
+oneway: yes
+bicycle: designated
+highway: residential
+name:ca: Ronda Fortià
+surface: asphalt
+maxspeed: 30
+cyclestreet: yes
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7693770228656853,42.120955388626626 2.7693763940449863,42.120986705091354 2.7693862755131113,42.12112309810939 2.769404421481851,42.12147370744149 2.769392923046214,42.12154620110925 2.769354385320525,42.12159057678774 2.7693033610123874,42.12162402510144 2.769257277438312,42.121636218406614</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda Fortià</name>
+      <description>lit: yes
+name: Ronda Fortià
+oneway: yes
+highway: residential
+name:ca: Ronda Fortià
+surface: asphalt
+maxspeed: 30
+cyclestreet: yes
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.769257277438312,42.121636218406614 2.7692207160062483,42.121641615442584 2.7687243069802436,42.12171477521819 2.767983196870845,42.121842771307286 2.767890221238939,42.12186622501343 2.7678081152219702,42.12189960655182 2.7675600005404966,42.12208317138378 2.767448789108322,42.12217012296067 2.767352399878337,42.12224301560828 2.7672675090839873,42.122323503918814 2.767146056857574,42.122411721121864 2.7670425709368436,42.12248221484085</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7670425709368436,42.12248221484085 2.7669606445829324,42.122528988512805 2.7668767419353952,42.12255517375853</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril Bici Mas Palau - Caneleta</name>
+      <description>lit: yes
+foot: no
+name: Carril Bici Mas Palau - Caneleta
+bicycle: designated
+highway: cycleway
+surface: paved
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7668767419353952,42.12255517375853 2.766811344582712,42.122570431822936 2.766783856135017,42.12257782765195 2.7667294182287994,42.12259641716432</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda Fortià</name>
+      <description>lit: yes
+foot: designated
+name: Ronda Fortià
+oneway: yes
+bicycle: designated
+highway: living_street
+name:ca: Ronda Fortià
+surface: asphalt
+maxspeed: 10
+cyclestreet: yes
+motor_vehicle: destination
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7667294182287994,42.12259641716432 2.766566823162374,42.12261627262312 2.766500168168293,42.122628798882516 2.766388238083891,42.12265858205318 2.7662974184086666,42.12269103036858 2.7661520709956964,42.122740802187636 2.7659776181675197,42.1227847106274 2.765856255772636,42.122825087709046 2.765751961368149,42.12285340495392 2.7656569196110894,42.122874926051566 2.7655924205736895,42.122881322413534 2.7655582845928928,42.12288158892861</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda Fortià</name>
+      <description>lit: yes
+foot: designated
+name: Ronda Fortià
+oneway: no
+bicycle: designated
+highway: living_street
+name:ca: Ronda Fortià
+surface: asphalt
+maxspeed: 10
+cyclestreet: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7655582845928928,42.12288158892861 2.765496390669817,42.12288032298202 2.7654200338706674,42.12287279393075</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda de Fortià</name>
+      <description>lit: yes
+name: Ronda de Fortià
+oneway: yes
+bicycle: designated
+highway: living_street
+name:ca: Ronda de Fortià
+surface: concrete
+maxspeed: 10
+cyclestreet: yes
+motor_vehicle: destination
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7654200338706674,42.12287279393075 2.7650413041468824,42.12282562073965 2.7643176213539955,42.12273547187421</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda de Fortià</name>
+      <description>lit: yes
+name: Ronda de Fortià
+oneway: no
+bicycle: designated
+highway: living_street
+name:ca: Ronda de Fortià
+surface: concrete
+maxspeed: 10
+cyclestreet: yes
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7643176213539955,42.12273547187421 2.764276388682455,42.1227310743653 2.764234886516328,42.12272661022714 2.7636217863349164,42.122659514859194 2.763577319728353,42.12265458431296 2.763508957935231,42.1226471884929</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Llibertat</name>
+      <description>lit: yes
+ref: C-150a
+name: Carrer Llibertat
+lanes: 2
+hazmat: no
+oneway: no
+highway: secondary
+name:ca: Carrer Llibertat
+surface: asphalt
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.763508957935231,42.1226471884929 2.763508957935231,42.12261020937965 2.763508957935231,42.12256430194597 2.763508957935231,42.122534785247524</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Horta</name>
+      <description>lit: yes
+foot: no
+name: Camí de l'Horta
+bicycle: no
+highway: living_street
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.763508957935231,42.122534785247524 2.763450477610235,42.12252638997638</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Horta</name>
+      <description>lit: yes
+foot: designated
+name: Camí de l'Horta
+bicycle: designated
+highway: living_street
+surface: asphalt
+maxspeed: 20
+cyclestreet: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.763450477610235,42.12252638997638 2.7634342181035927,42.122523991327284 2.76210785558659,42.12230258229826 2.761963226825847,42.12229838464744</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: footway
+surface: paving_stones
+maxspeed: 10
+segregated: no
+lit:perceived: minimal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.761963226825847,42.12229838464744 2.7618390796535817,42.12229318755557</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: paving_stones
+maxspeed: 10
+segregated: no
+lit:perceived: minimal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7618390796535817,42.12229318755557 2.7618294676800414,42.12225047810494 2.761791019785881,42.1222242927333 2.7617638008327723,42.12221483134954 2.7616612132273253,42.12220170534296 2.7614929587746104,42.122164925858264 2.761255893371131,42.122124481726374</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: paving_stones
+maxspeed: 10
+segregated: no
+lit:perceived: minimal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.761255893371131,42.122124481726374 2.7611410886778205,42.12209569774858 2.7610850338040915,42.12207550897856 2.760860724477647,42.12205638627628 2.7605642804338872,42.12203859616131 2.7603864140076317,42.12196850172714 2.7602806822986907,42.12193638619052 2.7601268907220495,42.12191739670581 2.759969865210386,42.121920994713875 2.7597696307335555,42.121909067982656 2.7594635747162557,42.12188181639283 2.7593786839219065,42.1218544315316 2.759308166172103,42.12181038918736</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: paving_stones
+maxspeed: 10
+segregated: no
+lit:perceived: minimal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.759308166172103,42.12181038918736 2.7592638792285955,42.121783070925176</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: paved
+maxspeed: 10
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7592638792285955,42.121783070925176 2.7592066565449973,42.12174449218852</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: paved
+maxspeed: 10
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7592066565449973,42.12174449218852 2.759154644090047,42.12170931155844 2.759137576099649,42.121697917827476 2.7590005830188202,42.121523813367766 2.7584822550998838,42.121494695965964 2.758410569540211,42.121491097933685</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: footway
+surface: paving_stones
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.758410569540211,42.121491097933685 2.7583203786856854,42.12148703348958</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

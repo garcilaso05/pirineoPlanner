@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.994452515290057,44.03237747477927 3.994703774075026,44.03231159893995 3.9948301670355018,44.03225670235123 3.9948698725710594,44.032239393769196 3.9951622741960406,44.0323912957794 3.9954571911038164,44.03255611418679 3.9958526294918864,44.032787582524215 3.9961354191433274,44.0329044142742 3.9961686568088393,44.03290079759551 3.9961985707078003,44.03289750383436 3.996661203079122,44.03270898414159 3.996919558554835,44.032645692023934 3.997110360721182,44.03261281884637 3.9971579714312404,44.03260939590148 3.997195521010117,44.03260991257242</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.997195521010117,44.03260991257242 3.9973216444760067,44.03270730496383 3.997359822875582,44.0327279717637 3.997408691227038,44.0327357218118 3.997462410481028,44.032733784299865 3.9975154110827917,44.03272222381071 3.9977614596391122,44.03261469177837 3.99780907034917,44.03259777080418 3.9979633110834536,44.03254339115207 3.9980250253434724,44.0325245972227 3.9981772897841306,44.03248810727408</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ruelle de l'Ancienne Mairie</name>
+      <description>name: Ruelle de l'Ancienne Mairie
+source: Mapbox,cadastre 2015
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.9981772897841306,44.03248810727408 3.9981462080753,44.03238981034496</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.9981462080753,44.03238981034496 3.998063832563746,44.03214910488987 3.99825310759411,44.03210467082722 3.9983111387614647,44.032194507684004 3.99834590356296,44.03220277447635</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.99834590356296,44.03220277447635 3.998805301999258,44.03209769570971</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

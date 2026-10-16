@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue de Rangueil</name>
+      <description>lit: yes
+name: Avenue de Rangueil
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4611997309803422,43.57235782536982 1.4611758357937845,43.57237279453731 1.461174218826273,43.57237377078722</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Rangueil</name>
+      <description>lit: yes
+name: Avenue de Rangueil
+footway: sidewalk
+highway: footway
+surface: asphalt
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.461174218826273,43.57237377078722 1.461164157695091,43.57238001878637 1.4611396336878344,43.57237988861973 1.4611188826047714,43.57238568103502 1.4608936749630426,43.57253029598701</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4608936749630426,43.57253029598701 1.4608746306790192,43.572515912607244</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4608746306790192,43.572515912607244 1.4608428303179615,43.57249209216081 1.4608165995116649,43.57247237194802</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4608165995116649,43.57247237194802 1.4607902788738403,43.572452586645525</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+foot: designated
+note: Voie verte
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+smoothness: excellent
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4607902788738403,43.572452586645525 1.4607404223755718,43.572507516877195 1.460027429534566,43.57294500444557 1.459617887596536,43.57314741133479 1.4595124253821803,43.573243928592596</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

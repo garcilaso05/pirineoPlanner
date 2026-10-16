@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue du Stade</name>
+      <description>name: Rue du Stade
+highway: cycleway
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.348447598262552,43.5399301095726 1.3485491078896574,43.53994358907542 1.3486283392977167,43.53995420336779 1.3492788992264761,43.540069397623085 1.349608131778106,43.540125008564125 1.3498302851478687,43.54014949299028 1.3499115826810815,43.54015847929314 1.3499989887582264,43.540168702838955 1.350077860840172,43.54017781937516 1.3506830558470833,43.5402480166578 1.3514417729360506,43.54034120049394</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

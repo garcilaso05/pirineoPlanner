@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bernoako Galtzada: Iruaitzetako arkurako deribazioa</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+mtb:scale: 1
+sac_scale: mountain_hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-2.103273365082151,42.873535777938415 -2.1030980139386903,42.87373077700749 -2.102660175069211,42.874077718459866 -2.1019581416746713,42.87488120630776 -2.10164256351536,42.875236831100246 -2.1014216677869952,42.87559521876595 -2.101244160686853,42.87579751859945 -2.101228440169381,42.87594491464364 -2.100964155812793,42.87615879956805 -2.100901094079848,42.87630329819711 -2.1007354447414563,42.87641889685673 -2.100553985054064,42.87657787757535 -2.100340725005614,42.87680532132815</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

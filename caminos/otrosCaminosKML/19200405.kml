@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+path: crossing
+bicycle: designated
+highway: path
+segregated: yes
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5307049896269933,43.64184239083145 1.5306951081588682,43.64181651755956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5306951081588682,43.64181651755956 1.5306796571359813,43.64175248441416 1.530474841251202,43.6412370313599 1.530212712851296,43.64059500041005 1.5301610597224589,43.640510812975364 1.5301210846923157,43.640459975409414 1.5300764384226948,43.64040868273215 1.5300323311422448,43.6403703269626 1.529960016761873,43.64032592525305 1.5298841989518932,43.640293485330304 1.5295364611054105,43.64021579847016 1.5294834605036476,43.64019688056683 1.529245856110998,43.64000198030878 1.5291977064117692,43.63995218247633 1.5291826147149958,43.63991779204314 1.5291873757860017,43.63987000946152 1.5292224999136108,43.63980792455381</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5292224999136108,43.63980792455381 1.5292103726572754,43.639792192032964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5292103726572754,43.639792192032964 1.5292030963034737,43.63977411913205 1.5291962691073147,43.6397572814245</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

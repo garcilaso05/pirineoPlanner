@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Place du Languedoc</name>
+      <description>ref: D 95c
+name: Place du Languedoc
+oneway: yes
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5488652415792254,43.47155831109597 1.5487222297859933,43.47152512826936 1.5485617906762497,43.47147740755162</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Château d'Eau</name>
+      <description>ref: D 95c
+name: Chemin du Château d'Eau
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5485617906762497,43.47147740755162 1.5485101375474126,43.471504918680374 1.5482745992799167,43.47164247413634 1.5480297185334657,43.47174997578896 1.5476192782801514,43.471902981146705 1.5472738760534075,43.47198531833911 1.546773334777096,43.4720449687291 1.5449944908514825,43.47218552176494</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Château d'Eau</name>
+      <description>name: Chemin du Château d'Eau
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5449944908514825,43.47218552176494 1.5442246346529922,43.47225390760897 1.5436012936773418,43.47227079218581 1.543334673701015,43.47231518751786 1.5431181797175422,43.47239406901125 1.5429083332671718,43.47249452868145 1.5428105965642598,43.47255189688025 1.542030230076945,43.47302153176909 1.541938422254908,43.47311208144112</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Château d'Eau</name>
+      <description>name: Chemin du Château d'Eau
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.541938422254908,43.47311208144112 1.5411151162970125,43.47257269283885</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

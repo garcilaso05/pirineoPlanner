@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue du Somport</name>
+      <description>lit: yes
+name: Rue du Somport
+lanes: 2
+highway: residential
+surface: asphalt
+maxspeed: 50
+cycleway:both: lane
+sidewalk:both: yes
+source:maxspeed: FR:urban
+cycleway:both:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.48062391253733,43.65610148360264 1.4806665825133256,43.65607158691839 1.480968685943375,43.655872968568495 1.4810254594693315,43.65583891221477</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1721600366980596,42.265027673124614 3.1723458082988154,42.264948097613626 3.172372578094283,42.26490468670355 3.17240779205342,42.26477053151229 3.1727050445809346,42.26469647346974 3.1728135610672563,42.26467387045918</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1728135610672563,42.26467387045918 3.1727814912116137,42.26460267092293 3.1727287601044356,42.264538717582795</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>highway: pedestrian
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1727287601044356,42.264538717582795 3.1726461150982965,42.26448360597257 3.1725666141956523,42.26440968055244</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>lit: yes
+highway: pedestrian
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1725666141956523,42.26440968055244 3.1726547389250244,42.264387609277115 3.172980288383989,42.26428090917747 3.173378242054854,42.26418079041509 3.173596891995009,42.26407289332384 3.1736628283368633,42.26401086737079 3.1736884303224606,42.2639729736717 3.1737395444621272,42.26389718620519 3.174081712753848,42.26335111487188 3.1743537226218796,42.2629169934298 3.1744080706965687,42.26283010230128 3.17475023898829,42.26225496909608 3.1749786805650415,42.26190008715277 3.175176489590605,42.26159300429383 3.1752691058963975,42.26147639352433 3.175379868170929,42.26133697888346 3.1754066379663963,42.261314906532455</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

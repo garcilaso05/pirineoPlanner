@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4102216860794854,43.691377708314675 1.4103161888473745,43.691393687139886 1.410456415863226,43.69142863268587</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>layer: -1
+tunnel: yes
+highway: residential
+surface: asphalt
+maxheight: 2.2
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.410456415863226,43.69142863268587 1.4109223720010986,43.69153061120738</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lanes: 2
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4109223720010986,43.69153061120738 1.41098282861972,43.69154308245416 1.4110351105692556,43.69154262777334 1.4110980824706725,43.69151742545926 1.4111437168871055,43.69147611442669 1.4112577130966601,43.691299697810145 1.4114125826516428,43.69106007956431 1.4114548034699963,43.690999476587095 1.4115313399322034,43.69097960035616 1.4115707759731762,43.69098940856245</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

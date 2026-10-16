@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Rivalsupervic</name>
+      <description>name: Chemin de Rivalsupervic
+lanes: 2
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4419555718062917,43.549299525400876 1.4417221894954773,43.54926501801412 1.4415773810716772,43.5492426207563 1.44138433311712,43.549199779466704 1.4413017779425097,43.54919261754602 1.4412071853430917,43.54919300819626 1.441149693164908,43.54920043055036 1.4410892365462868,43.54920811333698 1.44080563841109,43.549263780956494</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

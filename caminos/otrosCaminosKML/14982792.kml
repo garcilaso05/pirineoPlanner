@@ -1,0 +1,427 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Boucle du Lac Rouge</name>
+    <Placemark>
+      <name>Rue de la Porte du Reclusou</name>
+      <description>name: Rue de la Porte du Reclusou
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8872245937902534,44.887492189867785 0.8874238401202712,44.887471696144765 0.8877166010713657,44.88743650038603 0.887963278448385,44.88741008764154 0.8882230712285522,44.88740569612382 0.8884830436717764,44.887370373034244 0.8886812120234532,44.88731538353271 0.8888243136482136,44.887217687934466 0.8888502749599245,44.88714729608461 0.8889113603992447,44.8869991292331 0.8889805306761218,44.886826076486464 0.8890136785101059,44.886774968863705</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Porte du Reclusou</name>
+      <description>name: Rue de la Porte du Reclusou
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8890136785101059,44.886774968863705 0.8890806029987728,44.88667218066796 0.8891949585344412,44.88652369436181 0.8892413116031018,44.8864606209799 0.8892970969822457,44.886391883007654</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>highway: pedestrian
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8892970969822457,44.886391883007654 0.8893239566092408,44.88635738669803 0.8893868386791292,44.886285529927605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grande Rue</name>
+      <description>name: Grande Rue
+highway: pedestrian
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8893868386791292,44.886285529927605 0.889329256669417,44.88629889567558 0.8893085055863539,44.886287502966795 0.8892980851290583,44.886267072461024 0.8891620801950424,44.886057929856875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grande Rue</name>
+      <description>name: Grande Rue
+highway: pedestrian
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8891620801950424,44.886057929856875 0.8891030608808758,44.8859637963429 0.8890659604596416,44.8858899023812</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grande Rue</name>
+      <description>name: Grande Rue
+highway: pedestrian
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8890659604596416,44.8858899023812 0.889033980435527,44.88579716882555 0.8889995749601451,44.88571729182694</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grande Rue</name>
+      <description>name: Grande Rue
+highway: pedestrian
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8889995749601451,44.88571729182694 0.8889800815184797,44.8856626189807 0.88894217261349,44.88557453130539 0.8889228588348814,44.8855161031342 0.888912079051472,44.88543711680844</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Port</name>
+      <description>name: Rue du Port
+highway: pedestrian
+surface: asphalt
+smoothness: excellent
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.888912079051472,44.88543711680844 0.8888121863918779,44.885263422887085 0.8887112157539429,44.88511907004624 0.888636026764662,44.885004694985255 0.8886099756214226,44.88489490235052 0.8885867092555639,44.88476499670741 0.8885628140690063,44.884630571744864 0.8885074778475045,44.88439558189862 0.8884853792915153,44.88428432418266 0.8884763063071456,44.88415709040964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Port</name>
+      <description>name: Rue du Port
+highway: pedestrian
+surface: concrete
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8884763063071456,44.88415709040964 0.8884216887378711,44.883939411165926 0.888396805404501,44.88372007621767 0.8883867442733189,44.883631094476726 0.8883779407835345,44.88331622021522 0.8883641965596875,44.88329648880125 0.8883205384368792,44.88323392107929</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Port</name>
+      <description>name: Rue du Port
+highway: pedestrian
+surface: concrete
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8883205384368792,44.88323392107929 0.8883568303743576,44.88315792316474</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Port</name>
+      <description>name: Rue du Port
+highway: pedestrian
+surface: concrete
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8883568303743576,44.88315792316474 0.888423395536911,44.88306302110537 0.8884967878956235,44.882970282992694</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Port</name>
+      <description>name: Rue du Port
+highway: pedestrian
+surface: concrete
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8884967878956235,44.882970282992694 0.8887086106396189,44.882874298570385</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Port</name>
+      <description>name: Rue du Port
+highway: pedestrian
+surface: concrete
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8887086106396189,44.882874298570385 0.8887705943942231,44.88283789064418</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Port</name>
+      <description>name: Rue du Port
+tunnel: building_passage
+highway: pedestrian
+surface: concrete
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8887705943942231,44.88283789064418 0.8887882013737918,44.88282751565399</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Port</name>
+      <description>name: Rue du Port
+horse: no
+oneway: yes
+highway: pedestrian
+surface: concrete
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8887882013737918,44.88282751565399 0.888803921891264,44.88281828636667 0.888970110218826,44.88274470661619</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Dordogne</name>
+      <description>ref: D 31
+name: Route de la Dordogne
+highway: tertiary
+surface: asphalt
+sidewalk: right
+smoothness: excellent
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.888970110218826,44.88274470661619 0.8889200740575007,44.8827398055395 0.8887419381366598,44.8827296214827 0.8884743300135205,44.88272701181787 0.8882869414452531,44.88272771197185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Dordogne</name>
+      <description>ref: D 31
+name: Route de la Dordogne
+lanes: 2
+highway: tertiary
+surface: asphalt
+sidewalk: right
+smoothness: excellent
+sidewalk:right:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8882869414452531,44.88272771197185 0.8882008828410346,44.88273127639206 0.8881387194233734,44.88274858928703 0.8880841916856275,44.88278308776075 0.8880145722511081,44.88287130701089 0.8879609428286462,44.88299319702208 0.8879533071487312,44.88301108268868</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Dordogne</name>
+      <description>ref: D 31
+name: Route de la Dordogne
+highway: tertiary
+surface: asphalt
+sidewalk: right
+smoothness: excellent
+lane_markings: no
+sidewalk:right:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8879533071487312,44.88301108268868 0.8879185423472358,44.88308829014654</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Dordogne</name>
+      <description>ref: D 31
+name: Route de la Dordogne
+highway: tertiary
+surface: asphalt
+sidewalk: right
+smoothness: excellent
+lane_markings: no
+sidewalk:right:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8879185423472358,44.88308829014654 0.8878805436107176,44.88324111350654 0.8878793758008482,44.88337592361371</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Dordogne</name>
+      <description>ref: D 31
+name: Route de la Dordogne
+highway: tertiary
+surface: asphalt
+sidewalk: no
+smoothness: good
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8878793758008482,44.88337592361371 0.8878872809753484,44.88347547157319 0.8879141406023435,44.88383248070943 0.8879470189417423,44.88425122688009</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Dordogne</name>
+      <description>ref: D 31
+name: Route de la Dordogne
+highway: tertiary
+surface: asphalt
+sidewalk: no
+smoothness: good
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8879470189417423,44.88425122688009 0.8879782803136297,44.88457908028158 0.888000558532676,44.88477728079108</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Dordogne</name>
+      <description>ref: D 31
+name: Route de la Dordogne
+highway: tertiary
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.888000558532676,44.88477728079108 0.8880160095555628,44.884850094165756 0.8880319995676201,44.88489299291153 0.8882586445138034,44.88548682537904 0.8882790362707529,44.885602026894816 0.888267717498173,44.885680121934804 0.888244361300786,44.885729703001346</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Dordogne</name>
+      <description>ref: D 31
+name: Route de la Dordogne
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.888244361300786,44.885729703001346 0.8882221729132682,44.88575872604484 0.8881475229131579,44.885821418314734</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Touron</name>
+      <description>name: Route du Touron
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8881475229131579,44.885821418314734 0.8881697113006756,44.88588232840388 0.8881258735148105,44.88591618853005 0.8880623626242233,44.88595450391193 0.8878805436107176,44.886011404116346 0.8876377289894201,44.886049210261305</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Bourgonie</name>
+      <description>name: Chemin de la Bourgonie
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8876377289894201,44.886049210261305 0.8876036828401519,44.88619432452641 0.887583021588617,44.88639519261561 0.8875393634658089,44.88663921203129 0.8874636354873576,44.8868808118727 0.8873550291695076,44.8871542970862 0.8872853199034599,44.887320475155434 0.8872412126230097,44.887439300772684 0.8872245937902534,44.887492189867785</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Bourgonie</name>
+      <description>name: Chemin de la Bourgonie
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8872245937902534,44.887492189867785 0.8872466025147143,44.88756550896611 0.8873011302524604,44.88763698226802 0.8874100958964241,44.88773550453681 0.887515827605365,44.88785121070679 0.8876220983034764,44.8880035122578 0.8877174095551215,44.88817427026608 0.8879113558249628,44.888589802638116</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Bourgonie</name>
+      <description>name: Chemin de la Bourgonie
+highway: track
+surface: grass
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8879113558249628,44.888589802638116 0.8879720819381693,44.8887151809386 0.888059218520729,44.88889758360246 0.8882189389782454,44.88918257865133 0.8883496438520848,44.88944631555374</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8883496438520848,44.88944631555374 0.8883261978231692,44.88953471551417 0.8882832583525883,44.88959167581987 0.8881847131659204,44.88966912901657 0.8878111936707835,44.890007325236816 0.8875309193021382,44.89022969103193 0.8873391289889787,44.89048152212066 0.8868885340424644,44.89106772360137 0.8864002996855453,44.89149710873556 0.8860248038967835,44.891812574620744 0.885429400526469,44.892063380538225 0.8852765072651119,44.89220587039593 0.8852524324154974,44.8923255768771 0.8852389576862356,44.89243580080637 0.8851236140037546,44.89282718314402 0.8850767219459237,44.89317777036183 0.8850485148460022,44.89333273063106 0.88503450112757,44.893425770230714 0.885054533558406,44.8934656715724 0.8850863339194638,44.89350869116975 0.8850876813923898,44.893566220285145</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Forêt</name>
+      <description>name: Route de la Forêt
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8850876813923898,44.893566220285145 0.8849634443885962,44.89360440329456 0.884863731392059,44.89362877676898</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.884863731392059,44.89362877676898 0.8847481182149928,44.893929276040865 0.8845952249536356,44.89423518294135 0.8845175206815592,44.89442520459025 0.8842598838580737,44.89490222870917 0.8838736981174308,44.89548927603899 0.883734189753807,44.89570589339911 0.8835438367451021,44.895998490993684 0.8833533040733405,44.896266396576486 0.8831710359021924,44.89656471847403 0.8830932417985878,44.896682506834615 0.8830734788623371,44.89686157522529</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Bousquet</name>
+      <description>name: Route du Bousquet
+highway: unclassified
+maxspeed: 70</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8830734788623371,44.89686157522529 0.8827364309677355,44.897624868667265 0.882572757922969,44.89805242310915 0.8824681940238974,44.89835347196302 0.8824521141803116,44.89850460031148 0.8824472632777774,44.89862162110507 0.8824400767555044,44.89874780476082 0.8824431310274704,44.89889218703076 0.8824225596074642,44.899047131901696 0.8824145646014355,44.89909931036795</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Bousquet</name>
+      <description>name: Route du Bousquet
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8824145646014355,44.89909931036795 0.8823994729046623,44.89919902201261</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Château d'Eau</name>
+      <description>name: Route du Château d'Eau
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8823994729046623,44.89919902201261 0.8823783624954855,44.89935581138366</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Château d'Eau</name>
+      <description>name: Route du Château d'Eau
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8823783624954855,44.89935581138366 0.882367582712076,44.8994858749693 0.8823238347577393,44.899766808764916</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Forêt</name>
+      <description>name: Route de la Forêt
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8823238347577393,44.899766808764916 0.8826014141805324,44.8998074056529 0.8831802885496188,44.89988968107621 0.8837054436647152,44.899969983812035 0.8844346960123635,44.90007879320382 0.8847265586481738,44.90017850314987 0.8851007967955381,44.900377986154055 0.8853583437874951,44.900548007485604 0.8859598557017416,44.90086106940065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Forêt</name>
+      <description>name: Route de la Forêt
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8859598557017416,44.90086106940065 0.8861455374709691,44.90075410677138 0.8863711044388116,44.900602793443795 0.886690006364674,44.900347570608346 0.8868643693613215,44.9001176718313 0.8869984878332406,44.89993912263127 0.8871700660525075,44.899771899285355 0.8877234282675249,44.89935542959189 0.8879854668359026,44.899120181741196 0.888664144033055,44.89878388445415 0.8891250696053367,44.89852738088704</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Forêt</name>
+      <description>name: Route de la Forêt
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8891250696053367,44.89852738088704 0.8894087575720616,44.898371416486654 0.8897526326628226,44.89812101987949 0.889809406188779,44.898025824339456 0.8898130892814438,44.897906384257816 0.8896631604605243,44.89766203084046 0.8895124231558491,44.89744052102493 0.8890966828423585,44.89675988684726</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Forêt</name>
+      <description>name: Route de la Forêt
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8890966828423585,44.89675988684726 0.889011522553424,44.89663312611423 0.8888971670177557,44.89647830200849</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.8888971670177557,44.89647830200849 0.8890932692442789,44.89624361510517 0.8894687650330408,44.89580090187219 0.8897263120249979,44.89553299412069 0.8902359262856788,44.89497439289912 0.8904693085964931,44.89454687920782 0.8906222018578502,44.89409269811152 0.890589862507622,44.89362152200221 0.8904490965026004,44.89298309894315 0.8903431851306028,44.89277398075828 0.8902305363939741,44.8926941770874 0.8899543044441074,44.892592608618834 0.8896886726145934,44.89252317793968 0.8895372166576908,44.89246997527272 0.8894540326623813,44.89242440931307 0.8893909709294361,44.89234931449635 0.8893936658752886,44.89225531855791 0.8894191780293574,44.89214407604364 0.8895948884989312,44.89178972774467 0.8896740300754622,44.89166429250571 0.8897289171393219,44.89146102447016 0.8896713351296097,44.8913136960617 0.8895653339260837,44.891132319317 0.8895277843472075,44.890900474455734 0.8895063146119171,44.89067238351278 0.8893882759835837,44.890448173816424 0.8892326877763742,44.89023160029375 0.8889216011934836,44.890030172820936 0.8886158146707693,44.88984389155707 0.8883496438520848,44.88944631555374</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

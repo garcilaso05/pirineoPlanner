@@ -1,0 +1,807 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sentier Littoral Bidart</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6119136794582107,43.42522550101801 -1.6119232016002223,43.425253816096934 -1.6119539239829392,43.42534541593895 -1.6118975996146248,43.4254621990123 -1.6119700038265248,43.425672603701564 -1.6119930905293267,43.42570189719565 -1.6120344130323965,43.425754416676284 -1.6122013200121856,43.4258115030166 -1.6122822582192848,43.42576903078453 -1.6125820260295955,43.42568402098936 -1.612653442094683,43.425711226746465 -1.6127034782560083,43.42570333251125 -1.6129204213971235,43.42578468875374 -1.6129888730217734,43.42579551884675 -1.6130178886054503,43.42582742194076 -1.6130091749471942,43.425866893025635 -1.6129920171252679,43.42591308394847 -1.6129531200734653,43.425931612500825 -1.6129436877629821,43.425948183806945 -1.6130510364394344,43.42596077538689 -1.6130537313852866,43.42597930392467 -1.6130080969688534,43.42598713288258 -1.6128550240444395,43.42601681767214 -1.612848556174394,43.42604480617468 -1.6128374170648707,43.42611272227739</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Jetée des Alcyons</name>
+      <description>name: Jetée des Alcyons
+highway: unclassified
+name:eu: Alcyons kaia
+surface: asphalt
+smoothness: excellent
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6128374170648707,43.42611272227739 -1.6120330655594703,43.426112787518576 -1.6118816096025674,43.42608251560519 -1.6118666975688511,43.426082776570034 -1.6112390446798368,43.426095172398405 -1.6111237908288842,43.42609230178574 -1.6110017996133008,43.42607670913732 -1.6106972707319844,43.42600787961616</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: concrete
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6106972707319844,43.42600787961616 -1.6101432796962676,43.42598569757371 -1.6098294981675247,43.42606548764727 -1.6097676940759773,43.426003182243136</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: no
+highway: steps
+incline: up
+handrail: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6097676940759773,43.426003182243136 -1.6097296055079306,43.42599998541962</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Plage</name>
+      <description>name: Chemin de la Plage
+highway: residential
+surface: asphalt
+sidewalk: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6097296055079306,43.42599998541962 -1.6095168844486514,43.426041413629605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier des Baleines</name>
+      <description>lit: yes
+name: Sentier des Baleines
+highway: residential
+name:eu: Baleen xendera
+surface: asphalt
+sidewalk: no
+maxheight: default
+smoothness: excellent
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6095168844486514,43.426041413629605 -1.6092780224146042,43.426184291805576 -1.6091631278897651,43.426240203401804 -1.60912665628923,43.42626871372912 -1.60910006615682,43.42639886940067</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.60910006615682,43.42639886940067 -1.6090659301760233,43.42646919901549 -1.6090336806573233,43.42650579908884 -1.6089951429316347,43.42659817992421</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Promenade de la Plage</name>
+      <description>name: Promenade de la Plage
+highway: path
+name:eu: Hondartzako ibilaldia
+surface: compacted
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6089951429316347,43.42659817992421 -1.6088123357713164,43.426782484488825 -1.608603567299287,43.42700958608501 -1.608571677106701,43.42701832827248 -1.6084758268658852,43.427012195693344 -1.6084460926299806,43.4270243956108 -1.608409710860974,43.42703861797139 -1.607809636251182,43.42737251628386 -1.6075482265035035,43.42752400295307 -1.607411862243374,43.42758232717683 -1.6073398173575877,43.42761122830939 -1.6073137662143482,43.42761579507851 -1.6069910913642924,43.427672227268474 -1.6069477027360695,43.42768847190069 -1.6068873359489768,43.42771541579912 -1.6068530203051232,43.427741185376 -1.6068284064663385,43.42775292847069</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: compacted
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6068284064663385,43.42775292847069 -1.6068169080307018,43.427815819227895 -1.6068120571281674,43.42787192503498 -1.6066993185600105,43.42798041786093 -1.6065034858280722,43.428105024534766 -1.6063614621816529,43.42821860557783 -1.6062489032765528,43.42824678877896</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: no
+highway: steps
+incline: up
+surface: compacted
+handrail: no
+smoothness: very_bad
+step_count: 38</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6062489032765528,43.42824678877896 -1.6061684142270958,43.42823811200779 -1.6060475009898536,43.42823941678549 -1.6060154311342103,43.42826668663295</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: compacted
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6060154311342103,43.42826668663295 -1.6058478055021936,43.42828182204539</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: compacted
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6058478055021936,43.42828182204539 -1.6055809160312817,43.428345625595846</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: no
+ramp: no
+highway: steps
+incline: up
+surface: compacted
+handrail: no
+step_count: 43</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6055809160312817,43.428345625595846 -1.6054836284860114,43.428292977885754 -1.6053864307722698,43.428240395368746 -1.6054064632031055,43.428167393014434</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: compacted
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6054064632031055,43.428167393014434 -1.6053324420236943,43.428134316851725</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint Joseph</name>
+      <description>lit: no
+name: Chemin de Saint Joseph
+ramp: no
+highway: steps
+incline: up
+name:eu: Jondoni Josepe deitu bidea
+surface: compacted
+handrail: no
+step_count: 16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6053324420236943,43.428134316851725 -1.605224734021128,43.42820281776036</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint Joseph</name>
+      <description>name: Chemin de Saint Joseph
+highway: path
+name:eu: Jondoni Josepe deitu bidea
+surface: compacted
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.605224734021128,43.42820281776036 -1.6051763148273142,43.42823941678549 -1.604895591301027,43.42824652782345 -1.604621694970899,43.428255400310015</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint Joseph</name>
+      <description>name: Chemin de Saint Joseph
+highway: service
+name:eu: Jondoni Josepe deitu bidea
+service: parking_aisle
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.604621694970899,43.428255400310015 -1.6040898923227,43.42827790771496</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Parlementia</name>
+      <description>lit: yes
+name: Rue Parlementia
+highway: residential
+name:eu: Parlamentia karrika
+surface: asphalt
+maxspeed: 30
+sidewalk: right
+sidewalk:right:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6040898923227,43.42827790771496 -1.603829740216419,43.428423977307624 -1.603138935762931,43.42894901596989</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Parlementia</name>
+      <description>lit: yes
+name: Rue Parlementia
+oneway: yes
+highway: residential
+name:eu: Parlamentia karrika
+surface: asphalt
+cycleway: opposite
+maxspeed: 30
+sidewalk: right
+oneway:bicycle: no
+sidewalk:right:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.603138935762931,43.42894901596989 -1.6028052116348805,43.42923430159378 -1.6026742372664562,43.429346314813216 -1.6026111755335106,43.42942042478505 -1.602325511273161,43.42979390895753 -1.6022866142213588,43.42982548375833 -1.6022169049553108,43.42985418810839 -1.602153933053894,43.42985960279109 -1.602037241898487,43.429856210459825 -1.6015245733658399,43.42976722693325 -1.601406175411393,43.42974661196269 -1.6011997425591022,43.42970773054339</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+ramp: no
+footway: sidewalk
+highway: footway
+incline: down
+surface: asphalt
+handrail: no
+step_count: 5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6011997425591022,43.42970773054339 -1.6011710863015387,43.42977681680641</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: no
+ramp: no
+access: yes
+highway: steps
+incline: down
+surface: asphalt
+handrail: no
+step_count: 6
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6011710863015387,43.42977681680641 -1.6011673133773456,43.42978490622204</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+highway: path
+surface: compacted
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6011673133773456,43.42978490622204 -1.601125721379691,43.4298648217619 -1.6011098211991621,43.43001793311782 -1.6010909565781954,43.43007579828014 -1.601024571078699,43.430149320227336 -1.6009910639186014,43.430178611554986 -1.600967617889686,43.43022727818382 -1.600979655314493,43.43025989654586 -1.6011346147010035,43.43032558987365 -1.6013552409347833,43.43039669776478 -1.6014235128963763,43.43041776916968</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: no
+ramp: no
+highway: steps
+incline: down
+surface: sand
+handrail: no
+step_count: 35
+check_date:handrail: 2025-09-03</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6014235128963763,43.43041776916968 -1.601444982631667,43.43045482351098 -1.6014571098880026,43.43052071233646</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+highway: path
+surface: sand
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6014571098880026,43.43052071233646 -1.601468518492111,43.4305792946181 -1.6013262253511065,43.43067199541784 -1.6011268891895603,43.43066423230212 -1.6010837700559224,43.43065340308022 -1.6010068742676018,43.430635919754025 -1.6009875604889934,43.43063220128475</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>lit: no
+highway: pedestrian
+surface: asphalt
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6009875604889934,43.43063220128475 -1.6008263128954938,43.43060212734057 -1.6007366610301388,43.43059071098041 -1.600589067828958,43.43060688959304 -1.600247618189464,43.43064453094517 -1.6001535645792166,43.43064472665405 -1.6000401073588324,43.43063180986691</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+highway: path
+surface: sand</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6000401073588324,43.43063180986691 -1.6000694822686232,43.43065470780586 -1.6001124217392042,43.430688108772486 -1.5985339919534776,43.4317438177169 -1.598305999534368,43.43172718276233</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: sand</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.598305999534368,43.43172718276233 -1.597989972217415,43.43167688646009</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: designated
+bicycle: designated
+highway: path
+surface: wood
+mapillary: 458179212149914
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.597989972217415,43.43167688646009 -1.5979721855747895,43.4316903249055</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: designated
+layer: 1
+bridge: yes
+bicycle: designated
+highway: path
+surface: wood
+mapillary: 458179212149914
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5979721855747895,43.4316903249055 -1.5979092136733726,43.43202909016757</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+foot: designated
+bicycle: designated
+highway: path
+surface: wood
+mapillary: 458179212149914
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5979092136733726,43.43202909016757 -1.5979057102437644,43.43204800825648</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: yes
+highway: path
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5979057102437644,43.43204800825648 -1.5980386609058141,43.43205479267313 -1.5981098074763163,43.43205772823779 -1.5982990825066803,43.43208851904077 -1.5987359332293478,43.43220267972016 -1.5986166369596166,43.43248162228004</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5986166369596166,43.43248162228004 -1.5986663137948285,43.43257392876076 -1.5986690087406805,43.432643011752106 -1.5986472695108052,43.43270387517206 -1.598599029980048,43.43273512228456 -1.5981405298590332,43.432830102970094 -1.5981124125906403,43.432835908790125 -1.598117802482345,43.43285528326419 -1.598244464937406,43.43289161854058 -1.5983475915320229,43.43291888629202 -1.5983719358762227,43.43294002205262</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Tamaris</name>
+      <description>name: Rue des Tamaris
+highway: service
+name:eu: Tamariz karrika
+service: alley
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5983719358762227,43.43294002205262 -1.5982630600637873,43.43313148300453</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5982630600637873,43.43313148300453 -1.598432212831787,43.43318419173947 -1.5988902637951594,43.433328227256276</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>dog: leashed
+lit: no
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5988902637951594,43.433328227256276 -1.5987441078984332,43.43352829776085 -1.598706288824972,43.43355308636552 -1.5986904784759715,43.433550672738676 -1.5983418423142046,43.433532211751746 -1.5981540045882952,43.433532211751746 -1.5981006446604185,43.43353638667507</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Embruns</name>
+      <description>lit: yes
+name: Rue des Embruns
+oneway: no
+highway: service
+name:eu: Itsas langar karrika
+service: alley
+surface: asphalt
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5981006446604185,43.43353638667507 -1.5980076690285119,43.43356737242517 -1.5977730290763,43.43380866933418 -1.5977556915913165,43.43382530371662 -1.5976832873794165,43.43385752874255 -1.5974702069940234,43.4339110196384 -1.5974432575354998,43.43392661026866 -1.5973908857544354,43.43395687825902 -1.5971749307601333,43.43408192925702 -1.5970186239006963,43.43417240678721 -1.5968377032024748,43.434235290874156 -1.596794763731894,43.434239204819306 -1.59674293094,43.43424748933572</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Camboenea</name>
+      <description>lit: yes
+name: Rue de Camboenea
+oneway: yes
+highway: residential
+name:eu: Kanboenea karrika
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.59674293094,43.43424748933572 -1.5968949258860732,43.43427429984959 -1.5970767448995788,43.43433842324456 -1.5971913699298326,43.434388521638105 -1.597286771013006,43.434486891800596 -1.597277608197108,43.434555776912035 -1.5972218228179644,43.43461442051992 -1.5971331590994216,43.43466999816927 -1.5969345415901028,43.43476680230987 -1.5966631605427706,43.434898896658915 -1.5963147040440604,43.435040710221834 -1.5962308013965238,43.43505121250099 -1.5961575887008679,43.435033469518984 -1.5961209374372758,43.435025119878595</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Uhabia</name>
+      <description>lit: yes
+name: Rue de l'Uhabia
+oneway: yes
+bicycle: yes
+highway: tertiary
+name:eu: Uhabia karrika
+surface: asphalt
+smoothness: excellent
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5961209374372758,43.435025119878595 -1.5958687803370233,43.43523346915466 -1.5953148791328353,43.435651274479966 -1.5949286933921922,43.43594337772312 -1.5946122169175971,43.436182969169884</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>lit: yes
+highway: service
+surface: asphalt
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5946122169175971,43.436182969169884 -1.5946493173388312,43.43619660230564 -1.5947769679407047,43.43624330718759 -1.5949236628266013,43.436296926435</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>lit: yes
+highway: service
+service: parking_aisle
+surface: asphalt
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5949236628266013,43.436296926435 -1.5949876228748305,43.436296600284 -1.5950090926101212,43.436296469823596 -1.595087605365953,43.4362962089028 -1.5952274730556906,43.4363234751202 -1.5953659034409735,43.436350480404755 -1.5954590587359365,43.43635661203773 -1.5955683837060137,43.43625981044034</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5955683837060137,43.43625981044034 -1.5956619881586191,43.436287728976225</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: no
+ramp: no
+highway: steps
+incline: up
+surface: concrete
+handrail: yes
+step_count: 10
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5956619881586191,43.436287728976225 -1.5957172345485924,43.436303775605516</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5957172345485924,43.436303775605516 -1.5957333143921781,43.43630671096407 -1.595815061083033,43.43618981835331 -1.5958687803370233,43.43612948028227 -1.5959425320218499,43.436108019483584 -1.595980081600726,43.436134307330164</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+ramp: no
+highway: steps
+incline: down
+surface: compacted
+handrail: yes
+step_count: 129</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.595980081600726,43.436134307330164 -1.5961182424914233,43.43627161711246 -1.5962295437551257,43.43623658847076 -1.596226758977745,43.43633299872434 -1.5963394975459022,43.436296926435 -1.596401211805921,43.43628922927101 -1.5964656210117925,43.43627070388928 -1.596554105067278,43.43621708461863</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.596554105067278,43.43621708461863 -1.5966493264873949,43.43625022159443</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>lit: yes
+highway: pedestrian</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5966493264873949,43.43625022159443 -1.5965243708313739,43.43638329115696 -1.5963435399646804,43.43662418545887</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>lit: no
+highway: pedestrian
+surface: asphalt
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5963435399646804,43.43662418545887 -1.5958298832852211,43.43711112430231</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Plage</name>
+      <description>name: Rue de la Plage
+horse: no
+highway: service
+name:eu: Hondartzako karrika
+surface: asphalt
+smoothness: excellent
+motor_vehicle: permissive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5958298832852211,43.43711112430231 -1.5956343200478684,43.43735742971862</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Plage</name>
+      <description>lit: no
+name: Rue de la Plage
+horse: no
+highway: service
+name:eu: Hondartzako karrika
+surface: asphalt
+smoothness: excellent
+motor_vehicle: permissive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5956343200478684,43.43735742971862 -1.5953532371954673,43.437627412178585 -1.5951445585549662,43.43773627888916 -1.5949407308169996,43.43780926970167 -1.5947878375556424,43.43784527586093 -1.5947139062077593,43.437850102771954 -1.5946376392401376,43.43785512536815 -1.5943419138486052,43.437842992862336 -1.59411652654382,43.437805682130275 -1.5940275034991636,43.43776452288693</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Plage</name>
+      <description>lit: no
+foot: yes
+name: Rue de la Plage
+horse: no
+access: permissive
+bicycle: yes
+highway: service
+name:eu: Hondartzako karrika
+surface: asphalt
+smoothness: excellent
+motor_vehicle: permissive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5940275034991636,43.43776452288693 -1.5940242695641407,43.437693619338674 -1.5940365764835331,43.43768018222632</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: no
+ramp: no
+highway: steps
+incline: up
+surface: compacted
+handrail: no
+step_count: 27</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5940365764835331,43.43768018222632 -1.5939630942932923,43.437656373743245 -1.593862482981471,43.43765833060522 -1.5937183932098984,43.43770170769612 -1.5935675660736945,43.437761522370465</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: compacted
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5935675660736945,43.437761522370465 -1.593523189298659,43.43777906886678 -1.593440723955577,43.43778552649797 -1.5933440652310056,43.437781482324986 -1.5932754339432986,43.437797919929636 -1.5931656598155794,43.4377962239865</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: no
+ramp: no
+highway: steps
+incline: up
+surface: compacted
+handrail: no
+step_count: 9</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5931656598155794,43.4377962239865 -1.5931007116205376,43.43781318341567 -1.5930322599958877,43.43785016800048</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: compacted
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5930322599958877,43.43785016800048 -1.5929985731727332,43.437966600805055 -1.592923743509566,43.43805472430819</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: yes
+highway: steps
+incline: down
+surface: compacted
+handrail: no
+step_count: 16
+ramp:bicycle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.592923743509566,43.43805472430819 -1.5928566393578423,43.4380887734734 -1.5928189101159094,43.43812243125006 -1.5927507279858446,43.43824068991767</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: compacted
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5927507279858446,43.43824068991767 -1.5927467753985944,43.43828667571332 -1.5927705807536237,43.43841641417393 -1.592790882679045,43.43852991063834 -1.5928002251579996,43.438570286628064 -1.5928898770233546,43.43881717315211 -1.5928813430281554,43.43883047955703 -1.5929314690210095,43.43885820122454</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: no
+ramp: no
+highway: steps
+incline: up
+surface: compacted
+handrail: no
+step_count: 42</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5929314690210095,43.43885820122454 -1.5929000279860652,43.438862506235296 -1.5929071246768096,43.43887868263661 -1.5929331758200493,43.43892512453895 -1.5929657846648628,43.438985003231195 -1.5930078258201597,43.43903959845778 -1.5931353865905045,43.439197382951605 -1.5930357634254957,43.4392479991386 -1.5929463810547257,43.439270502455564 -1.5928764022940929,43.43934518731709 -1.5928315763614154,43.439387976156915 -1.5927519856272423,43.43942378569626</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Madeleine</name>
+      <description>name: Rue de la Madeleine
+highway: path
+name:eu: Madalena karrika
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5927519856272423,43.43942378569626 -1.5927209039184118,43.43942332910846 -1.5926970985633826,43.43942769930583 -1.5925515714873553,43.43949351313554 -1.592469106144273,43.439522930394055 -1.5922812684183636,43.439581569188206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Madeleine</name>
+      <description>name: Rue de la Madeleine
+highway: service
+name:eu: Madalena karrika
+surface: fine_gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5922812684183636,43.439581569188206 -1.5922149727503958,43.43959572337139 -1.5921903589116109,43.4396070728062 -1.5920758237128856,43.439639816565965</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Corniche de la Falaise</name>
+      <description>foot: yes
+name: Chemin Corniche de la Falaise
+horse: no
+lanes: 1
+access: permissive
+oneway: yes
+bicycle: yes
+highway: residential
+name:eu: Itsaslabarreko erlaitzeko bidea
+surface: asphalt
+maxspeed: 30
+ref:FR:FANTOIR: 641250122F</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5920758237128856,43.439639816565965 -1.592087501811579,43.43966140656519 -1.5920807644469481,43.439684822900055 -1.5920639659511353,43.43971110919275 -1.592018511197759,43.43973837387137 -1.5919426933877792,43.439773922297526 -1.5918233072865196,43.43981429745713 -1.5917272773826472,43.439847823821204 -1.5916758039168672,43.43988441580437 -1.5916438238927526,43.43992159480203 -1.5916180422440982,43.43996040443312 -1.5915980098132623,43.440007628219554 -1.5915839960948301,43.440065875187145 -1.5915981894763191,43.44026801064529 -1.5916194795485528,43.44037282860504 -1.5916489442898718,43.44048769113896 -1.5916328644462865,43.4405499816326 -1.5915919911008587,43.44063229630175</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Corniche de la Falaise</name>
+      <description>lit: no
+name: Chemin Corniche de la Falaise
+bicycle: yes
+highway: residential
+name:eu: Itsaslabarreko erlaitzeko bidea
+surface: asphalt
+maxspeed: 30
+ref:FR:FANTOIR: 641250122F</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5915919911008587,43.44063229630175 -1.5915263242535895,43.44089417621978</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Corniche de la Falaise</name>
+      <description>foot: yes
+name: Chemin Corniche de la Falaise
+horse: no
+lanes: 1
+access: permissive
+oneway: yes
+bicycle: yes
+highway: unclassified
+name:eu: Itsaslabarreko erlaitzeko bidea
+surface: asphalt
+motor_vehicle: permissive
+cycleway:right: lane
+ref:FR:FANTOIR: 641250122F
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5909817655283565,43.441632717140294 -1.5908099178145043,43.44183269496415 -1.5905670133616783,43.44207389369091 -1.5905024244927504,43.44215927180913 -1.590188373469422,43.44254898323263 -1.5901043809903568,43.44262379449401 -1.5900107765377516,43.44270728036086 -1.5898593205808491,43.44280661534765 -1.5896987018080486,43.442878882589454 -1.5893844711216636,43.442979978315364 -1.5891056340574727,43.44302869987261 -1.5888467395925894,43.4430442229308 -1.5884659437436512,43.44304617961853 -1.5883145776182772,43.44304807108327</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+foot: yes
+horse: no
+bicycle: no
+highway: footway
+incline: steep
+surface: ground
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.5883145776182772,43.44304807108327 -1.5883620984968072,43.443121381602126 -1.5883384728048346,43.44317571220514 -1.5882913112524184,43.443244196089 -1.5882913112524184,43.44331841948702 -1.5883306574618627,43.443406926530635 -1.5882717279792247,43.44355830784306 -1.58822447659528,43.443646814535725 -1.5881890829730856,43.44367531666343 -1.5882048034905578,43.44373238610073 -1.5881654572811132,43.44378378115933 -1.588106527798475,43.443897984997456 -1.5879767212399198,43.443897984997456 -1.5879373750304755,43.443963728742524 -1.587874492960587,43.44402079790775 -1.587929469855975,43.44410636894375 -1.5880396931413365,43.44419780981032 -1.5880071741280513,43.44427111893592 -1.5879616295431465,43.44432270920147 -1.5878382010231085,43.444353885092845 -1.587751064440549,43.44435290677013 -1.587599518652118,43.44434997180191 -1.5874707900719038,43.44434997180191 -1.5873353241270585,43.44434221044085</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Carrer Tramuntana</name>
+      <description>name: Carrer Tramuntana
+highway: residential
+name:ca: Carrer Tramuntana
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.954307171694967,42.14317978853797 2.954368796123458,42.14290989470807 2.954445961406364,42.14276242508593</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: ground
+tracktype: grade4
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.954445961406364,42.14276242508593 2.9546710792165642,42.14256679750973 2.954762168386374,42.14231288706784 2.9548095096018474,42.14198337480576 2.9548859562325256,42.1416807708682 2.9551081994338166,42.14149439862814 2.9553013372199026,42.14122702877394 2.9558841641762394,42.140300484246076</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9558841641762394,42.140300484246076 2.9561064073775305,42.13991147804529 2.9561865371008738,42.139619788437564 2.9562119594234146,42.139292993232225 2.9562582226605465,42.13908363292267 2.9563942275945623,42.138466405659024 2.9565144221795774,42.138090910584836 2.9567840065963416,42.137674912466544 2.956854704009202,42.137603702907036 2.9570499079204406,42.1373614965468 2.9574579227224884,42.13661602005761 2.9575526051534347,42.13632957782544 2.9577128646001216,42.13591629935433 2.957681603228234,42.13583263078626 2.9575365253098487,42.135695403436884 2.957533830363996,42.1355728311841 2.957468163516727,42.13552286959995 2.9573339552132794,42.135505682805906 2.957041823082884,42.135511678199705 2.956936989689227,42.135513809895144 2.9568866840333166,42.13549922110306 2.9568350309044797,42.135484099383504 2.9567220228417375,42.13530576940528 2.956663722179798,42.13500320017243 2.9566236573181266,42.13489788015975 2.9565144221795774,42.13484931698295 2.956237471577483,42.13479522462148 2.956037237100653,42.13467371648833 2.955891530361569,42.13438733208783 2.9557822053914915,42.134260293977974 2.955256601118753,42.13414551312787 2.955121763994607,42.133967179380484 2.9551691950416084,42.13374287918025 2.955161918687807,42.13357540295588 2.955420543658105,42.13335663064168 2.955584486197457,42.1326757935742 2.9557374692903426,42.13244349455581 2.9558905422147563,42.13242191008984 2.9560324760296477,42.13238140588695 2.9563167029855424,42.1319329266988</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9563167029855424,42.1319329266988 2.956547929339675,42.13195091389315 2.9568415886060535,42.131996414810104 2.9572097182094863,42.13207089501064 2.9575573662244405,42.13215217026373</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+highway: track
+surface: ground
+tracktype: grade3
+brp_access: 2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9575573662244405,42.13215217026373 2.957624290713107,42.13194818250471 2.957592670015106,42.131791027542135 2.9576336331920623,42.131654524250585 2.9576169245277772,42.131567585690476 2.957680076092251,42.131295976868415 2.957786077295777,42.13101477357167 2.9579663691733,42.13069899297281 2.958072370376826,42.1305955978017 2.958221131387876,42.1304991310208 2.958358663457875,42.13034190584204 2.958379055214824,42.13021232801789 2.958349410810449,42.13003311711992 2.9583604600884432,42.12994897443047 2.9584349304254967,42.12986210015084 2.958457208644543,42.12972419364937 2.9585370688733015,42.12960840525348 2.9586616652032087,42.12949807963448 2.9586896028085445,42.129325795403105 2.9587824886089225,42.12923059250811 2.958812312676355,42.129036188951346 2.958851569054271,42.12887709471253 2.9589219969725464,42.128592216425616 2.9590148827729243,42.12843511975959 2.959161757321878,42.128277889457785 2.959288240113882,42.128109732550584 2.9593998108721693,42.12789320655704 2.959310518332928,42.12779247175026</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 5
+highway: track
+surface: compacted
+tracktype: grade2
+brp_access: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.959310518332928,42.12779247175026 2.9595727365643625,42.127281000289614 2.959635888128836,42.127089322347864 2.959602380968738,42.12671569193653 2.959628432111978,42.12652261316067 2.9597010159869344,42.12634472432666 2.9597046990795994,42.12625238183611 2.9596562798857855,42.12616830075001 2.95945182332712,42.12607589137688</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 7
+highway: track
+surface: compacted
+tracktype: grade2
+brp_access: 1
+check_date:tracktype: 2026-06-10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.95945182332712,42.12607589137688 2.959617293002455,42.12575868701659 2.959754375914811,42.12546699884963</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3
+highway: track
+surface: ground
+tracktype: grade4
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.959754375914811,42.12546699884963 2.959739284218038,42.12536093009231 2.959987937888682,42.1247363733936 2.96022509312369,42.12422221216492</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Nord</name>
+      <description>name: Carrer Nord
+oneway: no
+highway: residential
+name:ca: Carrer Nord
+surface: paved
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.96022509312369,42.12422221216492 2.9602821361442313,42.123150701946784</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Ponent</name>
+      <description>name: Carrer Ponent
+oneway: no
+highway: residential
+name:ca: carrer de Ponent
+surface: paved
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9602821361442313,42.123150701946784 2.9611400272405652,42.12323018967827 2.9612356978183247,42.12325031145198 2.9617176439682544,42.12333139813758</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Àngel Guimerà</name>
+      <description>name: Carrer d'Àngel Guimerà
+oneway: yes
+highway: residential
+name:ca: Carrer d'Àngel Guimerà
+surface: paved
+maxspeed: 20
+name:etymology:wikidata: Q175485</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9617176439682544,42.12333139813758 2.961952822909637,42.12314910286315 2.9620039370493036,42.12307667765788 2.962000882777337,42.12292682984521</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Àngel Guimerà</name>
+      <description>name: Carrer d'Àngel Guimerà
+oneway: no
+highway: residential
+name:ca: Carrer d'Àngel Guimerà
+surface: asphalt
+maxspeed: 20
+name:etymology:wikidata: Q175485</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.962000882777337,42.12292682984521 2.962010943908519,42.12280503242913</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Església</name>
+      <description>name: Carrer de l'Església
+narrow: yes
+oneway: yes
+highway: residential
+name:ca: Carrer de l'Església
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.962010943908519,42.12280503242913 2.96197528079174,42.12280030178079 2.9618947019107544,42.122789574534636</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de Feliu</name>
+      <description>name: Plaça de Feliu
+highway: residential
+name:ca: Plaça de Feliu
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9618947019107544,42.122789574534636 2.9618555353643665,42.1227865762357 2.9618796102139813,42.1226262003502</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Nou</name>
+      <description>name: Carrer Nou
+oneway: no
+highway: residential
+name:ca: Carrer Nou
+surface: paved
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9618796102139813,42.1226262003502 2.961988216531832,42.12171510836815</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,349 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bosquet de Puigcerdà llac de Torniquet</name>
+    <Placemark>
+      <name>Carrer de Bell-Lloc</name>
+      <description>name: Carrer de Bell-Lloc
+highway: unclassified
+name:ca: Carrer de Bell-Lloc
+surface: asphalt
+source:date: 2019</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9363503952806866,42.45025581220145 1.936270714714985,42.45010627663756 1.9362423279520067,42.45005238806893 1.9360958127291672,42.4498516809134 1.9358831815014157,42.44936422763407 1.9356709095997784,42.448444923113286 1.935567513510576,42.44804621557364 1.935426837337083,42.447698810975155 1.935159678371586,42.44723188979644 1.9349486641113463,42.446950568769 1.9346258994297623,42.44659281727756 1.934101193472308,42.44603871935625 1.9337925323406844,42.44581493108056 1.9328975408231162,42.445216015100904</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Ur</name>
+      <description>name: Camí d'Ur
+highway: unclassified
+name:ca: Camí d'Ur
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9328975408231162,42.445216015100904 1.9322282061049187,42.444644205746954 1.9321601138063822,42.44453993250709 1.932112862422438,42.44446747808119 1.9319995848651101,42.44432197237078 1.9318773241549418,42.44419801051947 1.9316570572472755,42.44401292905288</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+junction: roundabout</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9316570572472755,42.44401292905288 1.9316213042989674,42.44402539157567 1.9315845632038473,42.44402718140588 1.931555996777812,42.444021613045095 1.9315335388957091,42.444011802122496 1.9315117098343049,42.44399489816444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda Hospital Transfronterer</name>
+      <description>name: Ronda Hospital Transfronterer
+highway: residential
+name:ca: Ronda Hospital Transfronterer</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9315117098343049,42.44399489816444 1.9314826044190996,42.444011868412524 1.9309740681367593,42.44432826989144 1.9306971175346654,42.44449856786799</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda Hospital Transfronterer</name>
+      <description>name: Ronda Hospital Transfronterer
+highway: residential
+name:ca: Ronda Hospital Transfronterer</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9306971175346654,42.44449856786799 1.930277424633925,42.44447808440678 1.929583296413886,42.44444427673771</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.929583296413886,42.44444427673771 1.9295652402766748,42.44450400360737 1.9294508847410063,42.44454397616425 1.9292362772196303,42.44452621058657 1.9286926168096812,42.444455214514996 1.9281202103106403,42.44442226859825 1.927285675411693,42.444355183498914 1.926228088827699,42.444229299309356 1.925632326131271,42.444105867594054 1.9249549964070451,42.44388379595795 1.9237819763090418,42.44334883209799 1.9232969758871459,42.44308227652912</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Mas d'en Bordes</name>
+      <description>name: Camí de Mas d'en Bordes
+width: 3.5
+highway: unclassified
+name:ca: Camí de Mas d'en Bordes
+surface: compacted
+tracktype: grade2
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9232969758871459,42.44308227652912 1.9233544680653292,42.443038922196074 1.9234333401472752,42.442945783198695 1.9234347774517295,42.442841308258224 1.9233857294372168,42.44249407367007 1.9234016296177456,42.44218780559759 1.9235615297383188,42.441653490181274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Enveig</name>
+      <description>lit: no
+name: Camí d'Enveig
+highway: residential
+name:ca: Camí d'Enveig
+surface: asphalt
+sidewalk: no
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9235615297383188,42.441653490181274 1.9236069844916952,42.44140210844896 1.9236255796180763,42.441161531474265 1.9237205315436077,42.440890127187025 1.923911513373012,42.44035878392931 1.9240115856956626,42.440173492238976 1.9242759598837793,42.4399606215742 1.924417534372556,42.43984029728774 1.9245139236025424,42.4396835770442 1.9245553359371401,42.439458904234655 1.9246206434582958,42.439274272833586</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí d'Enveig</name>
+      <description>lit: yes
+name: Camí d'Enveig
+highway: residential
+name:ca: Camí d'Enveig
+surface: asphalt
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9246206434582958,42.439274272833586 1.9246386995955065,42.43900007596801 1.9247969827485685,42.4385470783727 1.9249258011603112,42.43828627013471 1.9251095066359136,42.43791421542634 1.925342439789086,42.43743979606151 1.9254691022441464,42.437182032888444 1.9254673954451065,42.43711812230804</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de la Séquia</name>
+      <description>name: Passeig de la Séquia
+lanes: 2
+highway: tertiary
+name:ca: Passeig de la Séquia
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9254673954451065,42.43711812230804 1.925617234434498,42.437212595912676 1.9257872855177818,42.437309787556586 1.9260390832919203,42.437453784721896 1.9261704169864584,42.43754321925882</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de la Séquia</name>
+      <description>name: Passeig de la Séquia
+oneway: yes
+highway: tertiary
+name:ca: Passeig de la Séquia
+surface: asphalt
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9261704169864584,42.43754321925882 1.9262735435810756,42.437723214993255</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de la Séquia</name>
+      <description>name: Passeig de la Séquia
+oneway: yes
+highway: tertiary
+name:ca: Passeig de la Séquia
+surface: asphalt
+lane_markings: no
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9262735435810756,42.437723214993255 1.9276143689741525,42.43799118558555</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de la Séquia</name>
+      <description>name: Passeig de la Séquia
+oneway: yes
+highway: tertiary
+name:ca: Passeig de la Séquia
+surface: asphalt
+lane_markings: no
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9276143689741525,42.43799118558555 1.9289613029111612,42.43824496766294 1.9290885941869211,42.43823953138052</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de Dionís Puig</name>
+      <description>name: Plaça de Dionís Puig
+highway: tertiary
+name:ca: Plaça de Dionís Puig
+surface: asphalt
+junction: roundabout
+lane_markings: no
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9290885941869211,42.43823953138052 1.9291032367260523,42.43825477948855 1.9291212030317346,42.43826797241382 1.9291421337778543,42.43827877867716</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de Dionís Puig</name>
+      <description>name: Plaça de Dionís Puig
+highway: tertiary
+name:ca: Plaça de Dionís Puig
+surface: asphalt
+junction: roundabout
+lane_markings: no
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9291421337778543,42.43827877867716 1.9291636933446734,42.43828627013471 1.9291867800474753,42.438291109748405 1.9292104955709763,42.43829309863064 1.9292343907575336,42.4382921704856</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de Dionís Puig</name>
+      <description>name: Plaça de Dionís Puig
+highway: tertiary
+name:ca: Plaça de Dionís Puig
+surface: asphalt
+junction: roundabout
+lane_markings: no
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9292343907575336,42.4382921704856 1.9292504706011193,42.43828991641903 1.929266101287063,42.43828627013471</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de Rigolisa</name>
+      <description>name: Passeig de Rigolisa
+lanes: 1
+oneway: yes
+highway: unclassified
+name:ca: Passeig de Rigolisa
+surface: asphalt
+source:date: 2019
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.929266101287063,42.43828627013471 1.92942636073375,42.438352433588136</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de Rigolisa</name>
+      <description>name: Passeig de Rigolisa
+lanes: 2
+highway: unclassified
+name:ca: Passeig de Rigolisa
+surface: asphalt
+source:date: 2019
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.92942636073375,42.438352433588136 1.929791436065216,42.438528979615434 1.9306709765598975,42.438994109388446 1.9313421079086632,42.43938776983109 1.9320770196426011,42.43994451205503 1.9326075646494023,42.44034638697107 1.9330125251794836,42.440661215915526 1.9333017827009702,42.440913793899796 1.9335023765039137,42.441132693995904 1.9336468256016002,42.44136650921388 1.9337760033394564,42.44164759014691 1.9340509776479256,42.44209950465449 1.9341560805361675,42.442260527827386</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de Rigolisa</name>
+      <description>name: Passeig de Rigolisa
+highway: unclassified
+name:ca: Passeig de Rigolisa
+surface: asphalt
+smoothness: good
+source:date: 2019
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9341560805361675,42.442260527827386 1.9341912944953052,42.44244190213667 1.934101373135365,42.44262997136123 1.9340463962399768,42.442716680563294 1.934005702557606,42.442774818088004</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí dels Enamorats</name>
+      <description>lit: no
+foot: yes
+name: Camí dels Enamorats
+bicycle: yes
+highway: footway
+name:ca: Camí dels Enamorats
+surface: ground
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.934005702557606,42.442774818088004 1.933983693833145,42.442814725456856 1.933225875059462,42.44400941568164 1.933218958031774,42.44406569588776 1.9332473447947522,42.4441506132762 1.933316694734686,42.44419860712789 1.9334987832427772,42.4443309214789 1.9340704710895908,42.44470512563323 1.9346406318004215,42.445154432823294 1.93528220857634,42.44582653149958 1.9358957579153935,42.44645699446975 1.9361597727773963,42.446813619856876 1.9363634208523062,42.44716699516635 1.936522871815237,42.447641407167794 1.936604977832206,42.44881373361367 1.9366082117672285,42.44885986791598</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí dels Enamorats</name>
+      <description>foot: yes
+name: Camí dels Enamorats
+bicycle: yes
+highway: track
+name:ca: Camí dels Enamorats
+surface: fine_gravel
+tracktype: grade2
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9366082117672285,42.44885986791598 1.9365279023808282,42.449261221655505 1.9364443590594052,42.449808198697184 1.9363792312013066,42.45014458853147 1.9363503952806866,42.45025581220145</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9363503952806866,42.45025581220145 1.9363335967848736,42.45037432683625 1.9363567733192035,42.45051657061526 1.936289040346781,42.4510146864284 1.9362646960025813,42.45114519675632</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: pebblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9362646960025813,42.45114519675632 1.936239722837683,42.45115613336363 1.936187440888147,42.451222813485664 1.9359987048469538,42.45163939693522 1.9359316006952298,42.45176957455238</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: pebblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9359316006952298,42.45176957455238 1.935932319347457,42.451856602513146 1.9359740011766402,42.45189100271715 1.936289309841366,42.451947872377126 1.9365588942581307,42.451984724949725 1.9366500732594685,42.45197982011218</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: fine_gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9366500732594685,42.45197982011218 1.9366753159189523,42.45228047268774 1.936684388903322,42.45280667750295</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: pebblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.936684388903322,42.45280667750295 1.936787695160996,42.45281091946863 1.9369261255462786,42.452769228887185 1.9370066145957356,42.452682732441296 1.9370318572552196,42.452521073246295 1.937020628314168,42.45231792159574 1.9369316052695118,42.452078181916114 1.936818507375241,42.45187197987064</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: pebblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.936818507375241,42.45187197987064 1.9366166559308993,42.45137493139102 1.9365714706721082,42.45123938408153 1.936483974763435,42.451151891285875 1.936392166941398,42.45112378751346 1.93630889311456,42.45112590855333 1.9362646960025813,42.45114519675632</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.9362646960025813,42.45114519675632 1.936289040346781,42.4510146864284 1.9363567733192035,42.45051657061526 1.9363335967848736,42.45037432683625 1.9363503952806866,42.45025581220145</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,447 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>tertiary_link</name>
+      <description>ref: GIV-6024
+highway: tertiary_link
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9778077283482327,42.30097369420453 2.97784411011724,42.30080878701884 2.9778883072292186,42.30053292197793 2.9779201075902764,42.299695021014735</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary_link</name>
+      <description>ref: GIV-6024
+foot: yes
+layer: 1
+access: yes
+bridge: yes
+oneway: no
+bicycle: yes
+highway: tertiary_link
+surface: asphalt
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9779201075902764,42.299695021014735 2.9779593639681923,42.29829678923617</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-6024
+oneway: no
+highway: tertiary
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9779593639681923,42.29829678923617 2.977979755725142,42.29727972288473</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: GIV-6024
+oneway: no
+highway: tertiary
+maxspeed: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.977979755725142,42.29727972288473 2.977974725159551,42.29713839407917 2.9779307975421574,42.296857994663775 2.9777036136068036,42.29609027859607</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9777036136068036,42.29609027859607 2.983733195625342,42.29537610953095</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.983733195625342,42.29537610953095 2.983711725890052,42.29519763244649 2.983738585517047,42.2947849271693 2.983835064578561,42.29407459731118 2.983963074506548,42.29332618404221 2.9840603620518187,42.29274528216499 2.9840704231830006,42.292596102083444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Vilabertran</name>
+      <description>name: Camí de Vilabertran
+highway: unclassified
+name:ca: Camí de Vilabertran
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9840704231830006,42.292596102083444 2.9840603620518187,42.292495297347216 2.9840603620518187,42.29185252215318 2.984103301522399,42.29111830311545 2.9841784006801513,42.29072550670313 2.984366238406061,42.29010251633626 2.984630522762649,42.28935638173785 2.9846881047723612,42.28919370355176 2.9849186124742664,42.28862778220992 2.985042130825833,42.28832461746459 2.9850859686116977,42.288145921033596 2.9851861307658774,42.28773888468984 2.985345941054922,42.287411525878895 2.985660620898949,42.286704900868095 2.9857196402131154,42.28662621665596 2.985813065002664,42.28657158955223</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: no
+ref: C-252
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 90
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.985813065002664,42.28657158955223 2.985505661512438,42.286233126404696 2.985238682209998,42.28585977146548 2.9849451127751476,42.285522101983204 2.9848345301636727,42.285386993808956 2.984629265121251,42.285166221244985 2.98448508551815,42.285018618205214 2.984343600860901,42.28489460745963 2.984176065060413,42.284759497939675 2.984100337081962,42.28470679650877</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Josep Reig i Palau</name>
+      <description>ref: C-252
+name: Carrer de Josep Reig i Palau
+highway: tertiary
+name:ca: Carrer de Josep Reig i Palau
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.984100337081962,42.28470679650877 2.984001522400709,42.28466658920839 2.983859139428176,42.28461760937142 2.983722505673461,42.28457042387511 2.9835573953242402,42.28451240560374 2.9833598557932617,42.284460567927766 2.9831335701731923,42.28440361289358 2.9830281079588366,42.28439078637353 2.982929023782998,42.284376431301354 2.982460732025387,42.28429481999555 2.9823030776930244,42.28426750543881 2.9821553048287863,42.28424537465787 2.982082900616886,42.28423580458804 2.981951566922348,42.28421972155073 2.9817118065730166,42.28420011618977 2.9815334011575905,42.28418669149842 2.9813247225170896,42.284161171285184 2.9809466216140037,42.284100627196274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Empordà</name>
+      <description>name: Carrer de l'Empordà
+source: PNOA
+highway: residential
+name:ca: Carrer de l'Empordà
+surface: asphalt
+maxspeed: 20
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9809466216140037,42.284100627196274 2.9810246852121933,42.28394358446396 2.981074182384348,42.28384808261942 2.9811173913495144,42.283773315938646 2.9812020126492786,42.28364870460683 2.9812981323846794,42.28351698185374 2.981347000736136,42.2834339737816</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Empordà</name>
+      <description>name: Carrer de l'Empordà
+source: PNOA
+highway: residential
+name:ca: Carrer de l'Empordà
+surface: asphalt
+maxspeed: 20
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.981347000736136,42.2834339737816 2.981385628293353,42.28335860847165 2.981393802962438,42.283333486681634 2.98139820470733,42.283316672356264 2.9813936232993807,42.283173384879774</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Santa Maria</name>
+      <description>name: Carrer de Santa Maria
+narrow: yes
+source: survey
+highway: living_street
+name:ca: Carrer de Santa Maria
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9813936232993807,42.283173384879774 2.98122456036291,42.283173384879774 2.981083255368718,42.2831707929419 2.9809603658378507,42.283162884207734 2.9808916447186156,42.28315657051168 2.9808155574140507,42.283144807097344 2.980703537498121,42.28311941938207 2.980588103984111,42.28308937945445 2.980371071011468,42.28303468282381 2.9802276998921227,42.28299972480657 2.979991442972399,42.282936787034615 2.979827230938462,42.282890597183105</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Santa Maria</name>
+      <description>name: Carrer de Santa Maria
+narrow: yes
+source: survey
+highway: living_street
+name:ca: Carrer de Santa Maria
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.979827230938462,42.282890597183105 2.9793678325021635,42.28278233335525 2.979215388398448,42.28274358695546 2.9791117228146606,42.28270616974059 2.978972394114094,42.28263479119091 2.9789395157746954,42.28261000141497 2.9789050204677854,42.282571121988035 2.9788671115627947,42.28250512659817 2.9788375569899475,42.282475086377666 2.978793180214912,42.28244750518915 2.978630764811543,42.2823775220229</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de l'Església</name>
+      <description>name: Plaça de l'Església
+highway: residential
+name:ca: Plaça de l'Església
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.978630764811543,42.2823775220229 2.978608037434855,42.28228447685718</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de l'Església</name>
+      <description>name: Plaça de l'Església
+highway: residential
+name:ca: Plaça de l'Església
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.978608037434855,42.28228447685718 2.978590610118343,42.28219382414928 2.978591059275985,42.28214437716273 2.9785978864721447,42.28210430114919 2.9786137866526734,42.28206522202686 2.9786292376755603,42.28203617851378 2.978646485329015,42.282008597133135</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.978646485329015,42.282008597133135 2.978213766856655,42.281900331789736 2.978028624076598,42.28183320585417 2.977981193029596,42.281805092693574 2.977924778829754,42.28176747553708 2.977822999708063,42.28166412793322 2.9777893128849087,42.28163741039005 2.9777555362302257,42.281621991305244 2.9776198906223237,42.28159121958594 2.9774645719096995,42.281557988770686 2.97741983580855,42.28155147552885 2.977361265652026,42.28154742136776 2.977009036229122,42.28153579057633 2.9763076316552817,42.2812341867894 2.9762534632436495,42.28121172263291</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9762534632436495,42.28121172263291 2.9769942140269343,42.28024608864258 2.9770302364698273,42.28013343370291 2.976676120584828,42.279760308470344 2.9763076316552817,42.279563376681054 2.976286072088463,42.27947610971432 2.976837098683742,42.27891089865008 2.976854795494839,42.27880927443913 2.9767152871312152,42.27869030278706 2.976275382136582,42.278491772496565 2.9761382992242256,42.27835917491699</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: PNOA
+highway: track
+surface: ground
+tracktype: grade3
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9761382992242256,42.27835917491699 2.9760207995850623,42.27840649799495</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9760207995850623,42.27840649799495 2.9759830703431294,42.27839340439408 2.975946329248009,42.27835990603224</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>tunnel: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.975946329248009,42.27835990603224 2.9758522756377612,42.27827429902663</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9758522756377612,42.27827429902663 2.975830805902471,42.278254824745915 2.9757969394162602,42.27822411784738</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: PNOA
+highway: track
+surface: ground
+tracktype: grade3
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9757969394162602,42.27822411784738 2.9783386326811474,42.277046078259794 2.9784015147510363,42.27698632493151 2.978431159155412,42.27692903080825</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Caboques</name>
+      <description>foot: yes
+name: Camí de Caboques
+horse: yes
+source: PNOA;Institut Cartogràfic i Geològic de Catalunya
+bicycle: yes
+highway: track
+name:ca: Camí de Caboques
+surface: compacted
+tracktype: grade2
+source:date: 2008
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.978431159155412,42.27692903080825 2.9779689759417325,42.2768111190728 2.9772391846049135,42.27652438127133 2.976847788635623,42.27633588069849 2.976611172389786,42.276221424151714 2.9759013236522747,42.27595130055974 2.9750897856246006,42.27565093293245 2.9745074078259064,42.27545259247079</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Horta de Mas Clarors</name>
+      <description>foot: yes
+name: Camí de l'Horta de Mas Clarors
+horse: yes
+layer: 1
+bridge: yes
+source: PNOA;Institut Cartogràfic i Geològic de Catalunya
+bicycle: yes
+highway: track
+name:ca: Camí de l'Horta de Mas Clarors
+surface: compacted
+source:date: 2008
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9745074078259064,42.27545259247079 2.9744034727475337,42.27540839117696</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Horta de Mas Clarors</name>
+      <description>foot: yes
+name: Camí de l'Horta de Mas Clarors
+horse: yes
+source: PNOA;Institut Cartogràfic i Geològic de Catalunya
+bicycle: yes
+highway: track
+name:ca: Camí de l'Horta de Mas Clarors
+surface: compacted
+tracktype: grade2
+source:date: 2008
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9744034727475337,42.27540839117696 2.974162993745975,42.27527193194942 2.9734732672708284,42.2747153241293 2.9734459584861908,42.27469318999327 2.9726314560180795,42.273840321912324 2.9721937069801285,42.273346183570204 2.971956821239705,42.2731857905098 2.971744908664182,42.27301309997023 2.971624983573752,42.27292562452022 2.9715326367625443,42.272892322664255</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Horta de Mas Clarors</name>
+      <description>foot: yes
+name: Camí de l'Horta de Mas Clarors
+horse: yes
+source: PNOA;Institut Cartogràfic i Geològic de Catalunya
+bicycle: yes
+highway: track
+name:ca: Camí de l'Horta de Mas Clarors
+surface: concrete
+tracktype: grade1
+source:date: 2008
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9715326367625443,42.272892322664255 2.970996342537925,42.27269942414245 2.9707538872427413,42.272601778180466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Via Làctia</name>
+      <description>name: Carrer de la Via Làctia
+width: 6.5
+oneway: yes
+highway: residential
+name:ca: Carrer de la Via Làctia
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+start_date: 1995
+name:etymology:wikidata: Q321</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9707538872427413,42.272601778180466 2.970912978879559,42.272608425289555 2.9711081827907977,42.272526998154945 2.9711704360399875,42.272501074392046 2.971564706618188,42.27222907365241</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Via Làctia</name>
+      <description>lit: yes
+name: Carrer de la Via Làctia
+width: 7
+highway: residential
+name:ca: Carrer de la Via Làctia
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+start_date: 1995
+name:etymology:wikidata: Q321</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.971564706618188,42.27222907365241 2.9718928611914763,42.27201629806201 2.9720446764744928,42.27184732674405 2.9721021686526763,42.2717419022383 2.972139179242382,42.2716741007606</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.972139179242382,42.2716741007606 2.9720948024673466,42.27166147106552 2.9721043246093584,42.27162577554521 2.9721053127561703,42.27160171263184 2.972085280325335,42.27157439257266 2.972055905415544,42.27155338736096 2.971989430084519,42.27153570575328</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: yes
+width: 1
+source: PNOA
+cutting: no
+highway: footway
+surface: dirt
+wheelchair: no
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.971989430084519,42.27153570575328 2.9719829622144736,42.27156189580199 2.9719746078823315,42.27158569284189 2.9718784881469307,42.27155571388791 2.9715227552944192,42.271464513966876 2.971488439650566,42.27145833204325 2.9707741891681625,42.27126336848505 2.9704218699137304,42.27116977512729 2.970286314137357,42.27114238840825 2.969933366062226,42.27104839603446 2.969890606254703,42.27105843341627 2.9698313174459505,42.2710719273774</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de John Lennon</name>
+      <description>foot: yes
+name: Passeig de John Lennon
+bicycle: yes
+highway: footway
+name:ca: Passeig de John Lennon
+surface: dirt
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9698313174459505,42.2710719273774 2.969708877072725,42.27104487297952 2.9694948983720475,42.27099541724432 2.9692333089613117,42.27089863279002 2.9689575261690875,42.2708243160546 2.9688007701520087,42.27079300727848 2.9685258856750676,42.270694028900905 2.9677677974068,42.27054858557652 2.9676458960227445,42.27056247848626</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9676458960227445,42.27056247848626 2.9676415841093804,42.27047260659491 2.96766368266537,42.27038718829538 2.9676970101624107,42.270351026739135 2.967731685132378,42.27028781043935 2.9676478723163693,42.27016609727981 2.9675893919913734,42.27005149658054 2.967598914133385,42.26989707779136 2.967711113712372,42.269564906604224 2.9676716776713987,42.26955327360116</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Nord</name>
+      <description>name: Carrer del Nord
+width: 3.5
+oneway: yes
+highway: residential
+name:ca: Carrer del Nord
+surface: asphalt
+maxspeed: 30
+start_date: 1883
+name:1936-1939: carrer d'Eliseo Reclús
+name:etymology:wikidata: Q659</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9676716776713987,42.26955327360116 2.9676866795366434,42.269510995926254 2.967703118706343,42.26945269789093</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Nord</name>
+      <description>name: Carrer del Nord
+oneway: yes
+highway: residential
+name:ca: Carrer del Nord
+surface: asphalt
+maxspeed: 30
+source_ref: 08 PL 026 OT
+start_date: 1883
+source:name: also surveyed
+name:1936-1939: carrer d'Eliseo Reclús
+parking:lane:left: parallel
+name:etymology:wikidata: Q659</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.967703118706343,42.26945269789093 2.96783678802062,42.26901948263721 2.968063702461389,42.26828453216531 2.9680839145552813,42.26821918657017 2.9681211048080436,42.26810717488887 2.9682180330272003,42.26781587710987 2.9682296212943653,42.26777559255525 2.968318105349851,42.26746800650158 2.968328795301732,42.26743297337196 2.9684694714752253,42.26697408410967 2.9686389835693388,42.26644911282431 2.9686556922336234,42.26639732676606</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

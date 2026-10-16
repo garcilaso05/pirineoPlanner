@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Impasse Roquemaurel</name>
+      <description>name: Impasse Roquemaurel
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4041076624242395,43.59548068621752 1.404088797803273,43.595480816334224 1.4039366231941433,43.59548419936839 1.4037864248786383,43.59549590986981 1.4036542827003442,43.59551679359169 1.4035127980430955,43.595549778146975 1.4033565810151871,43.59560559812244 1.4032016216286767,43.59568308240816 1.4031666771641242,43.59570481182049 1.40302097042504,43.59579511240807 1.4026268795098968,43.596081887438956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4026268795098968,43.596081887438956 1.4025576194014913,43.59600830713375 1.4024746150692387,43.59605319698582</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

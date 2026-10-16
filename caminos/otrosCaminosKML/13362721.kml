@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin d'en Gala</name>
+      <description>name: Chemin d'en Gala
+highway: unclassified
+surface: compacted
+smoothness: bad
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.628885370458024,43.47742480063097 1.6290490435027907,43.47744227043556 1.6294251681122514,43.477504131755225 1.6299703556581835,43.47760679924293 1.631157209811562,43.47785248346244 1.6317614166716612,43.47799263187993</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

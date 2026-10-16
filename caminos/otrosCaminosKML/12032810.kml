@@ -1,0 +1,211 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+foot: designated
+horse: yes
+bicycle: designated
+highway: path
+surface: gravel
+segregated: no
+motor_vehicle: permissive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5300785943793769,43.530455031840155 1.531023711889799,43.530120204722124 1.5310998890258924,43.53009278541848 1.5312063393870603,43.53005461981119 1.5313482732019514,43.53000362374874 1.5313972313849358,43.5299859737605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: yes
+oneway: no
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5313972313849358,43.5299859737605 1.5316138151999372,43.53021841913263 1.532301565381459,43.530879603760226</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt
+maxheight: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.532301565381459,43.530879603760226 1.532401727535638,43.53097052259249</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+width: 3
+highway: cycleway
+surface: asphalt
+source:width: ARCore</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.532401727535638,43.53097052259249 1.5328297747685211,43.53138180485274 1.5330889387279898,43.53156507366917 1.533290071520104,43.531700212898116 1.5334672192941325,43.53180317901821 1.5335396235060326,43.531852805889976 1.5337219815087086,43.53206192865034 1.5337541411958804,43.532121389458524 1.5337930382476828,43.53214470485252</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: cycleway
+crossing: marked
+cycleway: crossing
+segregated: yes
+crossing:island: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5337930382476828,43.53214470485252 1.5338287911959907,43.532171081195195 1.533901285239419,43.532215302247536 1.5339426077424885,43.532242199572785</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: permissive
+footway: sidewalk
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5339426077424885,43.532242199572785 1.5339349720625735,43.53226421238695 1.5339136819903398,43.5322789310097 1.5338668797640373,43.53230621906624 1.5330671096665855,43.533006195828456</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: permissive
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5330671096665855,43.533006195828456 1.5330286617724254,43.533047029726326</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Payssière</name>
+      <description>lit: yes
+name: Chemin de la Payssière
+highway: living_street
+surface: asphalt
+maxspeed: 20
+sidewalk: no
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5330286617724254,43.533047029726326 1.5340831042529248,43.53362860042221 1.5345468146025874,43.53384983026593 1.5348784726054843,43.534008083674465 1.535026874290421,43.534091313078235</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Payssière</name>
+      <description>lit: yes
+name: Chemin de la Payssière
+highway: residential
+surface: asphalt
+maxspeed: 20
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.535026874290421,43.534091313078235 1.5351140108729804,43.534140221696205 1.5353122690561856,43.534251389339424 1.535595597696797,43.53442807187971 1.5356982751337718,43.53449221930126 1.5359376761569894,43.53465242474642</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Payssière</name>
+      <description>lit: yes
+foot: designated
+name: Chemin de la Payssière
+lanes: 2
+bicycle: designated
+highway: residential
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+segregated: no
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5359376761569894,43.53465242474642 1.5361788738107756,43.534822268103156</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: yes
+highway: cycleway
+surface: asphalt
+crossing: uncontrolled
+cycleway: crossing
+segregated: no
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5361788738107756,43.534822268103156 1.5361367428239503,43.53486752919304</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5361367428239503,43.53486752919304 1.5352625922209737,43.535805305282175 1.5352049203797333,43.53584867707345</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5352049203797333,43.53584867707345 1.5352646583461274,43.53587707060161</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5352646583461274,43.53587707060161 1.5353333794653623,43.535912302002124</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+bicycle: yes
+highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5353333794653623,43.535912302002124 1.5353517050971586,43.535980094713025 1.5353951835569097,43.53606781485122 1.5356936937258228,43.53641003287857 1.5362451694787438,43.53643471417977 1.5365820377102886,43.53639069158798 1.5368739003460987,43.53633312353485 1.5371231828374419,43.5363006926391 1.5374952650281244,43.53627470883654 1.5378308756182713,43.53627822544205 1.5381274094935593,43.536327588142235</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

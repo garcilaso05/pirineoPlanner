@@ -1,0 +1,870 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>L'eau</name>
+    <Placemark>
+      <name>Rue du Soupon</name>
+      <description>lit: yes
+name: Rue du Soupon
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+cycleway:both: no
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42160146139328075,42.98563038027184 -0.4216540128374017,42.985642208787795 -0.4219716571218664,42.985713902688566 -0.42243168437886397,42.985801499247586 -0.42261530002293807,42.98580379923059 -0.42314728233419363,42.98583889038894 -0.4232768193981637,42.98587181297435 -0.4237346906984794,42.985982014793656</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Soupon</name>
+      <description>lit: yes
+name: Rue du Soupon
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+cycleway:both: no
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4237346906984794,42.985982014793656 -0.4237903862460948,42.986032614250945 -0.4238716837793076,42.98608281938559 -0.4239393269202018,42.986097407780896</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Bourg-Neuf Clea</name>
+      <description>lit: yes
+name: Rue du Bourg-Neuf Clea
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4239393269202018,42.986097407780896 -0.423984512178993,42.98615359278455 -0.42411656452575863,42.98634330714841 -0.42411342042226413,42.986394300587314 -0.42409527445352496,42.986546886372196 -0.42419929936342604,42.986781809912934 -0.42424628125278546,42.9868312258833 -0.4242725120590818,42.986846799791266 -0.4243180566439866,42.98687380769824 -0.4251085740940118,42.9872203752617</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Bourg-Neuf Escu</name>
+      <description>name: Rue du Bourg-Neuf Escu
+lanes: 1
+oneway: yes
+highway: living_street
+maxspeed: 20
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4251085740940118,42.9872203752617 -0.4251658866091386,42.98720000445024 -0.42610633288008337,42.987311518132216 -0.4262269766227406,42.98734562274764 -0.42629830285629966,42.98736573066233 -0.42645685550394674,42.98740062379279 -0.4264836252994136,42.987406472168644</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>lit: yes
+ref: D 934
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+oneway: yes
+highway: secondary
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+maxweight: 3.5
+lane_markings: no
+cycleway:right: no
+maxweightrating: 3.5
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4264836252994136,42.987406472168644 -0.4264421231332872,42.98768837636767 -0.4264154431693489,42.98786928064233 -0.4263972972006097,42.98799189834777</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Mairie</name>
+      <description>lit: yes
+name: Place de la Mairie
+highway: secondary
+surface: asphalt
+junction: roundabout
+maxspeed: 20
+lane_markings: no
+sidewalk:left: yes
+cycleway:right: no
+sidewalk:right: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4263972972006097,42.98799189834777 -0.4263593882956198,42.98798059597573 -0.42631851495019235,42.98797967601512 -0.4262797975614468,42.98798940131226 -0.42624817686344585,42.98800839192186</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Mairie</name>
+      <description>lit: yes
+name: Place de la Mairie
+highway: secondary
+surface: asphalt
+junction: roundabout
+maxspeed: 20
+lane_markings: no
+sidewalk:left: yes
+cycleway:right: no
+sidewalk:right: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42624817686344585,42.98800839192186 -0.426230120726235,42.98802987955954 -0.4262215867310359,42.98805432420246 -0.4262233833616041,42.98807949166067</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Gare</name>
+      <description>ref: D 934
+name: Avenue de la Gare
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4262233833616041,42.98807949166067 -0.4261376840834991,42.98808297436295 -0.42567532120676277,42.98809348817998 -0.42564190387819356,42.98809407958213</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Gare</name>
+      <description>ref: D 934
+name: Avenue de la Gare
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 20
+cycleway:both: no
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42564190387819356,42.98809407958213 -0.4254193013507887,42.98809710230416 -0.42539837060466873,42.9880972994382</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Gare</name>
+      <description>ref: D 934
+name: Avenue de la Gare
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 20
+cycleway:both: no
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42539837060466873,42.9880972994382 -0.42513067265000115,42.988103607727155</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: parking_aisle
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42513067265000115,42.988103607727155 -0.42514396771620605,42.988423095431585</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: parking_aisle
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42514396771620605,42.988423095431585 -0.42513067265000115,42.988103607727155</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Gare</name>
+      <description>ref: D 934
+name: Avenue de la Gare
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 20
+cycleway:both: no
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42513067265000115,42.988103607727155 -0.42539837060466873,42.9880972994382</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Gare</name>
+      <description>ref: D 934
+name: Avenue de la Gare
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 20
+cycleway:both: no
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42539837060466873,42.9880972994382 -0.4254193013507887,42.98809710230416 -0.42564190387819356,42.98809407958213</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Gare</name>
+      <description>ref: D 934
+name: Avenue de la Gare
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42564190387819356,42.98809407958213 -0.42567532120676277,42.98809348817998 -0.4261376840834991,42.98808297436295 -0.4262233833616041,42.98807949166067</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Mairie</name>
+      <description>lit: yes
+name: Place de la Mairie
+highway: secondary
+surface: asphalt
+junction: roundabout
+maxspeed: 20
+lane_markings: no
+sidewalk:left: yes
+cycleway:right: no
+sidewalk:right: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4262233833616041,42.98807949166067 -0.4262406310150592,42.9881093903248 -0.42627198221847495,42.988132323576 -0.42631303522695924,42.988144677300895 -0.4263573221704663,42.98814487443478 -0.426398465010479,42.988132717843854 -0.42643008570848,42.9881099817268</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Bourguet</name>
+      <description>lit: yes
+name: Rue de Bourguet
+lanes: 2
+highway: living_street
+old_ref: N 134bis
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42643008570848,42.9881099817268 -0.42650608318151656,42.9881938950419 -0.4265383327002164,42.988285102180086</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Bialé</name>
+      <description>lit: yes
+name: Rue du Bialé
+highway: living_street
+surface: asphalt
+maxspeed: 20
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4265383327002164,42.988285102180086 -0.4266215166955259,42.98827872819861 -0.4267358722311943,42.98827327417269 -0.42687547042634644,42.98826670305648</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Bialé</name>
+      <description>lit: yes
+name: Rue du Bialé
+lanes: 3
+highway: living_street
+surface: asphalt
+maxspeed: 20
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42687547042634644,42.98826670305648 -0.427135083543457,42.98825027526289 -0.42729534299014393,42.98824882961685 -0.4277124307765607,42.98826111760716</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Bialé</name>
+      <description>lit: yes
+name: Rue du Bialé
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4277124307765607,42.98826111760716 -0.4279404231956702,42.98829252753913 -0.42830585785325,42.988325317388224 -0.4284500374563512,42.98833997096243 -0.4287982244604759,42.98834476787161 -0.42898534353415796,42.98833149423159 -0.4291154195872985,42.9882931846505 -0.42946908631465636,42.98814526870256 -0.4296055404063141,42.98826243183057 -0.4297568167001598,42.988421912633605 -0.429861739925345,42.98850083149351</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Bialé</name>
+      <description>lit: yes
+name: Rue du Bialé
+highway: residential
+surface: asphalt
+maxspeed: 50
+sidewalk: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.429861739925345,42.98850083149351 -0.42996890893874046,42.98852028192136 -0.4301033867367731,42.98850569410106 -0.4303270672425189,42.988510096731865 -0.4304337870982723,42.98852869291528 -0.43053197295882656,42.988575807602125 -0.4305734751249529,42.988631530365055 -0.4306036585184993,42.98867733075855 -0.43060240087710155,42.98878588478303 -0.4306083297579767,42.988819791448705 -0.4306277333681137,42.98884988688437 -0.4306661812622741,42.988876631069196 -0.43089956357308823,42.98903157626481 -0.43096657789328363,42.9890570718745 -0.4310350295179335,42.9890570718745 -0.43183399113162946,42.98894983253768</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43183399113162946,42.98894983253768 -0.43194169913419533,42.988385114462794 -0.4320049405301974,42.98825730635909 -0.43214759299731553,42.98810498766529 -0.4322376041887843,42.988048475888235</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Barthèque</name>
+      <description>lit: yes
+name: Rue Barthèque
+highway: residential
+surface: asphalt
+maxspeed: 50
+sidewalk: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4322376041887843,42.988048475888235 -0.43208507025354076,42.98791922143077 -0.4317525139353598,42.987671028454294 -0.4316103106258836,42.987594474156865 -0.43143468998783824,42.987518774019634</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Barthèque</name>
+      <description>name: Rue Barthèque
+highway: residential
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43143468998783824,42.987518774019634 -0.43122807747249076,42.98743650258424 -0.431052367002917,42.987377690268595 -0.4304439380609829,42.98722793217391 -0.4303935425735438,42.98721551255248 -0.42970965514774356,42.9870604970665</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Barthèque</name>
+      <description>name: Rue Barthèque
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42970965514774356,42.9870604970665 -0.42873570171670117,42.986829320214966 -0.4284922582747048,42.98677918140276 -0.42831933258251176,42.98676058469007 -0.42806106693832746,42.98674593073935 -0.42787269022324753,42.98674980779391 -0.4278136709090809,42.986747310707955</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Barthèque</name>
+      <description>name: Rue Barthèque
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+oneway: yes
+highway: secondary
+surface: asphalt
+maxspeed: 20
+maxweight: 3.5
+cycleway:right: no
+maxweightrating: 3.5
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4278136709090809,42.986747310707955 -0.4277761213302047,42.98677477864797 -0.42770838835778213,42.98680178658659 -0.42756438841773775,42.98683819142912 -0.42743422253306884,42.98687380769824</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42743422253306884,42.98687380769824 -0.42742182578214793,42.98680717503035 -0.4273700828217827,42.986799880917346</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4273700828217827,42.986799880917346 -0.42731636356779235,42.98679429533473</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42731636356779235,42.98679429533473 -0.42732759250884383,42.986763081775486</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42732759250884383,42.986763081775486 -0.42729094124525174,42.98674790212306 -0.42727890382044453,42.98671438859143</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42727890382044453,42.98671438859143 -0.4273378333030828,42.98655470621919</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée du 19 Mars 1962</name>
+      <description>name: Allée du 19 Mars 1962
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4273378333030828,42.98655470621919 -0.4271403836036333,42.986508772818006</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4271403836036333,42.986508772818006 -0.4271284360103545,42.986533480917906 -0.4271069662750641,42.98655082915232 -0.42708028631112577,42.98655740045195 -0.42705342668413054,42.986552011986305 -0.4270313281281412,42.98653558373446 -0.42701803306193625,42.98651048135715 -0.4270171347466521,42.98648209331602</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+ramp: no
+highway: steps
+incline: up
+surface: paving_stones
+handrail: yes
+step_count: 9</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4270171347466521,42.98648209331602 -0.4268922689221595,42.986437605549256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Port</name>
+      <description>ref: D 934
+name: Rue du Port
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+oneway: yes
+highway: secondary
+surface: asphalt
+maxspeed: 30
+maxweight: 3.5
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020
+cycleway:right: no
+maxweightrating: 3.5
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4268922689221595,42.986437605549256 -0.42699305989703773,42.98619223226603 -0.4271307716300933,42.98585683024306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Port</name>
+      <description>ref: D 934
+name: Rue du Port
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: secondary
+surface: asphalt
+maxspeed: 30
+maxweight: 3.5
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020
+cycleway:right: no
+maxweightrating: 3.5
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4271307716300933,42.98585683024306 -0.4271474802943778,42.98581332773062 -0.42720308601046486,42.985668428656716 -0.42722761001772136,42.98560481752682 -0.42725123570969364,42.98554370346605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Port</name>
+      <description>ref: D 934
+name: Rue du Port
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: secondary
+surface: asphalt
+maxspeed: 30
+maxweight: 3.5
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020
+cycleway:both: no
+maxweightrating: 3.5
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42725123570969364,42.98554370346605 -0.42728627000577435,42.9854566979672 -0.4274109561672101,42.98516288921325 -0.4274485955776147,42.985074503169294 -0.42750662674496887,42.984937816694966 -0.42756501723843665,42.9848027070736</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: D 934
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42756501723843665,42.9848027070736 -0.4276005006921593,42.984728120652484</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>lit: yes
+ref: D 934
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 2
+layer: 1
+bridge: yes
+highway: secondary
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+cycleway:both: no
+source:maxspeed: sign
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4276005006921593,42.984728120652484 -0.427747195578056,42.984385021949805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Gerp</name>
+      <description>lit: yes
+ref: D 934
+name: Rue de Gerp
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.427747195578056,42.984385021949805 -0.42777279756365344,42.98434059838075</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Promenade de l'Arriusé</name>
+      <description>name: Promenade de l'Arriusé
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42777279756365344,42.98434059838075 -0.42772878011473164,42.98433060964483 -0.4268502277668627,42.984156595090155 -0.4264709590539074,42.98405677307458 -0.42538507553846383,42.9837356854921 -0.42494903329955214,42.98365873199715 -0.42407910477841076,42.98361936804576 -0.4233099672321477,42.98358236985144 -0.4229789380499497,42.98356732084596 -0.42103920585695037,42.98347978681965 -0.41982710904408793,42.983417882050134 -0.419748416625199,42.98344318283927</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Soupon</name>
+      <description>foot: yes
+name: Rue de Soupon
+access: yes
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.419748416625199,42.98344318283927 -0.4196856243868391,42.98339843000778 -0.4193146201744977,42.98292237878245 -0.41912902823679865,42.98281138287432 -0.418931129379707,42.98264807591931 -0.418820995925874,42.98252689333508</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Soupon</name>
+      <description>lit: yes
+foot: yes
+name: Rue de Soupon
+access: yes
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.418820995925874,42.98252689333508 -0.4185990222191681,42.98227631275445 -0.4183749823873087,42.982013113326495 -0.41822918581669605,42.98177758009907 -0.41817025633405785,42.98163516880649 -0.4181133929765731,42.98149748890913 -0.4181930735422745,42.981290475595344 -0.41818516836777425,42.98114550014218 -0.4181166269115959,42.98095931856245</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Gléré de Pon</name>
+      <description>lit: yes
+name: Rue du Gléré de Pon
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4181166269115959,42.98095931856245 -0.41798205928203486,42.98091252663307 -0.41780742679080196,42.980887290521544 -0.4176760930962637,42.98090930640067 -0.4172889192088082,42.981112772182065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4172889192088082,42.981112772182065 -0.41722900157935744,42.981082278645324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+layer: 1
+bridge: yes
+bicycle: yes
+highway: footway
+surface: metal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.41722900157935744,42.981082278645324 -0.4170426011579026,42.980944794666826</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4170426011579026,42.980944794666826 -0.41694279832983694,42.98088111293017</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Espalungue</name>
+      <description>name: Chemin d'Espalungue
+highway: residential
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.41694279832983694,42.98088111293017 -0.4167125601225171,42.98093040220579 -0.41645770807641236,42.981047316209576 -0.41635988154197173,42.98109207075252 -0.4159208748626225,42.981358297176826</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Espalungue</name>
+      <description>name: Chemin d'Espalungue
+layer: 2
+bridge: yes
+highway: residential
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4159208748626225,42.981358297176826 -0.4158506266074044,42.981501826323495</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Espalungue</name>
+      <description>name: Chemin d'Espalungue
+highway: residential
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4158506266074044,42.981501826323495 -0.4158331094593641,42.98153751140272</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quartier Espalungue</name>
+      <description>name: Quartier Espalungue
+highway: unclassified
+surface: asphalt
+old_name: Chemin d'Assouste
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4158331094593641,42.98153751140272 -0.4155944270883736,42.98159468634837 -0.4153840416488327,42.98170489583497 -0.4153045407461881,42.981775017093035 -0.4151820105414342,42.98197197393831 -0.415104755427,42.982099400803676 -0.4148748765457938,42.98228702471729</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Assouste</name>
+      <description>name: Chemin d'Assouste
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4148748765457938,42.98228702471729 -0.41483570999940617,42.98232717813195 -0.4147159645720331,42.982450004044445 -0.41419898412602224,42.98311000018451 -0.41383363929997086,42.983401518677084</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Assouste</name>
+      <description>name: Chemin d'Assouste
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.41383363929997086,42.983401518677084 -0.41419898412602224,42.98311000018451 -0.4147159645720331,42.982450004044445 -0.41483570999940617,42.98232717813195 -0.4148748765457938,42.98228702471729</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quartier Espalungue</name>
+      <description>name: Quartier Espalungue
+highway: unclassified
+surface: asphalt
+old_name: Chemin d'Assouste
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4148748765457938,42.98228702471729 -0.415104755427,42.982099400803676 -0.4151820105414342,42.98197197393831 -0.4153045407461881,42.981775017093035 -0.4153840416488327,42.98170489583497 -0.4155944270883736,42.98159468634837 -0.4158331094593641,42.98153751140272</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Espalungue</name>
+      <description>name: Chemin d'Espalungue
+highway: residential
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4158331094593641,42.98153751140272 -0.4158506266074044,42.981501826323495</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Espalungue</name>
+      <description>name: Chemin d'Espalungue
+layer: 2
+bridge: yes
+highway: residential
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4158506266074044,42.981501826323495 -0.4159208748626225,42.981358297176826</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Espalungue</name>
+      <description>name: Chemin d'Espalungue
+highway: residential
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4159208748626225,42.981358297176826 -0.41635988154197173,42.98109207075252 -0.41645770807641236,42.981047316209576 -0.4167125601225171,42.98093040220579 -0.41694279832983694,42.98088111293017</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.41694279832983694,42.98088111293017 -0.4170426011579026,42.980944794666826</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+layer: 1
+bridge: yes
+bicycle: yes
+highway: footway
+surface: metal</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4170426011579026,42.980944794666826 -0.41722900157935744,42.981082278645324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.41722900157935744,42.981082278645324 -0.4172889192088082,42.981112772182065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Gléré de Pon</name>
+      <description>lit: yes
+name: Rue du Gléré de Pon
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4172889192088082,42.981112772182065 -0.4172325948404939,42.98129540449186 -0.41744702269881323,42.98237771488008</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Gléré de Pon</name>
+      <description>name: Rue du Gléré de Pon
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.41744702269881323,42.98237771488008 -0.4179475639751246,42.98253070493843 -0.41835081770616583,42.98269112065176 -0.418407321737537,42.98269552369903 -0.4184790072972097,42.9826762028624 -0.4186630720989258,42.982626520683176 -0.4187018793191998,42.98260299392292 -0.418820995925874,42.98252689333508</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Soupon</name>
+      <description>foot: yes
+name: Rue de Soupon
+access: yes
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.418820995925874,42.98252689333508 -0.418931129379707,42.98264807591931 -0.41912902823679865,42.98281138287432 -0.4193146201744977,42.98292237878245 -0.4196856243868391,42.98339843000778 -0.419748416625199,42.98344318283927</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Soupon</name>
+      <description>foot: yes
+name: Rue de Soupon
+access: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.419748416625199,42.98344318283927 -0.4197859662040752,42.98348412409416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Péré</name>
+      <description>name: Pont de Péré
+layer: 1
+bridge: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4197859662040752,42.98348412409416 -0.41988729616812387,42.98360721055985</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.41988729616812387,42.98360721055985 -0.4199469443029894,42.98367627819107</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Gourzy</name>
+      <description>name: Rue du Gourzy
+highway: residential
+maxspeed: 30
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4199469443029894,42.98367627819107 -0.42015885687851323,42.984010772091175 -0.4203649304046902,42.98437181317005 -0.4204766808260347,42.984498775054995 -0.4209377860613733,42.98484897032369 -0.421137481549033,42.98502528293063 -0.42137885886587595,42.985307723764436 -0.42150974340277214,42.985497309310546 -0.42160146139328075,42.98563038027184</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

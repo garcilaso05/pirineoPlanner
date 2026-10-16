@@ -1,0 +1,597 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Circuit 1 Centre-ville de Rodez</name>
+    <Placemark>
+      <name>Rue Aristide Briand</name>
+      <description>name: Rue Aristide Briand
+oneway: yes
+highway: pedestrian
+surface: paving_stones
+maxspeed: 20
+maxspeed:type: FR:living_street
+name:etymology:wikidata: Q179888</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5764588748669555,44.350614898744396 2.5762000702336008,44.35066397527463 2.5761742885849457,44.35066949959352</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Cité</name>
+      <description>name: Place de la Cité
+oneway: yes
+highway: pedestrian
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5761742885849457,44.35066949959352 2.5763092155406206,44.35095702040222</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Embergue</name>
+      <description>name: Rue de l'Embergue
+oneway: yes
+highway: living_street
+surface: sett
+maxspeed: 20
+maxspeed:type: FR:living_street
+oneway:conditional: no @ destination; delivery</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5763092155406206,44.35095702040222 2.5764609409921087,44.35114837897904 2.576541699536151,44.35128712800955 2.576546909764799,44.35129708452458 2.5765881424363397,44.35147829280244 2.5766515634953984,44.35162468504315 2.5768194586220003,44.35185522478093 2.576991396167381,44.35209128779671 2.57701241674503,44.35214717196329 2.577040803508008,44.35222290455917 2.5770698190916845,44.35233762737212 2.5771505776357277,44.352600474090146 2.577151835277125,44.35260452084126 2.57715551836979,44.35269271425233 2.577103416083311,44.352807628847366</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrefour des Embergues</name>
+      <description>name: Carrefour des Embergues
+highway: residential
+maxspeed: 30
+zone:maxspeed: FR:30
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.577103416083311,44.352807628847366 2.57713288082463,44.35289389493807</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Bonald</name>
+      <description>name: Rue de Bonald
+highway: residential
+maxspeed: 30
+zone:maxspeed: FR:30
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.57713288082463,44.35289389493807 2.5770735920158785,44.352880405833226</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Bonald</name>
+      <description>name: Rue de Bonald
+oneway: yes
+highway: living_street
+surface: paving_stones
+maxspeed: 20
+maxspeed:type: FR:living_street
+oneway:conditional: no @ destination; delivery</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5770735920158785,44.352880405833226 2.577026071137348,44.35285901596062 2.5768446114499564,44.35270729537888 2.5767915210166645,44.35266721333065 2.576700970836025,44.352598932470606 2.576245884313091,44.35228277113907 2.5762238755886298,44.352267483327275 2.576120299836371,44.352157513739996 2.576077719691903,44.352051783439904</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Saint-Vincent</name>
+      <description>name: Rue Saint-Vincent
+highway: pedestrian
+surface: sett
+maxspeed: 20
+maxspeed:type: FR:living_street
+zone:maxspeed: FR:30
+name:etymology:wikidata: Q318974</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.576077719691903,44.352051783439904 2.5759199755280116,44.35207632110856 2.575790618127099,44.35210760340947</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Séguy</name>
+      <description>name: Rue Séguy
+access: destination
+highway: pedestrian
+surface: sett
+maxspeed: 20
+maxspeed:type: FR:living_street
+zone:maxspeed: FR:30
+parking:lane:both: no_parking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.575790618127099,44.35210760340947 2.575682281303834,44.35199827587026 2.5754549177054233,44.35173067305416</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passage des Hebdomadiers</name>
+      <description>name: Passage des Hebdomadiers
+highway: pedestrian
+surface: sett
+maxspeed: 20
+maxspeed:type: FR:living_street
+zone:maxspeed: FR:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5754549177054233,44.35173067305416 2.575187040087699,44.351848287404444 2.5748793671028882,44.35191117340751</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse Cambon</name>
+      <description>name: Impasse Cambon
+highway: pedestrian
+surface: sett
+maxspeed: 20
+maxspeed:type: FR:living_street
+zone:maxspeed: FR:30
+parking:lane:both: no_parking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5748793671028882,44.35191117340751 2.574839931061915,44.35180152432676 2.5748041781136073,44.35170228113304 2.5747061719161093,44.35142992354382 2.574677066500904,44.35134898684646 2.5746271201711073,44.35110649726269 2.5746131064526745,44.35103847152774</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Frayssinous</name>
+      <description>name: Rue Frayssinous
+highway: living_street
+surface: asphalt
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5746131064526745,44.35103847152774 2.5741161584375,44.35110187228605 2.5738164804587176,44.35114311164826</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Frayssinous</name>
+      <description>name: Rue Frayssinous
+highway: residential
+surface: sett
+maxspeed: 30
+source:maxspeed: fr:zone:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5738164804587176,44.35114311164826 2.5737356320831473,44.35115583032422</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.573880171012362,44.35167999153827 2.5737456932143292,44.351275308660504 2.5737480288340677,44.35121608340811 2.5737491966439374,44.35118402980296</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: sett</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5737491966439374,44.35118402980296 2.5737356320831473,44.35115583032422</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: sett</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5737356320831473,44.35115583032422 2.5737263794357204,44.351146130728154 2.5736960163791176,44.35110913092979</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5736960163791176,44.35110913092979 2.573613730699092,44.35112017948314 2.5735968423717503,44.35110951634448 2.573420413249949,44.35073367158529</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.573420413249949,44.35073367158529 2.5734116995916936,44.35070547188985 2.573422030217461,44.3506642322197</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Salvaing</name>
+      <description>lit: yes
+name: Rue Salvaing
+highway: living_street
+surface: asphalt
+maxspeed: 20
+maxspeed:type: FR:living_street
+parking:lane:both: no_parking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5734116995916936,44.35070547188985 2.5739938977273313,44.350542375890846 2.574045191530055,44.350530684864424</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place Adrien Rozier</name>
+      <description>name: Place Adrien Rozier
+oneway: yes
+highway: living_street
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.574045191530055,44.350530684864424 2.5740019825648885,44.35045128860131 2.5740003655973767,44.350412618214165</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Penavayre</name>
+      <description>name: Rue Penavayre
+oneway: yes
+highway: pedestrian
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5740003655973767,44.350412618214165 2.5739725178235693,44.35036688177648 2.573953563371074,44.35034439896397 2.5738500774503437,44.350150404052094 2.573778571553728,44.34995711510559 2.5737762359339893,44.349915682197604 2.5737523407474314,44.34986557724648</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Corbières</name>
+      <description>name: Rue Corbières
+oneway: yes
+highway: footway
+surface: asphalt
+maxspeed: 10
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5737523407474314,44.34986557724648 2.5736062746822337,44.34985767607721 2.5735044057290146,44.34982767731911</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Corbières</name>
+      <description>name: Rue Corbières
+oneway: yes
+highway: living_street
+surface: sett
+maxspeed: 10
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5735044057290146,44.34982767731911 2.5733770246217262,44.34979176872125</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Louis Blanc</name>
+      <description>lit: yes
+name: Rue Louis Blanc
+highway: living_street
+surface: asphalt
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5733770246217262,44.34979176872125 2.5734618255845474,44.34973279891889 2.573504585392071,44.34970491992849 2.5735751929734034,44.34965899022645 2.573706436836413,44.349582483468026 2.5739503294360517,44.34943550798778 2.5742939350322276,44.349216393071345</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Louis Blanc</name>
+      <description>name: Rue Louis Blanc
+oneway: yes
+highway: living_street
+surface: asphalt
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5742939350322276,44.349216393071345 2.5743214234799217,44.34920059055669 2.5743606798578376,44.34917752915572</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Louis Blanc</name>
+      <description>name: Rue Louis Blanc
+oneway: yes
+highway: living_street
+surface: paving_stones
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5743606798578376,44.34917752915572 2.5743739749240424,44.34916860008717 2.5743881683055316,44.349159092875986</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Louis Blanc</name>
+      <description>name: Rue Louis Blanc
+oneway: yes
+highway: living_street
+surface: asphalt
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5743881683055316,44.349159092875986 2.574578341651179,44.34903819698857</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Court Comtal</name>
+      <description>name: Rue du Court Comtal
+highway: pedestrian
+surface: paving_stones
+maxspeed: 20
+description: noté "Rue du Court Comtal" sur le panneau
+maxspeed:type: FR:living_street
+motor_vehicle:conditional: delivery @ (Mo-Sa 18:00-10:00)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.574578341651179,44.34903819698857 2.5745656754056734,44.34888029964639 2.5745637889435766,44.348856210307396</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Court Comtal</name>
+      <description>name: Rue du Court Comtal
+oneway: yes
+highway: pedestrian
+surface: paving_stones
+maxspeed: 20
+description: noté "Rue du Court Comtal" sur le panneau
+maxspeed:type: FR:living_street
+motor_vehicle:conditional: delivery @ (Mo-Sa 18:00-10:00)</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5745637889435766,44.348856210307396 2.574524981723303,44.34875921046885 2.574448714755681,44.3486372859408</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'Armagnac</name>
+      <description>name: Rue d'Armagnac
+oneway: yes
+highway: pedestrian
+surface: paving_stones
+delivery: 18:00-10:00
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.574448714755681,44.3486372859408 2.5748587956828812,44.34853238439202 2.5749614731198567,44.348507395569186</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Saint-Amans</name>
+      <description>name: Rue Saint-Amans
+highway: pedestrian
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.574934972818975,44.34846827422876 2.5747798337694072,44.348239969530766 2.5747718387633785,44.348228920434465</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Saint-Amans</name>
+      <description>name: Rue Saint-Amans
+highway: living_street
+surface: paving_stones
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5747718387633785,44.348228920434465 2.5747030278126153,44.3481276155417</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Bourg</name>
+      <description>name: Place du Bourg
+oneway: yes
+highway: living_street
+surface: paving_stones
+maxspeed: 20
+maxspeed:type: FR:living_street
+parking:lane:both: no_parking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5760390023031574,44.348442386036744 2.576051039727965,44.348467117932586 2.5761749174056447,44.34869889062076 2.57621875519151,44.34875831113185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Olmet</name>
+      <description>name: Place de l'Olmet
+highway: pedestrian
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.574934972818975,44.34846827422876 2.5749614731198567,44.348507395569186 2.5751166121694236,44.34864351707403</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Olmet</name>
+      <description>name: Place de l'Olmet
+highway: pedestrian
+surface: paving_stones
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5751166121694236,44.34864351707403 2.5751934181262155,44.34870062505816</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Bourg</name>
+      <description>name: Place du Bourg
+highway: pedestrian
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5751934181262155,44.34870062505816 2.5753160381624984,44.34879948790475 2.5754543787162527,44.34892430281339 2.575455007536952,44.34892809286564</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Bourg</name>
+      <description>name: Place du Bourg
+oneway: yes
+highway: living_street
+surface: asphalt
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5753021142755945,44.34900472895442 2.575465068668134,44.34894672193248 2.575992289908384,44.3487818223661</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Bourg</name>
+      <description>name: Place du Bourg
+oneway: yes
+highway: living_street
+surface: paving_stones
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.575992289908384,44.3487818223661 2.5760790671648297,44.34875381444663 2.576155064637866,44.34875047405168 2.57621875519151,44.34875831113185 2.5762725642770286,44.34878452037598 2.5763342785370478,44.34879627598902</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Saint-Just</name>
+      <description>name: Rue Saint-Just
+oneway: yes
+highway: living_street
+surface: sett
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5763342785370478,44.34879627598902 2.576411713314539,44.3488052693526 2.576687855432877,44.34888800823278 2.5769161173465718,44.348986099906014 2.577130096047249,44.34914091354222 2.577191091655041,44.349202710406466 2.5772367260714746,44.34926868266261 2.5773316779970057,44.349449768736704 2.577355842678149,44.34952608295581 2.5773645563364043,44.349554218981226</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Camille Douls</name>
+      <description>name: Rue Camille Douls
+oneway: yes
+highway: living_street
+incline: down
+surface: sett
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5773645563364043,44.349554218981226 2.577306704832107,44.349560128829594 2.5772148970100703,44.349565075115265</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Camille Douls</name>
+      <description>name: Rue Camille Douls
+oneway: yes
+highway: living_street
+incline: down
+surface: asphalt
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5772148970100703,44.349565075115265 2.576815416203223,44.34958068481928 2.5767705004390167,44.349559679167236 2.576739059404072,44.349526725330975</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Camille Douls</name>
+      <description>name: Rue Camille Douls
+oneway: yes
+highway: living_street
+surface: asphalt
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.576739059404072,44.349526725330975 2.5762683421951937,44.34953970130769 2.5762289061542205,44.34955081439439 2.5762000702336008,44.34956989292559</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Camille Douls</name>
+      <description>lit: yes
+name: Rue Camille Douls
+highway: pedestrian
+surface: paving_stones
+motorcycle: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5762000702336008,44.34956989292559 2.5761456323273824,44.349571498862275 2.5756660217971916,44.349581712618566</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5756660217971916,44.349581712618566 2.5755436712554944,44.34957432531073</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.5755436712554944,44.34957432531073 2.5754128765501267,44.34956552477758 2.5752005148169608,44.34956847970127 2.57508571012365,44.34965269496379 2.575085081302951,44.34968507059314</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Touat</name>
+      <description>lit: yes
+name: Rue du Touat
+oneway: yes
+highway: pedestrian
+surface: sett
+maxspeed: 20
+motorcar: no
+motorcycle: no
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.575085081302951,44.34968507059314 2.57509190849911,44.349708324506366 2.575088135574917,44.34973356976637 2.5750820270309855,44.34977481009136 2.575124517343924,44.34987257909479</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Touat</name>
+      <description>name: Rue du Touat
+oneway: yes
+highway: pedestrian
+surface: paving_stones
+maxspeed: 20
+motorcar: no
+motorcycle: no
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.575124517343924,44.34987257909479 2.5752059945401937,44.35002828970706 2.5751776077772157,44.350098372195 2.5752642053706043,44.350257679463525 2.575293939606509,44.35035140075508</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Bosc</name>
+      <description>name: Rue Bosc
+highway: pedestrian
+maxspeed: 20
+maxspeed:type: FR:living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.575293939606509,44.35035140075508 2.5749661443593337,44.35045751954171</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

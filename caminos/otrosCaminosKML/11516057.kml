@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.860807821977955,42.384914973379836 2.860801533770966,42.38496526856806 2.860739460184834,42.38503162099748 2.860709815780458,42.385082115149274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.860709815780458,42.385082115149274 2.860664810184723,42.38515868570407 2.860284014335785,42.385432520884116 2.85972598088129,42.38587176939308 2.859300808257316,42.386303583511534 2.8590744328057185,42.38652406766347 2.8587541834069294,42.386752115007134 2.8584480375581016,42.38689052215592 2.857896382142124,42.387210993913044 2.857552237556778,42.38751938837807 2.857477587556667,42.3876548744519</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.857477587556667,42.3876548744519 2.857311758555219,42.38761187988228 2.857066428651126,42.3875633119071 2.856904372573871,42.38761187988228 2.856853797423375,42.387669869464624 2.8568689789516766,42.387796995180814 2.8569145235365814,42.387995114390165 2.8569094929709906,42.38820630373627 2.856886675762773,42.38843991826756 2.856871494234472,42.38852590624307 2.856795586592964,42.38860247259744 2.856560227988525,42.38880251336851 2.856365383403399,42.38895392025462 2.8562565974224925,42.38911282410912 2.855593640742812,42.3896921728765 2.855535429912401,42.38977630141</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.855535429912401,42.38977630141 2.8554620375536888,42.38996691714172 2.8551406203450305,42.39013331564349 2.8545686630036315,42.39028458662594</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8545686630036315,42.39028458662594 2.8543434553619025,42.39028279526118 2.8542119420043073,42.39032578800141 2.8538626770218416,42.3908060706392 2.853612136889101,42.39106767351931 2.8532046610762243,42.39122849605228 2.8524860088489286,42.39139482486392 2.8521697120373903,42.39151437964493 2.8517875687155256,42.3916826317146 2.8516002699787872,42.39183363358235</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Reng</name>
+      <description>name: Carrer del Reng
+narrow: yes
+oneway: yes
+highway: unclassified
+name:ca: Carrer del Reng
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8516002699787872,42.39183363358235 2.8508120881485004,42.392518378705816 2.8505636141409125,42.392624728818724 2.8497625864020635,42.39284247065866 2.8492308735853933,42.39293508700753 2.8486458008408464,42.392981395130704</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Ral</name>
+      <description>name: Carrer del Ral
+highway: residential
+name:ca: Carrer del Ral
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8486458008408464,42.392981395130704 2.8484779057142444,42.39323562479142 2.8484578732834085,42.39332930205811</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Lluis Gomis</name>
+      <description>name: Carrer Lluis Gomis
+narrow: yes
+highway: residential
+name:ca: Carrer Lluis Gomis
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8484578732834085,42.39332930205811 2.848109865942341,42.393453497198955 2.8472612274934326,42.39372822500012</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Lluis Gomis</name>
+      <description>name: Carrer Lluis Gomis
+highway: living_street
+name:ca: Carrer Lluis Gomis
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8472612274934326,42.39372822500012 2.846901272559086,42.39371767643009 2.8468635433171534,42.393716614938675</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6045678930114777,42.85387029635693 0.6045605268261479,42.853838817821504 0.6045148924097147,42.85378027297131 0.6043754738776195,42.853650473111145 0.604330019124243,42.85361892860874</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.604330019124243,42.85361892860874 0.6042283298340806,42.8537015106331</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>dog: yes
+ski: no
+foot: yes
+horse: yes
+tunnel: yes
+bicycle: permissive
+highway: path
+surface: concrete
+vehicle: no
+snowmobile: no
+wheelchair: limited
+motor_vehicle: no
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6042283298340806,42.8537015106331 0.6041184658748328,42.85378119493789</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6041184658748328,42.85378119493789 0.6040964571503719,42.85379449759694 0.60407166364853,42.85380437580724 0.6040604347074786,42.853805100209286 0.6040489362718419,42.853803914824134 0.6040280953572504,42.853789624345936 0.6039918932513004,42.85375472132077 0.6038920005917062,42.85366180015192 0.6036331061268231,42.85346081072447 0.6033964000494575,42.853270028215235 0.6031704737555015,42.85307391082063</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

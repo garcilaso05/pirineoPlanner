@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Variante de Buzy</name>
+    <Placemark>
+      <name>Chemin de Couret et de Nouts</name>
+      <description>name: Chemin de Couret et de Nouts
+source: survey
+highway: track
+tracktype: grade5
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.44751534205733345,43.1262252838534 -0.44770901883258957,43.126305795768516</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Couret et de Nouts</name>
+      <description>name: Chemin de Couret et de Nouts
+source: survey
+highway: path
+name:oc: Camin de Coret e de Nots
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.44770901883258957,43.126305795768516 -0.4478726020458277,43.12642328527861 -0.44821908225091267,43.12649848631423 -0.44841976588538496,43.12649868300383</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Couret et de Nouts</name>
+      <description>name: Chemin de Couret et de Nouts
+source: survey
+highway: track
+tracktype: grade5
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.44841976588538496,43.12649868300383 -0.4487684020471518,43.12649081541945 -0.44901921167447784,43.126388995673715 -0.4492110019876374,43.126266719966274 -0.44939066504446135,43.12614923015547</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Couret et de Nouts</name>
+      <description>name: Chemin de Couret et de Nouts
+source: survey
+highway: path
+name:oc: Camin de Coret e de Nots
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.44939066504446135,43.12614923015547 -0.44953152088101134,43.1261277252996 -0.449696541398704,43.126150213609066 -0.4499284864050637,43.126253017204206 -0.44996603598393986,43.12636552400191 -0.450054609870954,43.12650261679564 -0.450172558667759,43.12654660968345 -0.4502973346607232,43.1265083863565</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Couret et de Nouts</name>
+      <description>name: Chemin de Couret et de Nouts
+source: survey
+highway: track
+surface: gravel
+tracktype: grade2
+smoothness: bad
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4502973346607232,43.1265083863565 -0.4504876876694281,43.126477112707576 -0.45065540313297325,43.126479079604216 -0.45081233881310884,43.12649671610783 -0.4509584947098351,43.126525629472646 -0.45114345782683535,43.12656522961452 -0.45133506847693805,43.12661781122024</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

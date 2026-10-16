@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: parking_aisle
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4814003264373947,43.64831848435406 1.4814296115156569,43.6483021040497 1.4814692272196865,43.648289493812335 1.4815288753545521,43.648290013822184 1.4823554152474703,43.64838238049859</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4823554152474703,43.64838238049859 1.4823724832378689,43.64828598374581 1.4825453190985334,43.647192328026016</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4825453190985334,43.647192328026016 1.4825490920227264,43.647175817409675 1.4826368574259852,43.64705172763219</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: yes
+highway: path
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4826368574259852,43.64705172763219 1.4827177956330844,43.647056472819585</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

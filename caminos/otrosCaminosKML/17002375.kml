@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Paul Riquet</name>
+      <description>ref: D 3
+name: Rue Paul Riquet
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.040474741557581,43.0236076986124 3.040491270558809,43.02362667821401 3.0405751732063457,43.02369097239177 3.040586941136568,43.02369550384814 3.0406420976950126,43.023716519293565 3.04067282007773,43.023718620837705</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.04067282007773,43.023718620837705 3.04067506586594,43.02375152312887 3.040680815083758,43.023765314503166 3.0407113578034184,43.02384018190952</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passerelle Monseigneur Charles Le Goux de la Berchère</name>
+      <description>lit: yes
+name: Passerelle Monseigneur Charles Le Goux de la Berchère
+layer: 1
+bridge: yes
+highway: footway
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0407113578034184,43.02384018190952 3.0410157968532063,43.0243501972675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0410157968532063,43.0243501972675 3.0410183121360017,43.0243934098085 3.041020917250326,43.02443787009631</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps
+incline: up</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.041020917250326,43.02443787009631 3.0409880389109274,43.024511882941205 3.0410009746510185,43.024517268078164 3.0410546040734805,43.02441843103795</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de la Bellet</name>
+      <description>ref: D 6139
+name: Pont de la Bellet
+layer: 2
+bridge: yes
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0410546040734805,43.02441843103795 3.041728160873513,43.02462569311334</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de la Bellet</name>
+      <description>ref: D 6139
+name: Pont de la Bellet
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.041728160873513,43.02462569311334 3.0418110753742376,43.024653603827325</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de la Bellet</name>
+      <description>ref: D 6139
+name: Pont de la Bellet
+lanes: 1
+oneway: yes
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0418110753742376,43.024653603827325 3.0419407022697356,43.024740094123935 3.0420359236898524,43.02479762290978 3.042076617372223,43.02484759935692</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>highway: tertiary
+surface: asphalt
+junction: roundabout</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.042076617372223,43.02484759935692 3.0420928768788658,43.02490250116261 3.0421297976370436,43.024951689461155 3.0421839660486754,43.0249914209686 3.042251429526513,43.025018412110214</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>oneway: yes
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.042251429526513,43.025018412110214 3.042375397035721,43.025263499013676</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.042375397035721,43.025263499013676 3.042471786265707,43.02540528383609 3.042460197998542,43.02545118816186 3.0423250913798108,43.025545295205966 3.042255292282235,43.02559717551052</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Sainte-Lucie</name>
+      <description>name: Chemin de Sainte-Lucie
+bicycle: yes
+highway: service
+surface: asphalt
+maxheight: 2.0
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.042255292282235,43.02559717551052 3.0422446023303538,43.02566002285871 3.042634740658247,43.02628849280178 3.0427753270002116,43.02642298584721 3.042804432415417,43.02646902075259 3.0433115313933023,43.027270324659185 3.0451731999881115,43.03016916857992 3.0465365730948197,43.03228890750229 3.0472830730959233,43.033465530956285 3.0486574056490974,43.03563151236552 3.0499269048086153,43.03762847856907 3.050526620092293,43.038571916455766 3.0529961786398663,43.04238360186104 3.0530756795425114,43.042513726530196</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: designated
+bicycle: yes
+highway: track
+surface: asphalt
+tracktype: grade2
+segregated: no
+smoothness: very_bad
+motor_vehicle: no
+smoothness:date: 2018-05</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0530756795425114,43.042513726530196 3.055810241098899,43.04685633133496 3.0560815323147037,43.04726650177005</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

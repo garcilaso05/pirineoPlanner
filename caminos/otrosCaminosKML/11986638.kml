@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Boucle de Borèze</name>
+    <Placemark>
+      <name>Place du Tilleul</name>
+      <description>name: Place du Tilleul
+oneway: yes
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3874712226884596,44.95384722269761 1.3874732888136132,44.953870680623986 1.3874597242528228,44.95392369931656 1.3874572089700272,44.953982820822446</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grandrue</name>
+      <description>name: Grandrue
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3874572089700272,44.953982820822446 1.3875285352035864,44.95402217155444 1.3876055208234355,44.954079195103645 1.3877115220269616,44.954196102738074</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Granges</name>
+      <description>name: Rue des Granges
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3877115220269616,44.954196102738074 1.3876359737115669,44.95424270044004 1.3875495557812347,44.954247086852064</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Granges</name>
+      <description>name: Rue des Granges
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3875495557812347,44.954247086852064 1.3875320386331944,44.954252617545 1.3874491241324702,44.954274676740255 1.3874084304500998,44.954288598821655 1.387372497838735,44.95433011076122 1.3872614660696176,44.95448051977312 1.387180887188632,44.95453862357158</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Granges</name>
+      <description>name: Rue des Granges
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.387180887188632,44.95453862357158 1.38709105566022,44.95460340224469 1.3867173565020268,44.954851200655014 1.3863592880297766,44.955079100505976 1.386199118414618,44.95521431429939 1.3860572744312556,44.95537762569184 1.3859560342987354,44.955548310710405 1.3857777187148377,44.95577792416914 1.3856385696773272,44.95598090119305 1.3855437974148528,44.95609138447022</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

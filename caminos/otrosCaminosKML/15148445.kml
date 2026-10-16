@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Allée Monique Pelletier</name>
+      <description>lit: yes
+foot: designated
+name: Allée Monique Pelletier
+width: 3.5
+bicycle: designated
+highway: cycleway
+surface: asphalt
+stroller: yes
+segregated: no
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.429434044892478,43.58523806876738 1.4299413235334202,43.586012780343694 1.4304164424871912,43.586718184757046 1.4307828652915833,43.587211592044355 1.4308618272050575,43.58731648042551 1.4312944558458895,43.58789193179065 1.431836858614441,43.588573304900386 1.4324035158956634,43.589246407030885 1.4324311840064146,43.58928128190958 1.4333409977261709,43.590338709867666 1.4345232704716002,43.591723904576234 1.434819534852303,43.592074524897384</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Monique Pelletier</name>
+      <description>lit: yes
+foot: designated
+name: Allée Monique Pelletier
+bicycle: designated
+highway: cycleway
+incline: down
+surface: asphalt
+segregated: no
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.434819534852303,43.592074524897384 1.4349221224577493,43.59221967811961 1.435017523540923,43.592363724942494 1.4350573189080094,43.592444076114404 1.4350663020608505,43.59250562438891 1.4350571392449525,43.5925512975921</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

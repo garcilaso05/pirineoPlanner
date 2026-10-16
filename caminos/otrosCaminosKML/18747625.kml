@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Candelas du Sablas</name>
+      <description>lit: yes
+name: Candelas du Sablas
+hazard: flooding
+oneway: yes
+highway: living_street
+surface: asphalt
+maxspeed: 20
+old_name: Rue du Candelas
+ref:FR:FANTOIR: 072680166
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566149704582676,44.30137867719252 4.566304124980015,44.30136742639551 4.566367366376018,44.301357011370065 4.5668296394212256,44.30122450894074 4.566945522092877,44.30117860555487 4.567167855125697,44.301095992227964 4.567250410300307,44.30106468271105</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Candelas du Sablas</name>
+      <description>lit: yes
+name: Candelas du Sablas
+oneway: yes
+highway: residential
+surface: asphalt
+old_name: Rue du Candelas
+lane_markings: no
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.567250410300307,44.30106468271105 4.567286702237786,44.3010509245197</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lanes: 1
+oneway: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.567286702237786,44.3010509245197 4.567301883766087,44.30104282390084 4.567322275523037,44.30103189449269 4.567350662286016,44.301007592624906 4.567370604885323,44.30097917614242 4.567380755848033,44.30094831659836 4.56738210332096,44.3009303794809 4.567380127027334,44.30091250664874</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Saint-Martin-d'Ardèche</name>
+      <description>lit: no
+ref: D 200
+foot: yes
+name: Pont de Saint-Martin-d'Ardèche
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 1
+layer: 1
+width: 2.7
+bridge: yes
+oneway: no
+source: local_knowledge
+highway: tertiary
+surface: concrete
+maxspeed: 30
+maxwidth: 2.7
+maxweight: 3
+cycleway:both: no
+maxweightrating: 3
+source:maxspeed: sign
+bridge:structure: suspension</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.567380127027334,44.30091250664874 4.567098595017292,44.30031961414721</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-Martin-d'Ardèche</name>
+      <description>lit: no
+ref: D 141
+foot: yes
+name: Route de Saint-Martin-d'Ardèche
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 1
+layer: 1
+width: 2.7
+bridge: yes
+oneway: no
+source: local_knowledge
+highway: tertiary
+surface: concrete
+maxspeed: 30
+maxwidth: 2.7
+maxweight: 12
+cycleway:both: no
+maxweightrating: 12
+source:maxspeed: sign
+bridge:structure: suspension</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.567098595017292,44.30031961414721 4.566833502176948,44.299792807870645 4.566709804162324,44.29954746908981 4.566580267098354,44.299300586262916</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-Martin d'Ardèche</name>
+      <description>ref: D 141
+name: Route de Saint-Martin d'Ardèche
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566580267098354,44.299300586262916 4.566570834787871,44.29928232717928</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566570834787871,44.29928232717928 4.566517205365409,44.29929087808887</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps
+incline: up
+step_count: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566517205365409,44.29929087808887 4.566504359456846,44.29929152101436</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.566504359456846,44.29929152101436 4.56647812865055,44.29929087808887</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>4.56647812865055,44.29929087808887 4.566449382561458,44.299226778382895 4.566419199167912,44.29915078445826</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

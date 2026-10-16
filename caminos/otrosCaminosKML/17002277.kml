@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue du Portail d'Avail</name>
+      <description>name: Rue du Portail d'Avail
+width: 6.8
+highway: residential
+surface: asphalt
+source:width: ARCore
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9816549432155313,43.02897987374629 2.9816799163804304,43.0290132985583 2.9816957267294306,43.029111668528095 2.981709830279391,43.02916479349963 2.981701925104891,43.02922547017231</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Portail d'Avail</name>
+      <description>name: Rue du Portail d'Avail
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.981701925104891,43.02922547017231 2.981540857174448,43.029408025167776 2.981546875886852,43.029464301904014</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Chabrousse</name>
+      <description>name: Chemin de Chabrousse
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5754893303069029,43.48542883176239 1.5753950072020704,43.48545151342795 1.5753299691754998,43.48550000523609 1.5753366167086025,43.485563487732534 1.5753979716425077,43.48560709117451 1.5754801674910046,43.48564561078091 1.5757999677321513,43.485686802617096 1.575896267130609,43.4857266908874 1.577209244749878,43.486734708268955</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Ratabou</name>
+      <description>ref: D 95
+name: Route de Ratabou
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.577209244749878,43.486734708268955 1.5773808229691448,43.4866761803694 1.57751628891399,43.4866832845384 1.5777691646664695,43.486782416937984 1.5779374191191853,43.48681578691361 1.5782058357260802,43.48679160671827 1.578659844270674,43.48671352612923 1.5788439090723905,43.48672141240365</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Bordeneuve</name>
+      <description>name: Chemin de Bordeneuve
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5788439090723905,43.48672141240365 1.580234411300679,43.488191826124186 1.5814594438536327,43.48927670662878 1.5817231892210502,43.489534204841114 1.5820553862131177,43.48986058925374 1.5820957205693746,43.48990021407834 1.5821442295947168,43.48994798541949 1.582812396503045,43.49060459313516 1.5832577812209117,43.491211468280966 1.5836566332070605,43.49175492657631 1.5836740605235724,43.49182140033362 1.5836770249640102,43.491879532226115 1.5837036150964199,43.49241438211353 1.5836053394043377,43.49250470721491 1.5833539009563122,43.49271403153375 1.5835030212934762,43.49289357282945 1.5836656163599019,43.4931021789422</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5836656163599019,43.4931021789422 1.584417326589653,43.493877879762245 1.5847164655792647,43.494135488693466 1.585621428396487,43.49497432301177 1.5858743939804951,43.49540989708124 1.5859301793596388,43.49617507659565 1.585958835617202,43.49649451760176 1.58596233904681,43.49653361675204</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: ground
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.58596233904681,43.49653361675204 1.5860173159421984,43.49728542332301 1.5860404026450001,43.4976021215641 1.586030700839932,43.49781168886965 1.585994139407868,43.4979293095045 1.585990366483675,43.49834791981094 1.5860239634753008,43.49843647663181 1.586081365821956,43.49855579028883 1.5861778448834705,43.49863998088693 1.5863104362194065,43.49874300343277 1.5864290138369104,43.49885443179491</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track
+surface: asphalt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5864290138369104,43.49885443179491 1.586440063114905,43.49893301798983</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: asphalt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.586440063114905,43.49893301798983 1.586451831045127,43.49904379437609</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

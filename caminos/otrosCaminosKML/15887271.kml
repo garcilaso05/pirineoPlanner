@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Chemin du Courtaou de Pla</name>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.24316038285036426,42.97513450118587 0.24329710643660726,42.97513962775147</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>layer: 1
+bridge: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.24329710643660726,42.97513962775147 0.24356004332026904,42.97512352507604</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Estupas</name>
+      <description>name: Chemin des Estupas
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.24356004332026904,42.97512352507604 0.24359220300744053,42.97512687706188 0.24360828285102623,42.97513469836148</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Estupas</name>
+      <description>name: Chemin des Estupas
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.24360828285102623,42.97513469836148 0.243660564800562,42.97510577926558 0.24375380992705362,42.97501987632553 0.24383043622078904,42.97490557987879 0.24388550294770553,42.97486529016635 0.24398746173245311,42.97483538506094 0.24416299253897003,42.974805611392085 0.24432828255124805,42.974778729634544 0.24454046462135706,42.97477117119204</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.24454046462135706,42.97477117119204 0.24446231119163866,42.97468290165995</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.24446231119163866,42.97468290165995 0.24436646095082312,42.97450340455128 0.2442886668472184,42.97427270628961 0.2442857922383092,42.974201787761174 0.24432406046941266,42.97386526869875 0.24439529687144335,42.97366513100029 0.24474007027748843,42.973444814462205 0.24504657545243,42.97335667448055 0.2453531704589,42.9733888150254 0.24600453887141505,42.97324861902867 0.24714863321726968,42.97296421669769 0.24904246149925047,42.97249156826933 0.24965547184913361,42.972275388407475 0.2502083849065092,42.97199098157589 0.2504985407432798,42.97160252454581 0.25124288478770124,42.971322189818004 0.2520092375565836,42.9710137872768 0.2523267021779914,42.97096172940629 0.25303277799130935,42.970973692203664 0.25375538280585513,42.97084551925359 0.2543520438175673,42.970801480280876 0.25469142733190764,42.970821527876836 0.25475978912502917,42.97083276767368</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.25475978912502917,42.97083276767368 0.2549486149977511,42.97077347936541 0.2563663361791485,42.97037692982074 0.2579373099480167,42.96988427934475 0.25968893492052136,42.969411672978254 0.26113657000088,42.96905330478416 0.2622866830591382,42.96876862012497</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier de Batnère au Pène de Bedout</name>
+      <description>name: Sentier de Batnère au Pène de Bedout
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2622866830591382,42.96876862012497 0.262116542144326,42.97022837919215 0.2620832146472852,42.970405391028535</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

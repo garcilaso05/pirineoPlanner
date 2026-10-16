@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Altres camins - Serinyà</name>
+    <Placemark>
+      <name>Camí de les Torres</name>
+      <description>name: Camí de les Torres
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7467892443726134,42.16468560144698 2.746962259896335,42.16483088928812 2.7471683334225117,42.16496172796128 2.7473279640485,42.16507072669002 2.7474708860102033,42.16527320947446 2.7476348285495553,42.165534884720685 2.747622162304049,42.16566578852167 2.747508705083665,42.16578410774659 2.747315387634522,42.16599910592937 2.7472692142289183,42.166151714911486 2.7473238317981927,42.166266970403974 2.747496128669687,42.166338680387796 2.7477357093559616,42.166357323638614 2.748105635589962,42.16635113141663 2.7485511101393567,42.16629187248742 2.748958675783762,42.16623268008587 2.7490926145926244,42.16619239726124</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de les Torres</name>
+      <description>name: Camí de les Torres
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7490926145926244,42.16619239726124 2.7493411784317403,42.166111232285445 2.749598905086754,42.16603093278936</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Doctor Carulla</name>
+      <description>name: Carrer del Doctor Carulla
+oneway: yes
+highway: living_street
+name:ca: Carrer del Doctor Carulla
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7439646716247563,42.16883076822126 2.743887775836436,42.16884767964709 2.7430034742707483,42.16873768871792</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Sant Antoni</name>
+      <description>name: Carrer Sant Antoni
+highway: residential
+name:ca: Carrer Sant Antoni
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7430034742707483,42.16873768871792 2.7425864763158603,42.16983272910946 2.742095097855447,42.17049452459431 2.742161842681057,42.170592994377</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Joan Carreras</name>
+      <description>name: Carrer de Joan Carreras
+highway: residential
+name:ca: Carrer de Joan Carreras
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.742161842681057,42.170592994377 2.7423915418992064,42.170575217896136 2.7429669128386847,42.17054132938505</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Santa Magdalena</name>
+      <description>name: Carrer de Santa Magdalena
+highway: residential
+name:ca: Carrer de Santa Magdalena
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7429669128386847,42.17054132938505 2.743031322044556,42.170687202984375 2.7433763649451866,42.17096290383412 2.7436419967747008,42.171145926989816 2.7437621015281874,42.17119372996763 2.744320584140324,42.171367897614616</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Nou</name>
+      <description>name: Carrer Nou
+highway: residential
+name:ca: Carrer Nou
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7442584207226637,42.17044152794735 2.744272075114982,42.17048247385311 2.7444487737313685,42.171010174325204 2.7444487737313685,42.17108147946393 2.744432334561669,42.1711507871828 2.7444152665712704,42.17119372996763 2.744320584140324,42.171367897614616 2.744116307244716,42.17177721632822</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Onze de Setembre</name>
+      <description>name: Carrer Onze de Setembre
+highway: residential
+name:ca: Carrer Onze de Setembre
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.744116307244716,42.17177721632822 2.7447335396764343,42.17195710800241</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de les Vinyes</name>
+      <description>name: Carrer de les Vinyes
+highway: residential
+name:ca: Carrer de les Vinyes
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7447335396764343,42.17195710800241 2.745029175236438,42.17144233150096 2.7450758876312125,42.1713525847291 2.7451006811330543,42.171254781907656 2.745106160856287,42.17115491501765 2.7450813673544454,42.171014302169226 2.7448654123601433,42.170296985359116</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

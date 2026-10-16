@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Le Plateau de Ribérac</name>
+    <Placemark>
+      <name>Chemin des Abeilles</name>
+      <description>name: Chemin des Abeilles
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.34299303498347583,45.24740022047349 0.3430687629619271,45.24722812889866 0.3431004734914565,45.2471307302754 0.3430507068247164,45.24707918483253 0.3429868366080155,45.247057617952365 0.3429218884129736,45.2470507873845 0.34273360152942217,45.247049712202454 0.3425252822150348,45.247062424647766 0.34244191855666856,45.247003795585215</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Notre Dame</name>
+      <description>name: Rue Notre Dame
+highway: residential
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.34244191855666856,45.247003795585215 0.34231902902580097,45.247069887674044</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse du Château</name>
+      <description>name: Impasse du Château
+highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.34231902902580097,45.247069887674044 0.3419909642840405,45.24696932647488 0.3417857890731476,45.24692777377645 0.34160693450007945,45.2469069025466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse Mademoiselle Aïssé</name>
+      <description>name: Impasse Mademoiselle Aïssé
+noexit: yes
+highway: track
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.34160693450007945,45.2469069025466 0.3419308669915329,45.24655031956212</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.3419308669915329,45.24655031956212 0.3419897066426428,45.24648681998067 0.342071094007384,45.24640358735405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.342071094007384,45.24640358735405 0.34267628901429537,45.24659541434129 0.342743393166019,45.246563285105374 0.34283996205906186,45.246431985125625 0.3430760393157285,45.24607887774967 0.3431631758982881,45.245971294356856 0.34324770736652377,45.245917407713144 0.34337095622350494,45.2458608013833 0.34364602036350234,45.24570692042725 0.3440455910018787,45.24550952464069 0.3441930943715311,45.245442482019484 0.3442642409420334,45.245339577766785 0.34435667758476934,45.24519322191973 0.34448037559939254,45.24502232537566</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.34448037559939254,45.24502232537566 0.3445216981024621,45.2450450314968 0.3446665065262621,45.245122384036385 0.3449025837829287,45.24523951948861 0.34544714250816194,45.24546993155509 0.34581176868198604,45.24563418575713 0.3460640156137668,45.245739872364545 0.34621951398944795,45.24576827046792 0.3463857921485385,45.2457625781989 0.3464769711498766,45.24577010464338 0.34660039966991457,45.24580229757531 0.34676128793730043,45.24585700654353 0.3468444719326099,45.245909881288185 0.34693026104224334,45.24597217981771 0.34702691976681455,45.24601752804446 0.3471047138704193,45.24601000163277 0.34721727277551956,45.24597028240157 0.34733001134367647,45.245953268900735 0.3473997206097242,45.245992988143826</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

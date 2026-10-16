@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de la Salade Ponsan</name>
+      <description>lit: yes
+name: Chemin de la Salade Ponsan
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+smoothness: excellent
+cycleway:both: no
+lane_markings: no
+check_date:smoothness: 2024-08-10</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4500941286173574,43.57497847940032 1.4500899963670506,43.57492589432301 1.450074814838749,43.57481102700803 1.4500538840926291,43.57466342381364 1.4500430144776912,43.5745620928398</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Alfred Rambaud</name>
+      <description>lit: yes
+name: Rue Alfred Rambaud
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+smoothness: good
+parking:both: lane
+maxspeed:type: FR:zone30
+parking:both:staggered: yes
+parking:both:orientation: parallel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4500430144776912,43.5745620928398 1.4500094174860652,43.57456593261648 1.4499730357170584,43.57457478362621 1.449769477473677,43.574643574150116 1.4493749374008913,43.57478460424056 1.4493266978701342,43.57480308716287 1.449270193838763,43.57480159030669 1.4492310272923756,43.5747844089984 1.4491967116485223,43.57475759573474 1.448964407316049,43.57451757744477 1.4489210186878259,43.57449141487271 1.448865592634796,43.574482368607576 1.4487885171834183,43.574500721460595 1.448410595943389,43.57463290088571 1.4464280141113375,43.575321973367274 1.4463180603205614,43.57535327690725 1.4462547290930308,43.57536401512408 1.4461959792734493,43.57536857073063 1.4461615737980675,43.575368115169994 1.4461136037618956,43.57536219288136</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

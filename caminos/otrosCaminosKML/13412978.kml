@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>living_street</name>
+      <description>highway: living_street
+surface: asphalt
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4326643866541717,43.457653111316354 1.432944840685874,43.457685780101265 1.4331911587367794,43.457702277504886 1.4332531424913837,43.45770312519745</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Fort</name>
+      <description>name: Chemin du Fort
+oneway: yes
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4332531424913837,43.45770312519745 1.4334051374374566,43.45769810424907 1.4335341355122564,43.457704624961174 1.433673015055181,43.4577236002294 1.4338868140928014,43.45776911476604 1.4343080341295253,43.45785870918363 1.434425533768688,43.45789828979016 1.434470000375252,43.45792821975385 1.434478264875866,43.45793382754496</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Fort</name>
+      <description>name: Chemin du Fort
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.434478264875866,43.45793382754496 1.4346487651167918,43.45804833070095 1.434776595381722,43.45812071014669</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Maurice</name>
+      <description>lit: no
+name: Chemin de Saint-Maurice
+lanes: 1
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.434776595381722,43.45812071014669 1.4348331892446216,43.45808289026692 1.4349885977887744,43.45804383143524 1.4351242433966762,43.458037897620535</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Maurice</name>
+      <description>name: Chemin de Saint-Maurice
+highway: tertiary
+surface: asphalt
+maxspeed: 80
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4351242433966762,43.458037897620535 1.4353828683669743,43.45804448350275 1.435521298752257,43.45803228983908 1.435613555731936,43.45801018474197 1.435676527633353,43.457985080123365 1.4357373435780878,43.45794549957364 1.4361356565750667,43.45755340946648 1.4364753095839922,43.457263171163845 1.4365831074180866,43.45716796800222 1.4366244299211557,43.457122974675045 1.4366603625325205,43.457067613274354 1.4366810237840555,43.45701023037917 1.436684617045192,43.45695480366734 1.436676532207635,43.45690459354335 1.4366361080198495,43.45683997240033 1.4365669377429722,43.45677998096459 1.4364708180075716,43.456724619249876 1.4354951577774893,43.45634771482731 1.4350748360560495,43.45620947247792 1.4349850045276376,43.45616513052532 1.4348839440581742,43.45609457458667</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Maurice</name>
+      <description>name: Chemin de Saint-Maurice
+highway: tertiary
+surface: asphalt
+maxspeed: 80
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4348839440581742,43.45609457458667 1.434580762649784,43.45588147167692 1.4343624720357429,43.45574453244628 1.4342591657780692,43.45567078076072 1.4342025719151696,43.45561607012421</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

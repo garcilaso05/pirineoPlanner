@@ -1,0 +1,436 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Argarata - Santa Krutz</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt
+tracktype: grade3
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.648724124518633,43.23383900834805 -1.6493399196458969,43.233889992346846 -1.6494979333043736,43.2339265123095 -1.6498219556273555,43.23404739453874 -1.6499531994903653,43.234089608363064 -1.649960116518053,43.234183525836315 -1.6499759268670537,43.234272600044804</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: fine_gravel
+tracktype: grade3
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6499759268670537,43.234272600044804 -1.650014823918856,43.23431743161408 -1.6501121114641262,43.23436121599077 -1.6501425643522578,43.2343775778574</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 1
+highway: path
+surface: ground
+sac_scale: hiking
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6501437321621273,43.23459630286856 -1.6499814964218154,43.234506574660024 -1.6497805432927577,43.23442509269317 -1.6495413219325967,43.234303491290234 -1.6494250799348316,43.23422122368033 -1.649298237816714,43.234193801119034 -1.6490794980450307,43.23419242671826 -1.6489168131470766,43.234196877158745 -1.6486764239770464,43.234171090778474 -1.6481897167561106,43.23419131410809 -1.647626832399081,43.23424858078172 -1.6473557208463336,43.23430682911454 -1.6471286267425083,43.23440997434035 -1.6466217074276797,43.234719670758686 -1.646357692565677,43.23489369432337 -1.6461794668133076,43.23494579003623 -1.645968722047653,43.234981327664045 -1.6452372239117947,43.23502340994791 -1.644814207244503,43.2350185014404 -1.644474733898634,43.23498440366401 -1.6442418905769904,43.23493256977161 -1.6439255937654518,43.2348940215579 -1.6433549838969792,43.23478420155558</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Bekolanda auzoa</name>
+      <description>name: Bekolanda auzoa
+highway: residential
+name:eu: Bekolanda auzoa
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6433549838969792,43.23478420155558 -1.6430837825127034,43.234766269069176 -1.6427405362426415,43.234792120644606 -1.6422093624151415,43.234815616117565 -1.641925135459246,43.23484676887554 -1.6416998379859888,43.23484676887554 -1.6415388598870746,43.234815616117565 -1.6414836134971014,43.23479598201822 -1.6412122324497687,43.2346999057342 -1.6409005170461795,43.23452640519451 -1.640418301401664,43.23439498687867 -1.639973006515326,43.234181300615624</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Bekolanda auzoa</name>
+      <description>name: Bekolanda auzoa
+highway: residential
+name:eu: Bekolanda auzoa
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.639973006515326,43.234181300615624 -1.639707823843454,43.23407017037317 -1.6395756816651599,43.23404281319171 -1.6395308557324824,43.234033519600956 -1.6394219799200471,43.23403522124444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Bekolanda auzoa</name>
+      <description>name: Bekolanda auzoa
+highway: residential
+name:eu: Bekolanda auzoa
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:left: no
+sidewalk:right: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6394219799200471,43.23403522124444 -1.6393858676456254,43.23403581027486 -1.6392150979101143,43.23406238208592 -1.638880116140666,43.23411447850945 -1.638769533529191,43.23413679618479</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Andutzeta auzoa</name>
+      <description>ref: NA-4400
+name: Andutzeta auzoa
+highway: tertiary
+name:eu: Andutzeta auzoa
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.638769533529191,43.23413679618479 -1.6388504717362902,43.23424550474461</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: NA-4400
+layer: 1
+bridge: yes
+highway: tertiary
+cycleway:both: shoulder</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6388504717362902,43.23424550474461 -1.6389561136137027,43.234538709285275</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: NA-4400
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: shoulder
+lane_markings: yes
+sidewalk:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6389561136137027,43.234538709285275 -1.6389735409302146,43.23462012565301 -1.6390245652383526,43.23485926924244 -1.6390866388244854,43.23509657938626 -1.6391544616284361,43.2352641226709 -1.639216535214569,43.2353573184236 -1.6392761833494345,43.235436901200735</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>source: bing
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6392761833494345,43.235436901200735 -1.6391123306416109,43.23546779185597 -1.638626072578317,43.235441089765075 -1.6383293590399723,43.23543277808243 -1.6380325556700994,43.23541019909631 -1.6378573841896962,43.235471914971896 -1.6376822127092927,43.23559960053515 -1.63745610675228,43.23577257445168 -1.6373006083765989,43.23587957850157 -1.6371451998324462,43.235929120985794 -1.6370242865952034,43.235944304407504</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>source: bing
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6370242865952034,43.235944304407504 -1.6367043066910003,43.23594960551506 -1.6365289555475402,43.235972315192804 -1.636305814030965,43.236021726710256 -1.6361813973641144,43.23608972474625 -1.636057070528792,43.23618638784872 -1.6359525066297207,43.23627290675825 -1.635773382562067,43.236329909694305</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Antsolokueta auzoa</name>
+      <description>ref: NA-4400
+name: Antsolokueta auzoa
+highway: tertiary
+name:eu: Antsolokueta auzoa
+surface: asphalt
+maxspeed: 40
+cycleway:both: no
+lane_markings: no
+sidewalk:left: yes
+sidewalk:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.635773382562067,43.236329909694305 -1.635739066918214,43.23636112712349 -1.6357011580132241,43.23638998850605 -1.6356574100588874,43.236415315830506 -1.6356090806966017,43.23643599653207 -1.635557427567765,43.23645157249888 -1.6352889211293415,43.23651557790049</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Antsolokueta auzoa</name>
+      <description>name: Antsolokueta auzoa
+lanes: 2
+highway: residential
+name:eu: Antsolokueta auzoa
+surface: asphalt
+cycleway:both: no
+lane_markings: yes
+sidewalk:left: no
+sidewalk:right: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6352889211293415,43.23651557790049 -1.6352466104794594,43.23647820870178 -1.635231428951158,43.23647310397584</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Antsolokueta auzoa</name>
+      <description>name: Antsolokueta auzoa
+highway: residential
+name:eu: Antsolokueta auzoa
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:left: no
+sidewalk:right: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.635231428951158,43.23647310397584 -1.635115007290336,43.23643442584613</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Antsolokueta auzoa</name>
+      <description>name: Antsolokueta auzoa
+layer: 1
+bridge: yes
+highway: residential
+name:eu: Antsolokueta auzoa
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:both: no
+maxweight:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.635115007290336,43.23643442584613 -1.635012329853361,43.236402226775255</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Antsolokueta auzoa</name>
+      <description>name: Antsolokueta auzoa
+highway: residential
+name:eu: Antsolokueta auzoa
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.635012329853361,43.236402226775255 -1.6348905183008344,43.23635307734769 -1.6348121852080593,43.236308378166754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Antsolokueta auzoa</name>
+      <description>name: Antsolokueta auzoa
+highway: residential
+name:eu: Antsolokueta auzoa
+surface: asphalt
+maxspeed: 30
+sidewalk:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6348121852080593,43.236308378166754 -1.634740409816858,43.23624568145655 -1.63467582094793,43.236175131219085 -1.6345268802738229,43.236122774774834 -1.634230795556177,43.23606001242802 -1.6340876939314168,43.23605222439507 -1.6340171761816134,43.236048297655394 -1.6337856803328958,43.23608488177025 -1.6335237315960467,43.23612801042129 -1.6333729942913715,43.236133180621714 -1.63321866372556,43.23611623021614 -1.6330893961561748,43.23606132134102 -1.6329756694412052,43.235994893970656 -1.6328058878525067,43.23587440827962 -1.6324056883934315,43.235652088321075 -1.6321867689586917,43.235569822531765</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Antsolokueta auzoa</name>
+      <description>name: Antsolokueta auzoa
+highway: residential
+name:eu: Antsolokueta auzoa
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6321867689586917,43.235569822531765 -1.63212801913911,43.235520672432806 -1.6321131969369223,43.235508303094065 -1.631933893206212,43.23533591744525 -1.6318385819545669,43.23524422692996 -1.6317237772612563,43.23514880581893 -1.6315468091502847,43.23503669563957</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Antsolokueta auzoa</name>
+      <description>name: Antsolokueta auzoa
+highway: service
+name:eu: Antsolokueta auzoa
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6315468091502847,43.23503669563957 -1.6313059708226123,43.23490547476486</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: wood
+destination:forward: Orainbeta</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6313059708226123,43.23490547476486 -1.6311749964541877,43.23490036990716 -1.6310497713035816,43.23491561903208 -1.631002160593523,43.2349224255072 -1.630943680268527,43.234909401578165</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bridge: yes
+highway: path
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.630943680268527,43.234909401578165 -1.6308386672118134,43.234884269968546</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6308386672118134,43.234884269968546 -1.6305151838780019,43.23481587790552 -1.630278567632165,43.23475167437745 -1.6301440898341322,43.23472209230098 -1.6300050306281504,43.23469427728235 -1.6298902259348398,43.2346654805438 -1.6297544904954095,43.23460978499496</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6297544904954095,43.23460978499496 -1.6296641199778272,43.23452529259043 -1.6295700663675798,43.23445100986071 -1.629350967269783,43.234286213137935 -1.6292049012045853,43.23417547577285 -1.6290623385689955,43.234101977989766 -1.6289225607107862,43.234003217249416 -1.6287266381473198,43.23384810562438 -1.6285838958486736,43.233749213576345 -1.6284537299640047,43.23368612154391 -1.6283850986762978,43.233646590818104 -1.6282253782187814,43.23353002738629 -1.6281078785796186,43.23343460359112 -1.6279653159440286,43.23331797430523 -1.6278470078211102,43.23320311191158 -1.6277030977125941,43.23310277894272</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Etxalar - Zugarramurdi errepidea</name>
+      <description>name: Etxalar - Zugarramurdi errepidea
+highway: unclassified
+name:eu: Etxalar - Zugarramurdi errepidea</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6277030977125941,43.23310277894272 -1.6278549129956104,43.23307731934379 -1.627945283513193,43.233024502095624</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Etxalar - Zugarramurdi errepidea</name>
+      <description>name: Etxalar - Zugarramurdi errepidea
+layer: 1
+bridge: yes
+highway: unclassified
+name:eu: Etxalar - Zugarramurdi errepidea</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.627945283513193,43.233024502095624 -1.6280143639585416,43.23298412010426</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Etxalar - Zugarramurdi errepidea</name>
+      <description>name: Etxalar - Zugarramurdi errepidea
+highway: unclassified
+name:eu: Etxalar - Zugarramurdi errepidea
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6280143639585416,43.23298412010426 -1.628090091936993,43.232939811146146 -1.6281183888684427,43.232935426062866 -1.6282732584234247,43.23289700748394 -1.6285582040315474,43.23286127229339 -1.6289401676903554,43.23282069384648 -1.629279820699281,43.2328214137869 -1.6295015249114013,43.23283149295192 -1.6299664929024618,43.23292141997387 -1.630712992903565,43.23312352621728 -1.6312191935661664,43.233296310816215 -1.6313639121584382,43.23333302748038 -1.6314817711237146,43.23334520091495 -1.6327278242543166,43.23336477003317 -1.632943060596392,43.23336221753985 -1.6330707111982652,43.23334402284074 -1.633208512762849,43.2332931038338 -1.6338004127035555,43.233030588844024 -1.6342649315369737,43.23273220655886</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Jauregieta auzoa</name>
+      <description>name: Jauregieta auzoa
+highway: unclassified
+name:eu: Jauregieta auzoa
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6342649315369737,43.23273220655886 -1.6345653281679833,43.23253932738832 -1.6346963025364079,43.23246059167091</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Jauregieta auzoa</name>
+      <description>name: Jauregieta auzoa
+highway: residential
+name:eu: Jauregieta auzoa
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6346963025364079,43.23246059167091 -1.6349171084332446,43.23244442563821 -1.6356486065691032,43.23244992339879 -1.635815423717364,43.23243977872112 -1.6359492726946978,43.23244292029891 -1.6359864629474603,43.232473288875774 -1.636017544656291,43.23249868327757 -1.6361919076529383,43.23271492796108 -1.6364094796147521,43.23287698007204 -1.6366655893022546,43.233049896267744 -1.636728022214501,43.23309197988534 -1.6368787595191765,43.233358290626825 -1.6369445161979737,43.233474396248134 -1.636927987196746,43.23354036822754 -1.636931041468712,43.23361209958442 -1.6369219684843423,43.2336793149307 -1.6369119971846886,43.23376191051274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Andutzeta auzoa</name>
+      <description>name: Andutzeta auzoa
+source: PNOA
+highway: residential
+name:eu: Andutzeta auzoa
+surface: asphalt
+maxspeed: 20
+source:date: 2014
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6369119971846886,43.23376191051274 -1.636897085150972,43.23402501138282</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Andutzeta auzoa</name>
+      <description>ref: NA-4400
+name: Andutzeta auzoa
+highway: tertiary
+name:eu: Andutzeta auzoa
+maxspeed: 20
+sidewalk:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.636897085150972,43.23402501138282 -1.6372845285330129,43.23401892473373 -1.6374947343094968,43.234025273174176 -1.637691824682833,43.234037773709574</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Andutzeta auzoa</name>
+      <description>ref: NA-4400
+name: Andutzeta auzoa
+highway: tertiary
+name:eu: Andutzeta auzoa
+maxspeed: 20
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.637691824682833,43.234037773709574 -1.6379017609647317,43.23409248806474 -1.6380471083777022,43.2341428828221 -1.6381788013983543,43.23415813213658 -1.6384175736008728,43.2341428828221 -1.6385801686672987,43.23412121962632</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Iñarreta auzoa</name>
+      <description>name: Iñarreta auzoa
+highway: residential
+name:es: Calle Iñarreta
+name:eu: Iñarreta auzoa
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6385801686672987,43.23412121962632 -1.6385754974278213,43.233940125479954 -1.6385888823255546,43.23382676956407 -1.6386612865374546,43.233652808400855 -1.6386773663810403,43.23357662660644 -1.638683834251086,43.23353591773911 -1.6386880563329214,43.23350823307586 -1.6387650419527704,43.23345011487663 -1.638998514095113,43.23337962685116 -1.6392507610268938,43.23333643080642 -1.639566968006904,43.23331640353891 -1.6397129442405733,43.233279883210635 -1.6398283777545826,43.23324329741181 -1.6400195392470434,43.233163122731135</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Santa Krutzeko bidea</name>
+      <description>name: Santa Krutzeko bidea
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6400195392470434,43.233163122731135 -1.6406737822684676,43.233137728606195 -1.6408598233638088,43.23307542132699 -1.6410737122329575,43.23297129210788 -1.6413510221611654,43.23291251890629 -1.6414456147605831,43.232913304294655 -1.6415519752902228,43.232931171877304 -1.6418433887683912,43.233029803457164 -1.6423223704778835,43.23321358370572 -1.6425058064589009,43.23325272202041 -1.642770539973131,43.233284595512295 -1.6444226316121553,43.23332641717349</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Santa Krutzeko bidea</name>
+      <description>name: Santa Krutzeko bidea
+highway: track
+surface: dirt
+tracktype: grade3
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-1.6444226316121553,43.23332641717349 -1.6447248248737327,43.23341699795003 -1.6449497630208765,43.2334624191847 -1.645238571384721,43.23347793046313 -1.6454741994837454,43.233484606202 -1.6456673372698312,43.23353552504894 -1.6457736977994708,43.233572110672334 -1.645874039616707,43.23357099805084 -1.6460625061633154,43.23352439882637 -1.6462434268615371,43.23350227727195 -1.6463664960554614,43.23353002738629 -1.646490194070085,43.23357662660644 -1.6466295227706516,43.233629705169136 -1.646854460917795,43.23369057202137 -1.6471067976811042,43.23372493231433 -1.6474032417248636,43.23372820472217 -1.647664741304071,43.23377028787139 -1.647816736250144,43.233813483608614 -1.64805227451764,43.23382676956407 -1.6483399150716151,43.23383220175191 -1.648588928068373,43.23384948003292 -1.648724124518633,43.23383900834805 -1.648840995337097,43.23382997651839 -1.6491307020162258,43.23376158327215</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

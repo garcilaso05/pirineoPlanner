@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Saint-Maurice</name>
+      <description>name: Chemin de Saint-Maurice
+highway: tertiary
+surface: asphalt
+maxspeed: 80
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4340021577752826,43.45502011875692 1.4340182376188682,43.45511232564424</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Maurice</name>
+      <description>name: Chemin de Saint-Maurice
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 80
+cycleway:both: no
+lane_markings: no
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4340182376188682,43.45511232564424 1.4340652195082277,43.45521300966613</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Maurice</name>
+      <description>name: Chemin de Saint-Maurice
+highway: tertiary
+surface: asphalt
+maxspeed: 80
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4340652195082277,43.45521300966613 1.4341087877995078,43.45533860361908 1.4341652918308787,43.45554701336214 1.4342025719151696,43.45561607012421</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

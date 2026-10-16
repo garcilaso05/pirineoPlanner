@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+source: Toulouse - Orthophotoplan 2015
+bicycle: designated
+highway: cycleway
+surface: concrete
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4276747842400583,43.563186688625024 1.4275869290052714,43.563181025511554 1.4267158326742608,43.563145028927316</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+source: Bing
+bicycle: designated
+highway: cycleway
+surface: paved
+segregated: yes
+footway:surface: concrete
+cycleway:surface: asphalt
+check_date:surface: 2026-01-08</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4267158326742608,43.563145028927316 1.4266385775598263,43.56314196954213 1.42659312280645,43.56314021202291 1.4264756231672873,43.56313227063913 1.4264508296654455,43.563130968772846 1.4263501285220959,43.5631255009341 1.4258607263553074,43.56309659949253</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route d'Espagne</name>
+      <description>lit: yes
+foot: designated
+name: Route d'Espagne
+source: Bing Map
+bicycle: designated
+highway: cycleway
+segregated: yes
+footway:surface: concrete
+cycleway:surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4258607263553074,43.56309659949253 1.4257715236475943,43.563246379110424 1.4256210558375044,43.56336003171412 1.425534458244115,43.563437817879986 1.4255105630575575,43.56345916837489</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4255105630575575,43.56345916837489 1.4254139941645148,43.56341451458727 1.4253673716012691,43.56339680928623 1.425320479543438,43.56338606893563 1.4252285818898724,43.56338320484182 1.4250797310472938,43.56337793230511 1.4250373305658834,43.56337461255955 1.4250104709388882,43.563360487365586</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: yes
+source: Bing
+highway: cycleway
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4250104709388882,43.563360487365586 1.425013255716269,43.56321943052347 1.4249792993985293,43.563176468983094 1.4248777897714238,43.563098291919665 1.4248437436221555,43.56308462231448 1.424786700601614,43.56306789331724</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

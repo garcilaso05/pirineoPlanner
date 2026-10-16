@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Allée des Calanques</name>
+      <description>lit: yes
+name: Allée des Calanques
+highway: residential
+surface: asphalt
+maxspeed: 30
+bike_safety: 2
+name:etymology:wikidata: Q1026259</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3257119570737141,43.5984794761981 1.3257945122483246,43.59850192020657 1.3258691622484349,43.59852111145355 1.3261237447999548,43.59857367592242</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

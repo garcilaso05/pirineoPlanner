@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Liaison Les Ihles Fournes</name>
+    <Placemark>
+      <name>path</name>
+      <description>source: Bing
+highway: path
+surface: rock</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.392736510937172,43.34657048827885 2.3928823075077843,43.346600211984665</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: Bing
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3928823075077843,43.346600211984665 2.393312870023463,43.34671740816866 2.3936370720095015,43.346762418237155 2.393966214729603,43.346724332796754 2.394129528448256,43.34674589059613 2.3943250916856087,43.34682519710133 2.394498286872387,43.346904568829395 2.3946853161145407,43.34698217664092 2.3947976953565835,43.347042472877185 2.3948379398813127,43.34706710090012 2.3948822268248198,43.34709466859563 2.394963434526504,43.34717070833543</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>source: Bing
+highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.394963434526504,43.34717070833543 2.3950989903028774,43.34723812493228 2.395325186091419,43.34730358167272 2.395557939581534,43.347331083934804 2.3956297149727357,43.34735002847865</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: concrete
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3956297149727357,43.34735002847865 2.3957031971629767,43.34740588218555 2.395827074840656,43.347457620310294 2.395909989341381,43.34751909193907 2.396022727909538,43.34758938248187 2.396258715334676,43.34769468749218 2.3964638007140406,43.347767917481605 2.3965722273688335,43.347825730568736 2.396798243494318,43.34801667667884</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Le Carral</name>
+      <description>name: Le Carral
+source: Bing
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.396798243494318,43.34801667667884 2.3969196058892024,43.34811368465041 2.397002789884512,43.34821310949473 2.397079416178247,43.34839131603549 2.3972085939161034,43.348558286205225</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Voûte</name>
+      <description>lit: yes
+foot: yes
+name: Rue de la Voûte
+access: yes
+oneway: no
+source: Bing + Cadastre
+bicycle: yes
+highway: residential
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3972085939161034,43.348558286205225 2.3972516232182133,43.34857572789833 2.3975246212330568,43.348613616203174 2.397584359199451,43.34864562526988 2.3975951389828607,43.34865130851056 2.3976297241212987,43.34868958871561 2.3977080572140745,43.34877647032006</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Fontaine</name>
+      <description>foot: yes
+name: Rue de la Fontaine
+access: yes
+oneway: no
+source: Bing + Cadastre
+bicycle: yes
+highway: residential
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: no
+sidewalk:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3977080572140745,43.34877647032006 2.3977306049277063,43.348819519129115 2.3978210652768164,43.34899262859934 2.3978740658785798,43.349039204761205</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

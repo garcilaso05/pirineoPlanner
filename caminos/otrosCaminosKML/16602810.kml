@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.36988840780086,43.700996970288855 1.3698449293411084,43.70100099682688 1.369816901904244,43.70102067490396 1.369680178318001,43.70115562867104 1.3695815432998044,43.70121661104843 1.3695395021445078,43.70122810612221 1.369337381205581,43.701237198269396 1.3692654261513229,43.70123447062538 1.36918583541715,43.701213493739914 1.369002668930718,43.70113043039689 1.3689499378235401,43.701115298438495 1.3688596571374863,43.701109518419045</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+layer: -1
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3688596571374863,43.701109518419045 1.368809710807689,43.70116627948477 1.3687647950434831,43.70124862839533 1.3687922834911772,43.70133338011341</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3687922834911772,43.70133338011341 1.3688834624925155,43.701370268180106 1.369169486078979,43.7014654756558 1.3692117068973328,43.70150483149858 1.3692124255495597,43.70153561476356 1.3691429857780972,43.701691219380024 1.3691758641174963,43.701724600284365</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+path: crossing
+bicycle: designated
+highway: path
+surface: paved
+segregated: no
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3691758641174963,43.701724600284365 1.3691972440212583,43.70174603159448</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue de Sérignan</name>
+      <description>name: Rue de Sérignan
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.977987032078943,43.03124451134944 2.9780303308756375,43.0308532768285 2.97814109315017,43.030477274332874</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Vieille Fontaine</name>
+      <description>name: Rue de la Vieille Fontaine
+highway: residential
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.97814109315017,43.030477274332874 2.9783382733550336,43.03029557617846 2.9786772077117325,43.030082094934635 2.9787836580729,43.02999127817299 2.978820668662606,43.029892515613014 2.978822914450816,43.02977937187326 2.97883117895143,43.029599181992964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grand-Rue</name>
+      <description>name: Grand-Rue
+oneway: yes
+highway: residential
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.97883117895143,43.029599181992964 2.9790978887592856,43.02955827146176</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Église</name>
+      <description>name: Place de l'Église
+highway: residential
+surface: sett
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9790978887592856,43.02955827146176 2.9793030639701783,43.02951749223739 2.979391727688721,43.02948157235064 2.9794062803963235,43.029475727979516</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Château</name>
+      <description>name: Rue du Château
+highway: pedestrian
+service: alley</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9794062803963235,43.029475727979516 2.979526564812867,43.029428775989004 2.9797076651741454,43.029390098028585 2.979792555968495,43.02949569077298</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Château</name>
+      <description>name: Rue du Château
+highway: pedestrian
+service: alley
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.979792555968495,43.02949569077298 2.980036179073548,43.029488795729925 2.9802141353313325,43.02947802632778</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Château</name>
+      <description>name: Rue du Château
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9802141353313325,43.02947802632778 2.9804218258250206,43.029457669525875 2.9804897384605002,43.02944578377713 2.9808699953202678,43.02937900027314 2.980933057053213,43.029366589171474 2.9809776134913055,43.02933539723821 2.981006718906511,43.029297113222675 2.9811996770295397,43.02922107045888 2.9812700151162863,43.0292384066413 2.9813300225772656,43.02924720606535 2.98139029953283,43.02924950442217 2.9815940374392684,43.02921279637009 2.9816159563322007,43.029204128275886 2.981636437920679,43.0291798313386 2.9816447024212924,43.02915179134768 2.9816173038051272,43.02902472471775 2.981629071735349,43.02894388787727</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Portail d'Avail</name>
+      <description>name: Rue du Portail d'Avail
+width: 9.2
+highway: residential
+surface: asphalt
+source:width: ARCore
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.981629071735349,43.02894388787727 2.9816549432155313,43.02897987374629</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

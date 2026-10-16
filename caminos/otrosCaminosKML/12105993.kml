@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Allée des Pyrénées</name>
+      <description>ref: D 54a
+name: Allée des Pyrénées
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5899457385111815,43.52441678635164 1.5899779880298812,43.5244800325306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Papoul</name>
+      <description>name: Chemin de Saint-Papoul
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5899779880298812,43.5244800325306 1.5900273055389793,43.52448211685256 1.5900805756353276,43.52447319334863 1.5901718444681943,43.52444212391224 1.5902535911590492,43.524406104189225 1.5906191156481573,43.524216690897624 1.590974489174555,43.524005326326474 1.5913200710643558,43.523770186441844 1.5914867085495599,43.52362910207113</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

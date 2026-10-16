@@ -1,0 +1,486 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>En passant par les Agals</name>
+    <Placemark>
+      <name>Rue de la République</name>
+      <description>ref: D 622
+name: Rue de la République
+highway: secondary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6836726314896608,43.390218983381125 1.6837815971336247,43.39037043244133 1.683803516026557,43.39039798046247 1.683849689432161,43.3904564710061 1.6838875085056224,43.39050817242178 1.6840578290834913,43.39073038355979</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la République</name>
+      <description>ref: D 16
+name: Rue de la République
+highway: secondary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6840578290834913,43.39073038355979 1.6841810779404724,43.39088659671878 1.6842575245711513,43.39100671019864 1.6844094296856957,43.39124550031189 1.6845085138615343,43.39146418370728 1.6845690603116839,43.3916077962541</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Germain Guilhaume</name>
+      <description>foot: yes
+name: Rue Germain Guilhaume
+horse: yes
+bicycle: yes
+highway: service
+motor_vehicle: private</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6845690603116839,43.3916077962541 1.6842708196373561,43.39168541216616 1.684071034318168,43.391720988812565</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Germain Guilhaume</name>
+      <description>foot: yes
+name: Rue Germain Guilhaume
+horse: yes
+bicycle: yes
+highway: path
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.684071034318168,43.391720988812565 1.683756174811084,43.39174200839934 1.683162837565923,43.391754280701285 1.6830966317294835,43.39175571682157</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>name: Rue de l'Église
+highway: residential
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: no
+name:etymology:wikidata: Q41755182</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6830966317294835,43.39175571682157 1.6830080578424693,43.39159447946862 1.6828769936425163,43.39143213195151 1.68272913094675,43.39126227694658 1.682640557059736,43.39118322435882 1.6825368914759486,43.39113687638576</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>name: Rue de l'Église
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+name:etymology:wikidata: Q41755182</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6825368914759486,43.39113687638576 1.6824675415360146,43.391119381648686 1.682381662594853,43.39110502029359 1.6821375903321576,43.3911001243763 1.68195190856293,43.39112107889952 1.6809985265518939,43.3914043885647 1.6808824642171858,43.391482004737256 1.680846980763463,43.39161079905827 1.6808167973699168,43.391704212304845 1.6807598441809033,43.39179612401001 1.6806472852758032,43.39189763144855 1.680620425648808,43.39192707183783</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Coteaux</name>
+      <description>name: Chemin des Coteaux
+highway: residential
+surface: asphalt
+alt_name: Chemin des Côteaux
+maxspeed: 50
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.680620425648808,43.39192707183783 1.680530594120396,43.39188738279526 1.680393601039568,43.39187582857898 1.6800198120498457,43.39193451353041 1.6798219131927545,43.39196552057302 1.6791661430353473,43.392072184678426 1.6790171125297115,43.39208621941517 1.678816608558296,43.39210508470733 1.67869138340769,43.39210377915097 1.6786073909286248,43.39209646803482 1.6785407359345428,43.392088569417275 1.6784237752845506,43.392069181897114 1.6780958003743185,43.392014674862786 1.6779111067519037,43.39200658040081 1.677859902780709,43.39200442622929 1.6777629745615523,43.39200977901897 1.677040279915478,43.39205599576876 1.6767716836455264,43.392033213787755 1.6764137050048047,43.39198758452209 1.6762258672788952,43.39193529686642 1.6760775554254874,43.39185670210311 1.6759041805756523,43.391717267953275 1.6757154445344586,43.391526328814756 1.6755117066280203,43.39129250098881 1.6753368944737308,43.39104940264989 1.675270239479649,43.39093921167458</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Moulin à Vent</name>
+      <description>name: Chemin du Moulin à Vent
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.675270239479649,43.39093921167458 1.674795929009634,43.39106533071269 1.6743474900198014,43.39118426881978 1.6737105844833606,43.391392573142 1.6720798727480986,43.39213002082845 1.6720354959730632,43.39220509024109 1.6730248105954637,43.39328771138647 1.6738581776845418,43.394510589815894 1.6739266293091914,43.394553671450005</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Vieillevigne</name>
+      <description>name: Chemin de Vieillevigne
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6739266293091914,43.394553671450005 1.6737642139058226,43.394667315431796 1.6732899932673362,43.39503370322236 1.6727770552401038,43.39555341785988 1.6723180161299185,43.39606607849705</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+note: chemin rural
+horse: permissive
+access: no
+bicycle: yes
+highway: track
+surface: dirt
+tracktype: grade4
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6723180161299185,43.39606607849705 1.6726029617380413,43.39629068436937 1.6727827146263938,43.39652357908811 1.6732000719073956,43.397098109821535 1.6735735914025325,43.39786897242498 1.6739970572274665,43.398277571318474 1.6748639314766418,43.398815272820094 1.6754279836435406,43.399110425706645 1.6756336978436037,43.399254803375165</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>foot: yes
+horse: permissive
+access: no
+bicycle: yes
+highway: service
+surface: gravel
+tracktype: grade4
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6756336978436037,43.399254803375165 1.6760073970017977,43.39951718867319</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: D 16
+highway: secondary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6760073970017977,43.39951718867319 1.6762618897217885,43.39939147884383 1.6763343837652172,43.399355710890404 1.6766285820207663,43.39919893213014 1.6768197435132268,43.39910259327356 1.6770761226953146,43.398973292711055 1.6772388075932687,43.39889131300907 1.6775480975455908,43.39871299372012</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: D 16
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6775480975455908,43.39871299372012 1.6778164243209575,43.3985584325063 1.6785077677636158,43.398159887287086</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 97
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6785077677636158,43.398159887287086 1.6785281595205652,43.39817972975765 1.6790331923732973,43.39866821800363</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt
+sac_scale: hiking
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6790331923732973,43.39866821800363 1.6795284335894325,43.39795891663517 1.6796932744440685,43.39787021258553 1.680135874384554,43.39766747863356 1.6815493734841163,43.397271930077785 1.6822495204165588,43.39707121757062 1.6824988927394304,43.396967891165424 1.6828207591057303,43.39671260956943 1.6831908650027878,43.39622730395324 1.683518211092321,43.39570491886379 1.6842585127179637,43.395278091067524 1.6848726908777163,43.39520987928147 1.6855271135621974,43.39530537576045 1.6859884882921212,43.395352177465874 1.6867046252366211,43.3953423863171 1.6875602705447452,43.39523722927955 1.6877888917845534,43.395106092780296 1.6878197039987988,43.39505406891376 1.6877995817364344,43.39472299503032 1.687738406465586,43.39457462477915 1.6875859623618708,43.39399027875268</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6875859623618708,43.39399027875268 1.6875237091126813,43.39374229553111</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6875237091126813,43.39374229553111 1.6876499224101,43.39374379688033 1.6877365200034893,43.39373087222059 1.6878026360084004,43.393711419949724</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path
+surface: sett
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6878026360084004,43.393711419949724 1.6878616553225672,43.393564026365574</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6878616553225672,43.393564026365574 1.6878356041793277,43.39346513277224 1.687832819401947,43.39339267597767 1.6878550077894647,43.393328117553494 1.6882625734338697,43.39300343137237 1.6887598807751583,43.39275479134145 1.6891467851680284,43.392618688398414 1.6907686934135064,43.392052209652164 1.6913640967838208,43.391660671697</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Lauragais</name>
+      <description>ref: D 622
+name: Avenue du Lauragais
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6913640967838208,43.391660671697 1.6914224872772887,43.39169931643596</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quai Riquet</name>
+      <description>foot: yes
+name: Quai Riquet
+access: yes
+oneway: yes
+source: local_knowledge
+bicycle: yes
+highway: service
+surface: asphalt
+cycleway: no
+maxspeed: 50
+motor_vehicle: yes
+maxspeed:practical: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6914224872772887,43.39169931643596 1.6914997423917228,43.391623985283495 1.6926659352935667,43.39064219116393</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt
+sac_scale: hiking
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6926659352935667,43.39064219116393 1.693292689867297,43.39017792234226 1.6938332061737518,43.38987332559561 1.6943571934789787,43.389676897091775 1.6951183360192128,43.38950860390251 1.6957084393293511,43.389496592268344 1.6961275932409212,43.389520615534295 1.6964419137588347,43.389676897091775 1.6971424200173912,43.39006172402114 1.6974070637000926,43.39014182255062 1.6981791656867935,43.390097693300525 1.698708722546782,43.39002562416028 1.6990230430646953,43.38995348965421 1.6992271402972474,43.38988527187491 1.6993264041361424,43.38976110879152 1.6993650316933597,43.38949247958871 1.699300802150545,43.38888366936295</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.699300802150545,43.38888366936295 1.699162102270677,43.388893722680315</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.699162102270677,43.388893722680315 1.6990462195990255,43.3889283870281 1.6989765103329781,43.3889283870281 1.6989201859646637,43.388910891653545 1.6976998246511872,43.38794987863961 1.6967335967315882,43.38722040991048</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Mirepoix</name>
+      <description>ref: D 625
+name: Route de Mirepoix
+lanes: 2
+highway: secondary
+surface: asphalt
+alt_name: Route de Saint-Michel
+maxspeed: 80
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6967335967315882,43.38722040991048 1.6964342780789199,43.387434276898176</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>access: yes
+highway: residential
+surface: gravel
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6964342780789199,43.387434276898176 1.6963008782592282,43.38724671898538 1.6962538065383401,43.38718470005605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>access: yes
+highway: track
+surface: grass
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6962538065383401,43.38718470005605 1.6960481821698052,43.38707391450543 1.6956095348165698,43.386714920926416 1.6948365345145848,43.38594150091245 1.6945551821675986,43.38577770199152 1.693560297990436,43.38553791106312 1.6931318914314395,43.38535308925645 1.6926609047279755,43.38527239683211 1.6922112979282737,43.38523459670318 1.6919838444983348,43.38517642754682 1.6917952881201983,43.385065311898806 1.691528578312343,43.38482238444075</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Pech Lolère</name>
+      <description>name: Chemin de Pech Lolère
+highway: residential
+surface: asphalt
+alt_name: Chemin de Pech Lolere
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6931430305409627,43.384113900306915 1.691528578312343,43.38482238444075 1.6907295268671187,43.384977894685925 1.6905945100799156,43.38499193106543</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Cammas</name>
+      <description>name: Chemin du Cammas
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6905945100799156,43.38499193106543 1.6905044988884468,43.385119825182834 1.6895091655536423,43.38615080251645 1.6894143932911678,43.386455287402306 1.6893047089949769,43.386610924026 1.6882753295109043,43.38750093064944 1.6882701192822562,43.387526717340606</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Palanque</name>
+      <description>name: Chemin de la Palanque
+highway: residential
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6882701192822562,43.387526717340606 1.688257812362864,43.387587887245125 1.6883506981632417,43.38771159780255 1.689346211161103,43.38883542647258 1.6895497694044848,43.38921947537348 1.6896254075514072,43.38946982720539 1.6897307799342345,43.38980243123394 1.6897399427501325,43.38990929498681 1.6896902659149207,43.38997810026004 1.6894572429302201,43.39010506993776 1.689233921750588,43.39023569502013 1.6892058943137238,43.390262720864094</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Palanque</name>
+      <description>name: Chemin de la Palanque
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6892058943137238,43.390262720864094 1.6891139068286296,43.39026840020658</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Lauragais</name>
+      <description>ref: D 622
+name: Avenue du Lauragais
+oneway: yes
+highway: secondary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6891139068286296,43.39026840020658 1.6889769137478015,43.39023497694199 1.688801921930455,43.39019241447679</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Lauragais</name>
+      <description>ref: D 622
+name: Avenue du Lauragais
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.688801921930455,43.39019241447679 1.6884188802933064,43.39013751407495 1.6879920907018213,43.39011858289037 1.6877463116400861,43.39013372783851 1.6875016105566922,43.39017256939079 1.6867840363077375,43.39027597266241 1.6864842684974268,43.390317621152526 1.6861207203019437,43.390380028554375</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Lauragais</name>
+      <description>ref: D 622
+name: Avenue du Lauragais
+layer: 1
+bridge: yes
+highway: secondary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6861207203019437,43.390380028554375 1.6858903024315668,43.3904167810005</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Lauragais</name>
+      <description>ref: D 622
+name: Avenue du Lauragais
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: yes
+parking:lane:both: parallel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6858903024315668,43.3904167810005 1.6855277423828963,43.390481211966836 1.6847118026103305,43.39060550413392</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Lauragais</name>
+      <description>ref: D 622
+name: Avenue du Lauragais
+highway: secondary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6847118026103305,43.39060550413392 1.6846484713828,43.39061627523933 1.6841927560391663,43.39069297851045 1.6841040923206234,43.390714520688284 1.6840578290834913,43.39073038355979</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Lauragais</name>
+      <description>ref: D 622
+name: Avenue du Lauragais
+oneway: yes
+highway: secondary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.688801921930455,43.39019241447679 1.6889760154325175,43.39021441379153 1.6892058943137238,43.390262720864094</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

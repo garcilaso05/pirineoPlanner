@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+width: 3
+noname: yes
+bicycle: yes
+highway: track
+surface: compacted
+tracktype: grade2
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.838294962979579,42.26798220019648 2.8383738350615246,42.26802521013187 2.838645934761084,42.2681287130555 2.838828831752931,42.26819007019974 2.8390720955318707,42.26822689775277 2.8391504286246465,42.26826698259198 2.8391905833178464,42.268307067405715 2.8394855900571514,42.26838963007606 2.8397381963150456,42.2684491256531 2.8398907302502887,42.26846461443657 2.8401269871700126,42.26847179378556 2.840321472429024,42.268465611568416 2.8405556632235944,42.26844859384931 2.840638038735148,42.26842519447801 2.840724187170895,42.26836829142524 2.840799465991704,42.26833731380716 2.840911755402219,42.26830460780759 2.8410035632242563,42.26829031554636 2.8412315556433656,42.268269907521216 2.8414413122622073,42.26826571955433 2.8415158724307896,42.268251693187004 2.8416085785681107,42.26822350749156 2.841949938376076,42.267987917129304 2.8420483038996873,42.267944973644475 2.842252311300711,42.26789518309679 2.84235022766668,42.267870121617996 2.8425202787499635,42.26779673197821 2.8426641888584796,42.26775159464827 2.8427481813375453,42.26770891690746 2.8428180702666492,42.26763672365397 2.8428335212895366,42.267568984236874 2.8428278619032463,42.26750988668793 2.8428512181006336,42.26747033317933 2.8428961338648393,42.267441615322255 2.842954704021364,42.267446202203075 2.843032138798855,42.26746581277677</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí antic de Lladó</name>
+      <description>foot: yes
+name: Camí antic de Lladó
+width: 3
+bicycle: yes
+highway: residential
+name:ca: Camí antic de Lladó
+surface: compacted
+maxspeed: 30
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.843032138798855,42.26746581277677 2.8434480587754023,42.267997423190884 2.843685663168052,42.26805293058473 2.8442813360329517,42.26808610204587 2.8447970588375644,42.26805671971043 2.84512144048666,42.268104183476254</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Lladó</name>
+      <description>foot: yes
+name: Carretera de Lladó
+width: 3
+bicycle: yes
+highway: residential
+name:ca: Carretera de Lladó
+surface: compacted
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.84512144048666,42.268104183476254 2.8461863932559837,42.268315376858105 2.846370098731586,42.268371216349756 2.8466927735816423,42.26852670248318</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Lladó</name>
+      <description>foot: yes
+name: Carretera de Lladó
+width: 3
+narrow: yes
+bicycle: yes
+highway: living_street
+name:ca: Carretera de Lladó
+surface: compacted
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8466927735816423,42.26852670248318 2.8468568059525223,42.26859763168643 2.8469806836302025,42.26863838104265</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça Major</name>
+      <description>foot: yes
+name: Plaça Major
+width: 3
+bicycle: yes
+highway: living_street
+name:ca: Plaça Major
+surface: compacted
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8469806836302025,42.26863838104265 2.8470959374811553,42.268737827974306</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

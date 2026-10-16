@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin des Roques de Pech David</name>
+      <description>foot: yes
+name: Chemin des Roques de Pech David
+source: Strava
+highway: path
+surface: dirt
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4471199863746946,43.561419315730454 1.447111991368666,43.56152587642093 1.4471058828247338,43.5615618088776 1.4470812689859491,43.56161557733253</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Roques de Pech David</name>
+      <description>foot: yes
+name: Chemin des Roques de Pech David
+layer: 1
+bridge: yes
+source: ToulouseMetropole - Orthophotoplan 2015
+highway: path
+surface: dirt
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4470812689859491,43.56161557733253 1.4470661772891762,43.56165782394203</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Roques de Pech David</name>
+      <description>foot: yes
+name: Chemin des Roques de Pech David
+source: Strava
+highway: path
+surface: dirt
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4470661772891762,43.56165782394203 1.4470075173011232,43.561796280650256 1.4469749982878377,43.56185688383897 1.4469414012962118,43.56191937471086 1.4469106789134947,43.561996772169636 1.4468931617654546,43.562093632768544 1.4468432154356574,43.56221321112914 1.4468006352911902,43.5623232204075 1.4467750333055929,43.562382000430695 1.4467166428121252,43.56249318109295 1.4465423696470059,43.562838829265175 1.446509221813022,43.562911473713584</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

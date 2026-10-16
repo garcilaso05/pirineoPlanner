@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de la Croix Blanche</name>
+      <description>ref: D 95a
+name: Chemin de la Croix Blanche
+oneway: no
+highway: unclassified
+surface: asphalt
+maxspeed: 70
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.47380812498213,43.488995419045565 1.4738290557282498,43.48903680411741 1.4738369609027502,43.48905257605859 1.473861125583893,43.48910021772366 1.4739000226356953,43.48917712211056 1.4739737743205217,43.48931176972504 1.474033422455387,43.48950689743909 1.4740628871967063,43.489557471519966 1.4741608035626752,43.48967810617333 1.4742209906867114,43.48972802838511 1.4742900711320601,43.48975162085203</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4282799792469696,43.604516872897086 1.4283052219064534,43.60452038552037</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Promenade du Bazacle</name>
+      <description>lit: yes
+foot: yes
+name: Promenade du Bazacle
+highway: cycleway
+name:oc: Passejada del Basacle
+surface: asphalt
+segregated: no
+smoothness: good
+source:name:oc: Données Toulouse Métropole</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4283052219064534,43.60452038552037 1.428308006683834,43.60458751561479 1.428309264325232,43.60461821850122</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de l'Ancien Vélodrome</name>
+      <description>name: Avenue de l'Ancien Vélodrome
+lanes: 2
+width: 6
+oneway: no
+highway: residential
+surface: asphalt
+cycleway: no
+maxspeed: 20
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-de-rencontre/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.428309264325232,43.60461821850122 1.428256982375696,43.604619194228285</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de l'Ancien Vélodrome</name>
+      <description>lit: yes
+name: Avenue de l'Ancien Vélodrome
+lanes: 2
+layer: -1
+width: 6
+tunnel: yes
+highway: residential
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+maxheight: 4.4
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-de-rencontre/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.428256982375696,43.604619194228285 1.4278781628203832,43.60462862625578</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+smoothness: excellent
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4278781628203832,43.60462862625578 1.4278237249141652,43.6045346962057 1.4278169875495343,43.60448467384079 1.427803602651801,43.60444883204268 1.4277807854435842,43.60441767372898 1.4276935590294964,43.604407526132725 1.4275721966346118,43.60440427369767 1.4265439849604087,43.60444883204268 1.4262837430225992,43.604470883532606 1.4259722072820664,43.60451218939905 1.4257170857413768,43.60454939717889 1.4254581912764934,43.60460189133262 1.4205041621476309,43.60578758350962 1.4198710295353838,43.605961909772155 1.4193137147331158,43.60612199027201 1.4190602101599374,43.60621038887013 1.4187423862124158,43.606331310656735 1.4185505958992561,43.60640611422228 1.4182501992682468,43.60653152381738 1.4174992975222511,43.60686742250298 1.4168293339833549,43.607226995934376 1.415039710274332,43.60821607196589 1.4136733727271862,43.60897812945013</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+smoothness: good
+traffic_sign: FR:C115</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4136733727271862,43.60897812945013 1.4135612629797283,43.6090386201137 1.4133689336773982,43.60915179603054 1.4132096623775239,43.60923427121971 1.4131760653858976,43.609247214870834 1.4124736726652447,43.60964020620845 1.4123956988985833,43.60968521597598 1.4119819348787175,43.60992398832686 1.4114380948057117,43.610243672515445 1.4110941298834223,43.61046312513354 1.4107609447445424,43.61069961792991 1.4104160815069686,43.61095588245154 1.4097824997370791,43.61149819701898 1.409530342636827,43.61171621416211 1.4093452896882983,43.61188779153703 1.4085851352948766,43.61256518567923 1.4079314312626225,43.61314670441514 1.4071651683252686,43.61383988873491 1.4061407295752588,43.61473591746338 1.4056847447370397,43.61516217192538 1.405318860921818,43.61554907620515 1.4050784717517875,43.61584850419956 1.4049801960597048,43.61597350388988 1.4048996171787191,43.61607600084062 1.4048876695854406,43.616091804606185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4048876695854406,43.616091804606185 1.4046365006320007,43.61643890107658 1.4044163235558629,43.61676778565307</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4044163235558629,43.61676778565307 1.4042310909442774,43.617090880317534 1.404064812785187,43.61740460825796 1.4039477623036662,43.6176692986759 1.4036848254200045,43.61833602721336 1.4028174121816586,43.62061138103233 1.4026611951537502,43.621056192626725 1.4025241122413936,43.621449171828 1.402399695574543,43.62186003166508 1.4022844417235905,43.622481713576036 1.402221290159117,43.62307152509475 1.4022105103757074,43.62350389813205 1.4022259613985941,43.623939389383374 1.402270787331272,43.624389313495435</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.402270787331272,43.624389313495435 1.402278872168829,43.6245096134896 1.4023032165130287,43.62453672972531 1.4023548696418653,43.62454732911388 1.4025224054423535,43.62454810943689 1.402656973071915,43.62452502487686 1.4027182381742918,43.62454752419463</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4027182381742918,43.62454752419463 1.402765399726708,43.6245550022897</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt
+smoothness: excellent
+check_date:surface: 2025-05-23</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.402765399726708,43.6245550022897 1.4027685438302027,43.62460279704935</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

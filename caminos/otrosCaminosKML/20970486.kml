@@ -1,0 +1,461 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta carabassa</name>
+    <Placemark>
+      <name>Travessera de Can Miró</name>
+      <description>name: Travessera de Can Miró
+footway: crossing
+highway: footway
+name:ca: Travessera de Can Miró
+surface: asphalt
+wheelchair: yes
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0999882260881257,41.500967885298444 2.099976817484017,41.500936533355336 2.099966666521307,41.50090148105763</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de les Cases Sert</name>
+      <description>name: Carrer de les Cases Sert
+footway: sidewalk
+highway: footway
+name:ca: Carrer de les Cases Sert
+surface: concrete
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.099966666521307,41.50090148105763 2.0999254338497657,41.50089340758907 2.0998364108051093,41.5008303672207 2.099776133849545,41.50076456835026</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.099776133849545,41.50076456835026 2.099751879336874,41.50069991315786 2.0997012143548495,41.50061911089637 2.0995901825857324,41.50052862031732 2.099485708518189,41.50047459502658 2.0993841090595553,41.50045172004557 2.0992508889029207,41.500470087310376 2.099133299432229,41.50048482148608 2.09903538306626,41.500521219595235 2.098846197867424,41.500554791955054 2.098644885412253,41.500589978998846 2.0985740981678647,41.50058331835532 2.098522085712914,41.50056797868881 2.098476720791066,41.50055203350529 2.098367665315574,41.50052942766878 2.0982419011757973,41.50050897476227 2.098067628010678,41.5004998247757 2.097867213870791,41.50051119497941 2.097678477829598,41.500546112929825 2.097487855326307,41.50059132458332 2.0972669595979423,41.500706371952084 2.0971273614027903,41.50081179822108 2.0970799303557888,41.50087631874394 2.0970495672991856,41.50094622151105 2.097038158695077,41.50101491318463</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.097038158695077,41.50101491318463 2.0969307201870966,41.501071831009796 2.0968866129066464,41.501127066818306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí Ho Chi Minha</name>
+      <description>foot: yes
+name: Camí Ho Chi Minha
+horse: permissive
+access: yes
+oneway: no
+bicycle: yes
+highway: path
+name:ca: Camí Ho Chi Minh
+surface: compacted
+cycleway: no
+maxspeed: 30
+sac_scale: hiking
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0968866129066464,41.501127066818306 2.0965405818592036,41.501181293400556 2.0962965095965083,41.50114307913888 2.0958459146499937,41.501060797298194 2.095513268500284,41.50102063188091 2.0952317364902413,41.501000515523536 2.0949768844441365,41.50098652153211 2.094831986188808,41.50095981183814 2.0946817878733035,41.50093222750789 2.09442172559855,41.50088997636462 2.0940676097135507,41.500771498091304 2.093816261097054,41.50071579102586 2.0934211820350983,41.500659007446075 2.093228493406655,41.50062328220626</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí Ho Chi Minh</name>
+      <description>name: Camí Ho Chi Minh
+horse: yes
+access: yes
+bicycle: yes
+highway: path
+name:ca: Camí Ho Chi Minh
+surface: sand
+sac_scale: hiking
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.093228493406655,41.50062328220626 2.0930590711440695,41.50059071907032 2.0929491173532937,41.500612786651836 2.092710434982303,41.5007233262839 2.0925440669916844,41.500855933225935</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí Ho Chi Minh</name>
+      <description>name: Camí Ho Chi Minh
+horse: yes
+access: yes
+bicycle: yes
+highway: path
+name:ca: Camí Ho Chi Minh
+surface: sand
+sac_scale: hiking
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0925440669916844,41.500855933225935 2.092343832514854,41.50097716977653</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí Ho Chi Minh</name>
+      <description>name: Camí Ho Chi Minh
+horse: yes
+access: yes
+bicycle: yes
+highway: path
+name:ca: Camí Ho Chi Minh
+surface: sand
+sac_scale: hiking
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.092343832514854,41.50097716977653 2.0921551863051886,41.501099011608424 2.091994298037803,41.501127066818306 2.0917340560999933,41.501127066818306 2.091511543404117,41.50108891980334 2.091418657603739,41.5010681306799 2.091368890936999,41.501055482277906 2.0913062783616954,41.50103509681631 2.0912659440054386,41.50101558597245 2.0912386352208014,41.500998833553574 2.091213662055903,41.50097037461516 2.0912021636202662,41.50095732252103</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí Verd</name>
+      <description>name: Camí Verd
+bicycle: yes
+highway: path
+name:ca: Camí Verd
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0912021636202662,41.50095732252103 2.0911903058585155,41.50092758526579</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça del Pi</name>
+      <description>name: Plaça del Pi
+footway: sidewalk
+highway: footway
+name:ca: Plaça del Pi
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0911903058585155,41.50092758526579 2.0912143807081307,41.50091150561303 2.091233784318267,41.50089562779302 2.0912536370860466,41.500872416566075 2.0912936121161896,41.50081078903617</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça del Pi</name>
+      <description>name: Plaça del Pi
+footway: crossing
+highway: footway
+name:ca: Plaça del Pi
+surface: asphalt
+crossing: unmarked
+crossing:markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0912936121161896,41.50081078903617 2.0913682621163,41.5006857172641</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Vila Puig</name>
+      <description>foot: yes
+name: Carrer de Vila Puig
+oneway: no
+bicycle: yes
+highway: service
+name:ca: Carrer de Vila Puig
+surface: asphalt
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0913682621163,41.5006857172641 2.091647997495775,41.500552571739405 2.091969863862075,41.50043611123035 2.0922514857036463,41.50035779797998 2.0925679621782414,41.50029152767266 2.092798200385561,41.50025519671398 2.092919383117389,41.50023723306576 2.0931796250551984,41.50019908552663 2.0935845855852797,41.500154882794455 2.0938394376313845,41.500124674212785 2.093987210495622,41.50011061275237 2.0942954224696035,41.50007051402553 2.0947981197025967,41.49999381504932</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: asphalt
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0947981197025967,41.49999381504932 2.0948175233127335,41.49997591860846 2.0949853286078075,41.499946113622684 2.0950102119411773,41.499928419008384 2.0950095831204782,41.49989350072491 2.094970236911034,41.499768292621106 2.0949511027954824,41.499701483469366 2.0949592774645676,41.499636827215596 2.0949784115801195,41.499593767864056 2.095007337332268,41.49955642730947 2.095046414047127,41.499518077528286 2.0950989654912484,41.499482620780576 2.095152415250653,41.499454968540704 2.0952170939511103,41.49943310240592 2.095320400208784,41.49941379292078</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: paving_stones
+crossing: uncontrolled
+wheelchair: yes
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.095320400208784,41.49941379292078 2.095334144432631,41.49946378227295 2.0953569616408476,41.49955010296115 2.0953355817370856,41.49958320486251</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Vila</name>
+      <description>name: Carrer de la Vila
+footway: sidewalk
+highway: footway
+name:ca: Carrer de la Vila
+surface: paving_stones
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0953355817370856,41.49958320486251 2.096127356828508,41.49943720651179 2.0963252556856,41.49939952946463</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Vila</name>
+      <description>name: Carrer de la Vila
+highway: footway
+name:ca: Carrer de la Vila
+surface: paving_stones
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0963252556856,41.49939952946463 2.0962833941933603,41.499469972068916 2.0963566068890156,41.49956779767882 2.096479496419883,41.49962222740742</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.096479496419883,41.49962222740742 2.096690780174708,41.49959639179411 2.096873317840441,41.499586905277255</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Vila</name>
+      <description>foot: yes
+name: Carrer de la Vila
+footway: sidewalk
+highway: footway
+name:ca: Carrer de la Vila
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.096873317840441,41.499586905277255 2.0969174251208917,41.49952668941095 2.096971593532524,41.499476969228866</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.096971593532524,41.499476969228866 2.097000339621616,41.4994785166776</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt
+crossing: uncontrolled
+wheelchair: no
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.097000339621616,41.4994785166776 2.097033577287128,41.49947151951782 2.097117300271608,41.499459812729576</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.097117300271608,41.499459812729576 2.0972994786112276,41.499479727724406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>horse: no
+bicycle: no
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: uncontrolled
+wheelchair: limited
+motor_vehicle: no
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0972994786112276,41.499479727724406 2.097321128009575,41.49954371133192 2.0973320874560413,41.49956907600424</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0973320874560413,41.49956907600424 2.097524057432257,41.49959598811256 2.0976852151942285,41.49959962124633 2.097836760982659,41.49960291797865 2.0978885937745533,41.49959962124633 2.0979052126073094,41.49953550313344</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>foot: yes
+ramp: no
+highway: steps
+incline: up
+surface: concrete
+handrail: yes
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0979052126073094,41.49953550313344 2.098000434027426,41.499520095938394 2.098112094617242,41.49950213208628 2.098115328552265,41.4995544761808</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paving_stones
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.098115328552265,41.4995544761808 2.098174886855602,41.49954801727168</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paving_stones
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.098174886855602,41.49954801727168 2.0982579810193833,41.499539001709955 2.0983611974455285,41.49954068371784 2.098476002138839,41.499542567566614 2.0985467893832275,41.49954276940755 2.0985693370968588,41.49954371133192 2.098630422536179,41.49954519149874</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paving_stones
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.098630422536179,41.49954519149874 2.0986762366156695,41.49954593158214 2.098822212849339,41.499548420953516 2.098934592091382,41.499550170241456 2.099083802260074,41.49955272689298 2.0992773892038015,41.49955588906708 2.0993742275914298,41.499555821786785 2.0994572319236826,41.499555821786785 2.0995874876398797,41.49955716739274 2.0996057234401477,41.49955736923364 2.0996662698902973,41.499560396846924</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: no
+highway: steps
+incline: up
+surface: concrete
+handrail: yes
+step_count: 16
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0996662698902973,41.499560396846924 2.099739482585953,41.49955797475631 2.099809461346586,41.499560396846924</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paving_stones
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.099809461346586,41.499560396846924 2.0998955199508047,41.49955797475631 2.10016276874783,41.49954613342307 2.10020633703911,41.49954512421842</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.10020633703911,41.49954512421842 2.100222327051167,41.49941433116434 2.1004552602043396,41.49932000391098 2.100621089205788,41.49930701876478 2.101015359783988,41.49930701876478 2.101420499977126,41.49932188776617</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: paving_stones
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.101420499977126,41.49932188776617 2.1014078337316198,41.49921867933313 2.101448707077047,41.49920656881521</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: paving_stones
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.101448707077047,41.49920656881521 2.1018713644182254,41.49993420508051 2.101944038124711,41.500059211024215 2.101800217847723,41.50009399465886 2.101738503587704,41.50010946899709</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.101738503587704,41.50010946899709 2.1017490138765282,41.50013590992298</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Can Domenech</name>
+      <description>name: Avinguda de Can Domenech
+bicycle: yes
+footway: sidewalk
+highway: footway
+name:ca: Avinguda de Can Domenech
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1017490138765282,41.50013590992298 2.1017625784373184,41.500189800936994 2.1017784786178475,41.50026427945556 2.10178853974903,41.50030881851065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.10178853974903,41.50030881851065 2.101796175428945,41.500359681804994 2.101889690050022,41.50048670530739 2.101969370615723,41.500571611768045 2.1021077111694773,41.500648108222464 2.1022111970902073,41.50070226792667 2.1023083049724214,41.50079396928529</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>foot: yes
+bicycle: yes
+highway: service
+service: parking_aisle
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1023083049724214,41.50079396928529 2.1022579094849823,41.50085909533641 2.1022144310252306,41.500915407788554 2.102085882108073,41.50108138458784 2.1019389177275913,41.50119380722077 2.1017600631545226,41.50129781984799 2.1016070800616373,41.5013981319971 2.1015488692312267,41.50143917179869 2.101509702684839,41.50146541034673</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.101509702684839,41.50146541034673 2.1014705361384514,41.501490976101266 2.1014484375824622,41.50150537365333</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Travessera de Can Miró</name>
+      <description>name: Travessera de Can Miró
+footway: sidewalk
+highway: footway
+name:ca: Travessera de Can Miró
+surface: paving_stones
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1014484375824622,41.50150537365333 2.101429213635382,41.50149312900645 2.1014153795800063,41.50148519016823 2.1013469279553565,41.50144347761243 2.101220714657938,41.50137222981385 2.10104239907404,41.501278578197336 2.1009051364986266,41.50122172783246 2.100657291311738,41.501157476768284 2.1004904741634767,41.501108228789036 2.100306499193289,41.50105090732338 2.100184777472291,41.500984974119405 2.100097191732089,41.50095059463643 2.1000211942590528,41.50095907177091 2.0999882260881257,41.500967885298444</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

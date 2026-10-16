@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta del torrent de Crespià</name>
+    <Placemark>
+      <name>Carrer de la Coma</name>
+      <description>name: Carrer de la Coma
+source: Institut Cartogràfic i Geològic de Catalunya
+highway: living_street
+name:ca: Carrer de la Coma
+source:date: 2011</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.797215094868322,42.187359516737786 2.797454585723068,42.18768207013313 2.79758457194468,42.187736716345995 2.7976270622576185,42.18778570487181</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+highway: living_street
+name:ca: Carrer Major</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7976270622576185,42.18778570487181 2.7977972031724314,42.18779369212786</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7977972031724314,42.18779369212786 2.7977979218246585,42.187806604856334</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7977979218246585,42.187806604856334 2.797800437107454,42.187850201935554</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.797800437107454,42.187850201935554 2.797802233738022,42.18786757419843</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+highway: living_street
+name:ca: Carrer Major
+source:name: Institut Cartogràfic i Geològic de Catalunya</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.797802233738022,42.18786757419843 2.7976610185753588,42.18786218280702</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça del Pi</name>
+      <description>name: Plaça del Pi
+highway: living_street
+name:ca: Plaça del Pi</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7976610185753588,42.18786218280702 2.797573073509043,42.187871567821404</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

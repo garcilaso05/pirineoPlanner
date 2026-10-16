@@ -1,0 +1,276 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Coll de Nargó, volta pel pantà</name>
+    <Placemark>
+      <name>Carrer d'Isona</name>
+      <description>ref: L-511
+foot: yes
+name: Carrer d'Isona
+horse: yes
+lanes: 2
+access: yes
+oneway: no
+bicycle: yes
+highway: tertiary
+name:ca: Carrer d'Isona
+surface: asphalt
+cycleway: no
+maxspeed: 50
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3132786447208011,42.17189139633618 1.3152720063362622,42.17271588305698 1.3155423094052539,42.172827731202844</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera del Camí Ral</name>
+      <description>name: Carretera del Camí Ral
+highway: unclassified
+name:ca: Carretera del Camí Ral
+source:date: 2019</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3155423094052539,42.172827731202844 1.3155586587434247,42.1727110895606 1.3154357692125573,42.172115494807905 1.3153823194531522,42.17189132975897 1.3156659175883487,42.17112761804027 1.3158894184310377,42.170635404912325 1.3158358788401041,42.17036130052668 1.3157691340144941,42.170106968943756 1.315907205073663,42.169690781731404 1.3159160983949758,42.16922838527277 1.3159576903926304,42.16905061640427 1.3159919162049556,42.16890467245041 1.316107798876607,42.168799009350316 1.3166839782998412,42.16822648139302 1.3167092209593252,42.16809797981374 1.3167753369642363,42.16758889793467 1.3168351647621588,42.16747437725094 1.316898226495104,42.1674440825005 1.317005126013914,42.16742856891939</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary_link</name>
+      <description>highway: primary_link</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.317005126013914,42.16742856891939 1.3171299918384065,42.16741871479723</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary_link</name>
+      <description>highway: primary_link
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3171299918384065,42.16741871479723 1.3171961976748463,42.1677554852103</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3171961976748463,42.1677554852103 1.3173400179518338,42.1677000893304 1.3175930733673702,42.167495417113024 1.3181138267375745,42.16709252917077 1.3184417118162781,42.166881396487746</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3184417118162781,42.166881396487746 1.3186420361246365,42.166560401550576 1.3187863055592663,42.1663159755642 1.3188783828758885,42.16610770337108 1.3189943553790684,42.165884116282975 1.3191452723468002,42.165703408332995 1.319296099483004,42.16556577964015 1.3194701929850665,42.16551417712613 1.3197370824559782,42.165496998473415 1.3199111759580406,42.16551417712613 1.3199923836597252,42.16560020348738 1.3200968577272683,42.165823924746064 1.3202129200619763,42.165995909925805 1.3203288925651562,42.16614212692345 1.3205261626015488,42.166210907388795 1.3206886678364462,42.16623667507534 1.3208626715069802,42.166228085847656 1.3209207925058628,42.16601308844305</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3209207925058628,42.16601308844305 1.3208570121206902,42.1657922975328 1.3209726252977563,42.16574222662812 1.3210710806528956,42.16576719550177 1.321246431796356,42.1657992888129 1.3216161783672997,42.16587299683302 1.321769790280884,42.165937183331636</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.321769790280884,42.165937183331636 1.3220959685605476,42.16598878550062 1.3224182840844898,42.166110899369 1.3226891261426519,42.166303524528445 1.322949098585876,42.166476174233416 1.3232556037608179,42.16666207342752 1.3234850334843817,42.16690922795711 1.3236293029190112,42.16717569035264 1.323740424519657,42.16724580133617 1.3243411279501478,42.16796967771741 1.3245020162175336,42.1681555059416 1.3247432138713195,42.16821343150362 1.324806994256492,42.16829219686663 1.325038759599795,42.16870772747526 1.3252539959418699,42.16905820654595 1.3253226272295766,42.16922652103254 1.3252752860141035,42.169521003726764 1.3253319697085315,42.16969617467232 1.3256286832468762,42.17016329482227 1.3257504947994028,42.17027641248116 1.325801788602126,42.170381607061856</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.325801788602126,42.170381607061856 1.3258049327056205,42.170517827126034 1.3257571423325052,42.17062069105636</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3257571423325052,42.17062069105636 1.3258446382411786,42.17077149127318 1.3258587417911394,42.17091516726009 1.3257618135719829,42.171109708553594 1.3256317375188422,42.17140251803776 1.325423597867512,42.171732010308936 1.3252415093594208,42.1719475874714 1.3251493422112701,42.17212628027582 1.325076039684086,42.17221569306558 1.324974260562395,42.17226129820006 1.324820468985754,42.1722752793296 1.3245663355918764,42.17234358708946 1.3243907149538312,42.172476673828804 1.324239618323042,42.172637123202264 1.3241089134492028,42.173030588615084 1.324035431258962,42.17326360420301</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.324035431258962,42.17326360420301 1.323774021511283,42.17339981806052 1.3232471595971471,42.17377510369588 1.3225897724722282,42.174334998827966 1.32236510381967,42.174574067879064 1.322161006587118,42.174725391264204 1.3221037839035197,42.17477612080018 1.321975234986362,42.17483736900462 1.3218455182593354,42.17487218725092 1.3215871627836224,42.17488050900867 1.3214330118808675,42.174878312064735 1.321272662602652,42.17488743271028 1.3210002035769788,42.175010727731305 1.320771492505642,42.175135487135336 1.3206898356463153,42.17516497931708 1.3205023572465195,42.175194271763885</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3205023572465195,42.175194271763885 1.3204994826376104,42.17520072941512 1.3203569200020207,42.17527362759708 1.3202934091114338,42.17528281475926 1.320257476500069,42.17526597162758 1.3202410373303695,42.17523028814012 1.320228730410977,42.1751740999213 1.3202258558020676,42.17508602279061 1.3201638720474635,42.17503649183331</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eix Salou - Andorra C-14</name>
+      <description>ref: C-14
+name: Eix Salou - Andorra C-14
+lanes: 2
+access: yes
+oneway: no
+bicycle: yes
+highway: primary
+name:es: eje Salou - Andorra C-14
+surface: asphalt
+cycleway: no
+maxspeed:forward: 50
+maxspeed:backward: 90</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3201638720474635,42.17503649183331 1.3202548713857447,42.17489981548243 1.3203361689189577,42.17475668114029 1.3204125257181076,42.17456707756876 1.3205487103151803,42.17397509534419 1.3206186890758131,42.173661393115836</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eix Salou - Andorra C-14</name>
+      <description>ref: C-14
+name: Eix Salou - Andorra C-14
+lanes: 2
+access: yes
+oneway: no
+bicycle: yes
+highway: primary
+name:es: eje Salou - Andorra C-14
+surface: asphalt
+cycleway: no
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3206186890758131,42.173661393115836 1.3206946865488498,42.17309110617459 1.3206924407606395,42.17300162804633 1.3206822897979287,42.17287573263812</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eix Salou - Andorra C-14</name>
+      <description>ref: C-14
+name: Eix Salou - Andorra C-14
+lanes: 2
+access: yes
+oneway: no
+bicycle: yes
+highway: primary
+name:es: eje Salou - Andorra C-14
+surface: asphalt
+cycleway: no
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3206822897979287,42.17287573263812 1.3206655811336443,42.17276601501825</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Eix Salou - Andorra C-14</name>
+      <description>ref: C-14
+name: Eix Salou - Andorra C-14
+access: yes
+oneway: yes
+bicycle: yes
+highway: primary
+name:es: eje Salou - Andorra C-14
+surface: asphalt
+cycleway: no
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3206655811336443,42.17276601501825 1.3206058431672503,42.17266828095871 1.320515023492026,42.172518017876406 1.3204192630827387,42.17240270719633 1.3203618607360834,42.17232627713779 1.320269064767234,42.1721997811934</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary_link</name>
+      <description>oneway: yes
+highway: primary_link
+destination: Isona;Centre
+destination:ref: L-511
+destination:symbol: centre</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.320269064767234,42.1721997811934 1.320248583178756,42.172243522188054 1.3201383598933947,42.1723001124711 1.3201217410606383,42.172310298716674</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>primary_link</name>
+      <description>oneway: yes
+highway: primary_link
+destination:symbol: centre</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3201217410606383,42.172310298716674 1.3199284236114959,42.17241209450551</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Isona</name>
+      <description>ref: L-511
+foot: yes
+name: Carrer d'Isona
+horse: yes
+lanes: 2
+access: yes
+oneway: no
+bicycle: yes
+highway: tertiary
+name:ca: Carrer d'Isona
+surface: asphalt
+cycleway: no
+maxspeed: 50
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3199284236114959,42.17241209450551 1.3188770354029624,42.17303418371925 1.3184762969547164,42.173273790293415 1.3182934897943983,42.17335341483898 1.3182441722853,42.173374785623864 1.3181843444873775,42.173400883270375 1.3179911168697638,42.173438232179436 1.317832474390588,42.17343963026651 1.3176146329341891,42.173422120888034 1.3167527892506048,42.17329243150036 1.3165466258928993,42.17326100774833 1.3161413060367047,42.17310808303733 1.3155989930996816,42.172851232603584</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Isona</name>
+      <description>ref: L-511
+foot: yes
+name: Carrer d'Isona
+horse: yes
+lanes: 2
+access: yes
+oneway: no
+bicycle: yes
+highway: tertiary
+name:ca: Carrer d'Isona
+surface: asphalt
+cycleway: no
+maxspeed: 50
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3155989930996816,42.172851232603584 1.3155423094052539,42.172827731202844</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Isona</name>
+      <description>ref: L-511
+foot: yes
+name: Carrer d'Isona
+horse: yes
+lanes: 2
+access: yes
+oneway: no
+bicycle: yes
+highway: tertiary
+name:ca: Carrer d'Isona
+surface: asphalt
+cycleway: no
+maxspeed: 50
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3155423094052539,42.172827731202844 1.3152720063362622,42.17271588305698 1.3132786447208011,42.17189139633618</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Jean Moulin</name>
+      <description>name: Rue Jean Moulin
+highway: residential
+maxspeed: 30
+zone:maxspeed: FR:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5172059160210007,43.6076371724087 1.5171739359968863,43.6076631904859 1.5165909293774926,43.60806133070851</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Jean Moulin</name>
+      <description>name: Rue Jean Moulin
+highway: residential
+surface: asphalt
+maxspeed: 30
+zone:maxspeed: FR:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5165909293774926,43.60806133070851 1.5164724415915172,43.608144002526906 1.5164323767298458,43.608157401725165 1.516393389846515,43.608165207082 1.5163410180654506,43.60816598761762</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+highway: path
+surface: dirt
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5163410180654506,43.60816598761762 1.5162484915911865,43.60823890260952 1.5159460288350233,43.60843722313495 1.5158936570539592,43.60847163158198 1.5158772178842597,43.60850610505359 1.5158685940575323,43.608513194878334</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

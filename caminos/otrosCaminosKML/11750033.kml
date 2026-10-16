@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Liaison Sourzac - Mussidan</name>
+    <Placemark>
+      <name>Route Royale</name>
+      <description>name: Route Royale
+highway: tertiary
+surface: asphalt
+maxspeed: 70</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.38520792445621815,45.0336992214374 0.38395369665653045,45.033469094695306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Royale</name>
+      <description>name: Route Royale
+highway: tertiary
+surface: asphalt
+maxspeed: 70</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.38395369665653045,45.033469094695306 0.3832221086891435,45.03335228518111</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Royale</name>
+      <description>name: Route Royale
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.3832221086891435,45.03335228518111 0.38285541639016596,45.03329972082194 0.38254657559548566,45.033272994239155 0.3822203074842935,45.0332514098164</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Royale</name>
+      <description>name: Route Royale
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.3822203074842935,45.0332514098164 0.3821590423819165,45.03325077498032 0.3819069751131926,45.033248299119506 0.3811398138605545,45.03326721723269 0.37839078942809196,45.03335691947616 0.37768471361477396,45.033363204341455 0.3774914859971599,45.033368473470404 0.3774171054916348,45.03337063190863 0.37714734141181366,45.03337812295831 0.376689470111498,45.03339081965046 0.3763608663805671,45.03339361292235 0.3756448192675954,45.03339977081672</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route Royale</name>
+      <description>name: Route Royale
+highway: tertiary
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.3756448192675954,45.03339977081672 0.3755783439365706,45.03340231015442</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

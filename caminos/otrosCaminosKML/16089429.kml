@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3639962680207913,43.65821540141496 1.3641133185023122,43.65824952141131 1.3644224287915778,43.65832971957397 1.365452167601764,43.65861483162369 1.3655051682035269,43.65863900791942</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: yes
+path: crossing
+bicycle: yes
+highway: path
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2025-12-23</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3655051682035269,43.65863900791942 1.3655408313203066,43.65865077111355 1.3655728113444212,43.658661299495286</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3655728113444212,43.658661299495286 1.3656038930532517,43.6586716329052 1.3656430595996394,43.65868463090256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3656430595996394,43.65868463090256 1.3656594089378105,43.65869002507065 1.3656757582759813,43.65869541923824</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: gravel
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3656757582759813,43.65869541923824 1.3657320826442956,43.65871400636625</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

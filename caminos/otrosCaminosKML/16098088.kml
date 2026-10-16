@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue de Saint-Jean-de-Luz</name>
+      <description>name: Avenue de Saint-Jean-de-Luz
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:left: yes
+sidewalk:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4799417319105694,43.65132822445834 1.4798887313088065,43.65132152966998</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Saint-Jean-Luz</name>
+      <description>name: Avenue de Saint-Jean-Luz
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:left: yes
+sidewalk:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4798887313088065,43.65132152966998 1.4798324967720209,43.65141317670811 1.479812284678128,43.65144619560673</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Mont-Louis</name>
+      <description>name: Avenue de Mont-Louis
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.479812284678128,43.65144619560673 1.4798531580235554,43.65146361501837</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Mont-Louis</name>
+      <description>name: Avenue de Mont-Louis
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+sidewalk:both: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4798531580235554,43.65146361501837 1.4799558354605302,43.651513078320164</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée de Roncevaux</name>
+      <description>name: Allée de Roncevaux
+oneway: yes
+highway: residential
+surface: asphalt
+cycleway:left: no
+lane_markings: no
+sidewalk:left: no
+cycleway:right: lane
+sidewalk:right: yes
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4799558354605302,43.651513078320164 1.4799155011042733,43.651557276768244 1.4799090332342277,43.651560916638985 1.4798504630777032,43.65159367546577 1.4796700813686519,43.65171600092687 1.4793571981551932,43.65194388180691 1.4789774802845956,43.65217930147715 1.4787549675887193,43.65232976939148 1.4783703988155878,43.65261471494014 1.4782182242064579,43.65271077976337 1.4781981019440937,43.652723519065326</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>bicycle: yes
+highway: path
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4781981019440937,43.652723519065326 1.4781308181293131,43.65276862657196 1.478129919814029,43.65278169084349 1.4781336927382223,43.65279319519966</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

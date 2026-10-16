@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Lac</name>
+      <description>name: Chemin du Lac
+layer: 1
+bridge: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.351493605727944,43.52278389165587 1.351439886473954,43.5228726080402</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Cézérou</name>
+      <description>foot: designated
+name: Chemin de Cézérou
+highway: cycleway
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.351439886473954,43.5228726080402 1.3506835050047252,43.522615903372454 1.3489244240153624,43.521914112440975 1.3487675781667552,43.52185327367423 1.3483108746763088,43.52169088467414 1.3479169634242225,43.521540676088364 1.3475570084898758,43.52138642854778 1.3473856099336659,43.521281099658545</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

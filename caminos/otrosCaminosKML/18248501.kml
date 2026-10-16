@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6627697331434839,42.77694668545684 1.662307010940634,42.77662807885192 1.662249428930922,42.77648308329174 1.6623851643703522,42.775764100746244 1.6623728574509598,42.77539860596027 1.6619735563071687,42.77464941073512</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

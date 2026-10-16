@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+highway: cycleway
+surface: concrete:plates
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3734042341598467,43.56892998329434 1.3734724162899115,43.568932391515105 1.3735492222467034,43.56894482313973 1.3737181953516464,43.5689974134396</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+highway: cycleway
+surface: concrete:plates
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3737181953516464,43.5689974134396 1.3738649800690717,43.569043625175084</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+layer: -1
+tunnel: yes
+highway: cycleway
+surface: concrete:plates
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3738649800690717,43.569043625175084 1.3740678196602258,43.56909218000263</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+width: 2.1
+oneway: no
+highway: cycleway
+surface: concrete:plates
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3740678196602258,43.56909218000263 1.3743277022719216,43.56913780588399 1.3747145168332633,43.56920491036283 1.3748055161715447,43.569233808873854 1.3748620202029158,43.56926706817905 1.3749127750164687,43.56931152236849 1.3749531093727254,43.569367887369694 1.3749909284461872,43.569438571349785 1.3750465341622742,43.569624588278515 1.375117590901248,43.56978977707791</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: designated
+layer: -1
+tunnel: yes
+highway: cycleway
+surface: concrete:plates
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.375117590901248,43.56978977707791 1.375206793608961,43.56992828018229</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+highway: cycleway
+surface: concrete:plates
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.375206793608961,43.56992828018229 1.3752724604562303,43.57000501649257 1.3753421697222779,43.57006040455738 1.3753622919846422,43.570073031206626 1.3754508658716562,43.57012887480918 1.3755259650294087,43.570169683562916</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+bicycle: yes
+highway: cycleway
+surface: gravel
+segregated: no
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3755259650294087,43.570169683562916 1.375536295655176,43.57019890703943</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+bicycle: yes
+highway: cycleway
+surface: concrete
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.375536295655176,43.57019890703943 1.3754861696623224,43.57022051548064 1.3751184892165318,43.570357325371354 1.3750681835606215,43.57037431268623 1.3750146439696878,43.57037769713153 1.3749585890959588,43.570363899007184 1.374881244149996,43.57031892491009</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+foot: designated
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.374881244149996,43.57031892491009 1.3747749734518846,43.57022780507352 1.3747178405998148,43.570200989781085 1.3746390583493975,43.570182895960514 1.3745639591916452,43.57018029253264 1.3744587664718746,43.570197475154494 1.3743621975788318,43.57022988781419 1.374178222608644,43.57035778096989 1.3737726332578644,43.57066459326522 1.373669686326304,43.57075812058874</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

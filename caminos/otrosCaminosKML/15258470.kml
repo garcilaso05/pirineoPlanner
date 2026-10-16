@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Cours Dillon</name>
+      <description>name: Cours Dillon
+highway: footway
+surface: asphalt
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4371060167449723,43.597507024568365 1.4371774328100597,43.59762490621581 1.4372415725213459,43.59777446985002 1.437699264158605,43.5988405309706 1.4377333103078729,43.59891970251127 1.437737262895123,43.598984301727334 1.4377289085629807,43.59899828845683 1.4377118405725826,43.59902619685154</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

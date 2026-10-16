@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Liaison St-Martin-des-Combes - Clermont-de-Beauregard</name>
+    <Placemark>
+      <name>Chemin de Gentillou le Lac</name>
+      <description>name: Chemin de Gentillou le Lac
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6318550282503639,44.961290786960944 0.6320440337861428,44.961129971376444 0.632470194556929,44.960753610296074 0.6328028407066384,44.960459499015215 0.6331168018984383,44.96013722708876 0.6334277986498005,44.95986542395429 0.6338917784940481,44.959525731790855 0.63419487007091,44.95931119837232 0.634481612309601,44.95908820989778 0.6347859615278607,44.958812206429535 0.6349204393258935,44.958655897105444</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

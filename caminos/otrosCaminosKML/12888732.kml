@@ -1,0 +1,307 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mons</name>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: yes
+access: yes
+highway: steps
+incline: down
+surface: concrete
+handrail: yes
+step_count: 25
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9695422395875206,43.57118611851262 2.969649588263973,43.571259729162875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.969649588263973,43.571259729162875 2.9699437865195226,43.57129708767245</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9699437865195226,43.57129708767245 2.969925640550783,43.57136438499881 2.969920609985192,43.57140701527788 2.9698263767118878,43.57168147545119 2.969681119130446,43.57185472901195 2.9695647873011524,43.57200682986764 2.9694031803815393,43.57218001740891 2.9692998741238656,43.57239999936259 2.969193333931169,43.57253582805523 2.9689153951822624,43.57268089822764 2.9687916073361102,43.572711096730124 2.968627934291344,43.57275112273919 2.9683146019202433,43.57288688555714 2.96811113350839,43.57294070898653 2.9677783076956237,43.57307172034942 2.9675876851923335,43.57315600222309 2.9674585074544773,43.57320279650974 2.9674271562510612,43.57322492453248</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: rock</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9674271562510612,43.57322492453248 2.9672921394638583,43.572833582742284 2.967213177550384,43.57262238858597 2.967152541268706,43.572453823227136 2.9671281969245067,43.57233608752869</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pouzadou</name>
+      <description>name: Rue du Pouzadou
+highway: service
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9671281969245067,43.57233608752869 2.9670998101615282,43.57221698484665 2.9670504926524304,43.57214636921083 2.9670118650952126,43.57206651161322 2.9670086311601906,43.572059612744894</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pouzadou</name>
+      <description>name: Rue du Pouzadou
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9670086311601906,43.572059612744894 2.966972698548825,43.57200969355144</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Lou Cami Viel</name>
+      <description>name: Lou Cami Viel
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.966972698548825,43.57200969355144 2.966691076707254,43.57204477366694 2.966523181580652,43.57197897402722</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.966523181580652,43.57197897402722 2.9662897992698376,43.57189351899709 2.9661422959001853,43.57183129880749 2.965571057211014,43.5717019769316</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sentier des Gorges</name>
+      <description>name: Sentier des Gorges
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.965571057211014,43.5717019769316 2.9655388975238424,43.571710828362264 2.9654797883781474,43.571718573363015 2.965396694214366,43.5717263834468 2.965289435369442,43.57175938103963 2.9651713967411086,43.5717962836516 2.96506952778789,43.571805981159635 2.9650078135278704,43.57183910887666 2.964951399328028,43.57185850387738 2.96483363019428,43.571873798588314 2.9647287968006233,43.571879916471595 2.9646484874142227,43.57190868353147 2.9645572185813562,43.57193230895726 2.964383035247766,43.571941811192005 2.964066468941642,43.571980601121055 2.963959210096718,43.57201756868119 2.9638388358486463,43.57202908849723 2.9637475670157793,43.57204659601004 2.963637613225003,43.57205831107154 2.96353825955458,43.57205440605129 2.9634042309141893,43.57205440605129</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9634042309141893,43.57205440605129 2.9631500975203116,43.572255969848825 2.9629345018521227,43.57230061708243 2.962768672850675,43.572308427090746 2.9624724983015005,43.57253120715122 2.96233900865028,43.5726799870657 2.9622056088305877,43.57271721452836 2.962051457927833,43.57265017904578 2.96186667447389,43.572657728676674 2.9615793034145,43.57248662517178 2.961281511897814,43.57249397957358 2.96110696923811,43.572561015230015 2.9609324265784056,43.57247172111581 2.960737312498695,43.572434493501376 2.9606347248932483,43.572464301628045 2.9605217168305065,43.57248662517178 2.960485784219142,43.57251721427071 2.9603471741708023,43.57263540519638 2.960090525494129,43.572709729987885 2.9596386729062165,43.5726799870657 2.959217812195607,43.57259069312787 2.95888786099175,43.57258197199274 2.9584133708586777,43.572525675082574 2.9579710404127773,43.57251402519517 2.9575648222412982,43.572568369622736 2.957192740050616,43.57265642701624</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Luttes</name>
+      <description>lit: no
+name: Chemin de Luttes
+highway: residential
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.957192740050616,43.57265642701624 2.957100932228579,43.57259179954045 2.9569737307843478,43.57252046842925 2.9568059254892742,43.57246319521313 2.956720136379641,43.57242739942539</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Luttes</name>
+      <description>lit: no
+name: Chemin de Luttes
+highway: residential
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.956720136379641,43.57242739942539 2.9566197945624046,43.57237129762072 2.9564501926367632,43.572312592428084 2.9563306268724463,43.57226761978615 2.956230824044381,43.572209890745036 2.956221301902369,43.57219160227741</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: gps
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.956221301902369,43.57219160227741 2.956288316222565,43.5722039681458 2.9563157148387305,43.57217917132293 2.9563636848749026,43.57210308861891 2.95638192067517,43.571941095270255 2.956368176451323,43.57188317066457 2.956341406655856,43.5718204948768</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Jardins</name>
+      <description>lit: yes
+name: Rue des Jardins
+highway: residential
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.956341406655856,43.5718204948768 2.9564537858978994,43.571673405025244 2.9565282562349524,43.57152136841174</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Traverse</name>
+      <description>lit: yes
+name: Rue de la Traverse
+highway: residential
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9565282562349524,43.57152136841174 2.9563573966679133,43.571477371443414 2.9560269963064143,43.571401873612224 2.9556933620098924,43.57131257777937</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Croix</name>
+      <description>foot: yes
+name: Rue de la Croix
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9556933620098924,43.57131257777937 2.9557918173650317,43.571121424374354 2.9558070887248618,43.57103707456859</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Église</name>
+      <description>foot: yes
+name: Place de l'Église
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9558070887248618,43.57103707456859 2.9558506570161414,43.570845985374135 2.955899255873012,43.57079189973251</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+noname: yes
+highway: residential
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.955899255873012,43.57079189973251 2.9559327630331103,43.57063192049862</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9559327630331103,43.57063192049862 2.9559261155000076,43.57044213172702 2.9559571972088383,43.57020092469541 2.955977229639674,43.56982459814211 2.955983787341248,43.569687917213784 2.9560148690500787,43.56947397839519 2.956019270794971,43.5694209329058 2.9559905247058786,43.56930989520254 2.9559238697117975,43.56914268739565 2.9558262228404133,43.568988301262216 2.955673060084471,43.568756721320085 2.955635330842538,43.56874057968328 2.9551426049091982,43.56870517220675 2.95508933481285,43.568690722826155 2.9550760397466456,43.56867139189264 2.9550693023820145,43.568333717885 2.9550137864974557,43.568192217073005 2.9550226798187684,43.567736990954636 2.9550160322856662,43.56765179025945 2.9550004914312513,43.56755370191491 2.95496716393421,43.567431530608125 2.9549227871591746,43.567121121948496 2.954900598771657,43.566803877308224</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Combettes</name>
+      <description>name: Chemin des Combettes
+highway: residential
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.954900598771657,43.566803877308224 2.955190934271484,43.5667984748922</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.955190934271484,43.5667984748922 2.95523243643761,43.56668977557543</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte Passa Païs</name>
+      <description>lit: no
+foot: designated
+name: Voie Verte Passa Païs
+horse: yes
+bicycle: designated
+highway: path
+railway: abandoned
+surface: compacted
+segregated: no
+smoothness: good
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.95523243643761,43.56668977557543 2.9554866596630167,43.56669329040671 2.955986931444743,43.56668372225443 2.9571805229627524,43.566648183389766 2.957981460870073,43.56662240793635 2.9583788755517673,43.56662012980231 2.9585570114726085,43.566619088369585 2.9589013357210114,43.56662898197981</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte Passa Païs</name>
+      <description>lit: no
+foot: designated
+name: Voie Verte Passa Païs
+horse: yes
+bicycle: designated
+highway: path
+railway: abandoned
+surface: asphalt
+segregated: no
+smoothness: intermediate
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9589013357210114,43.56662898197981 2.959199396732282,43.56665221893955 2.959504195108184,43.56668892941232 2.959589624891704,43.566702207662914</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte Passa Païs</name>
+      <description>lit: no
+foot: designated
+name: Voie Verte Passa Païs
+horse: yes
+bicycle: designated
+highway: path
+railway: abandoned
+surface: compacted
+segregated: no
+smoothness: good
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.959589624891704,43.566702207662914 2.9596704732672747,43.56670787044537 2.960263541017851,43.56681207856535 2.961159700345288,43.56701073089678 2.9617857362667905,43.56720710446123 2.9619270412609833,43.567251429993284 2.9629435748364927,43.56757479059702 2.9637779300723825,43.56791637414808 2.9638949805539037,43.56796317250582 2.964582640903897,43.568237973811684 2.964679479291525,43.56827507384456</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte Passa Païs</name>
+      <description>lit: no
+foot: designated
+name: Voie Verte Passa Païs
+horse: yes
+bicycle: designated
+highway: path
+railway: abandoned
+surface: compacted
+segregated: no
+smoothness: good
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.964679479291525,43.56827507384456 2.9648413557057234,43.56833710244497 2.9651589999901877,43.56848908200915 2.9654824833239997,43.568676273442094 2.965847828150051,43.5689198297138 2.965926700231997,43.56897242003548 2.9663755883794707,43.569355390745805 2.9668859212923793,43.569792315436544</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie Verte Passa Païs</name>
+      <description>lit: no
+foot: designated
+name: Voie Verte Passa Païs
+horse: yes
+bicycle: designated
+highway: path
+railway: abandoned
+surface: gravel
+segregated: no
+smoothness: intermediate
+motor_vehicle: no
+abandoned:railway: rail</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9668859212923793,43.569792315436544 2.9669755731577347,43.56986911700609 2.967864995120541,43.570577379067885 2.968284508358225,43.57082359613729 2.968691355350403,43.57097251043992 2.9691697082391966,43.571121424374354 2.9695422395875206,43.57118611851262</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

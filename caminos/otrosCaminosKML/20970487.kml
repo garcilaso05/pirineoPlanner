@@ -1,0 +1,649 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta groga</name>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: unpaved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0925431686764,41.50472321350652 2.092566974031429,41.50473021009886 2.0928298210835625,41.50471527506429 2.0928673706624386,41.50471278589154</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: 1
+bridge: yes
+footway: sidewalk
+highway: footway
+surface: unpaved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0928673706624386,41.50471278589154 2.0929390562221117,41.50470787482067</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: unpaved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0929390562221117,41.50470787482067 2.092959627642118,41.50470652932174 2.0932090897965177,41.50469199793149 2.093445706042355,41.50468560680975 2.0936902274626923,41.504670200839996 2.093883365248778,41.50465008561634 2.0939962834799917,41.504639321614505 2.094050182397039,41.50462788486058 2.0941277968375864,41.50461160430151 2.0941533988231837,41.5046062222976 2.094341506043679,41.504549307579005 2.094507335045127,41.5044685101207 2.0946506163329444,41.50439679472353 2.0947961434089715,41.50428202301271 2.094929273734078,41.504166780169896 2.0950157814959387,41.504091902486095 2.0951330116405162,41.503947125263394 2.095318513746687,41.503715292661056 2.095602561039526,41.503397211059706 2.09583199076309,41.503180782816294 2.0962791721115246,41.50292338229131 2.096476442147917,41.50284298646546 2.0967586029786593,41.50277059649838 2.0970231568298323,41.502734805146474 2.097325889080581,41.502723098948145 2.097686203341041,41.50275889030652 2.097965399731345,41.50281883405979 2.0982846609833214,41.502927082515185 2.09857266086341,41.5030732748281 2.0985981730174794,41.50309022854021 2.098789514172996,41.503217381239644 2.099033586435692,41.50340380413753 2.099072034329852,41.503443228037796 2.099114883968905,41.50348487202925 2.09915360135765,41.50352671782243 2.099161596363679,41.50357636761916</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Travessera dels Turons</name>
+      <description>name: Travessera dels Turons
+footway: sidewalk
+highway: footway
+name:ca: Travessera dels Turons
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.099161596363679,41.50357636761916 2.0993811446191177,41.50374422132479</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Travessera dels Turons</name>
+      <description>name: Travessera dels Turons
+bicycle: yes
+footway: sidewalk
+highway: footway
+name:ca: Travessera dels Turons
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0993811446191177,41.50374422132479 2.0994286654976477,41.50378061760195</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: unpaved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0994286654976477,41.50378061760195 2.0995241564123495,41.50385583202486 2.0996526154979787,41.503960984063596 2.099809730841171,41.504156688842905 2.100081201720032,41.50448257063484 2.100204989566184,41.50464793281612 2.1002789209140666,41.50478073354609 2.100300121154772,41.5048539958383 2.1002880837299647,41.504934994639726 2.1002419103243612,41.5050069112647 2.1001504618284375,41.50507189852971 2.100081201720032,41.50514731327617 2.10006548120256,41.505211022186224 2.1000801237416913,41.505264370781795 2.100089466220646,41.50529881524889 2.1001439939583917,41.505360371233344 2.100194838603473,41.505397102973234 2.100303804247437,41.505435112901914 2.100421124223543,41.50549532327425 2.100507991311517,41.50561641659096 2.1005643156798315,41.50580168892722 2.1005919837905824,41.50598373159964 2.1005753649578263,41.50616348646352 2.10051347103475,41.50637452288055 2.1005162558121313,41.50653221110272 2.1005597342718825,41.50668088437344 2.100619741732862,41.50678327364008 2.1007056206740233,41.50687463002383 2.100823928796942,41.50694728449326 2.100869114055733,41.506969888089344 2.1009870628525382,41.5070395151884 2.1011434595435037,41.50711882944479</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: uncontrolled
+wheelchair: limited
+motor_vehicle: no
+tactile_paving: yes
+crossing:island: no
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1011434595435037,41.50711882944479 2.1011813684484935,41.50708102232197 2.101212539988852,41.50705007697369</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Travessera dels Turons</name>
+      <description>lit: yes
+name: Travessera dels Turons
+bicycle: yes
+footway: sidewalk
+highway: footway
+name:ca: Travessera dels Turons
+surface: concrete
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.101212539988852,41.50705007697369 2.101256737100831,41.50707099872166 2.1013710926364992,41.50708499139818 2.1015080857173274,41.50706958599933</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Travessera dels Turons</name>
+      <description>name: Travessera dels Turons
+bicycle: yes
+footway: crossing
+highway: footway
+name:ca: Travessera dels Turons
+crossing: unmarked
+wheelchair: no
+crossing:markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1015080857173274,41.50706958599933 2.101588934092898,41.507095822265924 2.1016628654407814,41.50714412387762</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1016628654407814,41.50714412387762 2.1017655428777564,41.50715508928028</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1017655428777564,41.50715508928028 2.1017641954048303,41.50717419463997 2.1018059670655416,41.50728162854707 2.1019389177275913,41.50738657320593 2.1020571360189813,41.50745942891714 2.1021314266929783,41.50747900509149 2.1023177372829047,41.50749313222394 2.1024495201350843,41.50746333069806 2.102568457078702,41.5074021803458 2.1026127440222093,41.507379509628464 2.1027043721811896,41.50727019225986</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1027043721811896,41.50727019225986 2.102768781387061,41.507314121046164</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: yes
+name: Avinguda de Serragalliners
+bicycle: yes
+footway: sidewalk
+highway: footway
+name:ca: Avinguda de Serragalliners
+surface: paved
+segregated: yes
+wheelchair: yes
+footway:surface: paving_stones
+cycleway:surface: concrete
+check_date:surface: 2025-04-25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.102768781387061,41.507314121046164 2.1044986671296897,41.50620936692893</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: yes
+name: Avinguda de Serragalliners
+bicycle: yes
+footway: crossing
+highway: footway
+name:ca: Avinguda de Serragalliners
+surface: paved
+crossing: uncontrolled
+segregated: yes
+wheelchair: limited
+footway:surface: concrete
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1044986671296897,41.50620936692893 2.1045466371658614,41.50617889207797 2.1046137413175856,41.50613819164758</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: yes
+name: Avinguda de Serragalliners
+bicycle: yes
+footway: sidewalk
+highway: footway
+name:ca: Avinguda de Serragalliners
+surface: concrete
+segregated: yes
+wheelchair: yes
+footway:surface: concrete
+cycleway:surface: concrete
+check_date:footway:surface: 2025-04-25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1046137413175856,41.50613819164758 2.1050665820523102,41.50585073151572</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>foot: yes
+bicycle: yes
+footway: crossing
+highway: footway
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1050665820523102,41.50585073151572 2.1051309912581813,41.50580518716522 2.105154616950154,41.50579031965243</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+footway: sidewalk
+highway: footway
+surface: concrete
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.105154616950154,41.50579031965243 2.105382968695377,41.505660817417024 2.105401743484815,41.50561251469873 2.105542778984422,41.50551712008797 2.1055494265175243,41.50548819221632</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>foot: yes
+highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1055494265175243,41.50548819221632 2.105574399682423,41.50540907778504</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.105574399682423,41.50540907778504 2.105479178262306,41.50543248920844 2.1054696561202944,41.50541271059268 2.1054556424018624,41.505384119045594 2.105434981150328,41.50534227445274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>bicycle: yes
+highway: pedestrian
+wheelchair: limited
+motor_vehicle: permit
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.105434981150328,41.50534227445274 2.105343532654404,41.505295115160536 2.1052803810899308,41.50521330951656 2.1052738233883566,41.50520469839014 2.105211839633752,41.50511811614121 2.1051904597299904,41.50508838079669 2.1051427591884035,41.50502743002519</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>bicycle: yes
+highway: pedestrian
+wheelchair: limited
+motor_vehicle: permit
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1051427591884035,41.50502743002519 2.1051078147238513,41.5049826923915 2.1050664023892534,41.504943605802026 2.1049658809089604,41.50484901750335</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>bicycle: yes
+highway: pedestrian
+wheelchair: yes
+motor_vehicle: permit
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1049658809089604,41.50484901750335 2.1049371348198687,41.50475597638913</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+wheelchair: yes
+motor_vehicle: permissive
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1049371348198687,41.50475597638913 2.105006844085916,41.504717831511904 2.1051087130391357,41.50464147441501</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+wheelchair: yes
+motor_vehicle: permissive
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1051087130391357,41.50464147441501 2.1052858608131637,41.50451479543804 2.105457528863959,41.50441839008133 2.1057042960725063,41.50429393075536</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: asphalt
+wheelchair: yes
+motor_vehicle: permissive
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1057042960725063,41.50429393075536 2.105929593545764,41.50418938473667 2.105996158708317,41.50415763070015 2.10614420106714,41.50408699136813 2.1062311579866426,41.50404501138575 2.1062856857243886,41.50401870660728 2.106340033799078,41.5039924690938</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: asphalt
+wheelchair: yes
+motor_vehicle: permissive
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.106340033799078,41.5039924690938 2.1064966999846284,41.50397558289361 2.1065953350028246,41.50395640931435</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+wheelchair: yes
+motor_vehicle: permissive
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1065953350028246,41.50395640931435 2.1066523780233664,41.503945308818494 2.1068669855447424,41.50393528473273 2.1069245675544543,41.50393427559649</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+foot: yes
+bicycle: yes
+highway: footway
+surface: asphalt
+wheelchair: yes
+motor_vehicle: permissive
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1069245675544543,41.50393427559649 2.10698080209124,41.503896870268875</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+wheelchair: limited
+motor_vehicle: permissive
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.10698080209124,41.503896870268875 2.1070207771213836,41.50399341095344 2.1071003678555567,41.50401816840198 2.107188582416457,41.50402926888534 2.107261795112113,41.50403841837322 2.1073527944503945,41.50403640010394 2.107381989697128,41.5040357273475</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: yes
+name: Avinguda de Serragalliners
+access: no
+bicycle: yes
+highway: pedestrian
+name:ca: Avinguda de Serragalliners
+wheelchair: limited
+motor_vehicle: permissive
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.107381989697128,41.5040357273475 2.10744693789217,41.50400693336537</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: yes
+name: Avinguda de Serragalliners
+access: no
+bicycle: yes
+highway: pedestrian
+name:ca: Avinguda de Serragalliners
+wheelchair: limited
+motor_vehicle: permissive
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.10744693789217,41.50400693336537 2.107491404498734,41.50398338687513 2.107535062621542,41.50396037858209</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: yes
+name: Avinguda de Serragalliners
+access: no
+bicycle: yes
+highway: pedestrian
+name:ca: Avinguda de Serragalliners
+wheelchair: limited
+motor_vehicle: permit</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.107535062621542,41.50396037858209 2.1076636115386997,41.50390110864342 2.107831865991415,41.50383221820383 2.1079632895174822,41.50379111264295 2.1081489712867096,41.503705806747575 2.10820888891616,41.50366759397567</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: yes
+name: Avinguda de Serragalliners
+access: yes
+highway: pedestrian
+name:ca: Avinguda de Serragalliners
+surface: asphalt
+wheelchair: yes
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.10820888891616,41.50366759397567 2.1082743761003724,41.50361767514459</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: yes
+name: Avinguda de Serragalliners
+bicycle: yes
+highway: pedestrian
+name:ca: Avinguda de Serragalliners
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1082743761003724,41.50361767514459 2.108935176823371,41.50316732750839 2.109236112443551,41.503023019155364 2.109259199146353,41.503008218280456 2.109285429952649,41.502991399100324 2.109524920807395,41.502837873422116 2.1095548347063566,41.50281896861362</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>name: Avinguda de Serragalliners
+bicycle: yes
+highway: footway
+name:ca: Avinguda de Serragalliners
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1095548347063566,41.50281896861362 2.109586185909772,41.50279326882949 2.1098946673783385,41.502584911826204</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>lit: yes
+name: Avinguda de Serragalliners
+bicycle: yes
+highway: footway
+name:ca: Avinguda de Serragalliners
+surface: paving_stones
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1098946673783385,41.502584911826204 2.1100401944543665,41.50248487062451 2.110165060278859,41.50240158132859 2.110245728991373,41.502347893987356 2.110264593612339,41.50233531311274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>lit: yes
+foot: yes
+name: Avinguda de Serragalliners
+highway: footway
+name:ca: Avinguda de Serragalliners
+surface: paving_stones
+segregated: yes
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.110264593612339,41.50233531311274 2.110932311363025,41.50192902355367 2.111049272013018,41.50186571508184 2.1112607354308994,41.50176190520079</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>lit: yes
+name: Avinguda de Serragalliners
+highway: footway
+name:ca: Avinguda de Serragalliners
+surface: asphalt
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1112607354308994,41.50176190520079 2.1112812170193775,41.501748987822225 2.111869883025061,41.5013780830354 2.1123388934348997,41.50108259560468</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>lit: yes
+name: Avinguda de Serragalliners
+footway: crossing
+highway: footway
+name:ca: Avinguda de Serragalliners
+surface: asphalt
+wheelchair: yes
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1123388934348997,41.50108259560468 2.112382102400066,41.501054271260564 2.1124220774302094,41.501028301661016</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: designated
+name: Avinguda de Serragalliners
+footway: sidewalk
+highway: footway
+name:ca: Avinguda de Serragalliners
+surface: asphalt
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1124220774302094,41.501028301661016 2.1126225814016246,41.50090719976394 2.1128748283334056,41.500754812888324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>lit: yes
+foot: yes
+name: Avinguda de Serragalliners
+footway: sidewalk
+highway: footway
+name:ca: Avinguda de Serragalliners
+surface: asphalt
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1128748283334056,41.500754812888324 2.113057186336082,41.50064111118905 2.1131807945191765,41.50057907976362 2.11320603717866,41.500563000024336 2.11325526485623,41.50053837581335 2.113295329717902,41.50051442438602 2.113347432004381,41.50048327406139 2.1135378748446136,41.50036143107101 2.113709183569296,41.50025331288593 2.1138809414516193,41.5001427724516 2.1140423687081755,41.50003492302067 2.114301981825286,41.499861610021824 2.1143610011394527,41.499799308729564 2.114371780922862,41.49971682334111 2.1143260566749005,41.49964059490749 2.1142350573366193,41.49957331466205 2.1142597610069322,41.4995507757642</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: designated
+name: Avinguda de Serragalliners
+bicycle: designated
+highway: cycleway
+name:ca: Avinguda de Serragalliners
+surface: paved
+segregated: no
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1142597610069322,41.4995507757642 2.114267037360734,41.4995443168547</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: designated
+name: Avinguda de Serragalliners
+bicycle: designated
+highway: cycleway
+name:ca: Avinguda de Serragalliners
+surface: asphalt
+crossing: uncontrolled
+cycleway: crossing
+segregated: yes
+wheelchair: limited
+footway:surface: asphalt
+cycleway:surface: asphalt
+crossing:markings: zebra
+check_date:surface: 2025-04-25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.114267037360734,41.4995443168547 2.1142889562536666,41.499524267319075 2.114322912571406,41.499493520200346</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: designated
+name: Avinguda de Serragalliners
+bicycle: designated
+highway: cycleway
+name:ca: Avinguda de Serragalliners
+surface: asphalt
+segregated: yes
+wheelchair: limited
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2026-06-20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.114322912571406,41.499493520200346 2.1143391720780484,41.49947871851873</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: designated
+name: Avinguda de Serragalliners
+bicycle: designated
+highway: cycleway
+name:ca: Avinguda de Serragalliners
+surface: asphalt
+crossing: uncontrolled
+cycleway: crossing
+segregated: yes
+wheelchair: limited
+footway:surface: asphalt
+cycleway:surface: asphalt
+crossing:markings: zebra
+check_date:surface: 2025-04-25</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1143391720780484,41.49947871851873 2.1143682774932544,41.49945227732452 2.114398730381386,41.4994246250717</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: designated
+name: Avinguda de Serragalliners
+bicycle: designated
+highway: cycleway
+name:ca: Avinguda de Serragalliners
+surface: concrete
+segregated: no
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.114398730381386,41.4994246250717 2.114409420333267,41.49941702238211 2.1144634090818424,41.49937867251838 2.1145652780350614,41.499359632139004 2.1147166441604357,41.4993440903411 2.114891815640839,41.499284479774246 2.1150971705147885,41.49922722397497 2.1151743357976946,41.49918793206932</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda de la Font del Carme</name>
+      <description>foot: designated
+name: Ronda de la Font del Carme
+bicycle: designated
+highway: cycleway
+name:ca: Ronda de la Font del Carme
+surface: concrete
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1151743357976946,41.49918793206932 2.115208292115434,41.499203002940064 2.1153053999976477,41.49921847749119 2.11534600384849,41.499218881175075</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

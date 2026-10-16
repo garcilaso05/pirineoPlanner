@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue des Pyrénées</name>
+      <description>ref: D 24e
+name: Avenue des Pyrénées
+oneway: yes
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4267728756948024,43.49940107941828 1.426837823889844,43.499343476063636 1.4268569580053958,43.499314413716796 1.426865042842953,43.499285416518234 1.426855430869413,43.49925218375668</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Aignan Carrière</name>
+      <description>ref: D 24
+name: Avenue Aignan Carrière
+oneway: yes
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.426855430869413,43.49925218375668 1.4267917403157688,43.49922110133373 1.4267383803878921,43.49918852016042 1.4266777441062142,43.49915887127744</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Aignan Carrière</name>
+      <description>ref: D 24
+name: Avenue Aignan Carrière
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4266777441062142,43.49915887127744 1.4266134247318711,43.49909559855758</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Aignan Carrière</name>
+      <description>ref: D 24
+name: Avenue Aignan Carrière
+lanes: 2
+layer: 1
+bridge: yes
+highway: tertiary
+surface: asphalt
+cycleway:both: shared_lane
+lane_markings: yes
+cycleway:both:lane: pictogram</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4266134247318711,43.49909559855758 1.4265210779206636,43.49900482717632</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Aignan Carrière</name>
+      <description>ref: D 24
+name: Avenue Aignan Carrière
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4265210779206636,43.49900482717632 1.4264678078243156,43.49896058178022 1.4263801322525853,43.49888968481871 1.4262020861632727,43.498794873035116 1.426035808004182,43.498734988402305 1.4259071692554965,43.498703905713114 1.4257932628774699,43.498687875640734 1.4256297694957603,43.49868331423725 1.4255235886291773,43.49869028666815 1.4249801977138135,43.4987757151721</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+highway: path
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.01788581663293332,42.73801212810935 -0.01781440056784582,42.737946611851065 -0.017731755561706825,42.737927412209395 -0.01757616735449732,42.737880699654305 -0.017315925416687895,42.737852724886956 -0.017031339134678834,42.73791177538343 -0.016919139555692304,42.73794238924997 -0.01683478775051348,42.7379724752765 -0.01675286139660178,42.7379889038243 -0.016645961877791556,42.73806260131248 -0.016458213983410575,42.73809209347882 -0.016114877881820096,42.73815186950449 -0.01602594466869226,42.73818947690832 -0.015940874211286146,42.73818782746126 -0.015766601046166957,42.73817219070097 -0.015751509349393747,42.738187629527616 -0.01576669087769537,42.738279470673326 -0.01575573143122911,42.738349670997565 -0.015636704656083276,42.73829550327318 -0.01555136470409192,42.73822398333072 -0.015499172586084574,42.73825710419993 -0.015473570600487171,42.73830388244923 -0.01540457998666679,42.73846368037738 -0.01530298052803287,42.738596625078095 -0.015290404114055198,42.73862209236788 -0.015219167712024521,42.73864287525207</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>lit: no
+ref: D 923
+highway: secondary
+surface: asphalt
+sidewalk: no
+parking:both: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.015219167712024521,42.73864287525207 -0.015246925654303814,42.73857287319218 -0.015272527639901223,42.73845279407413 -0.01526749707431015,42.73833462807764 -0.015203986183722899,42.738182087385155</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Espécières</name>
+      <description>lit: no
+ref: D 923
+foot: yes
+name: Route des Espécières
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: secondary
+surface: asphalt
+sidewalk: no
+parking:both: no
+cycleway:both: no
+lane_markings: no
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.015203986183722899,42.738182087385155 -0.01512017336771455,42.7379644919244</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Espécières</name>
+      <description>lit: no
+ref: D 923
+name: Route des Espécières
+highway: secondary
+surface: asphalt
+sidewalk: no
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.01512017336771455,42.7379644919244 -0.01495048161054437,42.73751828028766</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>lit: no
+highway: track
+surface: gravel
+sac_scale: hiking
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.01495048161054437,42.73751828028766 -0.014847534678984274,42.73750257737991 -0.014775669456254711,42.73743659873248 -0.014692575292473658,42.73738553121117 -0.014587113078118026,42.7373409955478 -0.014396041417185803,42.737308599956265 -0.014127265484177243,42.737275478580415 -0.013938259948398495,42.737260171484415 -0.013800009226172501,42.737219000655706 -0.013570040513437904,42.73699203277597 -0.01347697505000312,42.73688000006864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+highway: path
+surface: dirt
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.01347697505000312,42.73688000006864 -0.013372590813988432,42.736823323845734 -0.013224009465995062,42.73674738158458 -0.013133998274526286,42.73662202056774 -0.013012007058942857,42.7363379779577 -0.01297499646923713,42.73617302810967 -0.012833960969630367,42.73598999924476 -0.012647470716647156,42.73591973026883 -0.012444092136322495,42.73580927915418 -0.012346894422580763,42.73581462356748</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

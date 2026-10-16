@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5414152434334367,43.62913577845607 1.5414119196668854,43.62912127855848 1.5413608953587477,43.629051379899956 1.5413140033009165,43.628988308482505 1.541240161784562,43.628946629293004 1.5411758424102189,43.62893538045843 1.54110280937762,43.62892809797482 1.541041095117601,43.62889610705419 1.5410041743594234,43.62885787398037 1.5409913284508607,43.62880410055136 1.5409934844075426,43.62869811408734</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

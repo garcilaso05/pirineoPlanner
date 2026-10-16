@@ -1,0 +1,193 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ségalas, la balade familiale du Grand Champ</name>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: parking_aisle
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5311711325540207,44.58712709672946 0.5310959435647399,44.58713522175174 0.531066299160364,44.58714200326552 0.5310507583059487,44.58716490686283 0.5310291089076014,44.5872755221541 0.531038631049613,44.5872876136914 0.5310541719040284,44.58729541880937 0.5311403203397753,44.58729541880937 0.5311664613145433,44.5872876136914 0.531176881771839,44.58727008416032 0.5311711325540207,44.58712709672946 0.5311613409174238,44.586956087138844</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Saint-Maurice</name>
+      <description>ref: D 429
+name: Route de Saint-Maurice
+highway: tertiary
+maxspeed: 50
+source:name: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5311613409174238,44.586956087138844 0.5310365649244596,44.58691930049824 0.5308058775594977,44.58687349310103 0.5305141047552157,44.586877971479446</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Maurillac</name>
+      <description>ref: D 429
+name: Route de Maurillac
+highway: tertiary
+maxspeed: 50
+source:name: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5305141047552157,44.586877971479446 0.5294566978342786,44.586942204183295</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Maurillac</name>
+      <description>ref: D 429
+name: Route de Maurillac
+highway: tertiary
+maxspeed: 80
+source:name: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020
+maxspeed:type: FR:rural</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5294566978342786,44.586942204183295 0.5287164860401641,44.58695941392955 0.527979418349544,44.58690656911632 0.527198333210002,44.58689831610847 0.5268523021625593,44.58688680028159 0.5264150921137782,44.58683337961043 0.5261661689485487,44.58683587470873 0.5259865957232532,44.58686050580169 0.5258946980696879,44.58688257781117</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5258946980696879,44.58688257781117 0.5258603824258345,44.58745471975877 0.525921108539041,44.58797017369438 0.5261218820050417,44.58848229635569 0.5263741289368224,44.58894796899743 0.5265981687686818,44.58924397850361 0.5269858816453078,44.58953992252839 0.5273221210561538,44.58978270297999 0.5276350042696126,44.590025482417495 0.5278797053530068,44.59021548300903</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5278797053530068,44.59021548300903 0.5279578587827252,44.590197890387756 0.5285333195537321,44.59016539200428 0.5285626944635229,44.59016161758454</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Clous</name>
+      <description>name: Route du Clous
+highway: unclassified
+source:name: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5285626944635229,44.59016161758454 0.5288206007815935,44.591116090157755 0.5288536587840492,44.59136500532763 0.5288295839344348,44.59175459285208 0.5287916750294449,44.591959301177894 0.5287651747285634,44.59210227672153 0.5286820805647823,44.59227992414412 0.5284326184103824,44.59260272033963 0.5283913857388413,44.592724392162076 0.5284085435607679,44.592868197436616 0.5290191284593839,44.594101530551725 0.5292632007220792,44.594697397624444 0.5293650696752984,44.59484260531424 0.5295243409751728,44.59501307995839 0.530370913298927,44.5957975767153 0.530653523287311,44.596075000993444 0.5308429779807319,44.59628839354205 0.5312480283423413,44.59677543223296 0.5314004724460565,44.59695178605566</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5314004724460565,44.59695178605566 0.5337641196216316,44.59531820593402</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5337641196216316,44.59531820593402 0.5352767028970321,44.59424366923174 0.5364234023572106,44.59345230675084 0.5369021145721179,44.59322451057392</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Tuilerie</name>
+      <description>name: Route de la Tuilerie
+highway: service
+source:name: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.541103535155945,44.59243639672122 0.5409091397284616,44.59243953128611 0.5399386897270272,44.592477082081075 0.5391796133119462,44.59240191649613 0.5383510971254027,44.59226789761627 0.5379385009154066,44.592258493893276 0.5378263013364202,44.592277301337724 0.5377174255239849,44.592324319922206 0.5372784188446357,44.59288367823232 0.5369317589764939,44.593161116421456 0.5369021145721179,44.59322451057392 0.5369482879777216,44.593295005302 0.5383345681241749,44.594089504400834</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5383345681241749,44.594089504400834 0.5392646837693523,44.59447491571128 0.5394788421330865,44.594527881580404 0.5395478327469068,44.5945354298525 0.5396169131922556,44.59451022629605 0.5397636979096808,44.59444849672712 0.5398857789567926,44.594418175650596</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5398857789567926,44.594418175650596 0.5399756104852045,44.59442661949628</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5399756104852045,44.59442661949628 0.5399937564539438,44.59442828267787 0.540165424504739,44.59430731807792 0.5405423575979555,44.59412078518175 0.5409563911124062,44.59390661704409 0.5413750958663343,44.593661486952485</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5413750958663343,44.593661486952485 0.5411250048912355,44.5928012845284 0.5411009300416211,44.5926006732826 0.541103535155945,44.59243639672122</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5364234023572106,44.59345230675084 0.5362210119236986,44.593363516884104 0.5357927850277588,44.59306113135629 0.5354498980838104,44.59277019494828 0.535094165231299,44.592548409333496 0.5346448279261824,44.592264827013004 0.5338888956145958,44.59181747676764 0.5337438176962105,44.591726701286866 0.5333129856859468,44.59150849410718 0.5328953589103597,44.59134722113858 0.5325229173935637,44.59119842227874 0.532321065949222,44.59109760219847 0.5321317909188581,44.59096146922375 0.5319690161893756,44.59079897925943 0.5317458746728003,44.59049011912993 0.5314822191369113,44.59019520351422 0.53125036396208,44.58997603098322 0.53115307641681,44.58987642427961 0.5310857926020293,44.589717577783155 0.5310680957909322,44.589523481233215 0.5310362954298743,44.58927782086031 0.5309637115549175,44.58884298666001 0.5309496080049568,44.588625024553224 0.5309018176318416,44.58835031564419 0.5308239336967085,44.588132223739024 0.5307461395931037,44.588006191962855 0.53069825938846,44.587945479095985</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Clous</name>
+      <description>name: Route du Clous
+highway: unclassified
+source:name: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.53069825938846,44.587945479095985 0.5307042781008638,44.58789180349491 0.5306440909768277,44.58766596877815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Trois Marthe</name>
+      <description>name: Rue des Trois Marthe
+highway: unclassified
+source:name: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5306440909768277,44.58766596877815 0.5312971661883827,44.58757141222538</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.5312971661883827,44.58757141222538 0.531267611615535,44.58740251515839</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.531267611615535,44.58740251515839 0.531235990917534,44.58732702312883 0.5311664613145433,44.5872876136914</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

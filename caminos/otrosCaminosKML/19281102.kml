@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Saint-Elme</name>
+      <description>foot: yes
+name: Chemin de Saint-Elme
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008
+highway: track
+surface: concrete
+motor_vehicle: no
+ref:FR:FANTOIR: 660537950</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.09034282809338,42.522945114674535 3.0903121955421913,42.5230250920036 3.090278059561395,42.52310698921212 3.090196133207483,42.52326892953639 3.0900974083577584,42.52338657766081 3.0898247696690277,42.52354381664831 3.08920358465006,42.52385862446349 3.0889614886809893,42.52402281381969</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Elme</name>
+      <description>name: Chemin de Saint-Elme
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0889614886809893,42.52402281381969 3.0888431805580705,42.5241084172121 3.088797905467751,42.52418289802653</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.088797905467751,42.52418289802653 3.0887017857323507,42.5242252030896</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

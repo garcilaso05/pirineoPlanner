@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: fine_gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3740017036553147,43.65457757865473 1.3740457211042367,43.65450517482158</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3740457211042367,43.65450517482158 1.3740539856048501,43.65448229675202</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+oneway: no
+source: BDOrtho IGN
+bicycle: designated
+footway: sidewalk
+highway: path
+surface: asphalt
+segregated: yes
+smoothness: good
+footway:surface: asphalt
+cycleway:surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3740539856048501,43.65448229675202 1.3744426866282888,43.65460097664319 1.375216585245558,43.654830211453486 1.3752824317558838,43.65483209628386 1.3753578004082214,43.65483131635406 1.3754413437296444,43.65482481693867</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Boulevard Alain Savary</name>
+      <description>foot: designated
+name: Boulevard Alain Savary
+oneway: no
+source: ToulouseMetropole Orthophotoplan 2015
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2023-03-17</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3754413437296444,43.65482481693867 1.3755058427670444,43.65482293210807 1.3756137304326672,43.654795374578114 1.3757503641873816,43.654768012018174 1.3758216904209406,43.654763397428454 1.3760626185801417,43.65471023212975 1.3763661593146457,43.65463672355239 1.376572592166936,43.65460000172719 1.376765909616079,43.654572574083794 1.3769085620831971,43.65453819202024 1.3771765295324498,43.654535072285704 1.377406588076713,43.654553920679355 1.377601073335725,43.654587522800945 1.3779830369945323,43.654672015480074 1.378048164852631,43.654687094161076</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

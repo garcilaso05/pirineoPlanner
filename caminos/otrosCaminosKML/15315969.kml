@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin des Capelles</name>
+      <description>name: Chemin des Capelles
+lanes: 2
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3837673789405065,43.59884820742693 1.383533727135107,43.59825418993336 1.3832844446437638,43.59756219216722 1.383260729120263,43.59749817692988 1.383252464619649,43.59747482176028 1.3832203049324776,43.59738322256748 1.383193984294653,43.59730151180624 1.3831691009612828,43.597224094660966 1.383035880804648,43.59681059433948 1.3830018346553796,43.5967102114382 1.382997073584374,43.59669238581153 1.3829859344748507,43.5966497083773</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Capelles</name>
+      <description>name: Chemin des Capelles
+lanes: 2
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3829859344748507,43.5966497083773 1.3829526069778098,43.59654737349172 1.3829099370018143,43.59642662721091 1.382706199095376,43.59594201321849 1.3825379446426604,43.595609371498874 1.3824227806232363,43.59538199261762 1.382338788144171,43.59521622343822 1.3822653957854585,43.59504193109662</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Capelles</name>
+      <description>name: Chemin des Capelles
+lanes: 2
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+source:maxspeed: FR:zone30
+traffic_calming: table</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3822653957854585,43.59504193109662 1.3822075442811612,43.594948896903965 1.3821903864592346,43.594923003445736 1.3821310976504826,43.59484031345806</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

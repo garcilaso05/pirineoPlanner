@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: yes
+ramp: yes
+bicycle: yes
+highway: cycleway
+surface: concrete
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.343619333273466,43.57727929189461 1.3435746870038454,43.57733298124231 1.3435699259328397,43.577346126990435 1.3435560918774645,43.57738419758147 1.3434950064381441,43.57755196820702 1.3433952934416067,43.57775351360419 1.3433635829120774,43.57779347118433 1.3433292672682242,43.57781898154736</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passerelle de Carrelas</name>
+      <description>lit: no
+foot: yes
+name: Passerelle de Carrelas
+layer: 1
+bridge: yes
+bicycle: yes
+highway: cycleway
+surface: asphalt
+segregated: no
+mapillary:SE: bhFrlMR5gfUejWPUbjfiFw</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3433292672682242,43.57781898154736 1.3433051025870812,43.577830370098795 1.3430638151017666,43.57794412534005 1.343041177556607,43.577960199432894</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

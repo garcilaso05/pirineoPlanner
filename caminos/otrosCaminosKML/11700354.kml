@@ -1,0 +1,543 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Saint Céré - De Pommiers à Tourel</name>
+    <Placemark>
+      <name>Place de la République</name>
+      <description>ref: D 940
+name: Place de la République
+oneway: yes
+highway: secondary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8922722202456235,44.85880777250117 1.892245989439327,44.85883279748657 1.8922200281276158,44.85886170674368 1.8921953244573027,44.85889450026667 1.8921248965390276,44.858976897890564</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8925990273459858,44.85865278290916 1.89256147776711,44.85862890403189 1.8925291384168814,44.8586015229071 1.8925059618825513,44.858576306789956 1.8924814378752948,44.8585458691389 1.8924747903421921,44.858533579455155 1.8924672444938055,44.858519506808875 1.8924136150713435,44.85840208604253 1.8924083150111672,44.858381772989794 1.8924022064672354,44.8583633702493 1.8923983437115137,44.858347514596204 1.8923948402819057,44.858328793458 1.8923920555045248,44.858311027474294</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>layer: 1
+bridge: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8923920555045248,44.858311027474294 1.8923725620628595,44.858179024133314</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8923725620628595,44.858179024133314 1.8923701366115921,44.85816571553077 1.8923680704864392,44.8581548903494 1.8923625009316773,44.85814202748417 1.892353338115779,44.858128400485214</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quai des Récollets</name>
+      <description>name: Quai des Récollets
+oneway: yes
+highway: residential
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.892353338115779,44.858128400485214 1.89221131446936,44.85815590919008 1.8920520431694856,44.85817908781083 1.891869864829866,44.85820697855639 1.891584200569516,44.85825671065138 1.8915753072482036,44.85825817523227 1.8914886198232856,44.8582760049097 1.8914259174164543,44.858288931422386 1.8914142393177606,44.85829128748596 1.8913389604969515,44.858306506380785 1.8909187286070404,44.85840418739241 1.8901026990029461,44.85865310129413</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quai des Récollets</name>
+      <description>name: Quai des Récollets
+oneway: yes
+highway: residential
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8901026990029461,44.85865310129413 1.8899595075466573,44.85870951908185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quai des Récollets</name>
+      <description>name: Quai des Récollets
+oneway: yes
+highway: residential
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8899595075466573,44.85870951908185 1.889740228785804,44.8588010227577 1.8888226895546043,44.85914201116686 1.8887979858842912,44.85914589543029 1.8887874755954666,44.85914748734145 1.8887463327554543,44.859146277488975</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quai Maurice Fenaille</name>
+      <description>ref: D 673
+name: Quai Maurice Fenaille
+oneway: yes
+highway: residential
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8887666346808754,44.859170729239466 1.888757202370392,44.859152708809766 1.8887463327554543,44.859146277488975 1.8887370801080277,44.85914513131291 1.8887109391332597,44.85914373043103 1.8886955779419015,44.85914519498936 1.8876002621159746,44.85938512734662 1.8871619740888528,44.85945517110525 1.8871123870851694,44.85946701485965</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Anatole de Monzie</name>
+      <description>ref: D 673
+name: Avenue Anatole de Monzie
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8871123870851694,44.85946701485965 1.8870722323919693,44.859430019038086 1.887019860610905,44.859408369148696 1.886968566808182,44.85940021859999 1.8868938269765432,44.85939907242899 1.8868066005624549,44.85940550372155 1.8867232369040885,44.85942008556043 1.8866306205982961,44.859447211591515 1.8863364223427468,44.85954922063624 1.8858259097667815,44.85973349868961</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Anatole de Monzie</name>
+      <description>ref: D 673
+name: Avenue Anatole de Monzie
+highway: secondary
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8858259097667815,44.85973349868961 1.8856679859398335,44.85977889951545</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Mole</name>
+      <description>name: Chemin de la Mole
+oneway: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8856679859398335,44.85977889951545 1.8856516366016622,44.85974897190636 1.8856078886473258,44.859623530482004 1.8855451862404942,44.85944269058722 1.885508714639959,44.85939907242899 1.8854080134966094,44.85933978988651 1.8853101869621687,44.85929840032013 1.885096567587605,44.85923969076108 1.8850089818474034,44.859226000345544 1.8847668858783333,44.85920390464475 1.884543115541059,44.8591900231915 1.8840753627726181,44.859203395233685 1.8838632705340375,44.85922428108382 1.8834506743240411,44.85928050728298 1.883325269510378,44.85929610797403 1.883198517223789,44.859305277357834 1.8831136264294395,44.85929668106056 1.88302873563509,44.859278724346595 1.8829823825664298,44.85926140439021 1.8829153682462343,44.859225872992816 1.8828532946601015,44.85917671482264 1.882744957836837,44.85904401302412</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Mole</name>
+      <description>name: Chemin de la Mole
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.882744957836837,44.85904401302412 1.8827245660798875,44.859018924453935 1.882641382084578,44.858971421699735 1.8825914357547806,44.85896690065809</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Mole</name>
+      <description>name: Chemin de la Mole
+oneway: yes
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8825914357547806,44.85896690065809 1.882373863792967,44.85900580707533 1.881815830338472,44.859114375580134 1.881474740025092,44.85912348131639 1.8810799304577213,44.859093680719646</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Robert Destic</name>
+      <description>name: Avenue Robert Destic
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8810799304577213,44.859093680719646 1.8809567714322684,44.85898918747969 1.8808755637305838,44.858903606037714 1.8807593217328193,44.858781919705855 1.8806286168589799,44.85862928609401 1.8806234066303318,44.85862330045393 1.8803254354505896,44.85826689903942 1.879754196761418,44.85762731948484 1.8796087595169189,44.857447492173655 1.8795332112015242,44.857346498260405 1.8793541769653994,44.8571217766161 1.8791916717305022,44.856897690884125 1.8788230929694278,44.85641067233901 1.878487931536923,44.85597147334322 1.878321563546304,44.855743307601486 1.8782355049420854,44.855652117468026</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Robert Destic</name>
+      <description>name: Avenue Robert Destic
+highway: unclassified
+surface: asphalt
+sidewalk: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8782355049420854,44.855652117468026 1.8781013864701663,44.85565020705866 1.8778574040389995,44.855665426651534 1.8775220629434375,44.85568631378499 1.877298562100749,44.855697776233065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Envernhe</name>
+      <description>name: Chemin d'Envernhe
+highway: unclassified
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.877298562100749,44.855697776233065 1.8772689176963726,44.855253986786046 1.8772727804520943,44.85461017078964 1.877234691884048,44.85453967536649 1.8770802714867076,44.85425450871808 1.8770527830390138,44.85420362689207 1.876779156203471,44.85391228140313 1.8764706747349043,44.853642331775546 1.8763608107756562,44.85343498107258 1.8760268171530206,44.85315070051702 1.875530587790073,44.852847377220904 1.8753911692579777,44.85269339052302</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8753911692579777,44.85269339052302 1.87532541257918,44.85249189531386</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.87532541257918,44.85249189531386 1.8750143259962897,44.85193472300146 1.8745958907369467,44.85153350974574 1.8741613756340183,44.85123692856306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8741613756340183,44.85123692856306 1.8738823589067708,44.85099537011741 1.8732815656447517,44.85046868894976 1.8730669581233752,44.85022088602329</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8730669581233752,44.85022088602329 1.8729923979547933,44.8502201854738 1.872352977135557,44.850028680397784 1.872004520636847,44.84999919352706 1.8716813966291492,44.849919712642645 1.871444510888727,44.84982150774456 1.8708303327289744,44.84912477039101 1.8705878774337907,44.848839194802885 1.8705459261100221,44.848793084784795 1.8704844813445884,44.84880340222298 1.870173215098641,44.84906171970275 1.8701056617892753,44.84906757896156 1.8700210404895112,44.84899019848496 1.869720104869331,44.848657493095075 1.869619313894453,44.848496298425836 1.869463186698073,44.84806347162971 1.8695734099834345,44.84784450945427 1.8696337767705271,44.84764669125257</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: unpaved
+surface:note: chemin de terre</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8696337767705271,44.84764669125257 1.869381709501803,44.84711418369638 1.8691831818240128,44.84649810942944 1.868770136456375,44.846589377748074 1.8690169036649222,44.84617857363925 1.86897629981408,44.84614220618861 1.8688545780930819,44.84603310369895 1.8688156810412795,44.8458296107624 1.868838498249496,44.845392178129195 1.8688868276117818,44.84524110132283</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: dirt
+tracktype: grade3
+smoothness: horrible</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8688868276117818,44.84524110132283 1.8687459717752322,44.845221102086896 1.8685769986702891,44.84519537057568 1.8685286693080034,44.84518053036719 1.8684294953006366,44.84514983086798 1.8683436163594749,44.84511651998208 1.8681008915697057,44.845130786979546 1.8677132685246083,44.84507747679683 1.8672064390413081,44.84495862739469 1.8669099949975485,44.844836019903475 1.8665385416275648,44.84470761614203 1.866305159316751,44.844721883240766 1.8661295386787053,44.84477608544528 1.865652084105196,44.84478079867805</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade3
+smoothness: horrible</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.865652084105196,44.84478079867805 1.8654442139484506,44.84471621461714 1.8651705871129078,44.844424311592505 1.8651281866314975,44.844414502911825</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade3
+smoothness: horrible</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8651281866314975,44.844414502911825 1.8649882291102315,44.84438240176341 1.8649501405421849,44.84438552270918</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade3
+smoothness: horrible</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8649501405421849,44.84438552270918 1.86477901148056,44.84439947142393 1.8643886934896101,44.84448609350378 1.864124498964551,44.8444574954933 1.8640440997466219,44.844464183225305 1.8638724316958264,44.844295906913366 1.8632313939090792,44.84412278943757 1.8626922250755504,44.84390413074909 1.8624797735108563,44.84387897188957</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8624797735108563,44.84387897188957 1.8624705208634298,44.84379298583106 1.8624669276022934,44.8437596104671 1.8619948629204885,44.843588402189226 1.8613022618364325,44.843685726004836</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 1.5
+highway: track
+tracktype: grade4
+smoothness: horrible</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8613022618364325,44.843685726004836 1.8612880684549435,44.84373387830307 1.8612680360241072,44.84381948228944 1.8611312226063361,44.84397642260073 1.8610292638215884,44.844182724575454 1.8609044878286243,44.84429112994806 1.8608267835565482,44.844502207743986 1.8606551155057527,44.84459730077714 1.8604580251324168,44.84465061140421 1.8601817033510217,44.844790288834744 1.8601105567805192,44.844893024457825 1.8600476747106311,44.844972894431265 1.8600208150836357,44.84500709708938 1.8598370197765048,44.84520396897798 1.8597417983563882,44.84532281787396 1.8595767778386956,44.845392178129195 1.8594897310876646,44.84542841867011 1.8593274055158242,44.84574311808529 1.859163822302586,44.84601698988699 1.8590980656237885,44.846155772333134 1.8589679895706477,44.846212775581506 1.8588566883069453,44.84649810942944 1.858737302205686,44.84659218012263 1.8586622030479332,44.84679382335227 1.858618005935955,44.846810000637014 1.8586998424583379,44.846997312882635 1.858591056477431,44.8471532255012 1.8585615917361122,44.84721882586409 1.8585924937818858,44.84724920581265</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8585924937818858,44.84724920581265 1.858835218571655,44.84702667391047 1.8589023227233785,44.846993491489634 1.8589451723624308,44.847225513275525 1.8588807631565598,44.84755918227565 1.8589585572601648,44.84774560043834 1.8589585572601648,44.847912911340174 1.8589130126752595,44.84810308598905 1.8589935017247166,44.84827039585251 1.85915169504625,44.84853088112105 1.8592495215806908,44.848664498779684 1.859261738668555,44.848681185043205 1.8594628714606691,44.84886562525241 1.8596265445054359,44.84910521831628 1.8598625319305742,44.84937722720284 1.8599831756732315,44.84938671660228 1.8601253789827072,44.8495654227188 1.8602399141814328,44.84974209030178</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8602399141814328,44.84974209030178 1.860329835541373,44.85001396880759 1.8605336632793397,44.85020228961571 1.8606135235080976,44.850352716548656 1.8607031753734529,44.85056880332238 1.860710811053368,44.85071158700565 1.8607368621966074,44.85078482559969 1.8607984866250982,44.85091780117411</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Tourel</name>
+      <description>name: Route de Tourel
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8607984866250982,44.85091780117411 1.8609997990802691,44.851252085637135 1.861259861355022,44.851495489868434 1.8614884825948304,44.851713992372034 1.8616408368670168,44.85193192088683 1.8617194394543775,44.852121827529196</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Sirieys</name>
+      <description>name: Route de Sirieys
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8617194394543775,44.852121827529196 1.8618895803691897,44.852086801200265</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Sirieys</name>
+      <description>name: Route de Sirieys
+layer: 1
+bridge: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8618895803691897,44.852086801200265 1.8619741118374253,44.85207629329744 1.8620766096113435,44.852079031720784</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Sirieys</name>
+      <description>name: Route de Sirieys
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: unclassified
+sidewalk: no
+maxweight: 3.5
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8620766096113435,44.852079031720784 1.8621615902372213,44.85211539542312 1.8624834566035209,44.85229039939972 1.862757083439064,44.85254519863467 1.86309502964895,44.852803817750114 1.863695643247912,44.853123189421034 1.8642216068467639,44.85345032861641 1.8645915330807645,44.85374689840092 1.8650100581716358,44.85387241631012 1.8657341002906362,44.85399029208838 1.8663190832036545,44.854328698033385 1.8665974711102034,44.854465613686216 1.8667952801357666,44.854600427524915</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: unclassified
+sidewalk: no
+maxweight: 3.5
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8667952801357666,44.854600427524915 1.8668592401839956,44.854786631854466 1.8668791827833033,44.854857318018894 1.866946736092669,44.855150123386714 1.8669906637100626,44.855575127920304 1.8672376105816668,44.8557750840177 1.8678991299568921,44.856004905311494 1.8686149974068071,44.85628719770971 1.8693178392851024,44.856549493421426 1.8699641771320263,44.85678657103745 1.8703237727402593,44.856761099409155</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: unclassified
+sidewalk: no
+maxweight: 3.5
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8703237727402593,44.856761099409155 1.870411178817404,44.85675492253758 1.8710478148592598,44.856714422621046 1.8714934690717118,44.85689832767346 1.8716949611899394,44.85699658418337</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8716949611899394,44.85699658418337 1.8719148687714917,44.856909216769985 1.8722072703964727,44.85678370547983 1.8726605602888393,44.8565896750576 1.8730575258128919,44.856403412878706 1.873475961072235,44.85623230586067 1.8739211661270445,44.85605928793842 1.8743235215428016,44.85589582150335 1.874520701747666,44.855840292480195 1.874644130267704,44.8558194054026 1.8747781589080947,44.85580042872186 1.8750249261166423,44.855802275446095 1.8751082897750082,44.85579947351964 1.8753093327355945,44.85579278710368</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Robert Destic</name>
+      <description>name: Avenue Robert Destic
+highway: unclassified
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8753093327355945,44.85579278710368 1.875344726357789,44.8557910040593 1.877298562100749,44.855697776233065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Robert Destic</name>
+      <description>name: Avenue Robert Destic
+highway: unclassified
+surface: asphalt
+sidewalk: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.877298562100749,44.855697776233065 1.8775220629434375,44.85568631378499 1.8778574040389995,44.855665426651534 1.8781013864701663,44.85565020705866 1.8782355049420854,44.855652117468026</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Pommiers</name>
+      <description>ref: C 9
+name: Rue de Pommiers
+highway: residential
+surface: asphalt
+sidewalk: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8782355049420854,44.855652117468026 1.8786102820786201,44.85544509240414</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Pommiers</name>
+      <description>ref: C 9
+name: Rue de Pommiers
+highway: residential
+surface: asphalt
+sidewalk: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8786102820786201,44.85544509240414 1.8786622047020423,44.85541637247337 1.879144959335728,44.855347979498525 1.8799064612020762,44.855370012998364 1.8800676189640473,44.855374598003046 1.8807565369554384,44.85540701142855 1.8810510945371013,44.85541191483316 1.881342597846798,44.855401916981734 1.8819072788343951,44.85533269614108 1.8825317876199152,44.855220427020235 1.8827376814830354,44.855206289883434 1.8832916725187523,44.855242778972695 1.8834677423144397,44.855294105645505 1.883811976731314,44.855505206802654 1.884267961569533,44.855847424651316 1.8845063744459385,44.856013629460016 1.8846970867807569,44.85608323156115 1.885335519453181,44.85623911958491 1.8856821793213223,44.85637927835057 1.8857203577208974,44.85639360623788 1.886119928359274,44.85654331652717 1.8865280329928493,44.85677822908042</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Pommiers</name>
+      <description>ref: C 9
+name: Rue de Pommiers
+layer: 1
+bridge: yes
+highway: residential
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8865280329928493,44.85677822908042 1.8866096000206478,44.85682477845878</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Pommiers</name>
+      <description>ref: C 9
+name: Rue de Pommiers
+highway: residential
+surface: asphalt
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8866096000206478,44.85682477845878 1.886764289912573,44.856888393759036 1.8869233815493907,44.856919787469906 1.8872129983969907,44.85687419335276</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Narbonnet</name>
+      <description>name: Chemin du Narbonnet
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8872129983969907,44.85687419335276 1.8875382783613703,44.85710311875808 1.887633140455373,44.85722047849477</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Croix de Lagarde</name>
+      <description>name: Rue Croix de Lagarde
+oneway: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.887633140455373,44.85722047849477 1.8876661086263005,44.85724410324192 1.8876990767972277,44.857267727979384 1.8878162171102768,44.85734477894257 1.8881168832358717,44.85761547535202 1.8882132724658576,44.85771252075561</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Henri Rouzet</name>
+      <description>name: Rue Henri Rouzet
+oneway: no
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8882132724658576,44.85771252075561 1.8883098413589008,44.857685775975675 1.8883957203000623,44.85765158084608</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Rampeaux</name>
+      <description>name: Rue des Rampeaux
+oneway: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8883957203000623,44.85765158084608 1.888543223669715,44.85774862618882 1.888741661515977,44.857887380367856 1.8890178934658435,44.858073701424225 1.8891815665106102,44.858185901304715 1.889356019338786,44.8582988014178 1.8896033255365041,44.85845270945001 1.8897007029133026,44.85852288169721 1.8898359891950909,44.858617505844315 1.8899595075466573,44.85870951908185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quai des Récollets</name>
+      <description>name: Quai des Récollets
+oneway: yes
+highway: residential
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8899595075466573,44.85870951908185 1.8901026990029461,44.85865310129413</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passage des Quais</name>
+      <description>name: Passage des Quais
+bicycle: no
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8902310682570471,44.85882388273475 1.8902475972582746,44.85884438666187 1.8902570295687582,44.85885368347114 1.890267270362997,44.858862407188056 1.8904007600142174,44.858952318704425 1.8903968972584955,44.85896569080182 1.8904421723488152,44.85899631926078</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Faidherbe</name>
+      <description>name: Rue Faidherbe
+oneway: yes
+highway: secondary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8904421723488152,44.85899631926078 1.8909216032159497,44.85885151846089 1.89129152944995,44.85886412646059 1.8915121556837298,44.858910101062314 1.8915187133853038,44.858911374596474 1.8917479634458114,44.85895690342389 1.8917725772845961,44.858958877400205 1.8918175828803303,44.858956585040595</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Faidherbe</name>
+      <description>name: Rue Faidherbe
+oneway: yes
+highway: secondary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8918175828803303,44.858956585040595 1.8918951074893497,44.858945186917886</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Faidherbe</name>
+      <description>name: Rue Faidherbe
+oneway: yes
+highway: secondary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8918951074893497,44.858945186917886 1.8919506233739085,44.85894397706116 1.8920034443126148,44.85894467750454 1.8920524024955991,44.858949516931254</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

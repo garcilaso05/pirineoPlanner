@@ -1,0 +1,355 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Carrer de la Força</name>
+      <description>name: Carrer de la Força
+highway: living_street
+name:ca: Carrer de la Força
+maxspeed: 20
+est_width: 2.3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0410290919194116,42.17485367965776 3.0410679889712138,42.1749378958203 3.0410670008244014,42.175006600148095 3.0409395298855846,42.17523887614547</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Vilamacolum</name>
+      <description>name: Carrer de Vilamacolum
+highway: residential
+name:ca: Carrer de Vilamacolum
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0409395298855846,42.17523887614547 3.0411785715826887,42.17532409039894 3.0411202709207497,42.17548899296806 3.0411243133395276,42.17581486900512</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Tramuntana</name>
+      <description>name: Carrer de la Tramuntana
+highway: residential
+name:ca: Carrer de la Tramuntana
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0411243133395276,42.17581486900512 3.041283135481761,42.17581047518208 3.0424065685760806,42.175985428990835</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Torroella de Fluvià</name>
+      <description>name: Camí de Torroella de Fluvià
+width: 4
+highway: unclassified
+name:ca: Camí de Torroella de Fluvià
+surface: asphalt
+maxspeed: 30
+brp_access: 1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0424065685760806,42.175985428990835 3.0433868102141117,42.176695092064506 3.043939184282317,42.17702382447423 3.0442406588916673,42.177202702651606 3.0445155433686075,42.1773666683221 3.0447667123220477,42.1775203150201 3.0449965912032533,42.17766038083547 3.0457430013728284,42.17816418915024 3.046417995477316,42.17852100656455 3.046494621771051,42.178562213520586 3.0465801413860993,42.17863137990178 3.046619128269431,42.17866952456279 3.0467858555861635,42.178880418189564 3.0469569846477875,42.17911827180535 3.0470585841064217,42.17926272766485 3.047111225382071,42.17934107985244 3.047156141146277,42.17940139166564 3.047192522915284,42.17944532738738 3.0472229758034155,42.17947361931325 3.047276335731292,42.17950930040642 3.0473431703884306,42.179546978553844 3.0474788159963326,42.17961541159811 3.047609161544058,42.179681914067245 3.0477717566104845,42.17976792116085 3.047948814552984,42.17986517826741 3.048146982904661,42.17997821200617 3.0483164051672462,42.18007227349693 3.048425730137323,42.180134515100036 3.048544307754827,42.18020421230907 3.0486577649752116,42.180278169817456 3.048783079957346,42.180369168721235 3.0489016575748495,42.18045331097075 3.0490431422320983,42.180549967910316 3.0491829200903076,42.18064409511855 3.049312457154277,42.180729501792335 3.04942600420619,42.18080359182198 3.049529759621506,42.18087661668089 3.0496299217756855,42.18095110594415 3.049728287299297,42.18103378293254 3.0498093153379235,42.1811038785554 3.049901123159961,42.181188885203646 3.050006226048203,42.18128866968252 3.050149327672963,42.181426197598796 3.0502873987321326,42.181554805234356 3.0504296918731373,42.18169233257177 3.05053811852793,42.18180649467934 3.0506202245448986,42.18190381521704 3.0506872388650943,42.181988487956964 3.0507846162418923,42.182109705573616 3.0508531576980706,42.18220882293589 3.0509290653395786,42.18231299917672 3.051001379719951,42.18241531139442 3.0511204064950963,42.182592510172235 3.0512148194314572,42.18273602617375 3.051274916723965,42.182831880835614 3.051313903607296,42.18295449471207 3.0513476802619786,42.183101870685405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 3.5
+highway: track
+surface: compacted
+tracktype: grade2
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0513476802619786,42.183101870685405 3.0516357699735956,42.1834354956035</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Torroella de Fluvià</name>
+      <description>name: Camí de Torroella de Fluvià
+width: 3
+highway: track
+name:ca: Camí de Torroella de Fluvià
+surface: ground
+tracktype: grade3
+brp_access: 3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0516357699735956,42.1834354956035 3.0517510238245484,42.183594585876314 3.052242671779547,42.18443150062303 3.05251117821797,42.18475932748698 3.0536096381473916,42.18645741015274 3.053707195187247,42.186736370333634 3.054069934898975,42.18725947559589 3.054198932973774,42.187461687667394 3.054495287186005,42.18783828762223 3.054547569135541,42.187963820441944 3.054627788690413,42.188214885333515 3.055816888632002,42.18942486834507 3.056169118054905,42.189655094625884 3.056646842123,42.18985377144484 3.056737661798224,42.18991793360741</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Torroella de Fluvià</name>
+      <description>name: Camí de Torroella de Fluvià
+highway: unclassified
+name:ca: Camí de Torroella de Fluvià</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.056737661798224,42.18991793360741 3.056836386647949,42.1899918797534 3.0567131377909678,42.1913183697301</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Valentí</name>
+      <description>name: Carrer de Sant Valentí
+source: Institut Cartogràfic i Geològic de Catalunya, cartografía 1:1.000
+highway: residential
+name:ca: Carrer de Sant Valentí
+surface: asphalt
+maxspeed: 30
+source:date: 2015</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0567131377909678,42.1913183697301 3.0563887561418723,42.19188729428175 3.0562254424232194,42.19216396760197 3.0561123445289486,42.192539208433104 3.056067069438629,42.19268942394133 3.055915882976312,42.19315138264462 3.055898635322857,42.193172214300276 3.055738465707698,42.19336508981472 3.055459359148922,42.19374571440498</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>noname: yes
+source: PNOA
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.055459359148922,42.19374571440498 3.0554268401356373,42.19379230232467 3.0554157908576425,42.193857924678994</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Valentí</name>
+      <description>name: Carrer de Sant Valentí
+oneway: no
+source: Sergi Font
+highway: residential
+name:ca: Carrer de Sant Valentí
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0554157908576425,42.193857924678994 3.0554052805688183,42.19398510939285 3.0554770559600195,42.19414210995037</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Valentí</name>
+      <description>hgv: no
+name: Carrer de Sant Valentí
+goods: delivery
+oneway: no
+source: Sergi Font
+highway: residential
+name:ca: Carrer de Sant Valentí
+surface: asphalt
+maxspeed: 30
+maxwidth: 2
+sidewalk: no
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0554770559600195,42.19414210995037 3.0558473415201335,42.194770707258435 3.055934028945051,42.1949179225799 3.0560178417610593,42.19502280995959</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Santa Maria</name>
+      <description>hgv: no
+lit: yes
+name: Carrer de Santa Maria
+goods: delivery
+source: PNOA
+highway: residential
+name:ca: Carrer de Santa Maria
+surface: asphalt
+maxspeed: 30
+maxwidth: 2
+sidewalk: no
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0560178417610593,42.19502280995959 3.056098420642045,42.19498527414066 3.0566457641446587,42.19513847870821</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Pere</name>
+      <description>hgv: no
+lit: yes
+name: Carrer de Sant Pere
+goods: delivery
+oneway: no
+highway: residential
+name:ca: Carrer de Sant Pere
+surface: asphalt
+maxspeed: 30
+maxwidth: 2
+sidewalk: no
+motor_vehicle: permit
+name:etymology:wikidata: Q33923</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0566457641446587,42.19513847870821 3.0565975246139017,42.195298604371004</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Fluvià</name>
+      <description>lit: yes
+name: Carrer del Fluvià
+oneway: no
+source: Institut Cartogràfic i Geològic de Catalunya, cartografía 1:1.000
+highway: residential
+name:ca: Carrer del Fluvià
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+source:date: 2015</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0565975246139017,42.195298604371004 3.0571169305111794,42.1954506767882 3.057585491763376,42.19551336911799 3.057863430512283,42.19561339719695</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Mar</name>
+      <description>lit: yes
+name: Carrer del Mar
+oneway: no
+source: sergi font
+highway: living_street
+name:ca: Carrer del Mar
+surface: asphalt
+maxspeed: 20
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.057863430512283,42.19561339719695 3.0578716950128966,42.19599387514336</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de les Escoles</name>
+      <description>name: Carrer de les Escoles
+highway: residential
+name:ca: Carrer de les Escoles
+surface: asphalt
+maxspeed: 30
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0578716950128966,42.19599387514336 3.058435657348267,42.19594183159238</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+highway: track
+surface: compacted
+tracktype: grade2
+brp_access: 2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.058435657348267,42.19594183159238 3.0598043305151514,42.19600019756671 3.060778643272308,42.19600871619927 3.0618216771486986,42.19585877478798 3.0622663432143375,42.1958981069902 3.0628174596411455,42.196024222769665 3.063099081482717,42.19601829965954 3.063399478113726,42.19594263021497 3.0635025148768142,42.19581152287136 3.0634709840103427,42.19568707047123 3.0631555855140875,42.19521301772058 3.0631494769701555,42.19514812885316 3.063173372156714,42.19508729963899 3.0632272710737607,42.195048898671665 3.0633046160197233,42.19502826729311 3.0641335813639086,42.194903014714846 3.065652812172411,42.19480697869633 3.066208779501753,42.19467640142249 3.0673770385287504,42.194090331089804 3.0681689932832303,42.19380687768105 3.069188760793763,42.19342552135929 3.0701584921429697,42.19285022136046 3.071195956464599,42.19242719548458 3.071273481073619,42.19230346853293 3.0713174985225407,42.1920777111471 3.0713810992446566,42.19199311847556 3.072091666634395,42.19165547877763 3.0723454407021586,42.191593780967914 3.072813103639071,42.19139630763809 3.073338797743338,42.19129487519244 3.0744128234970316,42.191017931839674 3.076056021814743,42.1907648148037 3.076866122537962,42.19078731117873 3.077698142154113,42.19070777514237</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Estany</name>
+      <description>name: Camí de l'Estany
+width: 4
+highway: unclassified
+name:ca: Camí de l'Estany
+surface: asphalt
+tracktype: grade1
+brp_access: 2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.077698142154113,42.19070777514237 3.0781255605662974,42.19049998261527 3.078756537221863,42.18996073053233</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Comtessa de Molins</name>
+      <description>name: Carrer Comtessa de Molins
+highway: residential
+name:ca: Carrer Comtessa de Molins
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.078756537221863,42.18996073053233 3.079376644262491,42.18991427290486 3.079996391977005,42.189849378597295 3.0806598876458557,42.18978448422311 3.0813241019669335,42.189717593029215</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Delícies</name>
+      <description>name: Carrer Delícies
+highway: tertiary
+name:ca: Carrer Delícies
+surface: asphalt
+maxspeed: 30
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0813241019669335,42.189717593029215 3.0813009254326027,42.18961961893388</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Duc</name>
+      <description>name: Carrer Duc
+oneway: yes
+highway: residential
+name:ca: Carrer Duc
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0813009254326027,42.18961961893388 3.081647585300745,42.18956816916132 3.0818418010651714,42.18952111221754 3.0820665595492582,42.18945302268807</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Sant Sebastià</name>
+      <description>ref: GIV-6303
+name: Carrer Sant Sebastià
+highway: tertiary
+name:ca: carrer de Sant Sebastià
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0820665595492582,42.18945302268807 3.0820659307285596,42.18943571741963</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Mar</name>
+      <description>lit: yes
+ref: GIV-6303
+name: Carrer del Mar
+lanes: 1
+oneway: yes
+highway: tertiary
+name:ca: Carrer del Mar
+surface: asphalt
+maxspeed: 30
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0820659307285596,42.18943571741963 3.082090005578174,42.18938267008645 3.0821184821726804,42.1893501893887 3.0821710336168016,42.1893129164363 3.0822826043750893,42.18923570810784 3.0824570572032646,42.18913107736049 3.0825970147245307,42.18903137181797 3.0827099329557446,42.18890910252343 3.082941788130576,42.18858249525154 3.0829879615361797,42.18851753301705 3.083015270320817,42.188432070303584 3.0830784218852902,42.188224669655604 3.0831593600923894,42.187947712851226</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Carme</name>
+      <description>lit: yes
+ref: GIV-6303
+name: Carrer del Carme
+lanes: 1
+oneway: yes
+highway: tertiary
+name:ca: carrer del Carme
+surface: asphalt
+maxspeed: 30
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0831593600923894,42.187947712851226 3.08322439811896,42.187918026950165 3.0833134211636164,42.1878985247699 3.0835996244131363,42.187855793009184 3.084294561116931,42.18778530550898 3.084460120623795,42.18776347367051 3.0845848966167586,42.18773418704608</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0845848966167586,42.18773418704608 3.084620020744368,42.187804474921926</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

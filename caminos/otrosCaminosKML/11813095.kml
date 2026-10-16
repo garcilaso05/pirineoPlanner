@@ -1,0 +1,253 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Camí del Clos</name>
+      <description>lit: no
+name: Camí del Clos
+highway: residential
+name:ca: Camí del Clos
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.98055199170969,42.306115100215095 2.980672904946932,42.30611808982327 2.98116230711372,42.30617562314402</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Pont</name>
+      <description>name: Camí del Pont
+highway: track
+name:ca: Camí del Pont
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.98116230711372,42.30617562314402 2.982033223781674,42.306286969236695</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Pont</name>
+      <description>foot: yes
+name: Camí del Pont
+width: 3
+bicycle: yes
+highway: track
+name:ca: Camí del Pont
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.982033223781674,42.306286969236695 2.9827233994144633,42.30633918756315 2.982790683229244,42.30635420198488 2.9832313068761045,42.306322512249864 2.9837190920753818,42.30622491839551 2.984197085638061,42.30616147234368 2.986860320960891,42.306185920672796 2.989816227403286,42.30646880309469 2.991820907791327,42.306590711872346 2.993689044256182,42.306644391520834 2.9958255074964035,42.30681021351223 2.9959377070753903,42.306985800986105 2.995918123802196,42.307200385088684 2.99607910190111,42.30736627204995 2.996762001180098,42.30739550318725 2.9979009751288332,42.30721593078163</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Perelada</name>
+      <description>name: Carretera de Perelada
+lanes: 2
+highway: unclassified
+surface: asphalt
+smoothness: good
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9979009751288332,42.30721593078163 2.9975668018431407,42.307571288331225 2.996849497088771,42.30829229459667 2.9966924715771075,42.30843160536852</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9966924715771075,42.30843160536852 2.996853270012964,42.30851451406494 2.997210530001459,42.308663590004 2.9975399422161457,42.308800109772186 2.9977009203150597,42.308815987234524 2.9982373043712074,42.308792204255965 2.9990987887286784,42.308877769790435 2.999817710450559,42.30900478922028 3.000847628923802,42.3092824772485 3.0012413605128314,42.3093792691752 3.0016597957721745,42.30939521292374 3.002099700766808,42.30929197708043 3.0025856893355165,42.30913167552871 3.002829222609041,42.30889530805332 3.003033140178536,42.30870491134708 3.003515894812222,42.30843512633301 3.003719722550189,42.308205000994526 3.0038623750173072,42.307925713801254 3.0040876724905643,42.30771153077548 3.004331295595618,42.307665491959206 3.0046961014324984,42.3075940752584 3.0048783696036465,42.307546508369 3.005200325801475,42.30734806901668 3.005490032480603,42.3070782781875 3.0057904291116126,42.30675301294675 3.0065735803763083,42.30586430480168 3.0069062265260182,42.30549930434067 3.0070564248415224,42.305102611414384 3.00716404301256,42.30486529869161</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: no
+ref: C-252
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 70
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.00716404301256,42.30486529869161 3.00720419770576,42.30490987794153</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: no
+ref: C-252
+lanes: 2
+layer: 1
+bridge: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+smoothness: good
+cycleway:both: no
+maxweight:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.00720419770576,42.30490987794153 3.0078037333263814,42.305510997144</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: no
+ref: C-252
+lanes: 2
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0078037333263814,42.305510997144 3.0081282946385337,42.305834275720954 3.0082516333270437,42.30596030475345 3.0083016694883686,42.30600860363576 3.008347663230916,42.30604587413724 3.0083776669614055,42.30606626992815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Sebastià</name>
+      <description>lit: no
+ref: C-252
+name: Carrer de Sant Sebastià
+lanes: 1
+oneway: yes
+source: PNOA
+highway: tertiary
+name:ca: carrer de Sant Sebastià
+surface: asphalt
+source:date: 2008
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0083776669614055,42.30606626992815 3.00846848663663,42.306161671650756 3.008515558357518,42.30624411828759</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: yes
+ref: C-252
+lanes: 1
+highway: tertiary
+surface: asphalt
+junction: roundabout
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.008515558357518,42.30624411828759 3.0085174448196144,42.30628437824989 3.0085348721361265,42.30632257868539 3.0085585876596275,42.30634941862967 3.008591465999026,42.306371010160696</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: yes
+ref: C-252
+lanes: 1
+highway: tertiary
+surface: asphalt
+junction: roundabout
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.008591465999026,42.306371010160696 3.0086310817030557,42.30638781833204 3.0086710567331987,42.30639499336034</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Sebastià</name>
+      <description>lit: yes
+name: Carrer de Sant Sebastià
+lanes: 1
+oneway: yes
+source: PNOA
+highway: residential
+name:ca: carrer de Sant Sebastià
+surface: asphalt
+maxspeed: 30
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0086710567331987,42.30639499336034 3.008630093556243,42.30642249762789</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont</name>
+      <description>name: Carrer del Pont
+oneway: yes
+source: PNOA
+highway: pedestrian
+name:ca: Carrer del Pont
+surface: asphalt
+source:date: 2008</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.008630093556243,42.30642249762789 3.0086885738812392,42.306536899307496</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont</name>
+      <description>name: Carrer del Pont
+oneway: yes
+tunnel: yes
+highway: pedestrian
+name:ca: Carrer del Pont
+surface: paving_stones
+maxheight: 2.8</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0086885738812392,42.306536899307496 3.0087025875996716,42.30657862065807</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Burriana</name>
+      <description>name: Carrer de Burriana
+oneway: yes
+highway: pedestrian
+name:ca: Carrer de Burriana</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0087025875996716,42.30657862065807 3.008761966239952,42.3067065748188 3.0087123792362687,42.3067152113831</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Forn</name>
+      <description>name: Carrer del Forn
+access: private
+highway: pedestrian
+name:ca: Carrer del Forn</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0087123792362687,42.3067152113831 3.008744179597326,42.306874721869235 3.0087980785143733,42.307043200644344 3.0088303280330737,42.307305816700186 3.0089005762882914,42.30751129821822 3.009015830139244,42.307709072715426 3.0090418812824837,42.307721628750876</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0090418812824837,42.307721628750876 3.009041432124842,42.30775670591599</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.009041432124842,42.30775670591599 3.00904942713087,42.30783841969076</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Sabateria</name>
+      <description>name: Carrer de la Sabateria
+oneway: yes
+bicycle: yes
+highway: living_street
+name:ca: Carrer de la Sabateria</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.00904942713087,42.30783841969076 3.0092377140144215,42.30786060861617</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

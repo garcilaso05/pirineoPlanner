@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4853202150111784,43.66697957384088 1.485500866214815,43.6671136294958 1.4855644669369306,43.66720148354837</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Estaquebiau</name>
+      <description>name: Chemin d'Estaquebiau
+highway: residential
+surface: asphalt
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4855644669369306,43.66720148354837 1.4856128861307447,43.66727400203334 1.485629325300444,43.667351913820546 1.4856118979839321,43.66743041033125 1.4855675212088963,43.66756738909577 1.4854820015938484,43.6678080758831 1.485315094614059,43.66808151153742 1.4852770060460123,43.66815097491183</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Altres Itineraris - Enllaços</name>
+    <Placemark>
+      <name>Carrer Formentera</name>
+      <description>lit: yes
+name: Carrer Formentera
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Carrer Formentera
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7618311744790813,42.10714092000893 2.7615377847072877,42.106284921774865</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de la Mediterrània</name>
+      <description>lit: yes
+name: Passeig de la Mediterrània
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Passeig de la Mediterrània
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7615377847072877,42.106284921774865 2.761549372974453,42.106226473015475 2.761566440964851,42.10620967815104</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lanes: 1
+width: 3
+oneway: no
+source: IGCG:2018
+highway: unclassified
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.761566440964851,42.10620967815104 2.7615369762235322,42.10619341645267 2.761496192709633,42.106155627981735 2.761484784105525,42.10611997217282</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.761484784105525,42.10611997217282 2.761862525682497,42.10598061441699 2.7620412005925083,42.10591470095757 2.7621949023376215,42.1058579846702 2.76233243440762,42.105807333183826 2.7629298140715592,42.10558679880636 2.7636871836876007,42.10530741417192 2.7636552934950145,42.105100807376516</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

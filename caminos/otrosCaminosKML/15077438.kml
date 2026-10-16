@@ -1,0 +1,639 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Mataró-Argentona</name>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4374073045651685,41.527212477518994 2.437293398187142,41.527163383862536 2.43688170029243,41.526985772117506 2.4368280708699683,41.526975079081325 2.4368570864536454,41.52701247107434 2.4370652261049757,41.52711677848023</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4370652261049757,41.52711677848023 2.4370130339869682,41.52711590420866 2.436947995960398,41.52712188960603</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: -1
+tunnel: yes
+highway: footway
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.436947995960398,41.52712188960603 2.436898319125186,41.52712457967209 2.436775968583489,41.52714838675183 2.436699791447396,41.527177775705404 2.4366474196663317,41.52720487809241 2.436580315514608,41.527250407386965</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>ramp: yes
+highway: footway
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.436580315514608,41.527250407386965 2.4363845726141986,41.5274251938494 2.436369660580482,41.52741530790203</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda d'Ernest Lluch</name>
+      <description>name: Avinguda d'Ernest Lluch
+highway: steps
+name:ca: Avinguda d'Ernest Lluch
+name:etymology:wikidata: Q1892914</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.436369660580482,41.52741530790203 2.436308395478105,41.527471530004405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda d'Ernest Lluch</name>
+      <description>name: Avinguda d'Ernest Lluch
+footway: sidewalk
+highway: footway
+name:ca: Avinguda d'Ernest Lluch
+name:etymology:wikidata: Q1892914</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.436308395478105,41.527471530004405 2.4362692289317174,41.52750959422301 2.4360593824813472,41.527382085727666</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda d'Ernest Lluch</name>
+      <description>name: Avinguda d'Ernest Lluch
+footway: crossing
+highway: footway
+name:ca: Avinguda d'Ernest Lluch
+name:etymology:wikidata: Q1892914</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4360593824813472,41.527382085727666 2.4360525552851877,41.527393383958916 2.436026504141948,41.52742028450159 2.4360054835643,41.52744140141973</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda d'Ernest Lluch</name>
+      <description>name: Avinguda d'Ernest Lluch
+footway: sidewalk
+highway: footway
+name:ca: Avinguda d'Ernest Lluch
+name:etymology:wikidata: Q1892914</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4360054835643,41.52744140141973 2.4359975783897996,41.527462787336184 2.436057855345364,41.527496681981745 2.436081570868865,41.527528424570214 2.436065760519864,41.52755801510477 2.436055070567983,41.527569784063616 2.4354523908438677,41.528101402514864 2.4346009676175786,41.52887209019789 2.434572580854601,41.528893273891995 2.434610130433477,41.52891217108628</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda d'Ernest Lluch</name>
+      <description>name: Avinguda d'Ernest Lluch
+footway: crossing
+highway: footway
+name:ca: Avinguda d'Ernest Lluch
+name:etymology:wikidata: Q1892914</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.434610130433477,41.52891217108628 2.4346564835021374,41.52893517051102 2.4346936737549,41.52895601793575</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Porta Laietana</name>
+      <description>name: Porta Laietana
+footway: sidewalk
+highway: footway
+name:ca: Porta Laietana</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4346936737549,41.52895601793575 2.4347357149101967,41.5289854060682 2.4347709288693347,41.52900517748163 2.4346865770641557,41.52908372507797</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Porta Laietana</name>
+      <description>name: Porta Laietana
+footway: crossing
+highway: footway
+name:ca: Porta Laietana</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4346865770641557,41.52908372507797 2.434629983201256,41.529134431266726 2.4345762639472652,41.52918359067703</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Porta Laietana</name>
+      <description>name: Porta Laietana
+footway: sidewalk
+highway: footway
+name:ca: Porta Laietana</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4345762639472652,41.52918359067703 2.434119919782933,41.52975877317713</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Porta Laietana</name>
+      <description>name: Porta Laietana
+footway: crossing
+highway: footway
+name:ca: Porta Laietana</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.434119919782933,41.52975877317713 2.4340836278454545,41.52981707795744 2.434046437592692,41.5298704735233</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del President Lluís Companys</name>
+      <description>name: Avinguda del President Lluís Companys
+footway: sidewalk
+highway: footway
+name:ca: Avinguda del President Lluís Companys
+name:etymology:wikidata: Q7981</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.434046437592692,41.5298704735233 2.4339840046804455,41.53001539451583 2.434001521828486,41.530020774407205</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del President Lluís Companys</name>
+      <description>name: Avinguda del President Lluís Companys
+footway: crossing
+highway: footway
+name:ca: Avinguda del President Lluís Companys
+name:etymology:wikidata: Q7981</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.434001521828486,41.530020774407205 2.434049132538544,41.53002649054131 2.4340908143677273,41.53003738481904 2.434130609734814,41.53004767385742</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del President Lluís Companys</name>
+      <description>name: Avinguda del President Lluís Companys
+footway: sidewalk
+highway: footway
+name:ca: Avinguda del President Lluís Companys
+name:etymology:wikidata: Q7981</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.434130609734814,41.53004767385742 2.4341216265819727,41.530067982934916 2.4339092648488068,41.53054961554676 2.433975380853718,41.53058942640366 2.433958941684019,41.5306356930444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del President Lluís Companys</name>
+      <description>name: Avinguda del President Lluís Companys
+footway: crossing
+highway: footway
+name:ca: Avinguda del President Lluís Companys
+name:etymology:wikidata: Q7981</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.433958941684019,41.5306356930444 2.4339340583506486,41.53066797207649 2.433922829409597,41.530707513868855</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del President Lluís Companys</name>
+      <description>name: Avinguda del President Lluís Companys
+footway: sidewalk
+highway: footway
+name:ca: Avinguda del President Lluís Companys
+name:etymology:wikidata: Q7981</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.433922829409597,41.530707513868855 2.4338790814552604,41.53074328975539 2.4338274283264236,41.53078471444142 2.4334451053415025,41.53156128789872 2.4332323842822228,41.53203699169722 2.4332316656299953,41.532094621959416 2.433294907025998,41.53215810260886 2.4333186225494985,41.532166104932074 2.433310268217356,41.53218641334452</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del President Lluís Companys</name>
+      <description>name: Avinguda del President Lluís Companys
+footway: crossing
+highway: footway
+name:ca: Avinguda del President Lluís Companys
+name:etymology:wikidata: Q7981</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.433310268217356,41.53218641334452 2.4332699338610992,41.53221169798156 2.4332464878321836,41.532241824344716</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del President Lluís Companys</name>
+      <description>name: Avinguda del President Lluís Companys
+footway: sidewalk
+highway: footway
+name:ca: Avinguda del President Lluís Companys
+name:etymology:wikidata: Q7981</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4332464878321836,41.532241824344716 2.433218011237677,41.532272085186435 2.4331583631028115,41.53227753213644 2.4331173999258557,41.532297369789994 2.4330929657501272,41.532328101329426 2.4330872165323094,41.532369323262 2.4330325989630346,41.532477589550375 2.433013914005125,41.532497494388636 2.433000259612806,41.53254221300633 2.4329945103949884,41.53256850619418 2.432557569840792,41.53355883032368 2.4325539765796558,41.53358633350711 2.4325871244136397,41.53362768912765 2.4325848786254296,41.53368262817942</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del President Lluís Companys</name>
+      <description>name: Avinguda del President Lluís Companys
+footway: crossing
+highway: footway
+name:ca: Avinguda del President Lluís Companys
+name:etymology:wikidata: Q7981</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4325848786254296,41.53368262817942 2.432569607265599,41.53371497293594 2.4325482273618375,41.53375222654398</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del President Lluís Companys</name>
+      <description>name: Avinguda del President Lluís Companys
+footway: sidewalk
+highway: footway
+name:ca: Avinguda del President Lluís Companys
+name:etymology:wikidata: Q7981</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4325482273618375,41.53375222654398 2.43253394414882,41.533795532155246 2.432467828143909,41.533806829266446 2.4324362074459076,41.53383049939784 2.432408090177515,41.533845024246894 2.4323787152677236,41.53392141414012 2.432152339816126,41.53444323001188 2.431880689274208,41.535047818369144 2.4318986555798903,41.53509999923705 2.431935306843483,41.53513167085155 2.4319200354836523,41.53518169986707</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del President Lluís Companys</name>
+      <description>name: Avinguda del President Lluís Companys
+footway: crossing
+highway: footway
+name:ca: Avinguda del President Lluís Companys
+name:etymology:wikidata: Q7981</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4319200354836523,41.53518169986707 2.431900811536573,41.535225811440036 2.431884372366873,41.53525519672424</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del President Lluís Companys</name>
+      <description>name: Avinguda del President Lluís Companys
+footway: sidewalk
+highway: footway
+name:ca: Avinguda del President Lluís Companys
+name:etymology:wikidata: Q7981</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.431884372366873,41.53525519672424 2.431869909490799,41.535295811603085 2.431836941319871,41.535301191055325 2.431777203353478,41.535330172846564 2.4317283350020213,41.53538988470962 2.4316895277817476,41.535485705996265 2.431602570862245,41.53566847209889 2.4313528392132597,41.53620338610924 2.431323464303469,41.536195989465476</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda del President Lluís Companys</name>
+      <description>name: Avinguda del President Lluís Companys
+footway: crossing
+highway: footway
+name:ca: Avinguda del President Lluís Companys</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.431323464303469,41.536195989465476 2.4312848367462516,41.53618630658508 2.431248365145717,41.53617722888339 2.4312407294658014,41.536175278858416 2.431166887949447,41.536156719997116 2.4311531437255995,41.536153290641714 2.4311111924018314,41.53614280084763 2.431077505578677,41.5361343283204</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça Alcalde Serra i Xifra</name>
+      <description>name: Plaça Alcalde Serra i Xifra
+footway: sidewalk
+highway: footway
+name:ca: Plaça Alcalde Serra i Xifra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.431077505578677,41.5361343283204 2.431043459429409,41.536131907598126 2.431011928562936,41.53616371319184 2.4309181444472743,41.53616290628481 2.43074530858661,41.53622039838671 2.4306597889715613,41.53627802492177 2.430594391618878,41.53629570960077 2.4305495656861997,41.53630472004372</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Mig</name>
+      <description>name: Camí del Mig
+footway: crossing
+highway: footway
+name:ca: Camí del Mig</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4305495656861997,41.53630472004372 2.4305430978161544,41.536319378821354 2.430537438429864,41.5363612706309</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Mig</name>
+      <description>name: Camí del Mig
+footway: crossing
+highway: footway
+name:ca: Camí del Mig</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.430537438429864,41.5363612706309 2.430516328020688,41.5364260246908 2.4305113872866246,41.53645393010681</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Mig</name>
+      <description>name: Camí del Mig
+footway: sidewalk
+highway: footway
+name:ca: Camí del Mig</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4305113872866246,41.53645393010681 2.4299098753723785,41.53638648639402</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Mig</name>
+      <description>name: Camí del Mig
+footway: crossing
+highway: footway
+name:ca: Camí del Mig</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4299098753723785,41.53638648639402 2.4298481611123597,41.53637317247232 2.4297788111724254,41.53636671723656</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Mig</name>
+      <description>name: Camí del Mig
+footway: sidewalk
+highway: footway
+name:ca: Camí del Mig</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4297788111724254,41.53636671723656 2.4288884010628062,41.53623438476166</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Mig</name>
+      <description>name: Camí del Mig
+footway: crossing
+highway: footway
+name:ca: Camí del Mig</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4288884010628062,41.53623438476166 2.4287670386679214,41.536214010377904 2.428696610749647,41.53620378956252</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Mig</name>
+      <description>name: Camí del Mig
+footway: sidewalk
+highway: footway
+name:ca: Camí del Mig</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.428696610749647,41.53620378956252 2.428670559606407,41.53619538428549 2.427929808823122,41.53607522232572 2.427712775850479,41.53599769185491 2.427484963094426,41.535906309333285 2.427319673082148,41.535812169735244 2.426985589627984,41.535579308126586 2.4268547949226162,41.535456589788744 2.4265608661616525,41.53517901013603 2.426508224886003,41.53515547498473</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Mig</name>
+      <description>name: Camí del Mig
+footway: crossing
+highway: footway
+name:ca: Camí del Mig</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.426508224886003,41.53515547498473 2.4264123746451873,41.53510457178532 2.426322812611361,41.535062410188246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Mig</name>
+      <description>name: Camí del Mig
+footway: sidewalk
+highway: footway
+name:ca: Camí del Mig</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.426322812611361,41.535062410188246 2.4249166796971284,41.53442171191482</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda del Cros</name>
+      <description>name: Ronda del Cros
+footway: sidewalk
+highway: footway
+name:ca: Ronda del Cros</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4249166796971284,41.53442171191482 2.424811756471943,41.53443778324424 2.424545855147844,41.534447533630434 2.4244696780117505,41.534436707339474 2.4243792176626395,41.534457687479325 2.424367090406304,41.534445314577155</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda del Cros</name>
+      <description>name: Ronda del Cros
+footway: crossing
+highway: footway
+name:ca: Ronda del Cros</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.424367090406304,41.534445314577155 2.424337086675814,41.53441478577581 2.4242625265072326,41.53433879993015 2.424217071753856,41.53429246869372</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda del Cros</name>
+      <description>name: Ronda del Cros
+footway: sidewalk
+highway: footway
+name:ca: Ronda del Cros</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.424217071753856,41.53429246869372 2.4242231802977883,41.53424519600465 2.4242980099609555,41.53417371532952</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Mig</name>
+      <description>name: Camí del Mig
+footway: sidewalk
+highway: footway
+name:ca: Camí del Mig</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4242980099609555,41.53417371532952 2.424275013089682,41.53412422348936 2.4241542795154962,41.53405590316953 2.422619328189521,41.53340342703087 2.4225151236165634,41.533375923769675 2.4224626620039706,41.533369468234795 2.422372560980974,41.53337928602718</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Passeig de Ribalta</name>
+      <description>foot: designated
+name: Passeig de Ribalta
+bicycle: yes
+highway: footway
+name:ca: Passeig de Ribalta
+mtb:scale: 0
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.422372560980974,41.53337928602718 2.422312733183051,41.533452717687325 2.4222925210891586,41.53351350720372</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: designated
+bicycle: yes
+highway: track
+mtb:scale: 0
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4222925210891586,41.53351350720372 2.422167206107024,41.53346636843547</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.422167206107024,41.53346636843547 2.422121481859062,41.533454869529585 2.4220667744582594,41.533436377132794 2.4220244638083774,41.53342366780976</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4220244638083774,41.53342366780976 2.4220377588745823,41.533377873879054</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4220377588745823,41.533377873879054 2.4220372198854117,41.53335090856841 2.4220331774666333,41.533316613518686 2.422025811281303,41.53329462433018 2.421976673435262,41.53324049189239</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: paved
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.421976673435262,41.53324049189239 2.42190777265297,41.533280368338545 2.421856029692605,41.53333060052156</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>foot: yes
+width: 1.5
+access: yes
+bicycle: yes
+highway: track
+surface: unpaved
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.421856029692605,41.53333060052156 2.421847136371292,41.53335319490441 2.421852795757582,41.53345688688165 2.4218580958177585,41.533527628654 2.421846866876707,41.53360401892206 2.4217985375144213,41.533724521696726 2.421707717839197,41.53388678316978 2.421606208212091,41.53407560578886 2.421461579451348,41.5343385981977 2.4213997753598004,41.53443038639856 2.4213572850468617,41.534519820930534 2.4212997030371493,41.534663588362605 2.4211770830008676,41.53485812442121 2.421078717477256,41.535072025993514 2.4209242072483876,41.53536836692748 2.4208289858282708,41.53551193074471 2.420761881676547,41.53561568650418 2.4206700738545104,41.53575232377668 2.420517180593153,41.53599970912765 2.4203173054424365,41.53636960864432 2.420045924395104,41.536822213228135 2.4199233043588215,41.53704982553831 2.4198249388352107,41.53721268383998 2.419752624454839,41.537359874578165 2.4196636014101824,41.53752340450752 2.4195886819154873,41.53764511031321 2.4190449316740095,41.53858412005851 2.418511691721356,41.53953508466858 2.418235190276904,41.54000723343619 2.4181022396148544,41.5402273038785 2.417919701949122,41.54056403104946 2.4178701149454382,41.54068478980742 2.4178190906373,41.54076769365716 2.4176774263169944,41.54095582381567 2.417501985342006,41.541239228292845 2.4173634651251947,41.54146427006179 2.417287737146743,41.54154381107932 2.4172015887109968,41.541598272750875 2.417124333596562,41.54164876742019 2.4170421377480653,41.54171371789559 2.416959313078869,41.54176737258693 2.4169366755337096,41.54181242097761 2.4169319144627037,41.541866680713966 2.4169364060391243,41.5419187888442 2.416943143403755,41.54196410607428 2.4169537435241075,41.54201278508132 2.416966679264199,41.54211350478891 2.4169575164483006,41.542223233958005 2.4169163736082884,41.54232637382832 2.416850886424076,41.54250952401399 2.4167907891315683,41.542695026922146 2.4167633006838742,41.54280287251468 2.4166849675910993,41.54308640336717 2.416623073668023,41.54324077487134</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: unpaved
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.416623073668023,41.54324077487134 2.416653526556155,41.54332562525369</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: unpaved
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.416653526556155,41.54332562525369 2.416627385581387,41.543378001147296 2.4166050175308125,41.54343790728424 2.4166081616343074,41.54353963329088 2.4166050175308125,41.54365460432847 2.416590644486267,41.543713232755486 2.416565042500669,41.54382699326728 2.416526594606509,41.54392522248434 2.4164750313092003,41.54402741836288 2.4164000219829767,41.544116301752226 2.416281264702416,41.54421453052979 2.416168795628844,41.54428472266547 2.4160688131377213,41.54432667654926 2.415968830646599,41.544352494310374 2.4158687583239487,41.544364192979984 2.4157750640398143,41.544352494310374 2.4156813697556805,41.54432439060117 2.4155750990575697,41.544273023981475 2.4154751165664474,41.54422152285324 2.415337674327976,41.54415839021318 2.4152189170474165,41.54413727875217 2.4151471416562154,41.54412800046456 2.415072132329991,41.544134992797375 2.414962717528385,41.54415596979125 2.414875221619712,41.544193486321014 2.414769040753129,41.54427060356384 2.414637796890119,41.5443594866189 2.4142034614502474,41.54459332511666 2.4140346680083615,41.544665802777246 2.413938727936017,41.544719387785754 2.4137952669851437,41.544784133477066 2.4136139869608084,41.5448609138494 2.4135013382241794,41.544912280002066 2.41338365892196,41.544986908763704 2.4132967918339854,41.545063487196266 2.413243072579995,41.54512466919748 2.413202199234568,41.54520131469972 2.4131765972489707,41.545266328839624 2.4131484799805776,41.54534667197286 2.4131254831093045,41.54542513249283 2.41311775759786,41.545570623727755 2.4131254831093045,41.54565479872896 2.413143359583458,41.545746570869795 2.4131894431575334,41.54587478271949 2.4132456776943196,41.54600877626869 2.413291671436866,41.546094900425416 2.4133657824478063,41.546232591266694 2.4134117761903533,41.54635508746203 2.4134528291988375,41.54649291221226 2.413470615841463,41.54657130410984 2.4134808566357018,41.54666509188987 2.4134758260701106,41.54676647666322 2.4134553444816325,41.546841103284734 2.41342210681612,41.54692910880248 2.413396504830523,41.54699230596822 2.4133453906908566,41.547064982632435 2.413240467465671,41.54716643400953</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Tramvia</name>
+      <description>name: Camí del Tramvia
+width: 5
+highway: track
+name:ca: Camí del Tramvia
+surface: unpaved
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.413240467465671,41.54716643400953 2.4127963403892028,41.547512470080356 2.4101447831650673,41.54957863059551</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Antic Camí del Tramvia</name>
+      <description>name: Antic Camí del Tramvia
+width: 5
+highway: track
+name:ca: Antic Camí del Tramvia
+surface: paved
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4101447831650673,41.54957863059551 2.4100315056077393,41.54963550571656</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: paved
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4100315056077393,41.54963550571656 2.410004286654631,41.54970649870525 2.4099387994704182,41.549787172461414</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: unpaved
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4099387994704182,41.549787172461414 2.4098532798553705,41.54991241826838 2.4097903079539535,41.550051109396826 2.4097532973642477,41.550173598357375 2.4096943678816096,41.550450172467315 2.409416069806589,41.55101030872672 2.409338814692155,41.5511506109399 2.4092762919483803,41.55130872787508 2.4092226625259183,41.551500188680286 2.4091967012142073,41.55163302772597 2.4091862807569115,41.551784891462496 2.4091882570505367,41.55191100733553</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: unpaved
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.4091882570505367,41.55191100733553 2.4091779264247695,41.55201036710911 2.4091422633079893,41.5521183988412 2.409117200311563,41.55224209394434 2.4090836931514645,41.552381519554025 2.4090472215509298,41.55258373321152 2.4090288060876053,41.552757913418034 2.409013085570133,41.55291448025059 2.408989639541218,41.55307501295952 2.408966103680774,41.55329228272459 2.4089398728744778,41.55345873023128 2.4089164268455616,41.553621211087524 2.4088770806361173,41.553744499971124 2.408730655244806,41.55426118136063 2.4086652578921224,41.55451367209084 2.4086181861712346,41.55462331299271 2.4085842298534947,41.554811268391774 2.408526558012254,41.55509313324303 2.408487391465867,41.5552437788472 2.4084193889988588,41.55548651852648 2.4083671070493233,41.55563333155943 2.408288594293491,41.555881918068216 2.4082258020551306,41.556028730203046 2.4081551944737987,41.55618730575609 2.408122495797457,41.556254796038765 2.408083419082598,41.5563325711078</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Corriol Marge Esquerra Riera</name>
+      <description>name: Corriol Marge Esquerra Riera
+width: 1.5
+highway: track
+name:ca: Corriol Marge Esquerra Riera
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.408083419082598,41.5563325711078 2.4080511695638984,41.55639233079906 2.408033472752801,41.556433402950795 2.408012721669738,41.556487717638376 2.407979933161867,41.55655722423881 2.4079380716696273,41.556635469490686 2.4079041153518874,41.55670208543373 2.407870069202619,41.55675687044139 2.407820482198936,41.55684519856454 2.4077416101169904,41.556975808345825 2.407577667577639,41.5572424719639 2.407456934003453,41.55740897651861 2.40729191348576,41.557634499767225 2.407184295314723,41.55778130792109 2.4071328218489425,41.55784483057661 2.407087367095566,41.557894909239856 2.4070312223903088,41.557944181229054 2.4069820845442678,41.55798088312292 2.4069414806934253,41.55801402236083 2.406912195615163,41.558039296900034 2.4068700646283374,41.55810080271874 2.406817064026575,41.55816069521384 2.4067799636053406,41.55821352962471 2.4067334308736235,41.558277119074674 2.406703516974662,41.55831556847918 2.4066496180576147,41.558364772928506 2.4065395744353104,41.558461434019044 2.4064618701632337,41.55853040074492 2.406354162160668,41.5586163065637 2.4062656781051825,41.55868789465878 2.4061724329786904,41.55875679392424 2.4060467586704424,41.558847203092846 2.405887756865153,41.55895811379608 2.405691564807101,41.55909060142301 2.405521783218403,41.55918988294208 2.405345982917301,41.55928298023337 2.4051294889338277,41.559391268682894 2.4049800092705502,41.559467426745115 2.404846070461688,41.559527317973725 2.404712131652826,41.55958277276554 2.4045973269595153,41.55963022858596 2.4044369776813,41.55969832023342 2.404236114383771,41.55978240962205 2.4040902279816296,41.5598396790711 2.4039430839380906,41.559896007423355 2.4035792662480224,41.5600233173847 2.4032564117349104,41.5601404100633 2.402726765043393,41.56034340605275 2.402181397834404,41.56056347449448 2.4019014827918728,41.56068271713062 2.4017781441033628,41.560745027033896 2.4016115964496874,41.560823401648946 2.4011867831518274,41.561032781050585 2.400967234896388,41.56114671273533 2.4007432848960573,41.56128087627883 2.4004921159426176,41.561445219518404 2.4003429057739254,41.561547186054504 2.4002022296004317,41.56165567235725 2.40003999386012,41.561774912978045 2.4000012764713747,41.56179850565653 2.399915217867156,41.56184683365196 2.3998348186492273,41.56191767879829 2.3997454362784576,41.5619969257912 2.3997105816454334,41.5620609148104 2.3996471605863747,41.562124903766225 2.3995236422348083,41.56223641378048 2.3994094663621963,41.562343084120364 2.3987533368786758,41.56310966698493 2.398388081884153,41.56358211409546 2.3977877377797756,41.56449910465307 2.3975214771295628,41.56498081690072 2.3970077306185744,41.56580059994948 2.3963948999317486,41.56680089996334 2.3959554440947572,41.56745861751583 2.39565432881152,41.567924513533406 2.395565485429921,41.56808379919689 2.3951198312174693,41.568815500066314 2.3949401681606455,41.56910341976769 2.394773081517799,41.56937117587347 2.394544100951877,41.56971857163688 2.394277930133192,41.57004271190747 2.393894080012288,41.570487284814966 2.3936960913236685,41.570746701605984 2.3935099603967984,41.57097453051921 2.393409528748034,41.571237372848316 2.3932967901798774,41.57149698824371</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pista de la Riera</name>
+      <description>name: Pista de la Riera
+highway: track
+name:ca: Pista de la Riera
+surface: paved
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3932967901798774,41.57149698824371 2.393094938735535,41.57160619710034 2.3927640892163944,41.571845179037304 2.392609758650582,41.571992626956714 2.392536186628813,41.57209578653614 2.392449858530009,41.57221682241897</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.392449858530009,41.57221682241897 2.3922536664719574,41.57214148584115 2.392191233559711,41.57210008764858</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.392191233559711,41.57210008764858 2.3920931375306855,41.572283825528096 2.392046784462025,41.57247132633673 2.3919832735714373,41.57267193143796 2.391803430851557,41.57295801944427 2.391666797096842,41.573253783514055 2.391543458408333,41.57355882029423 2.391488481512945,41.573874809729254</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

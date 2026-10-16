@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>lanes: 1
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8270296401590786,42.35994819387547 2.827178401170128,42.35984012893524</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>lanes: 1
+highway: track
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.827178401170128,42.35984012893524 2.8272216101352945,42.35985267456745 2.827260237692512,42.3598638926174</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.827260237692512,42.3598638926174 2.8272802701233477,42.35993418792624 2.827387798462857,42.36020932792084 2.8274643349250637,42.36031148453855 2.8274632569467233,42.360458180885566 2.8273363249970767,42.36076737052609 2.8272549376323353,42.36105730910724 2.8272843125421256,42.36132388149399 2.8272161304120615,42.36154106812041 2.8272175677165157,42.361699112073175 2.8274028901596298,42.36177730418839 2.8275533579697196,42.36184507503466 2.827675439016832,42.36202210196405 2.827677774636571,42.36218817626777 2.8276446268025865,42.36239613359983 2.8277940166343356,42.36256990654634 2.828093604781589,42.36270007000085 2.8283051580309992,42.36274208598953</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8283051580309992,42.36274208598953 2.8283028224112607,42.3627675079722 2.828356541665251,42.36282691439289 2.8284538292105212,42.36288817927966 2.8285441997281033,42.362949775985314</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8285441997281033,42.362949775985314 2.828832019945136,42.36304130804737 2.829011413507374,42.36347367742107 2.829197274939659,42.36369152036574 2.8293296866125375,42.36376101489393 2.8293062405836222,42.36401662400149</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8293062405836222,42.36401662400149 2.8293682243382268,42.36400872542351 2.829724855506022,42.36393458494137 2.8300132147122246,42.36396299330117 2.8301499382984674,42.36422019457226 2.830201232101191,42.36438911715679 2.830177786072275,42.36449597953957 2.830064508514948,42.36501409358358 2.830184074279264,42.365348615369626 2.8300837324620276,42.365550588672875 2.8299299408853864,42.365812628651994 2.8299426969624215,42.3659072760556 2.8300922664572266,42.36607161440644 2.8301458060481606,42.366130287606865</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Maçanet</name>
+      <description>ref: GI-503
+foot: no
+name: Carrer Maçanet
+oneway: no
+bicycle: yes
+highway: secondary
+name:ca: Carrer Maçanet
+surface: asphalt
+cycleway: no
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8301458060481606,42.366130287606865 2.8302851347487277,42.366138982386424 2.830498484628706,42.366161084377914 2.8310690944971784,42.3662573905624 2.8312467812603774,42.36628971383175 2.831446656411094,42.366326019414245 2.831670157253783,42.36635482492547 2.8318157741613383,42.366347988595656 2.8318971615260797,42.366338231890666 2.832097126508325,42.366306174135005</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Maçanet</name>
+      <description>ref: GI-503
+foot: no
+name: Carrer Maçanet
+horse: permissive
+access: yes
+oneway: no
+bicycle: yes
+highway: secondary
+name:ca: Carrer Maçanet
+surface: asphalt
+cycleway: no
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.832097126508325,42.366306174135005 2.8323072424532802,42.3662684747244 2.832880187941492,42.36616188084593</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Horta</name>
+      <description>name: Carrer de l'Horta
+oneway: yes
+highway: residential
+name:ca: Carrer de l'Horta</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.832880187941492,42.36616188084593 2.832966695703352,42.36641170581552 2.833012240288257,42.36653947192103</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de l'Horta</name>
+      <description>name: Carrer de l'Horta
+highway: residential
+name:ca: Carrer de l'Horta</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.833012240288257,42.36653947192103 2.8327263065333224,42.36666717139489 2.8321662069536733,42.36692781291457</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Arnera</name>
+      <description>name: Carrer Arnera
+highway: residential
+name:ca: Carrer Arnera</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8321662069536733,42.36692781291457 2.832243102741994,42.36711803341742</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Arnera</name>
+      <description>name: Carrer Arnera
+highway: residential
+name:ca: Carrer Arnera</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.832243102741994,42.36711803341742 2.8324689392044218,42.367749686133166</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+narrow: yes
+highway: residential
+name:ca: Carrer Major
+surface: paving_stones
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8324689392044218,42.367749686133166 2.832232143295528,42.368053397524136 2.8319483654972744,42.36832876744394</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça Major</name>
+      <description>name: Plaça Major
+highway: residential
+name:ca: Plaça Major
+surface: paving_stones
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8319483654972744,42.36832876744394 2.831733308818256,42.368588605632276</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

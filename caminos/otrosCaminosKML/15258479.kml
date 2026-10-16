@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4282799792469696,43.604516872897086 1.42826129428906,43.604516872897086 1.4282611146260031,43.604497813659776</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: no
+source: knowledge
+highway: steps
+incline: up
+handrail: yes
+step_count: 36
+trailblazed: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4282611146260031,43.604497813659776 1.4282525806308042,43.60437292021467</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: asphalt
+trailblazed: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4282525806308042,43.60437292021467 1.42825168231552,43.604363813390826 1.4281752356848412,43.60436387843958</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4281752356848412,43.60436387843958 1.4281729898966309,43.60433258998431</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+layer: 1
+bridge: yes
+highway: footway
+surface: asphalt
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4281729898966309,43.60433258998431 1.4281610423033522,43.604276908202465 1.4280161440480237,43.602176769724196 1.4280225220865408,43.6021022861554</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

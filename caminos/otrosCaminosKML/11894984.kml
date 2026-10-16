@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>La Fontaine Saint-Pierre</name>
+    <Placemark>
+      <name>Route de l'Ancienne École</name>
+      <description>ref: C 202
+name: Route de l'Ancienne École
+highway: tertiary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.42666212054636804,44.98139966956689 0.4264211025556388,44.981325072266195 0.42611935845170307,44.98122702813648 0.4259936841434548,44.98118057943323</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de l'Ancienne École</name>
+      <description>ref: C 202
+name: Route de l'Ancienne École
+highway: tertiary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.4259936841434548,44.98118057943323 0.4255023955145698,44.981007619635406 0.4246754962955378,44.980722380974555</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de l'Ancienne École</name>
+      <description>ref: C 202
+name: Route de l'Ancienne École
+highway: tertiary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.4246754962955378,44.980722380974555 0.4241748651876979,44.98054478122516</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de l'Ancienne École</name>
+      <description>ref: C 202
+name: Route de l'Ancienne École
+highway: tertiary
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.4241748651876979,44.98054478122516 0.42397499003698136,44.98045919002248 0.42384347667938627,44.98038579880039</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de la Buissonnière</name>
+      <description>name: Route de la Buissonnière
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.42384347667938627,44.98038579880039 0.4237040581472909,44.98038141438674 0.4231260820934884,44.98014942123872 0.4229544140426932,44.98007920674841 0.4228932387718447,44.980054806398606</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.4228932387718447,44.980054806398606 0.4228391601917406,44.979987324127116 0.42283556693060415,44.979935282660115 0.4228391601917406,44.97982770472816 0.422844909409559,44.97977839546093</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.422844909409559,44.97977839546093 0.4225704740902605,44.979733915415466 0.4223896432235672,44.9796933750011 0.42230367445087696,44.97966681402441</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

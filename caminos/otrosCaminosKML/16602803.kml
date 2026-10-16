@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Lombardil</name>
+      <description>name: Chemin de Lombardil
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3704018848172625,43.68293931961038 1.3704211087643425,43.68283492281984 1.370496387585152,43.68265711654249 1.3706323925191677,43.68247190381671 1.3707497124952737,43.682327293272735 1.3710095052754407,43.68204560704342 1.371259686082068,43.6818197893602 1.3716803671296216,43.681500875654926 1.3719124019675095,43.68130110709048 1.3720761648438045,43.681154025029585 1.3721247637006755,43.68111666976677</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

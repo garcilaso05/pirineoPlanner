@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Troy</name>
+      <description>name: Chemin de Troy
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5701817242822107,43.51459530275171 1.570264818445992,43.514701229622965 1.57057833048015,43.51510337219595 1.5707285287956545,43.51524447650382 1.5709769129717135,43.5154584124151 1.5711351961247755,43.51564127359921 1.5714073856558635,43.516065298345275 1.571620735535842,43.516428997024896 1.572104837642454,43.51720609187325 1.5725106066562906,43.51792226884121 1.5725958567767537,43.51807053217604</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: yes
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5725958567767537,43.51807053217604 1.57313403746347,43.51909592341326 1.5733230429992484,43.51945621652103</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: yes
+highway: track
+surface: dirt
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5733230429992484,43.51945621652103 1.5731578428184991,43.51965137710361 1.5730829233238035,43.51973990267378 1.573213538366114,43.51978028957213 1.5733806250089606,43.519832075958696 1.574740764180646,43.51929473303835 1.5749238408355495,43.51927408344526 1.575250378441327,43.519267569376574 1.5754728013056747,43.51921532652027 1.5756838155659147,43.51910569454382 1.5759369608129796,43.51896069080376 1.5761877704403058,43.51889177156344 1.5773394106345469,43.51868449223959 1.5781558893962833,43.518476495646695 1.5790518690606639,43.51835038148485 1.579756238074942,43.51818576823344 1.5798819123831904,43.51822439734305 1.580048190542281,43.51850261740035</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Rural n 4</name>
+      <description>name: Chemin Rural n 4
+highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.580048190542281,43.51850261740035 1.5802830101575496,43.518512974900545 1.5810616698458246,43.51848437777305 1.5815445143110387,43.51842047389246 1.581921537235784,43.518287128879834 1.5859107757495017,43.51683471096647 1.586100769432093,43.516733282736816</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Habitants</name>
+      <description>name: Chemin des Habitants
+highway: unclassified
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.586100769432093,43.516733282736816 1.5861599684093164,43.516793084372615 1.5863401704553108,43.51697542036692 1.5865374404917034,43.51722732846012 1.5869691708172513,43.517760325256916 1.5872824133568237,43.518164922835176</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Habitants</name>
+      <description>name: Chemin des Habitants
+highway: residential
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5872824133568237,43.518164922835176 1.587921385018418,43.518934113261054 1.588072930806849,43.519112990320274 1.5881762370645227,43.519217085320406 1.5882498989178206,43.51927929469971 1.5885744602299727,43.51955308034703 1.5886133572817753,43.51960747254161 1.5886388694358442,43.51965567636168 1.5886368931422192,43.5197223148225 1.588599343563343,43.51979722600534 1.5885167883887326,43.519887119301984 1.5883566187735738,43.520068468849296 1.5882949045135548,43.520160902191186 1.588282058604992,43.52022206836281 1.5882875383282251,43.52028968329188 1.588306941938362,43.52035443200649 1.588376022383711,43.52043657288148 1.5885202019868123,43.52064221770613</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Estanque</name>
+      <description>name: Rue de l'Estanque
+highway: residential
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5885202019868123,43.52064221770613 1.5877516932612477,43.521054091501505 1.5877303133574858,43.5210856837926 1.5877356134176623,43.52112359452008 1.5877536695548728,43.521154730804206 1.588523435921835,43.52231770510459</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Revel</name>
+      <description>lit: yes
+ref: D 2
+name: Route de Revel
+lanes: 2
+highway: primary
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.588523435921835,43.52231770510459 1.5884474384487985,43.522382972741376</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Revel</name>
+      <description>lit: yes
+ref: D 2
+name: Route de Revel
+lanes: 2
+bus_bay: left
+highway: primary
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5884474384487985,43.522382972741376 1.5883179013848283,43.52249429233022</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Revel</name>
+      <description>lit: yes
+ref: D 2
+name: Route de Revel
+lanes: 2
+highway: primary
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5883179013848283,43.52249429233022 1.588200311914137,43.5225998145127</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée des Pyrénées</name>
+      <description>ref: D 54a
+name: Allée des Pyrénées
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.588200311914137,43.5225998145127 1.5882285190140586,43.52262222166843 1.5882567261139797,43.522643130663795 1.588639498256543,43.52308071975143 1.588775682853616,43.5232289704105 1.588831288569703,43.52328290333671</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée des Pyrénées</name>
+      <description>ref: D 54a
+name: Allée des Pyrénées
+highway: tertiary
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.588831288569703,43.52328290333671 1.5890574843582441,43.52347407823624 1.589223403191221,43.52362011330503 1.5892519696172558,43.52364532092831 1.5892891598700183,43.52367639077509 1.5894086358028063,43.5237806733094 1.589565571482942,43.523926707636015 1.5896076126382388,43.52397757856506 1.5896616013868143,43.52404297467717</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

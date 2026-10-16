@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Pin</name>
+      <description>name: Chemin du Pin
+highway: track
+surface: grass
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.556131713912468,43.61806997401799 1.5564242053689774,43.617931776770206 1.5571377371991535,43.61755887023533 1.558290994360906,43.61689870163513 1.5595691173471513,43.616156905670735 1.5603320565179541,43.615722203520136 1.5603982623543937,43.61568448235949</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pin</name>
+      <description>name: Rue du Pin
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+maxspeed:type: FR:zone30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5603982623543937,43.61568448235949 1.5606903944847894,43.61596556947398 1.5607079116328295,43.61597903196592</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pin</name>
+      <description>name: Rue du Pin
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+maxspeed:type: FR:zone30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5607079116328295,43.61597903196592 1.560742227276683,43.61602592303754 1.56079388040552,43.61612172118806</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pin</name>
+      <description>name: Rue du Pin
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+maxspeed:type: FR:zone30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.56079388040552,43.61612172118806 1.5608052890096282,43.616153328691006 1.5608193027280604,43.616193716031695 1.5608643981553232,43.61629543217696 1.560922968311848,43.616427194651536 1.5609447075417235,43.6164576313519 1.560975160429855,43.61648598689649 1.5610138778186007,43.61651401724968 1.561066698757307,43.61653879581087 1.5611195196960133,43.61655102249872 1.5611865340162085,43.61655537988157 1.5612518415373642,43.61654939660953</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5612518415373642,43.61654939660953 1.561375719215044,43.616927707323335</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.561375719215044,43.616927707323335 1.561387217650681,43.616952225573534 1.56307182830299,43.61669091384077</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Cantalauze</name>
+      <description>name: Rue de Cantalauze
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+lane_markings: no
+maxspeed:type: FR:zone30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.56307182830299,43.61669091384077 1.5630841352223825,43.616741381302226</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Mondouzil</name>
+      <description>name: Rue de Mondouzil
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+lane_markings: no
+maxspeed:type: FR:zone30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5630841352223825,43.616741381302226 1.5631913940673066,43.617150192192945 1.5632219367869666,43.61723987527941</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Fontvalette</name>
+      <description>name: Chemin de Fontvalette
+width: 2
+highway: path
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5632219367869666,43.61723987527941 1.563345455138533,43.617218283714614 1.5641672339604455,43.61705829778213 1.564745210014248,43.61693108915154 1.5651361568258968,43.61677110245494 1.5660767827598985,43.61654139723403 1.5668361286695647,43.61622142134151 1.5675726573710143,43.61597942218304 1.5682884349894008,43.61572337417646 1.56847797951435,43.615593626294384 1.5685914367347342,43.6155646849993 1.5687851135099902,43.615574310420335 1.568985886975991,43.615533727553625 1.5691926791543953,43.61545243166452 1.5694485193473124,43.6152893842981 1.5696357282525228,43.615285677192894 1.5698128760265513,43.615279303572855 1.5704181608649912,43.61509889082378 1.570722330420194,43.61520060882097</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.570722330420194,43.61520060882097 1.5709941606251685,43.615161716665895 1.5715881266910285,43.614954898428735 1.5718558246456962,43.61488140624236 1.5727445279562755,43.614637320486814 1.5733972438417168,43.61445488963888</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+segregated: no
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5733972438417168,43.61445488963888 1.5735716068383643,43.614529618063834</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Tuilerie</name>
+      <description>lit: yes
+name: Rue de la Tuilerie
+highway: residential
+surface: asphalt
+maxspeed: 30
+maxspeed:type: FR:zone30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5735716068383643,43.614529618063834 1.5735929867421266,43.614495603309244 1.573626493902224,43.61447140924647 1.5744540219419552,43.61415291821699 1.5747879257330624,43.61401211043425</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

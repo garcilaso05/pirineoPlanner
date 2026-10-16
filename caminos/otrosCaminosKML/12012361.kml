@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway
+surface: asphalt
+smoothness: intermediate
+traffic_sign: FR:B22a</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4277190711835652,43.49924227908695 1.4275507268993215,43.49925361732716 1.4272859933850914,43.49933682951918 1.4271578037940476,43.499360874367724 1.4270638400153284,43.49937423261277 1.4269488556589613,43.4993853101796 1.426876631110118,43.499404402687055 1.4268171626383095,43.499408703387566 1.4267728756948024,43.49940107941828</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

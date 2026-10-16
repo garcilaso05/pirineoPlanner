@@ -1,0 +1,310 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Route d'Albi</name>
+      <description>lit: yes
+foot: designated
+name: Route d'Albi
+oneway: yes
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4695681666726141,43.64527583117516 1.4694855216664753,43.645128205793526 1.4693593982005848,43.644968294138565</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route d'Albi</name>
+      <description>lit: yes
+foot: designated
+name: Route d'Albi
+layer: 1
+bridge: yes
+oneway: yes
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4693593982005848,43.644968294138565 1.4692952584892989,43.64488320276327 1.4690047433264144,43.6444739304155</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route d'Albi</name>
+      <description>foot: designated
+name: Route d'Albi
+bicycle: designated
+highway: cycleway
+surface: asphalt
+segregated: no
+oneway:bicycle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4690047433264144,43.6444739304155 1.4688929030735416,43.64434300947928 1.4687594134223212,43.64417698520046 1.468701112760382,43.644077721444184 1.4686784752152224,43.6440054999703 1.468693027922825,43.64393236832636</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: no
+oneway:bicycle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.468693027922825,43.64393236832636 1.4686507172729433,43.64391637686169 1.468616671123675,43.64390357068569 1.4685925962740605,43.64387932345158 1.4685703180550143,43.64385299601472 1.4685151614965692,43.64378811996058 1.4684928832775233,43.643761922496005 1.4684474285241467,43.64371180274907</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route d'Albi</name>
+      <description>name: Route d'Albi
+oneway: yes
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4684474285241467,43.64371180274907 1.4683753836383602,43.64369022069213 1.4683449307502288,43.64367442418167 1.4682548297272318,43.643586405689334 1.4681216095705965,43.64349741197182</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route d'Albi</name>
+      <description>ref: M 188
+name: Route d'Albi
+lanes: 2
+oneway: yes
+highway: primary
+old_ref: N 88;D 188
+surface: asphalt
+maxspeed: 50
+mapillary: 2187892488013770
+survey:date: 2019-02-09
+parking_lane: none
+sidewalk:left: no
+cycleway:right: lane
+sidewalk:right: yes
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4681216095705965,43.64349741197182 1.4679071817122773,43.64328003012357</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route d'Albi</name>
+      <description>ref: M 188
+name: Route d'Albi
+lanes: 4
+highway: primary
+old_ref: N 88;D 188
+surface: asphalt
+boundary: political
+maxspeed: 50
+mapillary: 2556446371329108
+survey:date: 2019-02-09
+parking_lane: none
+cycleway:left: lane
+sidewalk:both: yes
+cycleway:right: separate
+cycleway:left:lane: exclusive
+political_division: canton</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4679071817122773,43.64328003012357 1.46779219735591,43.643104316888454 1.4677859091489212,43.64309372077239</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route d'Albi</name>
+      <description>ref: M 188
+name: Route d'Albi
+lanes: 2
+oneway: yes
+highway: primary
+old_ref: N 88;D 888
+surface: asphalt
+maxspeed: 50
+mapillary: 3920572901391741
+survey:date: 2019-02-09
+parking_lane: none
+cycleway:left: no
+sidewalk:left: no
+cycleway:right: lane
+sidewalk:right: yes
+source:maxspeed: FR:urban
+political_division: canton
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4677859091489212,43.64309372077239 1.4677146727468904,43.642906175709385 1.4675862136612616,43.64268729655406 1.4675128213025488,43.642565472764275</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route d'Albi</name>
+      <description>ref: M 188
+name: Route d'Albi
+lanes: 2
+oneway: yes
+highway: primary
+old_ref: N 88;D 888
+surface: asphalt
+maxspeed: 50
+mapillary: 760357801173930
+turn:lanes: left|through|through
+survey:date: 2019-02-09
+parking_lane: none
+cycleway:left: no
+sidewalk:left: no
+cycleway:right: lane
+sidewalk:right: yes
+source:maxspeed: FR:urban
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4675128213025488,43.642565472764275 1.4674526341785126,43.64246068070478</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route d'Albi</name>
+      <description>ref: M 188
+name: Route d'Albi
+lanes: 2
+oneway: yes
+highway: primary
+old_ref: N 88;D 188
+surface: asphalt
+maxspeed: 50
+mapillary: 867824977100969
+turn:lanes: left|through|through
+survey:date: 2019-02-09
+parking_lane: none
+cycleway:left: no
+sidewalk:left: no
+cycleway:right: lane
+sidewalk:right: yes
+source:maxspeed: FR:urban
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4674526341785126,43.64246068070478 1.467378523167573,43.64233658118699</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route d'Albi</name>
+      <description>lit: yes
+ref: M 188
+name: Route d'Albi
+lanes: 2
+oneway: yes
+highway: primary
+old_ref: N 88;D 188
+surface: asphalt
+maxspeed: 50
+mapillary: 191266859399559
+survey:date: 2019-02-09
+parking_lane: none
+cycleway:left: no
+sidewalk:left: no
+cycleway:right: lane
+sidewalk:right: yes
+source:maxspeed: FR:urban
+political_division: canton
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.467378523167573,43.64233658118699 1.4672648862841318,43.64214649845318 1.4672532081854384,43.64210092791361</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+source: Toulouse - Orthophotoplan 2017
+bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4672532081854384,43.64210092791361 1.4672896797859736,43.642091696787254</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: Toulouse - Orthophotoplan 2017
+footway: sidewalk
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4672896797859736,43.642091696787254 1.4673144732878154,43.64208610610441 1.4673124969941902,43.64204853150155 1.4673283073431904,43.642003610968 1.4673463634804016,43.641963826039024 1.4674036759955285,43.64192209084011 1.4674808412784341,43.64188081066938 1.4674743734083884,43.64187040936204</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4674743734083884,43.64187040936204 1.4674497595696037,43.641842325823234 1.4674342187151883,43.64181482734543</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt
+crossing:island: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4674342187151883,43.64181482734543 1.4674236185948357,43.641796169978626</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4674236185948357,43.641796169978626 1.467412569316841,43.64177692753153 1.4673841825538627,43.64171803000312</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4673841825538627,43.64171803000312 1.4673754688956067,43.641698072439</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4673754688956067,43.641698072439 1.4673124969941902,43.641706783559016 1.4672453928424665,43.64171068406009 1.4671958058387828,43.641704898316725 1.4671448713621733,43.64169027143494 1.4670757909168248,43.64165932744219 1.4670227903150617,43.64166101766069</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue d'Atlanta</name>
+      <description>name: Avenue d'Atlanta
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4673841825538627,43.64171803000312 1.4673273191963783,43.641726676111894 1.4672648862841318,43.64172628606191 1.4671924820722317,43.64172238556183 1.4671270847195477,43.64169638222154 1.467065370459529,43.64168403063097 1.4670429125774258,43.64168442068124</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

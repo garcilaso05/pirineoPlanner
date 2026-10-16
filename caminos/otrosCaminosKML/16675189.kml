@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.914867806955569,42.93127681142753 2.91466128427175,42.93131798472179 2.9143649300595187,42.931309171271344 2.9138580107446903,42.93130430414144 2.913772221635057,42.9312806919788 2.9136863426938953,42.93121301249866 2.9136139384819955,42.93119920035071 2.9134810776514737,42.93126497245603 2.9131552586979237,42.931507473601414 2.913060037277807,42.93159402924417</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.913060037277807,42.93159402924417 2.9129955382404074,42.931610406399976 2.912924571332962,42.93163026945056 2.9128174921510945,42.93160882787912</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Lauzade</name>
+      <description>name: Rue de la Lauzade
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9128174921510945,42.93160882787912 2.9125479077343304,42.93155943331037</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Quartier Bas</name>
+      <description>name: Rue du Quartier Bas
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.9125479077343304,42.93155943331037 2.91246930514697,42.93179259374312 2.9124619389616404,42.93197787179893 2.9124897867354482,42.93210829616634 2.91252248541179,42.93220096767459</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Aire</name>
+      <description>name: Rue de l'Aire
+source: Bing &amp; Direction Générale des Impôts - Cadastre. Mise à jour : 2011
+highway: residential
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.91252248541179,42.93220096767459 2.912122106289658,42.93231258108032</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

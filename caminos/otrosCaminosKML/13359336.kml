@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin de Toulouse</name>
+      <description>ref: D 16g
+name: Chemin de Toulouse
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5965385642128627,43.43853819456734 1.5971584915904338,43.43827258645198</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Toulouse</name>
+      <description>ref: D 16g
+name: Chemin de Toulouse
+oneway: yes
+highway: tertiary
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5971584915904338,43.43827258645198 1.5974775731793531,43.43814128220595 1.5977104165009968,43.43805022355504</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Ticaille</name>
+      <description>ref: D 16
+name: Route de Ticaille
+lanes: 2
+highway: secondary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5977104165009968,43.43805022355504 1.5976034271506583,43.43781422707269 1.597581957415368,43.43777287214933 1.5975745013985096,43.43771912375244 1.5975702793166742,43.43767822536506 1.5975814184261974,43.43758729647491 1.5976461869581824,43.43743661774064 1.5977404202314864,43.43722821082094 1.5978533384627003,43.4371154946667 1.598110615960072,43.43695470418744 1.5983560356956936,43.43680330635173 1.5985813331689507,43.43667030294264</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Ticaille</name>
+      <description>ref: D 16
+name: Route de Ticaille
+lanes: 2
+highway: secondary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5985813331689507,43.43667030294264 1.5988319631332202,43.43652523170111</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Ticaille</name>
+      <description>ref: D 16
+name: Route de Ticaille
+oneway: yes
+highway: secondary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5988319631332202,43.43652523170111 1.598906702964859,43.43649881356439</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.598906702964859,43.43649881356439 1.5996803320875428,43.43672992294735</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: sidewalk
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5996803320875428,43.43672992294735 1.5997387225810105,43.43678041073911 1.599794238465569,43.436805132781984 1.5998405915342295,43.4368258105779 1.6005895169865998,43.43656841391458 1.6006143104884416,43.436534102974065 1.6008661980941088,43.43618531746144 1.6009791163253226,43.43602909064481 1.6010610426792342,43.43597449270188 1.6012852621741505,43.435884083096674</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6012852621741505,43.435884083096674 1.6013029589852479,43.43589928183484 1.6014156077218762,43.4360260248118 1.601426207842229,43.43603711399428 1.6015338260132663,43.43614467895881 1.601664620718634,43.43628851173873 1.6018688077827146,43.43648648509664 1.6019033030896246,43.43652523170111 1.6019891820307866,43.436614400981135 1.602085211934659,43.436784324519664</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.602085211934659,43.436784324519664 1.6021768400936391,43.43683487749564 1.6023842610927426,43.43707681366954 1.6026283333554374,43.43738469545783 1.602776465545789,43.43756270520927 1.6030456008049112,43.43785910430771 1.6031990330554386,43.438049114673774 1.6037221220453814,43.4380395261114 1.6043262390739519,43.438020414210456 1.6051316685576935,43.43797592846542 1.6053680153089454,43.43791872314111 1.6058981111581043,43.43767822536506 1.606724291724909,43.43733870897668 1.607720433543469,43.436908586920424 1.6086444406447147,43.43648531095672 1.6091892688645328,43.43623221804291</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Borde-Haute</name>
+      <description>name: Chemin de Borde-Haute
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6091892688645328,43.43623221804291 1.609701039081896,43.436591374837285 1.6102251162186512,43.43702267327786 1.6103852858338097,43.437091490273396 1.6105929763274982,43.437093577612316 1.6108544759067054,43.437020129330556 1.6113887040061712,43.436875319846024 1.612360321817475,43.436660322782934 1.613203121217036,43.436455631301264 1.6137429188712633,43.43632138775471 1.6139992082218226,43.43626926882426 1.6140927228428994,43.436274095861016 1.6141423098465828,43.43630201439031 1.6141841713388227,43.436344609691744 1.6141888425783002,43.43644193299382 1.614155874407373,43.4367764969583 1.6141478794013442,43.43697146816406 1.6141494963688556,43.4372250798195 1.614125780845355,43.437322075560004 1.6140805057550351,43.43739578439131 1.613972887583998,43.43749558470124 1.6128458612285415,43.438374081242735 1.6126332300007904,43.43863407933239 1.6122235982312318,43.43932998944445 1.6122053624309645,43.43938301891483</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Borde-Haute</name>
+      <description>name: Chemin de Borde-Haute
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6122053624309645,43.43938301891483 1.6122110218172543,43.4394342872147 1.6122248558726295,43.439467618109006</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

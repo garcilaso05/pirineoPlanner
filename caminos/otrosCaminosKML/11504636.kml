@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>unclassified</name>
+      <description>lanes: 2
+width: 6
+noname: yes
+highway: unclassified
+surface: asphalt
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0535398390498156,42.307519203895296 3.0534896232254334,42.30754351882866 3.0534369819497837,42.30754498038173 3.0533785914563163,42.30752033327765 3.0531570669072527,42.307327474337654 3.0524878220205833,42.30694182111997 3.0522601889275873,42.30690362106025 3.052194522080318,42.30685990687651 3.0521692794208346,42.30676782796464</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0521692794208346,42.30676782796464 3.0514065199130886,42.3065368328722 3.0510177290581213,42.30645631324474 3.050554018708459,42.3064840832269 3.050256856012472,42.30644800882185 3.0495488039055294,42.30625361857805 3.049087788501719,42.30620917315092 3.0486088966237554,42.30624172660585 3.047961840124604,42.30611490090788 3.0473016682223046,42.305928681256084 3.046612570567856,42.305847695798626 3.046181019905365,42.30576259119824 3.045546719483249,42.305748772485686 3.044975390962548,42.30577401820827 3.0443455821168524,42.305804578806246 3.0440168885543923,42.30585208057585 3.0430393418622144,42.306161273036615 3.0423110776613784,42.30642761315459 3.041636263219948,42.30662226860194 3.0413323631593303,42.30663887740064 3.040937643423488,42.306678605629344 3.0395711262132856,42.30681479752742 3.0388145650809997,42.30689398799805 3.036459272237567,42.30676829300999 3.0354621422721944,42.30660306882518 3.0350278068323226,42.306562476890356 3.0347757395635986,42.306569585463485 3.0326246337842457,42.3066908961298 3.0318381587529992,42.30688076744823 3.0302707782452676,42.306859109657076 3.0290559864865525,42.30667468595571 3.028540712839582,42.306669171838166 3.028411894427839,42.306680731553925 3.0274452173505977,42.306766897873935 3.0263930206583094,42.30691870178225 3.025476469573922,42.30704891403338 3.0227113652978734,42.30677088397687 3.0226343796780246,42.30676257959548 3.0224556149364843,42.306745173608526 3.0209478825636187,42.30675600252464 3.019684222453448,42.306728897013336 3.0174876619207183,42.30627328351037 3.0160812595119006,42.30636157632343 3.015591318355942,42.30657330583788 3.0153600920018095,42.30663170240013</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Vallgornera</name>
+      <description>name: Camí de Vallgornera
+highway: residential
+name:ca: Camí de Vallgornera
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0153600920018095,42.30663170240013 3.0146543755146054,42.30670963083399 3.014403296392694,42.306737400704414 3.01426720162715,42.3066910954352</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>lit: yes
+ref: GIP-6042
+lanes: 2
+bicycle: yes
+highway: secondary
+surface: asphalt
+junction: roundabout
+maxspeed: 50
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.01426720162715,42.3066910954352 3.014269267752303,42.30671169032241 3.014266393143394,42.3067322187678 3.014258577800422,42.30675208285583 3.0142462708810296,42.306770618236676 3.0142298317113307,42.306787293431256 3.0142096196174384,42.30680157696096 3.0141909346595286,42.30681107716729 3.014170632734107,42.306818517887336 3.0141444917593394,42.30682449703672 3.0141172728062307,42.306827088001285 3.0140899640215935,42.306826224346445 3.014063194226126,42.30682190607205</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: yes
+lanes: 1
+oneway: yes
+bicycle: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.014063194226126,42.30682190607205 3.013899880507473,42.30691910039159</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Llatzer</name>
+      <description>lit: yes
+name: Carrer de Sant Llatzer
+lanes: 2
+oneway: no
+bicycle: yes
+highway: tertiary
+name:ca: Carrer de Sant Llatzer
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.013899880507473,42.30691910039159 3.013029233334105,42.30777497526509</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Llatzer</name>
+      <description>lit: yes
+name: Carrer de Sant Llatzer
+lanes: 1
+oneway: yes
+bicycle: yes
+highway: residential
+name:ca: Carrer de Sant Llatzer
+surface: asphalt
+maxspeed: 50
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.013029233334105,42.30777497526509 3.012907960770749,42.30795381530422</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Llatzer</name>
+      <description>lit: yes
+name: Carrer de Sant Llatzer
+lanes: 2
+oneway: yes
+bicycle: yes
+highway: residential
+name:ca: Carrer de Sant Llatzer
+surface: asphalt
+maxspeed: 50
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.012907960770749,42.30795381530422 3.012456916666592,42.30840376981214 3.0123471425388733,42.30851012947315 3.0123243253306557,42.30853152096353 3.012286865583308,42.30855530404057 3.0122330564977897,42.30858320596307 3.012158765823793,42.308604996027285</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Sant Joan</name>
+      <description>lit: yes
+ref: C-252
+name: Carrer Sant Joan
+lanes: 2
+source: PNOA
+highway: tertiary
+name:ca: Carrer Sant Joan
+surface: asphalt
+maxspeed: 50
+source:date: 2008
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.012158765823793,42.308604996027285 3.0120852836335517,42.30857410462304 3.011334471719085,42.30823443104287 3.0109509809242945,42.308060773628654 3.0107151731622133,42.30797068948673 3.0106427689503126,42.307949895709996 3.010459782126938,42.307914685784844 3.01012138675941,42.30786419604649 3.010067218347778,42.30785097570041</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: yes
+ref: C-252
+lanes: 2
+source: PNOA
+highway: tertiary
+maxspeed: 50
+source:date: 2008
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.010067218347778,42.30785097570041 3.0100376637749298,42.30781829020976</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Sabateria</name>
+      <description>name: Carrer de la Sabateria
+bicycle: yes
+highway: living_street
+name:ca: Carrer de la Sabateria</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.0100376637749298,42.30781829020976 3.0097844286963364,42.307823604924835 3.009735380681824,42.30782460143387 3.009497057636947,42.307846524628495 3.0093868343515853,42.30785609111103 3.0092847857353093,42.30786107365344 3.0092377140144215,42.30786060861617</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

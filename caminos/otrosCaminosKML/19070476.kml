@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Paul Cézanne</name>
+      <description>name: Rue Paul Cézanne
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+maxweight: 3.5
+zone:maxspeed: FR:30
+maxweightrating: 3.5
+source:maxspeed: FR:zone30
+source:maxweight: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5045962643778152,43.59556799446169 1.50459824067144,43.59561490144665 1.5046233934993958,43.5956579049056 1.5052095442222837,43.59602431134572 1.5055686008413462,43.59624557239294 1.5058089001798483,43.59639227693159</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Paul Cézanne</name>
+      <description>name: Rue Paul Cézanne
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5058089001798483,43.59639227693159 1.5059567628756143,43.5964897327866</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Allée Paul Gauguin</name>
+      <description>name: Allée Paul Gauguin
+lanes: 2
+highway: residential
+surface: asphalt
+maxspeed: 30
+zone:maxspeed: FR:30
+source:maxspeed: FR:zone30
+source:maxweight: sign
+check_date:surface: 2026-01-24</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5059567628756143,43.5964897327866 1.5059509238262674,43.596557587470954 1.5059468814074888,43.59660598999865 1.5059509238262674,43.596656214085684 1.5059569425386707,43.59671099212246</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

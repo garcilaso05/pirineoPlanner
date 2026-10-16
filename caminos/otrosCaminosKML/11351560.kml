@@ -1,0 +1,188 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Carrer Abad Zafont</name>
+      <description>name: Carrer Abad Zafont
+footway: crossing
+highway: footway
+name:ca: Carrer Abad Zafont
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.698141698813348,42.20034920944333 2.6981557125317805,42.20031640164482</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Abad Zafont</name>
+      <description>name: Carrer Abad Zafont
+highway: pedestrian
+name:ca: Carrer Abad Zafont
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6981557125317805,42.20031640164482 2.6981605634343144,42.200307417761934 2.698211497910924,42.20021371911464 2.69823153034176,42.20017478888299 2.6983225296800413,42.20001767021708 2.6983616063949003,42.19996137093042 2.6983943050712424,42.19991798184783 2.6984347292590276,42.199867072840256</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Abad Zafont</name>
+      <description>lit: yes
+name: Carrer Abad Zafont
+highway: pedestrian
+name:ca: Carrer Abad Zafont
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6984347292590276,42.199867072840256 2.6985435152399346,42.199756670028 2.6985940005589018,42.1997148779547 2.6986703573580524,42.1996123940911</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Major</name>
+      <description>name: Carrer Major
+highway: pedestrian
+name:ca: Carrer Major
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6986703573580524,42.1996123940911 2.6987246156012135,42.199558223981754 2.698963567466789,42.1993643025954 2.6990216884656713,42.19929249696196 2.6991731444225744,42.199130717705685 2.6992260551928084,42.19907940877237 2.699266659043651,42.19904793128682 2.699305915421567,42.19902823289466 2.6993436446635,42.199011928477574 2.69939341133024,42.19899282901222 2.699422696408502,42.19898151573733</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de la Llibertat</name>
+      <description>name: Plaça de la Llibertat
+highway: pedestrian
+name:ca: Plaça de la Llibertat
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.699422696408502,42.19898151573733 2.69957217607178,42.19896481201601</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de la Llibertat</name>
+      <description>name: Plaça de la Llibertat
+highway: pedestrian
+name:ca: Plaça de la Llibertat
+surface: unhewn_cobblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.69957217607178,42.19896481201601 2.6996679364810667,42.19897692387813</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Comte Tallaferro</name>
+      <description>name: Carrer del Comte Tallaferro
+highway: pedestrian
+name:ca: Carrer del Comte Tallaferro
+surface: unhewn_cobblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.6996679364810667,42.19897692387813 2.699700994483523,42.19899043326006</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont Vell</name>
+      <description>lit: yes
+name: Carrer del Pont Vell
+highway: pedestrian
+name:ca: Carrer del Pont Vell
+surface: unhewn_cobblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.699700994483523,42.19899043326006 2.6998955695740627,42.198945180146644 2.6999854909340035,42.19901778475848 2.700032382991834,42.199055584376715 2.700117183954655,42.19911607702857 2.7001523080822647,42.199132381418785 2.7002403429801083,42.19920172494156 2.7003228981547185,42.19924977290408 2.700363502005561,42.199264613195375 2.7004082381067103,42.199280784450515 2.700479205014155,42.19928970193102 2.7005478363018622,42.19929828666851 2.700687973486185,42.19930181373086 2.7007759185525,42.199305606986385</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pont Vell</name>
+      <description>lit: no
+name: Carrer del Pont Vell
+tunnel: building_passage
+highway: pedestrian
+name:ca: Carrer del Pont Vell
+surface: unhewn_cobblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7007759185525,42.199305606986385 2.7008097850387114,42.19930707104985</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Besalú</name>
+      <description>lit: no
+name: Pont de Besalú
+bridge: yes
+highway: pedestrian
+name:ca: Pont de Besalú
+surface: unhewn_cobblestone
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7008097850387114,42.19930707104985 2.7008582940640538,42.19930953333835 2.7010457724638495,42.19931891665307 2.701349043703768,42.19933601957065 2.7015282576029502,42.19934813136162 2.7015956312492593,42.19931938249135</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Besalú</name>
+      <description>lit: no
+name: Pont de Besalú
+bridge: yes
+tunnel: building_passage
+highway: pedestrian
+name:ca: Pont de Besalú
+surface: unhewn_cobblestone
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7015956312492593,42.19931938249135 2.701629587566999,42.199302612310994 2.701668215124216,42.199283379836764</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont de Besalú</name>
+      <description>lit: no
+name: Pont de Besalú
+bridge: yes
+highway: pedestrian
+name:ca: Pont de Besalú
+surface: unhewn_cobblestone
+tracktype: grade2
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.701668215124216,42.199283379836764 2.701942111454344,42.19912539382349 2.7021587851008735,42.19887390642731</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: unhewn_cobblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7021587851008735,42.19887390642731 2.70219804147879,42.19884828513601 2.702247897977058,42.19881580930249 2.7022649659674567,42.19880269917644</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+ramp: yes
+highway: steps
+incline: down
+surface: stone
+handrail: both
+step_count: 10
+ramp:wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7022649659674567,42.19880269917644 2.702316529264765,42.19878340000118</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>highway: pedestrian
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.702316529264765,42.19878340000118 2.7024005217438303,42.19876050717873 2.7024553189761615,42.1987483287262 2.702553055679074,42.19873508548827 2.702779431130672,42.19873182459008</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

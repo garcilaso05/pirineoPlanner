@@ -1,0 +1,298 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1196591677275634,42.12377427485944 3.1196518015422336,42.12374249337743 3.1196827035880075,42.12370758036832 3.1197752300622716,42.12367280059585 3.1197471127938785,42.12364201848244</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Camí Ramader Nord</name>
+      <description>name: Carrer del Camí Ramader Nord
+lanes: 2
+bicycle: yes
+highway: residential
+name:ca: Carrer del Camí Ramader Nord
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1197471127938785,42.12364201848244 3.119845118991376,42.12359691133254 3.1202387607488773,42.12341608264257 3.1209454653828943,42.12309126931123 3.121664926093946,42.12276072423008 3.12191699336267,42.122619470817256 3.1220485067202643,42.122571697775705 3.122168880968337,42.122550976124444 3.122279733074397,42.12256356902586 3.122412144747276,42.12259921558506</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Camí Ramader Nord</name>
+      <description>name: Carrer del Camí Ramader Nord
+layer: -1
+tunnel: yes
+bicycle: yes
+highway: residential
+name:ca: Carrer del Camí Ramader Nord
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.122412144747276,42.12259921558506 3.1225955807282935,42.122673173802816</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Camí Ramader Sud</name>
+      <description>name: Carrer del Camí Ramader Sud
+lanes: 2
+bicycle: yes
+highway: residential
+name:ca: Carrer del Camí Ramader Sud
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1225955807282935,42.122673173802816 3.122662595048489,42.12269502810649 3.122737963700826,42.12270209077619 3.1227897964927203,42.12267917041129 3.122850432774398,42.122623401930646 3.123019405879341,42.12243237618943 3.123271473148065,42.12206038405424 3.123432361415451,42.12189127782633 3.123923290718222,42.121467510828175 3.1244569798285178,42.12083678570498 3.1247011419227415,42.120613971526076 3.1249146714657763,42.120370567462096 3.1250380999858147,42.12019552651292 3.1251346688788577,42.11996078298115 3.1252285428260476,42.11960596744845 3.125240220924742,42.11956159038007</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Puig d'en Llop</name>
+      <description>name: Carrer del Puig d'en Llop
+bicycle: yes
+highway: residential
+name:ca: Carrer del Puig d'en Llop</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.125240220924742,42.11956159038007 3.1261647670151573,42.119687591854934 3.1262816378336216,42.11970351693096</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Closa d'en Llop</name>
+      <description>name: Carrer de la Closa d'en Llop
+lanes: 2
+oneway: no
+bicycle: yes
+highway: secondary
+name:ca: Carrer de la Closa d'en Llop
+surface: asphalt
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1262816378336216,42.11970351693096 3.1260154670149367,42.12020072377685</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Modigliani</name>
+      <description>name: Carrer de Modigliani
+fixme: verify name
+highway: residential
+name:ca: Carrer de Modigliani
+name:etymology:wikidata: Q120993</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1260154670149367,42.12020072377685 3.126713457990698,42.12029001003927</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pintor Joan Miró</name>
+      <description>name: Carrer del Pintor Joan Miró
+fixme: verify name
+highway: residential
+name:ca: Carrer del Pintor Joan Miró
+name:etymology:wikidata: Q152384</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.126713457990698,42.12029001003927 3.1271019793510795,42.12019599293406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1271019793510795,42.12019599293406 3.127199626222463,42.12024803218529 3.1273537771252173,42.1202976726604 3.127391326704094,42.12032259283056 3.1274489985453346,42.1203643707409</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps
+incline: up</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1274489985453346,42.1203643707409 3.1279313938529065,42.120513425038666</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+incline: up
+crossing: uncontrolled
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1279313938529065,42.120513425038666 3.1279835859709135,42.120535813137145</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Ribera</name>
+      <description>name: Carrer de la Ribera
+oneway: yes
+highway: residential
+name:ca: Carrer de la Ribera</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1279835859709135,42.120535813137145 3.128002360760352,42.120504896237165</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Dalí</name>
+      <description>name: Carrer de Dalí
+highway: residential
+name:ca: Carrer de Dalí
+name:etymology:wikidata: Q5577</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.128002360760352,42.120504896237165 3.1284272638897406,42.12064482174171 3.1284518777285255,42.12065288410661 3.128901035370585,42.12080080499947 3.129147712747604,42.12087643108832 3.129287221111228,42.12085650845341</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Dalí</name>
+      <description>name: Carrer de Dalí
+oneway: yes
+highway: residential
+name:ca: Carrer de Dalí
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+name:etymology:wikidata: Q5577</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.129287221111228,42.12085650845341 3.1293997800163282,42.12083671907406 3.1296446607627795,42.120911079134125 3.1298692395838095,42.120993767951475</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Pintor Saura</name>
+      <description>name: Carrer del Pintor Saura
+highway: residential
+name:ca: Carrer del Pintor Saura</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1298692395838095,42.120993767951475 3.129798901497063,42.12143499525589 3.129726766779748,42.12188761318676</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Rusiñol</name>
+      <description>name: Carrer de Rusiñol
+lanes: 2
+source: http://www.esportslescala.com/Equipaments/Pavello.html
+highway: residential
+name:ca: Carrer de Rusiñol
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.129726766779748,42.12188761318676 3.130000932604461,42.121943115796014 3.1301588564314096,42.121975098069775 3.130529141991523,42.1221124217743</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Rusiñol</name>
+      <description>name: Carrer de Rusiñol
+oneway: yes
+source: Dirección General del Catastro
+highway: residential
+name:ca: Carrer de Rusiñol
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.130529141991523,42.1221124217743 3.1310332765289712,42.12237300950937 3.1312774386231954,42.122446568215814 3.1313466987316003,42.12244870035096 3.1317680984313814,42.122453231137904</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Girona</name>
+      <description>name: Avinguda de Girona
+highway: residential
+name:ca: Avinguda de Girona
+surface: asphalt
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1317680984313814,42.122453231137904 3.1317732188285006,42.12251672875027 3.131777800236449,42.12255090949534</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Girona</name>
+      <description>name: Avinguda de Girona
+oneway: yes
+highway: residential
+name:ca: Avinguda de Girona
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.131777800236449,42.12255090949534 3.1318181345927067,42.12265918171419 3.131841041632452,42.12274100207438 3.13187562677089,42.122864332075615</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de les Escoles</name>
+      <description>name: Plaça de les Escoles
+lanes: 1
+highway: residential
+name:ca: Plaça de les Escoles
+surface: asphalt
+junction: roundabout</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.13187562677089,42.122864332075615 3.131895389707141,42.12288112252723 3.1319071576373627,42.12290157755553 3.1319096729201585,42.12292383155277 3.131902666060942,42.12294548588388 3.131894581223385,42.122956812761835 3.131883891271504,42.122966873692896</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Enric Serra</name>
+      <description>name: Carrer d'Enric Serra
+oneway: yes
+highway: residential
+name:ca: Carrer d'Enric Serra
+surface: asphalt
+sidewalk: both
+cycleway:left: no
+lane_markings: no
+cycleway:right: separate
+oneway:bicycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.131883891271504,42.122966873692896 3.1319642904894325,42.12300538505665 3.1320633746652713,42.12325690766119 3.132432941573158,42.12419482831522 3.13244300270434,42.124242000486895 3.132463663955875,42.124307028733774 3.132583229720191,42.12462310770442</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Enric Serra</name>
+      <description>name: Carrer d'Enric Serra
+oneway: yes
+highway: living_street
+name:ca: Carrer d'Enric Serra
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.132583229720191,42.12462310770442 3.1325934705144305,42.12465049136901 3.132665964557859,42.12486023252426 3.132673061248603,42.12488188619356</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Enric Serra</name>
+      <description>lit: yes
+name: Carrer d'Enric Serra
+oneway: yes
+highway: living_street
+name:ca: Carrer d'Enric Serra
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.132673061248603,42.12488188619356 3.1327168092029396,42.12501427323543 3.1328766194919844,42.125455605794386</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Enric Serra</name>
+      <description>lit: yes
+name: Carrer d'Enric Serra
+oneway: yes
+highway: living_street
+name:ca: Carrer d'Enric Serra
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.1328766194919844,42.125455605794386 3.1329024909721674,42.12553129295339 3.132990076712369,42.125799595208555 3.1330242126931656,42.12589200498469 3.133034004329762,42.12591852196839 3.1330570012010357,42.12597168915351</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

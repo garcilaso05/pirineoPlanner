@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Les Deux Rives : boucle locale</name>
+    <Placemark>
+      <name>Chemin rural nº 4 de Rouillac</name>
+      <description>name: Chemin rural nº 4 de Rouillac
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11461218434508803,44.55338662957708 -0.11465943572903273,44.55344577818946 -0.11466518494685109,44.55361438981299 -0.11461209451355961,44.55399072356151</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin rural nº 4 de Rouillac</name>
+      <description>name: Chemin rural nº 4 de Rouillac
+cutting: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11461209451355961,44.55399072356151 -0.11454912261214283,44.55425541678817 -0.11461622676386657,44.55479440145056 -0.1149005435512904,44.55516522256002 -0.11539398813685725,44.55537921336615</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin rural nº 4 de Rouillac</name>
+      <description>name: Chemin rural nº 4 de Rouillac
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11539398813685725,44.55537921336615 -0.11612090486476677,44.55547100577109 -0.11657419475713346,44.555402193486685 -0.11720454259200014,44.55534291883972 -0.11840343417018606,44.55547100577109 -0.11924569458057653,44.55562392877969 -0.12036876834878273,44.555826523942414 -0.12054986871006122,44.55586902722985 -0.12080642755520578,44.55592721315583</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.12080642755520578,44.55592721315583 -0.12078010691738107,44.556009787142344</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont du Hillon</name>
+      <description>name: Pont du Hillon
+layer: 1
+bridge: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.12078010691738107,44.556009787142344 -0.12077372887886383,44.55603187086307 -0.12072090794015759,44.55623420856332</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.12072090794015759,44.55623420856332 -0.12072279440225424,44.556251107346064 -0.12073662845762968,44.55627402311178 -0.12078091540113678,44.556292906208036 -0.12091701016668088,44.55633720144708</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.12091701016668088,44.55633720144708 -0.12163817767677206,44.5565566288103 -0.12169324440368857,44.55658140075061 -0.12171857689470074,44.55661871866661 -0.12171731925330298,44.55667888815489 -0.12154556137097931,44.557103209300934 -0.12121237623209938,44.557992423787006 -0.12119234380126354,44.55802628433496 -0.12116207057618869,44.55805022353843 -0.12108966636428865,44.55805060758975 -0.12088853357217431,44.558002409130225 -0.12066862599062185,44.55794838584263</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin rural nº 3 du Pont de Noel à la Carbouère</name>
+      <description>name: Chemin rural nº 3 du Pont de Noel à la Carbouère
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.12066862599062185,44.55794838584263 -0.12057942328290877,44.55786997517601 -0.12046066600234817,44.557810318989894 -0.11986517280050535,44.557601009784484 -0.11897206774503372,44.557450972386185 -0.11785357538477649,44.55726560141443 -0.11707913777833706,44.55719967167921 -0.11675915787413368,44.55720940112056 -0.11648032080994299,44.55719871153688 -0.1163541973440526,44.557135726165626 -0.11629392038848818,44.55704579266675 -0.11623076882401458,44.55664931549928 -0.11621477881195726,44.55639033008527 -0.11618791918496209,44.556357812804045 -0.1161369847083525,44.55634251431309 -0.11608865534606687,44.55634149014618 -0.11500510745036191,44.556378808216046 -0.11493396087985965,44.5563873856078 -0.11486559908673816,44.55642367948277 -0.1148307444537143,44.55646957487957 -0.11479588982069047,44.55668458505003 -0.11477307261247383,44.556729520090975 -0.1146939310359429,44.556761973154515 -0.11375653903696419,44.55682598308872 -0.11346817983076182,44.55686330084788 -0.11325087736353331,44.55688532023485 -0.11264343656841169,44.557115627160854 -0.11184537326999991,44.55741659942946 -0.11149673710823313,44.557546602069564 -0.11139747326933791,44.55758571162037 -0.11133719631377349,44.55769747133752 -0.11133980142809743,44.55785902967864 -0.11133459119944954,44.5579593313232</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Larose</name>
+      <description>ref: D 225E2
+name: Rue de Larose
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11133459119944954,44.5579593313232 -0.11103608103053662,44.557885209256646 -0.11093573921330047,44.55785979778378 -0.1108615383708322,44.5578436035648 -0.11079443421910848,44.557823696830944</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Larose</name>
+      <description>ref: D 225E2
+name: Rue de Larose
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11079443421910848,44.557823696830944 -0.11069427206492916,44.557683069324156 -0.11066651412264986,44.557645624072755</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pont Noel</name>
+      <description>ref: D 225E2
+name: Pont Noel
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: unclassified
+surface: asphalt
+maxweight: 16
+cycleway:both: no
+lane_markings: no
+maxweightrating: 16</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11066651412264986,44.557645624072755 -0.11052125654120773,44.55745257261645</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Larose</name>
+      <description>ref: D 225E2
+name: Rue de Larose
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11052125654120773,44.55745257261645 -0.11041309938099973,44.55731879321432 -0.11017684246127629,44.5570132117421 -0.11014998283428114,44.55696347618935 -0.11012761478370656,44.55691220435881 -0.1101212367451893,44.55686829361659</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin rural nº 5 du Moulin à Vent</name>
+      <description>name: Chemin rural nº 5 du Moulin à Vent
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.1101212367451893,44.55686829361659 -0.11003086622760688,44.5568604204042 -0.10958700864572342,44.55668368890925 -0.10913371875335671,44.55647629595974 -0.10858916002812347,44.5561627727457</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin rural nº 5 du Moulin à Vent</name>
+      <description>name: Chemin rural nº 5 du Moulin à Vent
+cutting: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.10858916002812347,44.5561627727457 -0.10801316026794601,44.55611937352335</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Rural nº 5 du Moulin à Vent</name>
+      <description>name: Chemin Rural nº 5 du Moulin à Vent
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.10801316026794601,44.55611937352335 -0.10790796754817564,44.556095881600406 -0.10773090960567568,44.55564870111706 -0.10761017603149,44.5555569730037</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin rural nº 5 du Moulin à Vent</name>
+      <description>name: Chemin rural nº 5 du Moulin à Vent
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.10761017603149,44.5555569730037 -0.10743590286637081,44.55517380013065 -0.10739565834164226,44.55507720637038 -0.10711403650007079,44.554582200840215 -0.10710873643989449,44.55404711900287 -0.107151586078947,44.55391710854447 -0.10709696850967253,44.55318197747495</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.10709696850967253,44.55318197747495 -0.10713900966496932,44.55313332688499</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Gibon</name>
+      <description>name: Route de Gibon
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.10713900966496932,44.55313332688499 -0.10709876514024076,44.55308646864673 -0.10707289366005811,44.55299403233933 -0.10706606646389881,44.55247878045375 -0.10717431345563522,44.552016208531334 -0.10738793283019885,44.551655097725984 -0.10784337867924744,44.5510057840061 -0.10787113662152673,44.55092966857433</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Meilhan</name>
+      <description>ref: D 224
+name: Route de Meilhan
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.10787113662152673,44.55092966857433 -0.10749303571844082,44.55086661240113</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Mercadet</name>
+      <description>name: Route du Mercadet
+highway: unclassified
+ref:FR:FANTOIR: 331060058</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.10749303571844082,44.55086661240113 -0.10760819973786494,44.55035908773967 -0.10780088836630859,44.549439220019515 -0.10795117651334177,44.54891740676553 -0.10838658993155452,44.547423513608386 -0.10857164288008313,44.547033500992555 -0.10876810443272007,44.54688247603581 -0.10955808289357478,44.54656941330479 -0.10994732290618377,44.54641838714395 -0.11012447068021214,44.54623707840788 -0.11059455906839188,44.54541049035801 -0.11067172435129775,44.54520728273066 -0.11058306063275514,44.544325683770126 -0.1106562733284109,44.54402912547617 -0.11066256153539973,44.54399391227961 -0.11081428698688753,44.54351001677746 -0.11086818590393469,44.54310902966938 -0.11111288698732885,44.54119337056312 -0.11111513277553915,44.54107652100111</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route du Carpia</name>
+      <description>ref: D 225
+name: Route du Carpia
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11111513277553915,44.54107652100111 -0.11150473211426178,44.54103503134678 -0.11191885546024088,44.5410395132553 -0.11226461701309848,44.54111269637003 -0.1131771256787071,44.54139018951438 -0.11403968801451866,44.54164988194656 -0.11467812068694241,44.54179419770376 -0.11689956455304158,44.54228860771441 -0.11703458134024473,44.542307815477805 -0.11707599367484263,44.54231357780558</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>ref: D 225
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11707599367484263,44.54231357780558 -0.11709503795886597,44.54217758671782</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin rural nº 13</name>
+      <description>name: Chemin rural nº 13
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11709503795886597,44.54217758671782 -0.11724083452947857,44.54220108425898 -0.11847233495247804,44.542526527430084 -0.11914750872002225,44.54276559863002 -0.1192529709343779,44.54285088035236 -0.1192755186480093,44.54293302471604 -0.11925449807036088,44.54351001677746 -0.11923141136755903,44.544122792475335 -0.11921066028449585,44.544344378672406 -0.1192470420535027,44.54439617376415 -0.11936858411144405,44.54443951770538 -0.1198897866392902,44.54442997819967 -0.1201790441607767,44.54450610213126 -0.12037361925131698,44.54464080731379 -0.12046740336697907,44.5448161028498 -0.12052992611075378,44.544833773225164 -0.12076178128558503,44.54486527257665 -0.12080822418577401,44.54488377523654</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Nouguey</name>
+      <description>name: Route de Nouguey
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.12080822418577401,44.54488377523654 -0.12065811570179766,44.545507420274426 -0.12063170523244451,44.54609027681765 -0.12052687183878778,44.54633842442706 -0.12038430920319801,44.54664028470851 -0.1202961844738259,44.547342720007954 -0.12013260126058774,44.54817971578502 -0.11993128880541655,44.54873258477941 -0.11981810107961748,44.549007608900354 -0.11953917418389838,44.54968229594968</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Lavignasse</name>
+      <description>name: Route de Lavignasse
+highway: unclassified
+ref:FR:FANTOIR: 331060047</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11953917418389838,44.54968229594968 -0.11902542767291042,44.54959350325327 -0.11807330330327213,44.54943198598235 -0.11708048525126323,44.54942667248544 -0.11647115799404496,44.54937142489245 -0.1163504244198593,44.54935727689092 -0.11628969830665283,44.54935042695228</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Peyroutet</name>
+      <description>ref: D 225E2
+name: Route de Peyroutet
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11628969830665283,44.54935042695228 -0.116264006489527,44.54951469722106 -0.11620938892025255,44.549575770304884 -0.11608946382982258,44.54964522965669 -0.11578224000265369,44.54977889866453 -0.11572313085695865,44.54981769334783 -0.11567093873895129,44.54988331135892 -0.11563231118173416,44.54997197557833 -0.11549792321522988,44.550553891182396 -0.11541833248105689,44.55084042966549 -0.1153327230344803,44.5511313838533 -0.11525924084423933,44.55139340141841</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de Larose</name>
+      <description>ref: D 225E2
+name: Rue de Larose
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.11524900005000036,44.55148827286745 -0.11522869812457927,44.55156022654889 -0.11519267568168606,44.551708678747545 -0.11499828025420258,44.55231669505603 -0.11482104264864582,44.55292470501242 -0.11473579252818289,44.55320579064363 -0.11470318368336935,44.55328830447802 -0.11466752056658978,44.553339579501575 -0.11461218434508803,44.55338662957708</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

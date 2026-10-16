@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Lafayette</name>
+      <description>name: Rue Lafayette
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5627702638621113,43.64279618367042 1.5626844747524777,43.64280060415813 1.5626059619966457,43.64280547969568 1.5625195440663135,43.64282387672047 1.5624686095897038,43.642845199060176 1.562419561575191,43.64287822266893</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

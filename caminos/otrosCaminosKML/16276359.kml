@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lanes: 2
+highway: tertiary
+surface: asphalt
+junction: roundabout
+cycleway:left: no
+cycleway:right: lane
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4549806044368543,43.659351489382054 1.4550416898761742,43.65938222929321 1.4550907378906872,43.659422782555744</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lanes: 2
+highway: tertiary
+surface: asphalt
+junction: roundabout
+cycleway:left: no
+cycleway:right: lane
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4550907378906872,43.659422782555744 1.4551290061217907,43.65948023296411 1.4551429300086944,43.65954327237609 1.4551310722469444,43.65960650668885</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lanes: 2
+highway: tertiary
+surface: asphalt
+junction: roundabout
+cycleway:left: no
+cycleway:right: lane
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4551310722469444,43.65960650668885 1.4551044821145342,43.65965277882618 1.4550640579267489,43.65969352687264 1.45501195564027,43.65972647622969</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Palanque</name>
+      <description>ref: M 64c
+name: Chemin de la Palanque
+lanes: 1
+oneway: yes
+highway: tertiary
+old_ref: D 64c
+surface: asphalt
+maxspeed: 30
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.45501195564027,43.65972647622969 1.4549816824151953,43.65978243160528 1.454946827782171,43.65985320435756 1.4549391921022563,43.659890572857016 1.4549442226678473,43.6599619303792 1.4550170760373895,43.6601706733907</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Palanque</name>
+      <description>ref: M 64c
+name: Chemin de la Palanque
+lanes: 2
+highway: tertiary
+old_ref: D 64c
+surface: asphalt
+maxspeed: 30
+zone:maxspeed: FR:30
+source:maxspeed: https://data.toulouse-metropole.fr/explore/dataset/zones-30/</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4550170760373895,43.6601706733907 1.4550639680952207,43.66021889474284 1.4551272094912222,43.66028947201591 1.4551891932458267,43.66037070726435 1.4552314140641802,43.660426012158595 1.455245517614141,43.66044771817837 1.455360142644395,43.660624615448185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: fine_gravel
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.455360142644395,43.660624615448185 1.4553343609957403,43.660716313276765 1.4552888164108355,43.660855971855035 1.4552975300690916,43.660892299928946 1.4554577895157785,43.661159203368626 1.455508903655445,43.66122360574966 1.4556677257976773,43.66139933096669 1.4557706727292372,43.661514487893555</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4557706727292372,43.661514487893555 1.4557861237521241,43.661531709424025 1.4558350819351087,43.661590912458976 1.455846221044632,43.661604299745285</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: fine_gravel
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.455846221044632,43.661604299745285 1.4558590669531946,43.66161989657994</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

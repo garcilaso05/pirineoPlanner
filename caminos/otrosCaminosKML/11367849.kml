@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+highway: track
+surface: compacted
+tracktype: grade2
+brp_access: 2
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8709245588761805,42.20814979480042 2.8708867398027196,42.20792502557267 2.870890063569271,42.2077327268123 2.870944860801602,42.20759232838571 2.871148778371097,42.207369819529276 2.871266996662487,42.20717958182031 2.8712821781907887,42.207062271607896 2.8711917178416777,42.20698042714464 2.870981422233666,42.20692619681181</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+width: 3
+bridge: yes
+highway: track
+surface: concrete
+tracktype: grade1
+brp_access: 2
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.870981422233666,42.20692619681181 2.8707914285510743,42.20686072110865</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>width: 4
+highway: track
+surface: compacted
+tracktype: grade2
+brp_access: 2
+smoothness: intermediate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.8707914285510743,42.20686072110865 2.870693871511219,42.20680868650754 2.870338677647878,42.20661917905581 2.8700973003310355,42.20636046852695 2.869861312905897,42.2061062151977 2.869593075962059,42.20581216904811 2.8694433268041957,42.20568420963778 2.8692660891986392,42.20548817771399 2.869109782339203,42.20534817355085 2.8688957138069973,42.2052001840221 2.8686060071278683,42.205065103349256 2.86837397228998,42.20496888314704</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

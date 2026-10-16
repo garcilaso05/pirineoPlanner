@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin Rural de la Bourdette</name>
+      <description>lit: no
+name: Chemin Rural de la Bourdette
+highway: track
+surface: fine_gravel
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5459502084822576,43.56955950194472 1.5460172228024527,43.56960760075217 1.5460916931395063,43.569717921958436 1.5461339139578598,43.56980338007548</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Quint</name>
+      <description>lit: no
+ref: M 57
+name: Route de Quint
+lanes: 2
+source: Toulouse - Orthophotoplan 2011
+highway: tertiary
+old_ref: D 57
+surface: asphalt
+maxspeed: 70
+smoothness: excellent
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5461339139578598,43.56980338007548 1.5461861959073955,43.569848224385424 1.54624476606392,43.56991513281481 1.5463932575803851,43.57011689902931 1.5465911564374766,43.57040047704691 1.5468711613115367,43.57078408952754 1.547131223586289,43.57115578907617 1.5472295891099004,43.57129402870128 1.54766742797938,43.57187347316897 1.5477867242491112,43.57202472788916 1.5478467317100906,43.57209462774769 1.5478964085453022,43.572149688472976 1.547958482131435,43.5722143164232 1.5480572968126882,43.57231708318209 1.5481291620354176,43.5723945974485 1.548178030386874,43.57245291206174 1.5482169274386761,43.57250471830025 1.548249176957376,43.572556068912284 1.5482675924207003,43.57259010738004 1.5482916672703149,43.572644777154125 1.548309813239054,43.572699381795616 1.5483239167890148,43.57276908562241 1.5483330796049128,43.572846404058595 1.5483393678119017,43.57293107674394 1.5483445780405494,43.573060005485054 1.5483478119755723,43.57332742923769 1.5483531120357485,43.573603507709265 1.5483523933835213,43.57371792175441 1.548342511915396,43.57391388296156 1.5483302948275321,43.57410099245298 1.5483231981367873,43.57421820405041 1.5483249947673559,43.57430469708179 1.5483284981969638,43.57436392098196 1.5483400864641288,43.57442809098828</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Quint</name>
+      <description>lit: no
+ref: M 57
+name: Route de Quint
+lanes: 2
+source: Toulouse - Orthophotoplan 2011
+highway: tertiary
+old_ref: D 57
+surface: asphalt
+maxspeed: 50
+smoothness: excellent
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5483400864641288,43.57442809098828 1.5483513154051802,43.574460501371156 1.548374132613397,43.57450286913451</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Quint</name>
+      <description>ref: M 57
+name: Route de Quint
+lanes: 2
+layer: 1
+bridge: yes
+source: Toulouse - Orthophotoplan 2011
+highway: tertiary
+old_ref: D 57
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+source:maxspeed: Passage à 30 km/h sur la commune le 30/11/2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.548374132613397,43.57450286913451 1.5484284806880861,43.57457758210695</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Quint</name>
+      <description>ref: M 57
+name: Route de Quint
+lanes: 2
+layer: 1
+bridge: yes
+source: Toulouse - Orthophotoplan 2011
+highway: tertiary
+old_ref: D 57
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+source:maxspeed: Passage à 30 km/h sur la commune le 30/11/2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5484284806880861,43.57457758210695 1.5484828287627757,43.57464917110508</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Quint</name>
+      <description>lit: no
+ref: M 57
+name: Route de Quint
+lanes: 2
+source: Toulouse - Orthophotoplan 2011
+highway: tertiary
+old_ref: D 57
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+source:maxspeed: Passage à 30 km/h sur la commune le 30/11/2022</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5484828287627757,43.57464917110508 1.548504298498066,43.574674227234325</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue Paul Riquet</name>
+      <description>lit: yes
+name: Avenue Paul Riquet
+lanes: 2
+highway: residential
+old_ref: D 57w
+surface: asphalt
+maxspeed: 30
+cycleway:left: no
+sidewalk:left: yes
+cycleway:right: separate
+sidewalk:right: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5271880852896653,43.52987948755953 1.5271820665772617,43.529835329923806 1.5271673342066021,43.52978863221192 1.5271464932920107,43.52974141342881 1.5270881926300712,43.52964619419791 1.527011117178694,43.52953632065779</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

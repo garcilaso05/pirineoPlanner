@@ -1,0 +1,565 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Itinerari Mitjà - Mata-Les Pedreres</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+highway: cycleway
+surface: concrete
+maxspeed: 20
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.766863626532247,42.1041686691213 2.7668288617307515,42.104061031796356 2.766778466243313,42.10394293044692 2.7666480308640584,42.103589091622 2.766453725268103,42.10307962422851</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Marià Benlliure</name>
+      <description>hgv: no
+lit: yes
+name: Marià Benlliure
+lanes: 2
+oneway: no
+highway: tertiary
+name:ca: Marià Benlliure
+maxspeed: 30
+name:etymology:wikidata: Q2402329</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.766453725268103,42.10307962422851 2.7669057575190723,42.10302970366846 2.767073832308731,42.10302130581337 2.7671802826698992,42.10302730428141 2.7672554716591797,42.1030349023401 2.767332457279029,42.10304583287908 2.7677569112507756,42.10312927815113 2.7678859991571034,42.10315327197899 2.7680685368228364,42.10318779641538 2.768249816847172,42.10321878841272 2.7683722572203973,42.10324271555729 2.768445469916053,42.103256978530545 2.768807311312496,42.10333162581485 2.7689449332140237,42.10336001841955 2.769061893864016,42.103384212107905 2.7691134571613243,42.10338867760859 2.769161517029025,42.10338821106375 2.7692166735874695,42.103379813256154 2.769480778281001,42.103319695585135 2.7697333845388954,42.103262177183545 2.76987738447894,42.10323371788561 2.7699902128786253,42.10321132367496 2.770111665105038,42.10318673002379 2.7702386868862123,42.10316087002259 2.7706112182345373,42.103101085391785 2.7712696833377968,42.102987581082544 2.7713230432656735,42.102978983272806 2.77146973815157,42.10295632237332 2.7717441734708688,42.10291539943433 2.7720515769610943,42.10286961103317 2.772704831835706,42.10277656783374 2.7728554793088525,42.10275517321056 2.773004869140602,42.102731379181904 2.773153630151652,42.10270811834414 2.773292509694577,42.102684924147844 2.7742926041003875,42.10252183138428 2.774445856687858,42.10249677091427 2.7745838379154986,42.102475176246024 2.7750979437526,42.10239459607636 2.7751577715505227,42.10238519838242 2.7752846136686404,42.10236526993462</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Estació</name>
+      <description>hgv: no
+lit: yes
+name: Carrer Estació
+lanes: 2
+oneway: no
+highway: tertiary
+name:ca: Carrer Estació
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7752846136686404,42.10236526993462 2.775417384667633,42.10234687443878 2.7761582252824466,42.10224429945652 2.776175922093544,42.10224190003974 2.7762397024787164,42.10223530164315 2.776471916979661,42.102208974700375 2.776718504525152,42.10218158133819</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.776718504525152,42.10218158133819 2.77673386571651,42.10227369230466 2.776744825162977,42.10230681756162 2.776789381601069,42.10235600553702 2.7768353753436164,42.10243431964675 2.7768775063304414,42.102514033313554 2.7769137982679197,42.10257981700826 2.7769624869563185,42.102673127096466 2.776995005969604,42.10270718524445 2.7771478093994326,42.102793630207195 2.7771857183044224,42.102823689299235 2.777214105067401,42.102863812499656 2.777237730759373,42.1029495241019 2.7772600988099474,42.10299931142574 2.777316872335904,42.103025371441774 2.7776361335878796,42.1031146819014</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7776361335878796,42.1031146819014 2.7774909658379663,42.10328357163566</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bridge: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7774909658379663,42.10328357163566 2.7774402110244134,42.10334262295198</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7774402110244134,42.10334262295198 2.7774264668005664,42.10335861878441 2.7773899952000316,42.103427267519415</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça President Companys</name>
+      <description>lit: yes
+name: Plaça President Companys
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Plaça President Companys
+surface: asphalt
+maxspeed: 30
+name:etymology:wikidata: Q7981</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7773899952000316,42.103427267519415 2.7773222622276084,42.103609086334174</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Gregal</name>
+      <description>lit: yes
+name: Carrer Gregal
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Carrer Gregal
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7773222622276084,42.103609086334174 2.777261715777459,42.10377177640787 2.7772344069928216,42.10384349053966 2.777092742672516,42.1042163227393 2.7770793577747828,42.10425137978367</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril Bici Rec de Guemol (Mata)</name>
+      <description>lit: yes
+foot: no
+name: Carril Bici Rec de Guemol (Mata)
+width: 1.5
+highway: cycleway
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7770793577747828,42.10425137978367 2.777179160602848,42.104219188620085 2.7774519789546352,42.10418073248812 2.77762876740255,42.10416167103451</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.77762876740255,42.10416167103451 2.777619514755124,42.104218188894244 2.777602356933197,42.10431389590974 2.7775612140931845,42.104413801616495</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7775612140931845,42.104413801616495 2.7776636220355737,42.104439394514046</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Antoni Gaudí</name>
+      <description>lit: yes
+name: Carrer Antoni Gaudí
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Carrer Antoni Gaudí
+maxspeed: 30
+name:etymology:wikidata: Q25328</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7776636220355737,42.104439394514046 2.778284178233844,42.10458222135415 2.7789101243238186,42.10471851638218 2.779428272579698,42.1048334171953 2.7795226855160595,42.104853878049106 2.7799660939403004,42.10494758467634 2.780109644722703,42.10497790933756 2.7802313664437013,42.10500370195009 2.7803633289589387,42.10503162727326 2.7805517955055468,42.105070482774074 2.7805820687306215,42.10507681428567 2.7806851953252387,42.1050994077798 2.7807945202953155,42.105122001265876 2.7811552837134177,42.10520071184326 2.781205140211687,42.10521150871417 2.781318327937486,42.10523616822724</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Nou</name>
+      <description>lit: yes
+name: Carrer Nou
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Carrer Nou
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.781318327937486,42.10523616822724 2.7814352885874785,42.10535959894308 2.7817128680102714,42.10565217943162 2.7820049103091384,42.10591450101776 2.782121601464546,42.106022601721435 2.782221763618725,42.106111574727045 2.7823608228247063,42.106226406369196 2.782405019936685,42.10626299516563</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril Bici del Carrer Sant Andreu de Mata</name>
+      <description>lit: yes
+foot: yes
+name: Carril Bici del Carrer Sant Andreu de Mata
+highway: cycleway
+name:ca: Carril Bici del Carrer Sant Andreu de Mata
+railway: abandoned
+surface: paved
+historic:gauge: 750
+abandoned:railway: narrow_gauge
+historic:end_date: 1956-02-29
+historic:start_date: 1928-03-15
+historic:electrified: no
+name:1928-03-15-1956-02-29: Carrilet Girona-Banyoles
+alt_name:1928-03-15--1956-02-29: Tren Pinxo de Banyoles</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.782405019936685,42.10626299516563 2.7823509413565812,42.10629558516871</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7823509413565812,42.10629558516871 2.7823930723434067,42.10633577281816 2.782469968131727,42.10641101629232</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.782469968131727,42.10641101629232 2.782620076615703,42.10633230721754</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.782620076615703,42.10633230721754 2.7826665195158924,42.1063079813618 2.782860196291149,42.10635589995639 2.7832259004433135,42.106706324405366 2.7832832129584406,42.106735182019 2.783363073187199,42.10674351273643</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.783363073187199,42.10674351273643 2.7833202235481465,42.10687847020626</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Pau Casals</name>
+      <description>lit: yes
+name: Carrer Pau Casals
+lanes: 1
+oneway: yes
+highway: living_street
+name:ca: Carrer Pau Casals
+maxspeed: 20
+name:etymology:wikidata: Q208537</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7833202235481465,42.10687847020626 2.7832241936442736,42.10708727050583 2.78312142637577,42.10731099863047 2.783099687145895,42.10734398796541</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Pau Casals</name>
+      <description>lit: yes
+name: Carrer de Pau Casals
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Carrer de Pau Casals
+maxspeed: 30
+name:etymology:wikidata: Q208537</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.783099687145895,42.10734398796541 2.7830509984574956,42.10741829721259 2.7829610770975552,42.107544389475756 2.7826999368444616,42.10783722645972 2.7824785919584545,42.10807628013628 2.782390557060611,42.108140125376046 2.7822539233058965,42.108231427955836 2.782082434918158,42.10834032443744 2.7820014068795302,42.108391706984065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Joan Estany</name>
+      <description>lit: yes
+name: Carrer Joan Estany
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Carrer Joan Estany
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7820014068795302,42.108391706984065 2.782152862836433,42.10852479491702</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Pau Casals</name>
+      <description>lit: yes
+name: Carrer Pau Casals
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Carrer Pau Casals
+maxspeed: 30
+name:etymology:wikidata: Q208537</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.782152862836433,42.10852479491702 2.7813220110301504,42.1091824997832</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer J. V. Foix</name>
+      <description>lit: no
+name: Carrer J. V. Foix
+lanes: 1
+oneway: no
+highway: residential
+name:ca: Carrer J. V. Foix
+maxspeed: 30
+name:etymology:wikidata: Q2992034</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7813220110301504,42.1091824997832 2.7810842269744445,42.10911892216622 2.780615575890719,42.1089715071528 2.7801098243857596,42.108798300738336 2.7800204420149903,42.10878417229889 2.7799268375623845,42.108788504132065</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Puigsacalm</name>
+      <description>lit: yes
+name: Carrer Puigsacalm
+lanes: 1
+oneway: no
+highway: residential
+name:ca: Carrer Puigsacalm
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7799268375623845,42.108788504132065 2.779579459042016,42.10900989373542</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Migdia (Porqueres) - Casalots (Banyoles)</name>
+      <description>lit: yes
+name: Carrer Migdia (Porqueres) - Casalots (Banyoles)
+lanes: 1
+oneway: no
+highway: residential
+name:ca: Carrer Migdia (Porqueres) - Casalots (Banyoles)
+maxspeed: 30
+addr:city: Porqueres</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.779579459042016,42.10900989373542 2.779517115961298,42.10900682814113 2.779370331243873,42.10891212786202</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Migdia (Porqueres) - Casalots (Banyoles)</name>
+      <description>lit: yes
+name: Carrer Migdia (Porqueres) - Casalots (Banyoles)
+lanes: 1
+oneway: no
+highway: residential
+name:ca: Carrer Migdia (Porqueres) - Casalots (Banyoles)
+maxspeed: 30
+addr:city: Porqueres</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.779370331243873,42.10891212786202 2.7791593169836326,42.10877490883923 2.7790101068149404,42.1086688787838 2.7788980868990114,42.108598969492476</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7788980868990114,42.108598969492476 2.7789367144562283,42.10855231882621 2.778953423120513,42.1085395232089</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.778953423120513,42.1085395232089 2.7789214430963978,42.10852059635354 2.7788942241432895,42.108504401891835 2.77886817300005,42.10848607482112 2.778796397608849,42.108433026252044 2.77876181247041,42.10841123367374 2.77870638641738,42.1084490874441 2.7784658175842933,42.10830960152003 2.7783909879211257,42.10826448345595</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carril Bici Carrer Carles Sabater</name>
+      <description>lit: yes
+foot: no
+name: Carril Bici Carrer Carles Sabater
+width: 1.5
+highway: cycleway
+name:ca: Carril Bici Carrer Carles Sabater
+surface: paved
+name:etymology:wikidata: Q3781585</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7783909879211257,42.10826448345595 2.7772477918905554,42.10778850924917 2.776703412828379,42.107555319237285 2.77650362750919,42.10745188629662 2.776480630637917,42.10744122309727 2.776434816558427,42.10741989669318 2.7761929002524135,42.10730719985745 2.776141516618162,42.10727167798657 2.7760443189044204,42.107189371136066 2.7754493646917475,42.1066614717835 2.7753960945953993,42.106611087522566 2.7752859611415666,42.10649878912496 2.775106118421686,42.10629091993412 2.774957177747579,42.106115306925304 2.7748921397210085,42.106034531442546 2.7748688733551496,42.10600187465875 2.774849739239598,42.10597508275417 2.7748124591553074,42.10592323172261 2.7746829220913365,42.10573288875476 2.7746731304547403,42.105716093759554 2.774586083703709,42.105567004658795 2.774478824858785,42.10540591872314 2.7744004019344817,42.10527002505658 2.774327189238826,42.10513219832332 2.7742775124036134,42.105001102695034 2.7742775124036134,42.104963580103835 2.774311199226768,42.1049249911281 2.774376955905566,42.104891467352914 2.774354767518048,42.10485241179922 2.774335723234025,42.10480869087781</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+oneway: no
+highway: cycleway
+surface: asphalt
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.774335723234025,42.10480869087781 2.774300509274887,42.104805291841494 2.774259815592517,42.104823819919574 2.7742148099967823,42.104858809980314</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de les Pedreres</name>
+      <description>lit: yes
+name: Carrer de les Pedreres
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Carrer de les Pedreres
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7742148099967823,42.104858809980314 2.774188130032844,42.104691324047906 2.774179596037645,42.104505776043915 2.7741833689618383,42.10414380924761 2.7741842672771226,42.104055499966044</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Verge de Montserrat</name>
+      <description>lit: yes
+name: Carrer Verge de Montserrat
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Carrer Verge de Montserrat
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7741842672771226,42.104055499966044 2.774098208672904,42.10406143168768 2.7730037911622607,42.104160404713966 2.77222378400106,42.10423091873541 2.771865086708111,42.104268908298586 2.7717815433866875,42.10427770587839 2.7716524554803597,42.10431069679178</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Narcís Montoriol</name>
+      <description>lit: yes
+name: Carrer Narcís Montoriol
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Carrer Narcís Montoriol
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7716524554803597,42.10431069679178 2.771629997598257,42.10434308785368 2.7716218229291716,42.10445998879129</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Colom</name>
+      <description>lit: yes
+name: Carrer Colom
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Carrer Colom
+surface: asphalt
+maxspeed: 30
+name:etymology:wikidata: Q7322</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7716218229291716,42.10445998879129 2.77147027714074,42.10444939173684 2.7714288648061425,42.10444652586647 2.7710475299680337,42.10441973330461 2.770223056200269,42.10434202148153</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Ramon Llull</name>
+      <description>lit: yes
+name: Carrer Ramon Llull
+lanes: 2
+oneway: no
+highway: residential
+name:ca: Carrer Ramon Llull
+name:la: via Raymundus Lullus
+surface: asphalt
+maxspeed: 30
+alt_name:es: calle Raimundo Lulio
+name:etymology:wikidata: Q193660</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.770223056200269,42.10434202148153 2.770289801025879,42.104729579926605</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Joan Maragall</name>
+      <description>lit: yes
+name: Carrer Joan Maragall
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Carrer Joan Maragall
+surface: asphalt
+maxspeed: 30
+name:etymology:wikidata: Q562402</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.770289801025879,42.104729579926605 2.7700628865851105,42.10474190977807 2.769134028581331,42.10484747986752</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça Catalunya</name>
+      <description>lit: yes
+name: Plaça Catalunya
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Plaça Catalunya
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.769134028581331,42.10484747986752 2.7691086062587904,42.10480049320169 2.769046891998771,42.10469578945654</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça Catalunya</name>
+      <description>lit: yes
+name: Plaça Catalunya
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Plaça Catalunya
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.769046891998771,42.10469578945654 2.7689402619745462,42.10471098517312 2.768703376234124,42.10474477563508</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça Catalunya</name>
+      <description>lit: yes
+name: Plaça Catalunya
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Plaça Catalunya
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.768703376234124,42.10474477563508 2.768709035620414,42.104838215832615 2.7687128983761355,42.10490473024025</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer Joan Maragall</name>
+      <description>lit: yes
+name: Carrer Joan Maragall
+lanes: 1
+oneway: yes
+highway: residential
+name:ca: Carrer Joan Maragall
+surface: asphalt
+maxspeed: 30
+name:etymology:wikidata: Q562402</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7687128983761355,42.10490473024025 2.767248913957606,42.10501423226433 2.7671854030670184,42.105019030887966</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: yes
+foot: designated
+highway: cycleway
+surface: concrete
+maxspeed: 20
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.7671854030670184,42.105019030887966 2.767038618349594,42.104644403914286 2.766863626532247,42.1041686691213</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Route de Tarabel</name>
+      <description>ref: D 38
+name: Route de Tarabel
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.665524416962236,43.48952638410671 1.6657040800190601,43.489722879751604 1.6670366409115234,43.49090581564608</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'En Jourdanet</name>
+      <description>name: Chemin d'En Jourdanet
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6670366409115234,43.49090581564608 1.6690258702766774,43.489558383938565 1.6698649865835733,43.48899000965613 1.6699992847185494,43.488899027563576 1.6730751162513746,43.487059804300074 1.6744825068070046,43.48618390504559 1.6745048748575793,43.48604318903966 1.6728925785856414,43.4844574227827 1.6724430616174684,43.48403760814999 1.6721149070441792,43.483668369611564 1.6719161098718036,43.483434310968626 1.671772918415515,43.48318486902739</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Fount</name>
+      <description>name: Chemin de la Fount
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.671772918415515,43.48318486902739 1.6716759901963583,43.483241575281646 1.6706890111936963,43.4836269156824 1.6704066706998977,43.483715494090816 1.6699853608316455,43.483845591355866 1.6699140345980865,43.48387453078957 1.6697982417579633,43.48390542557511 1.6687974286999256,43.48422910290573 1.6681368974715127,43.4844539683348 1.6673594954246356,43.48463737969108 1.666960733270015,43.484698712220094 1.6666834233418073,43.48473149674513 1.6665488557122463,43.48470431752782</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Liaison Les Lèches - Lunas</name>
+    <Placemark>
+      <name>Route des Bétoux</name>
+      <description>name: Route des Bétoux
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.4045498203331808,44.95760240310873 0.40456033062200497,44.95754557376308 0.40462438050176275,44.95730560582723 0.4047471802011019,44.95699062652343 0.4048018876019047,44.95685471766423 0.40503491058660535,44.95603188372137 0.4050569193110663,44.95586673067853 0.40505125992477636,44.955743024508294 0.4050073323073829,44.95549942555584 0.404926663594869,44.95521730209471 0.40479299428059196,44.95497001382832 0.4046391128724223,44.95472628445313</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Bétoux</name>
+      <description>name: Route des Bétoux
+highway: tertiary</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.4046391128724223,44.95472628445313 0.40439728639793737,44.95442947229553 0.4038682685271194,44.953744172994185 0.4034468688273389,44.95321131216776</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

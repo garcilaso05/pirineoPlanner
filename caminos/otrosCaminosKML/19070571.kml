@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: gravel
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5148706556084037,43.61391208142572 1.5147608814806843,43.61390668323652 1.5143584362333986,43.613892699973086 1.5141164300958572,43.61388730178216 1.513856906810275,43.613870782014104 1.513089116736938,43.61381992191233 1.5126995173982154,43.613789288761225 1.512493623535095,43.61377127307908 1.5123736086131367,43.61375722474558 1.512172385989494,43.61373732293416 1.5118190785882497,43.61368151978076 1.511491193509546,43.61364561842393 1.5113932771435772,43.61362077363184 1.5113436003083653,43.61358968510789</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+service: driveway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5113436003083653,43.61358968510789 1.511375400669423,43.613544678262336</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de la Linasse</name>
+      <description>lit: yes
+name: Avenue de la Linasse
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+zone:maxspeed: FR:30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.511375400669423,43.613544678262336 1.511327161138666,43.613512418999704 1.511236521126498,43.613412909471705</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

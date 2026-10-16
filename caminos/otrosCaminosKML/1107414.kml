@@ -1,0 +1,1653 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8196943640011698,43.351344778084 1.8196860995005555,43.351368816466206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8196860995005555,43.351368816466206 1.8194231626168942,43.35117402691032 1.8187974860215046,43.3508022135879</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8187974860215046,43.3508022135879 1.8187858977543394,43.351296178716986 1.8191711851796983,43.352938802685934 1.8192477216419056,43.35370898577786 1.8193873198370574,43.354292870931985</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+bicycle: yes
+highway: footway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8193873198370574,43.354292870931985 1.8193374633387889,43.35434617082957 1.8186279739273912,43.355079170309544 1.8183319790412737,43.355358010863135</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Halage</name>
+      <description>foot: yes
+name: Chemin de Halage
+source: local_knowledge
+bicycle: yes
+highway: track
+surface: dirt
+motorcar: no
+tracktype: grade4
+motorcycle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8183319790412737,43.355358010863135 1.818337009606865,43.355374078937515 1.8183460825912343,43.35538452971531 1.8183455436020641,43.35540667229482 1.8183388960689617,43.35541993171172 1.8183206602686939,43.35544488292188 1.818203969113287,43.35556571978926 1.8181819603888258,43.355594589967374 1.818175672181837,43.35561353193198 1.818164083914672,43.35565677184281 1.8181542024465467,43.35569380660599 1.8181411768749267,43.35571157283356 1.8181201562972782,43.35572718359541 1.8180846728435558,43.355749391366864 1.817939055936,43.35582920864301 1.8179004283787832,43.355851612327676 1.8176544696539911,43.3560017102699 1.81739827013496,43.356148803280426 1.8168667369813467,43.3564504995962 1.8163891925763085,43.35670131331744</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8163891925763085,43.35670131331744 1.816808795645521,43.357347219193116</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Rivière d'Aillade</name>
+      <description>name: Chemin de la Rivière d'Aillade
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.816808795645521,43.357347219193116 1.8169663601463555,43.35754211956521 1.8173149064765937,43.35797267473656 1.817404827836534,43.35806999336744 1.8174674404118372,43.358178480596806 1.8174882813264288,43.358208198617966</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Voie d'Aquitaine</name>
+      <description>ref: D 6113
+name: Voie d'Aquitaine
+lanes: 2
+highway: primary
+old_ref: N 113
+surface: asphalt
+maxspeed: 70
+cycleway:both: no
+source:maxspeed: sign</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8174882813264288,43.358208198617966 1.8176950735048332,43.358143406781686</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Tounisses</name>
+      <description>name: Chemin des Tounisses
+source: survey
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8176950735048332,43.358143406781686 1.8177175313869365,43.35817586802282 1.81774448084546,43.35829042928638 1.8179716647808135,43.35910241033225 1.8180978780782326,43.359591278815 1.8181664195344105,43.359762398181566 1.8182525679701578,43.359881789575915</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Pierre</name>
+      <description>name: Chemin de Saint-Pierre
+source: survey
+highway: track
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8182525679701578,43.359881789575915 1.8182529272962713,43.359961732041256 1.8183609946249508,43.360170731452975 1.8193161732665553,43.361257124922375 1.819767037707655,43.36191251761061 1.820014793063015,43.36266782686004 1.8200064387308728,43.362807001278114</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse de l'École</name>
+      <description>name: Impasse de l'École
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8200064387308728,43.362807001278114 1.8200622241100166,43.36301102739367</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Barbacane</name>
+      <description>name: Rue de la Barbacane
+lanes: 2
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8200622241100166,43.36301102739367 1.8200474917393572,43.36304191861192 1.8200165896935836,43.36310069678503 1.8200009590076394,43.36313988220213 1.8199475092482345,43.36327402675503</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Barbacane</name>
+      <description>name: Rue de la Barbacane
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8199475092482345,43.36327402675503 1.8198934306681303,43.36343592721037 1.819890017070051,43.36344618067363 1.8198468081048849,43.36357523048344 1.8197974905957865,43.36370062274825 1.8197426035319269,43.363840121338285</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Coustous</name>
+      <description>name: Chemin des Coustous
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: unclassified
+surface: asphalt
+maxweight: 3.5
+cycleway:both: no
+lane_markings: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8197426035319269,43.363840121338285 1.8196621144824694,43.36388453093446 1.8190582669484845,43.36404251127853 1.8187158291621779,43.36415222867928 1.8184307937225273,43.3643107307882 1.81821115563556,43.36448529814462 1.818142344684796,43.36467841228927 1.818065718391061,43.36476670776374 1.8176231184505753,43.365005274701055 1.8175715551532667,43.36504197722352</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Remparts</name>
+      <description>name: Chemin des Remparts
+highway: path
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8175715551532667,43.36504197722352 1.817619165863325,43.365049291602574 1.8177555301234543,43.364978825360595 1.8182040589448152,43.36481457796356 1.8183337756718423,43.36472961323094 1.8184686127959886,43.36467762860106 1.8185732665265886,43.36464001155466 1.818632734998397,43.364608272153625 1.818676393121205,43.36458770031074 1.8186615709190177,43.364646868830484 1.818549371340031,43.36471198025846 1.818623302687914,43.36479642255797</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>width: 0.5
+highway: steps
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.818623302687914,43.36479642255797 1.8186939102692457,43.364844227427156 1.8187205004016556,43.3648836729466</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Château</name>
+      <description>name: Rue du Château
+source: GPS
+highway: residential
+surface: ground</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8187205004016556,43.3648836729466 1.818846444204489,43.36486368896148 1.818939240173339,43.36486022768234 1.8189871203779824,43.364879427982984 1.8190268259135403,43.364909795793025</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8190268259135403,43.364909795793025 1.8191066861422986,43.36488269333963 1.8191887023277389,43.36485657048153 1.8192394571412913,43.36483097006967 1.8192335282604164,43.36481137791044 1.8192160111123763,43.364754103462005 1.819280959307418,43.36470590667786 1.8193100647226235,43.36468233073022 1.819354261834602,43.36464647698617</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>source: GPS
+highway: path
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.819354261834602,43.36464647698617 1.8193602805470055,43.364587504388396 1.819347165143857,43.364564908006834 1.8193572262750395,43.364496204506004 1.8195198213414652,43.364475371394846</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Remparts</name>
+      <description>name: Chemin des Remparts
+width: 3
+source: GPS
+highway: path
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8195198213414652,43.364475371394846 1.819537877478676,43.36449267789835 1.8196250140612358,43.36451507838423 1.81968358421776,43.36454152792688 1.819742873026512,43.36459351267341 1.8198297401144863,43.364658689466026 1.8198445623166746,43.364732617366485 1.8198317164081113,43.36480608802636 1.8197815904152577,43.36488027697573 1.8197168218832727,43.36494081665856 1.8196638212815093,43.36498418053664 1.8195886322922286,43.36505738966406 1.819426037225803,43.365247171343945</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Remparts</name>
+      <description>name: Chemin des Remparts
+source: GPS
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.819426037225803,43.365247171343945 1.8192549979957067,43.36534780894499 1.8188878565390874,43.365561426557164 1.8187010967915187,43.36566121465506</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Remparts</name>
+      <description>name: Chemin des Remparts
+source: GPS
+highway: path
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8187010967915187,43.36566121465506 1.8185454187527805,43.36573409643435 1.8184227987164983,43.365793916897445 1.818283739510517,43.36584191689886 1.8180929373441699,43.36588528013279</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Remparts</name>
+      <description>name: Chemin des Remparts
+highway: service
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8180929373441699,43.36588528013279 1.817828024166883,43.36583362302378</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Moulin</name>
+      <description>name: Chemin du Moulin
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.817828024166883,43.36583362302378 1.8176347965492687,43.36584981893627 1.8174326756103416,43.36586131280702 1.817243490411506,43.36593478209989 1.8171921966087832,43.36597448813402 1.817187525369306,43.36601151659967</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Metches-Hautes</name>
+      <description>name: Chemin de Metches-Hautes
+highway: service
+service: driveway
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.817187525369306,43.36601151659967 1.8170465797012274,43.36602888797083</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Metches-Hautes</name>
+      <description>name: Chemin de Metches-Hautes
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8170465797012274,43.36602888797083 1.8166621007596242,43.366068398025796 1.8163783229613708,43.36611469985912 1.8160921197118503,43.36618849537373 1.8155576221177991,43.36640341613534 1.8150227651976345,43.366725371366556 1.8146637984101004,43.36698887706407 1.8141313669412025,43.36729162965681 1.8136080084566746,43.36753991700134 1.8131389082153075,43.367762800067005 1.8126495958800477,43.3679587118422</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Metches-Hautes</name>
+      <description>name: Chemin de Metches-Hautes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8126495958800477,43.3679587118422 1.812229274158608,43.368010497749054 1.8117607129064115,43.36811707339802 1.811152643290591,43.368413290027085 1.8110520319787695,43.368496029290014 1.8109005760218668,43.36867417627017 1.8108493720506718,43.36871270505703 1.810166382940156,43.36894257120905 1.8099170106172844,43.369010486041795 1.8087480329380596,43.36919659841488 1.808237430530566,43.36931577533632 1.807516891841174,43.36952820353667 1.8069204104925183,43.36964228625022 1.8067494610939503,43.369689499582904 1.806576625233286,43.36977269421802 1.806516887266892,43.36982702534671 1.806470174872118,43.369895330999526 1.8062229585059282,43.370387312272406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Cantaranne</name>
+      <description>name: Chemin de Cantaranne
+width: 4
+highway: track
+surface: ground
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.8062229585059282,43.370387312272406 1.8057667041731238,43.370284332184895 1.8056632182523933,43.370261019610695 1.8054054017658507,43.37022928315074 1.804769574207751,43.370228107725985 1.8046606085637873,43.37021021514623 1.804410697251745,43.37010912850169 1.803967558322089,43.36970419252126 1.8031789273341605,43.36906253226119 1.802714318669214,43.36869442021207 1.8025941240841987,43.36846938556179 1.802598705492148,43.36794989582592 1.802538159041998,43.36764982398899 1.8023903861777604,43.3674462053008 1.801679189967323,43.3671015278494 1.8011895183059494,43.36679257032603 1.8011071427943957,43.36674058746399 1.8008487873186831,43.36664413170875 1.7999051071127155,43.3663844122336 1.7993130275089522,43.36614950784312 1.7986719897222045,43.365728284180975 1.798275293692737,43.36555731225379 1.7978239800939957,43.36536602949215 1.7974068923075792,43.365118125090774</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Cantaranne</name>
+      <description>foot: yes
+name: Chemin de Cantaranne
+horse: yes
+width: 4
+bicycle: yes
+highway: track
+incline: 0%
+surface: grass
+tracktype: grade4
+smoothness: bad
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7974068923075792,43.365118125090774 1.797101734605564,43.36462799499325 1.7969854926077984,43.36442763154261 1.7968941339434037,43.364282713758286 1.7967724122224056,43.36422831235556 1.7961583238941814,43.364099329242976 1.7958442728708532,43.36410390080102 1.7951902993440143,43.364255088562274 1.794501381352623,43.36443187653783</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Cantarrane</name>
+      <description>name: Chemin de Cantarrane
+highway: residential
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.794501381352623,43.36443187653783 1.7938246804490956,43.36455987933118 1.7936935264176141,43.364568108072945 1.7933826194977807,43.36455602618981 1.7932691622773962,43.364556679264645</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Cantarrane</name>
+      <description>name: Chemin de Cantarrane
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7932691622773962,43.364556679264645 1.7932432009656853,43.364556875187084 1.793086624611663,43.36456608354134 1.7929163938653223,43.36460030464705 1.7926956778000143,43.364666526350206 1.7924151339367835,43.36476677307099 1.792079164020523,43.36494290648472</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Porte d'Autan</name>
+      <description>ref: D 80a
+name: Chemin de la Porte d'Autan
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.792079164020523,43.36494290648472 1.7919727136593546,43.36507691643692 1.7918059863426221,43.36528367779996 1.7916462658851058,43.36549109152305</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Tournal</name>
+      <description>name: Chemin de Tournal
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7916462658851058,43.36549109152305 1.791738522864785,43.36553229989555 1.7918189220827136,43.365583891954785 1.7918922246098976,43.36567728000103</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Tournal</name>
+      <description>name: Chemin de Tournal
+highway: residential
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7918922246098976,43.36567728000103 1.7919201622152339,43.36585432505631 1.791924563960126,43.36595430859032 1.7919333674499103,43.36600302683001</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Tournal</name>
+      <description>name: Chemin de Tournal
+highway: track
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7919333674499103,43.36600302683001 1.7919425302658085,43.36610509990504 1.7919130655244893,43.3662140952127 1.7917185802654776,43.366402893691394 1.7911996235258414,43.36693062509764 1.7911521026473118,43.367014411260406 1.7911353939830268,43.3670889240328 1.7911945929602502,43.3673165106806 1.7912062710589443,43.36736170138538 1.7913097569796748,43.367639505932075 1.7914212379064338,43.36774092321284 1.791652194765981,43.367856315366645 1.791841469796345,43.367990318882654 1.7919127061983755,43.3681373828295 1.7919681322514058,43.36846252871807</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Catirac</name>
+      <description>name: Chemin de Catirac
+access: yes
+highway: track
+surface: gravel
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7919681322514058,43.36846252871807 1.7921563293034288,43.368561985527684 1.7930232933841326,43.36903921921736 1.7937550610145763,43.36945859142632 1.7938898981387228,43.369582208374005 1.794088874974155,43.36995096805186 1.7940990259368657,43.37033539779232 1.7941771793665842,43.37064120282555 1.7941540926637822,43.37096137244771 1.7941579554195042,43.37144603146644 1.7941971219658912,43.37178800694259 1.7941239092702357,43.37258289494224 1.7940498880908242,43.37285532109468 1.7939951806900216,43.372952615852554</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Laurent</name>
+      <description>ref: D 80
+name: Chemin de Saint-Laurent
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: tertiary
+surface: asphalt
+maxweight: 3.5
+cycleway:both: no
+lane_markings: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7939951806900216,43.372952615852554 1.7939411021099174,43.373353220476204 1.7939402936261615,43.373451428605975 1.7939720939872197,43.37358032653494 1.7940147639632154,43.373674289948816 1.7940699205216606,43.3737576750107 1.794145289173998,43.37383328955657 1.79437822232717,43.374020431887324 1.7944626639638772,43.374111782731546 1.794518179848436,43.374232190639084 1.7946158267198196,43.37476599179674 1.7946545441085653,43.37489521341338</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de las Perlines</name>
+      <description>name: Chemin de las Perlines
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7946545441085653,43.37489521341338 1.7944386789457911,43.37562489574765 1.79419379819934,43.37615848876107 1.7939842212435553,43.3769059159157 1.7939305019895648,43.377197910812875 1.7939215188367237,43.37741488196028 1.7938967253348823,43.37750361594945 1.7937768900759805,43.377576222325224 1.7928578237087975,43.37786978103015 1.7925441320115834,43.378010030550286 1.7917467873653985,43.378479811845125 1.7914274362818943,43.37868672339704 1.791235017148036,43.37881012565892</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Manda</name>
+      <description>name: Chemin de Manda
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.791235017148036,43.37881012565892 1.7911326990371748,43.3788797923276 1.7909906753907556,43.37895233176354 1.7907484895901566,43.37904138996224 1.7905321752697407,43.379104788350965 1.7903004099264377,43.37915741353369 1.7896882978918387,43.37926122734583 1.7888572664224998,43.3794712702196</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Manda</name>
+      <description>name: Chemin de Manda
+highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7888572664224998,43.3794712702196 1.786592074602064,43.38018699058152 1.7851861213508886,43.38058252006691 1.7847510672587894,43.38079092611334 1.784388058052477,43.381018591924914 1.7839215629254335,43.3812907843126 1.7825047400593201,43.38173892953926 1.781538242645136,43.38199740806681</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Trille</name>
+      <description>name: Chemin de la Trille
+highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.781538242645136,43.38199740806681 1.78142658205532,43.38097360726536 1.7812546445099393,43.38081802145837 1.780565457023963,43.38027552464228 1.7799466076247332,43.3797849294076 1.7792647863240865,43.37914872972877 1.7792048686946356,43.37907540702561</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Lartigat</name>
+      <description>name: Chemin de Lartigat
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7792048686946356,43.37907540702561 1.7790796435440293,43.37905908406093</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Lartigat</name>
+      <description>name: Chemin de Lartigat
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7790796435440293,43.37905908406093 1.7770046250692417,43.37969678637755 1.776244111349706,43.379934380519046 1.7761827564158008,43.379996276284324 1.7761931768730967,43.3800893809768 1.776450813696582,43.38050430232449 1.7763484057541923,43.380539102050406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Revel</name>
+      <description>ref: D 43
+name: Route de Revel
+highway: secondary
+surface: asphalt
+maxspeed: 80
+cycleway:both: no
+lane_markings: no
+source:maxspeed: FR:rural</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7763484057541923,43.380539102050406 1.7763017831909467,43.3804644099312</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Bonifé</name>
+      <description>name: Route de Bonifé
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7763017831909467,43.3804644099312 1.7758716698329102,43.38061842968113</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Bonifé</name>
+      <description>name: Route de Bonifé
+layer: 1
+bridge: yes
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7758716698329102,43.38061842968113 1.775755876992787,43.380659823646404</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Bonifé</name>
+      <description>name: Route de Bonifé
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.775755876992787,43.380659823646404 1.7757115002177515,43.38069671256642 1.7753636725397404,43.381212698063 1.7751148392060394,43.381612595228056 1.774830612250144,43.38216160893336 1.7746142080981995,43.38254419849155 1.7744437976888021,43.382795818362695 1.7742715906488364,43.383134269598834 1.7740801596617908,43.383663422307194 1.7738478553293173,43.38403901673226 1.7733075186859195,43.384740189737755 1.7727779618259307,43.385306932680585 1.7726442026801257,43.38553751935377 1.772561018684816,43.385738270060834 1.7724798109831317,43.38590872810678 1.7723773132092138,43.386059078103344 1.772250740585681,43.386257999127984 1.7720770064097324,43.38651906974147 1.771629465735184,43.387076786967754 1.771324397864697,43.38745092402215 1.7711379974432424,43.38795529706967</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7711379974432424,43.38795529706967 1.771055891426274,43.38791658466114 1.7708828759025523,43.38785410944042 1.770578796178878,43.387729224088325 1.7697465070681413,43.38746117342563 1.7691868566461348,43.3873445781985 1.768991113745725,43.38729509370621 1.768841095093277,43.38724110464281 1.7687633009896722,43.38720500310201 1.7687214394974327,43.38718548345345 1.7686008855863036,43.38709167154309 1.7679939837803524,43.386581415770664 1.7679019064637302,43.38648251078352 1.767814141060472,43.38636330231393 1.7677559302300607,43.38622600990322 1.767598096234641,43.38561298864066</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Boucassier</name>
+      <description>name: Chemin de Boucassier
+bicycle: yes
+highway: track
+surface: grass
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.767598096234641,43.38561298864066 1.7669407989412507,43.385752110410294 1.7666716636821285,43.385818700726695 1.7664379220452007,43.385918324926216 1.7653719811290645,43.386556085663926 1.764774421802068,43.38686631345875 1.7632183600669162,43.387653104610024 1.7627754906318451,43.38784927854292 1.7620721995959083,43.38811850256736 1.7620229719183385,43.38815760653935 1.7620032089820876,43.38820487073893 1.7619838952034792,43.38835560673145 1.7617138616290726,43.38896820857076 1.761662208500236,43.389214318180144 1.761666789908185,43.38934292147772 1.7616871816651345,43.389502206402 1.7617780911718874,43.3898032145975 1.761928469150449,43.390262525024696 1.7620738165634195,43.39064630376555 1.7621268171651827,43.39071987359189 1.7621113661422956,43.39076432878529 1.7620511790182598,43.390794879471976 1.7598787831666733,43.39145569750068 1.7594837041047175,43.39158188074241 1.7584282734774057,43.39177660583995 1.7579377933322764,43.391832810319315 1.757443809757539,43.39187152022658</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Boucassier</name>
+      <description>name: Chemin de Boucassier
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+ref:FR:FANTOIR: 310370017G</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.757443809757539,43.39187152022658 1.7571353282889726,43.391938103820365 1.756825768842065,43.39204803186806 1.7555602222697975,43.39256157076531 1.7553209110781078,43.39263892434694 1.7536681906183849,43.392957280622 1.753539821364284,43.39303052125899 1.7533845924831883,43.393181506356996 1.7532059175731767,43.39348321431919 1.7528539576448587,43.394150791699936</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 72
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7528539576448587,43.394150791699936 1.7522454388713964,43.394116326165985 1.7520835624571978,43.39412298428203 1.751987802047911,43.39416077886805 1.751959505116461,43.39421521869665 1.75191656564588,43.394569402766344</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 72
+layer: 1
+bridge: yes
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.75191656564588,43.394569402766344 1.7519082113137379,43.394678412190565</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 72
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7519082113137379,43.394678412190565 1.7518483835158154,43.394944276868166 1.7517679842978868,43.39508592293019 1.7517385195565678,43.39512521823066</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Pinelou</name>
+      <description>name: Chemin de Pinelou
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7517385195565678,43.39512521823066 1.7518330223244571,43.395159030445555 1.7521046728663747,43.395202111618666 1.7525214013266777,43.395286903110836 1.7528427287038073,43.39538598955412 1.7531033299677306,43.39546640741798 1.753249126538343,43.39553749097662 1.753349468355579,43.395664905925415 1.7534758613160548,43.39606039969786 1.7537810190180703,43.39699752490926 1.7543382439888096,43.39786218417728 1.754442358730239,43.39809690045426 1.755201884302962,43.4003731964901</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Bosc</name>
+      <description>name: Chemin du Bosc
+highway: service
+surface: asphalt
+tracktype: grade1
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.755201884302962,43.4003731964901 1.7533070678741687,43.40088268346851 1.7522616983780388,43.40122880060523</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Bosc</name>
+      <description>name: Chemin du Bosc
+highway: track
+surface: gravel
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7522616983780388,43.40122880060523 1.7512916975342465,43.40154991826234 1.7511686283403223,43.40157687379312 1.7498193587835746,43.40187260063257 1.7487190123920566,43.40206709686215 1.7485425832702555,43.40203283163212 1.7484904809837767,43.40196808661123 1.7484301141966838,43.401816274930034 1.748312165399879,43.401666420894 1.748146695724544,43.401539083832546 1.7480220095631085,43.40147988604037 1.7479705360973283,43.401460305721514 1.747618935495124,43.40132657197454 1.7472832350734484,43.40117632511899 1.7470918040864025,43.40113768642344 1.7469019002353399,43.40115341603051 1.746612642713853,43.401245182868365 1.7460896435554387,43.40136762545974 1.7450026820616542,43.40159208114539 1.7448088256233414,43.40160037012978 1.7444232687033971,43.401580724582246 1.7440845140097558,43.401616099616724</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Bosc</name>
+      <description>name: Chemin du Bosc
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7440845140097558,43.401616099616724 1.7440113013140999,43.401625106541026 1.7436748822401973,43.40166629035897</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Bosc</name>
+      <description>name: Chemin du Bosc
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7436748822401973,43.40166629035897 1.7422746782068401,43.40183807422321 1.7382541783212349,43.40226237566984 1.737323074529245,43.402357273633214</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Bosc</name>
+      <description>name: Chemin du Bosc
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.737323074529245,43.402357273633214 1.7361717936611174,43.40248160670965 1.7357040408926763,43.402534603197985 1.7355831276554339,43.402557968630106 1.7354641907118162,43.402593669426565 1.735375796487859,43.40261461997558 1.7352884802422424,43.402631132396934 1.735210506475581,43.4026368758468 1.735109356174589,43.402577418061135</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Tracas</name>
+      <description>name: Chemin du Tracas
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.735109356174589,43.402577418061135 1.734976136017954,43.40199138699465 1.7349331067158449,43.401742588039646 1.7348298902896995,43.40150227286383</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Tracas</name>
+      <description>name: Chemin du Tracas
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7348298902896995,43.40150227286383 1.7347544318058337,43.40146800731435 1.734663432467552,43.401446925833326 1.73448592536741,43.40144372771327 1.7342022374006854,43.40145417055364 1.7335119719363679,43.40151898139142 1.7328915055696263,43.40153699526754 1.7315043271078892,43.40147982077266 1.7312112068306806,43.40138498670267</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Tracas</name>
+      <description>name: Chemin du Tracas
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7312112068306806,43.40138498670267 1.7311559604407074,43.40136227349664</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7311559604407074,43.40136227349664 1.7310940665176318,43.40144229182258 1.730270311402094,43.401646122692505 1.7283903171754886,43.4020789754707 1.7282140677167446,43.40203687819362 1.7279993703638399,43.40196097248677 1.7278763910014439,43.40189603158727 1.7277258333598255,43.40176889081062 1.7275679095328773,43.401665115543636 1.7274204959947534,43.40157667799028 1.7271846882326718,43.40148791396927 1.7267375068842374,43.4013488935868 1.72641321506667,43.401290478823874 1.7262301384117664,43.40123030176896</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path
+surface: paving_stones
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7262301384117664,43.40123030176896 1.72618073107114,43.401237611783166 1.7261629444285143,43.40124022250231</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7261629444285143,43.40124022250231 1.7254140189761438,43.40088477205607 1.724494683114376,43.40064660734208 1.724353827277826,43.40060457433839 1.7240094131978947,43.40042763073756 1.7237950751711035,43.400320785531754 1.723643798877258,43.40018483011964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Fontaine de Barreau</name>
+      <description>name: Chemin Fontaine de Barreau
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.723643798877258,43.40018483011964 1.7234618002006956,43.40010011075032 1.7232505164458705,43.40003967143602 1.723066990633325,43.39997949313877 1.7230253088041416,43.39996467699785 1.722908707480263,43.399923230945625 1.7228405253501984,43.39989222797465 1.7227544667459795,43.39984693097378 1.722487217948954,43.399721287098174 1.7221993079003939,43.39956007093849 1.721946162653329,43.39943768996407 1.7217001140970085,43.39933071247248 1.7214325059738693,43.39923907327517 1.721199932146811,43.39918888052218 1.7210308692103395,43.39914162488839 1.720819226129401,43.39911466827414 1.720618183168815,43.3990879074588</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Fontaine de Barreau</name>
+      <description>name: Rue Fontaine de Barreau
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.720618183168815,43.3990879074588 1.7204598101842246,43.399032884574495 1.7203754583790458,43.3989988134396 1.720305030460771,43.398970290271706 1.7202634384631164,43.39893922154265 1.7202052276327051,43.39889568613292 1.7201518677048284,43.39889522923939 1.7200690430356327,43.39889451126385 1.719896566501082,43.398849605140406</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Edgar Quinet</name>
+      <description>name: Rue Edgar Quinet
+oneway: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.719896566501082,43.398849605140406 1.7197389121687188,43.39872252324151 1.7194937619276829,43.39851248179913 1.7192946054291933,43.398307987675445</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Garibaldi</name>
+      <description>name: Rue Garibaldi
+oneway: yes
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7192946054291933,43.398307987675445 1.7189872019389676,43.398583300701176</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place Gambetta</name>
+      <description>lit: yes
+name: Place Gambetta
+oneway: yes
+highway: residential
+surface: asphalt
+sidewalk: left</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7189872019389676,43.398583300701176 1.7188965619268,43.39866462811239 1.7188176000133257,43.3987355121073 1.7186879731178273,43.39885169379805 1.7185796362945627,43.39894718453775 1.7183950325036759,43.39910990354446 1.7181336227559973,43.39934637727865</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Pasteur</name>
+      <description>name: Rue Pasteur
+lanes: 1
+oneway: yes
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7181336227559973,43.39934637727865 1.717420629914992,43.399993069158995 1.7169701248000055,43.40040700577665</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Armand Barbès</name>
+      <description>ref: D 72a
+name: Rue Armand Barbès
+highway: tertiary
+surface: asphalt
+sidewalk: both</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7169701248000055,43.40040700577665 1.7170577105402072,43.40051939867471 1.7173148083745222,43.4008384315027 1.7173493036814325,43.4008798116605 1.7175515144518876,43.4011325302443</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Armand Barbès</name>
+      <description>ref: D 72a
+name: Rue Armand Barbès
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7175515144518876,43.4011325302443 1.7178451737182665,43.40147531729987 1.7186884222754695,43.402438987578854 1.719110271132892,43.402969211813456 1.719129495079972,43.4029934255371 1.7191503359945637,43.40301953196684</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Cave</name>
+      <description>name: Chemin de la Cave
+oneway: no
+highway: residential
+surface: asphalt
+maxspeed: 50
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7191503359945637,43.40301953196684 1.7191755786540475,43.403048510090684 1.7191939042858437,43.40306939521639 1.7198275758872614,43.40383456904533 1.720119079196958,43.40413021959947</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Cave</name>
+      <description>lit: no
+name: Chemin de la Cave
+horse: yes
+bicycle: yes
+highway: footway
+surface: gravel
+smoothness: bad
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.720119079196958,43.40413021959947 1.720434837019326,43.404532119297194 1.7206147695707352,43.40524382373379 1.7206259985117867,43.40528722405479</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Cave</name>
+      <description>name: Chemin de la Cave
+highway: track
+surface: dirt
+tracktype: grade4
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7206259985117867,43.40528722405479 1.7207388269114723,43.4056767813335 1.720442921856883,43.40578400867216 1.720394861989183,43.405844376992945 1.7203927958640295,43.405893911602575 1.7206066847331782,43.40628927334593 1.7208759098238289,43.406781285619175 1.7211502553115992,43.40738201942002 1.721636962532535,43.408490212442565 1.721595101040295,43.40856610996849 1.7215141628331958,43.40860761536807 1.7196497992925341,43.40892751923872</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>access: permissive
+highway: track
+surface: grass
+tracktype: grade5
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7196497992925341,43.40892751923872 1.719609824262391,43.40897776918319 1.7196125192082434,43.409038199580664 1.7199874760078349,43.410513309072506 1.719984062409755,43.4105741947434 1.7199475908092199,43.41059788336408 1.7199129158392528,43.41062039733384 1.7197168136127297,43.410657006988515 1.7195481100023717,43.41070999632473 1.719507595983058,43.410762789841435 1.719515860483672,43.41081917248336 1.7200388596420864,43.411543984942945 1.720023498450728,43.4116036296983 1.7199102208934005,43.4116705831502 1.7196664181252905,43.41176429175586</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Rivierette</name>
+      <description>name: Chemin de la Rivierette
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7196664181252905,43.41176429175586 1.719470675224881,43.411762790853146 1.71899555627111,43.41184207761922 1.7188641327450431,43.41183822748236 1.7187907403863307,43.41180390252258 1.718675666198435,43.41171789426798 1.7185809837674886,43.41166347016516 1.7185198084966402,43.41163319102684 1.718338977629947,43.411585423045075</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.718338977629947,43.411585423045075 1.718180694476885,43.41166901698843 1.7180679559087282,43.4117548295425 1.717978932864072,43.41177740833881 1.717809780096072,43.411791830051115 1.717632003501345,43.41180860099732 1.7174379673999751,43.41183000515536 1.7172379125862014,43.41184827699161 1.7170474697459683,43.41186583100053 1.7168007025374208,43.411912619913956 1.7167068285902303,43.411926193260044 1.716658589059473,43.41188527744314 1.7165620201664302,43.41167880549884 1.716438591646392,43.411429393760166 1.7163627738364124,43.4112068017257 1.7162508437520112,43.41116007752428</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Caraman</name>
+      <description>ref: D 25
+name: Route de Caraman
+lanes: 2
+highway: secondary
+surface: asphalt
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7162508437520112,43.41116007752428 1.7158098607790369,43.41289119816503 1.715754075399893,43.4132187795098 1.7157573991664443,43.41333786989815 1.7158250423073385,43.41383648086616 1.7158571121629815,43.413958114956586 1.7158846006106756,43.414080792868994</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Lavelanet</name>
+      <description>name: Chemin de Lavelanet
+highway: service
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7158846006106756,43.414080792868994 1.7149720021135384,43.414416132979525 1.7141352214263814,43.414790231752164 1.7138960000662202,43.41490573012142 1.713488793747929,43.41514677516095 1.7133992317141022,43.415203479986175 1.7132239704021703,43.415269972688286 1.7126116787045145,43.415429319965774 1.7124851060809823,43.41548210936859 1.7123841354430471,43.41554873226988 1.7123219720253862,43.41562409893077 1.7121689889325005,43.41587140532363 1.712103501748288,43.41594298695916 1.7120215753943766,43.41598259499277 1.7117935829752668,43.416019592918396 1.7111740149238095,43.416083931408934 1.7107166826126643,43.41612641043571 1.710188922383244,43.41618650744113 1.7100400715406656,43.41621541401424 1.7099380229243895,43.41628542920072 1.709873164560876,43.4163703216901</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Pourvarel</name>
+      <description>name: Chemin de Pourvarel
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.709873164560876,43.4163703216901 1.7099294889291905,43.416442424748645 1.7100796872446955,43.416559290247605 1.710197186883858,43.41680130747327 1.7106050220228484,43.417442397228726 1.7112233324329078,43.41824797479332 1.7115275019881107,43.41870282841022 1.711585982313107,43.41891671478554 1.7116117639617612,43.419328629889144</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7116117639617612,43.419328629889144 1.7117115667898266,43.4195402303648 1.7119797139021364,43.4199463994185 1.712469834721152,43.4205250143383 1.7126920779224433,43.420770408554006</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Landelle</name>
+      <description>name: Chemin de Landelle
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7126920779224433,43.420770408554006 1.712779483999588,43.42081458071214 1.7128839580671311,43.420906383011555 1.7134492678754274,43.42137433116213 1.7136457294280647,43.421541296170275 1.7138183856256723,43.42160510682552 1.714148696155643,43.421675181025876 1.7144947272030857,43.42168790398651</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Landelle</name>
+      <description>name: Chemin de Landelle
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7144947272030857,43.42168790398651 1.7148298886355908,43.42155251849898 1.7152510188407861,43.421359715992956 1.7156128602372294,43.42117917921496 1.7157199394190965,43.42117108864924 1.7157918046418261,43.42118479041313 1.7158598071088342,43.42124077187338 1.7164176609002721,43.421864198273596 1.7165294113216165,43.421973876288654 1.7166323582531768,43.42201732986726</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7166323582531768,43.42201732986726 1.7165694761832886,43.42207468071381 1.7160800740165,43.422284509969245 1.7156533742565432,43.42249727452578 1.7156063923671838,43.422655885090194 1.7150034431484829,43.42318077805091 1.7148961843035588,43.42331341964123 1.7148432735333243,43.423437122505376</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7148432735333243,43.423437122505376 1.7148166834009142,43.423471832335345</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Rieumajol</name>
+      <description>name: Chemin de Rieumajol
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7148166834009142,43.423471832335345 1.7118059797261878,43.42420132135674 1.7107004231060217,43.424460793151844 1.708192506495817,43.42533452052341 1.7078655197323975,43.42546559158984 1.706428394940863,43.42617939872294 1.7041480215921259,43.427250387220255 1.7039650347687505,43.427343810756874</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Rieumajol</name>
+      <description>name: Chemin de Rieumajol
+layer: 1
+bridge: yes
+highway: track
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7039650347687505,43.427343810756874 1.7038683760441793,43.42739319730282</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Rieumajol</name>
+      <description>name: Chemin de Rieumajol
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7038683760441793,43.42739319730282 1.7038569674400708,43.42739900364442 1.7032887830228651,43.42797317631336 1.7025046436113576,43.428445310353965 1.7023374671369829,43.42923032208712 1.7021400174375332,43.42974856908045 1.7020339264024789,43.429844533010346</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Rieumajol</name>
+      <description>name: Chemin de Rieumajol
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7020339264024789,43.429844533010346 1.7011395637056093,43.43037438685747 1.7007337048602442,43.43059371185244 1.7000367020312959,43.430788376797906</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Pierre Milliaire</name>
+      <description>name: Rue de la Pierre Milliaire
+oneway: yes
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.7000367020312959,43.430788376797906 1.6994919636430055,43.43102218266083 1.699292896976045,43.43127040469369</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de la Pierre Milliaire</name>
+      <description>name: Rue de la Pierre Milliaire
+oneway: yes
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.699292896976045,43.43127040469369 1.6990313973968378,43.4312903015537</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Jardins</name>
+      <description>name: Rue des Jardins
+oneway: yes
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6990313973968378,43.4312903015537 1.6986668610545421,43.43080709956629</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Lauragais</name>
+      <description>ref: D 97b
+name: Avenue du Lauragais
+highway: tertiary
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6986668610545421,43.43080709956629 1.698533012077208,43.43086489873808 1.6983060078049113,43.43106151988662 1.6980405556384541,43.431158916921035 1.69799438223285,43.431180575182 1.697686260090397,43.43132650729857 1.697267734999526,43.431549873432985 1.6971617337959997,43.43169652224583 1.696609000401681,43.4317061118133</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 97
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.696609000401681,43.4317061118133 1.6965386623149346,43.43160897660049 1.6964902431211204,43.43160871565947 1.6955064082219526,43.43167727787116</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Enclos</name>
+      <description>name: Rue de l'Enclos
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no
+ref:FR:FANTOIR: 313770036Z</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6955064082219526,43.43167727787116 1.6957729383667508,43.43224247282067 1.6957983606892917,43.432273198295114</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Baragne</name>
+      <description>name: Chemin de Baragne
+highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6957983606892917,43.432273198295114 1.6949569087626568,43.432860501976684 1.6944154043093895,43.43324303237697 1.6929822321051053,43.433757983364174 1.6922827139933614,43.433979970638035</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Lespinal</name>
+      <description>name: Chemin de Lespinal
+highway: track
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6922827139933614,43.433979970638035 1.6922201912495867,43.43420841511055 1.692178778914989,43.434318984012975 1.6921070035237875,43.43440332935847 1.691892306170883,43.434580369399676 1.690767525603637,43.43533823060477 1.689968563989941,43.43590247813551 1.6898001298741687,43.43616750958162 1.689507728249188,43.43715280582434 1.6893558231346433,43.43751502291239 1.6893330059264264,43.43768859672907 1.6893400127856426,43.437858517251065 1.6893951693440874,43.43815400170573 1.6893795386581438,43.43820461876557 1.6893249210888694,43.43835660014696 1.6892282623642982,43.438583723542756 1.6890972879958737,43.4387638170481 1.68890289256839,43.43895539002915 1.6886923274657923,43.43913587379108 1.6883856426277941,43.43930742092265 1.6862056110962926,43.44028418667084 1.6858133168117178,43.44047647232073</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Le Dego</name>
+      <description>name: Chemin Le Dego
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6858133168117178,43.44047647232073 1.6855596325754825,43.440556178065634 1.6850279197588123,43.44065760380034 1.6848416091688856,43.44071539356414 1.6847082991807223,43.44080077359948 1.6845794807689796,43.44095972755363 1.683804773667955,43.441194472494004 1.6826736150621917,43.44153018422281 1.6819401406327081,43.441699376488366 1.681073535878118,43.441863611241914 1.6781840149352192,43.44253737345579</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Villenouvelle à Mauremont</name>
+      <description>ref: D 97e
+name: Chemin de Villenouvelle à Mauremont
+highway: tertiary
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6781840149352192,43.44253737345579 1.6777257843087898,43.441718878573376 1.6775428873169431,43.441224997748584 1.6773793041037048,43.44091420036611 1.6769072394219,43.44038182976549 1.6765505184225762,43.440100510255505 1.6763737299746615,43.43995531678542 1.6761443900826258,43.4397233065505</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Sernin</name>
+      <description>name: Chemin de Saint-Sernin
+oneway: no
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6761443900826258,43.4397233065505 1.675672594895406,43.439885524652006 1.6745816808143714,43.440167693099944 1.6741021601157087,43.440216416922 1.673301761197558,43.44016417089442 1.6727310614975568,43.440003910326105 1.6722873835787302,43.43978801120927 1.671892843505945,43.43971039170104 1.671598914744981,43.43972637219617 1.6709388326742098,43.43982042873911 1.6707194640818281,43.43986563061791 1.670229702588926,43.44005041659091 1.670061987125381,43.44007500684551 1.6700021593274585,43.440065418604185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint Sernin</name>
+      <description>name: Chemin de Saint Sernin
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6700021593274585,43.440065418604185 1.6699720657654407,43.44013997203239 1.6697400309275523,43.44023683264836 1.6694135831533032,43.44038182976549 1.669019402406632,43.44056322243084 1.6687122684109914,43.44075661602558 1.668434329662085,43.440962206110136 1.668119919312643,43.44111926811518 1.667798322440928,43.44122330190151 1.6674065671455236,43.441298310476604 1.666759241151787,43.441339206417055 1.6666030241238787,43.44134827265848</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6666030241238787,43.44134827265848 1.6663982980706276,43.441394973564044 1.6659679152180062,43.441438478425475 1.6654191344109375,43.441453023522094 1.6652545630508868,43.441433717025376 1.6650950222564274,43.44136112193358 1.6649040404270234,43.44121117007106 1.6647469250838307,43.4411265733148 1.6645195614854202,43.44107582824926 1.6633371989084622,43.44115801175307 1.6631095658154664,43.44118729775244</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>layer: 1
+bridge: yes
+highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6631095658154664,43.44118729775244 1.662995479774383,43.44120210380909</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.662995479774383,43.44120210380909 1.6628874124457036,43.44121599671358</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6628874124457036,43.44121599671358 1.6628461797741625,43.441344098274115 1.6628461797741625,43.4414609157031 1.6629212789319145,43.44161667192422 1.6630500973436577,43.441791995030094 1.6631842158155765,43.4420256931569 1.6634469730361816,43.44227113065869 1.6636669704492624,43.44241912318613 1.663929817501396,43.44257487694037 1.6640907057687817,43.442730695516886 1.664192664553529,43.44299171845322 1.6642034443369387,43.443283786260785 1.664165804926534,43.44349797711984 1.6640123726760065,43.44374693064585 1.6638449267070465,43.44392257368825 1.663826331580665,43.44394220550052 1.6637078437946897,43.44404779975687 1.6635618675610204,43.444144132342636 1.6634190354308453,43.44436060290832</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6634190354308453,43.44436060290832 1.6632138602199524,43.444369407811 1.6626850220121916,43.44450591624915 1.6619148963191155,43.44461718376877 1.6614631335627321,43.44472121154016 1.6609092323585442,43.44485882794095</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Roquefort</name>
+      <description>name: Chemin de Roquefort
+width: 3.2
+oneway: no
+highway: unclassified
+surface: asphalt
+source:width: ARCore
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6609092323585442,43.44485882794095 1.6611021006500444,43.44541092092279 1.661140638375733,43.44558858095958 1.6611061430688228,43.44577608869237 1.660974000890529,43.44625317096392 1.660930432599249,43.446722684074004 1.660912106967453,43.44735947864065 1.6607840072079376,43.44790307050109 1.6607222031163902,43.448182005903554 1.6606456666541833,43.44852700489084 1.660571465811715,43.44911552036094 1.6605473909621005,43.44944218832281 1.6605210703242759,43.44993417603026 1.6604748070871436,43.45018082053555 1.6603452700231738,43.45065688984582 1.6601548271829403,43.45112539056068</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6601548271829403,43.45112539056068 1.659436624113287,43.45143411385319 1.6593129260986634,43.45152717398734</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6593129260986634,43.45152717398734 1.6586824884322684,43.4516341897039 1.658076125615488,43.451721315095654 1.6577459049170453,43.451739314038186 1.657223085421688,43.451716489291314 1.6566386414978398,43.451739509678845 1.655344528499537,43.45194799703879</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route des Crêtes</name>
+      <description>ref: D 11d
+name: Route des Crêtes
+highway: tertiary
+surface: asphalt
+old_name: Route de Mauremont
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.655344528499537,43.45194799703879 1.6516024165204806,43.45256452067256 1.650320340946985,43.45278259141573 1.6501351981669279,43.45283319623655 1.6498053367945993,43.45298703202331 1.6494243612826043,43.45317790784551 1.6491348342665326,43.45328107313988 1.6488933671181614,43.453320004624324 1.6485554209082756,43.45333559025345 1.6482764041810278,43.4533783691981 1.6478151192826327,43.45354387647639 1.6476353663942802,43.45361789160202</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade4</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6476353663942802,43.45361789160202 1.6478088310756436,43.4540820002412 1.6482220561063385,43.45467450470326 1.6484513061668462,43.45494799644014 1.6486173148313512,43.455133975331485 1.6486734595366088,43.455278480274366 1.6485190391392686,43.45566478150383 1.648527213808354,43.45602740942995 1.6488050627257325,43.45687942325771 1.6489255268053327,43.45711430204437</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6489255268053327,43.45711430204437 1.648038260799208,43.45781430323343 1.647634917236638,43.45810088731611 1.6475442772244706,43.45820763057378 1.6476038355278078,43.458329827572065 1.6480256843852301,43.4590607873835</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Delmont</name>
+      <description>name: Chemin de Delmont
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6480256843852301,43.4590607873835 1.6479425003899206,43.459066069041334 1.6478460213284063,43.459083218124675 1.647766789920347,43.459111386950646 1.647605901652961,43.459178613887374 1.64691922944978,43.45948423142463 1.6465839781857468,43.45968180285297 1.645938538654107,43.46005229644446 1.6450537879307774,43.46055697783197 1.6443214813111633,43.460980411394665 1.6437421577844347,43.461313274778966 1.6436764909371657,43.46134202939473 1.6436281615748798,43.461348419307484 1.64358064069635,43.46134691963414 1.6435410249923204,43.46133720435812</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Sainte-Colombe</name>
+      <description>name: Chemin de Sainte-Colombe
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6435410249923204,43.46133720435812 1.6435124585662853,43.46141140555422 1.6434953905758871,43.46153137917604 1.6434618834157892,43.4617397023722 1.6433398023686776,43.462124201860405 1.6431775666283657,43.46272868983712 1.642967001525768,43.4635551157277 1.6428435730057298,43.46396001138971 1.642751136362994,43.464286077567486 1.642731283595215,43.46437970472325</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Sainte-Colombe</name>
+      <description>name: Chemin de Sainte-Colombe
+layer: 1
+bridge: yes
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.642731283595215,43.46437970472325 1.642736314160806,43.46444673020251</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Sainte-Colombe</name>
+      <description>name: Chemin de Sainte-Colombe
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.642736314160806,43.46444673020251 1.642688074630049,43.46477468454038</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade5
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.642688074630049,43.46477468454038 1.6418487786600957,43.46472897967872 1.6409646567574656,43.46466469289613 1.6403196663834674,43.46458201973243 1.6400930214372844,43.464525491565674 1.639913268548932,43.4644690937457 1.6397202205943748,43.46440187269154 1.6394492887046843,43.46428027476546 1.6389933038664652,43.464059311473726 1.6386124181859987,43.46385001826317 1.638249229316629,43.463680692353556 1.6379338308203746,43.46355270329776</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: grass
+mtb:scale: 1
+sac_scale: hiking
+tracktype: grade5
+smoothness: very_bad
+trail_visibility: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6379338308203746,43.46355270329776 1.6378272007961496,43.46350980114913 1.6376019033228926,43.46340763132001 1.6374390387618816,43.46335547052382 1.63730959152944,43.463331215738265 1.6369226871365696,43.463280619702665 1.6367403291338933,43.463248475549804 1.6365847409266838,43.46320081349859 1.6363573773282734,43.46310288123164</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade5
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6363573773282734,43.46310288123164 1.6359358877969643,43.462903430138844 1.6356277656545115,43.46274277340254 1.6351054851483242,43.46248776907799 1.634975409095184,43.46243710713448 1.6348305108398553,43.462396290660045 1.6345476313568863,43.46232958891808 1.6337121083111266,43.462166518171585 1.633262142185311,43.46207751695886 1.632857990138986,43.462008728386 1.6318572669124765,43.461877410457085 1.6312229664903597,43.46180197098163 1.6304237353820785,43.461737681086426 1.6298752240695953,43.46169001784413 1.6293198855609525,43.46164672315644 1.6287626605902132,43.46160342843776 1.6283093706978466,43.46157910774634 1.6281450688323809,43.461555178262934 1.627944025871795,43.46150066855965 1.6275852387473178,43.46138832364534 1.6274256081213296,43.46133042322493 1.627284123464081,43.461259808110114 1.627178212092083,43.46118782364226 1.6270681684697785,43.46106752332125 1.6269514773143714,43.46094148484198 1.6268797917546987,43.46088788743698 1.6267959789386903,43.46084902602846 1.6267127949433808,43.46082711757237 1.626615597229639,43.460817402212825 1.6263970371210128,43.46080520910836 1.626057743438201,43.460804231051746 1.6258913754475819,43.460791125091575 1.6257109937385308,43.46076328306727</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+surface: grass
+tracktype: grade5
+smoothness: very_bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6257109937385308,43.46076328306727 1.625490367504751,43.46070349113568 1.6251624824260473,43.46060562002735 1.62489703025959,43.460504423351686 1.624613971113564,43.4604109858068 1.6243739412696474,43.46033411000738 1.62415600998172,43.46023910729408 1.6238502234590055,43.46008828936508 1.623450562989101,43.45987357041071 1.6231790022787114,43.45976220054643 1.6230147004132462,43.459695495898345 1.6228141964418306,43.45961848877908</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Bellevue</name>
+      <description>name: Chemin de Bellevue
+highway: service
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6228141964418306,43.45961848877908 1.6222520307370285,43.459216889520185 1.6220867407247503,43.459118168332715 1.6219981668377363,43.45908902142554 1.6219070776679265,43.459069394529365</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Bellevue</name>
+      <description>name: Chemin de Bellevue
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6219070776679265,43.459069394529365 1.6218231750203898,43.45907102467048 1.621540565032006,43.459123515191116 1.621046042468098,43.459207304312876 1.620968158532965,43.45922817006833 1.6209165952356563,43.45925210047275 1.6208696133462972,43.45928907195088</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Côte Vieille</name>
+      <description>name: Chemin de la Côte Vieille
+highway: track
+surface: mud
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6208696133462972,43.45928907195088 1.6208284705062843,43.45906750356559 1.6207991854280221,43.458899729201015 1.6206231156323347,43.45866211869422 1.620347602334695,43.45851762183723 1.6197350411424538,43.458256013833164 1.6192201268215969,43.45805908981322</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Côte Vieille</name>
+      <description>name: Chemin de la Côte Vieille
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6192201268215969,43.45805908981322 1.618848583620085,43.45791550441162 1.618600468938611,43.45780986915731 1.618434909431748,43.45773338129317 1.6182706075662823,43.45763850490781 1.617829355098723,43.457356222328336 1.6173251307297467,43.45701838136192 1.6172855150257168,43.45700038399055 1.6172473366261417,43.45698049558479</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Père Colombier</name>
+      <description>name: Rue du Père Colombier
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6172473366261417,43.45698049558479 1.6172108650256065,43.45695512970696 1.6160917438446505,43.456207124963605 1.6160523078036777,43.456180324168635 1.6159726272379762,43.45613402593035 1.6158456054568016,43.45603249572598</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Père Colombier</name>
+      <description>lit: no
+name: Rue du Père Colombier
+highway: residential
+surface: asphalt
+sidewalk: no
+maxheight: 1.8
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6158456054568016,43.45603249572598 1.6156165350593512,43.455836412183366 1.6154963404743363,43.4557301864137</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Père Colombier</name>
+      <description>name: Rue du Père Colombier
+highway: residential
+surface: asphalt
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6154963404743363,43.4557301864137 1.6153261097279954,43.45555346909678 1.6151451890297739,43.455183926086356 1.615079162856391,43.4550072723831</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grand'Rue</name>
+      <description>hgv: no
+psv: yes
+ref: D 38
+name: Grand'Rue
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: secondary
+surface: asphalt
+maxspeed: 50
+maxweight: 3.5
+cycleway:both: no
+lane_markings: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.615079162856391,43.4550072723831 1.6144786390889572,43.45500968515403 1.6139561789197132,43.45497160248819 1.6138844035285123,43.454979427695456</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grand'Rue</name>
+      <description>hgv: no
+psv: yes
+ref: D 16
+name: Grand'Rue
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: secondary
+surface: asphalt
+maxspeed: 50
+maxweight: 3.5
+cycleway:both: no
+lane_markings: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6138844035285123,43.454979427695456 1.6138376013022093,43.454986209540934 1.613592181566588,43.4550237053075 1.6133467618309665,43.45506120105081 1.6132591760907649,43.455074569092815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Grand'Rue</name>
+      <description>hgv: no
+psv: yes
+ref: D 16
+name: Grand'Rue
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50
+maxweight: 3.5
+cycleway:both: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6132591760907649,43.455074569092815 1.6131423052723008,43.45508532873422 1.612789716523284,43.45510971724766 1.6123517878222755,43.45513058441713 1.6122799225995461,43.4551356707886 1.6121095121901485,43.455148777974635 1.6110373728985519,43.45526772066732 1.6109389175434126,43.45527900195223 1.6107189201303316,43.45534101637679</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Romains</name>
+      <description>name: Chemin des Romains
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6107189201303316,43.45534101637679 1.6104881429338413,43.45532849611954 1.6091834298151864,43.45551082210974 1.6075839794518114,43.45581417586519 1.6061524242150385,43.45609653085226 1.6059680000872087,43.456130569863255 1.6058707125419385,43.45614863270232 1.6045209039960207,43.45640901086222 1.6042995591100135,43.45645667826769 1.6040968093503876,43.456506627929976</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Romains</name>
+      <description>name: Chemin des Romains
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6040968093503876,43.456506627929976 1.6039596366065028,43.456549730673274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>layer: 1
+bridge: yes
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6039596366065028,43.456549730673274 1.6036748706614368,43.45631908825355</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>layer: 1
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6036748706614368,43.45631908825355 1.6036100122979233,43.45630311214157</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Romains</name>
+      <description>name: Chemin des Romains
+oneway: yes
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.6036100122979233,43.45630311214157 1.6033760909979387,43.45630330776745 1.6012778959888208,43.456361799879126 1.599235127032733,43.45637973223202 1.5984275415923095,43.456400729380285 1.597548629918327,43.45641403191764 1.596072158917348,43.456429421123886 1.595904712948388,43.456403989806375 1.595761611323628,43.4563634953018</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Romains</name>
+      <description>lit: no
+name: Chemin des Romains
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.595761611323628,43.4563634953018 1.5955453868347405,43.45630219922076 1.5952257662566507,43.456186779835654 1.595071256027782,43.45617588997269 1.5948766809372417,43.45622218817891 1.594708156989941,43.45632541348854 1.5945497840053509,43.45638631829483 1.594388087254209,43.45641292337297 1.5938785628250565,43.456390622058265 1.59356046938295,43.45635319234785 1.5930575924868997,43.45624292454711</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: no
+layer: 1
+bridge: yes
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5930575924868997,43.45624292454711 1.592339569080303,43.45602597483355</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>lit: no
+highway: tertiary
+old_ref: D 24
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.592339569080303,43.45602597483355 1.5912794672135138,43.45571910084073 1.5911616980797656,43.455676519179804</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+ref: D 500
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: no
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5911616980797656,43.455676519179804 1.5910642308714384,43.45571329721643 1.5910009894754367,43.455726078231 1.5909496058411852,43.45573031683219 1.5908876220865806,43.455722230885065 1.5907953651069016,43.45571257991452 1.5906165105338332,43.45570977591601 1.5903990284035483,43.4557102323809 1.590167891880944,43.4557074283823 1.590054883818202,43.45571447098319 1.5887206161266991,43.45583191275306 1.588276578881759,43.455850432145155 1.5880077131172219,43.455852388418634 1.5877206115524174,43.45583778157511 1.5866484722608205,43.45574531495705 1.5853225589014601,43.4556392846554 1.5845827064334594,43.455650305033664 1.5838813018596187,43.45570090745481 1.5835977935559507,43.45575398778407 1.5833187768287031,43.4558236311921 1.5830500907272231,43.45593579081917 1.5828132049868007,43.45605792719973 1.582666060943262,43.45614269870163 1.5823964765264977,43.45631817533297 1.5811013753813825,43.45720591886955 1.580399701312957,43.457675607786896 1.580010281637291,43.457904614859984 1.5795799886161979,43.45810897294515 1.5793385214678264,43.458214672883486 1.5790878915035573,43.458303875402045 1.5783340253171239,43.45854429118385 1.5777856936676975,43.458723477589054 1.5772555978185387,43.45892581152689 1.5766719623784462,43.45919517608921 1.5760929981778309,43.45948442704023 1.575181477659035,43.459940796499986 1.5746975552154798,43.4601922253236 1.5742227057562943,43.460450303925974 1.5737625886677682,43.46071822721156 1.5733251989559305,43.46098947469228 1.5728337306639886,43.46129566990542 1.572290160085568,43.46164489747616 1.5718897809634358,43.46191992254871 1.5714198722383128,43.462275927541455 1.571367141131135,43.462338326002836 1.571197629037022,43.46252082646225 1.5708498013590109,43.46294059498862 1.5708499810220675,43.46300540521587</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

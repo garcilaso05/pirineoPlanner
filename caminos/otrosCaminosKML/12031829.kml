@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Château d'Eau</name>
+      <description>name: Chemin du Château d'Eau
+highway: residential
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5411151162970125,43.47257269283885 1.5408856865734482,43.4723838991716 1.5408405013146569,43.47232770425757 1.5408234333242588,43.47225899253995 1.5409120072112732,43.471974431321684</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Saint-Ignace</name>
+      <description>name: Chemin de Saint-Ignace
+highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5409120072112732,43.471974431321684 1.541096700833688,43.47150980809768 1.5414278198474143,43.470887284305114 1.541622933927125,43.47054013111755 1.5418676350105196,43.470132802168415 1.5420519693068206,43.46990097287873</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Patras</name>
+      <description>name: Chemin de Patras
+oneway: yes
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5420519693068206,43.46990097287873 1.5416659632292344,43.469723971008584 1.5412389939746927,43.46961803041477 1.5403340311574705,43.4694819698228 1.5394700315172043,43.46931898356436 1.538320996437287,43.46898401282616 1.537980984102248,43.46891601445236 1.537658039757607,43.468869986746526 1.5367200189379295,43.468783994380665 1.5364910383720072,43.46874898456513 1.5363020328362282,43.4686880270167 1.5360621826553684,43.4684850737947</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

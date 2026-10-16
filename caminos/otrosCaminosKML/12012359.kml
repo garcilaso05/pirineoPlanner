@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue des Pyrénées</name>
+      <description>ref: D 4
+name: Avenue des Pyrénées
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 80
+maxspeed:hgv: 70
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4135477882504666,43.50692312313051 1.4136481300677024,43.50698312994963 1.4137560177333253,43.507029910468646</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue des Pyrénées</name>
+      <description>ref: D 4
+name: Avenue des Pyrénées
+lanes: 2
+layer: 1
+bridge: yes
+highway: secondary
+surface: asphalt
+maxspeed: 80
+maxspeed:hgv: 70
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4137560177333253,43.507029910468646 1.414116691319899,43.507183217402925</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue des Pyrénées</name>
+      <description>ref: D 4
+name: Avenue des Pyrénées
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 80
+cycleway:both: no
+lane_markings: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.414116691319899,43.507183217402925 1.414148671344014,43.50719572691884</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Buffevent</name>
+      <description>name: Chemin de Buffevent
+highway: unclassified
+surface: asphalt
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.414148671344014,43.50719572691884 1.4141817293464694,43.50717481257046 1.4142184704415899,43.50716328035658 1.4143421684562134,43.5071645834317 1.4144576918017508,43.50716842750316</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

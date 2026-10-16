@@ -1,0 +1,517 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Passejada pel pantà de Vallvidrera</name>
+    <Placemark>
+      <name>Camí del Salze</name>
+      <description>lit: yes
+name: Camí del Salze
+oneway: yes
+highway: unclassified
+name:ca: Camí del Salze
+surface: concrete
+maxspeed: 20
+smoothness: good
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.10110177771432,41.41980566799373 2.100903070373473,41.4198464900101 2.1006135433574014,41.41984527747533 2.100588121034861,41.41984521011229 2.1005200287363244,41.41984487329708 2.100423459843282,41.41984197668612 2.10035455906099,41.41983658764215 2.100315662009187,41.419828032533935 2.1002862870993964,41.419817389169374 2.1002611342714412,41.41980169357163</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+highway: steps
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1002611342714412,41.41980169357163 2.100214511708195,41.4198735025844</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: unhewn_cobblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.100214511708195,41.4198735025844 2.10010339010755,41.41988549319979</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+highway: steps
+incline: up
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.10010339010755,41.41988549319979 2.1000069110460355,41.41989297049257 2.099791764535489,41.419912505757864 2.0996050946194487,41.419927729788135 2.0994444758466484,41.41988421330275 2.099296523319354,41.41984750045573 2.0992601415503467,41.41983988843164 2.0992431633914768,41.419831333323856 2.0992197173625615,41.41981887115695 2.099201661225351,41.41979212801234 2.099203278192862,41.41974389601588 2.0992389413096415,41.41966629362236 2.099289426628609,41.41960317424606 2.099328503343468,41.41955312329893 2.0993266168813713,41.41953358792553 2.0991296163395643,41.41954429869995 2.0989748366161103,41.41956538342683 2.098877728733897,41.41966602416944 2.098825806110475,41.41970010995454 2.0987535815616316,41.41975521302384 2.098628536074082,41.41982971661045 2.0985993408273487,41.419848780353504 2.0985649353519666,41.41984689418836 2.098554784389256,41.419788018863194 2.0985582878188644,41.41970886716917 2.0985610725962447,41.419608293856236 2.098437823739264,41.41961260510661 2.0983169105020214,41.41961853307539 2.0982009379988416,41.41962823338679 2.0980977215726964,41.41963981986794 2.097920214472554,41.41963678852132 2.097765794075214,41.41963113000727 2.0976489232567497,41.41962857020312</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: compacted
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0976489232567497,41.41962857020312 2.097386525362259,41.41964271648791 2.0972830394415283,41.419646286740246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: paving_stones
+smoothness: good
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0972830394415283,41.419646286740246 2.0972153064691055,41.41969829114828</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: paving_stones
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0972153064691055,41.41969829114828 2.0972017419083153,41.41968838875773</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+ramp: separate
+highway: steps
+incline: up
+surface: concrete
+handrail: yes
+step_count: 17
+tactile_paving: no
+ramp:wheelchair: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0972017419083153,41.41968838875773 2.0971456870345864,41.41964931808642</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: paving_stones
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0971456870345864,41.41964931808642 2.097103286553176,41.41961657954028 2.0970754387793678,41.41959502328692 2.097053609717964,41.41958303261787</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Vallvidrera a les Planes</name>
+      <description>lit: yes
+ref: BV-1462
+name: Carretera de Vallvidrera a les Planes
+lanes: 2
+width: 6
+oneway: no
+bicycle: yes
+highway: secondary
+name:ca: Carretera de Vallvidrera a les Planes
+surface: asphalt
+cycleway: no
+maxspeed: 50
+overtaking: no
+ref:colour: yellow
+parking:both: no
+lanes:forward: 1
+ref:colour_tx: black
+lanes:backward: 1
+change:lanes:forward: no
+change:lanes:backward: no
+parking:both:restriction: no_stopping</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.097053609717964,41.41958303261787 2.0971127188636594,41.41952469596052</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Torrent del Rovelló</name>
+      <description>name: Torrent del Rovelló
+highway: residential
+name:ca: Torrent del Rovelló
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0971127188636594,41.41952469596052 2.0970865778888914,41.41949781796795 2.0970467825218044,41.41945672627863 2.0970390570103614,41.41944871002801 2.0970314213304464,41.4194406937764 2.0970146228346334,41.41942129309614 2.0970009684423148,41.41940249868162 2.0969484169981936,41.41933001551227</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Pantà</name>
+      <description>name: Camí del Pantà
+highway: residential
+name:ca: Camí del Pantà
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0969484169981936,41.41933001551227 2.09706232337622,41.41920977141448 2.0973602945559624,41.4188846060081 2.097442131078346,41.418803432289344 2.097522170970161,41.41873499030324 2.097661769165313,41.418644115940566 2.0979097041837296,41.41849961937927 2.097943391006884,41.418481228884765 2.0981019436545316,41.4184001220264</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Pantà</name>
+      <description>lit: yes
+name: Camí del Pantà
+highway: residential
+name:ca: Camí del Pantà
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0981019436545316,41.4184001220264 2.0980862231370594,41.41833390264748 2.0980784077940875,41.41826000362711 2.098076072174349,41.41819681551931 2.09808280953898,41.41811988492553 2.0980990690456225,41.4180164798245 2.0981335643525325,41.417812700560425 2.098145062788169,41.41773880094701 2.0981852174813693,41.41739618049216 2.0982020159771824,41.4172440688261 2.098199770188972,41.41720290834504 2.0981945599603247,41.41718189021699 2.0981753360132442,41.41713123111118 2.0981526984680845,41.41709411251255 2.098100506350077,41.417030586440625 2.0980297191056883,41.41694449268302 2.0979992662175566,41.416896595402285 2.0979757303571125,41.41685678202389 2.0979341383594576,41.41676327774992 2.0978812275892236,41.41661439818864</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Pantà</name>
+      <description>name: Camí del Pantà
+bicycle: yes
+highway: footway
+name:ca: Camí del Pantà</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0978812275892236,41.41661439818864 2.0977940011751355,41.41635550861851 2.0977162070715307,41.416163378611344 2.0976558402844376,41.41597326904767 2.0976020311989187,41.415792522975565</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Pantà</name>
+      <description>name: Camí del Pantà
+access: yes
+highway: steps
+incline: down
+name:ca: Camí del Pantà
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0976020311989187,41.415792522975565 2.097613799129141,41.4156755059622 2.097672998106365,41.415587995691794 2.0977344428717983,41.4155091083493 2.0977519600198384,41.41543857449569 2.0977560922701453,41.4153660869025 2.0977400124265597,41.41529898864936 2.097690335591348,41.41522488407237</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Pas de Rosa Barba Casanovas</name>
+      <description>name: Pas de Rosa Barba Casanovas
+layer: 1
+bridge: yes
+highway: footway
+nwn_ref: GR 96</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.097690335591348,41.41522488407237 2.097632304423994,41.41521983148451 2.0975177692252682,41.41521397048208 2.0974021560482026,41.415216530460214 2.09730441934529,41.415243477592355 2.097259144254971,41.41527217627582 2.0972205166977536,41.41531293377395</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0972205166977536,41.41531293377395 2.097210365735043,41.41535241126015 2.0971862010539004,41.41538919401581</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0971862010539004,41.41538919401581 2.097134098767421,41.41540057915024</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.097134098767421,41.41540057915024 2.0971160426302102,41.415445715462376</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Pantà</name>
+      <description>name: Camí del Pantà
+highway: residential
+name:ca: Camí del Pantà
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0971160426302102,41.415445715462376 2.0970000701270304,41.41526328372737 2.0970905304761414,41.415116825974046 2.097064928490544,41.41488703349776 2.0970608860717657,41.41471612018479 2.097067084447226,41.41454897906027 2.0970837931115103,41.41447103361654 2.097133829272836,41.41441168183737 2.0972984006328868,41.414299984471384 2.0973491554464396,41.41424811047857 2.097428656349084,41.41414887608857 2.0974194935331862,41.41404553203451 2.097388321992827,41.41395761535322 2.0973259789121093,41.41388229659982 2.097164821150138,41.41370673215403 2.0970713065290614,41.413583513385866</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>bicycle: yes
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0970713065290614,41.413583513385866 2.0968519379366795,41.41335358074567 2.0968040577320357,41.413282977181545 2.0968600227742367,41.41320900504445</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0968600227742367,41.41320900504445 2.096993692088513,41.41326990742939 2.0972254574318163,41.413480572650215</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>width: 2
+highway: path
+surface: compacted
+sac_scale: hiking</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0972254574318163,41.413480572650215 2.0974591092372155,41.413499234039136 2.0975917904046804,41.41356431306469 2.097718902017383,41.413613897040406 2.0979938763258517,41.41375557495808 2.0981134420901686,41.41383702446274 2.098185307312898,41.413968124939764 2.0981419186846746,41.41415338980817 2.098039870068399,41.41426528953273 2.097952463991254,41.414348220510654 2.0979026074929856,41.414427378737706 2.0978718851102687,41.41455740012681 2.0978698189851146,41.414651581260635 2.097861284989916,41.414750478041015 2.0978592188647625,41.41483347576774 2.0978337067106936,41.41491330708502 2.097820860802131,41.414935471205496 2.0978284964820455,41.414968481583685 2.0978240049056254,41.41500250246609 2.0978010080343514,41.41505262428811 2.097765883906743,41.415101668184036 2.0977203393218375,41.415170585574124 2.097690335591348,41.41522488407237</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>ref: D221
+highway: track
+nwn_ref: GR 96
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.097690335591348,41.41522488407237 2.097735700513196,41.4152172715065 2.0977744179019413,41.41524388179926 2.0978062182629995,41.41530202019844 2.097865866397865,41.41541499582648 2.0979414147132593,41.41555282986864 2.0979877677819196,41.41556138554 2.098056309238098,41.415558286635545 2.0981457814403965,41.41551847243681 2.0983507769882324,41.415403610694575 2.0984546222350766,41.41534681974053 2.0985716727165973,41.41531670636752 2.098698335171658,41.415301683359665 2.0988087381200766,41.415303771760065 2.0987771174220757,41.41541337900314 2.0987617562307173,41.415479533992105 2.098776039443735,41.415526017599866</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Múrgola</name>
+      <description>name: Camí de la Múrgola
+width: 4
+highway: track
+name:ca: Camí de la Múrgola
+nwn_ref: GR 96
+surface: compacted
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.098776039443735,41.415526017599866 2.098774422476223,41.4155367290352 2.0987986769888947,41.415643169617354 2.0988971323440344,41.415771571758384</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Llenega</name>
+      <description>ref: D05
+name: Camí de la Llenega
+width: 5
+highway: track
+incline: -10%
+name:ca: Camí de la Llenega
+surface: compacted
+tracktype: grade2
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0988971323440344,41.415771571758384 2.098872698168306,41.41590731666294 2.099030711826783,41.416265304594056 2.099125484089257,41.41654090141063 2.0991244959424447,41.41664208577089 2.099074190286534,41.41670729638025</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Llenega</name>
+      <description>ref: D05
+name: Camí de la Llenega
+width: 5
+highway: track
+incline: -10%
+name:ca: Camí de la Llenega
+surface: compacted
+tracktype: grade2
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.099074190286534,41.41670729638025 2.098960912729207,41.416646329851794 2.0988081991309064,41.41642887087314 2.098671385713135,41.41629730379556 2.098595927229269,41.41625728794953 2.098519660261647,41.41629151025709 2.0984927108031237,41.41635476758522 2.09856870827616,41.41656447967111 2.098611378252156,41.41666909967796 2.0986100307792297,41.416769408077485 2.098579398228041,41.4168947765175 2.0986490176625603,41.41712206935377 2.098691058817857,41.41728590293807 2.0987133370369033,41.41739961613684 2.0986802790344474,41.417604676638966 2.0985799372172114,41.41777679492467 2.0984563290341165,41.41809421891907 2.0983622754238693,41.41832548207056 2.0982251026799843,41.418450375955565</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Llenega</name>
+      <description>ref: D05
+name: Camí de la Llenega
+width: 5
+highway: track
+incline: -10%
+name:ca: Camí de la Llenega
+surface: compacted
+tracktype: grade2
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0982251026799843,41.418450375955565 2.098159884990357,41.41850622109397</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Llenega</name>
+      <description>name: Camí de la Llenega
+highway: residential
+name:ca: Camí de la Llenega
+maxspeed: 20</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.098159884990357,41.41850622109397 2.0981019436545316,41.4184001220264</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Pantà</name>
+      <description>name: Camí del Pantà
+highway: residential
+name:ca: Camí del Pantà
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0981019436545316,41.4184001220264 2.097943391006884,41.418481228884765 2.0979097041837296,41.41849961937927 2.097661769165313,41.418644115940566 2.097522170970161,41.41873499030324 2.097442131078346,41.418803432289344 2.0973602945559624,41.4188846060081 2.09706232337622,41.41920977141448 2.0969484169981936,41.41933001551227</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Torrent del Rovelló</name>
+      <description>name: Torrent del Rovelló
+highway: residential
+name:ca: Torrent del Rovelló
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0969484169981936,41.41933001551227 2.0970009684423148,41.41940249868162 2.0970146228346334,41.41942129309614 2.0970314213304464,41.4194406937764 2.0970390570103614,41.41944871002801 2.0970467825218044,41.41945672627863 2.0970865778888914,41.41949781796795 2.0971127188636594,41.41952469596052</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carretera de Vallvidrera a les Planes</name>
+      <description>lit: yes
+ref: BV-1462
+name: Carretera de Vallvidrera a les Planes
+lanes: 2
+width: 6
+oneway: no
+bicycle: yes
+highway: secondary
+name:ca: Carretera de Vallvidrera a les Planes
+surface: asphalt
+cycleway: no
+maxspeed: 50
+overtaking: no
+ref:colour: yellow
+parking:both: no
+lanes:forward: 1
+ref:colour_tx: black
+lanes:backward: 1
+change:lanes:forward: no
+change:lanes:backward: no
+parking:both:restriction: no_stopping</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0971127188636594,41.41952469596052 2.097053609717964,41.41958303261787</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+surface: paving_stones
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.097053609717964,41.41958303261787 2.0970754387793678,41.41959502328692 2.097103286553176,41.41961657954028 2.0971456870345864,41.41964931808642</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+ramp: separate
+highway: steps
+incline: up
+surface: concrete
+handrail: yes
+step_count: 17
+tactile_paving: no
+ramp:wheelchair: separate</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0971456870345864,41.41964931808642 2.0972017419083153,41.41968838875773</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: paving_stones
+smoothness: excellent</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0972017419083153,41.41968838875773 2.0972153064691055,41.41969829114828</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: paving_stones
+smoothness: good
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0972153064691055,41.41969829114828 2.0972830394415283,41.419646286740246</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: compacted
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0972830394415283,41.419646286740246 2.097386525362259,41.41964271648791 2.0976489232567497,41.41962857020312</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+highway: steps
+incline: up
+surface: paving_stones</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.0976489232567497,41.41962857020312 2.097765794075214,41.41963113000727 2.097920214472554,41.41963678852132 2.0980977215726964,41.41963981986794 2.0982009379988416,41.41962823338679 2.0983169105020214,41.41961853307539 2.098437823739264,41.41961260510661 2.0985610725962447,41.419608293856236 2.0985582878188644,41.41970886716917 2.098554784389256,41.419788018863194 2.0985649353519666,41.41984689418836 2.0985993408273487,41.419848780353504 2.098628536074082,41.41982971661045 2.0987535815616316,41.41975521302384 2.098825806110475,41.41970010995454 2.098877728733897,41.41966602416944 2.0989748366161103,41.41956538342683 2.0991296163395643,41.41954429869995 2.0993266168813713,41.41953358792553 2.099328503343468,41.41955312329893 2.099289426628609,41.41960317424606 2.0992389413096415,41.41966629362236 2.099203278192862,41.41974389601588 2.099201661225351,41.41979212801234 2.0992197173625615,41.41981887115695 2.0992431633914768,41.419831333323856 2.0992601415503467,41.41983988843164 2.099296523319354,41.41984750045573 2.0994444758466484,41.41988421330275 2.0996050946194487,41.419927729788135 2.099791764535489,41.419912505757864 2.1000069110460355,41.41989297049257 2.10010339010755,41.41988549319979</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+surface: unhewn_cobblestone</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.10010339010755,41.41988549319979 2.100214511708195,41.4198735025844</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+highway: steps
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.100214511708195,41.4198735025844 2.1002611342714412,41.41980169357163</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Salze</name>
+      <description>lit: yes
+name: Camí del Salze
+oneway: yes
+highway: unclassified
+name:ca: Camí del Salze
+surface: concrete
+maxspeed: 20
+smoothness: good
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1002611342714412,41.41980169357163 2.1002862870993964,41.419817389169374 2.100315662009187,41.419828032533935 2.10035455906099,41.41983658764215 2.100423459843282,41.41984197668612 2.1005200287363244,41.41984487329708 2.100588121034861,41.41984521011229 2.1006135433574014,41.41984527747533 2.100903070373473,41.4198464900101 2.10110177771432,41.41980566799373</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

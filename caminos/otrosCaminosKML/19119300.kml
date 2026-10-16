@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue de Lapeyrière</name>
+      <description>name: Avenue de Lapeyrière
+highway: residential
+surface: asphalt
+cycleway:left: separate
+cycleway:right: no
+ref:FR:FANTOIR: 314880391C</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.499659303239351,43.6687825745903 1.4996893968013691,43.66877529693638</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue de Lapeyrière</name>
+      <description>name: Avenue de Lapeyrière
+highway: cycleway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4996893968013691,43.66877529693638 1.4996796949963005,43.6687289018719 1.4997530873550133,43.66871051278181 1.499923318101354,43.66865398091476 1.500614122554842,43.66831667300143 1.5011259826037329,43.66805551960864 1.5013325951190806,43.66794083008853</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5013325951190806,43.66794083008853 1.501428894517538,43.66789151027851 1.501462671172221,43.667846674052406 1.5014524303779824,43.66780209771325 1.5014041010156967,43.66774900893961 1.5013823617858206,43.667736402785735</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

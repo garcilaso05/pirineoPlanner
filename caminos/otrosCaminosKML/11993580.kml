@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Canal</name>
+      <description>lit: no
+name: Chemin du Canal
+highway: track
+surface: asphalt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.497486907387765,43.531828969366124 1.4982731129244262,43.532022396623844 1.4991462753805906,43.53227691208377 1.5004193678012447,43.53267698372794 1.5009033800763283,43.53281257634782 1.5013799363345537,43.53298652781674 1.5015382194876157,43.53303120415197 1.5016762905467846,43.53298600680972 1.502079993435468,43.53274100275985</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Canal</name>
+      <description>lit: no
+name: Chemin du Canal
+highway: track
+surface: compacted
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.502079993435468,43.53274100275985 1.5022462715945586,43.53272537248366 1.5025480156984943,43.53276041034716 1.5031232968064445,43.532896588913246 1.5036477332693132,43.53304820199094 1.5045254771334264,43.53336321471413 1.5048712386862841,43.53349203275706</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>lit: no
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: track
+surface: dirt
+tracktype: grade3
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5048712386862841,43.53349203275706 1.5049956553531347,43.53351580349832</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Canal</name>
+      <description>lit: no
+name: Chemin du Canal
+highway: track
+surface: dirt
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5049956553531347,43.53351580349832 1.505028443861005,43.53352101352254</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

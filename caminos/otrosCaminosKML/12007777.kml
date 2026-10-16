@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Avenue Paul Riquet</name>
+      <description>lit: yes
+name: Avenue Paul Riquet
+lanes: 1
+oneway: no
+highway: residential
+old_ref: D 57w
+surface: asphalt
+maxspeed: 30
+sidewalk: left
+cycleway:both: lane
+cycleway:both:lane: advisory</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.527011117178694,43.52953632065779 1.5269547928103795,43.52948480311985 1.526613612665471,43.52906152398344 1.5264645821598357,43.52887661930168 1.526397478008112,43.52879676948224 1.5263284873942913,43.528738998788405 1.5262640781884202,43.52869282127181 1.5261882603784405,43.528655371214754 1.5261158561665404,43.528634008389176 1.5260253958174295,43.52861648826135 1.5259408643491938,43.52861062650741 1.5258182443129116,43.528614469212826 1.5254997017131628,43.528635897175896 1.5249645752984127,43.52867380315879 1.524876720063626,43.52867582220531 1.524793625899845,43.52866357766403 1.524738559172928,43.52864468980291 1.5246762160922103,43.52862280592885 1.5246461225301924,43.528597991169185 1.5245943795698274,43.52855572138448</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Paul Riquet</name>
+      <description>lit: yes
+name: Avenue Paul Riquet
+lanes: 1
+oneway: no
+highway: residential
+old_ref: D 57w
+surface: asphalt
+maxspeed: 30
+sidewalk: right
+cycleway:both: lane
+cycleway:both:lane: advisory</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5245943795698274,43.52855572138448 1.5244463372110042,43.52836189222344 1.5244368150689926,43.52834951735666 1.5243107814346306,43.528197892467 1.5241928326378258,43.52805981448674 1.5240949162718567,43.52797227809404 1.5239485807120736,43.52785217587233</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Paul Riquet</name>
+      <description>lit: yes
+name: Avenue Paul Riquet
+lanes: 1
+oneway: no
+highway: residential
+old_ref: D 57w
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+cycleway:both: lane
+cycleway:both:lane: advisory</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5239485807120736,43.52785217587233 1.5238025146468759,43.52774672800874 1.5235918597127498,43.5275939943649</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Paul Riquet</name>
+      <description>lit: yes
+name: Avenue Paul Riquet
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+lanes: 1
+layer: 1
+bridge: yes
+oneway: no
+highway: residential
+old_ref: D 57w
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+cycleway:both: lane
+maxweight:signed: no
+cycleway:both:lane: advisory
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5235918597127498,43.5275939943649 1.5233813844416808,43.527452593277815</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Paul Riquet</name>
+      <description>lit: yes
+name: Avenue Paul Riquet
+lanes: 1
+oneway: no
+highway: residential
+old_ref: D 57w
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+cycleway:both: shared_lane
+cycleway:both:lane: pictogram</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5233813844416808,43.527452593277815 1.5231050626602853,43.52729699308034 1.5225228645246476,43.527002791024046 1.5217406115752363,43.526606068644604 1.521633262898784,43.526550705767214</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+layer: -1
+tunnel: yes
+highway: cycleway
+old_ref: D 57w
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.521633262898784,43.526550705767214 1.5214300639815161,43.52644760041425</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>lit: no
+highway: cycleway
+old_ref: D 57w
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5214300639815161,43.52644760041425 1.5212744757743066,43.52636442559489 1.5211283198775805,43.52629147655947</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Quartier de la Bessède</name>
+      <description>name: Quartier de la Bessède
+oneway: yes
+highway: tertiary
+surface: asphalt
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5916600691471996,44.32903882986164 3.5917699331064474,44.32887130389117</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rond-Point Claude Erignac</name>
+      <description>name: Rond-Point Claude Erignac
+highway: tertiary
+surface: asphalt
+junction: roundabout
+lane_markings: no
+maxspeed:type: FR:urban
+name:etymology:wikidata: Q2978374</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5917699331064474,44.32887130389117 3.59178107221597,44.328863592672725 3.5917907740210393,44.32885498181093 3.5918030809404318,44.32883910954745 3.5918105369572895,44.32882169503479</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Jean Monestier</name>
+      <description>name: Avenue Jean Monestier
+oneway: yes
+highway: tertiary
+surface: asphalt
+lane_markings: no
+maxspeed:type: FR:urban</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5918105369572895,44.32882169503479 3.5918628189068253,44.32878082553091 3.5919242636722593,44.32871450891687 3.5919700777517494,44.32866907685213</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Jean Monestier</name>
+      <description>lit: yes
+name: Avenue Jean Monestier
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5919700777517494,44.32866907685213 3.59199379327525,44.32864440086447 3.5920043933956025,44.328632512689616 3.5923045205320268,44.32824739878163 3.592454179858361,44.32806072076465 3.5927081335891815,44.32774879685907 3.592729782987529,44.32771968644704 3.5927706563329567,44.32766230097881 3.592912769810904,44.3274736932493 3.593347284913833,44.326897006092246 3.5933745936984702,44.326860826399184 3.5937924899686426,44.326341584296216 3.5938561805222866,44.32625810670253</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Jean Monestier</name>
+      <description>lit: yes
+name: Avenue Jean Monestier
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+parking:left: street_side
+cycleway:left: no
+lane_markings: no
+parking:right: no
+cycleway:right: lane
+cycleway:right:lane: exclusive
+parking:left:orientation: parallel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5938561805222866,44.32625810670253 3.593899479318981,44.32620322606428 3.593933525468249,44.3261615193154 3.5942123625324403,44.3258096776881 3.594253325709396,44.32575820259909</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

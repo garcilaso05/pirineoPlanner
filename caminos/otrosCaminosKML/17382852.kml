@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Saint-Jean</name>
+      <description>foot: designated
+name: Rue Saint-Jean
+level: 0
+bicycle: designated
+highway: path
+surface: concrete
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4834412987629142,43.6273494037566 1.4834058153091914,43.62739082395828 1.4833541621803545,43.62746618654403 1.4831850094123546,43.627746113181466 1.483003639556491,43.62811349459504 1.482844458088145,43.62821538564421</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

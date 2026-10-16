@@ -1,0 +1,476 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Les pierres</name>
+    <Placemark>
+      <name>Place du Foirail</name>
+      <description>lit: yes
+name: Place du Foirail
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+maxweight: 3.5
+maxspeed:type: FR:zone30
+ref:FR:FANTOIR: 640620410T
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4285271129077286,43.10424156780751 -0.42851812975488746,43.10428649491975 -0.42850591266702337,43.1043493928215 -0.42845821212543667,43.10459986880893 -0.42847078853941434,43.10471982670235 -0.42851597379820555,43.10478790548974</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Trey</name>
+      <description>lit: yes
+ref: D 53
+name: Rue Trey
+oneway: yes
+source: survey
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: right
+maxspeed:type: FR:zone30
+ref:FR:FANTOIR: 640620840K</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42851597379820555,43.10478790548974 -0.4287567222943496,43.10454812090809 -0.42887386260739874,43.104489617525175 -0.4289765400443736,43.104478992465324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Escoubet</name>
+      <description>lit: yes
+name: Rue Escoubet
+oneway: yes
+source: survey
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+maxspeed:type: FR:zone30
+ref:FR:FANTOIR: 640620380K</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4289765400443736,43.104478992465324 -0.4294618997923834,43.104832832201026 -0.4295274768081241,43.10495521633052 -0.42950403077920857,43.105038904372535 -0.4294634269283664,43.10518319383148 -0.4294670201895029,43.10532007174477 -0.42949046621841847,43.10542763251603</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Carnot</name>
+      <description>lit: yes
+ref: D 287
+name: Rue Carnot
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+source:name: knowledge
+cycleway:both: no
+maxspeed:type: FR:zone30
+ref:FR:FANTOIR: 640620300Y</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42949046621841847,43.10542763251603 -0.42980784100829783,43.105567133307986</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Tilhou</name>
+      <description>lit: yes
+ref: D 34
+name: Rue Tilhou
+oneway: yes
+highway: residential
+surface: asphalt
+sidewalk: no
+source:name: survey
+cycleway:both: no
+maxspeed:type: FR:urban
+ref:FR:FANTOIR: 640620810C</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42980784100829783,43.105567133307986 -0.42979876802392825,43.10560740287098 -0.42978161020200156,43.10568000607153</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Tilhou</name>
+      <description>lit: yes
+ref: D 34
+name: Rue Tilhou
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+source:name: survey
+cycleway:both: no
+maxspeed:type: sign
+ref:FR:FANTOIR: 640620810C</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42978161020200156,43.10568000607153 -0.42970130081560126,43.10578402459905 -0.42955927716918196,43.106080469874264</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Tilhou</name>
+      <description>lit: yes
+ref: D 34
+name: Rue Tilhou
+oneway: yes
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+source:name: survey
+cycleway:both: no
+maxspeed:type: sign
+ref:FR:FANTOIR: 640620810C</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42955927716918196,43.106080469874264 -0.42955909750612514,43.10613287233002 -0.4295578398647274,43.10622869197352</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Prèche</name>
+      <description>lit: yes
+name: Place du Prèche
+highway: residential
+surface: asphalt
+sidewalk: no
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016
+cycleway:both: no
+ref:FR:FANTOIR: 640620700H</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4295578398647274,43.10622869197352 -0.4294635167598948,43.10622121529215</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Prèche</name>
+      <description>lit: yes
+name: Place du Prèche
+highway: residential
+surface: asphalt
+sidewalk: no
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016
+cycleway:both: no
+ref:FR:FANTOIR: 640620700H</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4294635167598948,43.10622121529215 -0.42934700526754455,43.1062111807973 -0.42895219570017395,43.10617720778946</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Lacazette</name>
+      <description>lit: yes
+name: Rue Lacazette
+highway: residential
+surface: asphalt
+sidewalk: no
+source:name: survey
+cycleway:both: no
+ref:FR:FANTOIR: 640620510B</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42895219570017395,43.10617720778946 -0.4286085002724699,43.10557651205223</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Hôtel de Ville</name>
+      <description>lit: yes
+ref: D 287
+name: Place de l'Hôtel de Ville
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+maxspeed:type: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4286085002724699,43.10557651205223 -0.4284411441350384,43.10563029223619 -0.4284103319207931,43.105640195655155 -0.42827890839472643,43.10568243273529</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Hôtel de Ville</name>
+      <description>lit: yes
+name: Place de l'Hôtel de Ville
+highway: living_street
+surface: asphalt
+junction: roundabout
+maxspeed: 20
+sidewalk: right
+source:ref: CG64 Routes départementales
+maxspeed:type: FR:zone30
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42827890839472643,43.10568243273529 -0.42817308685425715,43.10573103157559</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Casadaban</name>
+      <description>lit: yes
+name: Rue Casadaban
+highway: living_street
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+cycleway:both: no
+maxspeed:type: FR:zone30
+ref:FR:FANTOIR: 640620310J</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42817308685425715,43.10573103157559 -0.4279339553256245,43.1059338214618</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Casadaban</name>
+      <description>lit: yes
+name: Rue Casadaban
+highway: living_street
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+cycleway:both: no
+ref:FR:FANTOIR: 640620310J</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4279339553256245,43.1059338214618 -0.42805828216094666,43.106057974188005 -0.42815233577119394,43.10610598246471 -0.42836712295562696,43.10641737949833</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de la Halle aux Grains</name>
+      <description>lit: yes
+name: Place de la Halle aux Grains
+highway: residential
+surface: asphalt
+sidewalk: both
+source:name: survey
+cycleway:both: no
+ref:FR:FANTOIR: 640620450L</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42836712295562696,43.10641737949833 -0.42836505683047343,43.1066092144982</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Mayos</name>
+      <description>lit: yes
+name: Rue Mayos
+highway: residential
+surface: asphalt
+sidewalk: right
+source:name: knowledge
+cycleway:both: no
+ref:FR:FANTOIR: 640620570S</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42836505683047343,43.1066092144982 -0.4285458876971668,43.106857779296206</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Mayos</name>
+      <description>name: Rue Mayos
+oneway: yes
+source: survey
+highway: residential
+surface: asphalt
+ref:FR:FANTOIR: 640620570S</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4285458876971668,43.106857779296206 -0.42876103420771333,43.10685810721743 -0.42899890809494823,43.10682918455815 -0.4291792898039994,43.10672352819688 -0.42920893420837536,43.106596687855024 -0.4292899622470029,43.10642957825468 -0.429374583546767,43.106323986788496 -0.4294294706106267,43.10627571634329 -0.4294635167598948,43.10622121529215</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Prèche</name>
+      <description>lit: yes
+name: Place du Prèche
+highway: residential
+surface: asphalt
+sidewalk: no
+source:name: cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016
+cycleway:both: no
+ref:FR:FANTOIR: 640620700H</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4294635167598948,43.10622121529215 -0.4295578398647274,43.10622869197352</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Tilhou</name>
+      <description>lit: yes
+ref: D 34
+name: Rue Tilhou
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+source:name: survey
+cycleway:both: no
+maxspeed:type: sign
+ref:FR:FANTOIR: 640620810C</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4295578398647274,43.10622869197352 -0.4296661766879922,43.10642111782715 -0.4296845023197882,43.106556287773664 -0.42966294275296935,43.10665282818353 -0.4296032946181038,43.10687489678208 -0.4295514618262101,43.10703006886867 -0.4295703264471767,43.107164581631345 -0.4295256801775559,43.10745269110311</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Pont Germe</name>
+      <description>lit: yes
+ref: D 34
+name: Rue du Pont Germe
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: residential
+surface: asphalt
+maxweight: 3.5
+cycleway:both: no
+maxspeed:type: FR:urban
+ref:FR:FANTOIR: 640620660P
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4295256801775559,43.10745269110311 -0.4305426629107076,43.10821371856947 -0.43070471898796275,43.10834829431373 -0.4313292277734826,43.108733984659025 -0.4315692576173994,43.108827898348984 -0.4322462280155119,43.10903402265352</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du 19 Mars 1962</name>
+      <description>lit: yes
+name: Rue du 19 Mars 1962
+source: survey
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4322462280155119,43.10903402265352 -0.4321924189299931,43.10907258480713 -0.43144142735246915,43.10950922736173 -0.43081907452363116,43.109885204404115 -0.43069870027555923,43.109978329356885 -0.43051355749550213,43.11012241043069 -0.4303730609850659,43.11017940007451 -0.4302853854133358,43.110193631082005 -0.43012323950455217,43.11021992892586</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Sassoubre</name>
+      <description>lit: yes
+name: Rue Sassoubre
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.43012323950455217,43.11021992892586 -0.4300882052084715,43.11012896850518 -0.42984009052699773,43.109618879373336 -0.4295906283725977,43.10917436778978 -0.4295159783724874,43.10905500886257 -0.42936380376335753,43.10887039555798 -0.4288375706699204,43.1084913299047 -0.42870938107887646,43.10833589919176 -0.42865179906916445,43.10824139450206 -0.42874980526666184,43.10788980429545</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Château</name>
+      <description>name: Rue du Château
+highway: residential
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42874980526666184,43.10788980429545 -0.42871288450848455,43.10788632838891 -0.42867811970698916,43.10788029473934 -0.4285414859522745,43.107856684800524 -0.42813751356900603,43.10741760386232 -0.42814227464001187,43.1073200153186 -0.428148203520887,43.10729319155856</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Lavigne</name>
+      <description>lit: yes
+name: Rue Lavigne
+highway: residential
+surface: asphalt
+source:name: knowledge
+ref:FR:FANTOIR: 640620540J</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.428148203520887,43.10729319155856 -0.42804965833421904,43.107266630122 -0.42795048432685234,43.1072603996599 -0.42746979581831995,43.107328869124345 -0.42728070045101274,43.10730368496241 -0.4270439045421188,43.10731680171471</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Saint-Gaudens</name>
+      <description>lit: yes
+name: Rue Saint-Gaudens
+highway: residential
+surface: asphalt
+sidewalk: no
+ref:FR:FANTOIR: 640620750M</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4270439045421188,43.10731680171471 -0.42671404316979017,43.10673461195781 -0.42679372373549157,43.10633730050513 -0.4269600917261106,43.10603160897085 -0.4269829089343271,43.10598517468019</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>residential</name>
+      <description>lit: yes
+highway: residential
+surface: asphalt
+junction: roundabout
+sidewalk: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4269829089343271,43.10598517468019 -0.4270215364915443,43.10597841940616 -0.427049384265352,43.105959071772524 -0.4270607030379319,43.105925623306725</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>lit: yes
+ref: D 287
+name: Rue de l'Église
+highway: living_street
+surface: asphalt
+maxspeed: 20
+sidewalk: both
+cycleway:both: no
+maxspeed:type: FR:zone30
+ref:FR:FANTOIR: 640620370Z</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.4270607030379319,43.105925623306725 -0.4272732444341546,43.10587079401737 -0.4274736585740417,43.10581911277622 -0.42750689623955407,43.10580638921523 -0.4275212692841,43.10580002743375 -0.4278033402833135,43.1056754150858 -0.42802486483237745,43.10560189368152</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Hôtel de Ville</name>
+      <description>lit: yes
+name: Place de l'Hôtel de Ville
+highway: living_street
+surface: asphalt
+junction: roundabout
+maxspeed: 20
+sidewalk: right
+source:ref: CG64 Routes départementales
+maxspeed:type: FR:zone30
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42802486483237745,43.10560189368152 -0.42815556970621677,43.10554129256468</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Trey</name>
+      <description>lit: yes
+ref: D 53
+name: Rue Trey
+lanes: 1
+highway: living_street
+surface: asphalt
+maxspeed: 20
+cycleway:both: no
+maxspeed:type: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42815556970621677,43.10554129256468 -0.42819590406247376,43.10549131627385 -0.4282533962406574,43.105431174147974 -0.42828609491699937,43.1053970039498 -0.42841275737206025,43.105264586053515 -0.42845309172831714,43.10521133023635 -0.42845587650569794,43.10519532724774 -0.42848067000753964,43.10505162809304 -0.4285076194660632,43.10485040935793 -0.42851597379820555,43.10478790548974</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place du Foirail</name>
+      <description>lit: yes
+name: Place du Foirail
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: no
+maxweight: 3.5
+maxspeed:type: FR:zone30
+ref:FR:FANTOIR: 640620410T
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.42851597379820555,43.10478790548974 -0.42847078853941434,43.10471982670235 -0.42845821212543667,43.10459986880893 -0.42850591266702337,43.1043493928215 -0.42851812975488746,43.10428649491975 -0.4285271129077286,43.10424156780751</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

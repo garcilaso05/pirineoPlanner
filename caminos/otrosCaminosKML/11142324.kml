@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Liaison</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.28391524049182715,45.155854502031644 0.28422030836231404,45.15590118909152 0.2845286999993523,45.15596371295034 0.2847245327312904,45.155990128784964 0.28485595625735705,45.15600716920896 0.2850434346571528,45.156023069376936</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de l'Observatoire</name>
+      <description>name: Route de l'Observatoire
+lanes: 1
+width: 2
+oneway: yes
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.2850434346571528,45.156023069376936 0.2850598738268522,45.155814213032 0.2850719112516594,45.155534279714885 0.2850803554153301,45.15533562061353</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

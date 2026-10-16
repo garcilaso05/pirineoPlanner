@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Canal</name>
+      <description>lit: yes
+name: Chemin du Canal
+width: 2.4
+highway: cycleway
+surface: asphalt
+segregated: yes
+smoothness: good
+footway:surface: asphalt
+cycleway:surface: asphalt
+check_date:surface: 2023-01-12</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4654033973523792,43.57395781306829 1.4653532713595254,43.573948311151625 1.465252839710761,43.573951825559334 1.4651818728033155,43.57393197566125 1.465141628278587,43.57390242858772 1.4651110855589269,43.57384580750323 1.4650739851376926,43.57381059827326 1.4649407649810575,43.573749616619246 1.4648360214189293,43.573705230787425 1.4646305767134513,43.57352482352136 1.4645781151008588,43.57349416985208 1.464517927976823,43.573479396209734 1.464456303548332,43.573482129659254 1.4642057634155912,43.57349299837397 1.4641598595045726,43.573504387743576</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>oneway: no
+highway: service
+service: parking_aisle
+surface: asphalt
+cycleway: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4641598595045726,43.573504387743576 1.4641515051724303,43.573451280721756</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Canal</name>
+      <description>lit: yes
+name: Chemin du Canal
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk:both: separate
+source:maxspeed: FR:zone30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4641515051724303,43.573451280721756 1.4639047379638828,43.57346527338524 1.4637506768926563,43.57347497062453</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

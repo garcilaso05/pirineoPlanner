@@ -1,0 +1,945 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta magenta</name>
+    <Placemark>
+      <name>Carrer de la Vall Moronta</name>
+      <description>name: Carrer de la Vall Moronta
+bicycle: yes
+highway: footway
+name:ca: Carrer de la Vall Moronta
+surface: concrete
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1032828872241627,41.50183160517817 2.1033873612917056,41.50176547093505</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: concrete
+wheelchair: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1033873612917056,41.50176547093505 2.103431827898269,41.5018022719922</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>foot: yes
+highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.103431827898269,41.5018022719922 2.1034560824109407,41.501822320822576</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça Civica</name>
+      <description>name: Plaça Civica
+bicycle: yes
+highway: footway
+name:ca: Plaça Civica
+surface: concrete
+wheelchair: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1034560824109407,41.501822320822576 2.103490128560209,41.50185098122033 2.103824301845901,41.502132807789245</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: asphalt
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.103824301845901,41.502132807789245 2.1037657316893768,41.502168734029055</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>tunnel: yes
+bicycle: yes
+highway: footway
+surface: asphalt
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1037657316893768,41.502168734029055 2.1036964715809714,41.502211926223566 2.103639698055015,41.502248188806995</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+layer: 1
+bridge: yes
+bicycle: yes
+highway: footway
+surface: asphalt
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.103639698055015,41.502248188806995 2.1035442071403128,41.502309276749486 2.103414490413286,41.50238711669843</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: asphalt
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.103414490413286,41.50238711669843 2.103331306417976,41.5024445042586</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: asphalt
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.103331306417976,41.5024445042586 2.1029559902922714,41.50268347277828 2.1030042298230285,41.50272612641343 2.1028714588240356,41.502807195153565 2.102819895526727,41.50283807525278</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+layer: -1
+tunnel: yes
+bicycle: yes
+highway: footway
+surface: paving_stones
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.102819895526727,41.50283807525278 2.1027854900513456,41.502858527423676 2.1027477608094123,41.5028848999503 2.1025904658031633,41.50298339316904 2.1025830097863047,41.5029881025405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: -2
+tunnel: yes
+bicycle: yes
+highway: footway
+surface: paving_stones
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1025830097863047,41.5029881025405 2.1024205045514077,41.50309507245715</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: -1
+tunnel: yes
+bicycle: yes
+highway: footway
+surface: paving_stones
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1024205045514077,41.50309507245715 2.1023669649604746,41.50312958535481</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1023669649604746,41.50312958535481 2.1021494828301885,41.50295311863005 2.1021646643584906,41.502943968988816 2.1023594191120876,41.503104625736704 2.102368671759514,41.503098570841374</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Estació</name>
+      <description>name: Camí de l'Estació
+bicycle: yes
+highway: footway
+name:ca: Camí de l'Estació
+surface: paving_stones
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.102368671759514,41.503098570841374 2.1022748876438517,41.50301857889325 2.102083905814448,41.50285368348905 2.1019684723004386,41.50278391733484 2.101891935838232,41.50274321477041</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Estació</name>
+      <description>name: Camí de l'Estació
+bicycle: yes
+highway: path
+name:ca: Camí de l'Estació
+surface: cobblestone
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.101891935838232,41.50274321477041 2.1018471099055542,41.50266799905512 2.101872891554209,41.50262359617682 2.1018583388466054,41.502576367627384 2.101781443058285,41.50256950535666 2.1015989952240806,41.50259957824359 2.1014487969085756,41.50262770008048 2.1013041681478324,41.50266577891193 2.1011430103858615,41.5027422056156 2.101003591853766,41.50282051598248 2.1009204078584567,41.502896875226696 2.1008400086405277,41.50297518540654 2.1008012014202535,41.50299503204361 2.100721880180666,41.503035532619684 2.1006604354152327,41.50306621078007 2.100609590770151,41.50309157407273 2.100529101720694,41.5031579087912 2.100402798591747,41.50322431071821 2.1003011093015846,41.50329649834883 2.100289700697476,41.503306387980686</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de l'Estació</name>
+      <description>name: Camí de l'Estació
+footway: sidewalk
+highway: footway
+name:ca: Camí de l'Estació
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.100289700697476,41.503306387980686 2.1003368622498924,41.50331540301792 2.100400193477423,41.50334116987118 2.100444660083987,41.50337837369082</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+footway: crossing
+highway: footway
+crossing: uncontrolled
+wheelchair: yes
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.100444660083987,41.50337837369082 2.1004057630321844,41.50340097853283 2.1003453962450918,41.50344067153987</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1003453962450918,41.50344067153987 2.1003432402884097,41.503463612741314 2.1005281135738816,41.503626219206005</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>covered: yes
+highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1005281135738816,41.503626219206005 2.100597283850759,41.50358363343987 2.1011227982919687,41.50324361906717 2.101226463875756,41.50317647711807</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>covered: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.101226463875756,41.50317647711807 2.1012413759094724,41.50318973059451 2.1012603303619675,41.503206415170105</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1012603303619675,41.503206415170105 2.101528028316635,41.50344342986657 2.1015360233226636,41.50379992578504 2.1017309577393175,41.503703721191954 2.1018859171258284,41.503603210786075 2.1020699819275444,41.50349361793681 2.1021572981731604,41.50357482026834 2.102177330603997,41.50359338847566</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>covered: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.102177330603997,41.50359338847566 2.1021836188109857,41.5035999815335</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>covered: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1021836188109857,41.5035999815335 2.102190266344088,41.50360610365804 2.1022109275956224,41.503624604580324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de les Alzines</name>
+      <description>name: Carrer de les Alzines
+covered: yes
+highway: footway
+name:ca: Carrer de les Alzines
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1022109275956224,41.503624604580324 2.1023214203755693,41.50355389739067</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: no
+highway: steps
+incline: down
+surface: paving_stones
+handrail: yes
+tactile_paving: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1023214203755693,41.50355389739067 2.1023422612901608,41.50353357999173 2.1027329386072244,41.50326460932155</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: concrete
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1027329386072244,41.50326460932155 2.1029290408337475,41.50343280021668 2.103048786261121,41.50335186681248 2.103185509847364,41.50345843247073</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+layer: 1
+bridge: yes
+bicycle: yes
+highway: footway
+surface: paving_stones
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.103185509847364,41.50345843247073 2.1035856194749107,41.503787681572035</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: paving_stones
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1035856194749107,41.503787681572035 2.103727373626745,41.503907096187916 2.1036230792222588,41.50397046993969 2.1035828346975296,41.503968922598304 2.103558220858745,41.50398473238908</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: no
+ramp: no
+highway: steps
+incline: down
+surface: concrete
+handrail: yes
+step_count: 26</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.103558220858745,41.50398473238908 2.10364392013685,41.50406391583631</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps
+handrail: yes
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.10364392013685,41.50406391583631 2.103676618813192,41.50404400225122 2.1037192887891876,41.504083493037314 2.1036838053354647,41.504105021224014</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>lit: yes
+ramp: no
+highway: steps
+incline: down
+surface: paving_stones
+handrail: yes
+step_count: 28</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1036838053354647,41.504105021224014 2.1038474783802315,41.50425632380926</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: paving_stones
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1038474783802315,41.50425632380926 2.1039153011841822,41.50429419985686 2.1039831239881335,41.504324810145576</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>lit: yes
+bicycle: yes
+highway: pedestrian
+surface: asphalt
+wheelchair: limited
+motor_vehicle: permit</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1039831239881335,41.504324810145576 2.1040171701374017,41.50434889471421 2.1041148170087856,41.50439571831922</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1041148170087856,41.50439571831922 2.1041989891509076,41.504685270434905 2.1041880297044413,41.504711305842825 2.1041070016658137,41.5047816081194 2.1040236380074475,41.50483327519841</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1040236380074475,41.50483327519841 2.1040286685730387,41.50484303004594 2.1040989168282564,41.504975292178436 2.1040241769966177,41.50511179233605 2.103965966166207,41.50519319446163 2.1039565338557233,41.50520651479972</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1039565338557233,41.50520651479972 2.1040735843372445,41.5052575760703 2.104409733916562,41.50541688159378</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>foot: yes
+highway: pedestrian
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.104409733916562,41.50541688159378 2.1045188792235825,41.5054663281187</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>foot: yes
+covered: yes
+highway: pedestrian
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1045188792235825,41.5054663281187 2.1046678198976894,41.50557019933514</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>foot: yes
+highway: pedestrian
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1046678198976894,41.50557019933514 2.1047596277197265,41.50559340887821</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: yes
+name: Avinguda de Serragalliners
+bicycle: yes
+highway: pedestrian
+name:ca: Avinguda de Serragalliners
+surface: asphalt
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1047596277197265,41.50559340887821 2.1047838822323977,41.50556448104065 2.1048191860230636,41.50554302061326 2.104861766167531,41.50553091127804 2.1049073107524356,41.50552963307032 2.104951058706772,41.50553918599069 2.1049884286225913,41.5055588300197</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avinguda de Serragalliners</name>
+      <description>foot: yes
+name: Avinguda de Serragalliners
+bicycle: yes
+highway: pedestrian
+name:ca: Avinguda de Serragalliners
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1049884286225913,41.5055588300197 2.105042507202696,41.5055288930553 2.105099280728652,41.5054974760463</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>highway: pedestrian</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.105099280728652,41.5054974760463 2.1051288353014996,41.50540369584743 2.1051374591282275,41.50537463337658 2.1051574017275345,41.50530749363713</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>highway: pedestrian</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1051574017275345,41.50530749363713 2.1051288353014996,41.50524338117566 2.10505526327973,41.50518330511796 2.1049894167694045,41.50514058582689 2.104958694386687,41.505106881295454 2.1049250973950615,41.50507997147733 2.104855208465957,41.50502413356902</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>foot: yes
+bicycle: yes
+highway: pedestrian
+wheelchair: yes
+motor_vehicle: permit
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.104855208465957,41.50502413356902 2.1049376738090393,41.504893687954656 2.1049658809089604,41.50484901750335</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>pedestrian</name>
+      <description>bicycle: yes
+highway: pedestrian
+wheelchair: yes
+motor_vehicle: permit
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1049658809089604,41.50484901750335 2.1049371348198687,41.50475597638913</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+wheelchair: yes
+motor_vehicle: permissive
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1049371348198687,41.50475597638913 2.105006844085916,41.504717831511904 2.1051087130391357,41.50464147441501</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+wheelchair: yes
+motor_vehicle: permissive
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1051087130391357,41.50464147441501 2.1052858608131637,41.50451479543804 2.105457528863959,41.50441839008133 2.1057042960725063,41.50429393075536</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: asphalt
+wheelchair: yes
+motor_vehicle: permissive
+parking_barrier: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1057042960725063,41.50429393075536 2.105929593545764,41.50418938473667 2.105996158708317,41.50415763070015 2.10614420106714,41.50408699136813 2.1062311579866426,41.50404501138575 2.1062856857243886,41.50401870660728 2.106340033799078,41.5039924690938</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.106340033799078,41.5039924690938 2.106405071825648,41.503889200828525</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: concrete
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.106405071825648,41.503889200828525 2.1064913999244523,41.503768709764906 2.1065081984202654,41.50370587402357 2.106520864665771,41.503662211893314 2.1065196070243735,41.503628708420536</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Torrent de la Clota</name>
+      <description>lit: yes
+name: Camí del Torrent de la Clota
+bicycle: yes
+highway: footway
+name:ca: Camí del Torrent de la Clota
+surface: concrete
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1065196070243735,41.503628708420536 2.1064003107546427,41.503525305022784 2.106314880971123,41.503442487998925 2.1061554300081915,41.503287886967485</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Torrent de la Clota</name>
+      <description>lit: yes
+name: Camí del Torrent de la Clota
+bicycle: yes
+highway: footway
+name:ca: Camí del Torrent de la Clota
+surface: concrete
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1061554300081915,41.503287886967485 2.1059922959525954,41.50314230062826</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Ca n'Altaió</name>
+      <description>lit: yes
+name: Carrer de Ca n'Altaió
+bicycle: yes
+highway: footway
+name:ca: Carrer de Ca n'Altaió
+surface: compacted
+alt_name: Carrer de Ca n'Altayó
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1059922959525954,41.50314230062826 2.1059454038947645,41.50316302180928 2.105847038371153,41.50325001033124 2.105700882474427,41.50335738347333 2.1054115351214118,41.50355827033993</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: compacted
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1054115351214118,41.50355827033993 2.1054514203200267,41.5034899177453 2.105438035422294,41.50342721628597 2.1054675001636127,41.50331668126937 2.1053870111141557,41.503216304815716 2.1052716674316745,41.503105769439095 2.1051858783220414,41.50294309439068 2.105194322485712,41.502876624898455 2.105203934459252,41.50279838187636</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: paving_stones
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.105203934459252,41.50279838187636 2.1051731222450063,41.502764003356106</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Torrent de la Clota</name>
+      <description>lit: yes
+name: Camí del Torrent de la Clota
+bridge: yes
+bicycle: yes
+highway: footway
+name:ca: Camí del Torrent de la Clota
+surface: wood
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1051731222450063,41.502764003356106 2.1050575090679406,41.502659320313114</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: paving_stones
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1050575090679406,41.502659320313114 2.105012233977621,41.50263362046564 2.104931834759692,41.50260691145104 2.104748308947147,41.50246959868569 2.1046623401744564,41.502405214304964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>foot: yes
+highway: steps
+incline: up
+handrail: yes
+step_count: 7
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1046623401744564,41.502405214304964 2.1046370076834444,41.502386376647486</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1046370076834444,41.502386376647486 2.104594427538977,41.502348970425714</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+highway: footway
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.104594427538977,41.502348970425714 2.10446246502374,41.50223311864492</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: asphalt
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.10446246502374,41.50223311864492 2.1045662204390556,41.50218178587904 2.10458634270142,41.5021760672853</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bridge: yes
+bicycle: yes
+highway: footway
+surface: wood
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.10458634270142,41.5021760672853 2.1047230662876633,41.50211827582142 2.1049085683938333,41.502039830049846</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: paving_stones
+wheelchair: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1049085683938333,41.502039830049846 2.1051583000428185,41.50193036911032</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: paving_stones
+wheelchair: yes
+motor_vehicle: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1051583000428185,41.50193036911032 2.1052255838575995,41.50190278519347</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1052255838575995,41.50190278519347 2.105116887708221,41.501791103849094 2.105034242702082,41.50169799106294</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.105034242702082,41.50169799106294 2.10498627266591,41.50165607680986</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: grass</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.10498627266591,41.50165607680986 2.1048781155057017,41.50153309229593 2.104734205397186,41.501411116724015</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: concrete:plates
+wheelchair: no
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.104734205397186,41.501411116724015 2.104694679524685,41.50143432775788 2.104579335842204,41.50152717181016 2.1044426122559607,41.50159949588908 2.1043271787419515,41.501673770952095 2.1042280047345847,41.501739703454795</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: paving_stones
+wheelchair: no
+motor_vehicle: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1042280047345847,41.501739703454795 2.104136735901718,41.501279789210486</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Vall Moronta</name>
+      <description>name: Carrer de la Vall Moronta
+bicycle: yes
+footway: sidewalk
+highway: footway
+name:ca: Carrer de la Vall Moronta
+surface: asphalt
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.104136735901718,41.501279789210486 2.1047975366247162,41.50084180464533</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Vall Moronta</name>
+      <description>name: Carrer de la Vall Moronta
+bicycle: yes
+footway: sidewalk
+highway: footway
+name:ca: Carrer de la Vall Moronta
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1047975366247162,41.50084180464533 2.1050936213423626,41.50065409606776</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway
+crossing: uncontrolled
+wheelchair: limited
+crossing:markings: zebra</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1050936213423626,41.50065409606776 2.105050861534838,41.50061783259168 2.1050030711617227,41.500576186756426</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>ramp: no
+highway: steps
+incline: up
+surface: concrete
+handrail: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1050030711617227,41.500576186756426 2.1050808652653274,41.50052781296587</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>foot: yes
+ramp: no
+highway: steps
+incline: up
+surface: concrete
+handrail: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1050808652653274,41.50052781296587 2.104962736805466,41.500419627779166</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+bicycle: yes
+highway: footway
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.104962736805466,41.500419627779166 2.1049277923409138,41.50043402556941 2.10483409805678,41.500447616003996 2.104721359488623,41.50044956710576 2.104595415685789,41.50047170201473 2.104463812496666,41.50051637548577 2.104332478802128,41.500568113247304 2.104134040955866,41.50063041379996 2.1039461133984276,41.50071330169936 2.103752885780814,41.50083077089454 2.103635565804708,41.50090121194203 2.10357322272399,41.50093720614398 2.1035161797034485,41.500970778288135</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: no
+footway: sidewalk
+highway: footway
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1035161797034485,41.500970778288135 2.1034651553953108,41.50099230750969 2.10342500070211,41.50097777528593 2.103351069354227,41.50095261300188</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: no
+highway: path
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.103351069354227,41.50095261300188 2.103306333253078,41.50097313304709 2.103099361411617,41.50096109013609 2.102992102566693,41.50093330396978 2.1029212254907756,41.50087053275598 2.1028664282584444,41.500843082945615 2.10277506959405,41.50085270383636 2.1027546778371,41.50093350580639 2.102795191856414,41.50100031368714 2.1028331905929325,41.50104828345226 2.102784771399118,41.5011557948024 2.10270886375761,41.50125072488871 2.1026555038297334,41.501324933073306</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway
+wheelchair: limited</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1026555038297334,41.501324933073306 2.1026300815071925,41.50139920845125 2.102669607379694,41.501446505137544 2.1027640203160547,41.5014539057539 2.1028235786193923,41.50143701889171 2.1028481924581772,41.501417508168956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps
+wheelchair: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1028481924581772,41.501417508168956 2.102881699618275,41.50144872532255 2.102899037103258,41.5014648048419</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: concrete
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.102899037103258,41.5014648048419 2.102912422000992,41.50147731860734 2.1029684768747208,41.5015291228794 2.1029933602080906,41.50155388127011 2.103020399498143,41.50157668858361 2.103050313397104,41.50160467630838 2.1030665729037463,41.50162001572932 2.103081305274406,41.501634413252695 2.103197816766756,41.50174831504202 2.1032828872241627,41.50183160517817</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>bicycle: yes
+highway: footway
+surface: concrete
+wheelchair: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.1032828872241627,41.50183160517817 2.103197816766756,41.50174831504202 2.103081305274406,41.501634413252695 2.1030665729037463,41.50162001572932 2.103050313397104,41.50160467630838 2.103020399498143,41.50157668858361 2.1029933602080906,41.50155388127011 2.1029684768747208,41.5015291228794 2.102912422000992,41.50147731860734 2.102899037103258,41.5014648048419</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,239 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tour des Anaques asp40</name>
+    <Placemark>
+      <name>Rue du Garrapet</name>
+      <description>name: Rue du Garrapet
+highway: residential
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.621261285936271,42.974107930676595 -0.6215132633734662,42.97410497299303 -0.6217490711355477,42.9742525283663 -0.6218302788372322,42.974341718680826</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue de l'Église</name>
+      <description>name: Rue de l'Église
+highway: residential
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6218302788372322,42.974341718680826 -0.6219049288373425,42.9746150069895</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue du Cap de Bouchet</name>
+      <description>name: Rue du Cap de Bouchet
+highway: residential
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6219049288373425,42.9746150069895 -0.6219670024234752,42.97465720291161 -0.6221878083203117,42.97496729604289 -0.6224279279957569,42.97538208752603 -0.6225234189104588,42.97546108885086 -0.6226216946025415,42.975482515149416 -0.622880678898953,42.97544327741294</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Anaques</name>
+      <description>name: Chemin des Anaques
+highway: residential</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.622880678898953,42.97544327741294 -0.6230156956861562,42.976116822219566</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Anaques</name>
+      <description>name: Chemin des Anaques
+source: Direction Générale des Impôts - Cadastre ; mise à jour : 2010
+highway: path
+name:oc: Camin deras Anacas
+sac_scale: hiking
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6230156956861562,42.976116822219566 -0.6227647962273016,42.976174922343205 -0.6228439378038326,42.976681718718275 -0.6226581662030768,42.97711831870461 -0.6225882772739723,42.97730727227621</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Espoune</name>
+      <description>name: Chemin d'Espoune
+source: Direction Générale des Impôts - Cadastre ; mise à jour : 2010
+highway: path
+name:oc: Camin der' Espona
+sac_scale: hiking
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6225882772739723,42.97730727227621 -0.6224576622316612,42.97728558372183 -0.6218935202332342,42.97756470826001 -0.6217770087408838,42.977644889786184 -0.6216767567551761,42.97767301901814 -0.6216247443002256,42.97769240714949 -0.6215043700521535,42.97779059643948 -0.621222927873639,42.97797527600458 -0.620793802662415,42.97847679981156 -0.6207269680052765,42.97851366963518 -0.6204731939375128,42.97857728810235 -0.6202437642139487,42.97867080975846 -0.6201610293762811,42.9786790249358</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Anaques</name>
+      <description>name: Chemin des Anaques
+source: Direction Générale des Impôts - Cadastre ; mise à jour : 2010
+highway: path
+name:oc: Camin deras Anacas
+sac_scale: hiking
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6201610293762811,42.9786790249358 -0.6201033575350408,42.97873081338843 -0.6199879240210315,42.97884411690681 -0.6199686102424229,42.979143870741794 -0.6197716097006155,42.97936502123118 -0.619879227871653,42.97945657007171</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Anaques</name>
+      <description>name: Chemin des Anaques
+source: Direction Générale des Impôts - Cadastre ; mise à jour : 2010
+highway: path
+name:oc: Camin deras Anacas
+sac_scale: hiking
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.619879227871653,42.97945657007171 -0.6200655384615793,42.979602929636265 -0.62006437065171,42.97977820576457 -0.6200844030825458,42.97994211182315 -0.6201667785940995,42.98005633318864 -0.6201136881608083,42.98011909570132 -0.6201331816024737,42.98025763304181 -0.6200594299176474,42.98035437240377 -0.6199917867767532,42.980658127753465 -0.6199318691473024,42.98078240282203</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Anaques</name>
+      <description>foot: yes
+name: Chemin des Anaques
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+bicycle: yes
+highway: track
+sac_scale: hiking
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6199318691473024,42.98078240282203 -0.6199687000739513,42.980909174962605 -0.6199499252845132,42.98127082572393 -0.6199554050077462,42.98143577929899 -0.6198999789547162,42.98157451082765 -0.6197116920711647,42.98177048254361 -0.6194749859937991,42.98216156977159 -0.6192984670404698,42.98280960851537 -0.6193102349706916,42.982970812102884</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Espagne</name>
+      <description>name: Chemin d'Espagne
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6193102349706916,42.982970812102884 -0.6193407776903518,42.98316211348809 -0.6191490772087206,42.98357711255737 -0.6191185344890606,42.983709990527124 -0.6190792781111445,42.983776232256396 -0.6189246780507476,42.983887094990855 -0.6188254142118523,42.98397791422482 -0.6187872358122772,42.98416211519688 -0.6187310911070198,42.984288683222395 -0.6187841815403113,42.984713926222014</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Saint-Félix</name>
+      <description>name: Rue Saint-Félix
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+highway: residential
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6187841815403113,42.984713926222014 -0.618646110481142,42.98483188446833 -0.6184945646927111,42.984894576391255 -0.6181629965213425,42.98507719746694 -0.618034627267242,42.98517622925197 -0.617951533103461,42.985238986538135 -0.6179287158952442,42.98528800946265 -0.6179340159554206,42.98540182661119 -0.6179675231155182,42.98565101445931 -0.6179850402635585,42.985718699802675</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Neuf</name>
+      <description>ref: D 441
+name: Chemin Neuf
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009
+highway: tertiary
+surface: asphalt
+alt_name: Chemin de la Mâture d'Issaux
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6179850402635585,42.985718699802675 -0.6184087755830776,42.98555099772811 -0.6189436325032426,42.98522498936887</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin Neuf</name>
+      <description>ref: D 441
+name: Chemin Neuf
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009
+highway: tertiary
+surface: asphalt
+alt_name: Chemin de la Mâture d'Issaux</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6189436325032426,42.98522498936887 -0.6194783995918788,42.98489891356595 -0.6202914647555354,42.984295977633366</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue d'en Haut</name>
+      <description>ref: D 441
+name: Rue d'en Haut
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009
+highway: tertiary
+surface: asphalt
+alt_name: Chemin de la Mâture d'Issaux</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6202914647555354,42.984295977633366 -0.620478224503104,42.984171512520305 -0.6210236815436212,42.983799429987975 -0.6211650763693417,42.983732925419645 -0.621596716863361,42.98355043178302 -0.6220822562744277,42.98333613085773</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de la Mâture</name>
+      <description>ref: D 441
+name: Chemin de la Mâture
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009
+highway: tertiary
+surface: asphalt
+alt_name: Chemin de la Mâture d'Issaux</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6220822562744277,42.98333613085773 -0.6227381162633633,42.983061106956605 -0.6228758279964188,42.98300327620676 -0.623038512894373,42.982922773083715 -0.6231313986947509,42.982876902685646 -0.623849511932876,42.98252170166805 -0.6245007905138626,42.98206588473782 -0.6252262699373176,42.981558278400634</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Arsis</name>
+      <description>name: Chemin d'Arsis
+source: Direction Générale des Impôts - Cadastre ; mise à jour : 2010
+highway: track
+sac_scale: hiking
+tracktype: grade1
+motor_vehicle: private</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6252262699373176,42.981558278400634 -0.6251942000816746,42.98153350258271 -0.6248099008031283,42.98123652058222</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Arsis</name>
+      <description>foot: yes
+name: Chemin d'Arsis
+source: Direction Générale des Impôts - Cadastre;mise à jour : 2010
+bicycle: yes
+highway: track
+sac_scale: hiking
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6248099008031283,42.98123652058222 -0.6247789089258261,42.981151677707 -0.6246635652433451,42.98105507103726</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin d'Arsis</name>
+      <description>name: Chemin d'Arsis
+source: Direction Générale des Impôts - Cadastre ; mise à jour : 2010
+highway: path
+name:oc: Camin d'Arsís
+sac_scale: hiking
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.6246635652433451,42.98105507103726 -0.6244937836546465,42.98082722327692 -0.6242832185520489,42.980632628660224 -0.6241923988768244,42.980609298295015 -0.6241341880464134,42.980561980344056 -0.6239129329919348,42.98046418979664 -0.6238113335333009,42.98037520552091 -0.6236479299831196,42.98032210406015 -0.6229786850964505,42.98033997980453 -0.6229260438208012,42.980325192883996 -0.6226887089227368,42.980120410098806 -0.6224669148790877,42.97983728823139 -0.622294707839122,42.97961548223649 -0.6220508152394835,42.97953536900046 -0.621922715479968,42.97945657007171</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin des Anaques</name>
+      <description>name: Chemin des Anaques
+source: Direction Générale des Impôts - Cadastre ; mise à jour : 2010
+highway: path
+name:oc: Camin deras Anacas
+sac_scale: hiking
+source:name:oc: Lo Congrès</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.621922715479968,42.97945657007171 -0.6219541565149121,42.97916641301233 -0.6218890286568136,42.979082224490355 -0.6218195888853512,42.97883149842785 -0.6217402676457633,42.97881329363855 -0.6215965372003043,42.97873278502917 -0.6217791646975658,42.97844551630753 -0.6219496649384916,42.97838610389471 -0.6220124571768516,42.97800531102732 -0.6220709375018477,42.97795128740915 -0.6222587752277571,42.97768458617521 -0.6225439004989367,42.97746093217869 -0.6226290607878712,42.977389294376295 -0.6225882772739723,42.97730727227621</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

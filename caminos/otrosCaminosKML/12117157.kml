@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: dirt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5668943394999755,43.548644402546124 1.5668874224722877,43.548796431789796 1.5668772715095773,43.548868832733795 1.5668451118224058,43.54900972784674 1.5667700126646535,43.549148669377736 1.5667150357692654,43.549232268532585 1.5665015960577584,43.5494852789754 1.5664186815570342,43.54957402119257 1.5663613690419074,43.54966582334869 1.5663347789094975,43.54974310633201 1.566333341605043,43.5498188917392 1.5663602910635663,43.549960826352006 1.5664018830612212,43.55007919175058 1.566489109475309,43.55028812108648 1.5664882111600253,43.5505611800242 1.5664442835426318,43.55056267748277 1.5664669210877913,43.55075812806089</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5664669210877913,43.55075812806089 1.5664325156124097,43.5507611880749 1.566368735227237,43.55076698256908 1.566326783903469,43.55077082386265</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: sidewalk
+highway: footway
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.566326783903469,43.55077082386265 1.5662852817373425,43.55086047567906 1.5662082961174935,43.55092929328642 1.5660503722905452,43.55099791549595</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+footway: crossing
+highway: footway
+surface: asphalt
+crossing: marked</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5660503722905452,43.55099791549595 1.566076872591427,43.55104160189033</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Impasse de la Tuilerie</name>
+      <description>name: Impasse de la Tuilerie
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+highway: unclassified
+surface: asphalt
+maxspeed: 30
+maxweight: 3.5
+cycleway:both: no
+lane_markings: no
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.566076872591427,43.55104160189033 1.5659446405816044,43.551109377590045 1.5657427891372626,43.55124128281594 1.5655271934690742,43.551381911958956 1.5654097836614396,43.551450077911575 1.5652361393170193,43.55153302281586 1.5649707769820904,43.551647218360735 1.5646464851645232,43.55176981231089 1.5642843742734946,43.551893187277145 1.5636500738513779,43.552090000750646 1.563098238772343,43.552244104665796 1.5627998184349587,43.55233792100927 1.5626167417800554,43.552400617068564 1.5622265136206337,43.55254248049676</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,508 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Vilassar de Mar-Vilassar de Dalt</name>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: sand</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.384369063391712,41.497870293813655 2.38414574221208,41.49776620839928 2.38409480773547,41.49773700793624 2.384060581923145,41.497704914324586 2.383995543896575,41.497600895926766 2.383951885773767,41.49756671649438 2.3834308629089773,41.49732678713648 2.383246528612676,41.49724887382235 2.3830900420901826,41.49720520733847 2.3827059224746927,41.49697792584221 2.3822961110420775,41.496768002614935 2.3819458579127994,41.49657301562317 2.381401838176737,41.496280130332686 2.381146177646876,41.4961629220186 2.3807940380555017,41.4960048048409 2.3807481341444827,41.49597937148863 2.380605571508893,41.495920094245214 2.3803523364302994,41.49579561858588 2.380156413866833,41.495691798974626 2.379889165069808,41.4955776846798 2.3795566985831553,41.495435310666856 2.3793409232519096,41.49535382899028 2.3791589245753473,41.495273827475664 2.3790400774632583,41.49522188363026 2.378927338895101,41.49517740836164 2.378816486789041,41.495156684625435 2.378622540519199,41.495098819612636 2.3782483922033637,41.494975822646246 2.377902091661335,41.49485269087594 2.3777080555599657,41.4947948928768 2.377628913983435,41.49474160294133 2.3775173432251475,41.494714823386495</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: sand</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3807940380555017,41.4960048048409 2.3807495714489377,41.496056277070906</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: -1
+tunnel: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3807495714489377,41.496056277070906 2.380684084264725,41.496134931942066</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: -1
+tunnel: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.380684084264725,41.496134931942066 2.3806511160937984,41.496175975079</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>layer: -1
+tunnel: yes
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3806511160937984,41.496175975079 2.3805768254198014,41.49626849025128</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3805768254198014,41.49626849025128 2.3805629015328975,41.496285782163376</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps
+incline: down
+handrail: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3805629015328975,41.496285782163376 2.3805019059251062,41.496256177330515</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3805019059251062,41.496256177330515 2.3804798073691162,41.49625341869768</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>footway: crossing
+highway: footway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3804798073691162,41.49625341869768 2.38042869322945,41.496267211860705</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Jaume</name>
+      <description>name: Carrer de Sant Jaume
+lanes: 1
+oneway: yes
+highway: unclassified
+name:ca: Carrer de Sant Jaume
+surface: paved
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.38042869322945,41.496267211860705 2.3804634580309454,41.496326825204704 2.3805140331814414,41.49639309956901</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Sant Vicenç</name>
+      <description>name: Carrer de Sant Vicenç
+lanes: 2
+oneway: no
+highway: residential
+name:ca: carrer de Sant Vicenç
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3805140331814414,41.49639309956901 2.3805093619419644,41.4964000297778 2.3803114630848725,41.49669500030753 2.3802581031569954,41.49677728769513 2.3794900435890733,41.49796072082518 2.3794495295697597,41.498023225731835</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Can Ramon</name>
+      <description>name: Camí de Can Ramon
+width: 2.6
+source: survey
+highway: service
+name:ca: Camí de Can Ramon
+surface: concrete
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3794495295697597,41.498023225731835 2.3793882644673827,41.49811950604591 2.379327718017233,41.49821477699147 2.379188299485138,41.49842012038911 2.379165302613864,41.49845140626903 2.3790617268616057,41.498598416061476 2.3789654274631475,41.49872577942424 2.378839214165729,41.49887211578382 2.3786905429862073,41.499039308875005 2.378611940398847,41.49912603381345 2.3785813976791865,41.49915731935235 2.378376581794407,41.49937429928687 2.3782537820950687,41.49949103082686 2.378132779026298,41.49959592083231 2.377936856462831,41.49980966985576 2.377780998761036,41.50001319164136 2.3776140019497185,41.500216174550474 2.377385021383796,41.50046436856549 2.377110136906856,41.500738396797324 2.376830760853495,41.50104411216975 2.3764874247519043,41.501357226726356 2.3752107390701136,41.50267499586953 2.3742154955668378,41.503686027604374 2.37412710134288,41.503775773736294 2.372893265300142,41.50489267883335 2.3724740215570432,41.505250983181234 2.3721173005577194,41.50557019933514</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de Can Ramon</name>
+      <description>name: Camí de Can Ramon
+width: 2.6
+source: survey
+highway: track
+name:ca: Camí de Can Ramon
+surface: ground
+tracktype: grade3</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3721173005577194,41.50557019933514 2.3718863436981725,41.505796374296054</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Crist</name>
+      <description>name: Camí del Crist
+width: 5
+oneway: no
+highway: unclassified
+name:ca: Camí del Crist
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3718863436981725,41.505796374296054 2.3711570015189958,41.50643661602753 2.3709271226377897,41.50668687166089</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí del Mig</name>
+      <description>name: Camí del Mig
+width: 5
+oneway: no
+highway: unclassified
+name:ca: Camí del Mig
+surface: asphalt
+maxspeed: 40</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3709271226377897,41.50668687166089 2.3709782367774563,41.5069032881854 2.3710509104839415,41.50701980433607 2.3710764226380103,41.507060571484764</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>oneway: no
+source: Yahoo
+highway: track
+surface: paved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3710764226380103,41.507060571484764 2.3706569094003265,41.507268981358756 2.3701778378593055,41.50763527791373</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: -1
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3701778378593055,41.50763527791373 2.370097079315263,41.50770476975356</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: -1
+tunnel: yes
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.370097079315263,41.50770476975356 2.3699299028408887,41.50783413335739 2.3697586839477354,41.50796712936707</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>layer: -1
+highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3697586839477354,41.50796712936707 2.3696938255842217,41.50801482488516</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>steps</name>
+      <description>highway: steps</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3696938255842217,41.50801482488516 2.369622768845248,41.50807362015812</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.369622768845248,41.50807362015812 2.36961360602935,41.508081020017066 2.3696090246214006,41.50808572901777</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>track</name>
+      <description>highway: track</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3696090246214006,41.50808572901777 2.3696952628886763,41.50814566783972</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3696952628886763,41.50814566783972 2.369221311744775,41.5084520209519 2.36892289140739,41.508674620492314</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Camí del Pla de Vilassar</name>
+      <description>name: Carrer del Camí del Pla de Vilassar
+highway: unclassified
+name:ca: Carrer del Camí del Pla de Vilassar
+surface: dirt; asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.36892289140739,41.508674620492314 2.3686965159557927,41.508835128480214 2.368185105064543,41.509259604937874 2.36761000361965,41.509685827626534</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer del Camí del Pla de Vilassar</name>
+      <description>name: Carrer del Camí del Pla de Vilassar
+highway: unclassified
+name:ca: Carrer del Camí del Pla de Vilassar</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.36761000361965,41.509685827626534 2.3674872039203105,41.509765609528884 2.367124464208583,41.51004760345818 2.366834937192511,41.51026851578329 2.366604159996021,41.51043319049746 2.3662983734733065,41.510658204901475 2.3659765969385353,41.51089122347787 2.3656654205241163,41.511152292081775 2.365615474194319,41.51119621823399</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Ronda de Vilassar</name>
+      <description>name: Ronda de Vilassar
+highway: tertiary
+name:ca: Ronda de Vilassar
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.365615474194319,41.51119621823399 2.3655425309932485,41.51126839697682 2.365498513544327,41.51131198670983 2.3648069904386118,41.51200827490119</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>highway: tertiary
+junction: roundabout
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3648069904386118,41.51200827490119 2.364839868778011,41.51202240104532 2.364864392785267,41.51204412839433 2.364877418356887,41.51207083351608 2.3648775081884152,41.51209922030847 2.364855589295483,41.51213588095796 2.3648272923640326,41.51215478304619 2.364791988573367,41.5121652767298</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>tertiary</name>
+      <description>highway: tertiary
+junction: roundabout
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.364791988573367,41.5121652767298 2.3647540796683764,41.512166218470554 2.364732340438501,41.51216198063706 2.364699462099103,41.51214778725617 2.364675117754903,41.512125992674726</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Riera Salvet</name>
+      <description>name: Carrer de la Riera Salvet
+highway: track
+name:ca: Carrer de la Riera Salvet</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.364675117754903,41.512125992674726 2.3645897778029115,41.512152495961075 2.3645415382721544,41.51221276735359 2.3645279737113643,41.512231131282334 2.364448023651078,41.512339027666926 2.364238806021406,41.51257600893271 2.3638897207019975,41.51296588595965</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Riera Salvet</name>
+      <description>name: Carrer de la Riera Salvet
+highway: path
+name:ca: Carrer de la Riera Salvet</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3638897207019975,41.51296588595965 2.3637743770195163,41.51308649444013 2.3635973190770163,41.513289301835705 2.363479729606325,41.51341549278337 2.3634154102319824,41.5134497311164 2.3632755425422447,41.513532333542756 2.362908041759511,41.51376527450796</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Riera Salvet</name>
+      <description>name: Carrer de la Riera Salvet
+highway: track
+name:ca: Carrer de la Riera Salvet</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.362908041759511,41.51376527450796 2.3622670039727636,41.514096690948136 2.3619723565595727,41.51421036901962</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de la Riera Salvet</name>
+      <description>name: Carrer de la Riera Salvet
+highway: residential
+name:ca: Carrer de la Riera Salvet</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3619723565595727,41.51421036901962 2.36162857130034,41.51437247764014 2.361546105957258,41.514400123509574 2.361222263297333,41.514492410852014 2.3611389894704944,41.51450007903636</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>carrer de Vidal i Barraquer</name>
+      <description>name: carrer de Vidal i Barraquer
+oneway: yes
+highway: residential
+name:ca: carrer de Vidal i Barraquer
+name:etymology:wikidata: Q958778</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3611389894704944,41.51450007903636 2.361439475933033,41.5147605949699</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Manuel Moreno</name>
+      <description>name: Carrer de Manuel Moreno
+oneway: yes
+highway: residential
+name:ca: Carrer de Manuel Moreno</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.361439475933033,41.5147605949699 2.36059398158762,41.51527630983848</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Manuel Moreno</name>
+      <description>name: Carrer de Manuel Moreno
+oneway: yes
+highway: residential
+name:ca: Carrer de Manuel Moreno</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.36059398158762,41.51527630983848 2.360395094583715,41.51541238469515 2.3597156987343353,41.51587583077551 2.359673388084454,41.51590636832523 2.359408474907167,41.51611448067026 2.3593896102862004,41.51612927854908 2.359241478095849,41.51624571083212 2.3591043053519636,41.51632447570667 2.3588985911519007,41.51638366700961 2.3585352226194742,41.51669657286158</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer de Manuel Moreno</name>
+      <description>name: Carrer de Manuel Moreno
+oneway: yes
+highway: residential
+name:ca: Carrer de Manuel Moreno</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3585352226194742,41.51669657286158 2.3584661421741258,41.51681656902948 2.3583525052906844,41.51701418555205 2.3583055234013246,41.517095976284786</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de la República Catalana</name>
+      <description>name: Plaça de la República Catalana
+oneway: yes
+highway: living_street
+name:ca: Plaça de la República Catalana
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3583055234013246,41.517095976284786 2.3582812688886534,41.517135190061595</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Plaça de la República Catalana</name>
+      <description>name: Plaça de la República Catalana
+highway: living_street
+name:ca: Plaça de la República Catalana
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3582812688886534,41.517135190061595 2.3583302270716384,41.51719518776675 2.3583195371197574,41.51722108362007 2.3582951927755573,41.517279668746106</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Àngel Guimerà</name>
+      <description>name: Carrer d'Àngel Guimerà
+oneway: yes
+highway: living_street
+name:ca: Carrer d'Àngel Guimerà
+name:etymology:wikidata: Q175485</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3582951927755573,41.517279668746106 2.3580838191892046,41.51751690097029 2.3579754823659393,41.51768747625387 2.3579779078172067,41.51774182348953</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Carrer d'Àngel Guimerà</name>
+      <description>name: Carrer d'Àngel Guimerà
+oneway: yes
+highway: residential
+name:ca: Carrer d'Àngel Guimerà
+name:etymology:wikidata: Q175485</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3579779078172067,41.51774182348953 2.357767971535308,41.51785381362702 2.3573958893446254,41.517930424186034 2.357152715397214,41.51797293325428 2.3568572595002677,41.51800508408166 2.356727183447127,41.51800427694812 2.35647134325421,41.5180348134936 2.3563769303178486,41.5180553281251 2.356208765696662,41.518157026792444 2.355995325985155,41.51828132494662 2.3558048831449216,41.518351007140744 2.355771375984824,41.518378785832354 2.355239663168154,41.51882021656394 2.3549937044433618,41.51900437495211 2.3548508723131865,41.51905508904002 2.3540410410845527,41.51920810544376 2.353836764188944,41.519322581655146</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Costa</name>
+      <description>name: Camí de la Costa
+highway: residential
+name:ca: Camí de la Costa
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.353836764188944,41.519322581655146 2.3535667306145376,41.51945420887004 2.3533241854878257,41.51958348173517 2.353196355222895,41.51965168282011 2.3531480258606092,41.519696813873296</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Costa</name>
+      <description>name: Camí de la Costa
+oneway: no
+highway: residential
+name:ca: Camí de la Costa
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3531480258606092,41.519696813873296 2.352847898724185,41.51997641047147 2.352489111599708,41.520120075706195 2.3521358041984635,41.52028640682723</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Costa</name>
+      <description>name: Camí de la Costa
+oneway: no
+highway: residential
+name:ca: Camí de la Costa
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3521358041984635,41.52028640682723 2.3519529072066168,41.52035709574274 2.3517441387345874,41.52039597125043</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Costa</name>
+      <description>name: Camí de la Costa
+highway: track
+surface: dirt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.3517441387345874,41.52039597125043 2.3514853341012327,41.52043430866594 2.3508845408392136,41.520538693934824 2.350219338371323,41.52058691825797 2.349500506480971,41.52062700427887 2.349028441799166,41.52070737802116 2.3483740191146847,41.52085198324753 2.347880484697589,41.52090020733722 2.34786970491418,41.52097250977537 2.3483847090665657,41.5211251180982 2.3489533426414138,41.52116520378572 2.349092761173509,41.521293800655954 2.3491571703793803,41.52146248277401 2.3488353040130803,41.52167932070412 2.348245200702942,41.52188021797667 2.347097243601366,41.52210512533159 2.346303312553261,41.522394194701384 2.346067414959651,41.52255177664553 2.3460460350558887,41.52291650709124 2.34659301923239,41.523205505580734</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Costa</name>
+      <description>name: Camí de la Costa
+highway: track
+surface: dirt
+alt_name: Revolt del Vent
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.34659301923239,41.523205505580734 2.346600205754662,41.523211222316974 2.3469255755505705,41.52347062709988 2.346936534997037,41.5237325865396 2.346791636741708,41.523928769589794 2.346308792276494,41.5239849947218</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Costa</name>
+      <description>name: Camí de la Costa
+highway: track
+surface: dirt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.346308792276494,41.5239849947218 2.3454772218179847,41.52412932360495 2.344651131082708,41.52438630354548 2.3437069118875704,41.52476380193182 2.3435244640533655,41.52529403111438 2.343406515256561,41.525446629245664 2.343191997566713,41.525470705956295 2.3427950320426607,41.52562330367091 2.3426876833662083,41.52579197450304 2.3425267950988222,41.525920494925664 2.3421082700079507,41.52597671832699 2.341708160380404,41.525961519182644</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Camí de la Carena</name>
+      <description>name: Camí de la Carena
+highway: track
+name:ca: Camí de la Carena
+surface: dirt
+tracktype: grade1</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>2.341708160380404,41.525961519182644 2.3409895081531085,41.52585330924207 2.3404850142895475,41.5257822228122 2.340400931978954,41.52578067599213 2.3403375109198947,41.525744493842765</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

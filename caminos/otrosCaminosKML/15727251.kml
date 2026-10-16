@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>foot: designated
+bicycle: designated
+highway: path
+surface: gravel
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3304394310879213,43.57393972037636 1.3303089957086673,43.573919805392634 1.3302367711598242,43.57391648622803 1.3301617618336,43.57389208060039</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Maréchal Leclerc de Hautecloque</name>
+      <description>foot: yes
+name: Avenue du Maréchal Leclerc de Hautecloque
+highway: cycleway
+segregated: no
+name:etymology:wikidata: Q312391</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3301617618336,43.57389208060039 1.3302912988975701,43.57378248293992</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Maréchal Leclerc de Hautecloque</name>
+      <description>foot: yes
+name: Avenue du Maréchal Leclerc de Hautecloque
+layer: 1
+bridge: yes
+highway: cycleway
+segregated: no
+name:etymology:wikidata: Q312391</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3302912988975701,43.57378248293992 1.330535011834152,43.573589775405964</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue du Maréchal Leclerc de Hautecloque</name>
+      <description>foot: yes
+name: Avenue du Maréchal Leclerc de Hautecloque
+highway: cycleway
+surface: asphalt
+segregated: no
+name:etymology:wikidata: Q312391</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.330535011834152,43.573589775405964 1.3305727410760848,43.57356218062587 1.3308793360825548,43.57333732174604 1.3312628268773454,43.5730091108812 1.3317017437251661,43.572616531110384 1.3318233756146358,43.57250758196038 1.3320432831961884,43.57230640950535 1.33210203301577,43.57227601554964 1.332222676758427,43.57225928910495 1.3322445058198311,43.57224978692028 1.3322577110545077,43.572234101803964 1.3322859181544293,43.5721992170493 1.3323116099715548,43.57216992945982 1.3323300254348793,43.57214949322227 1.3323322712230896,43.57213029356603 1.332304603112339,43.57205427588395 1.332309184520288,43.57202921866463 1.3324268638225074,43.571895601680154 1.332462077781645,43.571882129322844 1.3325767926434269,43.571863580420164 1.3326025742920815,43.57184490134397 1.332851766951896,43.57154512415789 1.332844580429623,43.57146930099012 1.3328526652671802,43.57141638742677 1.3328735061817716,43.571371674453246 1.3332958041968364,43.57083980230084 1.33338383909468,43.57072798619208 1.3337931115381252,43.57015438841921 1.3338726124407694,43.57003560685193</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>cycleway</name>
+      <description>foot: yes
+highway: cycleway
+surface: asphalt
+segregated: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3338726124407694,43.57003560685193 1.3339295656297825,43.56995398913513 1.3339513946911867,43.56993817324898 1.334066379047554,43.56989528158622 1.3341489342221646,43.56985759677689 1.334200497519473,43.56982576969159 1.3343255430070227,43.56980259904221</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>lit: yes
+foot: designated
+path: crossing
+bicycle: designated
+highway: path
+surface: asphalt
+segregated: yes
+crossing:island: yes</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3343255430070227,43.56980259904221 1.3343657875317512,43.56975209220257 1.3343743215269503,43.56974148315742 1.3344022591322864,43.56970640170033 1.3344378324175374,43.56966188271608</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

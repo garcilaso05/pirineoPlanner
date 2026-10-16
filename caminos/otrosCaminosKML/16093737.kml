@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>path</name>
+      <description>layer: 1
+bridge: yes
+highway: path
+surface: wood</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3868771667910713,43.665538927765915 1.386780058908858,43.665487526538676</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.386780058908858,43.665487526538676 1.3866906765380882,43.66545412546477 1.3866186316523017,43.665457179649344 1.3863528201597306,43.665547180550504 1.3859961889919354,43.66577507392567</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>path</name>
+      <description>highway: path
+surface: concrete</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3859961889919354,43.66577507392567 1.3850236728653476,43.66643438076845 1.3849083291828665,43.666479023104856 1.3848231688939319,43.66649890745361 1.38473333736552,43.666502806344745 1.3846729705784273,43.66649702298947 1.3846267073412952,43.66647811336324 1.3845878102894926,43.66645277055588 1.3845253773772466,43.66638492975735 1.3843119376657396,43.666240930260386</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

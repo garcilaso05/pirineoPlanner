@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Randonnée sainte colombe de villeneuve</name>
+    <Placemark>
+      <name>Chemin de Pauly</name>
+      <description>name: Chemin de Pauly
+highway: service
+service: alley
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>0.6717802917269424,44.36592690169006 0.6706750944328902,44.3657054080824 0.6705622660332047,44.36567278442431 0.6704518630847865,44.36562648191776 0.6690500420839179,44.3647614981291</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Rue Pierre-Georges Latécoère</name>
+      <description>lit: yes
+name: Rue Pierre-Georges Latécoère
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+zone:maxspeed: FR:30
+ref:FR:FANTOIR: 310440659Z
+name:etymology:wikidata: Q960742</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.511236521126498,43.613412909471705 1.5111562117400983,43.613439185206204 1.5110927008495108,43.61345668067653</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue Pierre-Georges Latécoère</name>
+      <description>lit: yes
+name: Rue Pierre-Georges Latécoère
+highway: residential
+surface: asphalt
+maxspeed: 30
+sidewalk: both
+cycleway:both: no
+zone:maxspeed: FR:30
+ref:FR:FANTOIR: 310440659Z
+name:etymology:wikidata: Q960742</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5110927008495108,43.61345668067653 1.5109781656507855,43.613477102891956 1.51085006589127,43.61348393197518 1.510705886288169,43.61347762320308 1.5104096219074663,43.61345531485933</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: sand</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5104096219074663,43.61345531485933 1.5104215695007448,43.61338630853077 1.510490021125395,43.6133839020881 1.5105214621603391,43.613303773996115</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+layer: 1
+bridge: yes
+bicycle: yes
+highway: footway
+surface: sand</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5105214621603391,43.613303773996115 1.5105328707644474,43.61326449037956</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5105328707644474,43.61326449037956 1.5105409556020044,43.61321740203714 1.5105335894166745,43.61317369569737</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.5105335894166745,43.61317369569737 1.5103539263598507,43.61308068954127 1.5102401996448815,43.61301051207373 1.5099301910403315,43.612831718507834 1.509847007045022,43.612805702666385</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>lit: yes
+bicycle: yes
+highway: footway
+surface: compacted</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.509847007045022,43.612805702666385 1.5097048935670745,43.612817604915236 1.5095408611961942,43.61285142550023 1.5094493228687427,43.61287672588696 1.5093789847819958,43.61290521319911 1.5092928363462488,43.61295932604714</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

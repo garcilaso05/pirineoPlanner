@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Chemin du Grand Bosc</name>
+      <description>name: Chemin du Grand Bosc
+source: locale
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.9964566566889284,44.03579323046136 3.996577390263114,44.03581079632696 3.996677821911878,44.03584508849812 3.996747082020284,44.035867497872324</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin du Castellas</name>
+      <description>name: Chemin du Castellas
+source: locale
+highway: track
+tracktype: grade2</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.996747082020284,44.035867497872324 3.9968361948964684,44.03601551577377 3.9970173850892756,44.03631219626579 3.9971785428512465,44.03667087156854 3.997298108615563,44.03690032187939 3.997431957592897,44.03713842487925 3.9976673161973353,44.03756219031429 3.9980517951389394,44.03812092060189 3.998282482503901,44.03849488981474</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

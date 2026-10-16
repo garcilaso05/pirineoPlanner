@@ -1,0 +1,332 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>unclassified</name>
+      <description>highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.598671240276696,44.312659312792455 3.5986380026111835,44.31266676902935</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>unclassified</name>
+      <description>note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+highway: unclassified
+maxweight: 3.5
+maxweightrating: 3.5</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5986380026111835,44.31266676902935 3.598238072646694,44.31265622745276 3.598199534921004,44.312653527780405</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: D 907
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50
+smoothness: bad
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.598199534921004,44.312653527780405 3.5981427613950476,44.31281840040021 3.5980731419605285,44.31298642215688 3.597993102068714,44.31313991674595 3.597856378482471,44.31341958696887 3.597817661093725,44.313511503115194 3.5977839742705706,44.3136554833627 3.597771936845764,44.31372991587001 3.5977675351008718,44.31380942613838 3.5977591807687284,44.314116989096696</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: D 907
+highway: secondary
+surface: asphalt
+maxspeed: 50
+smoothness: bad
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5977591807687284,44.314116989096696 3.5977317821525636,44.31461140040498</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>ref: D 907
+layer: 1
+highway: secondary
+surface: asphalt
+maxspeed: 50
+smoothness: bad
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5977317821525636,44.31461140040498 3.597689291839625,44.31496787274467 3.5976840816109767,44.31507187021721 3.597696119035784,44.3151815879937 3.5977174091080175,44.31525717551651</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>lit: no
+ref: D 907
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50
+smoothness: bad
+cycleway:both: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5977174091080175,44.31525717551651 3.5977534315509105,44.31535153123318 3.59786149887959,44.31554647686209 3.5979391133201384,44.315704078328025 3.59798088498085,44.315814180569205 3.5980152904562317,44.31594260078564 3.598043856882266,44.31611170625757 3.5980814064611435,44.31657917012159</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>secondary</name>
+      <description>lit: yes
+ref: D 907
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5980814064611435,44.31657917012159 3.5980887726464728,44.316699425932065 3.598086167532149,44.3168029704223 3.598081496292671,44.31687688475111</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue des Cévennes</name>
+      <description>ref: D 907
+name: Avenue des Cévennes
+lanes: 2
+highway: secondary
+surface: asphalt
+maxspeed: 50
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.598081496292671,44.31687688475111 3.5980335262564993,44.317710117752625 3.598002983536839,44.317926779532904 3.5979699255343838,44.318068885059965 3.597919260552359,44.31828959463535 3.5978111932236803,44.318669825026035</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue des Cévennes</name>
+      <description>ref: D 907
+name: Avenue des Cévennes
+highway: secondary
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5978111932236803,44.318669825026035 3.5978074202994867,44.31869058466034</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue des Cévennes</name>
+      <description>ref: D 907
+name: Avenue des Cévennes
+oneway: yes
+highway: secondary
+surface: asphalt
+maxspeed: 50</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5978074202994867,44.31869058466034 3.5977757996014854,44.318859489399564</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rond-Point Anse Saint-Jean</name>
+      <description>ref: D 16
+name: Rond-Point Anse Saint-Jean
+highway: secondary
+surface: asphalt
+junction: roundabout
+maxspeed: 50
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5977757996014854,44.318859489399564 3.5977511857627005,44.31889201057588 3.597745885702524,44.31892870935201 3.5977608875677687,44.318964122685145</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quartier de la Croisette</name>
+      <description>ref: D 16
+name: Quartier de la Croisette
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:right: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5977608875677687,44.318964122685145 3.5976957597096697,44.319137525594</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quartier de la Croisette</name>
+      <description>ref: D 16
+name: Quartier de la Croisette
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+ref:FR:FANTOIR: 480610018Y</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5976957597096697,44.319137525594 3.5976753679527205,44.31919061326126</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quartier de la Croisette</name>
+      <description>ref: D 16
+name: Quartier de la Croisette
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+ref:FR:FANTOIR: 480610018Y</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5976753679527205,44.31919061326126 3.5976488676518397,44.31925989709375 3.597525708626386,44.31964057108844 3.5974805233675955,44.319775731293014 3.597463814703311,44.31982078462535 3.597444411093174,44.319857418550534</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Quartier de la Croisette</name>
+      <description>ref: D 16
+name: Quartier de la Croisette
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.597444411093174,44.319857418550534 3.597221988228825,44.32023988821745 3.5968004088659886,44.32087930303491 3.596734472524134,44.3209809763541 3.596667817530052,44.321083613527314 3.5966409579030567,44.32113290758488 3.5966227221027895,44.321172175702785</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Jean Monestier</name>
+      <description>lit: yes
+ref: D 16
+name: Avenue Jean Monestier
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+cycleway:both: no
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5966227221027895,44.321172175702785 3.5966078999006017,44.32121780637962</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Jean Monestier</name>
+      <description>ref: D 16
+name: Avenue Jean Monestier
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+lane_markings: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5966078999006017,44.32121780637962 3.5965848131977998,44.32134409391287 3.596439825110943,44.322103227290214 3.5963444240277695,44.32256132469793 3.5962683367232042,44.32286909885139 3.5961914409348843,44.32321138243036 3.5961824577820423,44.32325321980933 3.5961543405136496,44.32331941406535 3.5961292775172224,44.32335829512265 3.5961053823306655,44.32339332018527 3.5958019314276894,44.323785599457956 3.5956043918967113,44.324041376470035 3.5955592964694487,44.32410082197268 3.5953897843753353,44.32431848839638 3.595214792557989,44.324543223150876 3.595204372100693,44.32455569053841</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Jean Monestier</name>
+      <description>ref: D 16
+name: Avenue Jean Monestier
+note: maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)
+layer: 1
+bridge: yes
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+lane_markings: no
+maxweight:signed: no
+maxweightrating:signed: no</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.595204372100693,44.32455569053841 3.5951225355783105,44.32465607219103</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Jean Monestier</name>
+      <description>lit: yes
+ref: D 16
+name: Avenue Jean Monestier
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+cycleway:left: no
+lane_markings: no
+cycleway:right: lane
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5951225355783105,44.32465607219103 3.595000813857312,44.32481371345373</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Jean Monestier</name>
+      <description>lit: yes
+name: Avenue Jean Monestier
+lanes: 1
+oneway: yes
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+cycleway:left: no
+cycleway:right: lane
+oneway:bicycle: no
+cycleway:right:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.595000813857312,44.32481371345373 3.5949374826297813,44.324892373264944 3.5947182937004563,44.3251717304185</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Jean Monestier</name>
+      <description>lit: yes
+name: Avenue Jean Monestier
+lanes: 1
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+parking:both: no
+cycleway:left: lane
+cycleway:right: no
+cycleway:left:lane: exclusive</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5947182937004563,44.3251717304185 3.5946782288387844,44.32522179221091 3.594657926913363,44.32524717654375 3.59432662823658,44.325661614388835</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Avenue Jean Monestier</name>
+      <description>lit: yes
+name: Avenue Jean Monestier
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 50
+sidewalk: both
+parking:both: no
+cycleway:left: no
+lane_markings: no
+cycleway:right: lane
+cycleway:right:lane: exclusive
+sidewalk:both:surface: sett</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.59432662823658,44.325661614388835 3.594253325709396,44.32575820259909</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

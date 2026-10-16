@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>Traverse Saint-Roch</name>
+      <description>name: Traverse Saint-Roch
+lanes: 1
+highway: residential
+surface: asphalt
+maxspeed: 30
+cycleway:both: no
+ref:FR:FANTOIR: 311500194</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.3235388425699006,43.65331160389971 1.3240419889605357,43.65350561603499 1.3247645937750816,43.653748179069204 1.3250686734987562,43.65385210650028 1.3251019111642686,43.65387758461728</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

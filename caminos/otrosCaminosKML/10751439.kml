@@ -1,0 +1,210 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Le vieux Château</name>
+    <Placemark>
+      <name>Place de l'Église</name>
+      <description>lit: yes
+name: Place de l'Église
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015
+highway: residential
+surface: asphalt
+destination:forward: Bosdarros</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39634317122357854,43.15997408621991 -0.3963313134618282,43.159998331319294 -0.39631523361824245,43.16003102942459 -0.396186055880386,43.1602821948483 -0.39614760798622567,43.16038408921444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Église</name>
+      <description>name: Place de l'Église
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39614760798622567,43.16038408921444 -0.3960179810907272,43.16039149375019 -0.3959242868065936,43.16039699800626</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin dous Marrous</name>
+      <description>name: Chemin dous Marrous
+source: Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: residential
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3959242868065936,43.16039699800626 -0.3958166686355561,43.160404009379356 -0.3957747173117877,43.160436969374786 -0.3957280947485419,43.16049312582705 -0.39559945599985596,43.16070549766114 -0.395610595109379,43.16098418133308 -0.39555705551844556,43.161201203805945 -0.3955185177927568,43.161305586622966 -0.3954357829550894,43.16140498930302 -0.39539005870712773,43.16140761033392</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: service
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39539005870712773,43.16140761033392 -0.3953211579248357,43.161492072994626 -0.3952636657466521,43.16151598986337 -0.3951979090678546,43.16151192727263 -0.39485861538504263,43.16144777761847 -0.3947052729660434,43.16142078101252 -0.39452075900668526,43.16141331107575 -0.3942571933023246,43.16144712236118</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Dous Marrous</name>
+      <description>name: Dous Marrous
+highway: footway
+surface: gravel
+trail_visibility: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3942571933023246,43.16144712236118 -0.39405552152103973,43.161464093522596 -0.3938312121945951,43.161489517493024 -0.3935539022663874,43.16155917125474 -0.3934552672481911,43.16160012474642 -0.3932962654429019,43.16163727773033 -0.3929422393894304,43.16164828601753 -0.39260492200024355,43.161626597068846 -0.3923215035281038,43.16161309880687 -0.39201948992958285,43.161565985917655 -0.39166519438152614,43.16145813068264 -0.3913972269322733,43.161341232691626 -0.39104903992814855,43.16130748687347 -0.3906916002765974,43.16131652944405 -0.3904821131523407,43.16145131600768 -0.39019249630474057,43.161462586431234 -0.38987089943302583,43.16145111943051 -0.3895027698295936,43.16139941961197 -0.3892869046668197,43.16140721717929 -0.3891985104428623,43.16161630955878 -0.3890463358337325,43.16174277373433 -0.3882959730769075,43.161956975929826 -0.3879774304771586,43.16202158372513 -0.38728366158323313,43.162093923406744 -0.38677413715408054,43.16221783112253 -0.38670694317082843,43.16223840593837</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>footway</name>
+      <description>source: BDOrtho IGN 2020
+highway: footway
+surface: ground
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.38670694317082843,43.16223840593837 -0.3865841434714893,43.16225852207327 -0.38543340159253214,43.16231126956168 -0.385259128427413,43.16224672759759 -0.38509006549094166,43.162188017284734 -0.3850462277050767,43.16217320864781</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Sansans</name>
+      <description>name: Sansans
+horse: no
+bicycle: no
+highway: footway
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3850462277050767,43.16217320864781 -0.3849430112789314,43.1622872219546 -0.384593386970352,43.162589618286596 -0.38443079190392637,43.16283277923514 -0.38443079190392637,43.163012380920364 -0.38443079190392637,43.16305221952982 -0.38459500393786344,43.16322461294989 -0.38546735791027187,43.16347661705124 -0.3859273851672695,43.163786870282884 -0.3861302247584237,43.16408421392887 -0.38626838564912125,43.1643926294429 -0.3865205427493736,43.16473662196524 -0.3867561708483982,43.16493227094331 -0.38732543324394475,43.16512798481657 -0.38804094136774586,43.16534151992753 -0.38882292482257197,43.165753714620074</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: service
+service: driveway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.38882292482257197,43.165753714620074 -0.3893881447993399,43.16606192514313</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Barbet</name>
+      <description>name: Chemin de Barbet
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3893881447993399,43.16606192514313 -0.38946522025071745,43.166064021808026 -0.3895808334277836,43.166142515648424 -0.3896931228382986,43.166314900347935 -0.3898402668818373,43.16675807945569 -0.3899294695895504,43.167215604129474 -0.3903032585792725,43.1679866987498 -0.39032850123875623,43.168082487035576 -0.39032850123875623,43.16818430287369 -0.3903349691088019,43.168303218840414</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Montoulieu</name>
+      <description>name: Chemin de Montoulieu
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: unclassified</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3903349691088019,43.168303218840414 -0.3904653146565277,43.168188168465235 -0.3906041941994526,43.168035313616755 -0.39069186977118264,43.167896675969466 -0.3907223226593143,43.16784190221869 -0.39073346176883733,43.167774417745306 -0.3907375041876158,43.16769520529259 -0.3907089377615809,43.167545625169964 -0.39059053980713393,43.167090723755166 -0.39070381736446136,43.166737702722166 -0.3909372895068041,43.166439323665706 -0.39110123204615593,43.16610562748725 -0.39117067181761833,43.166035323700974 -0.39124442350244454,43.16598343119918 -0.3919582248272059,43.165896681514404 -0.39231620346792756,43.16593402844818 -0.39305075587575206,43.166092523339366 -0.39352219173685804,43.166286792043586 -0.3940583961299489,43.16625331103946 -0.3943850235672548,43.16613963273788 -0.39452165732196937,43.166003677142626 -0.39467877266516194,43.16573831715733 -0.3947417445665786,43.165571893269735</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Loustalet</name>
+      <description>name: Loustalet
+horse: no
+highway: footway
+surface: unpaved</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3947417445665786,43.165571893269735 -0.3947644719432669,43.165490384712136 -0.3947537819913859,43.16541208659821 -0.39471623241250964,43.16532998813331 -0.394646523146462,43.165275212080985 -0.39453917447000975,43.165142071997856 -0.3943595114131858,43.16501502516175 -0.39421730810370964,43.16494452355438 -0.3939276912561096,43.1648427678382 -0.39385528704420947,43.16475870294289 -0.3938042627360715,43.16450637651798 -0.39373446363849546,43.16444956852941 -0.393592619655133,43.164369696539204</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Loustalet</name>
+      <description>name: Loustalet
+bicycle: no
+highway: footway
+surface: gravel</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.393592619655133,43.164369696539204 -0.39355021917372246,43.164214800929955 -0.3935785161051723,43.16402380178476 -0.39369880052171585,43.16379152243128 -0.3938269901127598,43.1636442915911 -0.3940265957688911,43.163524514749085 -0.39449821129305385,43.16342911245745 -0.3949278754934482,43.163313332141044 -0.39534819721488773,43.16325187085394 -0.39580211592795334,43.16315109517688</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chemin de Casteil</name>
+      <description>name: Chemin de Casteil
+source: Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013
+highway: service</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39580211592795334,43.16315109517688 -0.3964464774812523,43.16302646858951</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Bosdarros</name>
+      <description>ref: C 1
+foot: yes
+name: Route de Bosdarros
+horse: yes
+access: permissive
+oneway: no
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015 ; survey
+bicycle: yes
+highway: unclassified
+surface: asphalt</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3964464774812523,43.16302646858951 -0.39659443000854677,43.16288598489704</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Bosdarros</name>
+      <description>ref: C 1
+foot: yes
+name: Route de Bosdarros
+horse: yes
+access: permissive
+oneway: no
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015;survey
+bicycle: yes
+highway: unclassified
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39659443000854677,43.16288598489704 -0.3966580307306624,43.162679976510084</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Route de Bosdarros</name>
+      <description>ref: C 6
+name: Route de Bosdarros
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015
+highway: unclassified
+surface: asphalt
+maxspeed: 30</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.3966580307306624,43.162679976510084 -0.39665659342620785,43.16265199758207 -0.39662596087501933,43.162035999248225 -0.39657996713247246,43.161742118480205 -0.3965046883116632,43.16126089795603 -0.3964584250745311,43.16110619104283 -0.3964179110552173,43.161028083888276 -0.39629205708391213,43.16079539998624 -0.396184528744403,43.16045210606653 -0.39614760798622567,43.16038408921444</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Place de l'Église</name>
+      <description>lit: yes
+name: Place de l'Église
+source: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015
+highway: residential
+surface: asphalt
+destination:forward: Bosdarros</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>-0.39614760798622567,43.16038408921444 -0.396186055880386,43.1602821948483 -0.39631523361824245,43.16003102942459 -0.3963313134618282,43.159998331319294 -0.39634317122357854,43.15997408621991</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

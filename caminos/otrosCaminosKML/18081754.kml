@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>cycleway</name>
+      <description>highway: cycleway</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.429582356745886,43.69416848197988 1.429290763604661,43.69379708780921 1.429235607046216,43.693801829302274</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Écoles</name>
+      <description>name: Rue des Écoles
+highway: living_street</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.429235607046216,43.693801829302274 1.429206411799482,43.693744671552686 1.4290528897174262,43.69351259753933</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Rue des Écoles</name>
+      <description>name: Rue des Écoles
+highway: living_street
+motor_vehicle: destination</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>1.4290528897174262,43.69351259753933 1.4290212690194253,43.69346907950233 1.428826783760413,43.693223494286606 1.428744318417331,43.69315522908239 1.4286301425447197,43.69301051438681 1.4286003184772866,43.69296537216392</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>

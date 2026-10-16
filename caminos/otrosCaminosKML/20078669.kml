@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta sin nombre</name>
+    <Placemark>
+      <name>tertiary</name>
+      <description>ref: D 118
+lanes: 2
+oneway: no
+highway: tertiary
+surface: asphalt
+maxspeed: 80</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5770990970438494,44.12151579590452 3.577195755768421,44.12149129087642 3.5772666328443377,44.12146452879465 3.5773075960212934,44.12144473129503 3.5773267301368454,44.12143550965614 3.5774619265871053,44.12136702443272 3.5775238205101814,44.12133748934954 3.5775914636510753,44.12130982437832 3.5776844392829816,44.121287189392234</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: asphalt
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5776844392829816,44.121287189392234 3.577969744217218,44.121251785935065 3.5788685984905086,44.12116808150205</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>highway: service
+surface: asphalt
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.5788685984905086,44.12116808150205 3.578910190488163,44.12116517957427</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>covered: no
+highway: service
+surface: asphalt
+smoothness: good</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.578910190488163,44.12116517957427 3.579124079357312,44.12117220868796 3.5798037447012767,44.12121470578869 3.579901301741132,44.1212250237448</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>service</name>
+      <description>covered: no
+highway: service
+surface: asphalt
+smoothness: bad</description>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>3.579901301741132,44.1212250237448 3.5799330122706614,44.121249593370536 3.5799675075775714,44.12130737386743</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
