@@ -1,32 +1,32 @@
 /**
  * dynamic_loader.js
- * Carga y descarga dinámica de alto rendimiento para PirineoPlanner.
+ * Carga y descarga dinámica de rutas (otrosCaminosKML) y POIs (picos, lagos, cascadas).
  *
- * Optimizaciones clave:
- *  1. Prioridad absoluta a la interacción: arrastrar o hacer zoom en el mapa interrumpe
- *     inmediatamente cualquier cálculo o renderizado en curso.
- *  2. Muestreo inteligente de coordenadas (% de puntos según zoom): los caminos muy grandes,
- *     grandes y medianos se dibujan desde lejos con un porcentaje reducido de vértices (5-20%),
- *     reduciendo el peso de renderizado un 90% y aumentando el detalle al acercarse.
- *  3. Límite de saturación visual: se limita el presupuesto de caminos simultáneos en pantalla.
- *  4. POIs cercanos al suelo (zoom ≥ 13): picos, lagos y cascadas solo aparecen cuando se está
- *     cerca, borrándose de inmediato de la memoria y del mapa en cuanto salen de la vista.
- *  5. Búsqueda y gestión por Hash O(1) con identificadores únicos estables.
- *  6. Renderizado en segundo plano por lotes (time-slicing con requestAnimationFrame).
+ * Características:
+ *  - Geometría fiel: las rutas se dibujan con sus tramos reales respetando todas las curvas
+ *    del terreno, sin simplificaciones que unan tramos o deformen el camino.
+ *  - Máxima definición de cerca: al acercarte a cualquier zona se muestran TODOS sus puntos.
+ *  - Descarga estricta de caminos lejanos: cualquier camino o punto que salga de la pantalla
+ *    se retira inmediatamente del mapa para mantener el navegador ligero y fluido.
+ *  - Sin saturación desde muy lejos (zoom ≤ 7): no se cargan rutas dinámicas para que la
+ *    visión global del mapa no se congele ni se sature.
+ *  - POIs instantáneos: filtrados en el índice (1.3 MB), cargan de inmediato en <200 ms
+ *    al acercarse (zoom ≥ 12) y se gestionan por hash O(1).
+ *  - Prioridad al usuario: el movimiento del mapa es prioritario e interrumpe tareas en curso.
  */
 
 import { map, G, addPois, removePoiByKey, onTrackClick } from './map.js';
 import { parseKML } from './kml.js';
 
-// ─── Constantes y Configuración ────────────────────────────────────────────────
+// ─── Configuración ─────────────────────────────────────────────────────────────
 
-const CELL_SIZE = 0.5; // tamaño en grados de la celda espacial (≈50 km)
+const CELL_SIZE = 0.5; // tamaño de celda espacial (≈50 km)
 
-// Umbrales de zoom refinados para evitar saturación:
-//   xl: rutas transpirenaicas muy grandes (≥200 km) -> zoom ≥ 8
-//   l:  rutas grandes (≥50 km)                      -> zoom ≥ 10
-//   m:  rutas medianas (≥10 km)                     -> zoom ≥ 12
-//   s:  rutas cortas y paseos (<10 km)              -> zoom ≥ 14
+// Umbrales de zoom para activación de categorías:
+//   xl (≥200 km): zoom ≥ 8
+//   l  (≥50 km):  zoom ≥ 10
+//   m  (≥10 km):  zoom ≥ 12
+//   s  (<10 km):  zoom ≥ 14
 const ZOOM_THRESHOLDS = {
   xl: 8,
   l:  10,
@@ -34,36 +34,40 @@ const ZOOM_THRESHOLDS = {
   s: 14,
 };
 
-// Zoom mínimo para POIs (picos, lagos, cascadas): cerca del suelo
-const POI_ZOOM_MIN = 13;
+// Presupuesto máximo de rutas simultáneas en pantalla según zoom
+function maxRoutesBudget(zoom) {
+  if (zoom <= 9)  return 5;
+  if (zoom <= 11) return 8;
+  if (zoom <= 13) return 12;
+  return 18;
+}
 
-// Límites máximos por pantalla para evitar saturación visual y sobrecarga del navegador
-const MAX_VISIBLE_ROUTES = 28;
-const MAX_POIS_PER_TYPE  = 40;
+// Zoom mínimo para mostrar picos, lagos y cascadas
+const POI_ZOOM_MIN = 12;
+const MAX_POIS_PER_TYPE = 35;
 
-// Concurrencia de descargas HTTP simultáneas
+// Concurrencia máxima de descargas simultáneas
 const FETCH_CONCURRENCY = 3;
 
-// ─── Estado Global ─────────────────────────────────────────────────────────────
+// ─── Estado ────────────────────────────────────────────────────────────────────
 
-let routeIndex   = null; // kml_index.json
-let poiIndexData = null; // poi_index.json
+let routeIndex   = null; // kml_index.json (543 KB)
+let poiIndexData = null; // poi_index.json (1.38 MB filtrado)
 
-// Rutas activas en pantalla: file -> { cat, layers: Polyline[], zoomRendered, entry, segments }
+// Rutas activas en pantalla: file -> { layers: Polyline[], entry }
 const activeRouteLayers = new Map();
-const routeKmlCache     = new Map(); // file -> parsed KML
-let fetchQueue          = [];        // cola de { file, entry }
+const routeKmlCache     = new Map(); // file -> KML parseado en memoria
+let fetchQueue          = [];        // cola de descargas pendientes
 let activeFetches       = 0;
-const inFlight          = new Set(); // archivos actualmente en descarga
+const inFlight          = new Set();
 
 // POIs activos en pantalla: hashKey -> { type, cellKey }
 const activeDynPois = new Map();
 
-// Control de interrupción y tareas en segundo plano
+// Control de interrupción y debounce
 let isInteracting    = false;
 let renderGeneration = 0;
 let refreshTimer     = null;
-let animFrameId      = null;
 
 // Capa Leaflet para rutas dinámicas
 export let dynRoutesLayer = null;
@@ -77,7 +81,7 @@ export async function initDynamicLoader(layerControl) {
     layerControl.addOverlay(dynRoutesLayer, 'Caminos dinámicos (otros caminos)');
   }
 
-  // Control de activación desde la leyenda
+  // Activar / Desactivar desde la leyenda del mapa
   map.on('overlayremove', (e) => {
     if (e.layer === dynRoutesLayer) {
       dynamicRoutesEnabled = false;
@@ -88,11 +92,11 @@ export async function initDynamicLoader(layerControl) {
   map.on('overlayadd', (e) => {
     if (e.layer === dynRoutesLayer) {
       dynamicRoutesEnabled = true;
-      scheduleIdleRefresh(100);
+      scheduleRefresh(80);
     }
   });
 
-  // Interrupción prioritaria: arrastrar o hacer zoom congela cargas en curso
+  // Interrupción prioritaria: arrastrar o ampliar el mapa cancela tareas en cola
   map.on('movestart zoomstart dragstart', () => {
     isInteracting = true;
     cancelPendingWork();
@@ -101,11 +105,11 @@ export async function initDynamicLoader(layerControl) {
   map.on('moveend zoomend', () => {
     isInteracting = false;
     cancelPendingWork();
-    // Debounce: solo cuando el usuario se detiene de verdad (280ms)
-    scheduleIdleRefresh(280);
+    // Debounce breve (100ms) para cargar rápido tan pronto el usuario se detiene
+    scheduleRefresh(100);
   });
 
-  // Carga asíncrona de índices precalculados
+  // Carga paralela de índices
   try {
     const [ri, pi] = await Promise.all([
       fetch('caminos/otrosCaminosKML/kml_index.json').then((r) => r.ok ? r.json() : null),
@@ -115,47 +119,37 @@ export async function initDynamicLoader(layerControl) {
     poiIndexData = pi;
     console.log(`[DynLoader] Índices cargados: ${ri ? ri.entries.length : 0} rutas, ${pi ? pi.points.length : 0} POIs`);
   } catch (err) {
-    console.warn('[DynLoader] No se pudieron cargar los índices:', err);
+    console.warn('[DynLoader] Error al cargar índices:', err);
     return;
   }
 
-  // Primera carga si no estamos interactuando
-  scheduleIdleRefresh(150);
+  // Evaluación inicial
+  scheduleRefresh(80);
 }
 
-// ─── Cancelación e Interrupción ────────────────────────────────────────────────
+// ─── Control de Tareas ─────────────────────────────────────────────────────────
 
 function cancelPendingWork() {
-  renderGeneration++; // invalida cualquier bucle de renderizado activo
+  renderGeneration++;
   if (refreshTimer) {
     clearTimeout(refreshTimer);
     refreshTimer = null;
   }
-  if (animFrameId) {
-    cancelAnimationFrame(animFrameId);
-    animFrameId = null;
-  }
-  fetchQueue = []; // vaciar cola de peticiones no iniciadas
+  fetchQueue = [];
 }
 
-function scheduleIdleRefresh(delayMs = 250) {
+function scheduleRefresh(delayMs = 100) {
   if (document.body.classList.contains('viewer-mode')) return;
-  if (refreshTimer) clearTimeout(refreshTimer);
+  cancelPendingWork();
 
   refreshTimer = setTimeout(() => {
     if (isInteracting) return;
     const currentGen = ++renderGeneration;
-
-    // Ejecutar en segundo plano mediante time-slicing
-    if (window.requestIdleCallback) {
-      window.requestIdleCallback(() => runRefreshPass(currentGen), { timeout: 400 });
-    } else {
-      setTimeout(() => runRefreshPass(currentGen), 10);
-    }
+    executeRefresh(currentGen);
   }, delayMs);
 }
 
-function runRefreshPass(gen) {
+function executeRefresh(gen) {
   if (gen !== renderGeneration || isInteracting) return;
   if (routeIndex && dynamicRoutesEnabled) {
     refreshRoutes(gen);
@@ -165,9 +159,9 @@ function runRefreshPass(gen) {
   }
 }
 
-// ─── Celdas Geográficas ────────────────────────────────────────────────────────
+// ─── Celdas Visibles ───────────────────────────────────────────────────────────
 
-function visibleCells(padFactor = 0.08) {
+function getVisibleCells(padFactor = 0.05) {
   const b = map.getBounds().pad(padFactor);
   const minLat = b.getSouth(), maxLat = b.getNorth();
   const minLon = b.getWest(),  maxLon = b.getEast();
@@ -184,47 +178,11 @@ function visibleCells(padFactor = 0.08) {
   return cells;
 }
 
-// ─── Muestreo y Simplificación de Coordenadas (% según zoom) ───────────────────
-
-/**
- * Reduce el número de vértices de un tramo según la lejanía (zoom).
- * De lejos se pinta un % bajo para máxima velocidad; de cerca, el 100%.
- */
-function samplePointsForZoom(pts, zoom, cat) {
-  const len = pts.length;
-  if (len <= 4) return pts;
-
-  let step = 1;
-  if (zoom <= 8) {
-    // Muy lejos: ~6% - 10% de coordenadas
-    step = cat === 'xl' ? 14 : 10;
-  } else if (zoom <= 10) {
-    // Lejos: ~12% - 20%
-    step = cat === 'xl' ? 8 : (cat === 'l' ? 6 : 4);
-  } else if (zoom <= 12) {
-    // Medio: ~25% - 40%
-    step = cat === 'xl' ? 4 : (cat === 'l' ? 3 : 2);
-  } else if (zoom <= 13) {
-    // Cercano: ~50%
-    step = 2;
-  } else {
-    // Cerca del suelo (zoom >= 14): 100% de los puntos
-    step = 1;
-  }
-
-  if (step <= 1) return pts;
-
-  const sampled = [pts[0]];
-  for (let i = step; i < len - 1; i += step) {
-    sampled.push(pts[i]);
-  }
-  sampled.push(pts[len - 1]);
-  return sampled;
-}
-
-// ─── Rutas Dinámicas (Carga y Descarga) ────────────────────────────────────────
+// ─── Rutas Dinámicas (Definidas, Sin Rectas, Con Descarga Lejana) ───────────────
 
 function getActiveCategories(zoom) {
+  // Desde muy lejos (zoom <= 7): NINGÚN camino dinámico para evitar colgados
+  if (zoom <= 7) return [];
   const cats = [];
   if (zoom >= ZOOM_THRESHOLDS.xl) cats.push('xl');
   if (zoom >= ZOOM_THRESHOLDS.l)  cats.push('l');
@@ -233,21 +191,32 @@ function getActiveCategories(zoom) {
   return cats;
 }
 
+function bboxIntersectsBounds(bbox, bounds) {
+  const [minLat, minLon, maxLat, maxLon] = bbox;
+  return (
+    minLat <= bounds.getNorth() &&
+    maxLat >= bounds.getSouth() &&
+    minLon <= bounds.getEast() &&
+    maxLon >= bounds.getWest()
+  );
+}
+
 function refreshRoutes(gen) {
   if (!dynamicRoutesEnabled || !routeIndex) return;
   const zoom = map.getZoom();
   const cats = getActiveCategories(zoom);
 
-  // Si estamos muy lejos (zoom < 8), limpiar caminos dinámicos para pantalla limpia
+  // Si estamos en zoom <= 7, limpiar de inmediato cualquier ruta dinámica
   if (cats.length === 0) {
     clearDisplayedRoutes();
     return;
   }
 
-  const cells = visibleCells(0.08);
-  const desiredFiles = new Map(); // file -> entry
+  const bounds = map.getBounds().pad(0.05);
+  const cells = getVisibleCells(0.05);
+  const candidateMap = new Map();
 
-  // Recopilar candidatos de las celdas visibles
+  // 1. Encontrar rutas de las categorías activas que tocan las celdas visibles
   for (const cell of cells) {
     const cellData = routeIndex.cell_index[cell];
     if (!cellData) continue;
@@ -255,94 +224,64 @@ function refreshRoutes(gen) {
       const indices = cellData[cat] || [];
       for (const idx of indices) {
         const entry = routeIndex.entries[idx];
-        if (!desiredFiles.has(entry.file)) {
-          desiredFiles.set(entry.file, entry);
+        if (!candidateMap.has(entry.file)) {
+          // Filtrado preciso por bounding box para no cargar rutas lejanas de la misma celda
+          if (bboxIntersectsBounds(entry.bbox, bounds)) {
+            candidateMap.set(entry.file, entry);
+          }
         }
       }
     }
   }
 
-  // 1. DESCARGA: Retirar del mapa los que ya no están visibles o cuya categoría no corresponde
+  // 2. DESCARGA INMEDIATA: Quitar del mapa cualquier camino que ya NO esté en el encuadre
+  // (cuando el usuario amplía o se desplaza a otra zona, los caminos lejanos se descargan de inmediato)
   for (const [file, data] of activeRouteLayers.entries()) {
-    if (!desiredFiles.has(file)) {
+    if (!candidateMap.has(file)) {
       for (const l of data.layers) dynRoutesLayer.removeLayer(l);
       activeRouteLayers.delete(file);
     }
   }
 
-  // Si hay más rutas deseadas que el presupuesto máximo, priorizar las más largas/relevantes
-  let toConsider = Array.from(desiredFiles.values());
-  if (toConsider.length > MAX_VISIBLE_ROUTES) {
+  // 3. PRESUPUESTO CONTROLADO: Priorizar las rutas más destacadas según el zoom
+  const budget = maxRoutesBudget(zoom);
+  let candidates = Array.from(candidateMap.values());
+  if (candidates.length > budget) {
     const catWeight = { xl: 0, l: 1, m: 2, s: 3 };
-    toConsider.sort((a, b) => (catWeight[a.cat] - catWeight[b.cat]) || (b.km - a.km));
-    toConsider = toConsider.slice(0, MAX_VISIBLE_ROUTES);
+    candidates.sort((a, b) => (catWeight[a.cat] - catWeight[b.cat]) || (b.km - a.km));
+    candidates = candidates.slice(0, budget);
   }
 
-  const finalDesiredFiles = new Set(toConsider.map((e) => e.file));
+  const allowedFiles = new Set(candidates.map((e) => e.file));
 
-  // Retirar del mapa los que excedan el presupuesto
+  // Retirar del mapa las que excedan el presupuesto
   for (const [file, data] of activeRouteLayers.entries()) {
-    if (!finalDesiredFiles.has(file)) {
+    if (!allowedFiles.has(file)) {
       for (const l of data.layers) dynRoutesLayer.removeLayer(l);
       activeRouteLayers.delete(file);
     }
   }
 
-  // 2. CARGA: Identificar qué rutas faltan por añadir o necesitan actualizar resolución
-  const toRenderNow = [];
-  const toFetch     = [];
+  // 4. RENDERIZADO FIEL: Renderizar las rutas deseadas
+  const toFetch = [];
+  for (const entry of candidates) {
+    if (activeRouteLayers.has(entry.file)) continue;
 
-  for (const entry of toConsider) {
-    const existing = activeRouteLayers.get(entry.file);
-    if (existing) {
-      // Si el nivel de zoom cambió sustancialmente (de lejos a cerca), actualizar resolución
-      const zoomDiff = Math.abs(zoom - existing.zoomRendered);
-      if (zoomDiff >= 2 && routeKmlCache.has(entry.file)) {
-        for (const l of existing.layers) dynRoutesLayer.removeLayer(l);
-        activeRouteLayers.delete(entry.file);
-        toRenderNow.push(entry);
-      }
-    } else {
-      if (routeKmlCache.has(entry.file)) {
-        toRenderNow.push(entry);
-      } else if (!inFlight.has(entry.file)) {
-        toFetch.push(entry);
-      }
+    // Si ya está en la caché en memoria, renderizar inmediatamente con todos sus tramos
+    if (routeKmlCache.has(entry.file)) {
+      renderKmlRoute(entry, routeKmlCache.get(entry.file));
+    } else if (!inFlight.has(entry.file)) {
+      toFetch.push(entry);
     }
   }
 
-  // Renderizar en lotes no bloqueantes las que ya están en memoria
-  if (toRenderNow.length > 0) {
-    renderRouteBatch(toRenderNow, zoom, gen);
-  }
-
-  // Encolar las que requieren descarga HTTP
+  // Encolar descargas con prioridad: primero las más grandes
   if (toFetch.length > 0) {
     const catPriority = { xl: 0, l: 1, m: 2, s: 3 };
     toFetch.sort((a, b) => catPriority[a.cat] - catPriority[b.cat]);
     fetchQueue = toFetch;
     processFetchQueue(gen);
   }
-}
-
-/**
- * Renderiza rutas en trozos pequeños (2 por frame) para no congelar la interfaz.
- */
-function renderRouteBatch(list, zoom, gen) {
-  let index = 0;
-  function step() {
-    if (gen !== renderGeneration || isInteracting) return;
-    const end = Math.min(index + 2, list.length);
-    for (; index < end; index++) {
-      const entry = list[index];
-      const kml = routeKmlCache.get(entry.file);
-      if (kml) renderRoute(entry, kml, zoom);
-    }
-    if (index < list.length) {
-      animFrameId = requestAnimationFrame(step);
-    }
-  }
-  animFrameId = requestAnimationFrame(step);
 }
 
 function processFetchQueue(gen) {
@@ -374,22 +313,26 @@ async function fetchAndLoadRoute(entry, gen) {
 
     if (gen !== renderGeneration || isInteracting || !dynamicRoutesEnabled) return;
 
-    const currentZoom = map.getZoom();
-    const currentCats = getActiveCategories(currentZoom);
-    if (!currentCats.includes(entry.cat)) return;
-
-    renderRoute(entry, kml, currentZoom);
+    // Verificar si sigue estando dentro del encuadre actual
+    const bounds = map.getBounds().pad(0.05);
+    if (bboxIntersectsBounds(entry.bbox, bounds)) {
+      renderKmlRoute(entry, kml);
+    }
   } catch (err) {
-    console.warn(`[DynLoader] Error al descargar ${entry.file}:`, err.message);
+    console.warn(`[DynLoader] Error cargando ${entry.file}:`, err.message);
   }
 }
 
-function renderRoute(entry, kml, zoom) {
+/**
+ * Renderiza la ruta en Leaflet con TODOS sus puntos y tramos originales del KML.
+ * Cada LineString es un segmento independiente, evitando unir tramos desconectados.
+ */
+function renderKmlRoute(entry, kml) {
   if (activeRouteLayers.has(entry.file)) return;
 
   const segments = kml.lines.map((l, i) => ({
     name: l.name || `Tramo ${i + 1}`,
-    pts:  l.pts, // coordenadas originales intactas para fragmentos e itinerario
+    pts:  l.pts, // TODOS los puntos reales del KML
     km:   calcLineKm(l.pts),
   }));
   if (segments.length === 0) return;
@@ -406,14 +349,13 @@ function renderRoute(entry, kml, zoom) {
   for (const seg of segments) {
     if (seg.pts.length < 2) continue;
 
-    // Muestreo adaptativo de coordenadas según zoom (optimización de rendimiento)
-    const sampledPts = samplePointsForZoom(seg.pts, zoom, entry.cat);
-
-    const poly = L.polyline(sampledPts, {
+    // smoothFactor: 1.5 permite a Leaflet acelerar el renderizado en canvas
+    // manteniendo la fidelidad y forma exacta de todas las curvas del camino
+    const poly = L.polyline(seg.pts, {
       color,
       weight,
-      opacity: 0.8,
-      smoothFactor: 2,
+      opacity: 0.82,
+      smoothFactor: 1.5,
     });
 
     const catLabel = { xl: 'GR / Travesía', l: 'Ruta larga', m: 'Ruta media', s: 'Ruta corta' }[entry.cat] || '';
@@ -422,7 +364,7 @@ function renderRoute(entry, kml, zoom) {
       direction: 'top',
     });
 
-    // Clic en la ruta: utiliza los puntos originales intactos
+    // Clic en la polilínea: compatible con popup y recorte de fragmentos
     poly.on('click', (ev) => onTrackClick(routeObj, seg, ev));
 
     dynRoutesLayer.addLayer(poly);
@@ -430,9 +372,7 @@ function renderRoute(entry, kml, zoom) {
   }
 
   activeRouteLayers.set(entry.file, {
-    cat: entry.cat,
     layers,
-    zoomRendered: zoom,
     entry,
   });
 }
@@ -455,7 +395,7 @@ function routeColor(cat) {
 }
 
 function routeWeight(cat) {
-  return { xl: 4, l: 3.2, m: 2.5, s: 2 }[cat] || 2.5;
+  return { xl: 3.5, l: 3.0, m: 2.5, s: 2.2 }[cat] || 2.5;
 }
 
 function clearDisplayedRoutes() {
@@ -467,7 +407,6 @@ function clearDisplayedRoutes() {
 // ─── POIs Dinámicos (Picos, Lagos, Cascadas) ───────────────────────────────────
 
 function poiHashKey(kind, lat, lon) {
-  // Hash único con 5 decimales de precisión (resolución de ~1 metro)
   return `${kind}:${lat.toFixed(5)}:${lon.toFixed(5)}`;
 }
 
@@ -475,15 +414,15 @@ function refreshPois(gen) {
   if (!poiIndexData) return;
   const zoom = map.getZoom();
 
-  // Si estamos lejos (zoom < 13), descargar de inmediato todos los POIs dinámicos
+  // Si estamos lejos (zoom < 12), descargar de inmediato todos los POIs
   if (zoom < POI_ZOOM_MIN) {
     clearDisplayedPois();
     return;
   }
 
-  const cells = visibleCells(0.05); // margen ajustado para descargar rápido lo que no esté en vista
+  const cells = getVisibleCells(0.03);
 
-  // 1. DESCARGA INMEDIATA: Borrar de la memoria y de Leaflet los POIs que salieron del encuadre
+  // 1. DESCARGA INMEDIATA: Retirar POIs de celdas que ya salieron de la vista
   for (const [hashKey, item] of activeDynPois.entries()) {
     if (!cells.has(item.cellKey)) {
       removePoiByKey(hashKey);
@@ -491,7 +430,7 @@ function refreshPois(gen) {
     }
   }
 
-  // 2. CARGA: Identificar POIs en las celdas visibles que no estén ya cargados
+  // 2. CARGA INSTANTÁNEA: Recopilar POIs de las celdas visibles
   const candidatesByType = { peak: [], lake: [], waterfall: [] };
 
   for (const cell of cells) {
@@ -506,53 +445,34 @@ function refreshPois(gen) {
     }
   }
 
-  // Limitar por tipo para evitar saturación en zonas de muchos lagos o picos
   const toAdd = [];
   for (const kind of ['peak', 'lake', 'waterfall']) {
     const list = candidatesByType[kind] || [];
-    // Si hay muchos, priorizar los de mayor altitud
     if (list.length > MAX_POIS_PER_TYPE) {
-      list.sort((a, b) => (b.pt.e || 0) - (a.pt.e || 0));
+      list.sort((a, b) => (b.pt.e || 0) - (a.pt.e || 0)); // priorizar los más altos
     }
     toAdd.push(...list.slice(0, MAX_POIS_PER_TYPE));
   }
 
   if (toAdd.length === 0) return;
 
-  // Renderizar los POIs en lotes no bloqueantes (20 por frame)
-  renderPoisBatch(toAdd, gen);
-}
+  // Añadir de golpe (<20 ms) sin colas diferidas
+  const payload = toAdd.map(({ pt, hashKey }) => ({
+    name: pt.n,
+    lat:  pt.lat,
+    lng:  pt.lon,
+    ele:  pt.e ?? null,
+    sub:  pt.s ?? '',
+    url:  pt.u ?? null,
+    type: pt.k,
+    key:  hashKey,
+  }));
 
-function renderPoisBatch(list, gen) {
-  let index = 0;
-  function step() {
-    if (gen !== renderGeneration || isInteracting) return;
-    const end = Math.min(index + 20, list.length);
-    const chunk = list.slice(index, end);
+  addPois(payload, 'osm');
 
-    const payload = chunk.map(({ pt, hashKey }) => ({
-      name: pt.n,
-      lat:  pt.lat,
-      lng:  pt.lon,
-      ele:  pt.e ?? null,
-      sub:  pt.s ?? '',
-      url:  pt.u ?? null,
-      type: pt.k,
-      key:  hashKey,
-    }));
-
-    addPois(payload, 'osm');
-
-    for (const item of chunk) {
-      activeDynPois.set(item.hashKey, { type: item.pt.k, cellKey: item.cellKey });
-    }
-
-    index = end;
-    if (index < list.length) {
-      animFrameId = requestAnimationFrame(step);
-    }
+  for (const item of toAdd) {
+    activeDynPois.set(item.hashKey, { type: item.pt.k, cellKey: item.cellKey });
   }
-  animFrameId = requestAnimationFrame(step);
 }
 
 function clearDisplayedPois() {
@@ -562,7 +482,7 @@ function clearDisplayedPois() {
   activeDynPois.clear();
 }
 
-// ─── Funciones Públicas de Limpieza ────────────────────────────────────────────
+// ─── Funciones Públicas ────────────────────────────────────────────────────────
 
 export function clearDynamicPois() {
   clearDisplayedPois();

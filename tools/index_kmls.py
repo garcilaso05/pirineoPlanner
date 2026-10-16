@@ -113,20 +113,6 @@ def size_category(km_total):
     return "s"
 
 
-def simplify_pts(pts, max_pts):
-    """Devuelve un % representativo de coordenadas para pintar la ruta desde lejos sin KML."""
-    if len(pts) <= max_pts:
-        return [[round(p[1], 4), round(p[0], 4)] for p in pts]
-    step = (len(pts) - 1) / (max_pts - 1)
-    res = []
-    for i in range(max_pts - 1):
-        idx = int(round(i * step))
-        p = pts[min(idx, len(pts) - 1)]
-        res.append([round(p[1], 4), round(p[0], 4)])
-    p_last = pts[-1]
-    res.append([round(p_last[1], 4), round(p_last[0], 4)])
-    return res
-
 # ─── Indexador de Rutas ────────────────────────────────────────────────────────
 
 def index_routes():
@@ -172,29 +158,32 @@ def index_routes():
                         break
                 break
 
-        # Recopilar todos los puntos de LineString
-        all_pts = []
+        # Recopilar líneas individuales (LineString)
+        lines = []
         for elem in root.iter():
             tag = elem.tag
             if tag.endswith("}coordinates") or tag == "coordinates":
-                parent = None
-                # Averiguar si el padre es LineString
-                # ET no tiene referencia al padre; busco en todo el árbol
-                # Aproximación: si el texto tiene espacios y comas, es una polilínea
                 text = (elem.text or "").strip()
                 pts = parse_coords_text(text)
                 if len(pts) > 1:
-                    all_pts.extend(pts)
+                    lines.append(pts)
+
+        if not lines:
+            skipped += 1
+            continue
+
+        # Calcular longitud total sumando tramo a tramo por separado
+        km_total = 0.0
+        all_pts = []
+        for line in lines:
+            all_pts.extend(line)
+            for j in range(1, len(line)):
+                km_total += haversine_km(line[j-1][1], line[j-1][0],
+                                         line[j][1],   line[j][0])
 
         if len(all_pts) < 2:
             skipped += 1
             continue
-
-        # Calcular longitud total
-        km_total = 0.0
-        for j in range(1, len(all_pts)):
-            km_total += haversine_km(all_pts[j-1][1], all_pts[j-1][0],
-                                     all_pts[j][1],   all_pts[j][0])
 
         # Bbox y celdas
         min_lat, min_lon, max_lat, max_lon = bbox_of_pts(all_pts)
@@ -207,7 +196,7 @@ def index_routes():
             "title": title,
             "km":    round(km_total, 2),
             "cat":   cat,
-            "bbox":  [round(min_lat,5), round(min_lon,5), round(max_lat,5), round(max_lon,5)],
+            "bbox":  [round(min_lat, 5), round(min_lon, 5), round(max_lat, 5), round(max_lon, 5)],
             "cells": cells,
         })
 
@@ -318,6 +307,12 @@ def parse_poi_kml(kml_path, kind):
                                     pass
 
         if lat is not None and lon is not None and math.isfinite(lat) and math.isfinite(lon):
+            clean_name = name.strip()
+            is_unnamed = not clean_name or "sin nombre" in clean_name.lower()
+            # Si no tiene nombre y tampoco tiene enlace (ej. 20.000 charcos OSM), no indexar
+            if is_unnamed and not url:
+                continue
+
             entry = {
                 "n": name,
                 "lat": round(lat, 6),
