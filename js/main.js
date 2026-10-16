@@ -2,7 +2,7 @@ import { map, setMode, mode, addRoute, addRefuges, clearRefuges, addPois, custom
 import { load, changed, addDay, clearAll, toGPX, metadata, setMetadata, addPhoto, snapshot, restore } from './itinerary.js';
 import { parseKML } from './kml.js';
 import { $, toast, askForm } from './ui.js';
-import { initDynamicLoader, clearDynamicPois } from './dynamic_loader.js';
+import { initDynamicLoader, clearDynamicPois, loadZonePoisPriority } from './dynamic_loader.js';
 
 const resources = new Map();
 const seasons = ['Primavera', 'Verano', 'Otoño', 'Invierno'];
@@ -85,29 +85,19 @@ async function switchRefuges(sourceKey) {
 
 /* ---------- Carga bajo demanda de Picos, Lagos y Cascadas ---------- */
 async function loadVisiblePois() {
-  if (!canLoadPois()) return toast('Acércate más para cargar puntos de interés (zoom 11 o superior).');
-  const bounds = poiBounds();
-  const jobs = deferredPoiUrls.map(async ({ url, kind }) => {
-    let points = poiCache.get(url);
-    if (!points) {
-      const r = await fetch(url);
-      if (!r.ok) throw new Error(`${url} (${r.status})`);
-      const kml = parseKML(await r.text(), url.split('/').pop());
-      points = kml.points.map((p, i) => ({ ...p, type: kind, key: `static:${kind}:${url}:${i}` }));
-      poiCache.set(url, points);
-    }
-    return points.filter((p) => bounds.contains([p.lat, p.lng]));
-  });
-  const results = await Promise.allSettled(jobs);
-  const points = results.filter((r) => r.status === 'fulfilled').flatMap((r) => r.value);
-  const errors = results.filter((r) => r.status === 'rejected').map((r) => r.reason.message);
-  const added = addPois(points, 'osm');
-  toast(`${added} puntos (picos, lagos, cascadas) cargados en esta zona${errors.length ? ` · ${errors.join(', ')}` : ''}`, 5000);
+  if (!canLoadPois()) return toast('Acércate más para cargar puntos de interés (zoom 12 o superior).');
+  toast('Cargando puntos de interés de la zona…', 1500);
+  try {
+    const added = await loadZonePoisPriority();
+    toast(`${added} puntos (picos, lagos, cascadas) cargados en esta zona.`, 4000);
+  } catch (err) {
+    toast(`Error al cargar puntos: ${err.message}`);
+  }
 }
 
 function updatePoiButton() {
   const button = $('#btn-load-pois');
-  if (button) button.hidden = !deferredPoiUrls.length || !canLoadPois();
+  if (button) button.hidden = !canLoadPois();
 }
 
 /* ---------- Metadatos de la Excursión ---------- */

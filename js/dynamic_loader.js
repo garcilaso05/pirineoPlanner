@@ -484,6 +484,62 @@ function clearDisplayedPois() {
 
 // ─── Funciones Públicas ────────────────────────────────────────────────────────
 
+/**
+ * Carga prioritaria manual e instantánea para el botón "Cargar Zona".
+ * Pausa todo lo demás inmediatamente y añade los POIs de la zona visible.
+ */
+export async function loadZonePoisPriority() {
+  cancelPendingWork(); // Pausa todo lo demás inmediatamente
+
+  if (!poiIndexData) {
+    try {
+      poiIndexData = await fetch('poi_index.json').then((r) => r.ok ? r.json() : null);
+    } catch {
+      return 0;
+    }
+  }
+  if (!poiIndexData) return 0;
+
+  const bounds = map.getBounds().pad(0.06);
+  const cells = getVisibleCells(0.06);
+  const toAdd = [];
+
+  for (const cell of cells) {
+    const indices = poiIndexData.cell_index[cell];
+    if (!indices) continue;
+    for (const idx of indices) {
+      const pt = poiIndexData.points[idx];
+      if (bounds.contains([pt.lat, pt.lon])) {
+        const hashKey = poiHashKey(pt.k, pt.lat, pt.lon);
+        if (!activeDynPois.has(hashKey)) {
+          toAdd.push({ pt, hashKey, cellKey: cell });
+        }
+      }
+    }
+  }
+
+  if (toAdd.length === 0) return 0;
+
+  const payload = toAdd.map(({ pt, hashKey }) => ({
+    name: pt.n,
+    lat:  pt.lat,
+    lng:  pt.lon,
+    ele:  pt.e ?? null,
+    sub:  pt.s ?? '',
+    url:  pt.u ?? null,
+    type: pt.k,
+    key:  hashKey,
+  }));
+
+  const added = addPois(payload, 'osm');
+
+  for (const item of toAdd) {
+    activeDynPois.set(item.hashKey, { type: item.pt.k, cellKey: item.cellKey });
+  }
+
+  return added;
+}
+
 export function clearDynamicPois() {
   clearDisplayedPois();
 }
@@ -492,3 +548,4 @@ export function clearDynamicRoutes() {
   cancelPendingWork();
   clearDisplayedRoutes();
 }
+

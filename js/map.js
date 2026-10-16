@@ -16,7 +16,7 @@ export const layerControl = L.control.layers(base, {
 }, { collapsed: true }).addTo(map);
 L.control.scale({ imperial: false }).addTo(map);
 
-export function canLoadPois() { return map.getZoom() >= 13; }
+export function canLoadPois() { return map.getZoom() >= 12; }
 export function poiBounds() { return map.getBounds().pad(0.25); }
 export function clearLoadedPois() {
   let count = 0;
