@@ -75,18 +75,49 @@ def cell_key(lat, lon):
     return f"{row}:{col}"
 
 def parse_coords_text(text):
-    """Parsea texto de <coordinates> en lista de (lon, lat)."""
+    """Parsea texto de <coordinates> en lista de (lon, lat).
+    Tolera "lon, lat, ele" con espacios tras las comas y saltos de línea."""
     pts = []
-    for tok in text.strip().split():
+    text = re.sub(r"\s*,\s*", ",", (text or "").strip())
+    for tok in text.split():
         parts = tok.split(",")
         if len(parts) >= 2:
             try:
                 lon, lat = float(parts[0]), float(parts[1])
-                if math.isfinite(lon) and math.isfinite(lat):
+                if math.isfinite(lon) and math.isfinite(lat) and abs(lat) <= 90 and abs(lon) <= 180:
                     pts.append((lon, lat))
             except ValueError:
                 pass
     return pts
+
+def local_name(tag):
+    return tag.split("}")[-1] if isinstance(tag, str) else ""
+
+def extract_lines(root):
+    """Líneas de un KML igual que el cliente (kml.js): LineString, LinearRing y gx:Track."""
+    lines = []
+    for elem in root.iter():
+        name = local_name(elem.tag)
+        if name in ("LineString", "LinearRing"):
+            for child in elem:
+                if local_name(child.tag) == "coordinates":
+                    pts = parse_coords_text(child.text)
+                    if len(pts) > 1:
+                        lines.append(pts)
+        elif name == "Track":
+            pts = []
+            for child in elem:
+                if local_name(child.tag) == "coord":
+                    v = (child.text or "").split()
+                    try:
+                        lon, lat = float(v[0]), float(v[1])
+                        if math.isfinite(lon) and math.isfinite(lat):
+                            pts.append((lon, lat))
+                    except (ValueError, IndexError):
+                        pass
+            if len(pts) > 1:
+                lines.append(pts)
+    return lines
 
 def bbox_of_pts(pts):
     """Devuelve (min_lat, min_lon, max_lat, max_lon)."""
@@ -158,15 +189,8 @@ def index_routes():
                         break
                 break
 
-        # Recopilar líneas individuales (LineString)
-        lines = []
-        for elem in root.iter():
-            tag = elem.tag
-            if tag.endswith("}coordinates") or tag == "coordinates":
-                text = (elem.text or "").strip()
-                pts = parse_coords_text(text)
-                if len(pts) > 1:
-                    lines.append(pts)
+        # Recopilar líneas individuales (LineString / LinearRing / gx:Track)
+        lines = extract_lines(root)
 
         if not lines:
             skipped += 1

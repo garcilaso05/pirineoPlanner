@@ -1,6 +1,7 @@
 import { BASE_LAYERS, WMT, TYPES, DAY_COLORS, ROUTE_COLORS, REFUGE_COLORS } from './config.js';
 import { state, hooks, addItem, setOrigin, dayIndex, km } from './itinerary.js';
 import { el, toast, askForm, $ } from './ui.js';
+import { simplify, projectOnLine, sliceLine } from './geo.js';
 
 // Un único renderer canvas (con tolerancia de clic) para que todas las capas vectoriales reciban eventos
 const PYRENEES = L.latLngBounds([41.0, -5.5], [43.95, 7.6]);
@@ -22,7 +23,10 @@ export function clearLoadedPois() {
   let count = 0;
   ['peak', 'lake', 'waterfall'].forEach((type) => G[type].getLayers().slice().forEach((marker) => {
     const point = [...poiIndex.values()].find((p) => p.marker === marker);
-    if (point?.src !== 'custom') { G[type].removeLayer(marker); poiIndex.delete(point.key); count++; }
+    if (point?.src === 'custom') return;
+    G[type].removeLayer(marker);
+    if (point) poiIndex.delete(point.key);
+    count++;
   }));
   return count;
 }
@@ -74,7 +78,7 @@ const HINTS = {
   newpeak: 'Haz clic en el mapa para crear un pico nuevo. Esc para cancelar.',
   newlake: 'Haz clic en el mapa para crear un lago nuevo. Esc para cancelar.',
   newwaterfall: 'Haz clic en el mapa para crear una cascada nueva. Esc para cancelar.',
-  fragment: 'Haz clic en un camino: 1.º el inicio y 2.º el final del fragmento. Esc para salir.',
+  fragment: 'Haz clic cerca de un camino: 1.º el inicio y 2.º el final del fragmento. Esc cancela el inicio / sale.',
   newroute: 'Haz clic para añadir vértices. Pulsa «Terminar camino» cuando acabes.',
 };
 export function setMode(m) {
@@ -156,32 +160,18 @@ export function addRefuges(points) {
 /* ---------- Caminos y selección de fragmentos ---------- */
 let routeCount = 0;
 const drawnRoutes = [];
-function simplify(points, tolerance = 0.00012) {
-  if (points.length < 3) return points;
-  const keep = new Uint8Array(points.length); keep[0] = 1; keep[points.length - 1] = 1;
-  const sq = (p, a, b) => {
-    const x = b[1] - a[1], y = b[0] - a[0];
-    if (!x && !y) return (p[0] - a[0]) ** 2 + (p[1] - a[1]) ** 2;
-    const t = Math.max(0, Math.min(1, ((p[1] - a[1]) * x + (p[0] - a[0]) * y) / (x * x + y * y)));
-    return (p[0] - (a[0] + t * y)) ** 2 + (p[1] - (a[1] + t * x)) ** 2;
-  };
-  const visit = (first, last) => {
-    let best = tolerance * tolerance, index = -1;
-    for (let i = first + 1; i < last; i++) { const distance = sq(points[i], points[first], points[last]); if (distance > best) { best = distance; index = i; } }
-    if (index >= 0) { keep[index] = 1; visit(first, index); visit(index, last); }
-  };
-  visit(0, points.length - 1);
-  return points.filter((_, i) => keep[i]);
-}
 export function addRoute({ title, segments, drawn = false }) {
   const route = { title, color: ROUTE_COLORS[routeCount++ % ROUTE_COLORS.length], segments, drawn };
   if (drawn) drawnRoutes.push({ title, segments: segments.map((segment) => ({ name: segment.name, pts: segment.pts })) });
   for (const seg of segments) {
+    if (!seg.pts || seg.pts.length < 2) continue;
     seg.km = km([seg.pts]);
+    // seg.pts conserva TODAS las coordenadas (se usan para recortar); solo se dibuja la versión simplificada
     const line = L.polyline(simplify(seg.pts), { color: route.color, weight: 4, opacity: 0.85, smoothFactor: 1.5 });
     line.on('mouseover', () => line.setStyle({ weight: 7 })).on('mouseout', () => line.setStyle({ weight: 4 }));
     line.on('click', (ev) => onTrackClick(route, seg, ev));
     G.routes.addLayer(line);
+    registerSegment(route, seg, line);
   }
 }
 export function customRoutes() { return drawnRoutes.map((route) => ({ title: route.title, segments: route.segments })); }
@@ -196,12 +186,6 @@ export async function finishDrawRoute() {
   setMode('none');
   toast(`«${result.name.trim()}» guardado. Ya puedes añadirlo a un día.`);
 }
-function nearest(pts, ll) {
-  const k = Math.cos(ll.lat * Math.PI / 180);
-  let bi = 0, bd = Infinity;
-  pts.forEach((p, i) => { const d = (p[0] - ll.lat) ** 2 + ((p[1] - ll.lng) * k) ** 2; if (d < bd) { bd = d; bi = i; } });
-  return bi;
-}
 function trackPopup(route, seg) {
   const all = route.segments.map((s) => s.pts);
   return el('div', { class: 'pop' },
@@ -213,25 +197,79 @@ function trackPopup(route, seg) {
       el('button', { onclick: () => { addItem({ type: 'track', name: `${route.title} (ruta completa)`, lat: all[0][0][0], lng: all[0][0][1], lines: all }); map.closePopup(); } }, `Ruta entera (${route.segments.length} tramos)`)));
 }
 export function onTrackClick(route, seg, ev) {
-  if (mode.cur === 'fragment') {
-    const i = nearest(seg.pts, ev.latlng);
-    if (!mode.frag || mode.frag.seg !== seg) {
-      mode.frag = { seg, i };
-      G.draft.clearLayers();
-      L.circleMarker(seg.pts[i], { radius: 8, color: '#fff', weight: 3, fillColor: '#16a34a', fillOpacity: 1, interactive: false }).addTo(G.draft);
-      toast('Inicio fijado. Ahora haz clic en el punto final (mismo tramo).');
-    } else {
-      const a = mode.frag.i;
-      if (a === i) return toast('Elige un punto final distinto del inicio.');
-      const pts = seg.pts.slice(Math.min(a, i), Math.max(a, i) + 1);
-      if (i < a) pts.reverse(); // respeta el sentido de marcha elegido
-      mode.frag = null; G.draft.clearLayers();
-      addItem({ type: 'track', name: `${route.title} · ${seg.name} (fragmento)`, lat: pts[0][0], lng: pts[0][1], lines: [pts] });
-    }
-  } else if (mode.cur === 'none') {
-    L.popup().setLatLng(ev.latlng).setContent(trackPopup(route, seg)).openOn(map);
-  }
+  // En modo fragmento el clic lo gestiona el handler del mapa (fragmentClick), que es más tolerante
+  if (mode.cur === 'none') L.popup().setLatLng(ev.latlng).setContent(trackPopup(route, seg)).openOn(map);
 }
+
+/* ---------- Herramienta de fragmentos (tijeras) ---------- */
+// Registro de todos los tramos visibles (estáticos y dinámicos) para elegir el más cercano al clic
+// sobre la geometría COMPLETA, sin depender de la polilínea simplificada ni del hit-test del canvas.
+const segRegistry = new Map();
+export function registerSegment(route, seg, layer) {
+  let a = Infinity, b = Infinity, c = -Infinity, d = -Infinity;
+  for (const p of seg.pts) {
+    if (p[0] < a) a = p[0]; if (p[0] > c) c = p[0];
+    if (p[1] < b) b = p[1]; if (p[1] > d) d = p[1];
+  }
+  segRegistry.set(seg, { route, seg, layer, bbox: [a, b, c, d] });
+}
+export function unregisterSegment(seg) { segRegistry.delete(seg); }
+
+const metersPerPixel = (lat) => 156543.03392 * Math.cos(lat * Math.PI / 180) / 2 ** map.getZoom();
+const PICK_PX = 18;
+
+function pickSegment(ll, prefer) {
+  const tol = PICK_PX * metersPerPixel(ll.lat);
+  const k = Math.cos(ll.lat * Math.PI / 180);
+  const dLat = tol / 111320, dLng = tol / (111320 * k);
+  let best = null;
+  for (const e of segRegistry.values()) {
+    const [a, b, c, d] = e.bbox;
+    if (ll.lat < a - dLat || ll.lat > c + dLat || ll.lng < b - dLng || ll.lng > d + dLng) continue;
+    if (!map.hasLayer(e.layer)) continue;
+    const pr = projectOnLine(e.seg.pts, ll);
+    if (!pr || pr.d > tol) continue;
+    if (e.seg === prefer) return { e, pr }; // continuar sobre el tramo ya iniciado
+    if (!best || pr.d < best.pr.d) best = { e, pr };
+  }
+  return best;
+}
+
+function startFragment(route, seg, pr) {
+  G.draft.clearLayers();
+  L.circleMarker(pr.point, { radius: 8, color: '#fff', weight: 3, fillColor: '#16a34a', fillOpacity: 1, interactive: false }).addTo(G.draft);
+  const preview = L.polyline([pr.point], { color: '#16a34a', weight: 6, opacity: 0.9, dashArray: '2 8', interactive: false }).addTo(G.draft);
+  mode.frag = { route, seg, a: pr, preview };
+}
+
+function fragmentClick(ll) {
+  const f = mode.frag;
+  const hit = pickSegment(ll, f?.seg);
+  if (!hit) return toast('No hay ningún camino cerca de ese punto. Haz clic sobre el trazado.');
+  const { e, pr } = hit;
+  if (!f || f.seg !== e.seg) {
+    toast(f ? 'Ese punto pertenece a otro tramo: se ha fijado un nuevo inicio ahí.' : 'Inicio fijado. Ahora haz clic en el punto final (mismo tramo).');
+    return startFragment(e.route, e.seg, pr);
+  }
+  const pts = sliceLine(e.seg.pts, f.a, pr); // geometría completa, no simplificada
+  if (pts.length < 2 || km([pts]) < 0.003) return toast('Elige un punto final distinto del inicio.');
+  mode.frag = null; G.draft.clearLayers();
+  addItem({ type: 'track', name: `${e.route.title} · ${e.seg.name} (fragmento)`, lat: pts[0][0], lng: pts[0][1], lines: [pts] });
+}
+
+// Vista previa del fragmento mientras se mueve el ratón
+let previewRaf = 0;
+map.on('mousemove', (ev) => {
+  const f = mode.frag;
+  if (mode.cur !== 'fragment' || !f || previewRaf) return;
+  previewRaf = requestAnimationFrame(() => {
+    previewRaf = 0;
+    if (mode.frag !== f) return;
+    const pr = projectOnLine(f.seg.pts, ev.latlng);
+    const near = pr && pr.d <= 60 * metersPerPixel(ev.latlng.lat);
+    f.preview.setLatLngs(near ? sliceLine(f.seg.pts, f.a, pr) : [f.a.point]);
+  });
+});
 
 /* ---------- Picos y lagos (API + personalizados) ---------- */
 const poiIndex = new Map();
@@ -277,6 +315,7 @@ export function loadCustom() {
 }
 map.on('click', async (e) => {
   const m = mode.cur;
+  if (m === 'fragment') return fragmentClick(e.latlng);
   if (m === 'newroute') {
     mode.draw.push(e.latlng);
     G.draft.clearLayers();

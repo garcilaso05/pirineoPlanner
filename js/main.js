@@ -271,6 +271,7 @@ $('#toggle-panel').onclick = () => {
 
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
+    if (mode.cur === 'fragment' && mode.frag) return setMode('fragment'); // solo cancela el inicio
     setMode('none');
     $('#btn-finish-route').hidden = true;
   }

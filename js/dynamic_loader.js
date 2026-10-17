@@ -15,7 +15,7 @@
  *  - Prioridad al usuario: el movimiento del mapa es prioritario e interrumpe tareas en curso.
  */
 
-import { map, G, addPois, removePoiByKey, onTrackClick } from './map.js';
+import { map, G, mode, addPois, removePoiByKey, onTrackClick, registerSegment, unregisterSegment } from './map.js';
 import { parseKML } from './kml.js';
 
 // ─── Configuración ─────────────────────────────────────────────────────────────
@@ -57,6 +57,10 @@ let poiIndexData = null; // poi_index.json (1.38 MB filtrado)
 // Rutas activas en pantalla: file -> { layers: Polyline[], entry }
 const activeRouteLayers = new Map();
 const routeKmlCache     = new Map(); // file -> KML parseado en memoria
+// file -> { title, file, segments[] } ESTABLE: los objetos de tramo se crean una sola vez por archivo,
+// así la herramienta de fragmentos mantiene la identidad del tramo aunque la ruta se descargue y vuelva a pintar
+const routeObjCache     = new Map();
+const entryByFile       = new Map();
 let fetchQueue          = [];        // cola de descargas pendientes
 let activeFetches       = 0;
 const inFlight          = new Set();
@@ -117,6 +121,7 @@ export async function initDynamicLoader(layerControl) {
     ]);
     routeIndex   = ri;
     poiIndexData = pi;
+    if (ri) ri.entries.forEach((e) => entryByFile.set(e.file, e));
     console.log(`[DynLoader] Índices cargados: ${ri ? ri.entries.length : 0} rutas, ${pi ? pi.points.length : 0} POIs`);
   } catch (err) {
     console.warn('[DynLoader] Error al cargar índices:', err);
@@ -206,9 +211,12 @@ function refreshRoutes(gen) {
   const zoom = map.getZoom();
   const cats = getActiveCategories(zoom);
 
-  // Si estamos en zoom <= 7, limpiar de inmediato cualquier ruta dinámica
+  // Ruta fijada mientras hay un fragmento a medias: nunca se descarga hasta terminar o cancelar
+  const pinnedFile = mode.cur === 'fragment' ? mode.frag?.route?.file : null;
+
+  // Si estamos en zoom <= 7, limpiar de inmediato cualquier ruta dinámica (salvo la fijada)
   if (cats.length === 0) {
-    clearDisplayedRoutes();
+    clearDisplayedRoutes(pinnedFile);
     return;
   }
 
@@ -234,13 +242,13 @@ function refreshRoutes(gen) {
     }
   }
 
+  if (pinnedFile && !candidateMap.has(pinnedFile) && entryByFile.has(pinnedFile)) {
+    candidateMap.set(pinnedFile, entryByFile.get(pinnedFile));
+  }
+
   // 2. DESCARGA INMEDIATA: Quitar del mapa cualquier camino que ya NO esté en el encuadre
-  // (cuando el usuario amplía o se desplaza a otra zona, los caminos lejanos se descargan de inmediato)
-  for (const [file, data] of activeRouteLayers.entries()) {
-    if (!candidateMap.has(file)) {
-      for (const l of data.layers) dynRoutesLayer.removeLayer(l);
-      activeRouteLayers.delete(file);
-    }
+  for (const file of [...activeRouteLayers.keys()]) {
+    if (file !== pinnedFile && !candidateMap.has(file)) removeRoute(file);
   }
 
   // 3. PRESUPUESTO CONTROLADO: Priorizar las rutas más destacadas según el zoom
@@ -250,16 +258,16 @@ function refreshRoutes(gen) {
     const catWeight = { xl: 0, l: 1, m: 2, s: 3 };
     candidates.sort((a, b) => (catWeight[a.cat] - catWeight[b.cat]) || (b.km - a.km));
     candidates = candidates.slice(0, budget);
+    if (pinnedFile && !candidates.some((c) => c.file === pinnedFile) && candidateMap.has(pinnedFile)) {
+      candidates.push(candidateMap.get(pinnedFile));
+    }
   }
 
   const allowedFiles = new Set(candidates.map((e) => e.file));
 
   // Retirar del mapa las que excedan el presupuesto
-  for (const [file, data] of activeRouteLayers.entries()) {
-    if (!allowedFiles.has(file)) {
-      for (const l of data.layers) dynRoutesLayer.removeLayer(l);
-      activeRouteLayers.delete(file);
-    }
+  for (const file of [...activeRouteLayers.keys()]) {
+    if (!allowedFiles.has(file)) removeRoute(file);
   }
 
   // 4. RENDERIZADO FIEL: Renderizar las rutas deseadas
@@ -310,6 +318,7 @@ async function fetchAndLoadRoute(entry, gen) {
     const text = await r.text();
     const kml = parseKML(text, entry.file.split('/').pop());
     routeKmlCache.set(entry.file, kml);
+    trimCaches();
 
     if (gen !== renderGeneration || isInteracting || !dynamicRoutesEnabled) return;
 
@@ -327,54 +336,73 @@ async function fetchAndLoadRoute(entry, gen) {
  * Renderiza la ruta en Leaflet con TODOS sus puntos y tramos originales del KML.
  * Cada LineString es un segmento independiente, evitando unir tramos desconectados.
  */
+function getRouteObj(entry, kml) {
+  let r = routeObjCache.get(entry.file);
+  if (!r) {
+    r = {
+      title: entry.title,
+      file: entry.file,
+      segments: kml.lines.map((l, i) => ({
+        name: l.name || `Tramo ${i + 1}`,
+        pts:  l.pts, // TODOS los puntos reales del KML (también para recortar fragmentos)
+        km:   calcLineKm(l.pts),
+      })),
+    };
+    routeObjCache.set(entry.file, r);
+  }
+  return r;
+}
+
 function renderKmlRoute(entry, kml) {
   if (activeRouteLayers.has(entry.file)) return;
 
-  const segments = kml.lines.map((l, i) => ({
-    name: l.name || `Tramo ${i + 1}`,
-    pts:  l.pts, // TODOS los puntos reales del KML
-    km:   calcLineKm(l.pts),
-  }));
-  if (segments.length === 0) return;
+  const routeObj = getRouteObj(entry, kml);
+  if (routeObj.segments.length === 0) return;
 
   const color = routeColor(entry.cat);
   const weight = routeWeight(entry.cat);
   const layers = [];
+  const segs = [];
+  const catLabel = { xl: 'GR / Travesía', l: 'Ruta larga', m: 'Ruta media', s: 'Ruta corta' }[entry.cat] || '';
 
-  const routeObj = {
-    title: entry.title,
-    segments,
-  };
-
-  for (const seg of segments) {
+  for (const seg of routeObj.segments) {
     if (seg.pts.length < 2) continue;
 
-    // smoothFactor: 1.5 permite a Leaflet acelerar el renderizado en canvas
-    // manteniendo la fidelidad y forma exacta de todas las curvas del camino
-    const poly = L.polyline(seg.pts, {
-      color,
-      weight,
-      opacity: 0.82,
-      smoothFactor: 1.5,
-    });
-
-    const catLabel = { xl: 'GR / Travesía', l: 'Ruta larga', m: 'Ruta media', s: 'Ruta corta' }[entry.cat] || '';
+    // smoothFactor solo acelera el dibujado; seg.pts sigue intacto
+    const poly = L.polyline(seg.pts, { color, weight, opacity: 0.82, smoothFactor: 1.5 });
     poly.bindTooltip(`<b>${entry.title}</b><br>${seg.name} · ${seg.km.toFixed(1)} km · <em>${catLabel}</em>`, {
       sticky: true,
       direction: 'top',
     });
-
-    // Clic en la polilínea: compatible con popup y recorte de fragmentos
+    // Popup en modo normal; en modo fragmento el clic lo resuelve el mapa (registerSegment)
     poly.on('click', (ev) => onTrackClick(routeObj, seg, ev));
 
     dynRoutesLayer.addLayer(poly);
+    registerSegment(routeObj, seg, poly);
     layers.push(poly);
+    segs.push(seg);
   }
 
-  activeRouteLayers.set(entry.file, {
-    layers,
-    entry,
-  });
+  activeRouteLayers.set(entry.file, { layers, segs, entry });
+}
+
+function removeRoute(file) {
+  const data = activeRouteLayers.get(file);
+  if (!data) return;
+  for (const l of data.layers) dynRoutesLayer.removeLayer(l);
+  for (const sg of data.segs) unregisterSegment(sg);
+  activeRouteLayers.delete(file);
+}
+
+function trimCaches(max = 120) {
+  if (routeKmlCache.size <= max) return;
+  const pinned = mode.frag?.route?.file;
+  for (const f of routeKmlCache.keys()) {
+    if (routeKmlCache.size <= max) break;
+    if (activeRouteLayers.has(f) || f === pinned) continue;
+    routeKmlCache.delete(f);
+    routeObjCache.delete(f);
+  }
 }
 
 function calcLineKm(pts) {
@@ -398,9 +426,10 @@ function routeWeight(cat) {
   return { xl: 3.5, l: 3.0, m: 2.5, s: 2.2 }[cat] || 2.5;
 }
 
-function clearDisplayedRoutes() {
-  dynRoutesLayer.clearLayers();
-  activeRouteLayers.clear();
+function clearDisplayedRoutes(keepFile = null) {
+  for (const file of [...activeRouteLayers.keys()]) {
+    if (file !== keepFile) removeRoute(file);
+  }
   fetchQueue = [];
 }
 
