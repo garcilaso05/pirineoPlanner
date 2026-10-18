@@ -3,108 +3,170 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Planificador de excursiones de montaña · Pirineos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1f3d33">
+  <title>PirineoPlanner · Planificador de excursiones de montaña</title>
+  <link rel="preconnect" href="https://tile.openstreetmap.org" crossorigin>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header id="win-toolbar" class="win-toolbar" aria-label="Barra de herramientas superior">
-    <div class="tb-brand" title="Planificador de excursiones por los Pirineos">
-      <span class="tb-logo">⛰️</span>
-      <span class="tb-title">PirineoPlanner</span>
-    </div>
-    <div class="tb-sep"></div>
+  <!-- Iconos: un único sprite, todos del mismo trazo -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1.2"/><circle cx="4.5" cy="12" r="1.2"/><circle cx="4.5" cy="18" r="1.2"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></symbol>
+      <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 4h12l-2.5 4.2L17 12H5"/></symbol>
+      <symbol id="i-scissors" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.6"/><circle cx="6" cy="18" r="2.6"/><path d="m8 7.8 12 10.2M8 16.2 20 6"/></symbol>
+      <symbol id="i-pinplus" viewBox="0 0 24 24"><path d="M12 21s-6-5.6-6-10.2a6 6 0 0 1 12 0C18 15.400 12 21 12 21z"/><path d="M12 8v6M9 11h6"/></symbol>
+      <symbol id="i-peak" viewBox="0 0 24 24"><path d="m3 19 6.500-12 4 7 2.500-3.500L21 19z"/></symbol>
+      <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 3s6 6.200 6 10.500a6 6 0 0 1-12 0C6 9.200 12 3 12 3z"/></symbol>
+      <symbol id="i-falls" viewBox="0 0 24 24"><path d="M4 4h16"/><path d="M8 4v9M12 4v11M16 4v9"/><path d="M4 19c1.600-1.500 2.800-1.500 4.400 0s2.800 1.500 4.400 0 2.800-1.500 4.400 0 2.200 1.200 2.800 0"/></symbol>
+      <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="8"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></symbol>
+      <symbol id="i-sweep" viewBox="0 0 24 24"><path d="M5 20 13 12"/><path d="m13.500 4.500 6 6-3 3-6-6z"/><path d="M4 14l3 3"/></symbol>
+      <symbol id="i-doc" viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></symbol>
+      <symbol id="i-export" viewBox="0 0 24 24"><path d="M12 15V3m0 0L8 7m4-4 4 4"/><path d="M5 12v8h14v-8"/></symbol>
+      <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v1H3z"/><path d="M3 10h19l-2 7.500a2 2 0 0 1-1.900 1.500H5a2 2 0 0 1-2-2z"/></symbol>
+      <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
+      <symbol id="i-eyeoff" viewBox="0 0 24 24"><path d="M3 3l18 18"/><path d="M10.600 6.200A10 10 0 0 1 12 6c6 0 10 6 10 6a17 17 0 0 1-3 3.600M6.500 7.500C3.700 9.300 2 12 2 12s4 7 10 7c1.600 0 3-.4 4.300-1"/></symbol>
+      <symbol id="i-more" viewBox="0 0 24 24"><g fill="currentColor" stroke="none"><circle cx="5" cy="12" r="1.700"/><circle cx="12" cy="12" r="1.700"/><circle cx="19" cy="12" r="1.700"/></g></symbol>
+      <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></symbol>
+      <symbol id="i-locate" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="7.500"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></symbol>
+      <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="1.600"/><path d="m4 18 5-5 4 4 3-3 4 4"/></symbol>
+      <symbol id="i-vector" viewBox="0 0 24 24"><path d="M5.500 17C6 9 11 5.500 18 6"/><rect x="2.500" y="16" width="4" height="4" rx=".6"/><rect x="17.500" y="4" width="4" height="4" rx=".6"/></symbol>
+      <symbol id="i-send" viewBox="0 0 24 24"><circle cx="6" cy="12" r="2.400"/><circle cx="18" cy="6" r="2.400"/><circle cx="18" cy="18" r="2.400"/><path d="m8.100 11 7.800-4M8.100 13l7.800 4"/></symbol>
+      <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 14a4 4 0 0 0 5.700 0l3-3a4 4 0 0 0-5.700-5.700l-1 1"/><path d="M14 10a4 4 0 0 0-5.700 0l-3 3A4 4 0 0 0 11 18.700l1-1"/></symbol>
+      <symbol id="i-map" viewBox="0 0 24 24"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></symbol>
+      <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2"/><circle cx="18" cy="6" r="2"/><path d="M8 18h7a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6h7"/></symbol>
+      <symbol id="i-box" viewBox="0 0 24 24"><path d="m3 8 9-5 9 5v8l-9 5-9-5z"/><path d="m3 8 9 5 9-5M12 13v8"/></symbol>
+      <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 3 5 13h6l-1 8 8-10h-6z"/></symbol>
+      <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.500 4.500 4.500L19 7"/></symbol>
+      <symbol id="i-undo" viewBox="0 0 24 24"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 0 12h-3"/></symbol>
+      <symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.500"/></symbol>
+      <symbol id="i-pencil" viewBox="0 0 24 24"><path d="m4 20 1-5L16 4l4 4L9 19z"/></symbol>
+      <symbol id="i-grip" viewBox="0 0 24 24"><g fill="currentColor" stroke="none"><circle cx="9" cy="6" r="1.500"/><circle cx="15" cy="6" r="1.500"/><circle cx="9" cy="12" r="1.500"/><circle cx="15" cy="12" r="1.500"/><circle cx="9" cy="18" r="1.500"/><circle cx="15" cy="18" r="1.500"/></g></symbol>
+      <symbol id="i-chevdown" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    </defs>
+  </svg>
 
-    <div class="tb-group" aria-label="Herramientas de trazado">
-      <button data-mode="origin" class="tb-btn" title="Fijar punto de origen en el mapa">🚩 Marcar Origen</button>
-      <button data-mode="fragment" class="tb-btn" title="Elegir fragmento de un camino KML">✂️ Fragmentos</button>
-      <button data-mode="newroute" class="tb-btn" title="Dibujar un camino propio haciendo clics">〰 Dibujar
-        Camino</button>
-      <button id="btn-finish-route" class="tb-btn tb-btn-success" hidden title="Finalizar el dibujo del camino">✓
-        Terminar camino</button>
-    </div>
-    <div class="tb-sep"></div>
+  <div id="app">
+    <header id="topbar">
+      <a class="brand" href="./" aria-label="PirineoPlanner">
+        <svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><circle cx="24" cy="8.500" r="3.200" fill="#f0a47f"/><path d="M2 27 12 8l5.500 9 3.500-5L30 27z" fill="#eef0e4"/><path d="m12 8-3.300 6.200 2.300 1.600 2-1.400 1.800 2.300L17.500 17z" fill="#9fb8a8"/><path d="M2 27h28" stroke="#f0a47f" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="brand-name">Pirineo<em>Planner</em></span>
+      </a>
 
-    <div class="tb-group" aria-label="Crear puntos de interés">
-      <button data-mode="newpeak" class="tb-btn" title="Crear un nuevo pico en el mapa">▲ Crear Pico</button>
-      <button data-mode="newlake" class="tb-btn" title="Crear un nuevo lago en el mapa">💧 Crear Lago</button>
-    </div>
-    <div class="tb-sep"></div>
+      <form id="search-form" class="search" role="search" autocomplete="off">
+        <svg class="i"><use href="#i-search"/></svg>
+        <input id="place-search" type="search" placeholder="Buscar pueblo, valle, refugio…" aria-label="Buscar lugar" enterkeyhint="search">
+        <div id="search-results" hidden></div>
+      </form>
 
-    <div class="tb-group tb-refuge-group" title="Alternar fuente de refugios (no se mezclan)">
-      <span class="tb-label">Refugios:</span>
-      <div class="segmented-control" role="group" aria-label="Fuente de refugios">
-        <button type="button" id="btn-refuge-pyrenees" class="seg-btn active" data-src="pyrenees"
-          title="Fuente de pyrenees.kml (fiable con enlaces)">Pyrenees</button>
-        <button type="button" id="btn-refuge-pirineos" class="seg-btn" data-src="pirineos"
-          title="Fuente de refugios_pirineo.kml (+ cobertura)">+ Pirineos</button>
-      </div>
-    </div>
-    <div class="tb-sep"></div>
+      <nav id="toolbar" aria-label="Herramientas">
+        <button id="btn-panel" class="tb" data-tip="Itinerario — ver y ordenar los días" aria-label="Itinerario"><svg class="i"><use href="#i-list"/></svg><span class="lbl">Días</span></button>
+        <div class="grp">
+          <button class="tb" data-mode="origin" data-tip="Origen — marcar el punto de partida" aria-label="Origen"><svg class="i"><use href="#i-flag"/></svg><span class="lbl">Origen</span></button>
+          <button class="tb" data-mode="fragment" data-tip="Tijeras — cortar un fragmento de un camino" aria-label="Tijeras"><svg class="i"><use href="#i-scissors"/></svg><span class="lbl">Tijeras</span></button>
+          <button class="tb" id="btn-create" data-menu="menu-create" data-tip="Crear — un pico, lago o cascada nuevo" aria-label="Crear"><svg class="i"><use href="#i-pinplus"/></svg><span class="lbl">Crear</span></button>
+        </div>
+        <div class="grp">
+          <button class="tb" id="btn-load-pois" data-tip="Cargar zona — picos, lagos y cascadas de lo que ves" aria-label="Cargar zona"><svg class="i"><use href="#i-target"/></svg><span class="lbl">Zona</span></button>
+          <button class="tb hide-mobile" id="btn-clear-pois" data-tip="Limpiar — quitar picos, lagos y cascadas del mapa" aria-label="Limpiar puntos"><svg class="i"><use href="#i-sweep"/></svg></button>
+        </div>
+        <div class="grp grp-end">
+          <button class="tb hide-mobile" id="btn-meta" data-tip="Datos — nombre, desnivel, tiempo y notas" aria-label="Datos de la excursión"><svg class="i"><use href="#i-doc"/></svg></button>
+          <button class="tb" id="btn-export" data-menu="menu-export" data-tip="Exportar y compartir — imagen, enlace, GPX…" aria-label="Exportar y compartir"><svg class="i"><use href="#i-export"/></svg><span class="lbl">Exportar</span></button>
+          <button class="tb accent hide-mobile" id="btn-viewer" data-tip="Visualizar — modo presentación" aria-label="Visualizar"><svg class="i"><use href="#i-eye"/></svg></button>
+          <button class="tb" id="btn-more" data-menu="menu-more" data-tip="Más opciones" aria-label="Más opciones"><svg class="i"><use href="#i-more"/></svg><span class="lbl">Más</span></button>
+        </div>
+      </nav>
+    </header>
 
-    <div class="tb-group" aria-label="Puntos de la zona y búsqueda">
-      <button id="btn-load-pois" class="tb-btn" hidden title="Cargar picos, lagos y cascadas en la zona visible">🏔️
-        Cargar zona</button>
-      <button id="btn-clear-pois" class="tb-btn ghost" title="Limpiar los puntos cargados">🧹 Limpiar</button>
-      <div class="tb-search">
-        <input id="place-search" placeholder="Buscar lugar o pueblo…" aria-label="Buscar ciudad o lugar">
-        <button id="btn-place-search" title="Buscar lugar">⌕</button>
-      </div>
-    </div>
-    <div class="tb-sep"></div>
-
-    <div class="tb-group tb-group-right" aria-label="Acciones del itinerario">
-      <button id="btn-import" class="tb-btn" title="Importar caminos KML descargados">📂 KML</button>
-      <button id="btn-meta" class="tb-btn" title="Editar datos y descripción de la excursión">📝 Datos</button>
-      <button id="btn-package" class="tb-btn" title="Exportar excursión completa con fotos en archivo ZIP">📦
-        Exportar</button>
-      <button id="btn-open-package" class="tb-btn" title="Abrir excursión guardada (ZIP o JSON)">📂 Abrir</button>
-      <button id="btn-viewer" class="tb-btn tb-btn-primary" title="Visualizar excursión en modo presentación">👁
-        Visualizar</button>
-      <button id="btn-gpx" class="tb-btn" title="Exportar itinerario en formato GPX para GPS">⬇ GPX</button>
-      <button id="btn-clear" class="tb-btn danger" title="Vaciar todo el itinerario">Vaciar</button>
-    </div>
-  </header>
-
-  <div id="app-body">
-    <aside id="panel">
+    <aside id="panel" aria-label="Itinerario">
       <header class="panel-header">
+        <div class="sheet-grip" aria-hidden="true"></div>
+        <button id="panel-close" class="icon panel-x" aria-label="Cerrar itinerario"><svg class="i"><use href="#i-x"/></svg></button>
         <h1 id="panel-title">Excursión por el Pirineo</h1>
-        <p id="stats">0 días · 0.0 km de camino · 0 elementos</p>
-        <button id="add-day" class="add-day-btn">＋ Añadir día</button>
+        <p id="stats">1 día · 0.0 km · 0 elementos</p>
+        <button id="add-day" class="add-day-btn"><svg class="i"><use href="#i-plus"/></svg> Añadir día</button>
       </header>
-      <div class="scroll">
-        <div id="days"></div>
-      </div>
+      <div class="scroll"><div id="days"></div></div>
     </aside>
 
-    <div id="map-container">
+    <main id="map-container">
       <div id="map"></div>
-      <div id="hint" hidden></div>
-      <div id="viewer-bar" hidden>
-        <div class="vb-details">
-          <h2 id="vb-title">Excursión por el Pirineo</h2>
-          <p id="vb-stats"></p>
-        </div>
-        <button id="viewer-toggle" class="primary">✕ Salir del visualizador</button>
+
+      <div class="map-ctl">
+        <button id="btn-layers" class="mc" data-tip="Capas — mapa base, refugios y leyenda" aria-label="Capas del mapa" aria-expanded="false"><svg class="i"><use href="#i-layers"/></svg></button>
+        <button id="btn-locate" class="mc" data-tip="Mi ubicación" aria-label="Mi ubicación"><svg class="i"><use href="#i-locate"/></svg></button>
+        <button id="btn-hide-ui" class="mc" data-tip="Ocultar menús y ver solo el mapa" aria-label="Ocultar o mostrar menús"><svg class="i i-hide"><use href="#i-eyeoff"/></svg><svg class="i i-show"><use href="#i-eye"/></svg></button>
       </div>
-      <button id="toggle-panel" aria-label="Mostrar u ocultar panel">☰</button>
-      <div id="toast" role="status"></div>
-    </div>
+
+      <section id="layers-panel" hidden aria-label="Capas del mapa">
+        <h3>Leyenda y capas</h3>
+        <div id="layers-body"></div>
+      </section>
+
+      <div id="hint" hidden></div>
+
+      <div id="frag-bar" role="group" aria-label="Confirmar fragmento">
+        <span class="fb-len"><svg class="i"><use href="#i-scissors"/></svg><b id="frag-info">0 km</b></span>
+        <button id="frag-undo" class="fb-btn" aria-label="Elegir otro inicio" title="Elegir otro inicio"><svg class="i"><use href="#i-undo"/></svg></button>
+        <button id="frag-cancel" class="fb-btn" aria-label="Cancelar" title="Cancelar"><svg class="i"><use href="#i-x"/></svg></button>
+        <button id="frag-ok" class="fb-ok"><svg class="i"><use href="#i-check"/></svg> Añadir</button>
+      </div>
+
+      <div id="viewer-bar" hidden>
+        <div class="vb-details"><h2 id="vb-title">Excursión por el Pirineo</h2><p id="vb-stats"></p></div>
+        <button id="viewer-save" class="vb-btn" hidden>Guardar copia</button>
+        <button id="viewer-toggle" class="vb-btn primary">Salir</button>
+      </div>
+      <div id="toast" role="status" aria-live="polite"></div>
+    </main>
   </div>
 
-  <input id="file" type="file" accept=".kml" multiple hidden>
+  <!-- Menús desplegables -->
+  <div id="menu-create" class="menu" role="menu" hidden>
+    <button class="menu-item" data-mode="newpeak" role="menuitem"><svg class="i"><use href="#i-peak"/></svg><span><b>Pico</b><small>Marca un pico nuevo en el mapa</small></span></button>
+    <button class="menu-item" data-mode="newlake" role="menuitem"><svg class="i"><use href="#i-drop"/></svg><span><b>Lago</b><small>Marca un lago nuevo en el mapa</small></span></button>
+    <button class="menu-item" data-mode="newwaterfall" role="menuitem"><svg class="i"><use href="#i-falls"/></svg><span><b>Cascada</b><small>Marca una cascada nueva en el mapa</small></span></button>
+  </div>
+
+  <div id="menu-export" class="menu" role="menu" hidden>
+    <div class="menu-h">Imagen · para enviar por WhatsApp</div>
+    <button class="menu-item" data-act="img-share" role="menuitem"><svg class="i"><use href="#i-send"/></svg><span><b>Compartir imagen…</b><small>Abre WhatsApp, Telegram, Mensajes…</small></span></button>
+    <button class="menu-item" data-act="img-jpg" role="menuitem"><svg class="i"><use href="#i-image"/></svg><span><b>Guardar como JPG</b><small>Mapa de fondo + recorrido</small></span></button>
+    <button class="menu-item" data-act="img-svg" role="menuitem"><svg class="i"><use href="#i-vector"/></svg><span><b>Guardar como SVG</b><small>Recorrido y textos en vectores, editable</small></span></button>
+    <div class="menu-sep"></div>
+    <div class="menu-h">Enlaces</div>
+    <button class="menu-item" data-act="link" role="menuitem"><svg class="i"><use href="#i-link"/></svg><span><b>Enlace interactivo</b><small>Se abre en el mapa de esta web</small></span></button>
+    <button class="menu-item" data-act="maps" role="menuitem"><svg class="i"><use href="#i-map"/></svg><span><b>Google Maps / Apple Maps</b><small>Ruta a pie aproximada por paradas</small></span></button>
+    <div class="menu-sep"></div>
+    <div class="menu-h">Archivos</div>
+    <button class="menu-item" data-act="gpx" role="menuitem"><svg class="i"><use href="#i-route"/></svg><span><b>GPX para el GPS</b><small>Wikiloc, Komoot, OsmAnd, Garmin…</small></span></button>
+    <button class="menu-item" data-act="zip" role="menuitem"><svg class="i"><use href="#i-box"/></svg><span><b>Paquete ZIP con fotos</b><small>Para guardar y volver a abrir aquí</small></span></button>
+  </div>
+
+  <div id="menu-more" class="menu" role="menu" hidden>
+    <button class="menu-item only-mobile" data-act="meta" role="menuitem"><svg class="i"><use href="#i-doc"/></svg><span><b>Datos de la excursión</b><small>Nombre, desnivel, tiempo y notas</small></span></button>
+    <button class="menu-item only-mobile" data-act="viewer" role="menuitem"><svg class="i"><use href="#i-eye"/></svg><span><b>Visualizar</b><small>Modo presentación a pantalla limpia</small></span></button>
+    <button class="menu-item only-mobile" data-act="clearpois" role="menuitem"><svg class="i"><use href="#i-sweep"/></svg><span><b>Limpiar puntos del mapa</b><small>Quita picos, lagos y cascadas cargados</small></span></button>
+    <button class="menu-item" data-act="open" role="menuitem"><svg class="i"><use href="#i-folder"/></svg><span><b>Abrir excursión guardada</b><small>Archivo ZIP o JSON</small></span></button>
+    <button class="menu-item" data-act="saver" role="menuitem"><svg class="i"><use href="#i-bolt"/></svg><span><b>Modo ahorro: automático</b><small>Nivel actual: —</small></span></button>
+    <div class="menu-sep"></div>
+    <button class="menu-item danger-item" data-act="clear" role="menuitem"><svg class="i"><use href="#i-trash"/></svg><span><b>Vaciar itinerario</b><small>Borra todos los días y elementos</small></span></button>
+  </div>
+
   <input id="package-file" type="file" accept=".zip,.json" hidden>
   <input id="photo-file" type="file" accept="image/*" multiple hidden>
-  <dialog id="dlg">
-    <form id="dlg-form" method="dialog"></form>
-  </dialog>
+  <dialog id="dlg"><form id="dlg-form" method="dialog"></form></dialog>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.2/Sortable.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.2/Sortable.min.js"></script>
   <script type="module" src="js/main.js"></script>
 </body>
 

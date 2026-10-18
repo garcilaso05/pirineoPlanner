@@ -15,8 +15,10 @@
  *  - Prioridad al usuario: el movimiento del mapa es prioritario e interrumpe tareas en curso.
  */
 
-import { map, G, mode, addPois, removePoiByKey, onTrackClick, registerSegment, unregisterSegment } from './map.js';
+import { map, G, mode, addPois, removePoiByKey, onTrackClick, registerSegment, unregisterSegment, registerOverlay } from './map.js';
 import { parseKML } from './kml.js';
+import { simplify } from './geo.js';
+import { perf, coarse } from './perf.js';
 
 // ─── Configuración ─────────────────────────────────────────────────────────────
 
@@ -34,20 +36,14 @@ const ZOOM_THRESHOLDS = {
   s: 14,
 };
 
-// Presupuesto máximo de rutas simultáneas en pantalla según zoom
+// Presupuesto base de rutas simultáneas según zoom; perf.routeBudget lo ajusta al rendimiento real del equipo
 function maxRoutesBudget(zoom) {
-  if (zoom <= 9)  return 5;
-  if (zoom <= 11) return 8;
-  if (zoom <= 13) return 12;
-  return 18;
+  const base = zoom <= 9 ? 5 : zoom <= 11 ? 8 : zoom <= 13 ? 12 : 18;
+  return perf.routeBudget(base);
 }
 
 // Zoom mínimo para mostrar picos, lagos y cascadas
 const POI_ZOOM_MIN = 12;
-const MAX_POIS_PER_TYPE = 35;
-
-// Concurrencia máxima de descargas simultáneas
-const FETCH_CONCURRENCY = 3;
 
 // ─── Estado ────────────────────────────────────────────────────────────────────
 
@@ -79,13 +75,11 @@ let dynamicRoutesEnabled  = true;
 
 // ─── Inicialización ────────────────────────────────────────────────────────────
 
-export async function initDynamicLoader(layerControl) {
-  dynRoutesLayer = L.layerGroup().addTo(map);
-  if (layerControl) {
-    layerControl.addOverlay(dynRoutesLayer, 'Caminos dinámicos (otros caminos)');
-  }
+export async function initDynamicLoader() {
+  dynRoutesLayer = L.layerGroup();
+  registerOverlay('dyn', 'Otros caminos (KML)', dynRoutesLayer, true);
 
-  // Activar / Desactivar desde la leyenda del mapa
+  // Activar / desactivar desde la leyenda del mapa
   map.on('overlayremove', (e) => {
     if (e.layer === dynRoutesLayer) {
       dynamicRoutesEnabled = false;
@@ -100,20 +94,29 @@ export async function initDynamicLoader(layerControl) {
     }
   });
 
-  // Interrupción prioritaria: arrastrar o ampliar el mapa cancela tareas en cola
+  // Interrupción prioritaria: mover el mapa cancela las tareas en cola y activa la medición de fluidez
   map.on('movestart zoomstart dragstart', () => {
     isInteracting = true;
+    perf.interactionStart();
     cancelPendingWork();
   });
-
   map.on('moveend zoomend', () => {
     isInteracting = false;
+    perf.interactionEnd();
     cancelPendingWork();
-    // Debounce breve (100ms) para cargar rápido tan pronto el usuario se detiene
-    scheduleRefresh(100);
+    scheduleRefresh(perf.profile.refreshDelay);
   });
 
-  // Carga paralela de índices
+  // Si el equipo va justo: menos rutas/puntos y caché más pequeña; si va holgado, se recupera el detalle
+  perf.on(({ reason }) => {
+    trimCaches();
+    if (reason === 'memoria') trimCaches(Math.max(8, perf.profile.routeCache >> 1));
+    scheduleRefresh(perf.profile.refreshDelay);
+  });
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) scheduleRefresh(200); });
+
+  // Carga paralela de índices (tras el primer pintado, para no retrasar el arranque)
+  await new Promise((r) => perf.idle(r, 1500));
   try {
     const [ri, pi] = await Promise.all([
       fetch('caminos/otrosCaminosKML/kml_index.json').then((r) => r.ok ? r.json() : null),
@@ -144,7 +147,7 @@ function cancelPendingWork() {
 }
 
 function scheduleRefresh(delayMs = 100) {
-  if (document.body.classList.contains('viewer-mode')) return;
+  if (document.body.classList.contains('viewer-mode') || perf.hidden) return;
   cancelPendingWork();
 
   refreshTimer = setTimeout(() => {
@@ -158,6 +161,7 @@ function executeRefresh(gen) {
   if (gen !== renderGeneration || isInteracting) return;
   if (routeIndex && dynamicRoutesEnabled) {
     refreshRoutes(gen);
+    rescaleActive(gen);
   }
   if (poiIndexData) {
     refreshPois(gen);
@@ -293,7 +297,7 @@ function refreshRoutes(gen) {
 }
 
 function processFetchQueue(gen) {
-  while (activeFetches < FETCH_CONCURRENCY && fetchQueue.length > 0) {
+  while (activeFetches < perf.profile.fetchConc && fetchQueue.length > 0) {
     if (gen !== renderGeneration || isInteracting) return;
     const entry = fetchQueue.shift();
     if (activeRouteLayers.has(entry.file) || inFlight.has(entry.file)) continue;
@@ -316,9 +320,11 @@ async function fetchAndLoadRoute(entry, gen) {
     const r = await fetch(entry.file);
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const text = await r.text();
+    await perf.yield(); // el parseo es síncrono: dejar respirar al mapa antes y después
     const kml = parseKML(text, entry.file.split('/').pop());
     routeKmlCache.set(entry.file, kml);
     trimCaches();
+    await perf.yield();
 
     if (gen !== renderGeneration || isInteracting || !dynamicRoutesEnabled) return;
 
@@ -368,12 +374,11 @@ function renderKmlRoute(entry, kml) {
   for (const seg of routeObj.segments) {
     if (seg.pts.length < 2) continue;
 
-    // smoothFactor solo acelera el dibujado; seg.pts sigue intacto
-    const poly = L.polyline(seg.pts, { color, weight, opacity: 0.82, smoothFactor: 1.5 });
-    poly.bindTooltip(`<b>${entry.title}</b><br>${seg.name} · ${seg.km.toFixed(1)} km · <em>${catLabel}</em>`, {
-      sticky: true,
-      direction: 'top',
-    });
+    // Se DIBUJA una versión simplificada según el zoom y el rendimiento; seg.pts (completo) se usa para recortar
+    const poly = L.polyline(displayPts(seg), { color, weight, opacity: 0.82, smoothFactor: 1.2 });
+    if (perf.profile.tooltips && !coarse) {
+      poly.bindTooltip(`<b>${entry.title}</b><br>${seg.name} · ${seg.km.toFixed(1)} km · <em>${catLabel}</em>`, { sticky: true, direction: 'top' });
+    }
     // Popup en modo normal; en modo fragmento el clic lo resuelve el mapa (registerSegment)
     poly.on('click', (ev) => onTrackClick(routeObj, seg, ev));
 
@@ -386,6 +391,26 @@ function renderKmlRoute(entry, kml) {
   activeRouteLayers.set(entry.file, { layers, segs, entry });
 }
 
+// Caché de la versión simplificada por tramo y nivel (zoom, perfil). Nunca sustituye a seg.pts.
+function displayPts(seg) {
+  const z = Math.round(map.getZoom()), key = `${z}:${perf.tier}`;
+  if (seg._dk === key) return seg._dp;
+  const pts = seg.pts.length < 300 ? seg.pts : simplify(seg.pts, perf.profile.simplifyPx * 360 / (256 * 2 ** z));
+  seg._dk = key; seg._dp = pts;
+  return pts;
+}
+// Al cambiar de zoom o de nivel de rendimiento, reajusta lo ya dibujado en trozos pequeños
+async function rescaleActive(gen) {
+  for (const data of activeRouteLayers.values()) {
+    for (let i = 0; i < data.segs.length; i++) {
+      if (gen !== renderGeneration || isInteracting) return;
+      const seg = data.segs[i], key = `${Math.round(map.getZoom())}:${perf.tier}`;
+      if (seg._dk !== key) data.layers[i].setLatLngs(displayPts(seg));
+    }
+    await perf.yield();
+  }
+}
+
 function removeRoute(file) {
   const data = activeRouteLayers.get(file);
   if (!data) return;
@@ -394,7 +419,7 @@ function removeRoute(file) {
   activeRouteLayers.delete(file);
 }
 
-function trimCaches(max = 120) {
+function trimCaches(max = perf.profile.routeCache) {
   if (routeKmlCache.size <= max) return;
   const pinned = mode.frag?.route?.file;
   for (const f of routeKmlCache.keys()) {
@@ -474,13 +499,16 @@ function refreshPois(gen) {
     }
   }
 
+  const shown = { peak: 0, lake: 0, waterfall: 0 };
+  for (const item of activeDynPois.values()) shown[item.type]++;
+  const cap = perf.profile.pois;
   const toAdd = [];
   for (const kind of ['peak', 'lake', 'waterfall']) {
     const list = candidatesByType[kind] || [];
-    if (list.length > MAX_POIS_PER_TYPE) {
-      list.sort((a, b) => (b.pt.e || 0) - (a.pt.e || 0)); // priorizar los más altos
-    }
-    toAdd.push(...list.slice(0, MAX_POIS_PER_TYPE));
+    const room = cap - shown[kind];
+    if (room <= 0) continue;
+    if (list.length > room) list.sort((a, b) => (b.pt.e || 0) - (a.pt.e || 0)); // priorizar los más altos
+    toAdd.push(...list.slice(0, room));
   }
 
   if (toAdd.length === 0) return;

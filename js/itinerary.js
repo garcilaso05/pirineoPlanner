@@ -1,12 +1,15 @@
-import { el, $, toast, askForm } from './ui.js';
+import { el, $, icon, toast, askForm, confirmDialog } from './ui.js';
 import { TYPES, DAY_COLORS } from './config.js';
+import { perf } from './perf.js';
 
 const KEY = 'senda.itinerary.v1';
 export const state = { days: [], active: null };
-export const metadata = { title: 'Excursión por el Pirineo', creator: '', seasons: [], elevation: '', time: '', realKm: '', description: '' };
+const DEFAULT_META = () => ({ title: 'Excursión por el Pirineo', creator: '', seasons: [], elevation: '', time: '', realKm: '', description: '' });
+export const metadata = DEFAULT_META();
 export const hooks = { change: [], locate: () => {} };
-const uid = () => Math.random().toString(36).slice(2, 9);
+export const uid = () => Math.random().toString(36).slice(2, 9);
 let sortables = [];
+let saveEnabled = true;
 
 function dist(a, b) {
   const t = Math.PI / 180, dl = (b[0] - a[0]) * t, dn = (b[1] - a[1]) * t;
@@ -26,14 +29,32 @@ export function load() {
   } catch { /* ignorar */ }
   state.days = [newDay()]; state.active = state.days[0].id;
 }
-let warned = false;
-function save() {
+
+/* ---------- Guardado diferido: serializar fotos y recorridos en cada cambio era lo más caro ---------- */
+let warned = false, saveTimer = 0;
+function saveNow() {
+  saveTimer = 0;
+  if (!saveEnabled) return;
   try { localStorage.setItem(KEY, JSON.stringify({ days: state.days, active: state.active, metadata })); }
-  catch { if (!warned) { warned = true; toast('El itinerario es demasiado grande para guardarse en el navegador. Exporta el GPX.'); } }
+  catch { if (!warned) { warned = true; toast('El itinerario es demasiado grande para guardarse en el navegador. Exporta una copia.'); } }
 }
-export function changed() { save(); render(); hooks.change.forEach((f) => f(state)); }
+function scheduleSave() {
+  if (!saveEnabled || saveTimer) return;
+  saveTimer = setTimeout(() => perf.idle(saveNow, 2000), 500);
+}
+/** En una excursión compartida (solo lectura) no se pisa el itinerario propio del navegador. */
+export function setSaveEnabled(on) { saveEnabled = on; if (on) { clearTimeout(saveTimer); saveNow(); } }
+window.addEventListener('pagehide', () => { if (saveTimer) { clearTimeout(saveTimer); saveNow(); } });
+
+let hookRaf = 0;
+export function changed() {
+  scheduleSave();
+  render();
+  if (!hookRaf) hookRaf = requestAnimationFrame(() => { hookRaf = 0; hooks.change.forEach((f) => f(state)); });
+}
 export const activeDay = () => state.days.find((d) => d.id === state.active) || state.days[0];
 export const dayIndex = () => state.days.indexOf(activeDay());
+export const allItems = () => state.days.flatMap((d) => d.items);
 
 export function addItem(item) {
   item.id = uid();
@@ -51,15 +72,15 @@ export function setOrigin(item) {
   toast('Origen fijado en el Día 1');
 }
 export function addDay() { const d = newDay(); state.days.push(d); state.active = d.id; changed(); }
-export function clearAll() { state.days = [newDay()]; state.active = state.days[0].id; Object.assign(metadata, { title: 'Excursión por el Pirineo', creator: '', seasons: [], elevation: '', time: '', realKm: '', description: '' }); changed(); }
+export function clearAll() { state.days = [newDay()]; state.active = state.days[0].id; Object.assign(metadata, DEFAULT_META()); changed(); }
 export function setMetadata(values) { Object.assign(metadata, values); changed(); }
 export function addPhoto(target, photo) {
-  const bucket = target.type === 'day' ? state.days.find((d) => d.id === target.id) : state.days.flatMap((d) => d.items).find((i) => i.id === target.id);
+  const bucket = target.type === 'day' ? state.days.find((d) => d.id === target.id) : allItems().find((i) => i.id === target.id);
   if (!bucket) return;
   bucket.photos = [...(bucket.photos || []), photo]; changed();
 }
 export async function renameItem(id) {
-  const item = state.days.flatMap((d) => d.items).find((entry) => entry.id === id);
+  const item = allItems().find((entry) => entry.id === id);
   if (!item) return;
   const result = await askForm('Renombrar elemento', [{ name: 'name', label: 'Nombre', value: item.name, required: true }]);
   if (result?.name?.trim()) { item.name = result.name.trim(); changed(); }
@@ -67,11 +88,12 @@ export async function renameItem(id) {
 export function snapshot() { return { version: 2, metadata: { ...metadata }, state: { days: state.days, active: state.active } }; }
 export function restore(data) {
   if (!data?.state?.days?.length) throw new Error('El paquete no contiene un itinerario válido.');
-  state.days = data.state.days; state.active = data.state.active || state.days[0].id; Object.assign(metadata, data.metadata || {}); changed();
+  state.days = data.state.days; state.active = data.state.active || state.days[0].id;
+  Object.assign(metadata, DEFAULT_META(), data.metadata || {}); changed();
 }
-function removeDay(id) {
+async function removeDay(id) {
   const d = state.days.find((x) => x.id === id);
-  if (d.items.length && !confirm('Este día tiene elementos. ¿Eliminarlo?')) return;
+  if (d.items.length && !(await confirmDialog('Eliminar día', 'Este día tiene elementos. ¿Eliminarlo con todo su contenido?', 'Eliminar', true))) return;
   state.days = state.days.filter((x) => x.id !== id);
   if (!state.days.length) state.days = [newDay()];
   if (!state.days.some((x) => x.id === state.active)) state.active = state.days[0].id;
@@ -81,7 +103,7 @@ function remove(id) { state.days.forEach((d) => { d.items = d.items.filter((i) =
 
 // Reconstruye el estado desde el DOM tras arrastrar y soltar
 function sync() {
-  const items = new Map(state.days.flatMap((d) => d.items).map((i) => [i.id, i]));
+  const items = new Map(allItems().map((i) => [i.id, i]));
   const days = new Map(state.days.map((d) => [d.id, d]));
   state.days = [...$('#days').children].map((card) => {
     const d = days.get(card.dataset.day);
@@ -91,17 +113,19 @@ function sync() {
   setTimeout(changed, 0);
 }
 
+const photoBtn = (target, count, title) => el('button', { class: 'icon', title, 'aria-label': title, onclick: (e) => { e.stopPropagation(); document.dispatchEvent(new CustomEvent('photo-target', { detail: target })); } },
+  icon('camera'), count ? el('span', { class: 'cnt' }, String(count)) : null);
+
 function itemEl(it) {
   const T = TYPES[it.type];
   const meta = it.lines ? `${(it.km ?? km(it.lines)).toFixed(1)} km · camino` : `${T.label}${it.ele ? ` · ${Math.round(it.ele)} m` : ''}`;
-  const photoCount = (it.photos || []).length;
   return el('li', { class: 'it', 'data-id': it.id },
-    el('span', { class: 'handle', title: 'Arrastrar para reordenar' }, '⠿'),
+    el('span', { class: 'handle', title: 'Arrastrar para reordenar' }, icon('grip')),
     el('span', { class: 'ico', style: `background:${T.color}` }, T.glyph),
     el('div', { class: 'txt', title: 'Ver en el mapa', onclick: () => hooks.locate(it) }, el('b', {}, it.name), el('small', {}, meta)),
-    el('button', { class: 'icon', title: 'Añadir fotos a la etapa', onclick: (e) => { e.stopPropagation(); document.dispatchEvent(new CustomEvent('photo-target', { detail: { type: 'item', id: it.id } })); } }, `📷${photoCount ? ` ${photoCount}` : ''}`),
-    el('button', { class: 'icon', title: 'Renombrar', onclick: (e) => { e.stopPropagation(); renameItem(it.id); } }, '✎'),
-    el('button', { class: 'icon', title: 'Quitar', onclick: () => remove(it.id) }, '✕'));
+    photoBtn({ type: 'item', id: it.id }, (it.photos || []).length, 'Añadir fotos'),
+    el('button', { class: 'icon', title: 'Renombrar', 'aria-label': 'Renombrar', onclick: (e) => { e.stopPropagation(); renameItem(it.id); } }, icon('pencil')),
+    el('button', { class: 'icon', title: 'Quitar', 'aria-label': 'Quitar', onclick: () => remove(it.id) }, icon('x')));
 }
 
 export function render() {
@@ -112,34 +136,29 @@ export function render() {
     const dk = d.items.reduce((a, it) => a + (it.lines ? (it.km ?? km(it.lines)) : 0), 0);
     totalKm += dk; n += d.items.length;
     const ul = el('ul', { class: 'items' }, d.items.map(itemEl));
-    const photoCount = (d.photos || []).length;
     const card = el('section', { class: 'day' + (d.id === state.active ? ' active' : ''), 'data-day': d.id, style: `--c:${DAY_COLORS[i % DAY_COLORS.length]}` },
-      el('header', { title: 'Clic para usar este día como destino', onclick: () => { state.active = d.id; changed(); } },
-        el('span', { class: 'day-grip', title: 'Arrastrar día' }, '⋮⋮'), el('b', {}, `Día ${i + 1}`),
+      el('header', { title: 'Toca para usar este día como destino', onclick: () => { state.active = d.id; changed(); } },
+        el('span', { class: 'day-grip', title: 'Arrastrar día' }, icon('grip')), el('b', {}, `Día ${i + 1}`),
         el('span', { class: 'km' }, dk ? `${dk.toFixed(1)} km` : ''),
-        el('button', { class: 'icon', title: 'Añadir fotos al día', onclick: (e) => { e.stopPropagation(); document.dispatchEvent(new CustomEvent('photo-target', { detail: { type: 'day', id: d.id } })); } }, `📷${photoCount ? ` ${photoCount}` : ''}`),
-        el('button', { class: 'icon', title: 'Eliminar día', onclick: (e) => { e.stopPropagation(); removeDay(d.id); } }, '🗑')),
+        photoBtn({ type: 'day', id: d.id }, (d.photos || []).length, 'Añadir fotos al día'),
+        el('button', { class: 'icon', title: 'Eliminar día', 'aria-label': 'Eliminar día', onclick: (e) => { e.stopPropagation(); removeDay(d.id); } }, icon('trash'))),
       ul);
-    sortables.push(new Sortable(ul, { group: 'items', handle: '.handle', animation: 150, ghostClass: 'ghost', onEnd: sync }));
+    if (window.Sortable) sortables.push(new Sortable(ul, { group: 'items', handle: '.handle', animation: 150, ghostClass: 'ghost', touchStartThreshold: 4, onEnd: sync }));
     return card;
   }));
-  const statsText = `${state.days.length} día${state.days.length > 1 ? 's' : ''} · ${totalKm.toFixed(1)} km de camino · ${n} elementos`;
-  const statsEl = $('#stats');
-  if (statsEl) statsEl.textContent = statsText;
-  const pTitle = $('#panel-title');
-  if (pTitle) pTitle.textContent = metadata.title || 'Excursión por el Pirineo';
-  const vbTitle = $('#vb-title');
-  if (vbTitle) vbTitle.textContent = metadata.title || 'Excursión por el Pirineo';
-  const vbStats = $('#vb-stats');
-  if (vbStats) {
-    const extra = [metadata.elevation ? `${metadata.elevation} m+` : null, metadata.time || null, metadata.creator ? `Por ${metadata.creator}` : null].filter(Boolean).join(' · ');
-    vbStats.textContent = [statsText, extra].filter(Boolean).join(' | ');
-  }
+  if (window.Sortable) sortables.push(new Sortable(box, { handle: '.day-grip', animation: 150, ghostClass: 'ghost', touchStartThreshold: 4, onEnd: sync }));
+  const statsText = `${state.days.length} día${state.days.length > 1 ? 's' : ''} · ${totalKm.toFixed(1)} km · ${n} elemento${n === 1 ? '' : 's'}`;
+  const title = metadata.title || 'Excursión por el Pirineo';
+  const set = (sel, text) => { const e = $(sel); if (e) e.textContent = text; };
+  set('#stats', statsText); set('#panel-title', title); set('#vb-title', title);
+  const extra = [metadata.elevation ? `${metadata.elevation} m+` : null, metadata.time || null, metadata.creator ? `Por ${metadata.creator}` : null].filter(Boolean).join(' · ');
+  set('#vb-stats', [statsText, extra].filter(Boolean).join(' | '));
+  document.body.classList.toggle('empty-trip', n === 0);
 }
 
 export function toGPX() {
   const x = (s) => String(s).replace(/[<>&"]/g, (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;' }[c]));
-  let g = '<?xml version="1.0" encoding="UTF-8"?><gpx version="1.1" creator="Planificador Pirineos" xmlns="http://www.topografix.com/GPX/1/1">';
+  let g = '<?xml version="1.0" encoding="UTF-8"?><gpx version="1.1" creator="PirineoPlanner" xmlns="http://www.topografix.com/GPX/1/1">';
   state.days.forEach((d, i) => d.items.forEach((it) => {
     const nm = `Día ${i + 1} · ${x(it.name)}`;
     if (it.lines) g += `<trk><name>${nm}</name>${it.lines.map((l) => `<trkseg>${l.map((p) => `<trkpt lat="${p[0]}" lon="${p[1]}"/>`).join('')}</trkseg>`).join('')}</trk>`;
