@@ -2,6 +2,7 @@ import { BASE_LAYERS, WMT, TYPES, DAY_COLORS, ROUTE_COLORS, REFUGE_COLORS } from
 import { state, hooks, addItem, setOrigin, dayIndex, km } from './itinerary.js';
 import { el, toast, askForm, setHint, $ } from './ui.js';
 import { simplify, projectOnLine, sliceLine } from './geo.js';
+import { findConnection, sameRoute } from './pathfinder.js';
 import { perf, coarse } from './perf.js';
 
 /* ---------- Mapa, capas base y capas superpuestas ---------- */
@@ -230,13 +231,18 @@ export function onTrackClick(route, seg, ev) {
 // Registro de todos los tramos visibles (estáticos y dinámicos): se elige el más cercano al toque
 // sobre la geometría COMPLETA, sin depender de la polilínea simplificada ni del hit-test del canvas.
 const segRegistry = new Map();
-export function registerSegment(route, seg, layer) {
+export const providers = { extraRoutes: async () => [] }; // dynamic_loader aporta caminos cercanos aún no dibujados
+export function bboxOf(seg) {
+  if (seg._bb) return seg._bb;
   let a = Infinity, b = Infinity, c = -Infinity, d = -Infinity;
   for (const p of seg.pts) {
     if (p[0] < a) a = p[0]; if (p[0] > c) c = p[0];
     if (p[1] < b) b = p[1]; if (p[1] > d) d = p[1];
   }
-  segRegistry.set(seg, { route, seg, layer, bbox: [a, b, c, d] });
+  return (seg._bb = [a, b, c, d]);
+}
+export function registerSegment(route, seg, layer) {
+  segRegistry.set(seg, { route, seg, layer, bbox: bboxOf(seg) });
 }
 export function unregisterSegment(seg) { segRegistry.delete(seg); }
 
@@ -244,21 +250,23 @@ const metersPerPixel = (lat) => 156543.03392 * Math.cos(lat * Math.PI / 180) / 2
 const PICK_PX = coarse ? 34 : 18; // el dedo es mucho menos preciso que el ratón
 const FRAG_COLOR = '#d4532f';
 
-function pickSegment(ll, prefer) {
+function pickSegment(ll, preferSeg, preferRoute) {
   const tol = PICK_PX * metersPerPixel(ll.lat);
   const k = Math.cos(ll.lat * Math.PI / 180);
   const dLat = tol / 111320, dLng = tol / (111320 * k);
-  let best = null;
+  let best = null, same = null;
   for (const e of segRegistry.values()) {
     const [a, b, c, d] = e.bbox;
     if (ll.lat < a - dLat || ll.lat > c + dLat || ll.lng < b - dLng || ll.lng > d + dLng) continue;
     if (!map.hasLayer(e.layer)) continue;
     const pr = projectOnLine(e.seg.pts, ll);
     if (!pr || pr.d > tol) continue;
-    if (e.seg === prefer) return { e, pr }; // continuar sobre el tramo ya iniciado
+    if (e.seg === preferSeg) return { e, pr }; // continuar sobre el tramo ya iniciado
     if (!best || pr.d < best.pr.d) best = { e, pr };
+    if (preferRoute && sameRoute(e.route, preferRoute) && (!same || pr.d < same.pr.d)) same = { e, pr };
   }
-  return best;
+  // Los tramos de un mismo camino no son «caminos distintos»: si hay uno del mismo camino casi igual de cerca, se prefiere
+  return same && best && same.pr.d <= best.pr.d + 10 ? same : best;
 }
 
 const pin = (pt, color) => L.circleMarker(pt, { radius: coarse ? 10 : 8, color: '#fff', weight: 3, fillColor: color, fillOpacity: 1, interactive: false }).addTo(G.draft);
@@ -274,53 +282,90 @@ function startFragment(route, seg, pr) {
   G.draft.clearLayers();
   pin(pr.point, '#16a34a');
   const preview = L.polyline([pr.point], { color: FRAG_COLOR, weight: 6, opacity: 0.9, dashArray: '2 8', interactive: false }).addTo(G.draft);
-  mode.frag = { route, seg, a: pr, b: null, preview, endPin: null };
+  mode.frag = { route, seg, a: pr, b: null, plan: null, preview, endPin: null, joins: [] };
   document.body.classList.remove('frag-pending');
-  setHint(`${tap} ahora el punto final (mismo camino).`);
+  setHint(`${tap} ahora el punto final (en este camino o en otro que se cruce con él).`);
 }
-function setFragmentEnd(pr) {
-  const f = mode.frag;
-  const pts = sliceLine(f.seg.pts, f.a, pr);
-  f.b = pr;
-  f.preview.setLatLngs(pts).setStyle({ dashArray: null, weight: 7 });
-  f.endPin?.remove(); f.endPin = pin(pr.point, FRAG_COLOR);
-  const len = km([pts]);
-  $('#frag-info').textContent = `${len.toFixed(2)} km`;
-  document.body.classList.add('frag-pending');
-  setHint('Toca otro punto para mover el final, o confirma con ✓.');
-}
-function commitFragment(pr) {
-  const f = mode.frag;
-  const pts = sliceLine(f.seg.pts, f.a, pr); // geometría completa, no simplificada
-  if (pts.length < 2 || km([pts]) < 0.003) return toast('Elige un punto final distinto del inicio.');
-  const { route, seg } = f;
-  resetFragment();
-  addItem({ type: 'track', name: `${route.title} · ${seg.name} (fragmento)`, lat: pts[0][0], lng: pts[0][1], lines: [pts] });
-}
-export function confirmFragment() { if (mode.frag?.b) commitFragment(mode.frag.b); }
 
-let lastFragClick = 0;
-function fragmentClick(ll) {
+/* Plan = { sections:[{ route, lines:[pts…] }] }: una sección por camino recorrido (varios tramos del mismo camino van juntos) */
+function drawPlan(f, plan, endPr) {
+  f.plan = plan; f.b = endPr;
+  f.preview.setLatLngs(plan.sections.flatMap((s) => s.lines)).setStyle({ dashArray: null, weight: 7 });
+  f.endPin?.remove(); f.endPin = pin(endPr.point, FRAG_COLOR);
+  f.joins.forEach((j) => j.remove()); f.joins = [];
+  for (let i = 1; i < plan.sections.length; i++) { // marca los cruces donde se cambia de camino
+    const last = plan.sections[i - 1].lines.at(-1).at(-1);
+    f.joins.push(L.circleMarker(last, { radius: 6, color: '#fff', weight: 2, fillColor: '#26302b', fillOpacity: 1, interactive: false }).addTo(G.draft));
+  }
+  const n = plan.sections.length, len = km(plan.sections.flatMap((s) => s.lines));
+  $('#frag-info').textContent = `${len.toFixed(2)} km${n > 1 ? ` · ${n} secciones` : ''}`;
+  document.body.classList.add('frag-pending');
+  setHint(n > 1
+    ? `Une ${plan.sections.map((s) => s.route?.title || 'camino').join(' → ')}. Toca otro punto para cambiar el final o confirma con ✓.`
+    : 'Toca otro punto para mover el final, o confirma con ✓.');
+}
+function commitPlan(f, plan) {
+  resetFragment();
+  const n = plan.sections.length;
+  plan.sections.forEach((s, k) => {
+    const first = s.lines[0][0];
+    const name = plan.same ? `${s.route.title} · ${f.seg.name} (fragmento)` : n === 1 ? `${s.route.title} (fragmento)` : `${s.route.title} (fragmento ${k + 1}/${n})`;
+    addItem({ type: 'track', name, lat: first[0], lng: first[1], lines: s.lines });
+  });
+}
+export function confirmFragment() { const f = mode.frag; if (f?.plan) commitPlan(f, f.plan); }
+
+// Busca cómo unir inicio y final pasando por cruces entre caminos (hasta 2 cambios de camino)
+async function planConnection(f, e, pr) {
+  const a = f.a.point, b = pr.point;
+  const m = Math.max(0.06, Math.max(Math.abs(a[0] - b[0]), Math.abs(a[1] - b[1])) * 0.3);
+  const box = [Math.min(a[0], b[0]) - m, Math.min(a[1], b[1]) - m, Math.max(a[0], b[0]) + m, Math.max(a[1], b[1]) + m];
+  const inBox = (bb) => bb[0] <= box[2] && bb[2] >= box[0] && bb[1] <= box[3] && bb[3] >= box[1];
+  const cand = new Map();
+  for (const x of segRegistry.values()) if (inBox(x.bbox)) cand.set(x.seg, x.route);
+  for (const r of [f.route, e.route]) for (const s of r.segments) if (s.pts?.length > 1) cand.set(s, r); // inicio y destino, completos
+  // caminos cercanos que quizá no estén dibujados (el «puente» puede ser uno pequeño): se descargan bajo demanda
+  for (const r of await providers.extraRoutes(box, { max: [12, 24, 40][perf.tier] })) {
+    for (const s of r.segments) if (!cand.has(s) && s.pts?.length > 1 && inBox(bboxOf(s))) cand.set(s, r);
+  }
+  await perf.yield();
+  return findConnection({ candidates: [...cand].map(([seg, route]) => ({ seg, route })), start: { seg: f.seg, pr: f.a }, end: { seg: e.seg, pr }, tol: 25, maxTransitions: 2 });
+}
+
+let lastFragClick = 0, searching = false;
+async function fragmentClick(ll) {
   const now = performance.now();
-  if (now - lastFragClick < 300) return; // doble toque: ignorar el segundo
+  if (now - lastFragClick < 300 || searching) return; // doble toque / búsqueda en curso: ignorar
   lastFragClick = now;
   const f = mode.frag;
-  const hit = pickSegment(ll, f?.seg);
+  const hit = pickSegment(ll, f?.seg, f?.route);
   if (!hit) return toast('No hay ningún camino cerca de ese punto. Toca sobre el trazado.');
   const { e, pr } = hit;
-  if (!f || f.seg !== e.seg) {
-    if (f) toast('Ese punto es de otro tramo: se ha fijado un nuevo inicio ahí.');
-    return startFragment(e.route, e.seg, pr);
+  if (!f) return startFragment(e.route, e.seg, pr);
+
+  let plan;
+  if (e.seg === f.seg) {
+    plan = { same: true, sections: [{ route: f.route, lines: [sliceLine(f.seg.pts, f.a, pr)] }] }; // mismo tramo: corte directo
+  } else {
+    searching = true; setHint('Buscando cómo unir los dos caminos…');
+    try { plan = await planConnection(f, e, pr); } catch (err) { console.warn('Conexión de caminos:', err); plan = null; }
+    searching = false;
+    if (mode.frag !== f || mode.cur !== 'fragment') return; // se canceló mientras se buscaba
+    if (!plan) {
+      toast('Esos dos caminos no se conectan (se admiten hasta 2 cruces). Se ha fijado un nuevo inicio ahí.', 5000);
+      return startFragment(e.route, e.seg, pr);
+    }
   }
-  if (coarse) return setFragmentEnd(pr); // en táctil el final se confirma con ✓ (evita añadir por un toque accidental)
-  commitFragment(pr);
+  if (km(plan.sections.flatMap((s) => s.lines)) < 0.003) return toast('Elige un punto final distinto del inicio.');
+  if (plan.sections.length === 1 && !coarse) return commitPlan(f, plan); // escritorio y un solo camino (aunque sean varios tramos): se añade al instante
+  drawPlan(f, plan, pr); // táctil o varias secciones: vista previa y confirmación con ✓
 }
 
 // Vista previa del fragmento mientras se mueve el ratón (no existe en táctil)
 let previewRaf = 0, previewAt = 0;
 map.on('mousemove', (ev) => {
   const f = mode.frag;
-  if (coarse || mode.cur !== 'fragment' || !f || previewRaf) return;
+  if (coarse || mode.cur !== 'fragment' || !f || f.plan || previewRaf) return;
   const now = performance.now();
   if (now - previewAt < perf.profile.mouseMs) return;
   previewRaf = requestAnimationFrame(() => {

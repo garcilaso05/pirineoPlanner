@@ -15,7 +15,7 @@
  *  - Prioridad al usuario: el movimiento del mapa es prioritario e interrumpe tareas en curso.
  */
 
-import { map, G, mode, addPois, removePoiByKey, onTrackClick, registerSegment, unregisterSegment, registerOverlay } from './map.js';
+import { map, G, mode, addPois, removePoiByKey, onTrackClick, registerSegment, unregisterSegment, registerOverlay, providers } from './map.js';
 import { parseKML } from './kml.js';
 import { simplify } from './geo.js';
 import { perf, coarse } from './perf.js';
@@ -410,6 +410,39 @@ async function rescaleActive(gen) {
     await perf.yield();
   }
 }
+
+// Caminos cercanos a una zona (dibujados o no), para que las tijeras puedan buscar «puentes» entre dos caminos.
+// Se descargan y se cachean como los demás, pero no se dibujan. Prioriza los más largos y respeta un tope.
+async function loadRoutesForSearch([minLat, minLng, maxLat, maxLng], { max = 24 } = {}) {
+  if (!routeIndex || !dynamicRoutesEnabled) return [];
+  const list = routeIndex.entries
+    .filter((e) => e.bbox[0] <= maxLat && e.bbox[2] >= minLat && e.bbox[1] <= maxLng && e.bbox[3] >= minLng)
+    .sort((a, b) => b.km - a.km).slice(0, max);
+  const out = [], t0 = performance.now();
+  let next = 0;
+  await Promise.all(Array.from({ length: Math.max(2, perf.profile.fetchConc) }, async () => {
+    for (;;) {
+      const entry = list[next++];
+      if (!entry || performance.now() - t0 > 15000) return; // límite de tiempo: se usa lo ya descargado
+      try {
+        let kml = routeKmlCache.get(entry.file);
+        if (!kml) {
+          const r = await fetch(entry.file);
+          if (!r.ok) continue;
+          const text = await r.text();
+          await perf.yield();
+          kml = parseKML(text, entry.file.split('/').pop());
+          routeKmlCache.set(entry.file, kml);
+          await perf.yield();
+        }
+        const ro = getRouteObj(entry, kml);
+        if (ro.segments.length) out.push(ro);
+      } catch { /* un camino que falla no impide la búsqueda */ }
+    }
+  }));
+  return out;
+}
+providers.extraRoutes = loadRoutesForSearch;
 
 function removeRoute(file) {
   const data = activeRouteLayers.get(file);
