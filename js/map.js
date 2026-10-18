@@ -80,6 +80,7 @@ export function setViewerMode(on) {
   if (on === viewerMode) return;
   viewerMode = on;
   document.body.classList.toggle('viewer-mode', on);
+  map.invalidateSize({ animate: false, pan: false }); // el contenedor acaba de cambiar de tamaño: remedir antes de encuadrar
   if (on) {
     savedOverlays = OVERLAYS.filter((o) => map.hasLayer(o.layer)).map((o) => o.key);
     OVERLAYS.forEach((o) => { if (o.key !== 'it') map.removeLayer(o.layer); });
@@ -98,7 +99,7 @@ export function setViewerMode(on) {
 }
 
 /* ---------- Modos de interacción ---------- */
-export const mode = { cur: 'none', frag: null };
+export const mode = { cur: 'none', frag: null, draw: null };
 const PLACING = ['origin', 'newpeak', 'newlake', 'newwaterfall'];
 const tap = coarse ? 'Toca' : 'Haz clic';
 const HINTS = {
@@ -107,12 +108,15 @@ const HINTS = {
   newlake: `${tap} en el mapa para crear un lago.`,
   newwaterfall: `${tap} en el mapa para crear una cascada.`,
   fragment: `${tap} sobre un camino: primero el inicio y luego el final del fragmento.`,
+  newroute: 'Haz clic en el mapa para ir añadiendo puntos del camino. Pulsa «Terminar camino» para guardarlo (Esc cancela).',
 };
 export function setMode(m) {
   mode.cur = m;
+  mode.draw = m === 'newroute' ? [] : null;
+  mode.drawLine = null;
   resetFragment();
   G.draft.clearLayers(); map.closePopup();
-  const active = m === 'fragment' || PLACING.includes(m);
+  const active = m === 'fragment' || m === 'newroute' || PLACING.includes(m);
   map.getContainer().classList.toggle('crosshair', active);
   map.doubleClickZoom[active ? 'disable' : 'enable'](); // evita que un doble toque zoomee y duplique el punto
   setHint(HINTS[m] || '');
@@ -177,8 +181,10 @@ export function addRefuges(points) {
 
 /* ---------- Caminos estáticos ---------- */
 let routeCount = 0;
-export function addRoute({ title, segments }) {
-  const route = { title, color: ROUTE_COLORS[routeCount++ % ROUTE_COLORS.length], segments };
+const drawnRoutes = [];
+export function addRoute({ title, segments, drawn = false }) {
+  const route = { title, color: ROUTE_COLORS[routeCount++ % ROUTE_COLORS.length], segments, drawn };
+  if (drawn) drawnRoutes.push({ title, segments: segments.map((s) => ({ name: s.name, pts: s.pts })) }); // los caminos dibujados viajan en el archivo exportado
   for (const seg of segments) {
     if (!seg.pts || seg.pts.length < 2) continue;
     seg.km = km([seg.pts]);
@@ -190,7 +196,20 @@ export function addRoute({ title, segments }) {
     registerSegment(route, seg, line);
   }
 }
-export const restoreRoutes = (routes) => routes.forEach((r) => addRoute(r)); // paquetes antiguos con caminos propios
+export const customRoutes = () => drawnRoutes.map((r) => ({ title: r.title, segments: r.segments.map((s) => ({ name: s.name, pts: s.pts })) }));
+export const restoreRoutes = (routes) => routes.forEach((r) => addRoute({ title: r.title, segments: r.segments, drawn: true }));
+
+/* ---------- Dibujar un camino propio haciendo clic (solo escritorio) ---------- */
+export function finishDrawRoute() {
+  const pts = (mode.draw || []).map((p) => [+p.lat.toFixed(6), +p.lng.toFixed(6)]);
+  if (pts.length < 2) return toast('Marca al menos dos puntos en el mapa.');
+  askForm('Nuevo camino', [{ name: 'name', label: 'Nombre', value: 'Mi camino', required: true }]).then((f) => {
+    if (!f) return;
+    addRoute({ title: f.name.trim(), segments: [{ name: 'Tramo 1', pts }], drawn: true });
+    setMode('none');
+    toast('Camino creado. Haz clic en él para añadirlo o recortarlo.');
+  });
+}
 
 function trackPopup(route, seg) {
   const all = route.segments.map((s) => s.pts);
@@ -358,6 +377,13 @@ export function loadCustom() {
 map.on('click', async (e) => {
   const m = mode.cur;
   if (m === 'fragment') return fragmentClick(e.latlng);
+  if (m === 'newroute') {
+    mode.draw.push(e.latlng);
+    if (!mode.drawLine) mode.drawLine = L.polyline([], { color: '#f2b134', weight: 4, dashArray: '6 5', interactive: false }).addTo(G.draft);
+    mode.drawLine.addLatLng(e.latlng); // se añade solo el punto nuevo (sin redibujar todo)
+    L.circleMarker(e.latlng, { radius: 4, color: '#f2b134', fillOpacity: 1, interactive: false }).addTo(G.draft);
+    return;
+  }
   if (!PLACING.includes(m)) return;
   const T = { origin: ['Punto de origen', 'origin', 'Origen'], newpeak: ['Nuevo pico', 'peak', ''], newlake: ['Nuevo lago', 'lake', ''], newwaterfall: ['Nueva cascada', 'waterfall', ''] }[m];
   const f = await askForm(T[0], [

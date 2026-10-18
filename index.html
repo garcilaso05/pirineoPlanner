@@ -17,6 +17,8 @@
     <defs>
       <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1.2"/><circle cx="4.5" cy="12" r="1.2"/><circle cx="4.5" cy="18" r="1.2"/></symbol>
       <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></symbol>
+      <symbol id="i-draw" viewBox="0 0 24 24"><path d="M4.500 18.500c3-8 5.500 1 8.500-5.500s4-6 6.500-9"/><circle cx="4.500" cy="18.500" r="1.800"/><circle cx="19.500" cy="4" r="1.800"/></symbol>
+      <symbol id="i-import" viewBox="0 0 24 24"><path d="M12 3v12m0 0-4-4m4 4 4-4"/><path d="M5 17v4h14v-4"/></symbol>
       <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 4h12l-2.5 4.2L17 12H5"/></symbol>
       <symbol id="i-scissors" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.6"/><circle cx="6" cy="18" r="2.6"/><path d="m8 7.8 12 10.2M8 16.2 20 6"/></symbol>
       <symbol id="i-pinplus" viewBox="0 0 24 24"><path d="M12 21s-6-5.6-6-10.2a6 6 0 0 1 12 0C18 15.400 12 21 12 21z"/><path d="M12 8v6M9 11h6"/></symbol>
@@ -71,6 +73,9 @@
         <div class="grp">
           <button class="tb" data-mode="origin" data-tip="Origen — marcar el punto de partida" aria-label="Origen"><svg class="i"><use href="#i-flag"/></svg><span class="lbl">Origen</span></button>
           <button class="tb" data-mode="fragment" data-tip="Tijeras — cortar un fragmento de un camino" aria-label="Tijeras"><svg class="i"><use href="#i-scissors"/></svg><span class="lbl">Tijeras</span></button>
+          <button class="tb hide-mobile" data-mode="newroute" data-tip="Dibujar camino — traza tu propio camino haciendo clic en el mapa" aria-label="Dibujar camino"><svg class="i"><use href="#i-draw"/></svg></button>
+          <button class="tb finish" id="btn-finish-route" hidden aria-label="Terminar camino"><svg class="i"><use href="#i-check"/></svg>Terminar camino</button>
+          <button class="tb hide-mobile" id="btn-import" data-tip="Importar KML — añadir caminos descargados (.kml)" aria-label="Importar KML"><svg class="i"><use href="#i-import"/></svg></button>
           <button class="tb" id="btn-create" data-menu="menu-create" data-tip="Crear — un pico, lago o cascada nuevo" aria-label="Crear"><svg class="i"><use href="#i-pinplus"/></svg><span class="lbl">Crear</span></button>
         </div>
         <div class="grp">
@@ -161,6 +166,7 @@
     <button class="menu-item danger-item" data-act="clear" role="menuitem"><svg class="i"><use href="#i-trash"/></svg><span><b>Vaciar itinerario</b><small>Borra todos los días y elementos</small></span></button>
   </div>
 
+  <input id="file" type="file" accept=".kml" multiple hidden>
   <input id="package-file" type="file" accept=".zip,.json" hidden>
   <input id="photo-file" type="file" accept="image/*" multiple hidden>
   <dialog id="dlg"><form id="dlg-form" method="dialog"></form></dialog>

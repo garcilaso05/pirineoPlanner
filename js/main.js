@@ -1,4 +1,4 @@
-import { map, setMode, mode, addRoute, addRefuges, clearRefuges, addPois, restoreRoutes, loadCustom, fitAll, canLoadPois, clearLoadedPois, setViewerMode, OVERLAYS, toggleOverlay, baseNames, setBase, currentBase, locateMe, customPois, confirmFragment, cancelFragmentStart } from './map.js';
+import { map, setMode, mode, addRoute, addRefuges, clearRefuges, addPois, restoreRoutes, customRoutes, finishDrawRoute, loadCustom, fitAll, canLoadPois, clearLoadedPois, setViewerMode, OVERLAYS, toggleOverlay, baseNames, setBase, currentBase, locateMe, customPois, confirmFragment, cancelFragmentStart } from './map.js';
 import { load, changed, addDay, clearAll, toGPX, metadata, setMetadata, addPhoto, snapshot, restore, setSaveEnabled } from './itinerary.js';
 import { parseKML } from './kml.js';
 import { $, $$, el, toast, askForm, confirmDialog, initMenus, closeMenus, loadScript } from './ui.js';
@@ -6,6 +6,7 @@ import { initDynamicLoader, clearDynamicPois, loadZonePoisPriority } from './dyn
 import { perf, coarse } from './perf.js';
 
 const seasons = ['Primavera', 'Verano', 'Otoño', 'Invierno'];
+const resources = new Map(); // KML importados por el usuario: viajan dentro del ZIP exportado
 const refugesCache = new Map();
 const lazyExport = () => import('./export.js');
 const JSZIP = 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js';
@@ -150,6 +151,7 @@ async function exportPackage() {
   const zip = new JSZip();
   const data = snapshot();
   data.customPois = customPois();
+  data.routes = customRoutes(); // caminos dibujados a mano
   let photoIndex = 0;
   data.state.days.forEach((d, di) => [...(d.photos || []), ...d.items.flatMap((i) => i.photos || [])].forEach((p) => {
     if (p.data?.includes(',')) {
@@ -158,6 +160,7 @@ async function exportPackage() {
     }
   }));
   zip.file('excursion.json', JSON.stringify(data, null, 2));
+  resources.forEach((text, name) => zip.file(`kml/${name}`, text));
   downloadBlob(await zip.generateAsync({ type: 'blob' }), `${(metadata.title || 'excursion').replace(/[^\w-]+/g, '_')}.zip`);
 }
 async function importPackage(file) {
@@ -168,7 +171,11 @@ async function importPackage(file) {
   const data = JSON.parse(await zip.file('excursion.json').async('text'));
   const choice = await askForm('Abrir excursión', [{ name: 'mode', label: 'Modo de apertura', type: 'select', value: 'editor', options: [['editor', 'Editor'], ['visualizador', 'Visualizador']] }], { submitLabel: 'Abrir' });
   if (!choice) return;
-  for (const entry of Object.values(zip.files).filter((f) => f.name.startsWith('kml/') && !f.dir)) addKmlRoute(parseKML(await entry.async('text'), entry.name)); // paquetes antiguos
+  for (const entry of Object.values(zip.files).filter((f) => f.name.startsWith('kml/') && !f.dir)) {
+    const text = await entry.async('text');
+    addKmlRoute(parseKML(text, entry.name));
+    resources.set(entry.name.slice(4), text);
+  }
   const photos = data.state.days.flatMap((d) => [...(d.photos || []), ...d.items.flatMap((i) => i.photos || [])]);
   for (const entry of Object.values(zip.files).filter((f) => f.name.startsWith('fotos/') && !f.dir)) {
     const p = photos.find((x) => x.file === entry.name);
@@ -216,8 +223,19 @@ $$('[data-mode]').forEach((b) => b.addEventListener('click', () => setMode(mode.
 document.addEventListener('modechange', (e) => {
   $$('[data-mode]').forEach((b) => b.classList.toggle('on', b.dataset.mode === e.detail));
   $('#btn-create').classList.toggle('on', CREATE_MODES.includes(e.detail));
+  $('#btn-finish-route').hidden = e.detail !== 'newroute';
   document.body.dataset.mode = e.detail;
 });
+$('#btn-finish-route').onclick = finishDrawRoute;
+$('#btn-import').onclick = () => $('#file').click();
+$('#file').onchange = async (e) => {
+  let n = 0;
+  for (const f of e.target.files) {
+    try { const text = await f.text(); n += addKmlRoute(parseKML(text, f.name)); resources.set(f.name, text); } catch (err) { toast(err.message); }
+  }
+  e.target.value = '';
+  if (n) { fitAll(); toast(`Importados ${n} elementos. Haz clic en el camino para añadirlo.`); }
+};
 $('#frag-ok').onclick = confirmFragment;
 $('#frag-undo').onclick = cancelFragmentStart;
 $('#frag-cancel').onclick = () => setMode('none');
@@ -238,7 +256,7 @@ document.addEventListener('locate-item', () => { if (mobileMq.matches) setPanel(
 $('#btn-hide-ui').onclick = () => {
   const hidden = document.body.classList.toggle('ui-hidden');
   $('#btn-hide-ui').dataset.tip = hidden ? 'Mostrar menús' : 'Ocultar menús y ver solo el mapa';
-  closeMenus(); resizeSoon();
+  map.invalidateSize({ animate: false }); closeMenus(); resizeSoon();
 };
 $('#btn-locate').onclick = locateMe;
 $('#add-day').onclick = addDay;
@@ -302,7 +320,10 @@ document.addEventListener('keydown', (e) => {
   if (mode.cur === 'fragment' && cancelFragmentStart()) return; // primero solo se cancela el inicio
   setMode('none');
 });
-let rz; addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(() => map.invalidateSize(), 150); });
+// Red de seguridad: cualquier cambio de tamaño del contenedor (paneles, visor, giro de pantalla) remide el mapa
+let rz; const remeasure = () => { clearTimeout(rz); rz = setTimeout(() => map.invalidateSize({ animate: false }), 80); };
+addEventListener('resize', remeasure);
+if ('ResizeObserver' in window) new ResizeObserver(remeasure).observe($('#map-container'));
 map.on('zoomend moveend', updatePoiButton);
 
 /* ---------- Arranque ---------- */
